@@ -1,64 +1,48 @@
-# Visual reference: Frucht author's introductory film (2026-11-13)
+# Frucht — покадровый визуальный референс (доступный оригинальный файл)
 
-**Статус: исходный видеопоток ещё не извлечён, покадровый просмотр ещё НЕ сделан.**
+**Статус 20.11.2026:** файл видео действительно получен из авторизованной папки Google Drive и проанализирован. Старый блокер «не удалось получить MP4» снят. Все заметки ниже относятся к **реальным кадрам видео**, а не к нейросетевым реконструкциям.
 
-Source-of-truth: [Who Made the Strawberry? — original film, 0:38](https://strawberry-methodology.pages.dev/#kopfclip). The author's public page describes an intro film made with the procedural Frucht add-on. Date Nov 13, 2026 and length 0:38 are stated on the indexed original page; they are not inferred from our own downloaded file.
+## Источник и проверяемая идентификация
 
-Our reference is a **visual target, not source code**: do not copy the Frucht model, node trees, commercial files, video or textures into public Strawberry Lab. Original footage, raw frames and contact sheets can only go into access-controlled research space with appropriate usage rights. Public GitHub may hold **text-only observations, timestamps, link to the original, our own code and our own Blender renders**.
+- Авторская методология и видео: [Who Made the Strawberry? / #kopfclip](https://strawberry-methodology.pages.dev/#kopfclip).
+- Предоставленный пользователем для исследования файл: `b5f45b24-c477-4e63-a4c1-0a7ca9fcafc6.mp4`, [Google Drive](https://drive.google.com/file/d/1Aj17g8cIVZ-enECJAHUIXrDektWmVA-b/view) (доступ ограничен владельцем). Файл находится в закрытой папке [Strawberry Lab/author-reference](https://drive.google.com/drive/folders/1uR3R1YWsUQ98FAOAXmRRaaHCs3NAwmsG).
+- Декодирование **ffprobe**: 37.980 s, видео H.264, 1080 × 1350, 30 fps, **1139 кадров**, звук AAC.
+- **SHA-256 полного MP4:** `cbe17cfd0ffa0e7697462892a28bd339e0b9666418276287499c49ca6bae684e`, размер **20 717 459 байт**. По содержанию это демонстрационный ролик Frucht; прямую ссылку на скачивание именно этого бинарного файла с сайта автора не удалось сверить, поэтому авторство понимаем в рамках указанной страницы и предоставленного пользовательского файла.
+- Извлечены 38 кадров с шагом 1 сек, получены временные отметки и [private contact-sheet](https://drive.google.com/file/d/1JM9l4ryKpiIbFaSaygzbufn0ID39Rt5s/view); [исходные 1 fps кадры и крупные контактные листы ZIP](https://drive.google.com/file/d/1YG8V-Qo10q5R9YYFbpln-2Dny21CeQK5/view), [manifest](https://drive.google.com/file/d/1NjP8TOyk2ctZvr2jFedqCDWnQjX0voVH/view). Данные **не публикуются на открытом GitHub**.
+- Извлечение воспроизводимо: `python3 scripts/extract_reference_frames.py /path/to/film.mp4 --out /private/path --interval 1`. Скрипт проверен на этом MP4.
 
-Private storage destination: [Drive / Strawberry Lab / author-reference](https://drive.google.com/drive/folders/1uR3R1YWsUQ98FAOAXmRRaaHCs3NAwmsG).
+## Что реально видно на видео
 
-## Procedure (once the original MP4 is actually accessible)
+Таймкоды — обзор с дискретизацией 1 сек; границы планов приблизительные, тонкие переходы требуют повторного точного изучения оригинала.
 
-```bash
-python3 -m pip install Pillow
-python3 scripts/extract_reference_frames.py \
-   /path/to/original/author-intro.mp4 \
-   --out /path/to/private/author-reference/frames-1s --interval 1
-# denser samples for cuts/transitions (private):
-python3 scripts/extract_reference_frames.py \
-   /path/to/original/author-intro.mp4 \
-   --out /path/to/private/author-reference/frames-250ms --interval 0.25
-```
+| Time | Видимый сюжет | Что можно изучать, без домыслов о коде |
+| --- | --- | --- |
+| **00–08 s** | Целые клубники нескольких форм: острые/короткие, округлые, вытянутые; камера вращается, видна чашечка, семянки и локальные углубления. В UI множество регуляторов формы. | Variants: профиль, lobes, «плечи», размер/ориентация и неравномерность семянок. Световой рисунок с яркими бликами следует отделить от геометрии. |
+| **09–12 s** | Разрезы, меняется плоскость/угол; видна влажная красная мякоть, светлые линии, центральная светлая/тёмная зона. На части кадров видны наружная оболочка и часть объёма. | Geometry cap, многослойные ткани, внутренняя поверхность и кромка. Не использовать экранный цвет как объективный цвет реальной ткани без калибровки света. |
+| **13–15 s** | Сначала кивок к целому плоду и разрез, затем крупный режим с мощными белыми ветвящимися волокнами и небольшими оранжевыми концами в месте наружных семянок. | Визуальный режим «показать пути к семянкам». **Не считать** длину, толщину или цвет нитей доказанной ботаникой: это демонстрационная стилизация. |
+| **16–21 s** | Плод снова целый; появляются «укусы» разных форм, рваная влажная мякоть, видимые неровные внутренние структуры. К 21 секунде появляется окраска иных оттенков. | CSG/boolean, local inside topology, мокрая поверхность и управление материалами. |
+| **22–23 s** | Зелёный/бирюзовый плод с иным цветом наружных семянок; затем возвращается красный плод перед нарезкой. | Hue/material controls, не эталон зрелой клубники. |
+| **24–28 s** | Кубическая/сегментная нарезка, части отделяются и разлетаются/падают. | Пересечение оболочки и ткани на независимых кусках, физика и отдельные mesh-объекты. |
+| **29–37 s** | Заставка Frucht и композиция с другими фруктами. | Не использовать для анатомических параметров клубники. |
 
-Requires `ffmpeg` + `ffprobe` installed on the same machine. Uses the video from a local path, never pretends to download a missing source. Emits a labeled contact sheet, individual timestamped JPEG frames and `reference-manifest.json` with original SHA-256, resolution, fps and duration. **Extractor was tested on a synthetic 2-second clip (4 frames at 0.5s); not on the author's film.**
+## Предметные визуальные различия с нашим v0.1
 
-## Frame-analysis notebook schema
+Сравнение со сценами [assets/manifest-v0.1.json](../assets/manifest-v0.1.json); оно **качественное**, поскольку совпадающие ракурсы/экспозиции ещё не калиброваны.
 
-Record one observation per feature/shot; no invented timecodes.
+1. **Achene / seed pit:** в Frucht семянки выглядят местно погружёнными в кожуру с беловатыми окантовками/бликами; в нашей v0.1 они похожи на отдельно приставленные золотистые зёрна. Требуется **геометрия углублений** и контактные нормали, а не только поправка цвета.
+2. **Surface microstructure:** у Frucht есть плотная мелкая неоднородность поверхности и насыщенные спекулярные блики; у нас слишком гладкая и однообразная кожа. Нужны micro-normal/roughness/epidermis, но яркие белые кольца автора могут быть художественно преувеличены.
+3. **Calyx:** авторские листья имеют объём, кривизну, неодинаковые размеры и ориентации; наши чашелистики почти плоские и равномерно разложены. Потребуется отдельная биологически обоснованная параметрическая форма.
+4. **Cortex / pith:** у нас плоская розовая текстура с прямой широкой светлой полосой; у автора на срезах 09–12 выражен более сложный объёмный рисунок, хотя его интенсивность не является биологической истиной. Нужны **3D-поля тканей**, а не 2D карта только продольного среза.
+5. **Vascular graph:** у автора на 13–15 сек волокна визуально сильно развиты и ветвятся; у нас нет связанного с achene графа. Делать **ветви от центральной сосудистой зоны к конкретным семянкам**, согласно научным источникам; толщина и цвет — отдельные режимы отображения.
+6. **Dynamic cuts / pieces:** у Frucht есть произвольные разрезы, укусы и кубики; наш v0.1 фиксирован в центральной продольной плоскости `y=0`. Нужны оригинальные алгоритмы для mesh cutting и true material/cap.
 
-| Field | Meaning |
-|---|---|
-| `t_start` / `t_end` | Actual seconds in verified original |
-| `shot_kind` | `whole` / `macro-achene` / `skin` / `calyx` / `slice` / `internal` / `fluid` / `physics` |
-| `camera` | Estimate of angle, crop, focal length perspective; mark uncertain |
-| `observation` | Visible detail, not speculation about code |
-| `reference_frame` | Private storage index (never public binary URL if copyright restricted) |
-| `our_baseline` | Corresponding locally reproduced Blender frame using camera/lighting matched as closely as possible |
-| `gap` | Evidence-backed difference |
-| `change_hypothesis` | Independent algorithm/design change to test |
-| `confidence` | `observed` / `inferred` / `unknown` |
-| `issue` | GH issue / PR implementing and verifying |
+## Ключевая научная поправка
 
-**Seven checkpoints**: silhouette and lobe irregularity; spatial density/distribution of surface achenes; actual achene depressions and skin deformation; epidermis and subsurface sheen; calyx topology; cut-edge continuity; inner fibers connected to tissue/achene anchors. Animation: frozen pieces and realistic collisions, if those shots occur in the film.
+**Видео — эталон возможностей рендеринга, не ботанический атлас.** См. [биологическую спецификацию](strawberry-biology-spec.md) с *Darrow*, *Hurtado & Knoche 2026*, макрофотографиями Cal Poly и рецензируемыми описаниями cortex/pith/xylem/phloem. Семянки находятся на поверхности разросшегося цветоложа и связаны с центральной сосудистой зоной; соединение нужно строить топологически, а не рисовать произвольные белые «волосы».
 
-For every feature, compare physical properties at equivalent framing, not raw pixel similarity across different lights. Keep **camera and render style** as a separate layer from **geometry, anatomy and material**, so a more cinematic shot is not mistaken for a better model.
+## Что ещё делать
 
-## Frame-derived acceptance tests (pending observation)
-
-| Metric | How measured | Target |
-|---|---|---|
-| Silhouette (front / 3/4) | Matched-camera outline overlay, shape ratio, asymmetry | Set *after* reference inspection |
-| Achene placement | Count per visible area, neighbor distance CV, row phase, depth of pit in profile | Set *after* reference inspection |
-| Achene-to-fiber anatomy | Track strand attachments on cut macro views | Set *after* reference inspection |
-| Cut geometry | Compare skin and tissue seam at multiple orientations | Set *after* reference inspection |
-| Skin look | Cross-polarized if available; specular/roughness subjective side-by-side | Set *after* reference inspection |
-| Motion | Object motion vs camera movement; collision/interpenetration | Set *after* reference inspection |
-
-A Reddit discussion raised legitimate-looking *hypotheses*, not independently confirmed defects: overly regular spirals, disconnected pale filaments, implausible white speckles, and physics slices falling off an edge. Do not report those as facts about the original until actual reference frames support them. [Reddit original discussion](https://www.reddit.com/r/ClaudeAI/comments/1xz0jhy/the_89_billion_token_strawberry/).
-
-Our v0.1 binary baseline is recorded at [assets/manifest-v0.1.json](../assets/manifest-v0.1.json); it is not the author film.
-
-## Current blocker
-
-The page has an interactive `#kopfclip` player target but in our available read-only extracts **no stable direct MP4/WebM URL was exposed**; our runtime also cannot fetch the rendered page as a binary video source. Thus **no genuine author frames have been generated or reviewed in this task**. Do not generate fake frames and do not imply otherwise. First supply a legitimate local video file or source URL to the extractor. See [Issue #5](https://github.com/Dmitry-dev-pet/strawberry-lab/issues/5).
+1. Дополнительное **0.25 s** сэмплирование вокруг 08–16 и 22–28 сек, когда потребуется измерять короткие переходы и положение элементов.
+2. Сопоставить камера/объект в Blender с тремя выбранными референсами из фильма (whole, achene macro, longitudinal cut), чтобы изменения кожи не маскировались другим светом.
+3. Для каждого органа формировать сравнение **атлас / кадр автора / наш рендер** с чёткой маркировкой доказательности, отдельными Issues и собственными 3D-алгоритмами.
+4. Не публиковать оригинальный фильм, скриншоты и контактные листы в открытый GitHub без соответствующего разрешения; сейчас копии только на владельческом Drive.
