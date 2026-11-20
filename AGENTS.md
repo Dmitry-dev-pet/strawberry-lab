@@ -38,3 +38,15 @@ GitHub `main` и Issues — источник истины. История чат
 - Key limitation: achene positions are masked at **scene generation time** based on cutter pose, **not dynamically** when the cutter object is moved later. The live SDF body modifier updates, but GN seeds may then become incorrect.
 - Another limit: web-exported GLB has neither Blender's full rest-space sampling shader nor its Cycles normal detail. Do not claim screenshot parity with browser.
 - The full strawberry Frucht source remains unavailable; our code is independent and uncalibrated scientifically, not a clone. Next priority after SDF is live seed masking and realistic cut structure, not more node count for its own sake.
+
+
+## M1d (20 November 2026) — verified dynamic achene mask
+
+Implemented and tested in Blender 5.2.4:
+- `src/live_achene_mask.py`: loads existing M1c `.blend` and unfiltered M1a `whole.blend`, restores **539 anchors** (including original rotation/size attrs), inserts live SDF sample + point-domain Delete Geometry **before** GN Instance on Points, using the same editable cutter as the M1c body.
+- `src/validate_live_cut.py`: reopen actual M1d `.blend` and validate frames **1/15/30**, GN point counts, instance mesh vertex count and watertight SDF output. Half seed counts **273/176/84**, bite **481/453/539**. All six SDF states have 0 non-manifold edges.
+- `src/export_pose_glb.py`: **explicitly bake evaluated meshes per frame before glTF export**. Never rely on `export_apply` for frame-specific Geometry Nodes — tested bug produced identical GLB for frame 1/30. GLB snapshots do NOT preserve Blender's animation, Geometry Nodes or full Cycles material.
+- `src/render_pose.py`: one genuine Cycles render per Blender process; avoids headless memory issues with many successive high-quality frames.
+- [M1d results](docs/m1d-results.md) / [manifest](assets/manifest-m1d.json): two editable .blend, four GLB snapshots, four Cycles PNG, one comparison sheet and six JSON reports; all **17/17 SHA-256 readback PASS** from restricted owner Google Drive [v0.5-m1d-live-achenes](https://drive.google.com/drive/folders/1x4TCZEZM8LEzsK8BFBB0TtHBXTGnWj1m).
+
+Limitations NOT yet implemented: per-achene solid/cutter intersection (currently centre-point mask), live cutting of calyx/stem, credible wet internal tissue, photoreal PBR GLB. Keep [Issue #8](https://github.com/Dmitry-dev-pet/strawberry-lab/issues/8) open for the remaining visual work. Do not claim author-grade Frucht fidelity.
