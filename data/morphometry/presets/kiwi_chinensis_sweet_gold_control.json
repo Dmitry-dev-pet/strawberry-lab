@@ -1,0 +1,160 @@
+{
+  "source_id": "JEON2024",
+  "source_url": "https://www.hst-j.org/articles/xml/G2NO/",
+  "taxon": "Actinidia chinensis var. chinensis",
+  "cultivar": "Sweet Gold",
+  "stage": "harvest_180_DAA",
+  "treatment": "BenefitsPZ_sprays=0",
+  "type": "experimental_evidence_not_ready_to_render",
+  "measurements": [
+    {
+      "id": "R0110",
+      "tissue": "core",
+      "metric": "radial_tissue_width",
+      "axis": "radial_from_center",
+      "value": 3.6,
+      "unit": "mm",
+      "uncertainty_value": 1.2,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 3, 2024, p.??? publisher HTML"
+    },
+    {
+      "id": "R0111",
+      "tissue": "inner_pericarp",
+      "metric": "radial_tissue_width",
+      "axis": "radial_from_center",
+      "value": 10.4,
+      "unit": "mm",
+      "uncertainty_value": 1.2,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 3, 2024, p.??? publisher HTML"
+    },
+    {
+      "id": "R0112",
+      "tissue": "outer_pericarp",
+      "metric": "radial_tissue_width",
+      "axis": "radial_from_center",
+      "value": 7.3,
+      "unit": "mm",
+      "uncertainty_value": 1.1,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 3, 2024, p.??? publisher HTML"
+    },
+    {
+      "id": "R0113",
+      "tissue": "half_radial_total",
+      "metric": "radial_tissue_width",
+      "axis": "radial_from_center",
+      "value": 21.3,
+      "unit": "mm",
+      "uncertainty_value": 0.2,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 3, 2024, p.??? publisher HTML"
+    },
+    {
+      "id": "R0142",
+      "tissue": "core",
+      "metric": "cell_number_in_sample",
+      "axis": "",
+      "value": 76.1,
+      "unit": "count",
+      "uncertainty_value": 0.8,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 4, publisher HTML, 2024"
+    },
+    {
+      "id": "R0143",
+      "tissue": "inner_pericarp",
+      "metric": "cell_number_in_sample",
+      "axis": "",
+      "value": 108.7,
+      "unit": "count",
+      "uncertainty_value": 0.9,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 4, publisher HTML, 2024"
+    },
+    {
+      "id": "R0144",
+      "tissue": "outer_pericarp_small",
+      "metric": "cell_number_in_sample",
+      "axis": "",
+      "value": 142.1,
+      "unit": "count",
+      "uncertainty_value": 3.9,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 4, publisher HTML, 2024"
+    },
+    {
+      "id": "R0145",
+      "tissue": "outer_pericarp_large",
+      "metric": "cell_number_in_sample",
+      "axis": "",
+      "value": 24.2,
+      "unit": "count",
+      "uncertainty_value": 1.6,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 4, publisher HTML, 2024"
+    },
+    {
+      "id": "R0174",
+      "tissue": "core",
+      "metric": "cell_mean_diameter",
+      "axis": "",
+      "value": 47.3,
+      "unit": "µm",
+      "uncertainty_value": 0.2,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 5, publisher HTML, 2024"
+    },
+    {
+      "id": "R0175",
+      "tissue": "inner_pericarp",
+      "metric": "cell_mean_diameter",
+      "axis": "",
+      "value": 95.9,
+      "unit": "µm",
+      "uncertainty_value": 0.8,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 5, publisher HTML, 2024"
+    },
+    {
+      "id": "R0176",
+      "tissue": "outer_pericarp_small",
+      "metric": "cell_mean_diameter",
+      "axis": "",
+      "value": 51.4,
+      "unit": "µm",
+      "uncertainty_value": 1.4,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 5, publisher HTML, 2024"
+    },
+    {
+      "id": "R0177",
+      "tissue": "outer_pericarp_large",
+      "metric": "cell_mean_diameter",
+      "axis": "",
+      "value": 164.6,
+      "unit": "µm",
+      "uncertainty_value": 4.7,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 5, publisher HTML, 2024"
+    }
+  ],
+  "warnings": [
+    "Experimental observations only: not a universal botanical preset.",
+    "Do not mix organs/regions or infer unmeasured seed/vessel/calxy dimensions.",
+    "Model world scale needs an explicit physical mm mapping before any Blender use."
+  ]
+}
