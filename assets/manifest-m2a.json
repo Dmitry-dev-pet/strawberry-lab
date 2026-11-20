@@ -1,0 +1,124 @@
+{
+  "schema": "strawberry-lab-assets-m2a.1",
+  "version": "v0.7-m2a-modular-fruit-engine",
+  "date": "2026-11-20",
+  "source": "Dmitry-dev-pet/strawberry-lab",
+  "architecture": "immutable FruitContext+FruitRegistry taxon adapters+source-bound organ recipes+Blender emitter dispatch",
+  "reference_blender": "Blender 5.2.4 LTS",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1W2tKQx6d6dqxV5ALU-cEAK5TYAWK_aNz",
+  "visibility": "owner-restricted; no change to permissions",
+  "tests": {
+    "unit_tests": "45/45 PASS",
+    "saved_blend_validation": "4 bodies, 2 achene point sets, 8 gauges, 2 shared GN groups: PASS",
+    "drive_full_sha256_readback": "9/9 PASS",
+    "blender_reopened_from_drive": "PASS; same saved validation JSON",
+    "authentic_cycles_renders": 2,
+    "independent_fruit_instances": 4,
+    "distinct_taxa": 2
+  },
+  "existing_inputs": [
+    "data/morphometry/measurements-v1.json",
+    "src/fruit_engine.py",
+    "src/fruit_morphometry.py",
+    "src/fruit_engine_anatomy.py",
+    "src/fe_geometry.py",
+    "src/build_fruit_engine_blender.py"
+  ],
+  "new_sources": {
+    "src/fruit_platform.py": "c3f0cb9dde61f458bbadba9947a7b94f43fa0782e92201ae7271eefdc71cedd0",
+    "src/build_fruit_platform_blender.py": "6f80712d6f66882c76e7bb64b6d4a39d77eb8323a697f9925ea90e1ebf7df873",
+    "src/validate_fruit_platform_blender.py": "03dbd1f8e0f81beeff760004983857ea452e22de496d894429c28345ac4d830a",
+    "src/render_fruit_platform_blender.py": "010152c37372fe0554cf06503d601af0524be51021f4910caff867071ec35f4b",
+    "tests/test_fruit_platform.py": "56743885ae108e513e16c13f126d623c22d6261e82e50e2d9bd8c651d20beeea"
+  },
+  "files": [
+    {
+      "name": "fruit-platform-m2a.blend",
+      "role": "Blender source scene",
+      "size_bytes": 389349,
+      "sha256": "1d49870d6c9bb5eb4a262fdfae2b3fc11ffd06ed083ad9c2322b6acf12cf84fa",
+      "drive_file_id": "1fbbEANBOkZGnGq7NdxD9GpcM8-4metvH",
+      "drive_url": "https://drive.google.com/file/d/1fbbEANBOkZGnGq7NdxD9GpcM8-4metvH/view",
+      "full_readback_sha256_verified": true
+    },
+    {
+      "name": "fruit-platform-m2a-overview.png",
+      "role": "authentic Cycles render",
+      "size_bytes": 1712743,
+      "sha256": "8da71a3447ca8626bb4d385d454b94c07dfa156e9eba380129410e4e3c0fbe84",
+      "drive_file_id": "1xrIeYe_gOnCkApJlgRwBowepr4IzefDp",
+      "drive_url": "https://drive.google.com/file/d/1xrIeYe_gOnCkApJlgRwBowepr4IzefDp/view",
+      "full_readback_sha256_verified": true
+    },
+    {
+      "name": "fruit-platform-m2a-cell-gauges.png",
+      "role": "authentic Cycles render",
+      "size_bytes": 1118687,
+      "sha256": "51aadf493dbcb78338eeea42f2afdfc47c1f818963fa409b2b3895ce61fc453f",
+      "drive_file_id": "1v3GMf97TIysv5bJkbkkzTuigzTTiIS5N",
+      "drive_url": "https://drive.google.com/file/d/1v3GMf97TIysv5bJkbkkzTuigzTTiIS5N/view",
+      "full_readback_sha256_verified": true
+    },
+    {
+      "name": "fruit-platform-m2a-plans.json",
+      "role": "source-provenance, validation or log",
+      "size_bytes": 20587,
+      "sha256": "23de7ff09c2f8be993525ee3d1a150599f90f8de40fce069291da6564d802cbe",
+      "drive_file_id": "1rRIgrhcN-dzaN_EX33hf0hxz--VXSNUD",
+      "drive_url": "https://drive.google.com/file/d/1rRIgrhcN-dzaN_EX33hf0hxz--VXSNUD/view",
+      "full_readback_sha256_verified": true
+    },
+    {
+      "name": "saved-blend-validation.json",
+      "role": "source-provenance, validation or log",
+      "size_bytes": 2236,
+      "sha256": "84d5c5ec96d6d7655e8c6792ea87e5d006472612800e11c7ac126615691c3ece",
+      "drive_file_id": "17kMESVrzOLytCIpkQRQS7Iq8sIUmDNRK",
+      "drive_url": "https://drive.google.com/file/d/17kMESVrzOLytCIpkQRQS7Iq8sIUmDNRK/view",
+      "full_readback_sha256_verified": true
+    },
+    {
+      "name": "build.log",
+      "role": "source-provenance, validation or log",
+      "size_bytes": 276,
+      "sha256": "709d28f58182b0c08783c1822d8496153cd47726b35c66009267126c8c37697b",
+      "drive_file_id": "12SJ_iSpobHyU4SlboXONtPTVUhYVTbLB",
+      "drive_url": "https://drive.google.com/file/d/12SJ_iSpobHyU4SlboXONtPTVUhYVTbLB/view",
+      "full_readback_sha256_verified": true
+    },
+    {
+      "name": "render.log",
+      "role": "source-provenance, validation or log",
+      "size_bytes": 556,
+      "sha256": "4337ec9510b3bdd217eb7e54d23ade7f75f46b6724e11003e60d6a23e14e92f0",
+      "drive_file_id": "1EaqeGam6Nkt3WmypEffylKBh6eiNPzSK",
+      "drive_url": "https://drive.google.com/file/d/1EaqeGam6Nkt3WmypEffylKBh6eiNPzSK/view",
+      "full_readback_sha256_verified": true
+    },
+    {
+      "name": "validate.log",
+      "role": "source-provenance, validation or log",
+      "size_bytes": 294,
+      "sha256": "a9b14492f065deccde8d394d47dfd31892b76f48dab619026d9c35bc9ab46ae6",
+      "drive_file_id": "1bMUww27iE0FnlEkIYgco_8AsnBA9NKBy",
+      "drive_url": "https://drive.google.com/file/d/1bMUww27iE0FnlEkIYgco_8AsnBA9NKBy/view",
+      "full_readback_sha256_verified": true
+    },
+    {
+      "name": "unit-tests.log",
+      "role": "source-provenance, validation or log",
+      "size_bytes": 5435,
+      "sha256": "61d10d3ac101b1f73b9af1036cd94c96daf277a89f8db96b689190790c9cd9f3",
+      "drive_file_id": "1NVbd2W_J15xwm47d3opiPwCxtq8pBcog",
+      "drive_url": "https://drive.google.com/file/d/1NVbd2W_J15xwm47d3opiPwCxtq8pBcog/view",
+      "full_readback_sha256_verified": true
+    }
+  ],
+  "caveats": [
+    "This is an architecture kernel, not a complete anatomy implementation.",
+    "Schematic Camarosa silhouette and achene positions; no real kiwi seed/locule/vessel geometry.",
+    "Guo 2013 A. deliciosa vascular graph is not used as measured A. chinensis anatomy.",
+    "Cut/LOD/glTF export are future operations, not implemented in M2a.",
+    "No original Frucht source, Kiwi GN trees or commercial assets copied."
+  ]
+}
