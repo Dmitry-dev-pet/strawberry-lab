@@ -1,0 +1,121 @@
+{
+  "schema_version": "strawberry-lab-assets-v1",
+  "version": "M1b-experimental / 2026-11-20",
+  "status": "research prototype; cellular volumes are implicit 3D Voronoi fields sampled into cut-mesh displacement and vertex attributes, NOT a verified histological model",
+  "public_git_repo": "https://github.com/Dmitry-dev-pet/strawberry-lab",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1jF40qYgLf9dngtkd5LbX5-LCioFjYerV",
+  "drive_access": "restricted",
+  "files": [
+    {
+      "name": "strawberry-m1b-longitudinal-photoreal.blend",
+      "drive_file_id": "1-72na0kP4ahRAQA7BgkX19nV6J03C1s6",
+      "drive_url": "https://drive.google.com/file/d/1-72na0kP4ahRAQA7BgkX19nV6J03C1s6/view",
+      "sha256": "850a7dcdfa97743bf8ecf0aeb4be7bb8f42f20f38aec5405ec9555f41816d9f0",
+      "size_bytes": 4569392,
+      "verified_readback_sha256": true,
+      "role": "blender_source_scene"
+    },
+    {
+      "name": "strawberry-m1b-transverse-photoreal.blend",
+      "drive_file_id": "1AjceaMmMXHgMOFG6Baiq7f3I7SSHqYzK",
+      "drive_url": "https://drive.google.com/file/d/1AjceaMmMXHgMOFG6Baiq7f3I7SSHqYzK/view",
+      "sha256": "278df6ffedec04359860ab025c9b4aee187e0dc377b45e7e842745af4c402293",
+      "size_bytes": 4747045,
+      "verified_readback_sha256": true,
+      "role": "blender_source_scene"
+    },
+    {
+      "name": "strawberry-m1b-longitudinal-anatomy.blend",
+      "drive_file_id": "1Ifw19W4XLBOuX04ndBs4WnPepvMyxWuI",
+      "drive_url": "https://drive.google.com/file/d/1Ifw19W4XLBOuX04ndBs4WnPepvMyxWuI/view",
+      "sha256": "1d652dfd2ea9ca52408d39be46f067d7fc519ee7c916be7e126cb9b0ff4d646d",
+      "size_bytes": 4584436,
+      "verified_readback_sha256": true,
+      "role": "blender_source_scene"
+    },
+    {
+      "name": "strawberry-m1b-longitudinal-photoreal.glb",
+      "drive_file_id": "1S-jotIu0g_DdmiDMEEvzzErn2RvBdsDq",
+      "drive_url": "https://drive.google.com/file/d/1S-jotIu0g_DdmiDMEEvzzErn2RvBdsDq/view",
+      "sha256": "c607d9e3db4e54a9eee0e1f715dc24d80c52650c63f254dce7ec08cb38453a1b",
+      "size_bytes": 9414860,
+      "verified_readback_sha256": true,
+      "role": "glb_vertex_color_model"
+    },
+    {
+      "name": "strawberry-m1b-transverse-photoreal.glb",
+      "drive_file_id": "1MvJjPdq87frF_qmbOArF7iU_AOtJyjkT",
+      "drive_url": "https://drive.google.com/file/d/1MvJjPdq87frF_qmbOArF7iU_AOtJyjkT/view",
+      "sha256": "6f4c2b643d60aeb9801f290a08788cdf0d73593f4da93263f6b85f94235262fd",
+      "size_bytes": 8364540,
+      "verified_readback_sha256": true,
+      "role": "glb_vertex_color_model"
+    },
+    {
+      "name": "strawberry-m1b-longitudinal-photoreal.png",
+      "drive_file_id": "1a3CW7XGiBBezBMnLTsyN2Mm13vMQRy-H",
+      "drive_url": "https://drive.google.com/file/d/1a3CW7XGiBBezBMnLTsyN2Mm13vMQRy-H/view",
+      "sha256": "3df0a34568823edf3d8c5066b7781819226312b6caeb58e762da184c88c08335",
+      "size_bytes": 871681,
+      "verified_readback_sha256": true,
+      "role": "blender_render"
+    },
+    {
+      "name": "strawberry-m1b-transverse-photoreal.png",
+      "drive_file_id": "1M1MVionrVRN5EMaQlXpz9vAyQ3JaRaKf",
+      "drive_url": "https://drive.google.com/file/d/1M1MVionrVRN5EMaQlXpz9vAyQ3JaRaKf/view",
+      "sha256": "35261d09dcfc6057d31599366281deca05935efcec323b55f526e1c1c660a233",
+      "size_bytes": 859728,
+      "verified_readback_sha256": true,
+      "role": "blender_render"
+    },
+    {
+      "name": "strawberry-m1b-longitudinal-anatomy.png",
+      "drive_file_id": "1XeB7JSk0D0GzkN1VSvAAzAsMB9PSTtMh",
+      "drive_url": "https://drive.google.com/file/d/1XeB7JSk0D0GzkN1VSvAAzAsMB9PSTtMh/view",
+      "sha256": "3b0349c4e8b32af156835de4897c701d7f041b6d393f54e50e353ed3b20a82f9",
+      "size_bytes": 933521,
+      "verified_readback_sha256": true,
+      "role": "blender_render"
+    },
+    {
+      "name": "m1a-vs-m1b-comparison.png",
+      "drive_file_id": "1WAh2lDXG9U4fMLir2XwAQ1I7tcOABtKV",
+      "drive_url": "https://drive.google.com/file/d/1WAh2lDXG9U4fMLir2XwAQ1I7tcOABtKV/view",
+      "sha256": "6dcced260e2833d8abee434a72c11139dfc4ed63c72d7595d37d9719a4dc6d27",
+      "size_bytes": 367437,
+      "verified_readback_sha256": true,
+      "role": "comparison_sheet"
+    }
+  ],
+  "verification": {
+    "total": 9,
+    "readback_sha256_matched": 9,
+    "cell_field_python_tests": "15/15",
+    "blender_scenes_opened_and_mesh_attrs_checked": "3/3",
+    "glb_headers_and_vertex_colors_checked": "2/2",
+    "browser_visualization": "not independently tested",
+    "rendering": {
+      "photoreal": "Cycles 900x900 samples 20",
+      "anatomy": "Cycles 900x900 samples 14"
+    },
+    "blender": "Blender 5.2.4 LTS"
+  },
+  "visual_preset": {
+    "photoreal": {
+      "cell_spacing_model_units": 0.072,
+      "visual_strength": 0.22
+    },
+    "anatomy": {
+      "cell_spacing_model_units": 0.115,
+      "visual_strength": 1
+    }
+  },
+  "scientific_limits": [
+    "cell size not calibrated to real microscope slides",
+    "3D implicit cells are not each individual fully meshed volume",
+    "no microscopy-based cellular or vascular topology measured",
+    "no arbitrary plane yet",
+    "macroscopic visual quality still inferior to reference Frucht"
+  ]
+}
