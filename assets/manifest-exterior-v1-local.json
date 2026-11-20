@@ -1,0 +1,56 @@
+{
+  "schema": "strawberry-exterior-v1-local-evidence",
+  "storage": "local-working-build-not-canonical-drive-release",
+  "blender": "5.2.2 LTS",
+  "seed": 1729,
+  "artifacts": [
+    {
+      "path": "build/exterior-v1/strawberry-exterior.blend",
+      "bytes": 5094824,
+      "sha256": "e719aa7d1e6dfdb34e8f3a589a680140282c4b5d0f3305df7af8b4e5850b88f5"
+    },
+    {
+      "path": "build/exterior-v1/strawberry-exterior.png",
+      "bytes": 977284,
+      "sha256": "887a32a3face80ffb14807392caea55e83456caa0a40d2d38ab7f86ee9d1aa02"
+    },
+    {
+      "path": "build/exterior-v1/stats.json",
+      "bytes": 1351,
+      "sha256": "aa4c3e0f8e67ae83354942dca002586d9a9334ecac4f2d51bce2aca203422b0a"
+    },
+    {
+      "path": "build/exterior-v1/build.log",
+      "bytes": 1840,
+      "sha256": "85cf8bc6cb2733ae5f73e388e3012b5b8bd208ca398e5f24d5289ca067411d4a"
+    },
+    {
+      "path": "build/exterior-v1/validation.log",
+      "bytes": 878,
+      "sha256": "59cd43bcc3109f0220d0cab204b10f6b7349a5802ad10ae58e3fba3272e0ffaa"
+    },
+    {
+      "path": "build/exterior-v1/reproducibility.log",
+      "bytes": 319,
+      "sha256": "a8253a71b9c826a03df672ccfd9380b8b7aa624050521689d5cd7d76dfb0753a"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "src/exterior_shape.py",
+      "sha256": "9f7a6156e43312e987fd9cbd66c0a5cee8993877a71e7d9c1806ad6081b2b204"
+    },
+    {
+      "path": "src/build_strawberry_exterior.py",
+      "sha256": "44f9fb3304de3d34ea82f11ba6093f2bbf9cb1e96785567b053f199d6b154098"
+    },
+    {
+      "path": "src/validate_strawberry_exterior.py",
+      "sha256": "2f8cecbed095ffd74efabe90ad5bd0f5b056d752d63c69a556feffbcb6877937"
+    },
+    {
+      "path": "tests/test_exterior_shape.py",
+      "sha256": "93d37aa917e5d83dfe567054e24c9f0aa47e57e6ebbf89d28ff872995f7e9d54"
+    }
+  ]
+}
