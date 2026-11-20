@@ -43,6 +43,11 @@ def validate():
     params = ExteriorParams(**json.loads(scene["exterior_params"]))
     anchors = ExteriorShape(params).anchors()
     body, = (obj for obj in scene.objects if obj.get("role") == "receptacle")
+    # Ray tests below use the shared parent coordinate system. Reject a body
+    # moved independently from its seeds instead of reporting false contact.
+    from mathutils import Matrix
+    assert all(abs(body.matrix_local[i][j] - Matrix.Identity(4)[i][j]) < 1e-7
+               for i in range(4) for j in range(4)), "Receptacle transform differs from seed parent space"
     pedicel, = (obj for obj in scene.objects if obj.get("role") == "pedicel")
     sepals = [obj for obj in scene.objects if obj.get("role") == "sepal"]
     seeds = sorted((obj for obj in scene.objects if obj.get("role") == "achene"),

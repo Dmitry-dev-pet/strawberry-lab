@@ -25,3 +25,9 @@ Implementation run and parent verification: 81 Python tests pass. Saved scene va
 ## Evidence state
 
 Local working scene, PNG and logs are in build/exterior-v1/. [Local evidence manifest](../assets/manifest-exterior-v1-local.json) records hashes and sizes; it is not a download link or a canonical Drive release. Generated binaries have not yet been archived to Drive. Independent Astra review and owner visual assessment are separate from implementation completion; see Beads straw-k43.3 and straw-k43.4 for live status.
+
+## Independent review and corrections
+
+Astra 6.2/high independently rebuilt the same seed at 900 px/28 samples and reported zero differing pixels against the original PNG. It approved presentation for owner assessment, with waxy skin highlighted as a visual limitation. Parent fixed all three findings: the validator now rejects a receptacle moved independently from its achene coordinate system; the builder refuses reused evidence directories before any scene reset; resolution/samples are checked against Blender RNA limits and effective values are recorded.
+
+Parent reran all 81 tests and validated the original saved scene. `scripts/check_exterior_regressions.py` reproduces all three negative cases inside Blender and now passes. These fixes do not change geometry or shading, so the original reviewed render remains the evidence. No final visual acceptance or canonical Drive archive is claimed.

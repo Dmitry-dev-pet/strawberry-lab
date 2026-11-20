@@ -402,6 +402,17 @@ def configure_view(scene, body, root):
 
 
 def build(args):
+    # Each output version is immutable: a no-render run must never leave a
+    # previous version's image next to newly generated scene metadata.
+    if any((args.out / name).exists() for name in
+           ("strawberry-exterior.blend", "strawberry-exterior.png", "stats.json")):
+        raise FileExistsError("Use a fresh output directory to preserve previous build evidence")
+    resolution_property = bpy.context.scene.render.bl_rna.properties["resolution_x"]
+    samples_property = bpy.context.scene.cycles.bl_rna.properties["samples"]
+    if not resolution_property.hard_min <= args.resolution <= resolution_property.hard_max:
+        raise ValueError("Resolution is outside Blender's supported range")
+    if not samples_property.hard_min <= args.samples <= samples_property.hard_max:
+        raise ValueError("Samples are outside Blender's supported range")
     bpy.ops.wm.read_factory_settings(use_empty=True)
     started = perf_counter()
     scene = bpy.context.scene
@@ -468,8 +479,8 @@ def build(args):
     stats = {
         "blender": bpy.app.version_string,
         "renderer": scene.render.engine,
-        "resolution_px": args.resolution,
-        "samples": args.samples,
+        "resolution_px": scene.render.resolution_x,
+        "samples": scene.cycles.samples,
         "millimetres_per_blender_unit": 1.0,
         "parameters": asdict(params),
         "evidence": evidence,

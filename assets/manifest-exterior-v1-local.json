@@ -42,15 +42,28 @@
     },
     {
       "path": "src/build_strawberry_exterior.py",
-      "sha256": "44f9fb3304de3d34ea82f11ba6093f2bbf9cb1e96785567b053f199d6b154098"
+      "sha256": "8efcd408617536f8cd73932f6c57b5075f50cc8295f774ca4109f0472a6d0a7c"
     },
     {
       "path": "src/validate_strawberry_exterior.py",
-      "sha256": "2f8cecbed095ffd74efabe90ad5bd0f5b056d752d63c69a556feffbcb6877937"
+      "sha256": "1fd92df1d967690978ea39d13b66bee9245ba263542a5392ba00d07e8e42b257"
     },
     {
       "path": "tests/test_exterior_shape.py",
       "sha256": "93d37aa917e5d83dfe567054e24c9f0aa47e57e6ebbf89d28ff872995f7e9d54"
+    },
+    {
+      "path": "scripts/check_exterior_regressions.py",
+      "sha256": "4c688ca927186a78cb97d04cbf1576eebcdf04e2ebdf95fb0b50480fd6a59c96"
     }
-  ]
+  ],
+  "review": {
+    "provider": "codex",
+    "executed_model": "gpt-6.2-astra",
+    "original_render_pixel_diff": 0,
+    "findings": "Two medium and one low; parent fixed all three; original geometry/materials unchanged.",
+    "regression_log": "build/review-v1/parent-regressions.log",
+    "parent_saved_scene_validation": "build/review-v1/parent-validation.log",
+    "status": "Ready for owner assessment; owner acceptance pending"
+  }
 }
