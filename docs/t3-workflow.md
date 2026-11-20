@@ -8,7 +8,7 @@ The parent discusses goals, owns Beads and exclusively controls live Blender. On
 
 GitHub Issues define milestones (exterior: Issue #2); Git stores source and reports. Beads is the operational dependency graph and local task history, not another anatomical specification. Working database lives in this checkout's .beads/ and must not be deleted or assumed to exist in another clone. Use the canonical path of this checkout for all bd commands. Run bd prime and bd ready --json, then read active tasks before assigning work. The current exterior epic is straw-k43.
 
-Dolt database is not committed into Git. No remote database push has been verified or performed. Tracked configuration does not back up task state. For another machine/checkout, first establish an explicit Dolt backup/remote restoration route; never infer recovery from a JSON task listing. Beads may derive an origin remote, but this setup does not enable automatic sync. No Git hooks, harness hooks, observer or recurring LLM heartbeat were installed.
+Dolt database is not committed into Git. A full Dolt-native local backup was initialized and synced to `~/.local/share/strawberry-lab/beads-backup` on this Mac. This is same-machine recovery, not an off-machine backup. Run `bd backup sync` after queue changes. No remote database push has been verified or performed. Tracked configuration does not back up task state. For another machine/checkout, first establish an explicit Dolt backup/remote restoration route; never infer recovery from a JSON task listing. Beads may derive an origin remote, but this setup does not enable automatic sync. No Git hooks, harness hooks, observer or recurring LLM heartbeat were installed.
 
 ## Surface verification
 
