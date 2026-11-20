@@ -1,0 +1,159 @@
+{
+  "schema_version": "strawberry-lab-assets-v1",
+  "artifact_version": "M1c-SDF-restspace-2026-11-20",
+  "source_repo": "https://github.com/Dmitry-dev-pet/strawberry-lab",
+  "source_files": [
+    "src/bake_rest_atlas.py",
+    "src/sdf_cut_strawberry.py",
+    "src/validate_sdf_scene.py",
+    "tests/test_atlas.py"
+  ],
+  "base_scene": {
+    "name": "strawberry-m1a-whole.blend",
+    "sha256": "333ac3f48df28cf2776efa492a15434c4c808a017ff0a48b1944e4fbeaf2493a",
+    "source_manifest": "https://github.com/Dmitry-dev-pet/strawberry-lab/blob/main/assets/manifest-m1a.json"
+  },
+  "drive_folder_url": "https://drive.google.com/drive/folders/1eV8D_tZ1dGbwmNevGHoC91EFU7_LhugX",
+  "drive_visibility": "restricted; requires owner access",
+  "blender": "5.2.4 LTS, CPU Cycles",
+  "atlas": {
+    "dims_3d": [
+      64,
+      64,
+      64
+    ],
+    "tile_layout": [
+      8,
+      8
+    ],
+    "texture_size": [
+      512,
+      512
+    ],
+    "channels": [
+      "synthetic vascular intensity",
+      "synthetic mottling",
+      "synthetic pith mask"
+    ],
+    "source_units": "artist designed; not biological measurements",
+    "sampling": "bilinear inside tile + linear blend between adjacent Z slices (tri-linear)"
+  },
+  "techniques": [
+    "Watertight sealed base mesh",
+    "Geometry Nodes Mesh to SDF Grid x2",
+    "SDF Grid Boolean difference",
+    "Grid to Mesh",
+    "Geometry proximity material classification",
+    "fruit_rest stored before displacement",
+    "three 3D Voronoi scales for normal and cut micromesh relief"
+  ],
+  "tests": {
+    "python_atlas_unittests": "6/6 PASS",
+    "blender_validators": "2/2 PASS",
+    "watertight": [
+      "half: 0 nonmanifold edges",
+      "bite: 0 nonmanifold edges"
+    ],
+    "glb_loads": "2/2 PASS with trimesh",
+    "uploaded_drive_readback_sha256": "11/11 PASS",
+    "real_browser_visual_check": "not performed"
+  },
+  "limitations": [
+    "Simplified 64^3 atlas, not Frucht commercial source or 256^3 field",
+    "Fruit whole scene baseline is a required input, but pinned by SHA-256",
+    "Wetness only a procedural Shader Nodes + small geometric displacement; GLB cannot replicate full Cycles procedural shader",
+    "SDF cutters are independently editable inside Blender, but no live re-analysis of topology of vascular branches; subset of seeds filtered at build-time",
+    "No calibrated histological cell geometry; obvious photoreal gap remains",
+    "Achenes filtered once per initial cutter pose; manually rotating cutter inside .blend does NOT dynamically update which achenes are removed"
+  ],
+  "files": [
+    {
+      "name": "strawberry-m1c-half.blend",
+      "bytes": 3547006,
+      "sha256": "a3e32cc1c7a44b57c4339b82782b5fd1b14df898e54b3a6d863e7b6670397096",
+      "drive_file_id": "1zWWOFquCkbrS-N5Loj8e7TbYdBcom--H",
+      "drive_url": "https://drive.google.com/file/d/1zWWOFquCkbrS-N5Loj8e7TbYdBcom--H/view",
+      "verified_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1c-bite.blend",
+      "bytes": 3586453,
+      "sha256": "37cd3b830e5d7b55ed6e048111c07390676e30f7b67c954f1d5a39e2994d5456",
+      "drive_file_id": "17D8YW1mjcpAkth3hMRCbkZo8IHaWpIia",
+      "drive_url": "https://drive.google.com/file/d/17D8YW1mjcpAkth3hMRCbkZo8IHaWpIia/view",
+      "verified_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1c-half.glb",
+      "bytes": 6366036,
+      "sha256": "59d842a69875d5857906f7deb30b00713cbb037859741b8728a8353a3c2f4977",
+      "drive_file_id": "1YnoraTqRgMowKFUN_gQIO9JvX3CCMzEn",
+      "drive_url": "https://drive.google.com/file/d/1YnoraTqRgMowKFUN_gQIO9JvX3CCMzEn/view",
+      "verified_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1c-bite.glb",
+      "bytes": 10348500,
+      "sha256": "985a72cb33b0bee9dc043c3d9c117213a977a85dc2f9d4993f28df16a61b466c",
+      "drive_file_id": "1qtQbZQHsFP93XVpwoFiOeWT42vgljVFX",
+      "drive_url": "https://drive.google.com/file/d/1qtQbZQHsFP93XVpwoFiOeWT42vgljVFX/view",
+      "verified_readback_sha256": true
+    },
+    {
+      "name": "tissue-atlas-64.png",
+      "bytes": 393416,
+      "sha256": "68bec6852f865cbc7b3ef955cb10a74a60aa327bc891ef16e09b362ed9e0dfab",
+      "drive_file_id": "182onXD-VY1yqn34QC_FrnXjJx1Qrly_R",
+      "drive_url": "https://drive.google.com/file/d/182onXD-VY1yqn34QC_FrnXjJx1Qrly_R/view",
+      "verified_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1c-half.png",
+      "bytes": 822665,
+      "sha256": "5154ebd8fb2ad24fff43fa1db9965dfb3df6748f671dbe60c04c643dd91cdbae",
+      "drive_file_id": "1GjM9Qd_OQuL_hbac1MrAoImd7NnAcUz3",
+      "drive_url": "https://drive.google.com/file/d/1GjM9Qd_OQuL_hbac1MrAoImd7NnAcUz3/view",
+      "verified_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1c-bite.png",
+      "bytes": 899340,
+      "sha256": "943973ad090e59834e8bc2705a5313358534548ef161648246c7a76a618ebff4",
+      "drive_file_id": "1udlAaRqCijJjb5HI8WCCCvydmVPsrtm8",
+      "drive_url": "https://drive.google.com/file/d/1udlAaRqCijJjb5HI8WCCCvydmVPsrtm8/view",
+      "verified_readback_sha256": true
+    },
+    {
+      "name": "m1b-vs-m1c-sdf.jpg",
+      "bytes": 129430,
+      "sha256": "7692b078fbc413e9a5143c1470bef9669b71c9fcd2b687acdcea8bd68647896c",
+      "drive_file_id": "1EXfICdBNxb-yWjDMvt7ZT7hkNiOmrMCh",
+      "drive_url": "https://drive.google.com/file/d/1EXfICdBNxb-yWjDMvt7ZT7hkNiOmrMCh/view",
+      "verified_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1c-half-stats.json",
+      "bytes": 399,
+      "sha256": "c508c951f37e8791e6a72c670118af138a100eb779122fdd0a3ecae448be07a8",
+      "drive_file_id": "18ApzTEMgagGAJ8Lmia0Ne2cZ_LonrUAX",
+      "drive_url": "https://drive.google.com/file/d/18ApzTEMgagGAJ8Lmia0Ne2cZ_LonrUAX/view",
+      "verified_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1c-bite-stats.json",
+      "bytes": 399,
+      "sha256": "34a608b607ed73d6bedc83a0c666f324e26a0c47a65f8426fccacdee930b5402",
+      "drive_file_id": "1u-ZaUlmiatCmPcH1p9xNvAN2lohmp2os",
+      "drive_url": "https://drive.google.com/file/d/1u-ZaUlmiatCmPcH1p9xNvAN2lohmp2os/view",
+      "verified_readback_sha256": true
+    },
+    {
+      "name": "tissue-atlas-64.json",
+      "bytes": 389,
+      "sha256": "68bbe425c9f4002a756608a5dc4eb5dc6d9fd60645ef1bb666e8a6d9ad2d4037",
+      "drive_file_id": "1FBEeNP7HSoY8obmf_I7F3JY69i1cyuVY",
+      "drive_url": "https://drive.google.com/file/d/1FBEeNP7HSoY8obmf_I7F3JY69i1cyuVY/view",
+      "verified_readback_sha256": true
+    }
+  ]
+}
