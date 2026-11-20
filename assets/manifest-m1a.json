@@ -1,0 +1,180 @@
+{
+  "schema_version": "strawberry-lab-assets-v2",
+  "project": "Dmitry-dev-pet/strawberry-lab",
+  "version": "M1a-2026-11-20",
+  "quality_status": "research-prototype; NOT author-grade or anatomically calibrated",
+  "drive_folder": "https://drive.google.com/drive/folders/1MErno0Y_C-ctG_dw8YvM8Abdje5ODEDh",
+  "drive_access": "owner-only (restricted)",
+  "blender": "5.2.4 LTS, headless Linux, Cycles CPU; Workbench used for anatomy schematic",
+  "biological_references": [
+    "Hurtado & Knoche 2026: https://doi.org/10.3389/fhort.2026.1779354",
+    "Darrow USDA: The Strawberry, figs 19-38 and 19-39"
+  ],
+  "scene_variants": [
+    "whole",
+    "longitudinal (y=0)",
+    "transverse (z=0)",
+    "anatomy (vascular diagnostics)"
+  ],
+  "anchors_total": 539,
+  "vascular_routes_total": 539,
+  "branch_connection_model": "each route starts on the parametric vascular cylinder and terminates near its specific achene. Graph connectivity is geometric/model-defined, not biologically measured.",
+  "unit_tests": {
+    "passed": 8,
+    "total": 8,
+    "checkpoints": [
+      "deterministic anchors",
+      "route presence and terminals",
+      "central pith vs cortex",
+      "surface normals",
+      "consistent 3D tissue on intersecting slice planes"
+    ]
+  },
+  "blender_scene_open_tests": {
+    "passed": 4,
+    "total": 4,
+    "checks": [
+      "live Geometry Nodes",
+      "expected cut cap",
+      "all vascular curves retained",
+      "calibration disclaimer"
+    ]
+  },
+  "glb_parsing": {
+    "passed": 3,
+    "total": 3,
+    "whole_triangles": 241896,
+    "longitudinal_triangles": 174412,
+    "transverse_triangles": 158948
+  },
+  "asset_sha256_readback": {
+    "verified_count": 12,
+    "total": 12,
+    "method": "original bytes vs re-materialized connected Google Drive raw files, SHA-256"
+  },
+  "limitations": [
+    "vascular geometry is schematic and hidden in natural cut renders",
+    "cap fields are 3D, but cell-scale structure is still primarily shader/color; no microscopic cell meshes",
+    "cuts are two predetermined orthogonal planes, not arbitrarily draggable",
+    "cultivar measurements and anatomical segmentation ground truth not yet calibrated",
+    "M1a whole geometry looks better, but exposed tissue remains too homogeneous",
+    "anatomy Workbench is not a Cycles photoreal render"
+  ],
+  "files": [
+    {
+      "name": "strawberry-m1a-whole.blend",
+      "role": "Blender editable scene",
+      "size_bytes": 1665871,
+      "sha256": "333ac3f48df28cf2776efa492a15434c4c808a017ff0a48b1944e4fbeaf2493a",
+      "drive_file_id": "1CBOcKfs3vMTdbMmkLHwBCaBJFjaNuTkl",
+      "drive_url": "https://drive.google.com/file/d/1CBOcKfs3vMTdbMmkLHwBCaBJFjaNuTkl/view",
+      "verified_by_download_sha256": true
+    },
+    {
+      "name": "strawberry-m1a-longitudinal.blend",
+      "role": "Blender editable scene",
+      "size_bytes": 2451462,
+      "sha256": "9b70bae42b204b5d722875228c04f4b89c7fe260511294d0128e735222be3c22",
+      "drive_file_id": "1_JuUbbjof-FNpb0VSkJ6YoZU1lxBBA29",
+      "drive_url": "https://drive.google.com/file/d/1_JuUbbjof-FNpb0VSkJ6YoZU1lxBBA29/view",
+      "verified_by_download_sha256": true
+    },
+    {
+      "name": "strawberry-m1a-transverse.blend",
+      "role": "Blender editable scene",
+      "size_bytes": 2495531,
+      "sha256": "4ba00e48306d375e98a2c8f107ea1dcf33a039fc3ff48437f67ec1376eccd9be",
+      "drive_file_id": "1Fb8p1i8qb8a891ntz0n4ge3km4CwDiug",
+      "drive_url": "https://drive.google.com/file/d/1Fb8p1i8qb8a891ntz0n4ge3km4CwDiug/view",
+      "verified_by_download_sha256": true
+    },
+    {
+      "name": "strawberry-m1a-anatomy.blend",
+      "role": "Blender editable scene",
+      "size_bytes": 333929,
+      "sha256": "03418f063765f1f0733b41deb16a241413b062741d8bba7bd742f9763d156bb0",
+      "drive_file_id": "1l1RC1Q-VeNgId79fDA_2LWewf_ovtetp",
+      "drive_url": "https://drive.google.com/file/d/1l1RC1Q-VeNgId79fDA_2LWewf_ovtetp/view",
+      "verified_by_download_sha256": true
+    },
+    {
+      "name": "strawberry-m1a-whole.glb",
+      "role": "Web model",
+      "size_bytes": 11651104,
+      "sha256": "1ada58054919700f7d7fcfa0bc1ca4ff25727818192734d5a3288b2f232940e2",
+      "drive_file_id": "1pzsNmVNZCxf_leO-qGAJoL-QdtIRDcvk",
+      "drive_url": "https://drive.google.com/file/d/1pzsNmVNZCxf_leO-qGAJoL-QdtIRDcvk/view",
+      "verified_by_download_sha256": true
+    },
+    {
+      "name": "strawberry-m1a-longitudinal.glb",
+      "role": "Web model",
+      "size_bytes": 10400424,
+      "sha256": "3d5425860c2a49e292bc35169137d7d5aa4e60c11a191804864b2de12ee68c8c",
+      "drive_file_id": "1wSUwcwRzCILp4H1EdZr1CGbrtS9bMpR-",
+      "drive_url": "https://drive.google.com/file/d/1wSUwcwRzCILp4H1EdZr1CGbrtS9bMpR-/view",
+      "verified_by_download_sha256": true
+    },
+    {
+      "name": "strawberry-m1a-transverse.glb",
+      "role": "Web model",
+      "size_bytes": 9882788,
+      "sha256": "9911ea99f389b0273630b7b54a50f222a4a9a68e1bac648618a9fdce8e3b2c45",
+      "drive_file_id": "1WEIs3ES_paP6MjJ9zeX9sUDRor3MMMAS",
+      "drive_url": "https://drive.google.com/file/d/1WEIs3ES_paP6MjJ9zeX9sUDRor3MMMAS/view",
+      "verified_by_download_sha256": true
+    },
+    {
+      "name": "strawberry-m1a-whole.png",
+      "role": "Blender Cycles render",
+      "size_bytes": 918729,
+      "sha256": "5fe54a77f8a6dc178aae7393e4caa0f3e0356d71689e39dd802341c938d2a181",
+      "drive_file_id": "155yX4z_sKYJpivaWHzMrKhxteRLAASlo",
+      "drive_url": "https://drive.google.com/file/d/155yX4z_sKYJpivaWHzMrKhxteRLAASlo/view",
+      "verified_by_download_sha256": true
+    },
+    {
+      "name": "strawberry-m1a-longitudinal.png",
+      "role": "Blender Cycles render",
+      "size_bytes": 783703,
+      "sha256": "b48c697c28d7aaae439a18fce4b0bbb4b26398a08b1be8b07b0523294a472b2c",
+      "drive_file_id": "1HOhRNeahN1f68XphLHlelJ10BkiEsyzN",
+      "drive_url": "https://drive.google.com/file/d/1HOhRNeahN1f68XphLHlelJ10BkiEsyzN/view",
+      "verified_by_download_sha256": true
+    },
+    {
+      "name": "strawberry-m1a-transverse.png",
+      "role": "Blender Cycles render",
+      "size_bytes": 779238,
+      "sha256": "4918ceb8197ecaab96857733e190366ba286813886c519f108913baffd0d1a8d",
+      "drive_file_id": "1IBVU2K8N2H557ABIFJ5_09QWPtb8YXxJ",
+      "drive_url": "https://drive.google.com/file/d/1IBVU2K8N2H557ABIFJ5_09QWPtb8YXxJ/view",
+      "verified_by_download_sha256": true
+    },
+    {
+      "name": "strawberry-m1a-anatomy-workbench.png",
+      "role": "Workbench anatomy diagnostic",
+      "size_bytes": 742336,
+      "sha256": "8b00a4474809a6d2170fb9dab701eef301583dc60f33a86555a35216bb2dd3b6",
+      "drive_file_id": "1xWui5Ub_i1IM1-El78rHw3wn-OQ8Ne7D",
+      "drive_url": "https://drive.google.com/file/d/1xWui5Ub_i1IM1-El78rHw3wn-OQ8Ne7D/view",
+      "verified_by_download_sha256": true
+    },
+    {
+      "name": "strawberry-m1a-comparison-final.jpg",
+      "role": "Reference comparison (our own frames)",
+      "size_bytes": 175492,
+      "sha256": "8c9b0b84e3b459dd8f4ee09301df7e322a7ad0f7cc6103305e907d698c13bb1b",
+      "drive_file_id": "1nA1wLFKq50EzPjudlk3B6A29QBpRigh9",
+      "drive_url": "https://drive.google.com/file/d/1nA1wLFKq50EzPjudlk3B6A29QBpRigh9/view",
+      "verified_by_download_sha256": true
+    }
+  ],
+  "source_sha256_local": {
+    "validate_scene.py": "a89cfa7b7125fd84c95ba6d11fa11bf3afca9c67be307401c0d31297d1e79529",
+    "strawberry_biology.py": "500864dd7273585205cb2589a5cdaf3d6bbd6d86d754ede599121f39dd5cf02f",
+    "generate_anatomical_strawberry.py": "0fcc08c8590f822119ab594687ded047a7e9fa93f8906bb60b6d5aba7a76aa12",
+    "render_anatomy_workbench.py": "54916d00b3b178d4586b82824bd2a43ade6b9d2b12b15267b28bbe01adcc4e57",
+    "test_biology.py": "0fe01c6e52ea12dfc4efa9b4d9f883f2dc08ea63d610f334af619beccb0bb4b6"
+  }
+}
