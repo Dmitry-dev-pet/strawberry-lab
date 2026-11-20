@@ -22,6 +22,23 @@ GitHub `main` и Issues — источник истины. История чат
 ## Architecture target
 `shape field -> tissue fields -> feature generators -> true arbitrary cut -> materials -> render/export`. Переиспользовать собственные алгоритмы между фруктами, отделять Blender-зависимые ноды от чистых математических модулей. Разрез должен иметь геометрическую, а не только шейдерную глубину.
 
+## Fruit Engine scientific evidence gate — adopted 20 Nov 2026
+
+**Before refactoring M1d into a fruit-general model, READ:**
+- [docs/botanical-source-library.md](docs/botanical-source-library.md) for real scientific books/atlases/histological papers, exact figures/printed pages, specimen limitations and whether a whole chapter was actually available.
+- [docs/fruit-anatomy-map.md](docs/fruit-anatomy-map.md) for organ identity, biological origin, tissue regionalization, vascular graph and reproductive topology of strawberry vs kiwi.
+- [Issue #10](https://github.com/Dmitry-dev-pet/strawberry-lab/issues/10) — biological evidence prerequisites for [M1e Issue #9](https://github.com/Dmitry-dev-pet/strawberry-lab/issues/9).
+
+**Non-negotiable design rules:**
+1. Generic Geometry Nodes = reusable algorithms. Each fruit provides its own *developmental organ origin*, named tissue regions, vascular edge-types and reproductive attachment scheme. Strawberry's swollen floral receptacle and surface achenes are NOT Kiwi's multicarpellate ovary/pericarp with internal locular seeds.
+2. Vascular topology comes from specimen-based illustrations (Darrow 1966 Fig 19-38/39; Guo et al. 2013 Fig 5 + microscopy), NOT decorative straight white lines. Preserve edge types, source/sink, and local tissue destinations.
+3. Cell morphometry depends on **species/cultivar/maturity and region**. All M1a–M1d numbers (539 achenes, distances, thicknesses) are **ARTIST parameters until calibrated**, never established botanical facts. Do not generalize one 3D Voronoi over every tissue type.
+4. Tag every biological claim with source id, exact figure/table/page, taxon and access confidence (FULL, EXCERPT, ABSTRACT, BIBLIOGRAPHIC); never cite a bibliographic-only book as if the inaccessible chapter had been inspected.
+5. `Cut`, `Fast/Exact`, rendering and GLB export are **operations after anatomical construction**, not biological organs or modules that define the fruit's identity.
+6. Original Frucht Kiwi Free 0.4.3 is an architecture reference only. No copying of its GPL source/meshes into our public code without a deliberate licensing decision.
+
+**State:** this evidence-backed organ map has been written; shared GN fruit-engine implementation and biological validation of numerical values have NOT been completed. Do not report those stages as done.
+
 ## State of prototype
 - **v0.1 frozen baseline:** `src/generate_strawberry.py` + `src/make_tissue_textures.py`; фиксированный разрез и декоративная 2D карта тканей.
 - **M1a live prototype (20 Nov 2026):** `src/strawberry_biology.py` (continuous 3D pith/cortex/epidermis/bundle-zone fields, 539 achene anchors, 539 center-to-achene vessel routes) and `src/generate_anatomical_strawberry.py` (Blender 5.2+; full fruit, longitudinal and transverse cuts, real local pits, GN achene instancing); diagnostic `anatomy.blend` and Workbench view. Code, scene tests and 12 validated Drive assets are indexed in [docs/m1a-results.md](docs/m1a-results.md) and [assets/manifest-m1a.json](assets/manifest-m1a.json).
