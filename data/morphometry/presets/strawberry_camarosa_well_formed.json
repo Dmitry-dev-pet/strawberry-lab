@@ -1,0 +1,88 @@
+{
+  "source_id": "ARIZA2011",
+  "source_url": "https://www.researchgate.net/publication/229735697_Fruit_misshapen_in_strawberry_cultivars_Fragariaananassa_is_related_to_achenes_functionality",
+  "taxon": "Fragaria × ananassa",
+  "cultivar": "Camarosa",
+  "stage": "field_harvest",
+  "treatment": "fruit_shape=well_formed",
+  "type": "experimental_evidence_not_ready_to_render",
+  "measurements": [
+    {
+      "id": "R0014",
+      "tissue": "whole",
+      "metric": "fruit_fresh_weight",
+      "axis": "",
+      "value": 22.07,
+      "unit": "g",
+      "uncertainty_value": 0.94,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 2, published p.134"
+    },
+    {
+      "id": "R0015",
+      "tissue": "whole",
+      "metric": "fruit_length",
+      "axis": "",
+      "value": 4.8,
+      "unit": "cm",
+      "uncertainty_value": 0.07,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 2, published p.134"
+    },
+    {
+      "id": "R0016",
+      "tissue": "whole",
+      "metric": "fruit_width",
+      "axis": "",
+      "value": 3.25,
+      "unit": "cm",
+      "uncertainty_value": 0.03,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 2, published p.134"
+    },
+    {
+      "id": "R0017",
+      "tissue": "surface",
+      "metric": "achene_total_per_fruit",
+      "axis": "",
+      "value": 325.6,
+      "unit": "count",
+      "uncertainty_value": 17.8,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 2, published p.134"
+    },
+    {
+      "id": "R0018",
+      "tissue": "surface",
+      "metric": "achene_big_over_0.6mm_per_fruit",
+      "axis": "",
+      "value": 253.4,
+      "unit": "count",
+      "uncertainty_value": 17.9,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 2, published p.134"
+    },
+    {
+      "id": "R0019",
+      "tissue": "surface",
+      "metric": "achene_small_under_0.4mm_per_fruit",
+      "axis": "",
+      "value": 56.6,
+      "unit": "count",
+      "uncertainty_value": 3.7,
+      "uncertainty_kind": "SEM",
+      "statistic": "mean",
+      "source_locator": "Table 2, published p.134"
+    }
+  ],
+  "warnings": [
+    "Experimental observations only: not a universal botanical preset.",
+    "Do not mix organs/regions or infer unmeasured seed/vessel/calxy dimensions.",
+    "Model world scale needs an explicit physical mm mapping before any Blender use."
+  ]
+}
