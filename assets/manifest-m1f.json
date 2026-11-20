@@ -1,0 +1,92 @@
+{
+  "schema": "strawberry-lab.asset-manifest.m1f",
+  "version": "M1f-2026-11-20",
+  "title": "Dimension-calibrated Fruit Engine proof-of-concept",
+  "drive_folder_id": "1DCNnvFh7de0qx8Hdj5PefVBn3j5rmQW6",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1DCNnvFh7de0qx8Hdj5PefVBn3j5rmQW6",
+  "is_private_drive_folder": true,
+  "reference_catalog": "data/morphometry/measurements-v1.json",
+  "reference_catalog_sha256": "1ceb6039e7ace524edf798aec5c75d25a6110f74593aa199cf0dd7250cbe78ca",
+  "tests": {
+    "unit_python": "22/22 PASS",
+    "saved_blender_scene_reopened": "PASS",
+    "shared_GN_material_group_instances": 3,
+    "stored_scenes": 2,
+    "drive_readback_sha256": "8/8 PASS"
+  },
+  "files": [
+    {
+      "name": "fruit-engine-m1f.blend",
+      "size_bytes": 472559,
+      "sha256": "10779c988bb5318879bd8181c55ba9d48a414c78feef3b5d0ca952e0bf01fd39",
+      "drive_id": "1VeRQ4f5mrea7xT-pFvzjYRI6gsozSjoj",
+      "drive_url": "https://drive.google.com/file/d/1VeRQ4f5mrea7xT-pFvzjYRI6gsozSjoj/view",
+      "readback_sha256_verified": true,
+      "role": "editable evidence-bound 2-scene Blender model"
+    },
+    {
+      "name": "fruit-engine-specimens.png",
+      "size_bytes": 1638326,
+      "sha256": "217b7b1fffbd5571035178b19d39c21b45a9c134bbdf050d4d2eb5cdd8072ba1",
+      "drive_id": "1dVoU8VDxvPXQGlSg4KnvC0I66pN-dwgh",
+      "drive_url": "https://drive.google.com/file/d/1dVoU8VDxvPXQGlSg4KnvC0I66pN-dwgh/view",
+      "readback_sha256_verified": true,
+      "role": "Cycles overall specimen overview"
+    },
+    {
+      "name": "fruit-engine-cells-scale.png",
+      "size_bytes": 1420873,
+      "sha256": "760c29e50a20741fb9412883d725c2035a9aaf14d1bf6e3f2ed75ff603c1f569",
+      "drive_id": "1VOkGmC_vz3KNsS7nf4L3wRImiyUUxv7y",
+      "drive_url": "https://drive.google.com/file/d/1VOkGmC_vz3KNsS7nf4L3wRImiyUUxv7y/view",
+      "readback_sha256_verified": true,
+      "role": "Cycles physical cell size circles"
+    },
+    {
+      "name": "fruit-engine-calibration.json",
+      "size_bytes": 17216,
+      "sha256": "a1983b7ad26456ec40513cdc23efbeb7b6b1a95a6666cbbf13a4940ec6923b9d",
+      "drive_id": "1Q_NbCtNarx8TvbDfgUorlFIsSjYsMimQ",
+      "drive_url": "https://drive.google.com/file/d/1Q_NbCtNarx8TvbDfgUorlFIsSjYsMimQ/view",
+      "readback_sha256_verified": true,
+      "role": "machine-readable measured region/organ evidence"
+    },
+    {
+      "name": "blender-validation.json",
+      "size_bytes": 1150,
+      "sha256": "0b7c33d804747b300786d726ddf5cb580b577f1e053123c1804ea8d0b41f9e8a",
+      "drive_id": "16xJHoexrg2DTXQHCRULRReSZHkIz2jr-",
+      "drive_url": "https://drive.google.com/file/d/16xJHoexrg2DTXQHCRULRReSZHkIz2jr-/view",
+      "readback_sha256_verified": true,
+      "role": "actual opened .blend validation"
+    },
+    {
+      "name": "build.log",
+      "size_bytes": 967,
+      "sha256": "4b79553ad3fa3f28f777d95f4cb76606e79fe10c639303d012ae981cda39057b",
+      "drive_id": "1kCd_KoUNkprKUla4W1xzB-JjM1U7WsE4",
+      "drive_url": "https://drive.google.com/file/d/1kCd_KoUNkprKUla4W1xzB-JjM1U7WsE4/view",
+      "readback_sha256_verified": true,
+      "role": "testing/build evidence"
+    },
+    {
+      "name": "validate.log",
+      "size_bytes": 1062,
+      "sha256": "1e919f77353c3cf3e9fb11a716db52c272432811755f01e2127c4482e492a05d",
+      "drive_id": "1Fwmv7GDYV9y-eZZtVKEBtRHtMrAQDY7c",
+      "drive_url": "https://drive.google.com/file/d/1Fwmv7GDYV9y-eZZtVKEBtRHtMrAQDY7c/view",
+      "readback_sha256_verified": true,
+      "role": "testing/build evidence"
+    },
+    {
+      "name": "unit-tests.log",
+      "size_bytes": 2551,
+      "sha256": "f17b329eb732105d99a4002d049f5f4305a155eba523068213e29abcf8b01131",
+      "drive_id": "1Ibm-Q1VKqe8LDlJdRx7oi0ly96vzwFyO",
+      "drive_url": "https://drive.google.com/file/d/1Ibm-Q1VKqe8LDlJdRx7oi0ly96vzwFyO/view",
+      "readback_sha256_verified": true,
+      "role": "testing/build evidence"
+    }
+  ],
+  "disclaimer": "Scientific measurements calibrate only listed extents and cell diameters; actual organ topology and biological microstructure remain incomplete. No commercial Frucht node content."
+}
