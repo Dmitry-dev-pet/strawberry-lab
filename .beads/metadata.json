@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "straw",
+  "project_id": "77d20dfe-4b4b-4a15-bb15-026c52211115"
+}
