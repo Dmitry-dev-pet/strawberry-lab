@@ -42,3 +42,15 @@ blender --background --python src/generate_strawberry.py -- \
 ## План работы
 
 См. [Quality Plan](docs/quality-plan.md) и GitHub Issues. Каждый этап завершается сравнимым рендером, логом характеристик сцены и проверенным исходным файлом Blender.
+
+## Blender, textures and 3D files on Google Drive
+
+Heavy v0.1 baseline assets are saved in **[Strawberry Lab / v0.1-baseline on Google Drive](https://drive.google.com/drive/folders/1-W4FaqIQAgR6jdaVIYqriLfBuK8UjLJa)**: two editable Blender files, `skin.png`, `flesh.png`, two GLB models, two authentic Cycles renders and one standalone Three.js HTML build (9 files).
+
+Every file was downloaded back from Drive and verified byte-for-byte with SHA-256. The authoritative [asset manifest](assets/manifest-v0.1.json) contains sizes, digests and Drive links. [Storage and restoration rules](docs/storage.md) explain the split between GitHub and Drive and the local verification command:
+
+```bash
+python3 scripts/verify_assets.py assets/manifest-v0.1.json /path/to/downloaded/v0.1-baseline
+```
+
+**Access:** The GitHub repository is public; the current Google Drive folder is restricted (authorized users only). This does not prevent rebuilding assets from public source, but external visitors cannot download the exact reference binaries until Drive sharing is explicitly enabled.
