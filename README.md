@@ -6,6 +6,14 @@
 
 **Current status: M1d technical Blender prototype; atlas-grounded common Fruit Engine is a research/design stage, NOT implemented yet.** Текущие рендеры уступают Frucht по анатомической подробности, реалистичности материалов и производительности при разрезании. Это открытый список технических проблем, а не скрытый недостаток.
 
+## Морфометрия v1 — измеренные параметры из научных таблиц
+
+**20 ноября 2026:** собран [реестр 205 численных наблюдений из 4 первичных работ](data/morphometry/measurements-v1.json) (James 1974; Ariza 2011; Currie 1997; Jeon, Oh & Song 2024). [CSV](data/morphometry/measurements-v1.csv) · [источники, методы, ограничения](docs/morphometry-data-v1.md) · [10 тестов точности выбора](tests/test_fruit_morphometry.py) · [три привязанных к источникам профиля](data/morphometry/presets/).
+
+Доступны [таблица Excel с обзором и полным реестром](https://docs.google.com/spreadsheets/d/1DLfnJG4AIa8V7jvqdCnjNdFUORMSWArt/edit?usp=drivesdk&ouid=114252206612061669808&rtpof=true&sd=true) и [закрытая папка Drive](https://drive.google.com/drive/folders/1iy2T3Y59NCA6viY3HwO79FNZQSIgIoGE). Excel/JSON/CSV скачаны обратно: **3/3 SHA-256 совпадений**. Профили **не применены к Blender автоматически**.
+
+**Важное:** реальные размеры клеток и тканей относятся к определённым *таксонам, сортам, стадиям и обработкам*, не являются едиными размерами «киви» или «клубники». Для зрелой клубники в работе James размеры клеток отсутствуют; в Currie 1997 сорт в выбранной главе ещё не подтверждён. До ввода в модель необходимо задать физический масштаб. [Issue #11 — M1f калибровка](https://github.com/Dmitry-dev-pet/strawberry-lab/issues/11).
+
 ## Биологическая основа общего Fruit Engine
 
 **Порядок разработки изменён:** прежде чем создавать одинаковые Geometry Nodes для нескольких плодов, изучаем **настоящие ботанические атласы, монографии, срезы и микрофотографии**. Наши M1a–M1d — технические прототипы, а не источник научных фактов.
