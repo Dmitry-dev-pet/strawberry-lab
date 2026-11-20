@@ -1,0 +1,140 @@
+{
+  "schema": "fruitengine.m2c.sha256.1",
+  "date": "2026-11-20",
+  "project": "Dmitry-dev-pet/strawberry-lab",
+  "milestone": "M2c - numeric diameter calibrated 3D cell solids and orthogonal slices",
+  "owner_restricted_drive_folder": "https://drive.google.com/drive/folders/1kdvkDHxcCvueDf480njAzcAsQo57noMv",
+  "source_code": [
+    "src/fruit_cell_volumes.py",
+    "src/build_m2c_blender.py",
+    "src/validate_m2c_blender.py",
+    "src/render_m2c_scene.py",
+    "tests/test_fruit_cell_volumes.py",
+    "docs/m2c-results.md"
+  ],
+  "parent": "M2b saved source, 5 prior shared GN groups preserved",
+  "biological_evidence": "Jeon Oh & Song 2024 Table5 control A.chinensis Sweet Gold/Jecy Gold, source-measured population mean diameters ONLY",
+  "artist_not_measured": [
+    "3D placement",
+    "cell number",
+    "anisotropy",
+    "air gap and packing",
+    "interpretation of 2D diameter as 3D volume-equivalent diameter"
+  ],
+  "checks": {
+    "python_test_suite": "76/76 PASS",
+    "independent_saved_blender": "12 evaluated closed-cell GN objects and 4 analytic section objects PASS",
+    "nonmanifold_edges": 0,
+    "section_boundary_max_dimensionless_error": 6.096856829396202e-06,
+    "number_real_3d_solids": 2431,
+    "two_axis_section_faces": 177,
+    "source_sha_readback": "13/13 PASS",
+    "drive_downloaded_blender_reopened": "PASS and identical independent validation JSON"
+  },
+  "files": [
+    {
+      "name": "fruit-platform-m2c.blend",
+      "size_bytes": 1261721,
+      "sha256": "1ab51a2d02127d566d8d21a696f966a6aa40c6e021b1d51a79cd793bf35108cd",
+      "drive_file_id": "1DWeF1WaxJ_6Ye_OGLWo_yJMei6hAMTwe",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1DWeF1WaxJ_6Ye_OGLWo_yJMei6hAMTwe/view"
+    },
+    {
+      "name": "fruit-m2c-macro.png",
+      "size_bytes": 1569908,
+      "sha256": "0a2af8718cdf0888d798ca9ddb734bd6d063c0c095d93ae9494990f7e38cdbeb",
+      "drive_file_id": "1gU-TR4ikpWIV_3YBc96yNH7zKrzA3w2D",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1gU-TR4ikpWIV_3YBc96yNH7zKrzA3w2D/view"
+    },
+    {
+      "name": "fruit-m2c-sections.png",
+      "size_bytes": 1676010,
+      "sha256": "9544831e8b66cd0213093e6e2171e7bd9905a1bc6805d9b470214d0108215bd1",
+      "drive_file_id": "1-ptc_CvIaJPO7D7NW7U99W0Srg6iZpsV",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1-ptc_CvIaJPO7D7NW7U99W0Srg6iZpsV/view"
+    },
+    {
+      "name": "fruit-m2c-volume.png",
+      "size_bytes": 927633,
+      "sha256": "af04a19a40308175bd37da77b8ca52da6d871a34568fa19f192cdd15caef1e8b",
+      "drive_file_id": "1o2-8rL6cS2xhkGSn-w9kctqTx8JY7PeF",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1o2-8rL6cS2xhkGSn-w9kctqTx8JY7PeF/view"
+    },
+    {
+      "name": "m2c-tissue-volumes.json",
+      "size_bytes": 1213839,
+      "sha256": "1cfa1c5946419dc8524c511801172e21b3ff2cf35b6f1d2247f8c8151cb43f6b",
+      "drive_file_id": "1WCM1d-pIkxOXsgfgLJV8_UmDnVAQD4mv",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1WCM1d-pIkxOXsgfgLJV8_UmDnVAQD4mv/view"
+    },
+    {
+      "name": "m2c-summary.json",
+      "size_bytes": 2870,
+      "sha256": "a7a562cbc832acd5f4d100c781710370546342c5e84fc4e5af65045b23537819",
+      "drive_file_id": "1FfAUYONkbYZxFwtCnm3xH27sbcJ4id7_",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1FfAUYONkbYZxFwtCnm3xH27sbcJ4id7_/view"
+    },
+    {
+      "name": "validation-m2c.json",
+      "size_bytes": 5608,
+      "sha256": "8fea6ac2e16729a1a60ee1da367dd46ce33ac09b821ed6e3647d3c78fc4b4791",
+      "drive_file_id": "1cNNyZo5byL11W0IXz7Jr9y3_zBeCghkm",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1cNNyZo5byL11W0IXz7Jr9y3_zBeCghkm/view"
+    },
+    {
+      "name": "units-test.log",
+      "size_bytes": 9598,
+      "sha256": "4b0599c48763c9c1b4f54eb958d14f1c3bfd43bc880ec58814769037fd0fd358",
+      "drive_file_id": "1U8Tgh2iihTNvKrIyDAH0mZMpFs4nFhX1",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1U8Tgh2iihTNvKrIyDAH0mZMpFs4nFhX1/view"
+    },
+    {
+      "name": "build.log",
+      "size_bytes": 835,
+      "sha256": "d65235fb85d50b5d52bcf617816223b2aefcc9e28e706ca42a7a51228aa73623",
+      "drive_file_id": "1MoN-D642vNftWVSxA__OU-fV2_mj-pUG",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1MoN-D642vNftWVSxA__OU-fV2_mj-pUG/view"
+    },
+    {
+      "name": "render-macro.log",
+      "size_bytes": 358,
+      "sha256": "b3eac0797f8bbe6258a21cf7c6fb651ce788c98cc6a93980ffda996cdfdf1a18",
+      "drive_file_id": "18wcr72QcY5e6HofeUUMEGPbfA0pgKQwU",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/18wcr72QcY5e6HofeUUMEGPbfA0pgKQwU/view"
+    },
+    {
+      "name": "render-sections.log",
+      "size_bytes": 367,
+      "sha256": "4088be9eaac40d12c520e2bb736b3caf2825a1d403bb2d328d28ff677e27513e",
+      "drive_file_id": "1NOaTWvYrom-iFRs2sJ7VdzdAqVPDaaEs",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1NOaTWvYrom-iFRs2sJ7VdzdAqVPDaaEs/view"
+    },
+    {
+      "name": "render-volume.log",
+      "size_bytes": 361,
+      "sha256": "a9501f0169c9ecd1d72d9960cf98578490a247e19988bec35d88c2febd79c60f",
+      "drive_file_id": "1-noIorzl32jAqpbhtVvWVn41d68P24Oo",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1-noIorzl32jAqpbhtVvWVn41d68P24Oo/view"
+    },
+    {
+      "name": "validation.log",
+      "size_bytes": 407,
+      "sha256": "12b79421fd6cd66a0de0643dba51c3370bb237663fd8a126cc2abf684d34adc1",
+      "drive_file_id": "1QFsLA76UqhXD5CAjaliPhn-NT4wurMDD",
+      "verified_full_readback": true,
+      "url": "https://drive.google.com/file/d/1QFsLA76UqhXD5CAjaliPhn-NT4wurMDD/view"
+    }
+  ]
+}
