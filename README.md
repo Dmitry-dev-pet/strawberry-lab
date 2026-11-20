@@ -54,3 +54,6 @@ python3 scripts/verify_assets.py assets/manifest-v0.1.json /path/to/downloaded/v
 ```
 
 **Access:** The GitHub repository is public; the current Google Drive folder is restricted (authorized users only). This does not prevent rebuilding assets from public source, but external visitors cannot download the exact reference binaries until Drive sharing is explicitly enabled.
+
+**Build verification:** a clean-directory build from GitHub-matched source produced textures and both GLB files with SHA-256 hashes identical to the Drive baseline. Newly saved Blender scenes work but are not binary-identical; see [rebuild verification report](docs/rebuild-verification.md).
+
