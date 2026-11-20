@@ -1,0 +1,114 @@
+{
+  "schema": "strawberry-lab-m2b-assets-1",
+  "date": "2026-11-20",
+  "repository": "Dmitry-dev-pet/strawberry-lab",
+  "milestone": "M2b — shared anatomy Geometry Nodes / DIAGNOSTIC not histology",
+  "blender": "5.2.4 LTS",
+  "source_base_m2a_sha256": "1d49870d6c9bb5eb4a262fdfae2b3fc11ffd06ed083ad9c2322b6acf12cf84fa",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1zHJbEbsF-t7tCP31O0EMvctNMUmCe9HN",
+  "drive_folder_shared": false,
+  "tests": {
+    "python_full_suite": "58/58 PASS",
+    "real_blender_reopened_scene": "4 tissue regions + 8 source-scaled 3D diagnostic cell populations + 2 qualitative vascular diagrams / 5 shared GN groups PASS",
+    "drive_readback_sha256": "10/10 PASS"
+  },
+  "limitations": [
+    "unmeasured ripe strawberry cell sizes remain absent",
+    "3D cell packing and proxy spheres are artistic, only mean diameters source-measured",
+    "strawberry vessel route positions and display radius not measured",
+    "yellow A.chinensis vascular graph not rendered due mismatched green-kiwi source",
+    "no arbitrary cut/LOD/GLB integration in M2b"
+  ],
+  "files": [
+    {
+      "name": "fruit-platform-m2b.blend",
+      "role": "editable Blender source",
+      "size_bytes": 447935,
+      "sha256": "7acc08601295e1a8ca0e630602aeefae0362828e5cb7ae7490b7bc67edf752ef",
+      "drive_id": "1_YmL-BhRcjVrowXKsoxW35lJWi7UH4mr",
+      "drive_url": "https://drive.google.com/file/d/1_YmL-BhRcjVrowXKsoxW35lJWi7UH4mr/view",
+      "verified_full_readback": true
+    },
+    {
+      "name": "fruit-platform-m2b-cells.png",
+      "role": "Cycles render",
+      "size_bytes": 1942060,
+      "sha256": "20029439ffa1537fa011f7a782c157ab31f7df0dbf5360b9a08236429911b9aa",
+      "drive_id": "1oKat-VPu6IkOu3_FpxuzprXn0JxBJgpB",
+      "drive_url": "https://drive.google.com/file/d/1oKat-VPu6IkOu3_FpxuzprXn0JxBJgpB/view",
+      "verified_full_readback": true
+    },
+    {
+      "name": "fruit-platform-m2b-vascular.png",
+      "role": "Cycles render",
+      "size_bytes": 1242022,
+      "sha256": "77dd40406dc486ec66b2174a5d0f655e596b9b86be593c6057863c75d88caa91",
+      "drive_id": "1DpNsC3xW8pjAH1RBUaR8TuvGsswme7d9",
+      "drive_url": "https://drive.google.com/file/d/1DpNsC3xW8pjAH1RBUaR8TuvGsswme7d9/view",
+      "verified_full_readback": true
+    },
+    {
+      "name": "component-plans-m2b.json",
+      "role": "diagnostic record",
+      "size_bytes": 10028,
+      "sha256": "7bc79fac5ff477b73bfcfb52318085d3bd7b75ff69ee65e501d62a22ea6235a6",
+      "drive_id": "1AforctBlbXroGF0zUQtQctcQi-i_8VyM",
+      "drive_url": "https://drive.google.com/file/d/1AforctBlbXroGF0zUQtQctcQi-i_8VyM/view",
+      "verified_full_readback": true
+    },
+    {
+      "name": "validation-m2b.json",
+      "role": "diagnostic record",
+      "size_bytes": 4126,
+      "sha256": "bd1754fcf49191fe92b8300bfb3d1183f44d442ffbe983438ea7a7c176098193",
+      "drive_id": "1IUEqY1mNyamdwrtKaNVFfl6xOAMEFNws",
+      "drive_url": "https://drive.google.com/file/d/1IUEqY1mNyamdwrtKaNVFfl6xOAMEFNws/view",
+      "verified_full_readback": true
+    },
+    {
+      "name": "build.log",
+      "role": "diagnostic record",
+      "size_bytes": 384,
+      "sha256": "7a4d75446f5574f1bc48fa3885f3fbb349b8ff1835f024fd65bd083a32fe0e0a",
+      "drive_id": "1CO3Bj_KjcKsUL_wpO0jH5S18wIT9_nt7",
+      "drive_url": "https://drive.google.com/file/d/1CO3Bj_KjcKsUL_wpO0jH5S18wIT9_nt7/view",
+      "verified_full_readback": true
+    },
+    {
+      "name": "validate.log",
+      "role": "diagnostic record",
+      "size_bytes": 333,
+      "sha256": "c559092dc33c3659b106368cdb02341a143006f5c1c97932de451d9074ea6787",
+      "drive_id": "1yonFW6eKNatiBomIwsPXtyXXnOC54PRQ",
+      "drive_url": "https://drive.google.com/file/d/1yonFW6eKNatiBomIwsPXtyXXnOC54PRQ/view",
+      "verified_full_readback": true
+    },
+    {
+      "name": "full-unit-tests.log",
+      "role": "diagnostic record",
+      "size_bytes": 6978,
+      "sha256": "09aab9c4303a67cb53fb8a199f50d79e70b84bf67aeadfefd737d1eb83f18907",
+      "drive_id": "1HrCRBnHUmoAM1rH_NJdP1FAcybyf3Z9c",
+      "drive_url": "https://drive.google.com/file/d/1HrCRBnHUmoAM1rH_NJdP1FAcybyf3Z9c/view",
+      "verified_full_readback": true
+    },
+    {
+      "name": "render-cells.log",
+      "role": "diagnostic record",
+      "size_bytes": 417,
+      "sha256": "17494c9b1e4437bd54c7354fc84d47f5959d189c506c1addd80e9f03c22c3dc9",
+      "drive_id": "11oX7kkN5eeuff7ZMCtbXxYv5T52rc9M6",
+      "drive_url": "https://drive.google.com/file/d/11oX7kkN5eeuff7ZMCtbXxYv5T52rc9M6/view",
+      "verified_full_readback": true
+    },
+    {
+      "name": "render-vascular.log",
+      "role": "diagnostic record",
+      "size_bytes": 425,
+      "sha256": "f46ce95924ed2bd7b2ac09dc965bfee37e17063b7cce293287f91526897022bc",
+      "drive_id": "1uMlPTmS_dZrBq9oaRlQnyJeo2SNAQa24",
+      "drive_url": "https://drive.google.com/file/d/1uMlPTmS_dZrBq9oaRlQnyJeo2SNAQa24/view",
+      "verified_full_readback": true
+    }
+  ]
+}
