@@ -1,0 +1,36 @@
+{
+  "schema": "strawberry-t3-roles-v1",
+  "provider": "codex",
+  "selection": "owner-approved-2026-11-20",
+  "manager": {
+    "model": "gpt-6.1-sol",
+    "options": {
+      "reasoningEffort": "medium"
+    },
+    "execution": "current-parent-thread"
+  },
+  "implementation": {
+    "model": "gpt-6.2-sol",
+    "options": {
+      "reasoningEffort": "high"
+    }
+  },
+  "review": {
+    "model": "gpt-6.2-astra",
+    "options": {
+      "reasoningEffort": "high"
+    }
+  },
+  "fixer": {
+    "model": "gpt-6.2-sol",
+    "options": {
+      "reasoningEffort": "medium"
+    },
+    "enabled": false
+  },
+  "max_concurrent_implementation_workers": 1,
+  "live_blender_owner": "parent-only",
+  "automatic_heartbeat": false,
+  "automatic_merge": false,
+  "on_unavailable": "ask-owner-no-substitution"
+}
