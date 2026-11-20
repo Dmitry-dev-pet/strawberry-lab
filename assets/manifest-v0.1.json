@@ -1,0 +1,109 @@
+{
+  "schema_version": "strawberry-lab-assets-v1",
+  "artifact_version": "v0.1-baseline",
+  "project": "Dmitry-dev-pet/strawberry-lab",
+  "source_repository": "https://github.com/Dmitry-dev-pet/strawberry-lab",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1-W4FaqIQAgR6jdaVIYqriLfBuK8UjLJa",
+  "drive_access": "restricted; owner-authorized Google Drive access required",
+  "blender_version": "5.2.4 LTS",
+  "date": "2026-11-20",
+  "provenance": "independently generated procedural strawberry prototype; not Frucht author source",
+  "verification": {
+    "method": "each object re-downloaded from connected Google Drive and full SHA-256 compared with original bytes in ChatGPT container",
+    "all_files_matched_sha256": true,
+    "blender_scenes_opened": true,
+    "glb_headers_and_meshes_inspected": true,
+    "browser_viewer_visual_test": "not yet verified",
+    "github_rebuild_from_clean_checkout": "not yet verified"
+  },
+  "files": [
+    {
+      "name": "strawberry-whole.blend",
+      "role": "editable_blender_scene",
+      "size_bytes": 5840212,
+      "sha256": "c5e4335bee3ea79e0b30d4265a0b91effe1b064a3401a2f7f71207643b0543eb",
+      "drive_file_id": "190jpHVFrsECAhZzAcKKVj9ZzJjBM_ieQ",
+      "drive_url": "https://drive.google.com/file/d/190jpHVFrsECAhZzAcKKVj9ZzJjBM_ieQ/view"
+    },
+    {
+      "name": "strawberry-cut.blend",
+      "role": "editable_blender_scene",
+      "size_bytes": 5918677,
+      "sha256": "73fed95f259030ccd01579033e813df29dcf15c6c407bd0cf74d096e9ea2637e",
+      "drive_file_id": "12471cMSo0OKCplTxla1sYNEQPMw2B15j",
+      "drive_url": "https://drive.google.com/file/d/12471cMSo0OKCplTxla1sYNEQPMw2B15j/view"
+    },
+    {
+      "name": "skin.png",
+      "role": "procedural_skin_texture",
+      "size_bytes": 2970227,
+      "sha256": "9aaa81db25bd8225aa5ab94481f32d73a82c70ea29198bf950fd3f5e91b895fa",
+      "drive_file_id": "1ZmgyP5IydcFxYX8zzL4eRf3BoO_GNO5T",
+      "drive_url": "https://drive.google.com/file/d/1ZmgyP5IydcFxYX8zzL4eRf3BoO_GNO5T/view",
+      "pixel_dimensions": [
+        1536,
+        1536
+      ]
+    },
+    {
+      "name": "flesh.png",
+      "role": "procedural_flesh_texture",
+      "size_bytes": 922419,
+      "sha256": "ec386c647fddc32a9f4703baec1f9c04478f5fbb54e9ed9263139723d1aa51ab",
+      "drive_file_id": "1B-8rAnaXZfqbiEM9ZyXmwrCvIFsQANw3",
+      "drive_url": "https://drive.google.com/file/d/1B-8rAnaXZfqbiEM9ZyXmwrCvIFsQANw3/view",
+      "pixel_dimensions": [
+        1536,
+        1536
+      ]
+    },
+    {
+      "name": "strawberry-whole.glb",
+      "role": "baked_web_model",
+      "size_bytes": 13422204,
+      "sha256": "27053776cecee43ebcdf9bac8a9aef2521018587c4dc262fa8340fc5e0ba5a57",
+      "drive_file_id": "1HbpzBK9BTfQg6al3M1niLTnDoizQ4Vy5",
+      "drive_url": "https://drive.google.com/file/d/1HbpzBK9BTfQg6al3M1niLTnDoizQ4Vy5/view"
+    },
+    {
+      "name": "strawberry-cut.glb",
+      "role": "baked_web_model",
+      "size_bytes": 12700896,
+      "sha256": "763eca275a0446d4da74b5d8088456e31ca76e4ee3151983c3abe84832f39703",
+      "drive_file_id": "1TsZwI1kkLRh4VGO0eH3N-0kdgyZGkoME",
+      "drive_url": "https://drive.google.com/file/d/1TsZwI1kkLRh4VGO0eH3N-0kdgyZGkoME/view"
+    },
+    {
+      "name": "strawberry-whole.png",
+      "role": "blender_cycles_render",
+      "size_bytes": 1185311,
+      "sha256": "2d4181c339dce0ce310afe318103c6f42e9417ce95734c35c683ffa837a9464a",
+      "drive_file_id": "1ZA_CM4pZy3uDz21gB4_h0klnCe8xENui",
+      "drive_url": "https://drive.google.com/file/d/1ZA_CM4pZy3uDz21gB4_h0klnCe8xENui/view",
+      "pixel_dimensions": [
+        980,
+        980
+      ]
+    },
+    {
+      "name": "strawberry-cut.png",
+      "role": "blender_cycles_render",
+      "size_bytes": 855867,
+      "sha256": "b1948ffbf17830789fd5e9a4dae6fb9614e3a322a3bc582492e717963d17727c",
+      "drive_file_id": "17JH2TdSVu9qKxEFU0mrEFpWHiClcsY2s",
+      "drive_url": "https://drive.google.com/file/d/17JH2TdSVu9qKxEFU0mrEFpWHiClcsY2s/view",
+      "pixel_dimensions": [
+        860,
+        860
+      ]
+    },
+    {
+      "name": "strawberry-threejs.html",
+      "role": "standalone_embedded_viewer",
+      "size_bytes": 17532000,
+      "sha256": "00083a73ed0a500e17f30efed9c45d243a83698573c9d21e5228d3231a8192af",
+      "drive_file_id": "1BGyjmkqObMGc1GgqIghIhwZKZUFUdGgm",
+      "drive_url": "https://drive.google.com/file/d/1BGyjmkqObMGc1GgqIghIhwZKZUFUdGgm/view"
+    }
+  ]
+}
