@@ -1,0 +1,190 @@
+{
+  "schema_version": "strawberry-lab-assets-v1",
+  "artifact_version": "v0.5-m1d-live-achenes",
+  "date": "2026-11-20",
+  "project": "Dmitry-dev-pet/strawberry-lab",
+  "drive_folder_url": "https://drive.google.com/drive/folders/1x4TCZEZM8LEzsK8BFBB0TtHBXTGnWj1m",
+  "drive_access": "restricted_to_owner; public GitHub sources but private Blender assets",
+  "blender_version": "5.2.4 LTS",
+  "provenance": "independently implemented live SDF GN achene mask in retained Strawberry Lab M1c scenes and original M1a complete seed anchors; no Frucht commercial assets",
+  "input_scene_sha256": {
+    "m1a_whole": "333ac3f48df28cf2776efa492a15434c4c808a017ff0a48b1944e4fbeaf2493a",
+    "m1c_half": "a3e32cc1c7a44b57c4339b82782b5fd1b14df898e54b3a6d863e7b6670397096",
+    "m1c_bite": "37cd3b830e5d7b55ed6e048111c07390676e30f7b67c954f1d5a39e2994d5456"
+  },
+  "verification": {
+    "method": "All files uploaded to owner Google Drive, downloaded back via connected Drive, full SHA-256 and exact size compared against local original",
+    "readback_matched": 17,
+    "readback_total": 17,
+    "M1D_live_reopen_checks": [
+      "half: frame1 273, frame15 176, frame30 84; body SDF vertices 28976/21034/10078; zero non-manifold edges each pose",
+      "bite: frame1 481, frame15 453, frame30 539; body SDF vertices 30892/33614/44474; zero non-manifold edges each pose"
+    ],
+    "full_achene_anchors": 539,
+    "GN_mask": "same editable cutter object as M1c SDF body, GeometryNodeMeshToSDFGrid -> GeometryNodeSampleGrid -> Compare -> DeleteGeometry BEFORE InstanceOnPoints",
+    "frame_specific_GLB": "explicit evaluated mesh baking, frame 1 vs 30 sha256 and triangle count differ",
+    "browser_visual_verification": false,
+    "blender_cycles_renders_proven": true
+  },
+  "limitations": [
+    "Mask tests only achene center point vs cutter SDF, not the full achene solid; some rim-intersected achenes may protrude.",
+    "Other fruit attachments (calyx/stem) are not yet clipped when cutter is moved.",
+    "GLB snapshots do not retain Blender Geometry Nodes, animated cutters or complete Cycles shaders.",
+    "The cut material remains too smooth and scientific tissue parameters remain uncalibrated."
+  ],
+  "files": [
+    {
+      "name": "strawberry-m1d-half.blend",
+      "role": "editable_animated_blender",
+      "size_bytes": 3560646,
+      "sha256": "8a0a2e945d089bb639ce6aa8e65f42bcdd7f41d45a9256e8f043d3eed08d520d",
+      "drive_file_id": "1CP51zyJqYf4RCy_7rckoR0BqDOE7VxGn",
+      "drive_url": "https://drive.google.com/file/d/1CP51zyJqYf4RCy_7rckoR0BqDOE7VxGn/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-bite.blend",
+      "role": "editable_animated_blender",
+      "size_bytes": 3595440,
+      "sha256": "7069b24b7f1b138d3282241d0f60046d61745eac9c814f4e19211d2eab28f8d8",
+      "drive_file_id": "1SDe5NiUN9j0WhS65p3jW4HXc9TMStxLM",
+      "drive_url": "https://drive.google.com/file/d/1SDe5NiUN9j0WhS65p3jW4HXc9TMStxLM/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-half-frame01.glb",
+      "role": "geometry_GLb_static_pose",
+      "size_bytes": 6495360,
+      "sha256": "c8ed64cbd25434b5046c1492871ae48aa2dfbeea26bf54d2a622b8021bc922ad",
+      "drive_file_id": "1TAEXX8oisWz9c8l75newC41UY3IITgT4",
+      "drive_url": "https://drive.google.com/file/d/1TAEXX8oisWz9c8l75newC41UY3IITgT4/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-half-frame30.glb",
+      "role": "geometry_GLb_static_pose",
+      "size_bytes": 2163452,
+      "sha256": "01d5f2662c30b04db9682821bdf5cdd6e48ad90a70f9ba7a4740c280b4632bc4",
+      "drive_file_id": "1pSl5t9nklTxB_qqmg_jp2SDhuL45GwiQ",
+      "drive_url": "https://drive.google.com/file/d/1pSl5t9nklTxB_qqmg_jp2SDhuL45GwiQ/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-bite-frame01.glb",
+      "role": "geometry_GLb_static_pose",
+      "size_bytes": 10403904,
+      "sha256": "80b47ca8640202f58466cde09596dcda0e2a68fe9501d55ea5d432e29ea7dfd8",
+      "drive_file_id": "1R5yaB3IjqzCVQFLTWIpZvmsf0K1dJ5pF",
+      "drive_url": "https://drive.google.com/file/d/1R5yaB3IjqzCVQFLTWIpZvmsf0K1dJ5pF/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-bite-frame30.glb",
+      "role": "geometry_GLb_static_pose",
+      "size_bytes": 11959424,
+      "sha256": "83d9e9361679bbad004a21d9982b5afb2ec0642228dd59da6f419a36eb9d433c",
+      "drive_file_id": "1_yWOzlY49qjIVTMLjCwqckCFOjAOYs2o",
+      "drive_url": "https://drive.google.com/file/d/1_yWOzlY49qjIVTMLjCwqckCFOjAOYs2o/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-half-frame01.png",
+      "role": "cycles_render",
+      "size_bytes": 583593,
+      "sha256": "2e88c823edd84064eca25a3201ff7e54b2a868e46326f6b29538fb47c4ae844c",
+      "drive_file_id": "1WfnhThYyB7lmI25SGIfMi1takfQd4no3",
+      "drive_url": "https://drive.google.com/file/d/1WfnhThYyB7lmI25SGIfMi1takfQd4no3/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-half-frame30.png",
+      "role": "cycles_render",
+      "size_bytes": 529256,
+      "sha256": "faf46575e73c5b090846826ef6bac3cb8ff0ad07006dbc9489b3c429c2c7714f",
+      "drive_file_id": "1IxJajGIkgvPKs_DUnK7SYDvLQ2foTjgl",
+      "drive_url": "https://drive.google.com/file/d/1IxJajGIkgvPKs_DUnK7SYDvLQ2foTjgl/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-bite-frame01.png",
+      "role": "cycles_render",
+      "size_bytes": 642918,
+      "sha256": "8d2a6e2237fcc44751e2b46272b81fefec660e2245aa3f8238448dbcf71978f0",
+      "drive_file_id": "1u_TRb-HkLxCwLF4HD4aVuzoLjxOpnalL",
+      "drive_url": "https://drive.google.com/file/d/1u_TRb-HkLxCwLF4HD4aVuzoLjxOpnalL/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-bite-frame30.png",
+      "role": "cycles_render",
+      "size_bytes": 661809,
+      "sha256": "5e40b3f178ac530c92b715f82a899d7e38b0c40a6eb8c55d601dcf7d6f8dcb89",
+      "drive_file_id": "1T-M5eK3x48m9Ix0du3vl11HR3h3hDBlQ",
+      "drive_url": "https://drive.google.com/file/d/1T-M5eK3x48m9Ix0du3vl11HR3h3hDBlQ/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-live-cutter-comparison.jpg",
+      "role": "comparison_sheet",
+      "size_bytes": 157956,
+      "sha256": "31a9ba59535b732688943b226e6e55e11e8a92b6e85fa05329caeeceeabbc97a",
+      "drive_file_id": "1eTEDnADFsdX-u-rb2ylhw20mxu8lB6aq",
+      "drive_url": "https://drive.google.com/file/d/1eTEDnADFsdX-u-rb2ylhw20mxu8lB6aq/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-half-stats.json",
+      "role": "diagnostic_report",
+      "size_bytes": 922,
+      "sha256": "f313974fd9563d0a6f0377bf9f9be95fef42ed9933eac5b6197a29ec8511ef4a",
+      "drive_file_id": "1CLFEge_UgC_p7mLty342Mw8fmnOgua1a",
+      "drive_url": "https://drive.google.com/file/d/1CLFEge_UgC_p7mLty342Mw8fmnOgua1a/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-bite-stats.json",
+      "role": "diagnostic_report",
+      "size_bytes": 925,
+      "sha256": "f91d830139ab2552ae5a8e55c1e8293cb56ec0ba2beaae4610fac63c004cb0d4",
+      "drive_file_id": "10MzI7VPLfW5Q2yGdefxTMZUb6Rxb2UGd",
+      "drive_url": "https://drive.google.com/file/d/10MzI7VPLfW5Q2yGdefxTMZUb6Rxb2UGd/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-half-frame01-export.json",
+      "role": "diagnostic_report",
+      "size_bytes": 482,
+      "sha256": "c27128478c1cb967ca6fe8b96bac2b2246577e62168ae2c0261ecf735e5797da",
+      "drive_file_id": "1TMvR9FNkds2k3qBBypf_9TXD1Q3EidCq",
+      "drive_url": "https://drive.google.com/file/d/1TMvR9FNkds2k3qBBypf_9TXD1Q3EidCq/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-half-frame30-export.json",
+      "role": "diagnostic_report",
+      "size_bytes": 482,
+      "sha256": "5426c6d220e7bcd40f10661aeb692fb5c9a9a2d2b833a7f6ce6b0b021991f3d7",
+      "drive_file_id": "1ufGen_uYBzePsTGEZXh0J-5dZsrejwN3",
+      "drive_url": "https://drive.google.com/file/d/1ufGen_uYBzePsTGEZXh0J-5dZsrejwN3/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-bite-frame01-export.json",
+      "role": "diagnostic_report",
+      "size_bytes": 484,
+      "sha256": "95473533a79a5d322713d90263b4c48a79367a1d3634225c85cccf24127f6838",
+      "drive_file_id": "1ruheK85w6dM6gleQTAvRVjbp5NfI2P2I",
+      "drive_url": "https://drive.google.com/file/d/1ruheK85w6dM6gleQTAvRVjbp5NfI2P2I/view",
+      "verified_by_drive_readback_sha256": true
+    },
+    {
+      "name": "strawberry-m1d-bite-frame30-export.json",
+      "role": "diagnostic_report",
+      "size_bytes": 485,
+      "sha256": "66af65292dd786258792df734fd8a60315ac9ae949e3c9e787f87f969408c675",
+      "drive_file_id": "1Y_z64mLKytEQTJu8tUe-BHje7sF3sbPQ",
+      "drive_url": "https://drive.google.com/file/d/1Y_z64mLKytEQTJu8tUe-BHje7sF3sbPQ/view",
+      "verified_by_drive_readback_sha256": true
+    }
+  ]
+}
