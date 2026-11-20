@@ -50,3 +50,13 @@ Implemented and tested in Blender 5.2.4:
 - [M1d results](docs/m1d-results.md) / [manifest](assets/manifest-m1d.json): two editable .blend, four GLB snapshots, four Cycles PNG, one comparison sheet and six JSON reports; all **17/17 SHA-256 readback PASS** from restricted owner Google Drive [v0.5-m1d-live-achenes](https://drive.google.com/drive/folders/1x4TCZEZM8LEzsK8BFBB0TtHBXTGnWj1m).
 
 Limitations NOT yet implemented: per-achene solid/cutter intersection (currently centre-point mask), live cutting of calyx/stem, credible wet internal tissue, photoreal PBR GLB. Keep [Issue #8](https://github.com/Dmitry-dev-pet/strawberry-lab/issues/8) open for the remaining visual work. Do not claim author-grade Frucht fidelity.
+
+
+## M1e architecture reference — Frucht Free Kiwi 0.4.3 (audited 20 Nov 2026)
+- REQUIRED before further M1e design: [docs/kiwi-architecture-audit.md](docs/kiwi-architecture-audit.md) and [Issue #9](https://github.com/Dmitry-dev-pet/strawberry-lab/issues/9).
+- Directly opened free `daten/kiwi.blend` in Blender 5.2.4. Source is only **KIWI**, not paid strawberry. All source ZIP / Blender / graph metadata live in private Drive reference folder (linked in audit). The `blender_manifest.toml` declares **GPL-3.0-or-later**.
+- Kiwi root group uses `Mesh Boolean DIFFERENCE` and delegates shape, seeds, cut-cap cells, edge repair, hairs and calyx; shared addon `schnitte.py` separately implements SDF workflows. No false claim that free Kiwi root uses SDF.
+- Kiwi `Zellen am Schnitt` includes five volume cubes and four each named-grid store/get; `Zelltypen` has 3×3D+2×4D Voronoi; `Gewebe` yields 19 tissue fields. This is **engineering reference only**; strawberry must have its own anatomy.
+- M1d currently has 3 GN groups / 41 group nodes but extensive Python-built geometry/materials (counts are NOT directly comparable as performance/fidelity metrics).
+- Priority: (1) all parts respond to the same cutter, radius-aware seed intersection and calyx/stem mask; (2) independently testable `CutSurface` with tissue fields and 3D volume grids; (3) Fast/Exact + benchmark. **M1e refactor not yet implemented**. Do not claim that a docs audit builds a new 3D model.
+- The generic read-only audit tool [scripts/audit_node_architecture.py](scripts/audit_node_architecture.py) may be run on reference and own scenes. It writes aggregate summaries only; DO NOT check proprietary/free GPL source node exports into this repo without a licensing review.
