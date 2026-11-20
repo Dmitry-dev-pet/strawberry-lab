@@ -22,6 +22,12 @@ GitHub `main` и Issues — источник истины. История чат
 ## Architecture target
 `shape field -> tissue fields -> feature generators -> true arbitrary cut -> materials -> render/export`. Переиспользовать собственные алгоритмы между фруктами, отделять Blender-зависимые ноды от чистых математических модулей. Разрез должен иметь геометрическую, а не только шейдерную глубину.
 
+## Morphometry v1 — primary numerical tables (20 Nov 2026)
+
+The *measured-data registry* is [data/morphometry/measurements-v1.json](data/morphometry/measurements-v1.json), 205 observations across James 1974 (strawberry tissue), Ariza 2011 (fruit shape/achenes), Currie 1997 (kiwifruit tissue), Jeon et al. 2024 (yellow kiwi tissues under growth regulator). Cross-source authority and limits: [docs/morphometry-data-v1.md](docs/morphometry-data-v1.md). Exact-context API `src/fruit_morphometry.py`, 10 tests in `tests/test_fruit_morphometry.py`, strict evidence snapshots under `data/morphometry/presets/`. [M1f Issue #11](https://github.com/Dmitry-dev-pet/strawberry-lab/issues/11) tracks application to Blender.
+
+**Do not quietly promote samples into global defaults.** Source, taxon, cultivar, organ, tissue, growth stage, treatment, measurement axis, unit and uncertainty must match; missing source values stay missing (e.g. James ripe strawberry D/E cortical cell sizes; typo in Jecy Gold SE). `Currie1997` chapter 3 cultivar remains UNVERIFIED. Define mm→Blender-unit physical scale before sampling cell widths. These values are observations, **not** Blender-calibrated source defaults. Vessel thicknesses and achene pit depth still need matched primary measurements. Datasets + JSON presets are not a finished Geometry Nodes fruit engine; no Blender geometry was modified in this milestone.
+
 ## Fruit Engine scientific evidence gate — adopted 20 Nov 2026
 
 **Before refactoring M1d into a fruit-general model, READ:**
