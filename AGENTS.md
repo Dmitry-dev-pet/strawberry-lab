@@ -29,3 +29,12 @@ GitHub `main` и Issues — источник истины. История чат
 - **M1b experimental (20 Nov 2026):** `src/strawberry_cells.py` (independent deterministic 3D Voronoi tissue field) + `src/generate_cellular_strawberry.py` (photoreal/anatomy presets; 3 Blender scenes; 2 GLBs). [docs/m1b-results.md](docs/m1b-results.md) + [assets/manifest-m1b.json](assets/manifest-m1b.json). All nine Drive artifacts passed SHA-256 readback, Python tests 15/15. **Cells are implicit 3D fields that modulate cut-mesh geometry and vertex colors, not individually watertight cell volumes, histological ground truth, or photoreal production-ready tissue.** Current data has not established credible macro-scale microstructure. Arbitrary plane cuts are not implemented. Source of anatomy: [docs/strawberry-biology-spec.md](docs/strawberry-biology-spec.md).
 
 **Canonical binary storage**: `Google Drive / Strawberry Lab / v0.2-m1a-anatomy`, restricted to owner. Do not overwrite the previous `v0.1-baseline` or release private reference footage. Publish SHA-256 manifest with verified readback after every Drive upload.
+
+
+## M1c current (20 November 2026) — SDF + rest-space tissue cache
+- Source: `src/bake_rest_atlas.py`, `src/sdf_cut_strawberry.py`, `src/validate_sdf_scene.py`, `tests/test_atlas.py`.
+- [M1c results](docs/m1c-results.md) / [Drive asset manifest](assets/manifest-m1c.json) / [Issue #8](https://github.com/Dmitry-dev-pet/strawberry-lab/issues/8).
+- Verified: 2/2 true SDF evaluated Blender meshes are watertight, two arbitrary cutter shapes, 64³ rest-coordinate voxel atlas with trilinear shader interpolation, 3 Voronoi wet-surface normal layers, 6 pure Python atlas tests PASS, two scene validators PASS, 11/11 Drive SHA-256 verification PASS.
+- Key limitation: achene positions are masked at **scene generation time** based on cutter pose, **not dynamically** when the cutter object is moved later. The live SDF body modifier updates, but GN seeds may then become incorrect.
+- Another limit: web-exported GLB has neither Blender's full rest-space sampling shader nor its Cycles normal detail. Do not claim screenshot parity with browser.
+- The full strawberry Frucht source remains unavailable; our code is independent and uncalibrated scientifically, not a clone. Next priority after SDF is live seed masking and realistic cut structure, not more node count for its own sake.
