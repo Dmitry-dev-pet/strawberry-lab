@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.blend1
+*.blend2
+# Generated files; commit only intentionally curated and reviewed assets.
+src/*.png
+src/*.jpg
+src/*.glb
+src/*.glb.gz
+src/*.blend
+src/*.mp4
+renders/tmp/
+build/
+dist/
