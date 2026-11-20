@@ -14,7 +14,17 @@
     "blender_scenes_opened": true,
     "glb_headers_and_meshes_inspected": true,
     "browser_viewer_visual_test": "not yet verified",
-    "github_rebuild_from_clean_checkout": "not yet verified"
+    "github_rebuild_from_clean_checkout": "not yet verified",
+    "clean_directory_source_rebuild": {
+      "status": "verified",
+      "date": "2026-11-20",
+      "blender": "5.2.4 LTS",
+      "method": "fresh isolated build directory, exact contents of src/generate_strawberry.py as GitHub blob 9de5b9d88c32b318c5b13e6ea6f8aa94a563d5ea and texture script blob eadca6730915bf732d63b6b13c09468d9198ee6b; render disabled for speed",
+      "texture_sha256_match_baseline": true,
+      "glb_sha256_match_baseline": true,
+      "blend_files_open_but_not_byte_identical": true,
+      "render_reproduction_not_performed_in_clean_build": true
+    }
   },
   "files": [
     {
