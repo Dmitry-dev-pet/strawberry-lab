@@ -57,3 +57,8 @@ python3 scripts/verify_assets.py assets/manifest-v0.1.json /path/to/downloaded/v
 
 **Build verification:** a clean-directory build from GitHub-matched source produced textures and both GLB files with SHA-256 hashes identical to the Drive baseline. Newly saved Blender scenes work but are not binary-identical; see [rebuild verification report](docs/rebuild-verification.md).
 
+
+
+## Визуальный эталон: 38-секундный фильм Frucht
+
+Для M1 выбран [оригинальный фильм автора от 13 ноября 2026](https://strawberry-methodology.pages.dev/#kopfclip). Описан [протокол покадрового анализа](docs/visual-reference-frucht.md), добавлен [проверенный локальный извлекатель кадров](scripts/extract_reference_frames.py) (ffmpeg/ffprobe/Pillow) и заведена [задача #5](https://github.com/Dmitry-dev-pet/strawberry-lab/issues/5). **Реальные кадры автора пока не получены и не анализировались**: встроенный проигрыватель не предоставил доступный прямой MP4/WebM. Референсная папка на [Drive](https://drive.google.com/drive/folders/1uR3R1YWsUQ98FAOAXmRRaaHCs3NAwmsG) пока содержит только метаданные и инструмент; копии видео/кадров в публичном репозитории не будет.
