@@ -1,0 +1,17 @@
+{
+ "schema": "strawberry-lab.frucht-video-display-state.1",
+ "date": "2026-11-21",
+ "video_sha256": "cbe17cfd0ffa0e7697462892a28bd339e0b9666418276287499c49ca6bae684e",
+ "video_duration_seconds": 37.98,
+ "video_fps": 30,
+ "video_resolution": [1080,1350],
+ "author_zip_sha256": "aaa218470ab068ed1cb806308d9a4da1d43fd5d9e3de30f6486ac7d204787877",
+ "python_module_count": 46,
+ "literal_video_controls_absent_from_free_py": ["Core Fibers","Core Cut Angle","Cut Oblique","Macro Lens","Look Height","Camera Orbit"],
+ "source_vascular_controls_present": ["Vessel Strength","Vessel Strands","Fiber Width","Fiber Sag","Halo Width","Fiber Pattern"],
+ "counterexample": {"time_seconds":16.30,"core_fibers_label":1.0,"visible_fiber_network":false,"camera_orbit_deg":687,"cut_oblique":0.0},
+ "conclusion": "Distinct display/cutting state is a plausible contributor, not verified commercial node wiring; no isolated switch test available in source video",
+ "test_performed": "read actual MP4, frame-by-frame manual inspection and literal-source-label scan",
+ "not_performed": ["paid erdbeere.blend runtime test","isolated UI slider test","new Blender clip-vs-fiber A/B render"],
+ "rights_policy": "original video frames and vendor code private only"
+}

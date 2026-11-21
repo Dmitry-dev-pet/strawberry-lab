@@ -1,0 +1,95 @@
+{
+  "schema": "strawberry-lab.frucht-display-review-v1",
+  "date": "2026-11-21",
+  "source_video_sha256": "cbe17cfd0ffa0e7697462892a28bd339e0b9666418276287499c49ca6bae684e",
+  "reuses_vendor_images_privately": true,
+  "source_video_included": false,
+  "vendor_source_code_included": false,
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 1127,
+      "sha256": "80b9fa03fe17cc6cf65a4cd8ab936559e27893611089fe8d5d4195c5a0926b36"
+    },
+    {
+      "name": "VIDEO_DISPLAY_STATE_AUDIT.md",
+      "bytes": 9307,
+      "sha256": "000c8821bd417ca5791f14608adcc2fed2229d1cf4eb3dfc7e5a32cc3b6a63fa"
+    },
+    {
+      "name": "source-qa.json",
+      "bytes": 1237,
+      "sha256": "4b86bce68d1291245a64d42df22dd1d976c32c539694bda13a9523cc5518daac"
+    },
+    {
+      "name": "six-real-frames-controls.jpg",
+      "bytes": 474373,
+      "sha256": "6c5193a0107000456479746c55965ed66755b63684258427ed0a5a4cb8e35141"
+    },
+    {
+      "name": "visible-fibers-vs-cut.jpg",
+      "bytes": 240424,
+      "sha256": "48d56dacd05b04dc9d16140173525718df0390ab61842e4e803476c1d31ebb82"
+    },
+    {
+      "name": "build_evidence.py",
+      "bytes": 2338,
+      "sha256": "505c6f064156f8679763b50b9eb1672dbbb870bd452da68072d1a345a9566a0f"
+    },
+    {
+      "name": "timeline-2.jpg",
+      "bytes": 633034,
+      "sha256": "f8b6ec4ac7ea2fb272d37222e17cb1db1dec46339174af9d239d2cf7780750a1"
+    },
+    {
+      "name": "timeline-3.jpg",
+      "bytes": 590594,
+      "sha256": "3455b3871b614e4739db14380e5ec80adb0f8e3cdfb1aa5720326d93d70d90a5"
+    },
+    {
+      "name": "frame-13.10.jpg",
+      "bytes": 161382,
+      "sha256": "1e9b478e090eedabaf664e94a0e79bcc6c7fed0b3dd652bcdcb5d752eda6b4ec"
+    },
+    {
+      "name": "frame-13.30.jpg",
+      "bytes": 169566,
+      "sha256": "f4dca97240ffcd5f6d9e52e69872c4924714004a955935040c6a2fc4004f0517"
+    },
+    {
+      "name": "frame-13.50.jpg",
+      "bytes": 176245,
+      "sha256": "a4e9799c40541082a67b842d2a53cbe52fe3543a9b5c57258c6d2a2a5385a9e9"
+    },
+    {
+      "name": "frame-14.30.jpg",
+      "bytes": 212892,
+      "sha256": "1a49c066faa3b0b89b3e795b90a916e899f410447db2a882256f18cef91c49eb"
+    },
+    {
+      "name": "frame-15.10.jpg",
+      "bytes": 225794,
+      "sha256": "8f9af0b9e10eef9a1a71d592625f24330d4767527eefb3f99990ce103ad65b96"
+    },
+    {
+      "name": "frame-15.50.jpg",
+      "bytes": 195708,
+      "sha256": "402acecf59275cbabb375db8470ef438baceada176b9bfe4c43277a8d41e4f53"
+    },
+    {
+      "name": "frame-16.10.jpg",
+      "bytes": 144002,
+      "sha256": "44d96d123f73fff6a1db82c5044ed5a22030514f6ffeb415640559d6a1f4cff3"
+    },
+    {
+      "name": "frame-16.30.jpg",
+      "bytes": 150101,
+      "sha256": "33e272c92f7a5050fd81a6eb2da39542f9453150af427681dda950c05bc4733e"
+    },
+    {
+      "name": "frame-16.50.jpg",
+      "bytes": 154267,
+      "sha256": "61219240f48f3b16564a63befe68942bc0d3ac05f8dac40fa4c1ab1d31c91c16"
+    }
+  ]
+}
