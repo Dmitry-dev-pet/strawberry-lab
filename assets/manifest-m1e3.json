@@ -1,0 +1,162 @@
+{
+  "schema": "strawberry-lab.m1e3.verified-assets.1",
+  "date": "2026-11-21",
+  "repository": "Dmitry-dev-pet/strawberry-lab",
+  "base_milestone": "M1e2 staged source volume and live knife, PR #16",
+  "milestone": "M1e3 independently generated CutSurface mesh, spatially anchored to 3D rest field",
+  "source_ownership": "Independent Strawberry Lab code; Frucht proprietary source/GPL Kiwi graph not copied",
+  "private_drive_folder": "https://drive.google.com/drive/folders/1YA3-cV8POtrmuRzXHq-3kdZrZ4TKJXoN",
+  "source_blend_prior_m1e2": {
+    "sha256": "bc420445fff359699d4c89869b7b60b6dbe7cb83c8f0eb31018b92852e35d221",
+    "drive_file_id": "1HhPbAO0DzJjL-9wfhWsy5zf1B_mUek-W"
+  },
+  "blender": "5.2.4 LTS",
+  "checks": {
+    "validated_frames": [
+      1,
+      15,
+      30
+    ],
+    "nonmanifold_edges_fast": [
+      0,
+      0,
+      0
+    ],
+    "nonmanifold_edges_exact": [
+      0,
+      0,
+      0
+    ],
+    "surface_components_fast_exact": [
+      2,
+      1,
+      1
+    ],
+    "verts_fast": [
+      177884,
+      125922,
+      83570
+    ],
+    "verts_exact": [
+      711524,
+      503682,
+      334274
+    ],
+    "skin_unchanged_sample_size": 2500,
+    "skin_max_change_units": 0.0,
+    "changed_cut_sample_over_0_001": 1254,
+    "changed_cavity_sample_over_0_001": 1921,
+    "drive_full_sha256_readback": "14/14 PASS",
+    "exact_downloaded_blend_reopened": "PASS; geometry and material labels identical; runtimes nondeterministic",
+    "renderer": "Blender Cycles CPU",
+    "ab_comparison": "720x720 px; 16 samples; same camera, same lighting; baseline Fast Exact",
+    "macro": "520x520 px, 6 samples, closer camera; not a controlled lighting A/B"
+  },
+  "limits": [
+    "An artistic geometric relief field, not measured cell walls or actual 3D cell packing",
+    "Subdivision currently occurs on entire mesh: Fast 4x, Exact 16x vertices",
+    "M1e2 SDF source is staged but NOT baked",
+    "No genuine vessel geometry or author-quality materials reconstructed",
+    "Non-manifold checking does not prove absolute absence of self-intersections"
+  ],
+  "files": [
+    {
+      "name": "strawberry-m1e3-cutsurface.blend",
+      "sha256": "e3603d05af7e7b4b542478915f52aa7602dd209451d48132ee3f4b2c4d6007ce",
+      "size_bytes": 5073493,
+      "verified": true,
+      "drive_file_id": "1T-EisMizG2gfWgMyVNmv_W5UubiacWVA"
+    },
+    {
+      "name": "strawberry-m1e3-cutsurface-fast.blend",
+      "sha256": "6955539dbb04f4c98dbb17e36ada8b72531dca0df0802b0f38827c0991adc57d",
+      "size_bytes": 5073508,
+      "verified": true,
+      "drive_file_id": "1AwldO3qeFkiZumiuIqM203bMuHKaq5LW"
+    },
+    {
+      "name": "frame15-baseline.png",
+      "sha256": "8dc05b3242fd90a2f721ac7fa1ea9a27a517278b7cae771ca4e7cad9ef9540f4",
+      "size_bytes": 572945,
+      "verified": true,
+      "drive_file_id": "1jpHi-2y0Lcj4GhJcHE7uB3CVQ2_0rPD1"
+    },
+    {
+      "name": "frame15-fast-cycles.png",
+      "sha256": "828df1706e65757829b307294ba55312c532d949c2c364c9e79e1a7d80bd39b9",
+      "size_bytes": 614998,
+      "verified": true,
+      "drive_file_id": "1vQrTtW3pQxN-CKr-0ShSTCS-fBIqXMt8"
+    },
+    {
+      "name": "frame15-cycles.png",
+      "sha256": "472fd129b453c49bed91d357ccb2a322dc1142e574b7814da9bdd362ee1a303d",
+      "size_bytes": 643975,
+      "verified": true,
+      "drive_file_id": "164ULEKAidiE4uHValDu8Oqg2BlCuLoym"
+    },
+    {
+      "name": "frame15-macro-cycles.png",
+      "sha256": "e7b0e434d048acae5479afb3c8d0d942d2c003bf4d399ed793cc8cc290a5d99f",
+      "size_bytes": 449945,
+      "verified": true,
+      "drive_file_id": "11zr_r_UuoNgH6qdM6kPsvkME50fr5OJp"
+    },
+    {
+      "name": "comparison-baseline-fast-exact.jpg",
+      "sha256": "99bf9f53464896847c29dccd0fa04efa10ea75d8e9ed7b3ecdc831a54cddccda",
+      "size_bytes": 164993,
+      "verified": true,
+      "drive_file_id": "1jGJgcSFg4Eb_WuwjPindGu4VNybn5myN"
+    },
+    {
+      "name": "validation.json",
+      "sha256": "ffe1ee1a6d42b160949421601ca4469675d14f8883a44b686c783e04b79f53cd",
+      "size_bytes": 1625,
+      "verified": true,
+      "drive_file_id": "13MghUJC8KtRNeKM5SmvHVd4PQizHsUkA"
+    },
+    {
+      "name": "validation-fast.json",
+      "sha256": "64e705fe64a233d88f74d362b49a1a4c3cb011d7730f66e410d2eb237b66b75b",
+      "size_bytes": 1619,
+      "verified": true,
+      "drive_file_id": "1v54ZsKzQMSB44fzaHEqZtbI2wzTXkkXD"
+    },
+    {
+      "name": "build_cutsurface.py",
+      "sha256": "135e84b659f8a57882956ca0a1fbf8dd86e5b3284f2112042d0ea040e344e657",
+      "size_bytes": 9044,
+      "verified": true,
+      "drive_file_id": "11ug5yxnEMLdBSAjUir6DT4xC_IlSI_pG"
+    },
+    {
+      "name": "validate_cutsurface.py",
+      "sha256": "13bad1d7d78d35f7349b196d116363556fcd4ba2dacd8d60aa03fd057db6e0b2",
+      "size_bytes": 6754,
+      "verified": true,
+      "drive_file_id": "1QPEo6TDmzMig9cvbhGWbMRSUDvZB3vus"
+    },
+    {
+      "name": "render_cutsurface_macro.py",
+      "sha256": "af45fad832477e98bd6f42f30573d0e408410a71a91e36792268228297506b39",
+      "size_bytes": 1266,
+      "verified": true,
+      "drive_file_id": "1ydqYSirf1EN67JoyPmIYv4EJKv4BSKJX"
+    },
+    {
+      "name": "report.md",
+      "sha256": "9ab976e92628a3b1656d21cc82559d026ab4b0f42750a1c553999b17b8f72ee8",
+      "size_bytes": 6814,
+      "verified": true,
+      "drive_file_id": "13cvsLpur9Ty1u2-WcbYsVa8YNksZO-2j"
+    },
+    {
+      "name": "README.md",
+      "sha256": "0512207182b12918a73cb77b914c9ef6974ead809c3062da8eacf92170fbedfd",
+      "size_bytes": 1536,
+      "verified": true,
+      "drive_file_id": "1Up3bhNxAT6FSGGIVS3McbnovvVZm9Fzy"
+    }
+  ]
+}
