@@ -1,0 +1,22 @@
+{
+  "schema": "strawberry-lab.volume-first-v2.seed-link-1",
+  "source": "M1a actual 539 seed centers extracted from owned Geometry Nodes plus own projective mapping into v1 hull",
+  "strands": 28,
+  "connected_achenes": 539,
+  "achene_branch_ratio": "1:1",
+  "generated_curves": 567,
+  "spatial_points": 29456,
+  "endpoint_max_error": 5.2872895975000094e-08,
+  "parameters": {
+    "strands": 28,
+    "strand_width": 1.0,
+    "fiber_width": 1.0,
+    "fiber_sag": 1.0,
+    "pattern": 20261121
+  },
+  "notes": [
+    "Mappings from M1a center coordinates to Volume First hull are synthetic",
+    "Seed-linked architecture is independently implemented; no Frucht source nodes or binaries copied",
+    "Prototype is for 3D morphology audit, not calibrated anatomy"
+  ]
+}

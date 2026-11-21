@@ -1,0 +1,44 @@
+{
+  "schema": "strawberry-lab.volume-first-v2.drive-readback.1",
+  "status": "PASS",
+  "checked": 5,
+  "items": [
+    {
+      "file": "v2-seed-linked-539-diagnostic.blend",
+      "uploaded_sha256": "fb39fe2e327f04e40eb8715062a3a3845930a70f9b52e663331dda0a330b9cf8",
+      "downloaded_sha256": "fb39fe2e327f04e40eb8715062a3a3845930a70f9b52e663331dda0a330b9cf8",
+      "bytes": 27340748,
+      "pass": true
+    },
+    {
+      "file": "v2-seed-anchored-vascular-network.npz",
+      "uploaded_sha256": "d1d078b6ef2a1a3b3c4d67d0bffb9483e25c0fbc2910fef2fa2bfeecc3b248a3",
+      "downloaded_sha256": "d1d078b6ef2a1a3b3c4d67d0bffb9483e25c0fbc2910fef2fa2bfeecc3b248a3",
+      "bytes": 429102,
+      "pass": true
+    },
+    {
+      "file": "m1a-539-actual-achene-centers.npz",
+      "uploaded_sha256": "f1510c3abc6bd953e4105f983b235363d149cbd48e4e87b63ecb9080f8c7f79d",
+      "downloaded_sha256": "f1510c3abc6bd953e4105f983b235363d149cbd48e4e87b63ecb9080f8c7f79d",
+      "bytes": 28004,
+      "pass": true
+    },
+    {
+      "file": "manifest-v2.json",
+      "uploaded_sha256": "45886c1a4659bcf37cc6137faffd18bfe6242177c1aeeafc5b79bb54bc4fbad4",
+      "downloaded_sha256": "45886c1a4659bcf37cc6137faffd18bfe6242177c1aeeafc5b79bb54bc4fbad4",
+      "bytes": 4760,
+      "pass": true
+    },
+    {
+      "file": "strawberry-volume-first-v2-seedlinks-complete.zip",
+      "uploaded_sha256": "07565ed1a45fbd6972e12d312dd354fdffa852535cad32624325c13de5ab313f",
+      "downloaded_sha256": "07565ed1a45fbd6972e12d312dd354fdffa852535cad32624325c13de5ab313f",
+      "bytes": 67775708,
+      "pass": true
+    }
+  ],
+  "downloaded_blend_reopened_blender_5_2_4_validation": "PASS",
+  "github_binary_policy": "No private vendor reference imagery or .blend in public git"
+}

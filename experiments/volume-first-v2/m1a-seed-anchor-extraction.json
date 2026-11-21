@@ -1,0 +1,20 @@
+{
+  "blender": "5.2.4 LTS",
+  "source": "original owned M1a GN achenes and M1a Vascular network in archived M1e5",
+  "frame": 1,
+  "achene_connected_components": 539,
+  "source_vascular_curves": 539,
+  "seed_mesh_component_vertices_unique": [
+    168
+  ],
+  "unique_matched_seed_centers": 539,
+  "nearest_dist_min": 0.003071433864533901,
+  "nearest_dist_median": 0.0039765071123838425,
+  "nearest_dist_max": 0.004965193569660187,
+  "seed_z_range": [
+    -1.4810244533277692,
+    1.472081986921174
+  ],
+  "is_1_to_1_seed_curve_mapping": true,
+  "note": "This establishes endpoint proximity to actual M1a seeds, not exact anatomical reality or Frucht internal nodes."
+}

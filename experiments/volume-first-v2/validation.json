@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "blender": "5.2.4 LTS",
+  "source_m1a_seed_centers": 539,
+  "original_m1a_vascular_paths": 539,
+  "unique_match": 539,
+  "matched_original_seed_center_median_distance": 0.0039765071123838425,
+  "matched_original_seed_center_max_distance": 0.004965193569660187,
+  "v2_central_strands": 28,
+  "v2_seed_ending_branches": 539,
+  "v2_markers": 539,
+  "controlled_main_strand_counts_tested": [
+    14,
+    28,
+    40
+  ],
+  "strands_changed_while_seed_terminal_positions_unchanged": true,
+  "max_saved_blend_endpoint_error": 0.0,
+  "old_494_curves_retained": true,
+  "old_fiber_objects_visible_in_v2": false,
+  "three_contexts": [
+    "only",
+    "translucent",
+    "original half-cut"
+  ],
+  "limits": [
+    "Reprojected achene centers from M1a to volume-first hull",
+    "Diagnostic overlays, no new cut-surface tissue yet",
+    "Not the paid Frucht node graph",
+    "No independent botanical calibration"
+  ]
+}
