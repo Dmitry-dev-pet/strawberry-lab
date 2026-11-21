@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "substituted_PR32_beauty_rejected": true,
+  "rejection": "AssertionError: ('zones', 'scene_sha256')"
+}

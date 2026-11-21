@@ -1,0 +1,151 @@
+{
+  "root_relative_to_repo": "build/tissue-zones-v1",
+  "input_files": {
+    "pr29-original.blend": "56b6d516e8794fb855512978e90e37cd754374a594fb4c5103e672c960a031cf",
+    "pr30-corrected.blend": "0b8af93c399d0077f51f864f7b9f55673b822a1755e2badcc626f5bfc6256bca",
+    "pr31-layer-modes.blend": "509725824a8707aade9ca19153c95b4d2de6a2a5b49a827afbb6c0ca11cb4a53",
+    "pr32-exact.blend": "c6d39d20e90f75826167a5b4345752ef874d62641e0ff428f38a68050ec7da3c"
+  },
+  "files": {
+    "atlas-inventory.json": {
+      "bytes": 8360,
+      "sha256": "c5fef95ecbdae0658214e1c04138602a4f94bc240e1e1ef439791c9b51f799f6"
+    },
+    "atlas-tests.log": {
+      "bytes": 1075,
+      "sha256": "5c2dbca381820febbb3d5873d7fbbc7cab3206c9b6a08801340c64b925cf172f"
+    },
+    "build-report.json": {
+      "bytes": 608,
+      "sha256": "45b764703b6ca1a347bb27fa1c6b2b02e01a49b0e2075c182d52c66d0252c211"
+    },
+    "build.log": {
+      "bytes": 819,
+      "sha256": "35f2d77ebd241c9f028e87e7b43ab7f42ad24a40033f75592dc9c690dfb80057"
+    },
+    "comparison.png": {
+      "bytes": 1177057,
+      "sha256": "d4e30bc93ccba33bdbca2feec9bcb90dd7ab855f6524a13f51aef776e2438bff"
+    },
+    "cross-layer.log": {
+      "bytes": 4329,
+      "sha256": "d4f729193d7245b480073a6d30c590d1d828414048cc73804e9a9eaec2e4f075"
+    },
+    "existing-tests.log": {
+      "bytes": 12665,
+      "sha256": "f1e39b77cf945008eec6ad6a60fcd2ecc959e28ad27b8e4acb6f3a1953db4522"
+    },
+    "qa-saved-from-exact.blend": {
+      "bytes": 5061389,
+      "sha256": "1e4756905afb00882082b40529ea2fc30bccad9f13b2441b76193038d72bf66a"
+    },
+    "render-qa.json": {
+      "bytes": 33750,
+      "sha256": "4b82e7eb12220b40bc0847e08dc32671be01470f3a8f2ff1afcc042122603695"
+    },
+    "strawberry-tissue-zones.blend": {
+      "bytes": 5061036,
+      "sha256": "0f552c79054dec8ca82d2891bc2b5d6930eef64bc545e8188d808b946e1c66e2"
+    },
+    "validation.json": {
+      "bytes": 17449,
+      "sha256": "67506402529824a8cdb86ed3b59c47464df6ad1e51c6029f3da2f3ea00299770"
+    },
+    "validation.log": {
+      "bytes": 28148,
+      "sha256": "672218c4c4368ffe0d6c54c98e04f8e553791a41afd96c4c3c789d82e09f3c3d"
+    },
+    "renders/pr32-oblique-clay.json": {
+      "bytes": 3712,
+      "sha256": "4ac50189440af0b8d2dc145328d2d0b98b6d649ce9b235a659755d023b266052"
+    },
+    "renders/pr32-oblique-clay.log": {
+      "bytes": 3286,
+      "sha256": "0dbc665fbba086c03d8c20a325e4b86fd5500dc4d8d29d1bbabf8ee7b172180b"
+    },
+    "renders/pr32-oblique-clay.png": {
+      "bytes": 518964,
+      "sha256": "802023e4cdf3200324a2bf8879abb7efdcfa64a059d2c1b162a34e7716901c6a"
+    },
+    "renders/pr32-saved-beauty.json": {
+      "bytes": 3676,
+      "sha256": "1829be9d16a957735e7ea8dfd4b088224ea8e6dbcab781f03409933cf797e483"
+    },
+    "renders/pr32-saved-beauty.log": {
+      "bytes": 3631,
+      "sha256": "f4b4501e289db3d912d880e7a7506ec396864bfd91b3ef2e760873cca97490ff"
+    },
+    "renders/pr32-saved-beauty.png": {
+      "bytes": 530470,
+      "sha256": "1f6da8063e1bdef9cb999f20860b1f43ec34fb207c33a6af86521356138e22bd"
+    },
+    "renders/pr32-saved-clay.json": {
+      "bytes": 3706,
+      "sha256": "99f124247734179d5cfa5fed4bf99123616d423811b0fa84b977c3d701699650"
+    },
+    "renders/pr32-saved-clay.log": {
+      "bytes": 3276,
+      "sha256": "167dfbdcea42355caf441d092eb20f74683ae0ba8f980ac320d6a195ac205a53"
+    },
+    "renders/pr32-saved-clay.png": {
+      "bytes": 535940,
+      "sha256": "100bb8f8deb03ff499fef37919dd192f0cb9dfecef78cb92ab1c69884d2491ca"
+    },
+    "renders/zones-oblique-clay.json": {
+      "bytes": 3711,
+      "sha256": "7b4bd53b769eacfb461ee92dd4d9ff30c7760cfb195c6a49d6a778f0066b6a4e"
+    },
+    "renders/zones-oblique-clay.log": {
+      "bytes": 3307,
+      "sha256": "9ec3290765b5675d3fbda61794bd0e9d27de019a895adc1d4dee3d18940a7ee8"
+    },
+    "renders/zones-oblique-clay.png": {
+      "bytes": 462519,
+      "sha256": "3bd3f2efdd8f977166d60a505552295b87d6ccd536a12efc2349619978f8e897"
+    },
+    "renders/zones-saved-beauty.json": {
+      "bytes": 3674,
+      "sha256": "b3ab6aa1c8dfa6ffafcf84e0fdc9fd2e24bb3cfb725a1e91407e9ddc51f75585"
+    },
+    "renders/zones-saved-beauty.log": {
+      "bytes": 3648,
+      "sha256": "90416c8b326a0b6986d314a0d33ea26f2ed40b81d30e36770b9ff58ee68242a6"
+    },
+    "renders/zones-saved-beauty.png": {
+      "bytes": 508296,
+      "sha256": "833766b4c79e252c48c79dfbdfc3e4b70a5a879a758e1f9e1e4b2dbdd7bc66c7"
+    },
+    "renders/zones-saved-clay.json": {
+      "bytes": 3704,
+      "sha256": "a34b2383d2180530d1271b49981757135a353cb7a18c36dfae97a18833805c3a"
+    },
+    "renders/zones-saved-clay.log": {
+      "bytes": 3295,
+      "sha256": "5f3707b25a015b86bd954a464bf032c9ee2f18abe7b6031abf492bbd7f283bf8"
+    },
+    "renders/zones-saved-clay.png": {
+      "bytes": 459651,
+      "sha256": "6377bd040523d0c443e3d5bc0b0719ce05747b622162dfd064b57b09691b1477"
+    },
+    "cross-layer/flesh-only-candidate.png": {
+      "bytes": 8194,
+      "sha256": "7cb54dc4d3fb54921023dfbca5b31c50c6c6f8bc754519bb3e17bb5609d7c3e9"
+    },
+    "cross-layer/flesh-only-control.png": {
+      "bytes": 8194,
+      "sha256": "0e3a94aa2feead9117cb9a164415535664673c5ee99e7df15739f6ec52b26198"
+    },
+    "cross-layer/matched-candidate.png": {
+      "bytes": 7777,
+      "sha256": "2e4f03b6757a7f0b5b47acc75895e4907b0a49d4ea27d54e9547ae32be788f7a"
+    },
+    "cross-layer/matched-control.png": {
+      "bytes": 7777,
+      "sha256": "4da9e4fb2dc028c912ed179c624d964077101f5a443abdfbbecf3cf17ac29e1b"
+    },
+    "cross-layer/validation.json": {
+      "bytes": 1148,
+      "sha256": "794234a0060bcd2fd932550d3b3537f74907d89c88ead11f094048ee09939e11"
+    }
+  }
+}

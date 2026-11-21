@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "status": "verified; independent review finding fixed and regression tested",
+  "base_pr": 32,
+  "base_sha": "2c5f86840e81cc925013de967da292381ba9b783",
+  "private_folder": "https://drive.google.com/drive/folders/1tXaF8TiA6wrKdPSnyKiQvlFhqY8mFE4R",
+  "public_media": false,
+  "artifacts": [
+    {
+      "path": "strawberry-tissue-zones.blend",
+      "drive_id": "1YoeDB5WyQW3OymGeQfPhqFk4lviZpUf2",
+      "url": "https://drive.google.com/file/d/1YoeDB5WyQW3OymGeQfPhqFk4lviZpUf2/view?usp=drivesdk",
+      "sha256": "0f552c79054dec8ca82d2891bc2b5d6930eef64bc545e8188d808b946e1c66e2",
+      "bytes": 5061036,
+      "full_download_verified": true
+    },
+    {
+      "path": "comparison.png",
+      "drive_id": "1t4jyWYkA3okWhkWxY1sIa3IC3uFvOyJa",
+      "url": "https://drive.google.com/file/d/1t4jyWYkA3okWhkWxY1sIa3IC3uFvOyJa/view?usp=drivesdk",
+      "sha256": "d4e30bc93ccba33bdbca2feec9bcb90dd7ab855f6524a13f51aef776e2438bff",
+      "bytes": 1177057,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/pr32-saved-beauty.png",
+      "drive_id": "1dgi2eDbfw6SJk_HClOHIvx1rRPr-TqGR",
+      "url": "https://drive.google.com/file/d/1dgi2eDbfw6SJk_HClOHIvx1rRPr-TqGR/view?usp=drivesdk",
+      "sha256": "1f6da8063e1bdef9cb999f20860b1f43ec34fb207c33a6af86521356138e22bd",
+      "bytes": 530470,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/zones-saved-beauty.png",
+      "drive_id": "1eiB32XKz1FbWUUsz66DvNwCGCt9Q06D8",
+      "url": "https://drive.google.com/file/d/1eiB32XKz1FbWUUsz66DvNwCGCt9Q06D8/view?usp=drivesdk",
+      "sha256": "833766b4c79e252c48c79dfbdfc3e4b70a5a879a758e1f9e1e4b2dbdd7bc66c7",
+      "bytes": 508296,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/pr32-saved-clay.png",
+      "drive_id": "1MIVlWHqHT2PmdAjP0ZF1c3grJ1u6pWan",
+      "url": "https://drive.google.com/file/d/1MIVlWHqHT2PmdAjP0ZF1c3grJ1u6pWan/view?usp=drivesdk",
+      "sha256": "100bb8f8deb03ff499fef37919dd192f0cb9dfecef78cb92ab1c69884d2491ca",
+      "bytes": 535940,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/zones-saved-clay.png",
+      "drive_id": "1Q1FtwpiOrrt5zMDyv3rFilS4vuan2K6n",
+      "url": "https://drive.google.com/file/d/1Q1FtwpiOrrt5zMDyv3rFilS4vuan2K6n/view?usp=drivesdk",
+      "sha256": "6377bd040523d0c443e3d5bc0b0719ce05747b622162dfd064b57b09691b1477",
+      "bytes": 459651,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/pr32-oblique-clay.png",
+      "drive_id": "1Dy5VwIydC75O5udlvWTiB8oBORag4ZBu",
+      "url": "https://drive.google.com/file/d/1Dy5VwIydC75O5udlvWTiB8oBORag4ZBu/view?usp=drivesdk",
+      "sha256": "802023e4cdf3200324a2bf8879abb7efdcfa64a059d2c1b162a34e7716901c6a",
+      "bytes": 518964,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/zones-oblique-clay.png",
+      "drive_id": "1ZPjMKZn2X9kyQJqwS9ACpr9KuV-MxZaZ",
+      "url": "https://drive.google.com/file/d/1ZPjMKZn2X9kyQJqwS9ACpr9KuV-MxZaZ/view?usp=drivesdk",
+      "sha256": "3bd3f2efdd8f977166d60a505552295b87d6ccd536a12efc2349619978f8e897",
+      "bytes": 462519,
+      "full_download_verified": true
+    },
+    {
+      "path": "validation.json",
+      "drive_id": "1xSGGmLN23EV2HKndcShoYtHJOyTl5BLV",
+      "url": "https://drive.google.com/file/d/1xSGGmLN23EV2HKndcShoYtHJOyTl5BLV/view?usp=drivesdk",
+      "sha256": "67506402529824a8cdb86ed3b59c47464df6ad1e51c6029f3da2f3ea00299770",
+      "bytes": 17449,
+      "full_download_verified": true
+    },
+    {
+      "path": "cross-layer/validation.json",
+      "drive_id": "1lTbL54TNwy21bQsnyTD-ZAELpevCc08c",
+      "url": "https://drive.google.com/file/d/1lTbL54TNwy21bQsnyTD-ZAELpevCc08c/view?usp=drivesdk",
+      "sha256": "794234a0060bcd2fd932550d3b3537f74907d89c88ead11f094048ee09939e11",
+      "bytes": 1148,
+      "full_download_verified": true
+    },
+    {
+      "path": "reviewed/render-qa.json",
+      "drive_id": "16shlfB86OHFYOUuiEj1j7AWOCvGqOhoK",
+      "url": "https://drive.google.com/file/d/16shlfB86OHFYOUuiEj1j7AWOCvGqOhoK/view",
+      "sha256": "1ef626a8487948f0c1433704eceab545d819339bff5f4038e6b959d0b14868ff",
+      "bytes": 33988,
+      "full_download_verified": true
+    },
+    {
+      "path": "strawberry-tissue-zones-v1.zip",
+      "drive_id": "1RP7I3UTjYHB-59_QWT_2sGQlblYubJKw",
+      "url": "https://drive.google.com/file/d/1RP7I3UTjYHB-59_QWT_2sGQlblYubJKw/view",
+      "bytes": 96276769,
+      "sha256": "b199a0e09c340e2d29b8aff5fc03a45ba2020569bc8c613ea375c7fc1638f036",
+      "full_download_verified": true,
+      "zip_integrity_verified": true
+    }
+  ],
+  "superseded": [
+    {
+      "path": "render-qa.json",
+      "drive_id": "1FqIXRAgCQ4B5DHv53YJtoCGIYNSBOjEw",
+      "url": "https://drive.google.com/file/d/1FqIXRAgCQ4B5DHv53YJtoCGIYNSBOjEw/view?usp=drivesdk",
+      "sha256": "4b82e7eb12220b40bc0847e08dc32671be01470f3a8f2ff1afcc042122603695",
+      "bytes": 33750,
+      "full_download_verified": true
+    }
+  ],
+  "downloaded_scene_qa": "experiments/exact-tissue-zones-v1/downloaded-scene-qa.json"
+}
