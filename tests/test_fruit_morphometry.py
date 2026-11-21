@@ -8,7 +8,7 @@ from fruit_morphometry import load_catalog,select_observations,convert_length,ev
 class TestMorphometry(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.c=load_catalog(HERE/'measurements-v1.json')
+        cls.c=load_catalog(HERE/'data'/'morphometry'/'measurements-v1.json')
 
     def test_205_rows_and_provenance(self):
         self.assertEqual(len(self.c['observations']),205)

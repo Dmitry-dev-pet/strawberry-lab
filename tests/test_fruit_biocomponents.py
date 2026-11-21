@@ -8,7 +8,7 @@ from fruit_biocomponents import (tissue_contract, measured_cell_populations,
    vascular_contract, require_measured_vessel_diameter, MissingBiologicalEvidence,
    anatomical_components)
 
-CAT=load_catalog(str(Path(__file__).resolve().parents[1]/'measurements-v1.json'))
+CAT=load_catalog(str(Path(__file__).resolve().parents[1]/'data'/'morphometry'/'measurements-v1.json'))
 R=standard_registry()
 
 def p(c,seed=12):return R.plan(make_context(CAT,c,c.lower().replace(' ','_'),seed=seed))

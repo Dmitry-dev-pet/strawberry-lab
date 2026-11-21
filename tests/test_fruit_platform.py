@@ -12,7 +12,7 @@ from fruit_platform import (standard_registry, make_context, FruitRegistry,
     PlatformError, plans_digest, OrganRecipe)
 from fruit_engine import get_specimen
 
-DATA=load_catalog(ROOT/'measurements-v1.json')
+DATA=load_catalog(ROOT/'data'/'morphometry'/'measurements-v1.json')
 
 
 class FruitPlatformTests(unittest.TestCase):
