@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "blender": "5.2.4 LTS",
+  "geometry": [
+    {
+      "name": "CUT_000_deg | SAME 3D SUBSTRATE",
+      "verts": 78626,
+      "faces": 78960,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_vertices": 78626,
+      "degenerate_faces": 0,
+      "3D_tissue_colors": true
+    },
+    {
+      "name": "CUT_032_deg | SAME 3D SUBSTRATE",
+      "verts": 78626,
+      "faces": 78960,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_vertices": 78626,
+      "degenerate_faces": 0,
+      "3D_tissue_colors": true
+    },
+    {
+      "name": "CUT_082_deg | SAME 3D SUBSTRATE",
+      "verts": 78626,
+      "faces": 78960,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "min_component_vertices": 78626,
+      "degenerate_faces": 0,
+      "3D_tissue_colors": true
+    }
+  ],
+  "contract": "Three physical watertight sectional meshes, each samples same 3D substrate",
+  "limit": "Meshes are constructed as center-plane halves; this does not prove a real-time arbitrary Boolean cut or Frucht parity."
+}

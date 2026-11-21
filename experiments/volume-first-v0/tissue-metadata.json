@@ -1,0 +1,32 @@
+{
+  "schema": "strawberry-lab.visual-poc.1",
+  "seed": 20261121,
+  "grid_shape": [
+    150,
+    150,
+    150
+  ],
+  "coordinate_bounds": {
+    "lo": [
+      -1.2999999523162842,
+      -1.2999999523162842,
+      -1.2300000190734863
+    ],
+    "hi": [
+      1.2999999523162842,
+      1.2999999523162842,
+      1.0499999523162842
+    ]
+  },
+  "fibers": 146,
+  "fields": [
+    "color",
+    "height",
+    "pith",
+    "fiber",
+    "radial_sheets",
+    "axial_amber"
+  ],
+  "design": "artist-design, not strawberry histology",
+  "source": "independent Python+NumPy; single 3D tissue volume for all cut orientations"
+}
