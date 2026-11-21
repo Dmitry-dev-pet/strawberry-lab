@@ -1,0 +1,133 @@
+{
+  "schema": "strawberry-lab.volume-first-v0.1",
+  "date": "2026-11-21",
+  "source": "independently generated 3D volume and Blender sectional meshes",
+  "reference": "private Frucht demo, 00:10.5; not in public source repo",
+  "field_dimensions": [
+    150,
+    150,
+    150
+  ],
+  "cut_angles_deg": [
+    0,
+    32,
+    82
+  ],
+  "blender": "5.2.4 LTS",
+  "checks": "3/3 closed 3D meshes, 0 nonmanifold edges, 0 degenerate faces, shared axis RGB invariant PASS",
+  "limitations": [
+    "static 3 cut poses, not dynamic Boolean",
+    "artistic not histological",
+    "not comparable to Frucht quality"
+  ],
+  "files": [
+    {
+      "path": "generate_field.py",
+      "bytes": 7220,
+      "sha256": "8cf8b98d467b1e2862fd0937389219ea0df6832c7194cebfcb266df4b52eabe0",
+      "public_source": true
+    },
+    {
+      "path": "build_static.py",
+      "bytes": 13208,
+      "sha256": "403b7c2722ed75612539d20b968410b3166bea5be2006488878a3840a4b20e5c",
+      "public_source": true
+    },
+    {
+      "path": "render_slice.py",
+      "bytes": 834,
+      "sha256": "67ad74d54c7daaed59f52cb71112b87554ab27a7b569b57f09ddb727f73ca175",
+      "public_source": true
+    },
+    {
+      "path": "validate_static.py",
+      "bytes": 1552,
+      "sha256": "f36ed1b0e4d424d23ef828c2bb8efe152dbeb313e5c65265e6cb28057d84a4c3",
+      "public_source": true
+    },
+    {
+      "path": "make_comparisons.py",
+      "bytes": 1703,
+      "sha256": "2a51de1958ed95dec959be1d8d09af02a9f5e05379d69388fc25bd44641c3fd2",
+      "public_source": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 3555,
+      "sha256": "34bd67a976bde1085fdf22df29433602a3843818972fe6c9a928663ab65898a1",
+      "public_source": true
+    },
+    {
+      "path": "report.md",
+      "bytes": 4894,
+      "sha256": "e78c5713f03739fd97c32786aeaa4ad15fb88eef6c2b97119dc5ca114e988b7f",
+      "public_source": true
+    },
+    {
+      "path": "outputs/strawberry-volumetric-3cut.blend",
+      "bytes": 10229771,
+      "sha256": "0ea1d86a2a404f0bb86edbdce852cb808b0d8907a9ef6670e3c627f6db097ef6",
+      "public_source": false
+    },
+    {
+      "path": "outputs/tissue_3d.npz",
+      "bytes": 10791073,
+      "sha256": "178073059f755172c9019a41740d6247fe7bd4a12be0e5b0e4f15211d49f9fe2",
+      "public_source": false
+    },
+    {
+      "path": "outputs/fibers_3d.npz",
+      "bytes": 85204,
+      "sha256": "364e83b1bc66e26c498f491268f39cbceb13aaf4cc686255f39293041008bb14",
+      "public_source": false
+    },
+    {
+      "path": "outputs/slice-000.png",
+      "bytes": 1026605,
+      "sha256": "225ccdfcc1ab3775da71d0f4d3baa78843b22e8e829bff484caf439ce0fe7e17",
+      "public_source": false
+    },
+    {
+      "path": "outputs/slice-032.png",
+      "bytes": 1034857,
+      "sha256": "459bed76009dc7ae7d65ea7442b62c86f87f292f4949e4304cb40b5a39cd4ace",
+      "public_source": false
+    },
+    {
+      "path": "outputs/slice-082.png",
+      "bytes": 1034297,
+      "sha256": "6fe9ddb9318c619dc4e55d3f6575c6291f1869043381e86a0fbf44efbff5a1a9",
+      "public_source": false
+    },
+    {
+      "path": "outputs/three-cuts-one-volume.jpg",
+      "bytes": 261112,
+      "sha256": "2b748d64f42d4e3bbd3448ad5ca676e06af7ffafbbf118ae463f90db8144734e",
+      "public_source": false
+    },
+    {
+      "path": "outputs/frucht-versus-new-poc.jpg",
+      "bytes": 244017,
+      "sha256": "c6942b9694276db658fb20deefcb7febb795b99d7684df34b15e2ba2530825de",
+      "public_source": false
+    },
+    {
+      "path": "outputs/validation.json",
+      "bytes": 1067,
+      "sha256": "aed141fa2420f01c54b86015416602be749d3f8497ff80a1be15ede6e27b0e12",
+      "public_source": false
+    },
+    {
+      "path": "outputs/build-report.json",
+      "bytes": 1592,
+      "sha256": "0eba66a0fbcf37e2744b95f81c6dffec4810fc98738537c8ec75c9a4e9caad62",
+      "public_source": false
+    },
+    {
+      "path": "outputs/tissue-metadata.json",
+      "bytes": 610,
+      "sha256": "cbfed68b523acaf40c532d7789d241ab980053e334ea56a437db5404828f4fa6",
+      "public_source": false
+    }
+  ]
+}
