@@ -1,0 +1,12 @@
+# Independent review and corrections
+
+Codex `gpt-6.2-astra` at high reasoning independently reviewed the first saved adapter (`cb98d3b9883bea8651bfdadc82b4afe7a7bf078d227fe92113822ee987b54e68`). It confirmed real displacement, manifold single-component surfaces, unchanged skin faces/corner normals/seams/pit values, original source digests, four native layers and runtime cleanup. Its nonadjacent-triangle intersection probe found no intersections in the four tested cuts. Both independent oblique Cycles renders matched the supplied decoded pixels.
+
+The review found two defects. The parent fixed them without a second delegated review:
+
+1. **Stale cross-layer render cache.** From Exact in MATCHED, selecting WHOLE, moving the knife and rendering MATCHED directly could consume the old cap, 5.114 mm from the current knife. The render-pre handler now evaluates the unparked cut layer before any render can consume the cache, and restores the original selected layer. If there is no suitable context, it restores native Fast. The checked-in `validate_cross_layer_render.py` performs actual Cycles renders of MATCHED and FLESH ONLY from WHOLE after a knife edit. Each is pixel-identical to its freshly prepared control; maximum undeformed-cap plane error is 0.000001325 mm. See `cross-layer-render-qa.json`.
+2. **A duplicated pose passed render validation.** The renderer now records the evaluated knife pose as well as the requested pose. Validation binds each comparison row to its expected look, layer and pose. Replacing the oblique pair and receipts with the saved-pose pair now fails with `AssertionError: ('clay-oblique', 'pose_y_xrot_zrot')`. See `render-regressions.json`.
+
+The corrected scene SHA-256 is `c6d39d20e90f75826167a5b4345752ef874d62641e0ff428f38a68050ec7da3c`. Its embedded runtime matches the corrected checked-in source. The full headless validator passed again, as did all 107 repository Python tests. All six new beauty/clay PNGs are pixel-identical to the reviewed originals. The corrected scene was uploaded privately, downloaded in full, checked by SHA-256 and reopened for another complete saved-scene validation (`downloaded-scene-qa.json`).
+
+The review validates an artist-controlled method adaptation on PR31, not an unchanged M1e5 graph transplant, a cavity transfer or biological cell morphology. There was no interactive GUI test or realtime-performance claim. Original review probes/logs and corrected regression renders are retained in the private reproducibility bundle.
