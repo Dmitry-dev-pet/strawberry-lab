@@ -2,61 +2,99 @@
   "schema": "strawberry-integration-live-exterior-v1",
   "source_pr29_sha": "0aa85fa57eec5d67a6b8eba6f71fa35edcb08ba4",
   "exterior_pr13_sha": "2e8f3bbda10f47371689c5e4eb1d6d924844a756",
-  "folder": "https://drive.google.com/drive/folders/18ST8t97v3wUwit8XmckU9Yn36IGajt0z",
+  "folder": "https://drive.google.com/drive/folders/1xSyKtxwMMPvYeY90kYMOseCRZTMlKq8K",
   "visibility": "private; verified not_shared",
   "drive_files": {
-    "validation.json": {
-      "id": "1XLtvKD4w9eIlb9-Gg1iPNqS5OatB2QcL",
-      "url": "https://drive.google.com/file/d/1XLtvKD4w9eIlb9-Gg1iPNqS5OatB2QcL/view?usp=drivesdk"
+    "strawberry-integration.blend": {
+      "id": "1VKVK-sXavgS2MEiHWVJguUBjSmC9iGCr",
+      "url": "https://drive.google.com/file/d/1VKVK-sXavgS2MEiHWVJguUBjSmC9iGCr/view?usp=drivesdk"
     },
     "whole.png": {
-      "id": "1CQ6XoIUquUEXTemn1u2XIJFgLIZ_8o8q",
-      "url": "https://drive.google.com/file/d/1CQ6XoIUquUEXTemn1u2XIJFgLIZ_8o8q/view?usp=drivesdk"
+      "id": "1_CeBK8p4sdIFEp5_2E9Jvl1RR0QC73LP",
+      "url": "https://drive.google.com/file/d/1_CeBK8p4sdIFEp5_2E9Jvl1RR0QC73LP/view?usp=drivesdk"
     },
     "cut.png": {
-      "id": "19sxTQNYxrNa7kzClb-y9IGTx-o-txOBi",
-      "url": "https://drive.google.com/file/d/19sxTQNYxrNa7kzClb-y9IGTx-o-txOBi/view?usp=drivesdk"
+      "id": "1ZRd-2s9rs9gEOlRcuLyN4mWkGQgc9p1z",
+      "url": "https://drive.google.com/file/d/1ZRd-2s9rs9gEOlRcuLyN4mWkGQgc9p1z/view?usp=drivesdk"
     },
-    "strawberry-integration.blend": {
-      "id": "1VL3VdoVSz-yYFXtDy7qWZRJ_aqZZlqdX",
-      "url": "https://drive.google.com/file/d/1VL3VdoVSz-yYFXtDy7qWZRJ_aqZZlqdX/view?usp=drivesdk"
+    "validation-final.json": {
+      "id": "1STVuwU5jaAGF_54wGRFuUUFKvB1uAFlz",
+      "url": "https://drive.google.com/file/d/1STVuwU5jaAGF_54wGRFuUUFKvB1uAFlz/view?usp=drivesdk"
+    },
+    "integration-v1-reproducible.zip": {
+      "id": "1Gsn0VlSChyJNx4EKvL722k6jXqgn85O_",
+      "url": "https://drive.google.com/file/d/1Gsn0VlSChyJNx4EKvL722k6jXqgn85O_/view?usp=drivesdk"
     }
   },
   "verified_artifacts": [
     {
-      "name": "validation.json",
-      "bytes": 3697,
-      "sha256": "b6d801182c6eb7d002711fbb21bd2c99130e640767eb4a66aa2992beb7c2fcb9",
-      "readback_sha256": "b6d801182c6eb7d002711fbb21bd2c99130e640767eb4a66aa2992beb7c2fcb9",
+      "name": "strawberry-integration.blend",
+      "bytes": 5031852,
+      "sha256": "0b8af93c399d0077f51f864f7b9f55673b822a1755e2badcc626f5bfc6256bca",
+      "readback_sha256": "0b8af93c399d0077f51f864f7b9f55673b822a1755e2badcc626f5bfc6256bca",
       "verified": true
     },
     {
       "name": "whole.png",
-      "bytes": 492604,
-      "sha256": "dfe157718551d33ac615d2118a694708cb57514e4cff9c2a008c0cbf98f97e28",
-      "readback_sha256": "dfe157718551d33ac615d2118a694708cb57514e4cff9c2a008c0cbf98f97e28",
+      "bytes": 492625,
+      "sha256": "3a08cbc6c13395c7cf52fece2b591e41513d12deb2b79baeaa3152993cda45c1",
+      "readback_sha256": "3a08cbc6c13395c7cf52fece2b591e41513d12deb2b79baeaa3152993cda45c1",
       "verified": true
     },
     {
       "name": "cut.png",
-      "bytes": 490443,
-      "sha256": "7a0591b55c40de0e426eb5374f3fc1abe4c5e3e3775a4fcb1a8a4a8798c49f03",
-      "readback_sha256": "7a0591b55c40de0e426eb5374f3fc1abe4c5e3e3775a4fcb1a8a4a8798c49f03",
+      "bytes": 490293,
+      "sha256": "e6a4a251138a824233f8ce293ad4dc2ce3df90fcc770cf1e05a33ce160b920e4",
+      "readback_sha256": "e6a4a251138a824233f8ce293ad4dc2ce3df90fcc770cf1e05a33ce160b920e4",
       "verified": true
     },
     {
-      "name": "strawberry-integration.blend",
-      "bytes": 5031812,
-      "sha256": "0b1b17d31210f4bae8c1ef28b10a9f9993edb32e4b3a2f060aa169b6b5a916e2",
-      "readback_sha256": "0b1b17d31210f4bae8c1ef28b10a9f9993edb32e4b3a2f060aa169b6b5a916e2",
+      "name": "validation-final.json",
+      "bytes": 34071,
+      "sha256": "4fb30127b2a2d1d2c7946efbdd50dfcde5146de13072d611725599f30e8cbeb5",
+      "readback_sha256": "4fb30127b2a2d1d2c7946efbdd50dfcde5146de13072d611725599f30e8cbeb5",
+      "verified": true
+    },
+    {
+      "name": "integration-v1-reproducible.zip",
+      "bytes": 52137333,
+      "sha256": "cc2a9842e765ee95112c671ad230aca8a78be41b384c1f8bb1dd3a87464c98a9",
+      "readback_sha256": "cc2a9842e765ee95112c671ad230aca8a78be41b384c1f8bb1dd3a87464c98a9",
       "verified": true
     }
   ],
-  "downloaded_blend_reopened_qa": "PASS",
+  "downloaded_blend_reopened_qa": "PASS: all five poses, all exterior meshes closed and positive volume, source graph/transforms preserved",
   "source_code_sha256": {
-    "experiments/integration-live-exterior-v1/build_integration.py": "641a6bff021d9dba9a099379a5a82082a454ad3db618769f6da469085d2d8b20",
+    "experiments/integration-live-exterior-v1/build_integration.py": "c73da8013d237c4e1c638fae9634e1523044eb5361cea080eed5ecfee1111e91",
     "experiments/integration-live-exterior-v1/render_integration.py": "f8cb8dfb2f0d95a9380017c1d01a1414a398bc8318a6d7711f629a102f78c79a",
     "experiments/integration-live-exterior-v1/integration.py": "f3d0bce2d6f316724622ef5dd8ff7bd470742960fab05fedce30485ec9683bdd",
-    "experiments/integration-live-exterior-v1/validate_integration.py": "7d4d2d8c70a48e3543a2dd4d5a2f3bf2bcf34d98fe108d0db8d1196d29bbcfbe"
+    "experiments/integration-live-exterior-v1/validate_integration.py": "e83c5313816f3a4d16c152bc3ac57d2de3551917515fc209bab2b72c96364b60"
+  },
+  "superseded_draft": {
+    "folder": "https://drive.google.com/drive/folders/18ST8t97v3wUwit8XmckU9Yn36IGajt0z",
+    "drive_files": {
+      "validation.json": {
+        "id": "1XLtvKD4w9eIlb9-Gg1iPNqS5OatB2QcL",
+        "url": "https://drive.google.com/file/d/1XLtvKD4w9eIlb9-Gg1iPNqS5OatB2QcL/view?usp=drivesdk"
+      },
+      "whole.png": {
+        "id": "1CQ6XoIUquUEXTemn1u2XIJFgLIZ_8o8q",
+        "url": "https://drive.google.com/file/d/1CQ6XoIUquUEXTemn1u2XIJFgLIZ_8o8q/view?usp=drivesdk"
+      },
+      "cut.png": {
+        "id": "19sxTQNYxrNa7kzClb-y9IGTx-o-txOBi",
+        "url": "https://drive.google.com/file/d/19sxTQNYxrNa7kzClb-y9IGTx-o-txOBi/view?usp=drivesdk"
+      },
+      "strawberry-integration.blend": {
+        "id": "1VL3VdoVSz-yYFXtDy7qWZRJ_aqZZlqdX",
+        "url": "https://drive.google.com/file/d/1VL3VdoVSz-yYFXtDy7qWZRJ_aqZZlqdX/view?usp=drivesdk"
+      }
+    },
+    "reason": "Crown topology and validator review findings; use corrected outputs below."
+  },
+  "review": {
+    "model": "gpt-6.2-astra",
+    "result": "P1 crown topology and two P2 validator gaps reproduced; corrected by parent with five-pose QA and negative probes",
+    "limitations": "Diagnostic mapping and real cell geometry not integrated; shading-only skin pits"
   }
 }

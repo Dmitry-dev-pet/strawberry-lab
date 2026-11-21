@@ -278,7 +278,8 @@ def build(source, out):
                 modifier.thickness /= hull.mm_per_unit
         modifier = cut_with(obj, cutter)
         # Narrow folded tips can self-intersect after solidification.
-        modifier.use_self = obj["role"] == "sepal"
+        modifier.solver = "MANIFOLD"
+        modifier.use_self = False
     for mat in foliage_materials:
         material_mm_coordinates(mat, hull, rest)
 

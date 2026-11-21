@@ -56,9 +56,37 @@ def packed_atlas_digest():
     return sha256(image.packed_file.data).hexdigest()
 
 
+def cap_graph_signature(tree):
+    """Preserve the source cap graph, allowing only its rest-position adapter."""
+    def socket_key(socket):
+        if socket.node.type in {"NEW_GEOMETRY", "TEX_COORD"}:
+            return ("POSITION", "POSITION")
+        return (socket.node.name, socket.identifier)
+
+    nodes = {}
+    for node in tree.nodes:
+        if node.type in {"NEW_GEOMETRY", "TEX_COORD"}:
+            continue
+        defaults = []
+        for socket in node.inputs:
+            if not socket.is_linked and hasattr(socket, "default_value"):
+                value = socket.default_value
+                if value is not None:
+                    value = value if isinstance(value, (float, int, bool, str)) else tuple(value)
+                    defaults.append((socket.identifier, value))
+        nodes[node.name] = (node.type, tuple(defaults), *(getattr(node, key, None) for key in
+                            ("operation", "blend_type", "interpolation", "extension", "use_clamp", "mute")))
+    return {"nodes": nodes, "links": sorted((socket_key(link.from_socket), socket_key(link.to_socket))
+                                           for link in tree.links)}
+
+
 def source_snapshot():
     return {
         "hull": mesh_digest(bpy.data.objects[SOURCE_BODY].data),
+        "cap_graph": cap_graph_signature(bpy.data.objects[SOURCE_BODY].data.materials[1].node_tree),
+        "diagnostic_relative_transforms": {name: tuple(tuple(row) for row in
+            bpy.data.objects[SOURCE_BODY].matrix_world.inverted() @ bpy.data.objects[name].matrix_world)
+            for name in DIAGNOSTIC_COUNTS},
         "atlas": packed_atlas_digest(),
         "cutter": mesh_digest(bpy.data.objects[CUTTER].data),
         "diagnostics": {name: diagnostic_digest(bpy.data.objects[name], count)
@@ -143,6 +171,7 @@ def check_pose(rest, knife, body, exterior, pose, whole=False):
         remaining = signed_distances(evaluated, evaluated.data)
         role = obj["role"]
         if remaining:
+            assert check_body_topology(evaluated.data) > 0, (obj.name, pose, "exterior topology")
             assert min(remaining) >= -EPS, (obj.name, pose, min(remaining))
             retained[role] += 1
         if max(original_distances) < -EPS:
@@ -165,6 +194,7 @@ def check_pose(rest, knife, body, exterior, pose, whole=False):
         "cap_faces": len(cap),
         "max_cap_plane_error_model_units": max_cap_distance,
         "retained_exterior_by_role": dict(retained),
+        "all_retained_exterior_closed_positive_volume": True,
         "intersected_exterior_by_role": dict(partial),
         "update_and_measure_seconds": round(perf_counter() - started, 3),
     }
@@ -194,6 +224,7 @@ def validate(source, scene_path):
     flesh = body.data.materials[1]
     assert cutter.data.materials[1] is flesh
     tree = flesh.node_tree
+    assert cap_graph_signature(tree) == reference["cap_graph"], "Cap graph differs from authenticated source"
     samples = [node for node in tree.nodes if node.type == "TEX_IMAGE"]
     assert len(samples) == 2 and all(node.image is bpy.data.images[ATLAS] for node in samples)
     coordinates = tree.nodes["PR29 rest coordinates"]
@@ -204,9 +235,16 @@ def validate(source, scene_path):
     diagnostics = collections[DIAGNOSTICS]
     assert diagnostics.exclude and diagnostics.collection["WARNING"] == WARNING
     assert set(diagnostics.collection.objects.keys()) == set(DIAGNOSTIC_COUNTS)
+    # Excluded layers can retain stale world matrices until evaluated.
+    diagnostics.exclude = False
+    bpy.context.view_layer.update()
     for name, count in DIAGNOSTIC_COUNTS.items():
         obj = scene.objects[name]
         assert obj.parent is rest and obj.matrix_basis.is_identity
+        relative = body.matrix_world.inverted() @ obj.matrix_world
+        expected_transform = reference["diagnostic_relative_transforms"][name]
+        assert all(abs(relative[i][j] - expected_transform[i][j]) < 1e-7
+                   for i in range(4) for j in range(4)), (name, "diagnostic rest transform")
         assert diagnostic_digest(obj, count) == reference["diagnostics"][name]
         assert obj["WARNING"] == WARNING
         nodes = obj.data.materials[0].node_tree.nodes
@@ -233,7 +271,7 @@ def validate(source, scene_path):
         assert obj.parent is rest and not obj.hide_render
         modifier, = [item for item in obj.modifiers if item.type == "BOOLEAN"]
         assert modifier.object is cutter and modifier.operation == "DIFFERENCE"
-        assert modifier.solver == ("MANIFOLD" if obj is body else "EXACT")
+        assert modifier.solver == ("MANIFOLD" if obj is body or obj.get("role") in {"sepal", "pedicel"} else "EXACT")
         assert modifier.material_mode == "INDEX"
         assert modifier.show_viewport and modifier.show_render
 

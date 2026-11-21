@@ -21,8 +21,12 @@ All old scenes and generated assets remain unchanged. New binaries belong under 
 
 ## First assembled output
 
-The editable scene and paired 650 px / 16 sample Cycles PNGs are saved in the fresh owner-private [integration folder](https://drive.google.com/drive/folders/18ST8t97v3wUwit8XmckU9Yn36IGajt0z). Four files were downloaded through the authenticated connector and verified byte-identical. The downloaded .blend reopened and passed the same actual-geometry QA; source digests and cut geometry counts agree. See [manifest](../assets/manifest-integration-live-exterior-v1.json) and [build/edit/limitations](../experiments/integration-live-exterior-v1/README.md).
+The editable scene and paired 650 px / 16 sample Cycles PNGs are saved in the fresh owner-private [integration folder](https://drive.google.com/drive/folders/1xSyKtxwMMPvYeY90kYMOseCRZTMlKq8K). Four files were downloaded through the authenticated connector and verified byte-identical. The downloaded .blend reopened and passed the same actual-geometry QA; source digests and cut geometry counts agree. See [manifest](../assets/manifest-integration-live-exterior-v1.json) and [build/edit/limitations](../experiments/integration-live-exterior-v1/README.md).
 
 The body remains the original PR29 hull with a new exterior material, not the PR13 silhouette. 48 mm nominal height maps from FruitContext to 2.16 original model units; the resulting width is about 40.76 × 39.90 mm and is explicitly artistic. Skin pits are bump relief, not the PR13 mesh depressions. No additional cell solid geometry, unified biological seed-to-vessel mapping, whole-fruit GN rewrite or export parity is claimed. Four knife poses produce closed evaluated bodies and capped cut surfaces, while the original spline coordinates/radii and marker meshes remain unchanged.
 
 Four legacy test fixture paths were repaired to the committed data/morphometry/measurements-v1.json. The full 107-test suite now runs directly from this checkout without temporary fixture copies. Independent Astra review is tracked separately in the working task.
+
+## Review result and corrected build
+
+Independent Astra review found an actual crown topology defect and two validator false passes. Parent changed crown Boolean solver to Manifold, required closed positive-volume meshes for every retained exterior part, preserved the source cap-node graph after its explicit coordinate substitution, and checked diagnostic transforms relative to the hull. The corrected saved scene passes all five poses and rejects the two deliberately damaged scenes. The first uploaded draft remains immutable but is superseded; the asset manifest points to corrected private files.
