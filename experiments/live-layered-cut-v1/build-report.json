@@ -1,0 +1,44 @@
+{
+  "status": "BUILT",
+  "blender": "5.2.4 LTS",
+  "scene_names": [
+    "LIVE MATCHED | shared movable plane",
+    "LIVE FLESH ONLY | shared movable plane"
+  ],
+  "shared_plane_control": "LIVE CUT | move or rotate this Empty",
+  "body_boolean_solver": "EXACT",
+  "source_3d_color_volume_shape": [
+    150,
+    150,
+    150,
+    3
+  ],
+  "source_3d_color_volume_sha256": "178073059f755172c9019a41740d6247fe7bd4a12be0e5b0e4f15211d49f9fe2",
+  "atlas_image_packed": true,
+  "full_body_vertices": 30242,
+  "full_body_faces": 30400,
+  "source_core_splines": 28,
+  "source_branch_splines": 539,
+  "source_marker_components": 539,
+  "layer_collection_names": {
+    "studio": "00 | STUDIO & CAMERA",
+    "control": "01 | ONE MOVABLE CUT CONTROL",
+    "cutbody": "10 | FLESH cut with live Boolean",
+    "fullbody": "11 | FLESH whole uncut",
+    "corefull": "20 | 28 CORE FULL",
+    "coreclip": "21 | 28 CORE CLIP by plane shader",
+    "branchfull": "30 | 539 BRANCHES FULL",
+    "branchclip": "31 | 539 BRANCHES CLIP by plane shader",
+    "markerfull": "40 | 539 MARKERS FULL",
+    "markerclip": "41 | 539 MARKERS CLIP by plane shader",
+    "ghost": "50 | WHOLE OUTLINE translucent"
+  },
+  "volume_source": "Own exact Volume First v0 voxel color field; local z-linear interpolation of packed RGB atlas",
+  "limits": [
+    "analytic whole fruit hull reconstructed from v0 formulas rather than using cut-only mesh",
+    "Shader clip uses transparency; splines remain intact rather than Boolean cutting tube end-caps",
+    "Pith, separate cell mesh, juice and real seed geometry not implemented",
+    "Flesh cut-surface color volume is from original v0 field, not regenerated from V4 fiber curves",
+    "No vendor Frucht commercial GN wiring and no license/rights transfer"
+  ]
+}

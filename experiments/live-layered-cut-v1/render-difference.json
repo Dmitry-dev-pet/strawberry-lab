@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "images": "Real Blender Cycles only",
+  "poses": [
+    {
+      "pose": "center",
+      "plane": "Y=0, 0°",
+      "mean_abs_rgb_difference": 18.158269447331946,
+      "fraction_pixels_maxchannel_change_gt_15": 0.3765592515592516
+    },
+    {
+      "pose": "deep",
+      "plane": "Y=+0.34, 0°",
+      "mean_abs_rgb_difference": 33.35477087664588,
+      "fraction_pixels_maxchannel_change_gt_15": 0.43203287422037423
+    },
+    {
+      "pose": "shallow",
+      "plane": "Y=−0.26, 0°",
+      "mean_abs_rgb_difference": 13.189707856895357,
+      "fraction_pixels_maxchannel_change_gt_15": 0.26617073804573804
+    },
+    {
+      "pose": "oblique",
+      "plane": "Y=0, 32°",
+      "mean_abs_rgb_difference": 11.111376039501039,
+      "fraction_pixels_maxchannel_change_gt_15": 0.2545932952182952
+    }
+  ],
+  "note": "Visual change proves independent mask effect but not anatomical or Frucht parity"
+}

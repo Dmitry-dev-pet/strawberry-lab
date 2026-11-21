@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "N": 150,
+  "cols": 15,
+  "rows": 10,
+  "size": [
+    2250,
+    1500
+  ],
+  "source_sha256": "178073059f755172c9019a41740d6247fe7bd4a12be0e5b0e4f15211d49f9fe2",
+  "image_sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+  "source_bounds_lo": [
+    -1.2999999523162842,
+    -1.2999999523162842,
+    -1.2300000190734863
+  ],
+  "source_bounds_hi": [
+    1.2999999523162842,
+    1.2999999523162842,
+    1.0499999523162842
+  ],
+  "voxel_checks": 25,
+  "interpolation": "XY bilinear + Z linear in Blender shader; no voxel value modified"
+}
