@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "checks": {
+    "scene": {
+      "sha256": "071621fe4ceb50057439ffc01a382b064cbc58e267f806288fcc4179b476eef8",
+      "bytes": 30202829,
+      "readback_matches": true
+    },
+    "network": {
+      "sha256": "4e5b452c203025c0aaaee896ab8f6031c270314f0e4e3128b282f69add992577",
+      "bytes": 594996,
+      "readback_matches": true
+    },
+    "zip": {
+      "sha256": "4270fcd1a5b33415bbbc394910b99232fff1b40773ec8094a302b1fc48215a88",
+      "bytes": 65472383,
+      "readback_matches": true
+    },
+    "montage": {
+      "sha256": "c83107dc79339bb5a55331636fe12250491347ef03680dbe86ca3877660a9342",
+      "bytes": 513392,
+      "readback_matches": true
+    },
+    "manifest": {
+      "sha256": "67ecf5b204754dd583ce9f467deee966d72a5637fbc68af7294535dfb493e5f0",
+      "bytes": 8107,
+      "readback_matches": true
+    }
+  },
+  "count": 5
+}

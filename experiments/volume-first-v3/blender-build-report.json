@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "source_scene": "input-v2-scene.blend",
+  "main_objects": {
+    "V3 | 28-sag0.25 | CARRIERS": 28,
+    "V3 | 28-sag0.25 | BRANCHES": 539,
+    "V3 | 28-sag1.0 | CARRIERS": 28,
+    "V3 | 28-sag1.0 | BRANCHES": 539,
+    "V3 | 28-sag1.8 | CARRIERS": 28,
+    "V3 | 28-sag1.8 | BRANCHES": 539,
+    "V3 | 14-sag1.0 | CARRIERS": 14,
+    "V3 | 14-sag1.0 | BRANCHES": 539,
+    "V3 | 40-sag1.0 | CARRIERS": 40,
+    "V3 | 40-sag1.0 | BRANCHES": 539
+  },
+  "scenes": [
+    "01 | only 494 real fibers",
+    "02 | fibers + translucent context",
+    "03 | fibers + actual v1 cut"
+  ],
+  "out": "/mnt/data/strawberry-volume-first-v3/v3-carriers-bezier-variants.blend"
+}

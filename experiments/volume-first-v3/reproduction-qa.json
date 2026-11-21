@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "bitwise_equal_arrays": {
+    "points": true,
+    "lengths": true,
+    "radius": true,
+    "kind": true,
+    "achene_idx": true,
+    "main_strand_idx": true,
+    "achene_positions": true,
+    "branch_endpoints": true,
+    "original_m1a_seed_centers": true,
+    "z_knots": true,
+    "r_knots": true
+  },
+  "source": "same parameters and seed rerun"
+}

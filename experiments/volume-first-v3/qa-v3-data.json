@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "baseline": "actual owner V2 scene data",
+  "variants": [
+    {
+      "variant": "v2",
+      "main_carriers": 28,
+      "attached_branches": 539,
+      "endpoints_identical": true,
+      "control_seed_positions_identical": true,
+      "median_path_over_chord": 1.0197,
+      "p90_path_over_chord": 1.037,
+      "points": 29456
+    },
+    {
+      "variant": "28-sag0.25",
+      "main_carriers": 28,
+      "attached_branches": 539,
+      "endpoints_identical": true,
+      "control_seed_positions_identical": true,
+      "median_path_over_chord": 1.0332,
+      "p90_path_over_chord": 1.038,
+      "points": 40656
+    },
+    {
+      "variant": "28-sag1.0",
+      "main_carriers": 28,
+      "attached_branches": 539,
+      "endpoints_identical": true,
+      "control_seed_positions_identical": true,
+      "median_path_over_chord": 1.1095,
+      "p90_path_over_chord": 1.1211,
+      "points": 40656
+    },
+    {
+      "variant": "28-sag1.8",
+      "main_carriers": 28,
+      "attached_branches": 539,
+      "endpoints_identical": true,
+      "control_seed_positions_identical": true,
+      "median_path_over_chord": 1.2233,
+      "p90_path_over_chord": 1.2473,
+      "points": 40656
+    },
+    {
+      "variant": "14-sag1.0",
+      "main_carriers": 14,
+      "attached_branches": 539,
+      "endpoints_identical": true,
+      "control_seed_positions_identical": true,
+      "median_path_over_chord": 1.11,
+      "p90_path_over_chord": 1.1211,
+      "points": 37576
+    },
+    {
+      "variant": "40-sag1.0",
+      "main_carriers": 40,
+      "attached_branches": 539,
+      "endpoints_identical": true,
+      "control_seed_positions_identical": true,
+      "median_path_over_chord": 1.1095,
+      "p90_path_over_chord": 1.1212,
+      "points": 43296
+    }
+  ],
+  "contract": "539 assigned 3D achene endpoints and 539 achene marker centers identical across all variants",
+  "limitations": [
+    "No proof of anatomic correctness or Frucht shader wiring",
+    "No arbitrary cutter or tissue cut recalculation",
+    "Frucht video zoom/pose differs from fixed-camera tests"
+  ]
+}

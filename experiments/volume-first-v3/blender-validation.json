@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "blender": "5.2.4 LTS",
+  "variants": [
+    {
+      "name": "28-sag0.25",
+      "carriers": 28,
+      "branches": 539,
+      "endpoint_max_error": 0.0,
+      "points": 40656
+    },
+    {
+      "name": "28-sag1.0",
+      "carriers": 28,
+      "branches": 539,
+      "endpoint_max_error": 0.0,
+      "points": 40656
+    },
+    {
+      "name": "28-sag1.8",
+      "carriers": 28,
+      "branches": 539,
+      "endpoint_max_error": 0.0,
+      "points": 40656
+    },
+    {
+      "name": "14-sag1.0",
+      "carriers": 14,
+      "branches": 539,
+      "endpoint_max_error": 0.0,
+      "points": 37576
+    },
+    {
+      "name": "40-sag1.0",
+      "carriers": 40,
+      "branches": 539,
+      "endpoint_max_error": 0.0,
+      "points": 43296
+    }
+  ],
+  "same_539_seed_targets_all_variants": true,
+  "original_v2_curves_preserved": true,
+  "three_original_camera_views_preserved": true,
+  "limit": "Diagnostic source curves only; original Volume First cut mesh not recomputed"
+}
