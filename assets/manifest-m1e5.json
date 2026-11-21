@@ -1,0 +1,126 @@
+{
+  "schema": "strawberry-lab.m1e5.live-exact.verified-artifacts.v1",
+  "date": "2026-11-21",
+  "repo": "Dmitry-dev-pet/strawberry-lab",
+  "source": "Owned Strawberry Lab M1e4; no Frucht nodes or binaries",
+  "summary": "Live script-assisted BMesh Exact from true GN source; safe native GN Fast fallback",
+  "checks": {
+    "tested_frames": [
+      1,
+      15,
+      21,
+      30
+    ],
+    "manual_knife_move_y": 0.3,
+    "animated_and_manual_callbacks_pass": true,
+    "nonmanifold_edges_per_test": 0,
+    "pixel_identical_m1e4_frame15": true,
+    "performance_seconds_per_update_observed": [
+      0.3676,
+      0.6797
+    ],
+    "limitations": [
+      "Python plugin must be active for Exact",
+      "not GN-only, not 60fps",
+      "source geometry changes require Force Refresh",
+      "sequential Cycles within one process stalled"
+    ]
+  },
+  "files": [
+    {
+      "name": "source-m1e4-frame15-beauty.blend",
+      "size_bytes": 8740736,
+      "sha256": "49017dfe35eb5cdc86feabfc96299fc73bc24ac04db5b3c5842132f81cd70c3c"
+    },
+    {
+      "name": "strawberry-m1e5-live-exact.blend",
+      "size_bytes": 10218397,
+      "sha256": "2082a81c0d2607faabdefefe0403deed997c703f2c3a1dfe96ea0338e6c4efb2"
+    },
+    {
+      "name": "m1e5_live_exact.py",
+      "size_bytes": 12969,
+      "sha256": "4ae0194fa6c0270740c6ddb047451d31d86a3bc5c57ee5df68a69ecc1c36d9f0"
+    },
+    {
+      "name": "build_m1e5.py",
+      "size_bytes": 2979,
+      "sha256": "a878e7b99fad090dc34e23c68a7ac2809ec891493bf79f7247ba7865d56bef9e"
+    },
+    {
+      "name": "validate_live_m1e5.py",
+      "size_bytes": 5053,
+      "sha256": "160f079d8058b8240611c52d357fa707a871980f506b09d2e4544f0a8847d0ae"
+    },
+    {
+      "name": "test_ui_rotation.py",
+      "size_bytes": 2298,
+      "sha256": "63228301420c40e68f4e24597911f0d1ca63e4a860f4c4f792c02c4dcb76c15c"
+    },
+    {
+      "name": "render_m1e5.py",
+      "size_bytes": 2159,
+      "sha256": "9c04eb482d8df556080f813cac92c5fd02b5fd82b6ad9ce027c46b6747975fdf"
+    },
+    {
+      "name": "README.md",
+      "size_bytes": 4750,
+      "sha256": "f856636d76cd3b2e2ab4b1a9655b8bceccd527f24fcd9e1e1f7221e26e29d1b5"
+    },
+    {
+      "name": "report.md",
+      "size_bytes": 4781,
+      "sha256": "82f80e9a7c12447c1d9c52e8a95636e69ea381e6ce1b5af1a9cd04c23ecf9966"
+    },
+    {
+      "name": "validation-live.json",
+      "size_bytes": 2267,
+      "sha256": "99095b4f4960069788d49801ecfea9dc5d1d79f40e0eba3f7a59e977bdc4e4b7"
+    },
+    {
+      "name": "pixel-comparison.json",
+      "size_bytes": 518,
+      "sha256": "faf9e15a028ffbb3d46195568f3e47c0621dd65df4a14882257656a1d3376fc5"
+    },
+    {
+      "name": "m1e5-live-exact-frame15.png",
+      "size_bytes": 620331,
+      "sha256": "61a3d3460de4db6e8f4b4b96419c2adaa656aaec34613c64b81a08ecd304fe0c"
+    },
+    {
+      "name": "m1e5-live-exact-frame21.png",
+      "size_bytes": 610491,
+      "sha256": "ad3f6469ee611aaf711a8a1b268ba29e11f9b44c16de023b5de1ad2c92cfe7ab"
+    },
+    {
+      "name": "m1e5-live-exact-frame30.png",
+      "size_bytes": 376091,
+      "sha256": "ea64c7056ef9a61d776bf56c3f30cbac8a74d9b8d9fe1d1c5c06efed6ec78d1b"
+    },
+    {
+      "name": "M1e5-live-three-poses.jpg",
+      "size_bytes": 209156,
+      "sha256": "88cc94d63d153ecd5db9feea4b3a4e51ae2278205b7651bb1b1fd69d92717e91"
+    },
+    {
+      "name": "test-run.log",
+      "size_bytes": 4799,
+      "sha256": "2be0581d6a7302cc6903c5568c1e2783c05c4f7924f2287830f80ab4818351be"
+    },
+    {
+      "name": "test-ui.log",
+      "size_bytes": 2388,
+      "sha256": "3a5934417bbdc0788812d82c2617005103459fa597b7949132077e67f381aa3c"
+    },
+    {
+      "name": "render21-final.log",
+      "size_bytes": 983,
+      "sha256": "fe265129c169bf6bc675af360d1802b15b1653e64091fe6f4c33524f69278a17"
+    },
+    {
+      "name": "render30.log",
+      "size_bytes": 982,
+      "sha256": "685c09a1eb54d3b56068587c5dac51476ee5b237b2e17bd10521631bb2cd913e"
+    }
+  ]
+}
