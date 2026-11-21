@@ -1,0 +1,169 @@
+{
+  "schema": "strawberry-lab.volume-first.v1.manifest.1",
+  "date": "2026-11-21",
+  "repo": "Dmitry-dev-pet/strawberry-lab",
+  "milestone": "volume-first v1 continuous 494-curves 3D physical filament relief",
+  "verification": "actual saved Blender 5.2.4 cut topology and repeated build match",
+  "files": [
+    {
+      "path": "generate_fine_fibers.py",
+      "bytes": 3483,
+      "sha256": "6ef7fb2d5706b49f2798c41b6db52b297f44726eca9b663893cafd5e0f562e66"
+    },
+    {
+      "path": "build_fiber_relief.py",
+      "bytes": 10425,
+      "sha256": "f37f7f990fc7278aaed7ce5935db9cd45926faea534f1d6fcba53934cf3f11f8"
+    },
+    {
+      "path": "tune_beauty.py",
+      "bytes": 1624,
+      "sha256": "2c533bac4ee14f05078a00833f18fa347257e1bebb7c2d68f6060ddd63fe8313"
+    },
+    {
+      "path": "render_v1.py",
+      "bytes": 2629,
+      "sha256": "2300b7e8b4bcc3644b51876ec530818950ba9fa4bf9271d2be1221f5a7580638"
+    },
+    {
+      "path": "validate_v1.py",
+      "bytes": 4017,
+      "sha256": "88e0de10741b264e504232c549f5daaf8fdc38a855aece59577f65412fc4c9c2"
+    },
+    {
+      "path": "fingerprint.py",
+      "bytes": 956,
+      "sha256": "b659aac5b5814a1fc87fdbe94be840efb236d83cc63a83d9094530dbe6832765"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3879,
+      "sha256": "9fff04e139ea00b1360f8a6b79e86bb5d07bdf7906676d22662fd047e8e323c3"
+    },
+    {
+      "path": "report-v1.md",
+      "bytes": 4783,
+      "sha256": "f40f32619ce9a028d8bc2a8c5063a1617201fa271758787b47867bb68badd6e5"
+    },
+    {
+      "path": "input-v0/strawberry-volumetric-3cut.blend",
+      "bytes": 10229771,
+      "sha256": "0ea1d86a2a404f0bb86edbdce852cb808b0d8907a9ef6670e3c627f6db097ef6"
+    },
+    {
+      "path": "input-v0/fibers_3d.npz",
+      "bytes": 85204,
+      "sha256": "364e83b1bc66e26c498f491268f39cbceb13aaf4cc686255f39293041008bb14"
+    },
+    {
+      "path": "input-v0/tissue_3d.npz",
+      "bytes": 10791073,
+      "sha256": "178073059f755172c9019a41740d6247fe7bd4a12be0e5b0e4f15211d49f9fe2"
+    },
+    {
+      "path": "outputs/fine_fibers_3d.npz",
+      "bytes": 510219,
+      "sha256": "0255f063ae092fac0664d9f097695a133f569d9d1c3f6dc300318c6a5046f601"
+    },
+    {
+      "path": "outputs/source-metadata.json",
+      "bytes": 356,
+      "sha256": "78b7b4cc27d11cb698aac0c19420b57e31041e468d461d11328fd1fd7ded3407"
+    },
+    {
+      "path": "outputs/strawberry-volume-first-v1.blend",
+      "bytes": 21960374,
+      "sha256": "de21fdeede46fb0e11d73ed7f157ea06c0158a21af12f9024836b53043172816"
+    },
+    {
+      "path": "outputs/strawberry-volume-first-v1-beauty.blend",
+      "bytes": 21963026,
+      "sha256": "bfc5c1b8367a00cdb548275625d9ee8c8a89093be1fac4594239c608a5dbfa82"
+    },
+    {
+      "path": "outputs/beauty-000.png",
+      "bytes": 1055711,
+      "sha256": "223daa698e3b57583f83ae29eef051dc80837be32bc01f0aef946806e84c444a"
+    },
+    {
+      "path": "outputs/beauty-032.png",
+      "bytes": 1056454,
+      "sha256": "78bbe2d63dd2ecc05364e9aecb42102cf34abe715bc3bb6f641b2a6b991b95d5"
+    },
+    {
+      "path": "outputs/beauty-082.png",
+      "bytes": 1059454,
+      "sha256": "c70b2fd8ecf2e536cfbd2103e0fb92f76a6c24d0040790ea0fac52e8961d904f"
+    },
+    {
+      "path": "outputs/fine-000.png",
+      "bytes": 1063525,
+      "sha256": "2d19379c3bd5cf0570ac0e54b794d1a17268a5579d44b7700841ba40adec79b6"
+    },
+    {
+      "path": "outputs/comparison-full-0-and-82.jpg",
+      "bytes": 377346,
+      "sha256": "db32c145100f7e7690e0ba4c2010b5cd00c47e76c1ae1747cfd454fe69edd9bb"
+    },
+    {
+      "path": "outputs/v1-three-angles.jpg",
+      "bytes": 283493,
+      "sha256": "b48f4382e45a2c868784f5b9b019f77135c2daa776f29b090a554f812930199e"
+    },
+    {
+      "path": "outputs/macro-clay-ab.jpg",
+      "bytes": 167197,
+      "sha256": "d59545a5bc0f7c82e8b8d91069b3586f69731d8ea47384e5bdf198cbdf1d955a"
+    },
+    {
+      "path": "outputs/macro-baseline-000.png",
+      "bytes": 417084,
+      "sha256": "f3baea26e247072f7f77dfc2ec7bb56384b4bd0ccdcb54e0997a5ce4ed04a162"
+    },
+    {
+      "path": "outputs/macro-beauty-000.png",
+      "bytes": 430098,
+      "sha256": "12f4d07fe1d622f4f5619754317bb8422c98a8a64cc2d7c3e244a0e117dd9eb6"
+    },
+    {
+      "path": "outputs/macro-beauty-082.png",
+      "bytes": 432884,
+      "sha256": "b1c9261b7f8356fcd1755e78f383fcf4998a4fc236f052ae13c8bf8ec4a557c3"
+    },
+    {
+      "path": "outputs/clay-baseline-000.png",
+      "bytes": 301121,
+      "sha256": "dbd0d179c58def7b6f0de540eb133c03f04238e59e677fd56db954ee47a0123c"
+    },
+    {
+      "path": "outputs/clay-fine-000.png",
+      "bytes": 312747,
+      "sha256": "4298e033143abeeb67302a3006f7e1725599b1bb7ea561c0141a3e68b87b1b97"
+    },
+    {
+      "path": "outputs/validation.json",
+      "bytes": 1674,
+      "sha256": "ff0d2eece8debf7db7c79d2b365b3283450f7925afddfca8c21f8357428bf480"
+    },
+    {
+      "path": "outputs/repro-fingerprint.json",
+      "bytes": 2166,
+      "sha256": "a43dfe509780d6a55ecc6f00815b97e32a88616d22f6c9c58cc76b81a59d3e88"
+    },
+    {
+      "path": "outputs/beauty-report.json",
+      "bytes": 403,
+      "sha256": "72e06167315594866a2a04de8554ffb32cd1a0161a5b111b7d31d7d13bd91bf0"
+    },
+    {
+      "path": "outputs/build-report.json",
+      "bytes": 1611,
+      "sha256": "01f166db36f9fd004f0410e535d7269a51c91adc9f3ef2275f60a23c20ae93ff"
+    }
+  ],
+  "limitations": [
+    "static half-cut, not live Boolean",
+    "fidelity below Frucht",
+    "curves not botanical measurements"
+  ]
+}
