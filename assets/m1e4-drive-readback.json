@@ -1,0 +1,197 @@
+{
+  "schema": "strawberry-lab.m1e4.readback-verification.1",
+  "date": "2026-11-21",
+  "drive_folder": "Strawberry Lab/experiments-m1e4-filaments-localcut-20261121",
+  "file_entries": [
+    {
+      "file": "source-m1e3-fast.blend",
+      "expected_sha256": "6955539dbb04f4c98dbb17e36ada8b72531dca0df0802b0f38827c0991adc57d",
+      "downloaded_sha256": "6955539dbb04f4c98dbb17e36ada8b72531dca0df0802b0f38827c0991adc57d",
+      "byte_count": 5073508,
+      "pass": true
+    },
+    {
+      "file": "build_m1e4.py",
+      "expected_sha256": "35fee6aa14e18f73e0951fbcd17e0bbbab243dac2c9ffdc19b361831dcc3c3ee",
+      "downloaded_sha256": "35fee6aa14e18f73e0951fbcd17e0bbbab243dac2c9ffdc19b361831dcc3c3ee",
+      "byte_count": 14872,
+      "pass": true
+    },
+    {
+      "file": "validate_m1e4.py",
+      "expected_sha256": "37ddb939a0e9744f46a654ac7d6e7f718f451e1fe82ebd4602df6889d2940f44",
+      "downloaded_sha256": "37ddb939a0e9744f46a654ac7d6e7f718f451e1fe82ebd4602df6889d2940f44",
+      "byte_count": 4954,
+      "pass": true
+    },
+    {
+      "file": "render_m1e4.py",
+      "expected_sha256": "699f9fa1d92539b38e6ceb0857afca1102936ed29cbb97bb7511c98b1e092245",
+      "downloaded_sha256": "699f9fa1d92539b38e6ceb0857afca1102936ed29cbb97bb7511c98b1e092245",
+      "byte_count": 1446,
+      "pass": true
+    },
+    {
+      "file": "README.md",
+      "expected_sha256": "275e95bee2ecda431aea9c943e32cbebba4466a7af5887dd61cbb06e2c72813a",
+      "downloaded_sha256": "275e95bee2ecda431aea9c943e32cbebba4466a7af5887dd61cbb06e2c72813a",
+      "byte_count": 2254,
+      "pass": true
+    },
+    {
+      "file": "report.md",
+      "expected_sha256": "91a89fae148f4ac5f27cf21a61578c30ff2091463b0fdf11a27cab020ef777f2",
+      "downloaded_sha256": "91a89fae148f4ac5f27cf21a61578c30ff2091463b0fdf11a27cab020ef777f2",
+      "byte_count": 6044,
+      "pass": true
+    },
+    {
+      "file": "m1e4-frame01-beauty.blend",
+      "expected_sha256": "ae0e0d05b197e2f136b578764617209cc54eee7b3786d9960d437a6c08a1af26",
+      "downloaded_sha256": "ae0e0d05b197e2f136b578764617209cc54eee7b3786d9960d437a6c08a1af26",
+      "byte_count": 7016486,
+      "pass": true
+    },
+    {
+      "file": "m1e4-frame15-beauty.blend",
+      "expected_sha256": "49017dfe35eb5cdc86feabfc96299fc73bc24ac04db5b3c5842132f81cd70c3c",
+      "downloaded_sha256": "49017dfe35eb5cdc86feabfc96299fc73bc24ac04db5b3c5842132f81cd70c3c",
+      "byte_count": 8740736,
+      "pass": true
+    },
+    {
+      "file": "m1e4-frame30-beauty.blend",
+      "expected_sha256": "6a35c27315c7e71254bae04d909399d04538737329d697e9e9d5e193422e61bb",
+      "downloaded_sha256": "6a35c27315c7e71254bae04d909399d04538737329d697e9e9d5e193422e61bb",
+      "byte_count": 8557946,
+      "pass": true
+    },
+    {
+      "file": "m1e4-frame15-diagnostic.blend",
+      "expected_sha256": "727048df969ba797b178fce5d139d2f3d15bc41fab4bcbb2ff68834c97c0d56b",
+      "downloaded_sha256": "727048df969ba797b178fce5d139d2f3d15bc41fab4bcbb2ff68834c97c0d56b",
+      "byte_count": 8740745,
+      "pass": true
+    },
+    {
+      "file": "m1e4-frame01-beauty.png",
+      "expected_sha256": "d202ce84eb926c7accbb87ec53b69d41c8daf6c85f544225ecbcb8cb6d94dff2",
+      "downloaded_sha256": "d202ce84eb926c7accbb87ec53b69d41c8daf6c85f544225ecbcb8cb6d94dff2",
+      "byte_count": 517518,
+      "pass": true
+    },
+    {
+      "file": "m1e4-frame15-beauty.png",
+      "expected_sha256": "0acb9d84f669e54bf3bf80a2f269d8fc7d977ff7eab272d3a8cd7f038e23176b",
+      "downloaded_sha256": "0acb9d84f669e54bf3bf80a2f269d8fc7d977ff7eab272d3a8cd7f038e23176b",
+      "byte_count": 620324,
+      "pass": true
+    },
+    {
+      "file": "m1e4-frame30-beauty.png",
+      "expected_sha256": "917ee24ebf9b4d4ac2b15780c470b4cae1b2d1b0b121172c41eb6dcbaa171487",
+      "downloaded_sha256": "917ee24ebf9b4d4ac2b15780c470b4cae1b2d1b0b121172c41eb6dcbaa171487",
+      "byte_count": 483969,
+      "pass": true
+    },
+    {
+      "file": "m1e4-frame15-diagnostic.png",
+      "expected_sha256": "7870d440642bca9f9e19e253a67b35e84f87a93666d4f21b8f4091c4abf27a5d",
+      "downloaded_sha256": "7870d440642bca9f9e19e253a67b35e84f87a93666d4f21b8f4091c4abf27a5d",
+      "byte_count": 644162,
+      "pass": true
+    },
+    {
+      "file": "m1e4-ab-comparison.jpg",
+      "expected_sha256": "85a15248cd8a860ed750dd8cd84f0fbcb77b15b1a98a5d97dfc90222b7c458f2",
+      "downloaded_sha256": "85a15248cd8a860ed750dd8cd84f0fbcb77b15b1a98a5d97dfc90222b7c458f2",
+      "byte_count": 142613,
+      "pass": true
+    },
+    {
+      "file": "m1e4-three-poses.jpg",
+      "expected_sha256": "f944fbe13e68c97241270cc9003a865a5a56b5ffbdf5840f26d7fa55861abe58",
+      "downloaded_sha256": "f944fbe13e68c97241270cc9003a865a5a56b5ffbdf5840f26d7fa55861abe58",
+      "byte_count": 114973,
+      "pass": true
+    },
+    {
+      "file": "build01.json",
+      "expected_sha256": "2745a49bb6051ba17bdb21fe05f30ef1e3e5cdb2550f71306ad5913d305ba652",
+      "downloaded_sha256": "2745a49bb6051ba17bdb21fe05f30ef1e3e5cdb2550f71306ad5913d305ba652",
+      "byte_count": 688,
+      "pass": true
+    },
+    {
+      "file": "build15-beauty.json",
+      "expected_sha256": "9105b32abe2174366f24b904e358707059c2a866b14726b5016c692468c333f8",
+      "downloaded_sha256": "9105b32abe2174366f24b904e358707059c2a866b14726b5016c692468c333f8",
+      "byte_count": 699,
+      "pass": true
+    },
+    {
+      "file": "build30.json",
+      "expected_sha256": "f92320aa1454acaacdd8bf58d0a919f7827af76c14090a2c6c4297783a8d0bba",
+      "downloaded_sha256": "f92320aa1454acaacdd8bf58d0a919f7827af76c14090a2c6c4297783a8d0bba",
+      "byte_count": 699,
+      "pass": true
+    },
+    {
+      "file": "build15-diagnostic.json",
+      "expected_sha256": "be71064f1d476206a114a9aa129e87aeedcbda0368972364fa648701dfce5b4d",
+      "downloaded_sha256": "be71064f1d476206a114a9aa129e87aeedcbda0368972364fa648701dfce5b4d",
+      "byte_count": 703,
+      "pass": true
+    },
+    {
+      "file": "validate01.json",
+      "expected_sha256": "8c34200576ff1c87abbcef7a615a3c2404abf53499c23eb6c8a3eabbd1ed346e",
+      "downloaded_sha256": "8c34200576ff1c87abbcef7a615a3c2404abf53499c23eb6c8a3eabbd1ed346e",
+      "byte_count": 747,
+      "pass": true
+    },
+    {
+      "file": "validate15.json",
+      "expected_sha256": "37dd366bd6352913c590039f0f8e7d2505d3754d8edaf40d507ef2e7afa4026c",
+      "downloaded_sha256": "37dd366bd6352913c590039f0f8e7d2505d3754d8edaf40d507ef2e7afa4026c",
+      "byte_count": 798,
+      "pass": true
+    },
+    {
+      "file": "validate30.json",
+      "expected_sha256": "9750def65aace0b0500a25e363dc4903e794c3e40ebca0897bcf802df4ca0723",
+      "downloaded_sha256": "9750def65aace0b0500a25e363dc4903e794c3e40ebca0897bcf802df4ca0723",
+      "byte_count": 798,
+      "pass": true
+    },
+    {
+      "file": "validate15diagnostic.json",
+      "expected_sha256": "7b89860963692f7dd9b1c872a97a39541f978c92de2a057c6ef51d9d24782dc6",
+      "downloaded_sha256": "7b89860963692f7dd9b1c872a97a39541f978c92de2a057c6ef51d9d24782dc6",
+      "byte_count": 798,
+      "pass": true
+    }
+  ],
+  "readback_summary": {
+    "passed": 24,
+    "total": 24
+  },
+  "manifest": {
+    "local_sha256": "d1f77a97cd1efbe65a7a6ef8a7f4b04adf320e7c97e6ba8f698bf434d37599e2",
+    "readback_sha256": "d1f77a97cd1efbe65a7a6ef8a7f4b04adf320e7c97e6ba8f698bf434d37599e2",
+    "pass": true
+  },
+  "zip": {
+    "sha256": "9f1300c6812ba697f33a415fb6651f20cf868698624cd110dbd80d57c5bb73d8",
+    "bytes": 38718845,
+    "same_as_uploaded_original": true
+  },
+  "reopened_downloaded_exact_beauty_blend_validation": {
+    "status": "PASS",
+    "frame": 15,
+    "vertices": 83806,
+    "nonmanifold_edges": 0,
+    "components": 1
+  },
+  "note": "Original manifest/ZIP were immutable snapshots made before Drive readback; this later file records verification."
+}
