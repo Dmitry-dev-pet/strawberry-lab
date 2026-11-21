@@ -1,0 +1,303 @@
+{
+  "schema": "strawberry-lab.volume-first-v4.1",
+  "date": "2026-11-21",
+  "experiment": "terminal-tangent and local hook of 539 mapped achene branches",
+  "reference": "owner-restricted Frucht promo video approx 13.4-17s",
+  "fidelity": "failed to match Frucht, structurally valid control test",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3699,
+      "sha256": "52b4c6cc43c338eae883a73f035cd551be84a1d00baaaa826d7f25768c53cc67",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "blender-validation.json",
+      "bytes": 873,
+      "sha256": "69823fbd497da225542392d6dbafe2cf70e468a54150f76ea8a2aca269bf8c99",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "build-report.json",
+      "bytes": 421,
+      "sha256": "36925bc1a2d40f4e02e079b2adb1d468d46e07388afe554865f21a975d03a768",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "build.log",
+      "bytes": 631,
+      "sha256": "7e2dc99975df286dd26cf1b25b1ecfdfe0520f87ed2b3a5fd2af5b62ec2c40ab",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "build_v4_blender.py",
+      "bytes": 2957,
+      "sha256": "1b8a8869ad72dbedb05fb907df593976c22506a8d8f362e1f0f3dae1d8d338ab",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "generate_v4_network.py",
+      "bytes": 5534,
+      "sha256": "b79238a91d7c907d023423b9fcc856ff7068e5f8a7276fc0b57ccac1cea431de",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "input-v3-network.npz",
+      "bytes": 595083,
+      "sha256": "01edf716d50c63f0628687e7738f2f7ed62eaedb6671a774c6337de5ff853a8f",
+      "visibility": "private"
+    },
+    {
+      "path": "input-v3-scene.blend",
+      "bytes": 30202829,
+      "sha256": "071621fe4ceb50057439ffc01a382b064cbc58e267f806288fcc4179b476eef8",
+      "visibility": "private"
+    },
+    {
+      "path": "make_comparisons.py",
+      "bytes": 3217,
+      "sha256": "244bd9a4f5186a418d897bf9ef38dd89c41f37cd3af032258bda2d1e8a55d751",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "outputs/ab-v3-v4-full.jpg",
+      "bytes": 818153,
+      "sha256": "bc556d993220340135e689f5af02f4632c0b91209331efd67baff2bc80787f3f",
+      "visibility": "private"
+    },
+    {
+      "path": "outputs/ab-v3-v4-terminal-crop.jpg",
+      "bytes": 573206,
+      "sha256": "6d95eb29144c76ed373f0b21993056dd6880ac86c60d211471fcf4740c15bfe0",
+      "visibility": "private"
+    },
+    {
+      "path": "outputs/ghost-0.85.log",
+      "bytes": 322,
+      "sha256": "108a682d0e124ea25513ea082f23e3cb99e588be0c51ab9b0b4ba7f7a765a1b3",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "outputs/ghost-0.85.png",
+      "bytes": 1269757,
+      "sha256": "bf9e7969aa41360c207ac4acd3ef110428c6ac901c5428063a374a97d3132eb9",
+      "visibility": "private"
+    },
+    {
+      "path": "outputs/only-0.35.log",
+      "bytes": 319,
+      "sha256": "da87b44bdc7982bae3278065eb1629684415ae5e9fa6f631e51142ca96b80e3c",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "outputs/only-0.35.png",
+      "bytes": 1262529,
+      "sha256": "cf566e0dc44677ec7eb84480d3adcd9114ec35cbd7b498dc5260cf28bea70ca2",
+      "visibility": "private"
+    },
+    {
+      "path": "outputs/only-0.85-low.log",
+      "bytes": 322,
+      "sha256": "4a871b74c7d7a33a34ef2d59b2ed3f9090d1227935cc2cab7e9ac4e2f1b88916",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "outputs/only-0.85-low.png",
+      "bytes": 529601,
+      "sha256": "e8fb512813619baf5775d46873828b93ac2fa7c7e80c9470c91cd44f304e8c4d",
+      "visibility": "private"
+    },
+    {
+      "path": "outputs/only-0.85.log",
+      "bytes": 320,
+      "sha256": "fd4e77570719eb72e95d0a504a2753e8643c317fb979aa8b2ebf482451a40b96",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "outputs/only-0.85.png",
+      "bytes": 1262595,
+      "sha256": "8356435880ad616bdc266921bb5bedc0853bb67e63f52453a63b95e75c96a151",
+      "visibility": "private"
+    },
+    {
+      "path": "outputs/only-1.5.log",
+      "bytes": 318,
+      "sha256": "7bd4e73dfed69154f55a84e75bb6b0f86f5310faf6edf3bba9b4fd1870452b2e",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "outputs/only-1.5.png",
+      "bytes": 1261799,
+      "sha256": "90290e457777e4bcc5d72bd342733e30d0072fcd90d83a7c715394df789ea626",
+      "visibility": "private"
+    },
+    {
+      "path": "outputs/only-v3.log",
+      "bytes": 316,
+      "sha256": "911b649e0378024ba8b5fca7004e46a169852142cafd18ba7f4799af7844f8d0",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "outputs/only-v3.png",
+      "bytes": 1262804,
+      "sha256": "c6e6815a29dc69108dbeb6cc15736e5ba355b38aa80bb9479b4a87434fa572be",
+      "visibility": "private"
+    },
+    {
+      "path": "outputs/private-author-v3-v4.jpg",
+      "bytes": 537280,
+      "sha256": "3c425b3a12ca5e2411c444b7ed739806899822024e30349a2883434750f1be96",
+      "visibility": "private"
+    },
+    {
+      "path": "outputs/render-difference-metrics.json",
+      "bytes": 452,
+      "sha256": "1576a900de5bc41776e5b372e6ce51a3b5a1433aae607bf5bc5465086d346b37",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "private-frucht-video-ref15.jpg",
+      "bytes": 199903,
+      "sha256": "39d26432170e08b5e713c67f7f60ba300c164629cc432b6645d3ab2c12b3fd02",
+      "visibility": "private"
+    },
+    {
+      "path": "private-video-frames/t13.4.jpg",
+      "bytes": 76674,
+      "sha256": "e1baa85c66e39f568ee12a0e85dff137977d7cbfb3a209162dba50fb67fe36cb",
+      "visibility": "private"
+    },
+    {
+      "path": "private-video-frames/t14.0.jpg",
+      "bytes": 84842,
+      "sha256": "a28165cd38c38f3cec83ac08a365144b0fad76dd069f6ffa61f7248ce60a3aa8",
+      "visibility": "private"
+    },
+    {
+      "path": "private-video-frames/t14.5.jpg",
+      "bytes": 96134,
+      "sha256": "af1b6a7fcbe8be5b55bdce0ca097a37612a8239432cf1ba1ce0dfd1205ee7b96",
+      "visibility": "private"
+    },
+    {
+      "path": "private-video-frames/t15.0.jpg",
+      "bytes": 95757,
+      "sha256": "0c40ff8fa6e7b45145af3a804a2b6dd8b37cfe01a4b2e9b7abf2c6586c7e9edb",
+      "visibility": "private"
+    },
+    {
+      "path": "private-video-frames/t15.5.jpg",
+      "bytes": 83743,
+      "sha256": "3c3d82a49002e965d8563ac8a8127c52ef147b0b7a09396b0fbf3d9f65ee5c2a",
+      "visibility": "private"
+    },
+    {
+      "path": "private-video-frames/t16.0.jpg",
+      "bytes": 58852,
+      "sha256": "032115d52d6598de14722290aebf1100aeacb73ed27df614609f80ec0866347b",
+      "visibility": "private"
+    },
+    {
+      "path": "private-video-frames/t16.5.jpg",
+      "bytes": 67808,
+      "sha256": "2f6bf595f655089cda2f5c03636c66a2b771774fc4b294cda72f9cfe8246acd4",
+      "visibility": "private"
+    },
+    {
+      "path": "private-video-frames/t17.0.jpg",
+      "bytes": 61999,
+      "sha256": "c9dc488cc9e2e707fad896c16ff126c4bc8bd64a6a55161c3ca28f8a2b73ecbd",
+      "visibility": "private"
+    },
+    {
+      "path": "private-video-timeline.jpg",
+      "bytes": 303178,
+      "sha256": "0eb513904f090610bff4078e550583348e73dfe428d29616429f16342876b1a7",
+      "visibility": "private"
+    },
+    {
+      "path": "qa_v4_data.py",
+      "bytes": 2133,
+      "sha256": "4006367176a353a31cd51cf7286052875347a38ca7786b11d03ecc4633dbe23f",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "render_v4_blender.py",
+      "bytes": 1810,
+      "sha256": "3ef56a50ec926aa3a2d104e8b9637ca3aad110f2487c5c6c79ca0457beaf4705",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "report-v4.md",
+      "bytes": 3302,
+      "sha256": "5b240fbe9619b965febf947540723239278ab77c2c20078cae0219e0910feae0",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "source-qa.json",
+      "bytes": 1126,
+      "sha256": "39c2632ab22186c432741115c55259f84b6ebe4e4b92c6fb67039553ab37b2b2",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "v4-hook0.35.json",
+      "bytes": 1160,
+      "sha256": "0a5116c471b0bdd6bc206618e853f57cd4ac9deac2cecebab2693164be2205ad",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "v4-hook0.35.npz",
+      "bytes": 597283,
+      "sha256": "40bad7cb2b2b7fa28ae1f0406a00052690cd84a2cc9b2d6a83b436a78ace7d2f",
+      "visibility": "private"
+    },
+    {
+      "path": "v4-hook0.85.json",
+      "bytes": 1167,
+      "sha256": "9a7b890fe7a46757a2d028828249d2efb875f19c5f2a14266249ce569a8a8477",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "v4-hook0.85.npz",
+      "bytes": 597360,
+      "sha256": "3dfef30fa336e2d8958903e50a0fe45b4a8d2047c34f71630b9bb2501c2618e4",
+      "visibility": "private"
+    },
+    {
+      "path": "v4-hook1.5.json",
+      "bytes": 1167,
+      "sha256": "b4268a16b8b8ec2436f2342f5d23c8381259f02f8c07ab91157f2e113cd8ba50",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "v4-hook1.5.npz",
+      "bytes": 597307,
+      "sha256": "8f7d6122e4af6690ec8b6485efe1136db3512d5f2f43e2756cc0688fc27db730",
+      "visibility": "private"
+    },
+    {
+      "path": "v4-terminal-hooks.blend",
+      "bytes": 31388726,
+      "sha256": "123e2cb2cf0bad5d0d3db2cc5c921cc6a45ee6ff2a542cded8730a9c2ad0c20c",
+      "visibility": "private"
+    },
+    {
+      "path": "validate.log",
+      "bytes": 915,
+      "sha256": "e579f1a6e966b9cbaa3c5ac6e536a50d24b012bbf5b527e02be4b2cbc1b9f8ad",
+      "visibility": "public_own_source"
+    },
+    {
+      "path": "validate_v4_blender.py",
+      "bytes": 2087,
+      "sha256": "92c9ddb506eb8d45d1197ad835f2811084bc49df8953f392af11b4bc6ba5ccc8",
+      "visibility": "public_own_source"
+    }
+  ],
+  "checks": [
+    "source and Blender QA PASS",
+    "exact 539 endpoints, 28 carriers, 43-point prefix and radius preserved",
+    "4 same-camera Blender Cycles 12-sample renders",
+    "private actual-video timeline extracted, not generated"
+  ]
+}

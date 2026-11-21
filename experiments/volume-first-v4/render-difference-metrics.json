@@ -1,0 +1,17 @@
+{
+  "only-0.35.png": {
+    "mean_abs_rgb_difference": 1.6105,
+    "pixel_fraction_rgb_max_difference_gt_8": 0.0399,
+    "median_rgb_abs_diff": 0.0
+  },
+  "only-0.85.png": {
+    "mean_abs_rgb_difference": 3.2531,
+    "pixel_fraction_rgb_max_difference_gt_8": 0.0669,
+    "median_rgb_abs_diff": 0.0
+  },
+  "only-1.5.png": {
+    "mean_abs_rgb_difference": 4.3524,
+    "pixel_fraction_rgb_max_difference_gt_8": 0.0822,
+    "median_rgb_abs_diff": 0.0
+  }
+}

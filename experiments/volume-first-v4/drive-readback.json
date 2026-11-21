@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "count": 5,
+  "checks": [
+    {
+      "name": "scene",
+      "sha256_original": "123e2cb2cf0bad5d0d3db2cc5c921cc6a45ee6ff2a542cded8730a9c2ad0c20c",
+      "sha256_drive_readback": "123e2cb2cf0bad5d0d3db2cc5c921cc6a45ee6ff2a542cded8730a9c2ad0c20c",
+      "pass": true,
+      "bytes": 31388726
+    },
+    {
+      "name": "network",
+      "sha256_original": "3dfef30fa336e2d8958903e50a0fe45b4a8d2047c34f71630b9bb2501c2618e4",
+      "sha256_drive_readback": "3dfef30fa336e2d8958903e50a0fe45b4a8d2047c34f71630b9bb2501c2618e4",
+      "pass": true,
+      "bytes": 597360
+    },
+    {
+      "name": "zip",
+      "sha256_original": "ff10cf17cb690be38ee6f928ef828e9d0e11b88bedb0814a59824a60fd7dd310",
+      "sha256_drive_readback": "ff10cf17cb690be38ee6f928ef828e9d0e11b88bedb0814a59824a60fd7dd310",
+      "pass": true,
+      "bytes": 70969113
+    },
+    {
+      "name": "montage",
+      "sha256_original": "bc556d993220340135e689f5af02f4632c0b91209331efd67baff2bc80787f3f",
+      "sha256_drive_readback": "bc556d993220340135e689f5af02f4632c0b91209331efd67baff2bc80787f3f",
+      "pass": true,
+      "bytes": 818153
+    },
+    {
+      "name": "manifest",
+      "sha256_original": "59372eea171687275cc53e30bc304a37b4c244c9760cc0202e2be6166534f4cf",
+      "sha256_drive_readback": "59372eea171687275cc53e30bc304a37b4c244c9760cc0202e2be6166534f4cf",
+      "pass": true,
+      "bytes": 9846
+    }
+  ],
+  "reopened_downloaded_blend": true,
+  "reopened_blender_version": "5.2.4 LTS",
+  "geometry_validation": "PASS"
+}

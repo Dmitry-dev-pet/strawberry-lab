@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "blender": "5.2.4 LTS",
+  "variants": [
+    {
+      "name": "0.35",
+      "branches": 539,
+      "source_points": 40656,
+      "max_endpoint_error": 0.0,
+      "unchanged_first_43": 539
+    },
+    {
+      "name": "0.85",
+      "branches": 539,
+      "source_points": 40656,
+      "max_endpoint_error": 0.0,
+      "unchanged_first_43": 539
+    },
+    {
+      "name": "1.5",
+      "branches": 539,
+      "source_points": 40656,
+      "max_endpoint_error": 0.0,
+      "unchanged_first_43": 539
+    }
+  ],
+  "same_539_seed_targets_all_variants": true,
+  "initial_trunk_geometry_identical": true,
+  "radius_identical": true,
+  "camera_lights_materials_inherited": true,
+  "original_V3_retained": true,
+  "known_limits": [
+    "V4 is not real tissue anatomy",
+    "no cut-face or material atlas recomputed",
+    "cannot infer promo animation state"
+  ]
+}
