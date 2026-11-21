@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "status": "verified; independent review findings corrected and regression tested",
+  "base_pr": 31,
+  "base_sha": "7893b129e6e45be7b32108b8f10c460af3f84362",
+  "private_folder": "https://drive.google.com/drive/folders/1lI2mvbP8d39M5AKvY51VDAcxSLM5FV3E",
+  "superseded_provisional_folder": "https://drive.google.com/drive/folders/1iqWQMVsUt-XqT8lOIXHUFOSY38YsGDqD",
+  "public_media": false,
+  "method": "Owned M1e5 local-refinement/rest-space-distance principles adapted to PR31 Boolean cap; new artist relief field, no old cavity/SDF or135-path network transplant.",
+  "downloaded_scene_full_qa": "experiments/integration-exact-cut-v1/downloaded-scene-qa.json",
+  "artifacts": [
+    {
+      "path": "strawberry-exact-cut.blend",
+      "drive_id": "1fwGo8lgKWvBJLv3CkaeyalRVf7CJIvyt",
+      "url": "https://drive.google.com/file/d/1fwGo8lgKWvBJLv3CkaeyalRVf7CJIvyt/view?usp=drivesdk",
+      "sha256": "c6d39d20e90f75826167a5b4345752ef874d62641e0ff428f38a68050ec7da3c",
+      "bytes": 5058890,
+      "full_download_verified": true
+    },
+    {
+      "path": "comparison.png",
+      "drive_id": "1FycPhO4Gw7316kzdoGMThNnVBV5oY4fN",
+      "url": "https://drive.google.com/file/d/1FycPhO4Gw7316kzdoGMThNnVBV5oY4fN/view?usp=drivesdk",
+      "sha256": "84ba780fdb66eef38f08a236921fa960436a136fe8f32d8df1ecb376e5bca82b",
+      "bytes": 795136,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/beauty-fast.png",
+      "drive_id": "1Yxy0FsvtcP2_qOOCoIcNE0FxmeWAG03X",
+      "url": "https://drive.google.com/file/d/1Yxy0FsvtcP2_qOOCoIcNE0FxmeWAG03X/view?usp=drivesdk",
+      "sha256": "83df3fcb0b178c77eec6f0b3da9f9e0ff653eacc191958c5c44759761cc29329",
+      "bytes": 503977,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/beauty-exact.png",
+      "drive_id": "1HggZbiHL3yx8wcSHIAcbIaO89QLenmsx",
+      "url": "https://drive.google.com/file/d/1HggZbiHL3yx8wcSHIAcbIaO89QLenmsx/view?usp=drivesdk",
+      "sha256": "4654c37671a3d619ea359b176f665cbd03fb2142ffba27b0dc0704061b74fa5a",
+      "bytes": 530492,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/clay-saved-fast.png",
+      "drive_id": "1nDaKX5mrDSwdhjlc3B2kA_ZN6GWlEJ35",
+      "url": "https://drive.google.com/file/d/1nDaKX5mrDSwdhjlc3B2kA_ZN6GWlEJ35/view?usp=drivesdk",
+      "sha256": "c75a2bfd1479c1fcb14292361b9551934a00014fcf10d9a95fb5aff21d37467c",
+      "bytes": 421791,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/clay-saved-exact.png",
+      "drive_id": "19XF6sgUnjiDCOI89M5gTDa4k_i-Vl3_Y",
+      "url": "https://drive.google.com/file/d/19XF6sgUnjiDCOI89M5gTDa4k_i-Vl3_Y/view?usp=drivesdk",
+      "sha256": "3f9246c8b3351764e8c9e40679b645a73c30808a3b0d5542f526b53c0ccc2758",
+      "bytes": 535962,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/clay-oblique-fast.png",
+      "drive_id": "1QgFi_qn2hEcPoJnpm2u4RTJPAmORwcQO",
+      "url": "https://drive.google.com/file/d/1QgFi_qn2hEcPoJnpm2u4RTJPAmORwcQO/view?usp=drivesdk",
+      "sha256": "e211794efc001d16f9518d247802274869f143293e26aa997baadea423d33699",
+      "bytes": 413079,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/clay-oblique-exact.png",
+      "drive_id": "14ODGTNCy_Rsqz31x_MzwnzA6_Thb6LXn",
+      "url": "https://drive.google.com/file/d/14ODGTNCy_Rsqz31x_MzwnzA6_Thb6LXn/view?usp=drivesdk",
+      "sha256": "a9b33de2722bc3af0936cecf7ee8abfa3c7cc9ab9751ec731d03b608cbd83470",
+      "bytes": 518986,
+      "full_download_verified": true
+    },
+    {
+      "path": "validation.json",
+      "drive_id": "1KYebK9n5p4-1eoaLs4lfJDlnXWPk5re_",
+      "url": "https://drive.google.com/file/d/1KYebK9n5p4-1eoaLs4lfJDlnXWPk5re_/view?usp=drivesdk",
+      "sha256": "230a64e6647626c23667877c10e0fca2d5e0807daf4f85df7ca5380227c3131f",
+      "bytes": 8860,
+      "full_download_verified": true
+    },
+    {
+      "path": "render-validation.json",
+      "drive_id": "1j0bIYC6xvchFOIvJFZkTJp5QESgwM_nR",
+      "url": "https://drive.google.com/file/d/1j0bIYC6xvchFOIvJFZkTJp5QESgwM_nR/view?usp=drivesdk",
+      "sha256": "ad1a014a5ddd108e95a3821e167df2a8727f3f15efeead201e44f1dd486eda7a",
+      "bytes": 1681,
+      "full_download_verified": true
+    },
+    {
+      "path": "render-regressions.json",
+      "drive_id": "1N9lzA5JRVAUDGeo28rN_HU__YldWtjjg",
+      "url": "https://drive.google.com/file/d/1N9lzA5JRVAUDGeo28rN_HU__YldWtjjg/view?usp=drivesdk",
+      "sha256": "59ec5b538a93fcdd5643fff5e393a86e3bd601b62b28547e08f2a64b5d885d9f",
+      "bytes": 199,
+      "full_download_verified": true
+    },
+    {
+      "path": "strawberry-exact-cut-v1-reviewed.zip",
+      "drive_id": "13IawZDYZtWD0vDkJx5X5-JNx4DiS8_eu",
+      "url": "https://drive.google.com/file/d/13IawZDYZtWD0vDkJx5X5-JNx4DiS8_eu/view",
+      "sha256": "f11b888c3b44825dcc3cbd48017b61cbdada94a4971f005802ab1e3f7aef8317",
+      "bytes": 79455146,
+      "full_download_verified": true,
+      "zip_integrity_verified": true
+    }
+  ]
+}

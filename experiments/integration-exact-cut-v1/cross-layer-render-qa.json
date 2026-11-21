@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scene_sha256": "c6d39d20e90f75826167a5b4345752ef874d62641e0ff428f38a68050ec7da3c",
+  "layers": {
+    "MATCHED": {
+      "candidate": {
+        "cap_plane_error_mm": 1.3245476937484568e-06,
+        "sha256": "e930d41081403442a0f361897afa69730810faf28f72504f6d99e3f4ecfa74bf",
+        "vertices": 31809,
+        "refresh_count": 2
+      },
+      "control": {
+        "cap_plane_error_mm": 1.3245476937484568e-06,
+        "sha256": "921f80323f8e64570a26234941617754a4b49b9ee34107870c0b6165762f8cf5",
+        "vertices": 31809,
+        "refresh_count": 1
+      },
+      "decoded_pixels_identical": true
+    },
+    "FLESH ONLY": {
+      "candidate": {
+        "cap_plane_error_mm": 1.3245476937484568e-06,
+        "sha256": "4b128d6aeff0831fea02175b344fbefe2a9cb879612e76298f4f42fd0a2a0587",
+        "vertices": 31809,
+        "refresh_count": 2
+      },
+      "control": {
+        "cap_plane_error_mm": 1.3245476937484568e-06,
+        "sha256": "00ff7d5acdb914c0bc2ae6aea1b0f4503e4c1c6d3709c20d1098c14234a4b7b0",
+        "vertices": 31809,
+        "refresh_count": 1
+      },
+      "decoded_pixels_identical": true
+    }
+  }
+}

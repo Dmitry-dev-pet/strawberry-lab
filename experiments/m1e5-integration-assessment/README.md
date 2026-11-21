@@ -1,5 +1,7 @@
 # Stage B: Exact relief compatibility, not an implemented transfer
 
+Historical assessment at PR31. The subsequent [live Exact adapter](../integration-exact-cut-v1/README.md) implements local cap refinement and geometric displacement on the canonical Boolean hull; the direct-transplant limitations recorded here still apply.
+
 Stage A restores independent rendering modes. This assessment does **not** claim M1e5 micro-relief is integrated. No cavity, new cells or new vessel network is generated. No live Blender GUI state was changed.
 
 ## Actual sources inspected

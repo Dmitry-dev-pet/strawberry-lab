@@ -1,0 +1,15 @@
+{
+  "blender": "5.2.2 LTS",
+  "source_sha256": "509725824a8707aade9ca19153c95b4d2de6a2a5b49a827afbb6c0ca11cb4a53",
+  "scene_sha256": "c6d39d20e90f75826167a5b4345752ef874d62641e0ff428f38a68050ec7da3c",
+  "scene_bytes": 5058890,
+  "objects": 284,
+  "body_vertices": 30242,
+  "view_layers": [
+    "MATCHED",
+    "WHOLE",
+    "FLESH ONLY",
+    "FIBERS ONLY"
+  ],
+  "build_seconds": 0.8192276246845722
+}

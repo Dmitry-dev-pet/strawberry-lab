@@ -1,0 +1,5 @@
+{
+  "all_six_review_corrected_images_match_original_decoded_pixels": true,
+  "duplicated_saved_pose_rejected": true,
+  "rejection_last_line": "AssertionError: ('clay-oblique', 'pose_y_xrot_zrot')"
+}

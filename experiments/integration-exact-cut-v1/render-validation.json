@@ -1,0 +1,65 @@
+{
+  "beauty": {
+    "whole_frame": {
+      "changed_pixels_over_8_rgb_levels": 28355,
+      "fraction_over_8_rgb_levels": 0.06711242603550296,
+      "mean_max_channel_difference": 1.5039218934911243
+    },
+    "render_seconds": [
+      22.290592540986836,
+      22.097261582966894
+    ]
+  },
+  "clay-saved": {
+    "whole_frame": {
+      "changed_pixels_over_8_rgb_levels": 80508,
+      "fraction_over_8_rgb_levels": 0.19055147928994082,
+      "mean_max_channel_difference": 4.3430366863905325
+    },
+    "render_seconds": [
+      17.18934362521395,
+      12.92298183310777
+    ],
+    "cap_crop": {
+      "box": [
+        245,
+        220,
+        405,
+        405
+      ],
+      "pixels": {
+        "changed_pixels_over_8_rgb_levels": 15180,
+        "fraction_over_8_rgb_levels": 0.5128378378378379,
+        "mean_max_channel_difference": 11.298378378378379
+      },
+      "local_luma_contrast_fast": 0.2668581081081081,
+      "local_luma_contrast_exact": 7.680945945945946
+    }
+  },
+  "clay-oblique": {
+    "whole_frame": {
+      "changed_pixels_over_8_rgb_levels": 75623,
+      "fraction_over_8_rgb_levels": 0.17898934911242603,
+      "mean_max_channel_difference": 4.038710059171597
+    },
+    "render_seconds": [
+      16.48405004106462,
+      17.82059441693127
+    ],
+    "cap_crop": {
+      "box": [
+        245,
+        220,
+        405,
+        405
+      ],
+      "pixels": {
+        "changed_pixels_over_8_rgb_levels": 15205,
+        "fraction_over_8_rgb_levels": 0.5136824324324324,
+        "mean_max_channel_difference": 11.178108108108107
+      },
+      "local_luma_contrast_fast": 0.26611486486486485,
+      "local_luma_contrast_exact": 7.716283783783783
+    }
+  }
+}
