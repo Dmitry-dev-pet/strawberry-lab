@@ -1,0 +1,153 @@
+{
+  "schema": "strawberry-lab.m1e6.nativeGN.verified-artifacts.v1",
+  "date": "2026-11-21",
+  "owner_repository": "Dmitry-dev-pet/strawberry-lab",
+  "base_branch": "feature/m1e5-live-exact-adaptive-cut",
+  "milestone": "M1e6 optional pure Geometry Nodes local bevel and 3D filament signal",
+  "source_license": "Independent Strawberry Lab work, no vendor assets or GPL Frucht code",
+  "source_blend": "m1e5-source.blend",
+  "checks": {
+    "blender": "5.2.4 LTS",
+    "native_GN_no_runtime_Python": true,
+    "tested_frames": [
+      1,
+      15,
+      21,
+      30
+    ],
+    "watertight_standard_knife_poses": true,
+    "cavity_move_x_0_18_creates_extra_components_KNOWN_FAILURE": true,
+    "modifier_controls_reactive": true,
+    "skin_surface_unchanged_2500_samples": true,
+    "CPU_cycles_sample_720x720_16": true,
+    "no_claim_realtime_or_visual_parity": true
+  },
+  "owner_restricted_drive_folder": "Strawberry Lab/experiments-m1e6-native-GN-20261121",
+  "files": [
+    {
+      "name": "m1e5-source.blend",
+      "size_bytes": 10218397,
+      "sha256": "2082a81c0d2607faabdefefe0403deed997c703f2c3a1dfe96ea0338e6c4efb2"
+    },
+    {
+      "name": "m1e6-nativeGN-production.blend",
+      "size_bytes": 10223656,
+      "sha256": "119dd13b7e7fa7ed130fba844e02c698095b7d601fea6227bb00d7fa7149d33f"
+    },
+    {
+      "name": "m1e6-nativeGN-FiberDiagnostic.blend",
+      "size_bytes": 10222268,
+      "sha256": "88c98b9c303b3f6af3a56b84ba7c4ccc24f8b1fb5fbeef93db33d011da53ff03"
+    },
+    {
+      "name": "m1e5-exact-F15.png",
+      "size_bytes": 620331,
+      "sha256": "61a3d3460de4db6e8f4b4b96419c2adaa656aaec34613c64b81a08ecd304fe0c"
+    },
+    {
+      "name": "m1e6-nativeGN-F15.png",
+      "size_bytes": 602852,
+      "sha256": "e7db95fe2a5e9a70c45de3430e4222767ad7476a99d12ab715fa8a24568e1203"
+    },
+    {
+      "name": "m1e6-nativeGN-F21.png",
+      "size_bytes": 585701,
+      "sha256": "a6f911e0694de6cbd09b7fa2c282e3577c3ac57c8d11a6c1f3473960f53de04b"
+    },
+    {
+      "name": "m1e6-nativeGN-FiberDiagnostic-F15.png",
+      "size_bytes": 604550,
+      "sha256": "f7bacff881f490b535d451fa4ba971c1adfecdcfdc16bd15a55b72a9eb893c20"
+    },
+    {
+      "name": "m1e6-real-three-way-compare.jpg",
+      "size_bytes": 162441,
+      "sha256": "b107b8ae360bfa78a409958df3b6dc32eda2b84633449b356ddac002bffab7a6"
+    },
+    {
+      "name": "m1e6-frame21-compare.jpg",
+      "size_bytes": 99020,
+      "sha256": "aaa07fdd8b4c991ae2b57479ecce66519b2dac2026174a56ee790dfc6d703855"
+    },
+    {
+      "name": "build_m1e6.py",
+      "size_bytes": 7396,
+      "sha256": "6e761a55b9624007a8569f6b4ff03e7a28a3ec58be52ed45358c171daf90323c"
+    },
+    {
+      "name": "expose_controls.py",
+      "size_bytes": 2751,
+      "sha256": "b5b4f98ede10e38a61395f7ff71a4132de41269bd24216f3ba7cf9046ce9f833"
+    },
+    {
+      "name": "validate_m1e6.py",
+      "size_bytes": 7062,
+      "sha256": "10fe90bb7bf6a406a3d3ead1f04335f22cbb4e79f1a96cd21cd62182329d1262"
+    },
+    {
+      "name": "test_controls.py",
+      "size_bytes": 1949,
+      "sha256": "7b9c8f9c4e967bf1ef6f70d53d75e0803ec5b34a4d76e91fc5f80ea58e1e8733"
+    },
+    {
+      "name": "render_m1e6.py",
+      "size_bytes": 1034,
+      "sha256": "44b02d5b8b007c87d9a4fe6011832d1419fc76fa95ebd1088821ab7e21d60f11"
+    },
+    {
+      "name": "benchmark_m1e6.py",
+      "size_bytes": 1032,
+      "sha256": "e5d4295ba00f4440402892807dc182c20754df17c6554aa11e8322e97aacfa84"
+    },
+    {
+      "name": "make_montage.py",
+      "size_bytes": 1607,
+      "sha256": "f7287aa454cfb205ca530dcdefb92cd672b06e08b8968ad762e160c4da26deb7"
+    },
+    {
+      "name": "validation.json",
+      "size_bytes": 4871,
+      "sha256": "5285553c7c24ce4b4a94aa9287a1dbb107a635f4c97dd1a6fb26914f141af134"
+    },
+    {
+      "name": "benchmark.json",
+      "size_bytes": 823,
+      "sha256": "e8df34d578ce9a2a1b6e0f5c9967da9cde1ef8c67b11bac87879042a53bd6afc"
+    },
+    {
+      "name": "benchmark-m1e5-fast.json",
+      "size_bytes": 828,
+      "sha256": "5dafc3877bc0f4f66692442e90a48320fab5c38f50c5b6a3e0d5555288ecb687"
+    },
+    {
+      "name": "validate.log",
+      "size_bytes": 3554,
+      "sha256": "2a0c6c8d92dfbd5384e9eb83029b209b234a25e5df324ac5ca853fccf12db92a"
+    },
+    {
+      "name": "test_controls.log",
+      "size_bytes": 952,
+      "sha256": "41256d99f28b79388d7c7b910e95f9451770c1d233fe584ff23c8d7640036539"
+    },
+    {
+      "name": "benchmark.log",
+      "size_bytes": 506,
+      "sha256": "5c9d91d2029a37a8a70f4adf96eb316fd4ba18d34a5fd441c1af84770328aec7"
+    },
+    {
+      "name": "benchmark-m1e5-fast.log",
+      "size_bytes": 513,
+      "sha256": "53e1b66c35ac39341b01dafd3204e51da32190754228dcd29900e7e9e8647b74"
+    },
+    {
+      "name": "README.md",
+      "size_bytes": 3246,
+      "sha256": "1264fcb84eec9ea3a70cc578440dcb6d66a07d8a438055fdfabaafea30c1cd33"
+    },
+    {
+      "name": "report-m1e6.md",
+      "size_bytes": 7790,
+      "sha256": "d7966e653ba6f3a2e6c6de4f8f26c6fbb555d75d59d4a48fa166b997edb40173"
+    }
+  ]
+}
