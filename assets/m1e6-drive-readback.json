@@ -1,0 +1,112 @@
+{
+  "schema": "strawberry-lab.m1e6.drive-sha256-readback.v1",
+  "date": "2026-11-21",
+  "status": "PASS",
+  "files_ok": 25,
+  "files_total": 25,
+  "manifest_sha256": "a93c36f51de691367644184f907fbe46a8dfb577f58c40b5811e6a0edeb325c7",
+  "zip_sha256": "de10b683a78891dfdfad42acd6c1eb23a9be266e43b5a7b5871d3bc6c5dfb00e",
+  "zip_bytes": 31789613,
+  "items": [
+    {
+      "name": "m1e5-source.blend",
+      "status": "PASS"
+    },
+    {
+      "name": "m1e6-nativeGN-production.blend",
+      "status": "PASS"
+    },
+    {
+      "name": "m1e6-nativeGN-FiberDiagnostic.blend",
+      "status": "PASS"
+    },
+    {
+      "name": "m1e5-exact-F15.png",
+      "status": "PASS"
+    },
+    {
+      "name": "m1e6-nativeGN-F15.png",
+      "status": "PASS"
+    },
+    {
+      "name": "m1e6-nativeGN-F21.png",
+      "status": "PASS"
+    },
+    {
+      "name": "m1e6-nativeGN-FiberDiagnostic-F15.png",
+      "status": "PASS"
+    },
+    {
+      "name": "m1e6-real-three-way-compare.jpg",
+      "status": "PASS"
+    },
+    {
+      "name": "m1e6-frame21-compare.jpg",
+      "status": "PASS"
+    },
+    {
+      "name": "build_m1e6.py",
+      "status": "PASS"
+    },
+    {
+      "name": "expose_controls.py",
+      "status": "PASS"
+    },
+    {
+      "name": "validate_m1e6.py",
+      "status": "PASS"
+    },
+    {
+      "name": "test_controls.py",
+      "status": "PASS"
+    },
+    {
+      "name": "render_m1e6.py",
+      "status": "PASS"
+    },
+    {
+      "name": "benchmark_m1e6.py",
+      "status": "PASS"
+    },
+    {
+      "name": "make_montage.py",
+      "status": "PASS"
+    },
+    {
+      "name": "validation.json",
+      "status": "PASS"
+    },
+    {
+      "name": "benchmark.json",
+      "status": "PASS"
+    },
+    {
+      "name": "benchmark-m1e5-fast.json",
+      "status": "PASS"
+    },
+    {
+      "name": "validate.log",
+      "status": "PASS"
+    },
+    {
+      "name": "test_controls.log",
+      "status": "PASS"
+    },
+    {
+      "name": "benchmark.log",
+      "status": "PASS"
+    },
+    {
+      "name": "benchmark-m1e5-fast.log",
+      "status": "PASS"
+    },
+    {
+      "name": "README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "report-m1e6.md",
+      "status": "PASS"
+    }
+  ]
+}
