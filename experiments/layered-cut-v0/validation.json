@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "blender_version": "5.2.4 LTS",
+  "scene_a": "LAYER A | common cut y=0",
+  "scene_b": "LAYER B | flesh-only cut y=0",
+  "same_opaque_cut_mesh_vertices": 78626,
+  "same_camera": true,
+  "same_lights": true,
+  "same_flesh_material": true,
+  "original_28_core_spline_sha256": "69c155c61dee261732ccfa8f1a5051560bcb710a5b4bd58597efe0dbcbc344b8",
+  "original_539_branch_spline_sha256": "0027bb004ac6d41eb5d65cb2cbb4ba8234ee94e5e2bbafdf67727cc57af27599",
+  "full_curve_identity_in_both_scenes": true,
+  "source_seed_marker_vertices": 3234,
+  "full_seed_marker_vertices_both_scenes": 3234,
+  "clipped_seed_count": 270,
+  "clipped_core_curve_segments": 15,
+  "clipped_branch_curve_segments": 283,
+  "all_clipped_samples_y_ge_0": true,
+  "independent_visibility_collections_per_scene": 8,
+  "defaults": {
+    "matched_visible": [
+      "LIGHTS & CAMERA",
+      "FLESH / opaque 0deg half-fruit",
+      "CORE CARRIERS / 28 CLIPPED y>=0",
+      "VASCULAR BRANCHES / CLIPPED y>=0",
+      "SEED END MARKERS / CLIPPED y>=0"
+    ],
+    "flesh_only_visible": [
+      "LIGHTS & CAMERA",
+      "FLESH / opaque 0deg half-fruit",
+      "CORE CARRIERS / 28 FULL",
+      "VASCULAR BRANCHES / 539 FULL",
+      "SEED END MARKERS / 539 FULL"
+    ]
+  },
+  "limitations": [
+    "The original Volume First baseline flesh is a static half fruit at y=0, no animated arbitrary knife",
+    "Original v0 flesh material has its own tissue color, not recomputed from V4 curves",
+    "Achene markers are diagnostic octahedra, not physical strawberry achene meshes",
+    "Pith, microscopic cell and juice layers are not in V4 independent objects",
+    "Not evidence of actual commercial Frucht clipping/wiring"
+  ]
+}

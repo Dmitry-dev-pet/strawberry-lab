@@ -1,0 +1,177 @@
+{
+  "schema": "strawberry-lab.layered-cut.v0.1",
+  "date": "2026-11-21",
+  "source_repo": "Dmitry-dev-pet/strawberry-lab",
+  "branch_target": "experiments/layered-cut-display-v0",
+  "note": "Independent owner-authored source + real Blender renders. No Frucht source or video included.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6339,
+      "sha256": "196016ab5373d5b3984890826af26b7f36c97e0e89c5f9543041ac452708a28b",
+      "public": true
+    },
+    {
+      "path": "report-layered.md",
+      "bytes": 3556,
+      "sha256": "cb405fb1e9d682b18a78a44006704dca1beefe396d6bc0fbcc1b1c0239223c02",
+      "public": true
+    },
+    {
+      "path": "build_layered_display.py",
+      "bytes": 12108,
+      "sha256": "d9913f59e008a4b7292cada031085be7665e22bc4518df5822bacbc6bbed906e",
+      "public": true
+    },
+    {
+      "path": "render_layered.py",
+      "bytes": 2707,
+      "sha256": "3af2eb12fc337e3ca69b648ba18a9dea5d2aa2eaa8062b10e4c6321da371b127",
+      "public": true
+    },
+    {
+      "path": "validate_layered.py",
+      "bytes": 5583,
+      "sha256": "7c1b80cf79af99a8749e2af25b2483cc1da5d5c525d642e3835afaeedee39b68",
+      "public": true
+    },
+    {
+      "path": "layer_controls_ui.py",
+      "bytes": 4504,
+      "sha256": "c0664d1eeba13a0a2eaae36ec20dd32b2db33e3290b415201776bb988bb46f22",
+      "public": true
+    },
+    {
+      "path": "test_ui.py",
+      "bytes": 1343,
+      "sha256": "180ed187c4e5731234709b10d63f82c34c0217b400c196bea3653f513ead8ab2",
+      "public": true
+    },
+    {
+      "path": "make_layer_comparisons.py",
+      "bytes": 2371,
+      "sha256": "c6b50caac60212125acd004f59fec6da75791de04f5f0e724414dfceb9ea8c3b",
+      "public": true
+    },
+    {
+      "path": "input-v4-terminal-hooks.blend",
+      "bytes": 31388726,
+      "sha256": "123e2cb2cf0bad5d0d3db2cc5c921cc6a45ee6ff2a542cded8730a9c2ad0c20c",
+      "public": false
+    },
+    {
+      "path": "outputs/strawberry-independent-layers-v0.blend",
+      "bytes": 40932692,
+      "sha256": "1f765f0f83f6da56229ba57402b1c458ae75fb6ba9ed632933bad4f4ff092050",
+      "public": false
+    },
+    {
+      "path": "outputs/build-report.json",
+      "bytes": 1299,
+      "sha256": "2767268336b2102edbb74aa78f7dc6dc949625209984e39ba50664796dd54830",
+      "public": true
+    },
+    {
+      "path": "outputs/validation.json",
+      "bytes": 1702,
+      "sha256": "6fa3ac961ea0ceb8fb92897b32fd0905cc688e622ae7888dd646f34cf43fa007",
+      "public": true
+    },
+    {
+      "path": "outputs/render-difference.json",
+      "bytes": 298,
+      "sha256": "d5431c9f5f53ed7467f29ad667af8b82dcef4a80c93d43dd5caad4810973edcc",
+      "public": true
+    },
+    {
+      "path": "outputs/matched.png",
+      "bytes": 575626,
+      "sha256": "55b89566b97429140f40470f94e4a4a9d90a7e685c5410e2a2504813982a6734",
+      "public": false
+    },
+    {
+      "path": "outputs/flesh-only.png",
+      "bytes": 741685,
+      "sha256": "c07a2694214ac204cab89bc54bffaba08b26d5d255a73534a1138361dc13cc0f",
+      "public": false
+    },
+    {
+      "path": "outputs/fibers-only.png",
+      "bytes": 750940,
+      "sha256": "23978d822256d2d8f4323bc87019f38a0c03df9b2e313ba35d310dc1355186ce",
+      "public": false
+    },
+    {
+      "path": "outputs/no-seeds.png",
+      "bytes": 719873,
+      "sha256": "074a84aaaac23c5bdfe44ac66e77b67916adb83eaadef4f152d8c2ce87e0d20f",
+      "public": false
+    },
+    {
+      "path": "outputs/core-only.png",
+      "bytes": 486944,
+      "sha256": "7dd5714bede6a0f8da956f0eda0e1cccbbca7729bf86c8ef47e2efdea5986344",
+      "public": false
+    },
+    {
+      "path": "outputs/real-ab-layer-clipping.jpg",
+      "bytes": 202860,
+      "sha256": "ac04bc78468c03c3da249b218e351c0b309e95dcc92804714f4f27a088ca6c13",
+      "public": false
+    },
+    {
+      "path": "outputs/real-layer-toggle-grid.jpg",
+      "bytes": 402422,
+      "sha256": "5201bdd0ad5f28cf48a8882e28582798f71da434b8b752c7a54918d93703bb20",
+      "public": false
+    },
+    {
+      "path": "build.log",
+      "bytes": 1467,
+      "sha256": "452105850f269b916a5fdd7ca1fc61806bb89fb138a8d10caff03281d013613e",
+      "public": false
+    },
+    {
+      "path": "validate.log",
+      "bytes": 1774,
+      "sha256": "4c947490b8b91447271260812155c82f08d9a2a60d218b7c56b001e789ce9e36",
+      "public": false
+    },
+    {
+      "path": "ui-test.log",
+      "bytes": 309,
+      "sha256": "87110f9a38c64819e0e132c93bae280ecff8b7c796192c348abd1c75672739e2",
+      "public": false
+    },
+    {
+      "path": "render-matched.log",
+      "bytes": 675,
+      "sha256": "52f7fd3661458fe7b4333f9e80bda3fff3e067f57e0a7e0b74ec3a49060f6252",
+      "public": false
+    },
+    {
+      "path": "render-flesh-only.log",
+      "bytes": 695,
+      "sha256": "9891ea86587766e50b116d94fec8415c0cb1e0ce09ff4416e513e147e08c7cdc",
+      "public": false
+    },
+    {
+      "path": "render-fibers-only.log",
+      "bytes": 681,
+      "sha256": "1501b0730e0d7e9128b95755701283344bc1b55229e47cab70d398af409a99be",
+      "public": false
+    },
+    {
+      "path": "render-no-seeds.log",
+      "bytes": 663,
+      "sha256": "bfbd0b1e1735fc06082d46a58783316deb3f292ed5e8ea7a8daf01911fa45226",
+      "public": false
+    },
+    {
+      "path": "render-core-only.log",
+      "bytes": 621,
+      "sha256": "b829eebe10cda3a171f463a6e53c4d1a325fd842b2f174a36aa13eaeebde6c96",
+      "public": false
+    }
+  ]
+}
