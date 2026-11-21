@@ -4,6 +4,7 @@ import argparse
 import json
 from pathlib import Path
 import sys
+import subprocess
 from tempfile import TemporaryDirectory
 from time import perf_counter
 
@@ -45,25 +46,27 @@ def check_receipts(scene, renders):
     for name in (*MODES, "matched-repeat"):
         path = renders / f"{name}.png"
         assert rows[name]["sha256"] == sha256(path)
-        pixels[name] = read_pixels(path)[:, :, :3]
+        raw_rgb = subprocess.check_output(["magick", str(path), "-depth", "8", "RGB:-"])
+        pixels[name] = np.frombuffer(raw_rgb, dtype=np.uint8).reshape(
+            scene.render.resolution_y, scene.render.resolution_x, 3).astype(np.int16)
         assert pixels[name].shape == (scene.render.resolution_y, scene.render.resolution_x, 3)
     assert np.array_equal(pixels["matched"], pixels["matched-repeat"])
 
     matched, flesh, fibers = (pixels[name] for name in ("matched", "flesh-only", "fibers-only"))
     delta = np.abs(flesh - matched)
-    changed = delta.max(axis=2) > 15 / 255
+    changed = delta.max(axis=2) > 15
     # The fixed studio has a uniform backdrop. Count the diagnostic pixels
     # restored where MATCHED has backdrop and the full network has geometry.
     backdrop = matched[0, 0]
-    assert np.allclose([img[0, 0] for img in pixels.values()], backdrop, atol=2 / 255)
-    in_removed_region = (np.abs(matched - backdrop).max(axis=2) <= 2 / 255) & (
-        np.abs(fibers - backdrop).max(axis=2) > 15 / 255)
+    assert np.allclose([img[0, 0] for img in pixels.values()], backdrop, atol=2)
+    in_removed_region = (np.abs(matched - backdrop).max(axis=2) <= 2) & (
+        np.abs(fibers - backdrop).max(axis=2) > 15)
     restored = int(np.count_nonzero(changed & in_removed_region))
     assert restored > 500 and changed.mean() > .02
     assert not np.array_equal(pixels["whole"], matched)
     return {
         "matched_repeat_pixels_identical": True,
-        "matched_flesh_mean_absolute_rgb_delta_8bit_scale": float(delta.mean() * 255),
+        "matched_flesh_mean_absolute_rgb_delta_8bit_scale": float(delta.mean()),
         "matched_flesh_fraction_over_15_levels": float(changed.mean()),
         "restored_diagnostic_pixels_over_matched_backdrop": restored,
     }

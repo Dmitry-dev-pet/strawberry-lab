@@ -12,8 +12,8 @@ Stage A restores independent rendering modes. This assessment does **not** claim
 
 ## Why a direct transplant fails
 
-1. M1e5 `ready()` requires named SDF body/helper/Exact cache, cavity material and its own 135-spline `M1e4 | persistent 3D curved fibers (source)`. PR30 has one analytic-hull Boolean mesh and the separately preserved 28+539 diagnostic paths; renaming these to the old 135 network would be false provenance.
-2. `_make_mesh()` evaluates the old SDF helper, selects old cut/cavity material indices and requires interpolated `fruit_rest` plus `m1e4_fiber`. The actual saved PR30 mesh has neither attribute. Old helper/cavity topology does not exist in it.
+1. M1e5 `ready()` checks named SDF body/helper/Exact cache, its scene flag and its own 135-spline `M1e4 | persistent 3D curved fibers (source)`. PR30 has one analytic-hull Boolean mesh and the separately preserved 28+539 diagnostic paths; renaming these to the old 135 network would be false provenance.
+2. `_make_mesh()` evaluates the old SDF helper, selects old cut/cavity material indices and requires interpolated `fruit_rest`; `m1e4_fiber` is a derived proximity field created and filled by the routine when absent. The actual saved PR30 mesh has neither attribute. Old helper/cavity topology does not exist in it. The cavity material is looked up later in `_make_mesh()`, not in `ready()`.
 3. The Exact snapshot has 83,806 stored vertices and a downstream 70-node localized CutSurface graph. PR30 has a 30,242-vertex raw canonical hull and no Geometry Nodes groups. Copying the old snapshot produces a different fruit, not an adapter.
 4. Physical conventions differ: old source scene scale_length=1; current PR30 scale_length≈0.0222222 maps its 2.16 model-unit height to nominal 48mm. Old numerical radii/noise/relief values cannot be copied unchanged as millimetres.
 5. M1e5's micro-relief includes inherited M1e3 geometry displacement and an additional 3D proximity attribute/material. Copying only its shader or the RGB image cannot reproduce this geometry. M1e6's bevel is not a drop-in replacement for local face subdivision, and its old cavity-proximity inputs also remain absent.

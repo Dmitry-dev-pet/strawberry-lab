@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "saved_mode_renders": {
+    "matched_repeat_pixels_identical": true,
+    "matched_flesh_mean_absolute_rgb_delta_8bit_scale": 17.757246548323472,
+    "matched_flesh_fraction_over_15_levels": 0.19891597633136093,
+    "restored_diagnostic_pixels_over_matched_backdrop": 15023
+  },
+  "isolated_diagnostic_probe": {
+    "full_network_pixels": 24988,
+    "clipped_pixels_at_cut_pose": 16407,
+    "clipped_pixels_at_moved_pose": 14425,
+    "pixels_changed_when_knife_moves": 9614,
+    "hidden_negative_side_marker_centers_at_moved_pose": 185,
+    "probe_render_seconds": [
+      4.019,
+      3.957,
+      3.931
+    ]
+  }
+}

@@ -17,7 +17,7 @@ The View Layers work with scripts disabled. To add the optional panel, open **Sc
 
 ## Reproduce
 
-Run from the repository root with the two authenticated owner-provided inputs. Each command uses Blender's stock installation. The final montage command also uses ImageMagick.
+Run from the repository root with the two authenticated owner-provided inputs. Each command uses Blender's stock installation. Integer RGB pixel validation and the montage command also use ImageMagick.
 
 | Input | SHA-256 |
 | --- | --- |
@@ -75,4 +75,14 @@ The evaluated body and every retained exterior solid were closed and had positiv
 | FLESH ONLY | 12.689 s |
 | FIBERS ONLY | 11.885 s |
 
-At the shared cut pose, 19.9% of pixels differed by more than 15 RGB levels in at least one channel. FLESH ONLY restored 15,056 diagnostic pixels over the MATCHED backdrop. Rendering MATCHED again after the other layers produced identical decoded pixels. The pixel validator also rendered the isolated MATCHED diagnostics at two knife poses and confirmed that moving the knife changed the mask. These timings come from headless renders and evaluated topology checks.
+At the shared cut pose, 19.9% of pixels differed by more than 15 RGB levels in at least one channel. FLESH ONLY restored 15,023 diagnostic pixels over the MATCHED backdrop. Rendering MATCHED again after the other layers produced identical decoded pixels. The pixel validator also rendered the isolated MATCHED diagnostics at two knife poses and confirmed that moving the knife changed the mask. These timings come from headless renders and evaluated topology checks.
+
+## Independent review
+
+Astra independently reopened the saved scene without scripts, rendered all four active layers through the default operator and matched their PNG pixels. It verified whole-mode parking/restoration of an independently edited knife transform, retained source edits across mode switches, identical MATCHED/FLESH ONLY solids and hidden solids in FIBERS ONLY. Parent corrected integer RGB threshold accounting; the scene and PNG bytes are unchanged. The Stage B inventory probe now verifies three input hashes before opening and creates a fresh output directory; swapped originals are rejected.
+
+## Private delivery
+
+[Owner-private scene, four renders, montage and macro comparison](https://drive.google.com/drive/folders/11lQeYVO13TbYgVPWUVHpCQhe7czpo0jY). Use **layer-modes-reproducible-reviewed.zip** and **render-validation-final.json**; earlier archive and pixel-count report are retained unchanged but superseded. Public manifest records canonical IDs, sizes and full download SHA256 checks. The downloaded scene was reopened and passed native layer/UI/geometry validation. No GUI scene was changed.
+
+Stage B is deliberately **not enabled**. See [verified M1e5/M1e6 source inventory and adapter contract](../m1e5-integration-assessment/README.md). The provided macro A/B compares layer visibility only, not an Exact-relief improvement.
