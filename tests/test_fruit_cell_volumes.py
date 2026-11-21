@@ -13,7 +13,7 @@ from fruit_cell_volumes import (CellSolid,build_volume,section_records,plan_json
                                 MM_PER_BU,MORPHOLOGY_REFERENCE)
 from fruit_biocomponents import MissingBiologicalEvidence
 
-CATALOG=Path(__file__).resolve().parents[1]/'outputs'/'source-measurements-v1.json'
+CATALOG=Path(__file__).resolve().parents[1]/'data'/'morphometry'/'measurements-v1.json'
 class TestMeasuredVolumetricSpecimens(unittest.TestCase):
  @classmethod
  def setUpClass(cls):

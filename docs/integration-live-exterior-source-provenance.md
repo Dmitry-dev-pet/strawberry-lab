@@ -18,3 +18,11 @@ An independent headless Blender **5.2.2 LTS** process reopened the downloaded so
 Use exactly one canonical live-cut hull and one control. New exterior seeds are artist-rendered attachments projected to that hull. The 264 PR13 achenes and 539 PR29 diagnostic marker locations are different populations; the first slice may preserve the diagnostic network as a separate warning-labelled layer without claiming correspondence. No new vascular model, measured histology or Frucht parity is implied. Native cap geometry and shader-hidden diagnostic tube surfaces have different export guarantees.
 
 All old scenes and generated assets remain unchanged. New binaries belong under a fresh local build directory and private Drive version folder, never in public Git. User's live Blender scene remains under parent control.
+
+## First assembled output
+
+The editable scene and paired 650 px / 16 sample Cycles PNGs are saved in the fresh owner-private [integration folder](https://drive.google.com/drive/folders/18ST8t97v3wUwit8XmckU9Yn36IGajt0z). Four files were downloaded through the authenticated connector and verified byte-identical. The downloaded .blend reopened and passed the same actual-geometry QA; source digests and cut geometry counts agree. See [manifest](../assets/manifest-integration-live-exterior-v1.json) and [build/edit/limitations](../experiments/integration-live-exterior-v1/README.md).
+
+The body remains the original PR29 hull with a new exterior material, not the PR13 silhouette. 48 mm nominal height maps from FruitContext to 2.16 original model units; the resulting width is about 40.76 × 39.90 mm and is explicitly artistic. Skin pits are bump relief, not the PR13 mesh depressions. No additional cell solid geometry, unified biological seed-to-vessel mapping, whole-fruit GN rewrite or export parity is claimed. Four knife poses produce closed evaluated bodies and capped cut surfaces, while the original spline coordinates/radii and marker meshes remain unchanged.
+
+Four legacy test fixture paths were repaired to the committed data/morphometry/measurements-v1.json. The full 107-test suite now runs directly from this checkout without temporary fixture copies. Independent Astra review is tracked separately in the working task.
