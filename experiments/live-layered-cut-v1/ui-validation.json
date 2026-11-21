@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "same_one_plane_both_scenes": true,
+  "empty_offset_test": 0.27,
+  "empty_rotation_deg_test": 25.0,
+  "test_cases": [
+    "body FULL/CUT/OFF via actual ViewLayer collection flags",
+    "core branches and markers Off/Clipped/Full",
+    "translucent outline",
+    "cut offset updates shared Empty",
+    "cut angle updates shared Empty",
+    "switches per scene independent"
+  ]
+}

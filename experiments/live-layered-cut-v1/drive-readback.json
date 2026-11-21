@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "checked": 5,
+  "items": [
+    {
+      "name": "scene",
+      "status": "PASS",
+      "source_sha256": "56b6d516e8794fb855512978e90e37cd754374a594fb4c5103e672c960a031cf",
+      "remote_copy_sha256": "56b6d516e8794fb855512978e90e37cd754374a594fb4c5103e672c960a031cf",
+      "bytes": 48048054
+    },
+    {
+      "name": "zip",
+      "status": "PASS",
+      "source_sha256": "a0582653a304264db04db99db9bc7b1ff84204ae60bced0687f1198960fa29f5",
+      "remote_copy_sha256": "a0582653a304264db04db99db9bc7b1ff84204ae60bced0687f1198960fa29f5",
+      "bytes": 104352675
+    },
+    {
+      "name": "atlas",
+      "status": "PASS",
+      "source_sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+      "remote_copy_sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+      "bytes": 3209481
+    },
+    {
+      "name": "montage",
+      "status": "PASS",
+      "source_sha256": "718e1ecb16a54fe2f8b5824b8711ea191b926343fe94c2addfca1b8a6ab6001f",
+      "remote_copy_sha256": "718e1ecb16a54fe2f8b5824b8711ea191b926343fe94c2addfca1b8a6ab6001f",
+      "bytes": 450795
+    },
+    {
+      "name": "manifest",
+      "status": "PASS",
+      "source_sha256": "b87165830e0a2667a99bf3c7863bf2849c58a149131bcabba098fb72a865126c",
+      "remote_copy_sha256": "b87165830e0a2667a99bf3c7863bf2849c58a149131bcabba098fb72a865126c",
+      "bytes": 6150
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schema": "strawberry-lab.live-layered-cut.v1",
+  "date": "2026-11-21",
+  "blender": "5.2.4 LTS",
+  "verification": "PASS, 4 signed-halfspace knife poses, 28+539 spline invariance, packed 150^3 original V0 tissue color, UI callbacks, 8 pair-matched Cycles shots",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6065,
+      "sha256": "af30795e9936b36bc0d98d17ddf55bbb4271336a37101e88f10ede06f9eddae0",
+      "public": true
+    },
+    {
+      "path": "report.md",
+      "bytes": 6694,
+      "sha256": "268c81a12945219ad625764756f4f2f5d7f9d6a9463bf7087c6b8ad8e2cbf5ac",
+      "public": true
+    },
+    {
+      "path": "make_atlas.py",
+      "bytes": 1637,
+      "sha256": "846143b281a36d416a13b6f34a6028e94ea28c602db6aaeac7d1a24df375d76b",
+      "public": true
+    },
+    {
+      "path": "build_live_cut.py",
+      "bytes": 17423,
+      "sha256": "e4dc99ae80a6960f84e5061c54c88533f26644915a8cbe79cdfa612cfe700f38",
+      "public": true
+    },
+    {
+      "path": "live_cut_ui.py",
+      "bytes": 4661,
+      "sha256": "bfa7454190839f2b1716c0e10c5b2fced082b0d0d739230b5d3cd23203b8048a",
+      "public": true
+    },
+    {
+      "path": "render_live_cut.py",
+      "bytes": 2541,
+      "sha256": "73ca8cfdaad53ab0e31a1ed6330a51eaca75bd915720f7658ba84f97a01c7878",
+      "public": true
+    },
+    {
+      "path": "validate_live_cut.py",
+      "bytes": 6514,
+      "sha256": "5a43574f2fd0e58f361358c05241a9fe0b001dcd592c97711075b773145226e9",
+      "public": true
+    },
+    {
+      "path": "test_ui.py",
+      "bytes": 2280,
+      "sha256": "6a4f6325e8ab811c405b3e008679a17c8716db0b51408aa6ef4a774f0a1b5e97",
+      "public": true
+    },
+    {
+      "path": "make_comparisons.py",
+      "bytes": 2927,
+      "sha256": "a927fb0822b6a152c9da40738d038c5081f482cee61a47c3c5ccc49fbedb9843",
+      "public": true
+    },
+    {
+      "path": "atlas-qa.json",
+      "bytes": 585,
+      "sha256": "33e93ae0fd1f3d84dbe7f3df5a9b15618574e36637f3b055f7897bcf01792f3f",
+      "public": true
+    },
+    {
+      "path": "build-report.json",
+      "bytes": 1767,
+      "sha256": "305daff14ada9a3d00c7454972f6a8c1f7f0f2f4d717d4f8b7a2c09776840433",
+      "public": true
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1788,
+      "sha256": "2a3b8dec6f74e6c119879758cf632ca773ee3b04fd2ca9f7b43d923943a4b1fb",
+      "public": true
+    },
+    {
+      "path": "ui-validation.json",
+      "bytes": 402,
+      "sha256": "a03a8b7b734bbd8b19981963ab5f8df1270e0bca93765f18dccf48185499db63",
+      "public": true
+    },
+    {
+      "path": "tissue_color_atlas_150.png",
+      "bytes": 3209481,
+      "sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+      "public": false
+    },
+    {
+      "path": "tissue_3d.npz",
+      "bytes": 10791073,
+      "sha256": "178073059f755172c9019a41740d6247fe7bd4a12be0e5b0e4f15211d49f9fe2",
+      "public": false
+    },
+    {
+      "path": "input-layered-v0.blend",
+      "bytes": 40932692,
+      "sha256": "1f765f0f83f6da56229ba57402b1c458ae75fb6ba9ed632933bad4f4ff092050",
+      "public": false
+    },
+    {
+      "path": "strawberry-live-layered-cut-v1.blend",
+      "bytes": 48048054,
+      "sha256": "56b6d516e8794fb855512978e90e37cd754374a594fb4c5103e672c960a031cf",
+      "public": false
+    },
+    {
+      "path": "outputs/render-difference.json",
+      "bytes": 926,
+      "sha256": "81866eb53e157806648d5ce4dbe5336e2949127d263475fd81edbc79cdec09cc",
+      "public": false
+    },
+    {
+      "path": "outputs/real-live-cut-four-poses.jpg",
+      "bytes": 450795,
+      "sha256": "718e1ecb16a54fe2f8b5824b8711ea191b926343fe94c2addfca1b8a6ab6001f",
+      "public": false
+    },
+    {
+      "path": "outputs/real-live-layer-modes.jpg",
+      "bytes": 248300,
+      "sha256": "8ecdc16a68ac89823a255010d76ab190a4e66af9fb8958112e44df400b77efc5",
+      "public": false
+    },
+    {
+      "path": "outputs/center-matched.png",
+      "bytes": 365361,
+      "sha256": "d41c2100389794451912e2cafe212c00b7d3e3313635655e6d2fbbd7b368899d",
+      "public": false
+    },
+    {
+      "path": "outputs/center-flesh-only.png",
+      "bytes": 495431,
+      "sha256": "a23a0acb7bb1aff14308268ea8c5566d6dc354690daef53f353c3e4f017726b3",
+      "public": false
+    },
+    {
+      "path": "outputs/deep-matched.png",
+      "bytes": 354912,
+      "sha256": "2633a579d20acb91818a9a87037379dac681fa66bac92d88da3bfb40c7b7bc94",
+      "public": false
+    },
+    {
+      "path": "outputs/deep-flesh-only.png",
+      "bytes": 511023,
+      "sha256": "7756cf921a07bae29e9066a549835905787d5d6576095b8f403bfdaaff1866be",
+      "public": false
+    },
+    {
+      "path": "outputs/shallow-matched.png",
+      "bytes": 386383,
+      "sha256": "76d76f2d7e71673eeeb34ee70e1e9a9a02eaf1f225fe604604709c66ed7513f3",
+      "public": false
+    },
+    {
+      "path": "outputs/shallow-flesh-only.png",
+      "bytes": 488014,
+      "sha256": "a98699b5e806b1f3de26439b85857f44b0d046d1c6016c890e032d974e140c19",
+      "public": false
+    },
+    {
+      "path": "outputs/oblique-matched.png",
+      "bytes": 353907,
+      "sha256": "fe6365a227fde0c64a08938017c6ab30fc54596f6808de7e4afb4c3a93795ba7",
+      "public": false
+    },
+    {
+      "path": "outputs/oblique-flesh-only.png",
+      "bytes": 478174,
+      "sha256": "1a941d9e4381357e3351bc3b41df3514ee0305870613ae275116819262fa8ffa",
+      "public": false
+    },
+    {
+      "path": "outputs/center-whole.png",
+      "bytes": 339142,
+      "sha256": "bc1e444750b40ca7afbd546dd5095d93da03b77a8569457f4d4d3fe4b0907602",
+      "public": false
+    },
+    {
+      "path": "outputs/center-fibers-only.png",
+      "bytes": 526070,
+      "sha256": "6e0870c1c3cf5c3abc7e2f1eac0cc8ca1f78f0db3a636289b7df05b07e38f8ee",
+      "public": false
+    },
+    {
+      "path": "outputs/center-body-only.png",
+      "bytes": 356394,
+      "sha256": "f4dcd7f3009b632e0af350ca28f94948653011a450d1a8664c78bf35be3390ef",
+      "public": false
+    }
+  ],
+  "vendor_source_included": false,
+  "source_ownership": "Independent Strawberry Lab; third-party Frucht ZIP, images, video and code excluded",
+  "fidelity_limit": "Not a calibrated anatomical/Frucht replica; physical cell/juice/seed layers absent"
+}

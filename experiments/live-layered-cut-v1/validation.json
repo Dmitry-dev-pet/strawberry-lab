@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "blender": "5.2.4 LTS",
+  "plane_shared_both_scenes": true,
+  "original_28_carriers_sha256": "06c3ff17f97a6c3b28efd09dd432ecb962374d01fc8d572837966391730ac709",
+  "original_539_branches_sha256": "05b0842b8349130aac91a529d2276740ec537aa57bdba72f56abac6f166ecbcd",
+  "same_source_positions_all_layers": true,
+  "seed_marker_vertices_unchanged": 3234,
+  "packed_original_150cubed_volume_atlas": true,
+  "source_mesh_analytic_whole_closed": true,
+  "cut_caps_real_boolean_and_correct_material": true,
+  "tested_4_plane_poses": [
+    {
+      "offset": 0.0,
+      "angle_deg": 0.0,
+      "retained_vertices": 15646,
+      "retained_faces": 15369,
+      "new_cap_faces": 25,
+      "max_cap_dist_from_plane": 0.0,
+      "min_keep_halfspace_signed": 0.0,
+      "eval_seconds": 0.106
+    },
+    {
+      "offset": 0.34,
+      "angle_deg": 0.0,
+      "retained_vertices": 8374,
+      "retained_faces": 8072,
+      "new_cap_faces": 1,
+      "max_cap_dist_from_plane": 0.0,
+      "min_keep_halfspace_signed": 0.0,
+      "eval_seconds": 0.093
+    },
+    {
+      "offset": -0.26,
+      "angle_deg": 0.0,
+      "retained_vertices": 21552,
+      "retained_faces": 21388,
+      "new_cap_faces": 1,
+      "max_cap_dist_from_plane": 0.0,
+      "min_keep_halfspace_signed": 0.0,
+      "eval_seconds": 0.1
+    },
+    {
+      "offset": 0.0,
+      "angle_deg": 32.0,
+      "retained_vertices": 15603,
+      "retained_faces": 15391,
+      "new_cap_faces": 1,
+      "max_cap_dist_from_plane": 2.5460323627157777e-08,
+      "min_keep_halfspace_signed": -2.438739343801899e-08,
+      "eval_seconds": 0.126
+    }
+  ],
+  "volume_color_has_2_adjacent_z_samples": true,
+  "not_included": [
+    "separate microcells",
+    "real botanical seed meshes",
+    "juice",
+    "vendor Frucht scenes"
+  ]
+}
