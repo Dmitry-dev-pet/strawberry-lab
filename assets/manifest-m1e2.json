@@ -1,0 +1,110 @@
+{
+  "schema": "strawberry-lab.m1e2.verified-files.1",
+  "date": "2026-11-21",
+  "milestone": "M1e2 staged 3D SourceVolume + Live Cut",
+  "project": "Dmitry-dev-pet/strawberry-lab",
+  "source_licensing": "Independent code. Commercial Frucht .blend and GPL node graphs not reproduced.",
+  "owner_restricted_drive_folder_path": "Strawberry Lab/experiments-m1e2-staged-volume-20261121",
+  "method": "source SDF field body minus cavity is stored as a named volume grid; later knife subtraction in a separate GN tree; NOT baked/cached",
+  "checks": {
+    "blender": "5.2.4 LTS",
+    "tested_frames": [
+      1,
+      15,
+      30
+    ],
+    "evaluated_body_vertices": [
+      44474,
+      31482,
+      20894
+    ],
+    "nonmanifold_edges_each": [
+      0,
+      0,
+      0
+    ],
+    "surface_components_each": [
+      2,
+      1,
+      1
+    ],
+    "seed_geometry_vertices_each": [
+      90552,
+      56448,
+      38304
+    ],
+    "cycles_frame15": "640x640 10 CPU samples",
+    "pixel_identity_to_m1e_frame15": true,
+    "drive_readback": "8/8 verified"
+  },
+  "files": [
+    {
+      "name": "source-m1e-cavity-and-knife.blend",
+      "size_bytes": 3607809,
+      "sha256": "fe9fc8f9f85c1fa06a14370526864ff86b3f8010dec06cb7de1ae0cd02cf0cf2",
+      "drive_file_id": "1RwdwA1YXzveBzIqZC_BGF78wszatlnN-",
+      "verified_full_readback": true,
+      "verification_method": "full_sha256_readback"
+    },
+    {
+      "name": "strawberry-m1e2-staged-volume.blend",
+      "size_bytes": 5065706,
+      "sha256": "bc420445fff359699d4c89869b7b60b6dbe7cb83c8f0eb31018b92852e35d221",
+      "drive_file_id": "1HhPbAO0DzJjL-9wfhWsy5zf1B_mUek-W",
+      "verified_full_readback": true,
+      "verification_method": "full_sha256_readback_reopened_blender"
+    },
+    {
+      "name": "frame15-cycles.png",
+      "size_bytes": 456040,
+      "sha256": "733717a741572e4da65e48bea21681aceef44675ff7a6c0d2b0dfe94526550ea",
+      "drive_file_id": "1u9e849WW35-rBxjiM7LlGPg5jgLcCRES",
+      "verified_full_readback": true,
+      "verification_method": "full_sha256_readback"
+    },
+    {
+      "name": "validation.json",
+      "size_bytes": 1047,
+      "sha256": "d6b6b49548f324553033f312819f01498b051c9fa1b2b3d90128b60ec61abe12",
+      "drive_file_id": "11nid7iETvdXwRlLkwmOBNOvD4kzEUHx2",
+      "verified_full_readback": true,
+      "verification_method": "full_sha256_readback"
+    },
+    {
+      "name": "architecture-report.md",
+      "size_bytes": 7887,
+      "sha256": "5b55467d46f858401c697867632748f408c8ae7b8e6b584d3a1a028e43a55334",
+      "drive_file_id": "1RH4uwaUndcMyL1cuRHq-NTQPN155SU5W",
+      "verified_full_readback": true,
+      "verification_method": "git_blob_sha1_equals_local_hash_object",
+      "github_path": "docs/m1e2-staged-volume-and-frucht-audit.md"
+    },
+    {
+      "name": "build_staged_volume_m1e2.py",
+      "size_bytes": 6064,
+      "sha256": "31dbdd7e25e1c9f4ba44a7d14082cf7874aa51f31e9abbcb4c91081ed0837322",
+      "drive_file_id": "1E9Me6a1FfByiuqz9HmeWlhNK9xrVLRPG",
+      "verified_full_readback": true,
+      "verification_method": "git_blob_sha1_equals_local_hash_object",
+      "github_path": "src/build_staged_volume_m1e2.py"
+    },
+    {
+      "name": "validate_staged_volume_m1e2.py",
+      "size_bytes": 2913,
+      "sha256": "c3e2653fc24694489ed8fda0420c0d76c45497bf7b3a56f225f9ea4d0bc6b185",
+      "drive_file_id": "154ZAj39CZfL4AjdHAXtP5W2MLMeRyeTm",
+      "verified_full_readback": true,
+      "verification_method": "git_blob_sha1_equals_local_hash_object",
+      "github_path": "src/validate_staged_volume_m1e2.py"
+    },
+    {
+      "name": "render_staged_volume_m1e2.py",
+      "size_bytes": 1100,
+      "sha256": "f167615b6369d062c282af895b43693f955a854d5de1adc0100583ce935faa12",
+      "drive_file_id": "1VWyB1dV-Y362lNS8Pqz1Y-n9t-DLJBxT",
+      "verified_full_readback": true,
+      "verification_method": "git_blob_sha1_equals_local_hash_object",
+      "github_path": "src/render_staged_volume_m1e2.py"
+    }
+  ]
+}
