@@ -1,0 +1,594 @@
+{
+  "m1e5-exact-original.blend": {
+    "file": "m1e5-exact-original.blend",
+    "scene": "Scene",
+    "scale_length": 1.0,
+    "objects": [
+      {
+        "name": "M1e | persistent internal cavity (separate 3D mesh)",
+        "type": "MESH",
+        "vertices": 642,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          "sharp_face",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [],
+        "materials": []
+      },
+      {
+        "name": "M1e | independently moving knife (cube half space)",
+        "type": "MESH",
+        "vertices": 8,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          "sharp_face",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [],
+        "materials": []
+      },
+      {
+        "name": "Receptacle | actual pit-deformed epidermis",
+        "type": "MESH",
+        "vertices": 37779,
+        "splines": null,
+        "attributes": [
+          ".select_vert",
+          "position",
+          ".corner_vert",
+          ".corner_edge",
+          ".select_poly",
+          "sharp_face",
+          ".edge_verts",
+          ".select_edge",
+          "UVMap"
+        ],
+        "modifiers": [],
+        "materials": [
+          "Strawberry M1a \u2022 red epidermis, physically notated"
+        ]
+      },
+      {
+        "name": "M1c | watertight base (hidden)",
+        "type": "MESH",
+        "vertices": 37632,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [],
+        "materials": [
+          "Strawberry M1a \u2022 red epidermis, physically notated",
+          "M1c | rest-space pith/cortex + wet Voronoi surface"
+        ]
+      },
+      {
+        "name": "M1c | SDF cutter + rest-space tissue",
+        "type": "MESH",
+        "vertices": 37632,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [
+          [
+            "LIVE SDF cut \u2014 select cutter object / voxel size",
+            "NODES"
+          ]
+        ],
+        "materials": [
+          "Strawberry M1a \u2022 red epidermis, physically notated",
+          "M1c | rest-space pith/cortex + wet Voronoi surface"
+        ]
+      },
+      {
+        "name": "M1e2 | 3D SourceVolume (outer minus cavity)",
+        "type": "MESH",
+        "vertices": 37632,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [
+          [
+            "M1e2 static 3D volume source",
+            "NODES"
+          ]
+        ],
+        "materials": [
+          "Strawberry M1a \u2022 red epidermis, physically notated",
+          "M1c | rest-space pith/cortex + wet Voronoi surface"
+        ]
+      },
+      {
+        "name": "M1e5 | EXACT live-local CutSurface",
+        "type": "MESH",
+        "vertices": 83806,
+        "splines": null,
+        "attributes": [
+          "m1e4_fiber",
+          "fruit_rest",
+          "material_index",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [
+          [
+            "M1e4 | rest-space CutSurface after selective BMesh refinement",
+            "NODES"
+          ]
+        ],
+        "materials": [
+          null,
+          "Strawberry M1a \u2022 red epidermis, physically notated",
+          "M1e | shadowy wet cavity walls",
+          "M1c | rest-space pith/cortex + wet Voronoi surface"
+        ]
+      },
+      {
+        "name": "M1e4 | persistent 3D curved fibers (source)",
+        "type": "CURVE",
+        "vertices": null,
+        "splines": 135,
+        "attributes": [],
+        "modifiers": [],
+        "materials": []
+      },
+      {
+        "name": "M1e4 | LIVE 3D filament tubes, clipped by knife",
+        "type": "CURVE",
+        "vertices": null,
+        "splines": 135,
+        "attributes": [],
+        "modifiers": [
+          [
+            "Live SDF clip 3D fibers",
+            "NODES"
+          ]
+        ],
+        "materials": []
+      },
+      {
+        "name": "M1e5 | live SDF source for localized mesh",
+        "type": "MESH",
+        "vertices": 37632,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [
+          [
+            "LIVE low-poly SDF body - cavity - knife",
+            "NODES"
+          ]
+        ],
+        "materials": [
+          "Strawberry M1a \u2022 red epidermis, physically notated",
+          "M1c | rest-space pith/cortex + wet Voronoi surface"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "name": "M1d | live anchor diagnostic",
+        "nodes": 8
+      },
+      {
+        "name": "M1e | live seed mask cavity AND knife",
+        "nodes": 21
+      },
+      {
+        "name": "M1e2 | SourceVolume : body minus cavity",
+        "nodes": 7
+      },
+      {
+        "name": "M1e3 | CutSurface | source-anchored 3D cells + cavity relief",
+        "nodes": 64
+      },
+      {
+        "name": "M1e4 | LIVE trim filaments by same SDF knife",
+        "nodes": 12
+      },
+      {
+        "name": "M1e4 | localized CutSurface GN after BMesh snapshot",
+        "nodes": 70
+      },
+      {
+        "name": "M1e5 | source-only pre-subdivision volume mesh",
+        "nodes": 64
+      }
+    ],
+    "text_names": [
+      "M1e5 - Enable Live Exact.py"
+    ]
+  },
+  "m1e6-nativeGN-production.blend": {
+    "file": "m1e6-nativeGN-production.blend",
+    "scene": "Scene",
+    "scale_length": 1.0,
+    "objects": [
+      {
+        "name": "M1e | persistent internal cavity (separate 3D mesh)",
+        "type": "MESH",
+        "vertices": 642,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          "sharp_face",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [],
+        "materials": []
+      },
+      {
+        "name": "M1e | independently moving knife (cube half space)",
+        "type": "MESH",
+        "vertices": 8,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          "sharp_face",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [],
+        "materials": []
+      },
+      {
+        "name": "Receptacle | actual pit-deformed epidermis",
+        "type": "MESH",
+        "vertices": 37779,
+        "splines": null,
+        "attributes": [
+          ".select_vert",
+          "position",
+          ".corner_vert",
+          ".corner_edge",
+          ".select_poly",
+          "sharp_face",
+          ".edge_verts",
+          ".select_edge",
+          "UVMap"
+        ],
+        "modifiers": [],
+        "materials": [
+          "Strawberry M1a \u2022 red epidermis, physically notated"
+        ]
+      },
+      {
+        "name": "M1c | watertight base (hidden)",
+        "type": "MESH",
+        "vertices": 37632,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [],
+        "materials": [
+          "Strawberry M1a \u2022 red epidermis, physically notated",
+          "M1c | rest-space pith/cortex + wet Voronoi surface"
+        ]
+      },
+      {
+        "name": "M1c | SDF cutter + rest-space tissue",
+        "type": "MESH",
+        "vertices": 37632,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [
+          [
+            "LIVE SDF cut \u2014 select cutter object / voxel size",
+            "NODES"
+          ]
+        ],
+        "materials": [
+          "Strawberry M1a \u2022 red epidermis, physically notated",
+          "M1c | rest-space pith/cortex + wet Voronoi surface"
+        ]
+      },
+      {
+        "name": "M1e2 | 3D SourceVolume (outer minus cavity)",
+        "type": "MESH",
+        "vertices": 37632,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [
+          [
+            "M1e2 static 3D volume source",
+            "NODES"
+          ]
+        ],
+        "materials": [
+          "Strawberry M1a \u2022 red epidermis, physically notated",
+          "M1c | rest-space pith/cortex + wet Voronoi surface"
+        ]
+      },
+      {
+        "name": "M1e5 | EXACT live-local CutSurface",
+        "type": "MESH",
+        "vertices": 83806,
+        "splines": null,
+        "attributes": [
+          "m1e4_fiber",
+          "fruit_rest",
+          "material_index",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [
+          [
+            "M1e4 | rest-space CutSurface after selective BMesh refinement",
+            "NODES"
+          ]
+        ],
+        "materials": [
+          null,
+          "Strawberry M1a \u2022 red epidermis, physically notated",
+          "M1e | shadowy wet cavity walls",
+          "M1c | rest-space pith/cortex + wet Voronoi surface"
+        ]
+      },
+      {
+        "name": "M1e4 | persistent 3D curved fibers (source)",
+        "type": "CURVE",
+        "vertices": null,
+        "splines": 135,
+        "attributes": [],
+        "modifiers": [],
+        "materials": []
+      },
+      {
+        "name": "M1e4 | LIVE 3D filament tubes, clipped by knife",
+        "type": "CURVE",
+        "vertices": null,
+        "splines": 135,
+        "attributes": [],
+        "modifiers": [
+          [
+            "Live SDF clip 3D fibers",
+            "NODES"
+          ]
+        ],
+        "materials": []
+      },
+      {
+        "name": "M1e5 | live SDF source for localized mesh",
+        "type": "MESH",
+        "vertices": 37632,
+        "splines": null,
+        "attributes": [
+          "UVMap",
+          ".select_vert",
+          ".select_edge",
+          ".select_poly",
+          ".uv_select_vert",
+          ".uv_select_edge",
+          ".uv_select_face",
+          "position",
+          ".edge_verts",
+          ".corner_vert",
+          ".corner_edge"
+        ],
+        "modifiers": [
+          [
+            "LIVE low-poly SDF body - cavity - knife",
+            "NODES"
+          ]
+        ],
+        "materials": [
+          "Strawberry M1a \u2022 red epidermis, physically notated",
+          "M1c | rest-space pith/cortex + wet Voronoi surface"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "name": "M1d | live anchor diagnostic",
+        "nodes": 8
+      },
+      {
+        "name": "M1e | live seed mask cavity AND knife",
+        "nodes": 21
+      },
+      {
+        "name": "M1e2 | SourceVolume : body minus cavity",
+        "nodes": 7
+      },
+      {
+        "name": "M1e4 | LIVE trim filaments by same SDF knife",
+        "nodes": 12
+      },
+      {
+        "name": "M1e4 | localized CutSurface GN after BMesh snapshot",
+        "nodes": 70
+      },
+      {
+        "name": "M1e5 | source-only pre-subdivision volume mesh",
+        "nodes": 64
+      },
+      {
+        "name": "M1e6 | pure GN localized selected bevel + 3D strand field | bevel",
+        "nodes": 82
+      }
+    ],
+    "text_names": [
+      "M1e5 - Enable Live Exact.py"
+    ]
+  },
+  "pr30-corrected.blend": {
+    "file": "pr30-corrected.blend",
+    "scene": "Strawberry | live exterior and cut",
+    "scale_length": 0.02222222276031971,
+    "objects": [
+      {
+        "name": "Receptacle | canonical PR29 hull",
+        "type": "MESH",
+        "vertices": 30242,
+        "splines": null,
+        "attributes": [
+          ".select_vert",
+          "position",
+          ".corner_vert",
+          ".corner_edge",
+          ".select_poly",
+          "sharp_face",
+          ".edge_verts",
+          ".select_edge",
+          "achene_pit"
+        ],
+        "modifiers": [
+          [
+            "LIVE CUT | real changing 3D cap surface",
+            "BOOLEAN"
+          ]
+        ],
+        "materials": [
+          "Skin \u2022 strawberry red",
+          "LIVE | cut flesh from ORIGINAL v0 stored RGB volume"
+        ]
+      },
+      {
+        "name": "V3 | 28-sag0.25 | CARRIERS",
+        "type": "CURVE",
+        "vertices": null,
+        "splines": 28,
+        "attributes": [],
+        "modifiers": [],
+        "materials": [
+          "V2 | core 28 true spatial carriers.001 | shared knife display"
+        ]
+      },
+      {
+        "name": "V4 | hook0.85 | BRANCHES",
+        "type": "CURVE",
+        "vertices": null,
+        "splines": 539,
+        "attributes": [],
+        "modifiers": [],
+        "materials": [
+          "V2 | 539 anchored vascular branches.001 | shared knife display"
+        ]
+      }
+    ],
+    "groups": [],
+    "text_names": [
+      "START HERE | Live exterior.txt"
+    ]
+  }
+}

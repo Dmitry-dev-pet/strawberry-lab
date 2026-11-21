@@ -1,0 +1,126 @@
+{
+  "schema": "strawberry-layer-modes-v1",
+  "parent_pr": 30,
+  "parent_sha": "381a8c8d34823fc93a7b3ceacdfb077f8c5f1343",
+  "folder": "https://drive.google.com/drive/folders/11lQeYVO13TbYgVPWUVHpCQhe7czpo0jY",
+  "visibility": "owner-private; all file metadata shared=false",
+  "files": [
+    {
+      "id": "1Fl7Kej9NF2pUSnKO0HW-8_UAUIHk5Lr5",
+      "url": "https://drive.google.com/file/d/1Fl7Kej9NF2pUSnKO0HW-8_UAUIHk5Lr5/view?usp=drivesdk",
+      "local_path": "build/layer-modes-v1/strawberry-layer-modes.blend",
+      "name": "strawberry-layer-modes.blend",
+      "size": 5041033,
+      "sha256": "509725824a8707aade9ca19153c95b4d2de6a2a5b49a827afbb6c0ca11cb4a53",
+      "full_download_verified": true
+    },
+    {
+      "id": "1en-H_60tImn3sxfKP7m6lxlNcP-wNhgm",
+      "url": "https://drive.google.com/file/d/1en-H_60tImn3sxfKP7m6lxlNcP-wNhgm/view?usp=drivesdk",
+      "local_path": "build/layer-modes-v1/renders/whole.png",
+      "name": "whole.png",
+      "size": 493185,
+      "sha256": "2b823b6d204c1eb056aa0359cacd364d0e0deaac11ad2f7d593973526f0801b5",
+      "full_download_verified": true
+    },
+    {
+      "id": "1BR8aZ2pu0q0VQ3cDTgwcnUZc60GLohC4",
+      "url": "https://drive.google.com/file/d/1BR8aZ2pu0q0VQ3cDTgwcnUZc60GLohC4/view?usp=drivesdk",
+      "local_path": "build/layer-modes-v1/renders/matched.png",
+      "name": "matched.png",
+      "size": 503965,
+      "sha256": "7fed8aa0a1efeccc25084838c22af9153f2572f2549ae1693594fe9350e7ef48",
+      "full_download_verified": true
+    },
+    {
+      "id": "109uwv0vmvTX3pmrLq3DZ8IfQXrxcp0sA",
+      "url": "https://drive.google.com/file/d/109uwv0vmvTX3pmrLq3DZ8IfQXrxcp0sA/view?usp=drivesdk",
+      "local_path": "build/layer-modes-v1/renders/flesh-only.png",
+      "name": "flesh-only.png",
+      "size": 607103,
+      "sha256": "6da0c5829f7fb923c7a1449ab9e4a56891f3f9200c2f5260a4377a0b5bc75b51",
+      "full_download_verified": true
+    },
+    {
+      "id": "1CeeDrpa30ay9Y4Mpbjqemq0P6OFMDnUs",
+      "url": "https://drive.google.com/file/d/1CeeDrpa30ay9Y4Mpbjqemq0P6OFMDnUs/view?usp=drivesdk",
+      "local_path": "build/layer-modes-v1/renders/fibers-only.png",
+      "name": "fibers-only.png",
+      "size": 619498,
+      "sha256": "6e043256864be587952f0d88e71474aa97be13d66bad9f713c0acda39b4d9102",
+      "full_download_verified": true
+    },
+    {
+      "id": "1R5HdhT72mdSDDU-E9oSobso_bg74lZw2",
+      "url": "https://drive.google.com/file/d/1R5HdhT72mdSDDU-E9oSobso_bg74lZw2/view?usp=drivesdk",
+      "local_path": "build/layer-modes-v1/montage.png",
+      "name": "montage.png",
+      "size": 3956976,
+      "sha256": "7eb4c21697c6ee39b1f742a2c74dcd96126af1947a17d5d943e7d632e492b4fb",
+      "full_download_verified": true
+    },
+    {
+      "id": "1OXa-tASVm-d60y-8lLvKfIp48DHXlM1C",
+      "url": "https://drive.google.com/file/d/1OXa-tASVm-d60y-8lLvKfIp48DHXlM1C/view?usp=drivesdk",
+      "local_path": "build/layer-modes-v1/macro-visibility-comparison.png",
+      "name": "macro-visibility-comparison.png",
+      "size": 2650492,
+      "sha256": "41698752ea9793c826adf42b7493b5ed7809e2da0620abbd6540d5a716b03757",
+      "full_download_verified": true
+    },
+    {
+      "id": "1SZGDwGTTq5_rpn2MkK_lDGkyT6WJrNus",
+      "url": "https://drive.google.com/file/d/1SZGDwGTTq5_rpn2MkK_lDGkyT6WJrNus/view?usp=drivesdk",
+      "local_path": "build/layer-modes-v1/validation.json",
+      "name": "validation.json",
+      "size": 4993,
+      "sha256": "41db254a33951fb1bd1956b3ac493d691af4819bf0af0422da9bed3a93bdea9d",
+      "full_download_verified": true
+    },
+    {
+      "id": "1qryWlVG1yWnY8La7seujJSn4M4gSufU_",
+      "url": "https://drive.google.com/file/d/1qryWlVG1yWnY8La7seujJSn4M4gSufU_/view?usp=drivesdk",
+      "name": "render-validation-final.json",
+      "local_path": "build/layer-modes-v1/render-validation-final.json",
+      "size": 640,
+      "sha256": "51a49f39bc23ea95b7fa2dc999f7c1055fb9e64df280307a7b5b6a59000f0657",
+      "full_download_verified": true
+    },
+    {
+      "id": "1VIIbYHCsbo1qx304PaN16qBSKIkD6pTZ",
+      "url": "https://drive.google.com/file/d/1VIIbYHCsbo1qx304PaN16qBSKIkD6pTZ/view?usp=drivesdk",
+      "name": "layer-modes-reproducible-reviewed.zip",
+      "local_path": "build/layer-modes-v1/layer-modes-reproducible-reviewed.zip",
+      "size": 85510210,
+      "sha256": "974f48712f3f3757a895b0ba91ac7b5f7524905114db8cf95d275c4bc1adc8de",
+      "full_download_verified": true
+    }
+  ],
+  "m1e5_exact": "NOT integrated; actual source inventory and adapter contract in experiments/m1e5-integration-assessment",
+  "source_sha256": {
+    "experiments/integration-layer-modes-v1/validate_renders.py": "c903e8f3faebbbc18eed1d49985aa160fc560e2d501002a55e1432f22ce72376",
+    "experiments/integration-layer-modes-v1/render_layer_modes.py": "bc366be916a0b15bebf39703b04da887ad3daf1a0db36fa4a1d5193f5f152e56",
+    "experiments/integration-layer-modes-v1/build_layer_modes.py": "115380d60a18ee79eec8bf06a71d12181eb752cfd3ad220385aca393bfe9a758",
+    "experiments/integration-layer-modes-v1/validate_layer_modes.py": "53b71460b2290c316a648a24650f88df291cd45830127682db106b5be619dd00",
+    "experiments/integration-layer-modes-v1/layer_modes_ui.py": "df53815ca9f55830f1b7c6e6fb1e68fd259620f38050be830ebaf2ba02dc8eaa",
+    "experiments/integration-layer-modes-v1/layer_modes.py": "a0da3b4cc5b7425518e4da623f10bed2bcef9e36a533850616661645c7480763"
+  },
+  "superseded_files": [
+    {
+      "id": "1cLCie7Nix8Z8MxxPBuLHJvd17BIgX7vY",
+      "url": "https://drive.google.com/file/d/1cLCie7Nix8Z8MxxPBuLHJvd17BIgX7vY/view?usp=drivesdk",
+      "local_path": "build/layer-modes-v1/render-validation.json",
+      "name": "render-validation.json",
+      "size": 638,
+      "sha256": "2bd8dbf09b7d8ffb49eb285169df40d6f2d795b09cee75eedcff560f3eec5a21",
+      "full_download_verified": true
+    }
+  ],
+  "downloaded_scene_reopened_qa": "PASS, native layers with scripts disabled, embedded UI registered twice, five-pose closed positive solid geometry, source invariance",
+  "independent_review": {
+    "model": "gpt-6.2-astra",
+    "scene": "All four modes ready; default render pixel-identical; edited knife and source edits preserved across switches",
+    "fixes": "Stage B probe hashes and fresh directory, precise derived-field dependency wording, integer decoded RGB counts. Swapped-source negative test PASS.",
+    "restored_pixels": 15023
+  }
+}
