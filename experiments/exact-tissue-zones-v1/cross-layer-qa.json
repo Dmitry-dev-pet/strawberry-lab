@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scene_sha256": "0f552c79054dec8ca82d2891bc2b5d6930eef64bc545e8188d808b946e1c66e2",
+  "layers": {
+    "MATCHED": {
+      "candidate": {
+        "cap_plane_error_mm": 1.3245476937484568e-06,
+        "sha256": "2e4f03b6757a7f0b5b47acc75895e4907b0a49d4ea27d54e9547ae32be788f7a",
+        "vertices": 31809,
+        "refresh_count": 2
+      },
+      "control": {
+        "cap_plane_error_mm": 1.3245476937484568e-06,
+        "sha256": "4da9e4fb2dc028c912ed179c624d964077101f5a443abdfbbecf3cf17ac29e1b",
+        "vertices": 31809,
+        "refresh_count": 1
+      },
+      "decoded_pixels_identical": true
+    },
+    "FLESH ONLY": {
+      "candidate": {
+        "cap_plane_error_mm": 1.3245476937484568e-06,
+        "sha256": "7cb54dc4d3fb54921023dfbca5b31c50c6c6f8bc754519bb3e17bb5609d7c3e9",
+        "vertices": 31809,
+        "refresh_count": 2
+      },
+      "control": {
+        "cap_plane_error_mm": 1.3245476937484568e-06,
+        "sha256": "0e3a94aa2feead9117cb9a164415535664673c5ee99e7df15739f6ec52b26198",
+        "vertices": 31809,
+        "refresh_count": 1
+      },
+      "decoded_pixels_identical": true
+    }
+  }
+}

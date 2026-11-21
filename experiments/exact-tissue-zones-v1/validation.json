@@ -1,0 +1,586 @@
+{
+  "status": "PASS",
+  "source_pr32_sha256": "c6d39d20e90f75826167a5b4345752ef874d62641e0ff428f38a68050ec7da3c",
+  "source_pr31_sha256": "509725824a8707aade9ca19153c95b4d2de6a2a5b49a827afbb6c0ca11cb4a53",
+  "native_fast": {
+    "status": "PASS",
+    "blender": "5.2.2 LTS",
+    "scene_sha256": "0f552c79054dec8ca82d2891bc2b5d6930eef64bc545e8188d808b946e1c66e2",
+    "pr29_sha256": "56b6d516e8794fb855512978e90e37cd754374a594fb4c5103e672c960a031cf",
+    "pr30_sha256": "0b8af93c399d0077f51f864f7b9f55673b822a1755e2badcc626f5bfc6256bca",
+    "source_diagnostics_sha256": {
+      "V3 | 28-sag0.25 | CARRIERS": "72fdc0f109fcc26f3be1b303008ba544f9dd36fa8335c565a2b1b3ca0c97c001",
+      "V4 | hook0.85 | BRANCHES": "8904adfb7a1137843d47874b966e4aa05f93c24f5093a5e9bf72e910db77b167",
+      "V2 | 539 seed positions and branch endpoints": "f8725321fd8290cc7d4f5125a2ce282b862cc4c50af4513e4723062dc504396f"
+    },
+    "packed_atlas_sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+    "cap_graph_unchanged": true,
+    "solid_objects": {
+      "receptacle": 1,
+      "achene": 264,
+      "sepal": 8,
+      "pedicel": 1
+    },
+    "diagnostics": {
+      "V3 | 28-sag0.25 | CARRIERS": 28,
+      "V4 | hook0.85 | BRANCHES": 539,
+      "V2 | 539 seed positions and branch endpoints": 539
+    },
+    "native_view_layers_without_scripts": {
+      "matched": {
+        "visible_solid_objects": 274,
+        "visible_diagnostic_objects": 3,
+        "effective_knife_pose": [
+          -0.25999999046325684,
+          14.999998709865736,
+          31.999999752116263
+        ]
+      },
+      "whole": {
+        "visible_solid_objects": 274,
+        "visible_diagnostic_objects": 0,
+        "effective_knife_pose": [
+          -1.600000023841858,
+          0.0,
+          0.0
+        ]
+      },
+      "flesh-only": {
+        "visible_solid_objects": 274,
+        "visible_diagnostic_objects": 3,
+        "effective_knife_pose": [
+          -0.25999999046325684,
+          14.999998709865736,
+          31.999999752116263
+        ]
+      },
+      "fibers-only": {
+        "visible_solid_objects": 0,
+        "visible_diagnostic_objects": 3,
+        "effective_knife_pose": [
+          -0.25999999046325684,
+          14.999998709865736,
+          31.999999752116263
+        ]
+      }
+    },
+    "matched_and_flesh_only_evaluated_meshes_identical": true,
+    "embedded_ui_run_twice_and_switch_callbacks_pass": true,
+    "marker_checkbox_independent": true,
+    "whole": {
+      "pose_y_xrot_zrot": [
+        -1.6,
+        0.0,
+        0.0
+      ],
+      "body_vertices": 30242,
+      "body_faces": 30400,
+      "body_volume_model_units_cubed": 2.9258098117169,
+      "cap_faces": 0,
+      "max_cap_plane_error_model_units": null,
+      "retained_exterior_by_role": {
+        "achene": 264,
+        "sepal": 8,
+        "pedicel": 1
+      },
+      "all_retained_exterior_closed_positive_volume": true,
+      "intersected_exterior_by_role": {},
+      "update_and_measure_seconds": 0.879
+    },
+    "cut_poses": [
+      {
+        "pose_y_xrot_zrot": [
+          -0.1,
+          0.0,
+          -23.0
+        ],
+        "body_vertices": 17989,
+        "body_faces": 17826,
+        "body_volume_model_units_cubed": 1.7015653246840452,
+        "cap_faces": 1,
+        "max_cap_plane_error_model_units": 6.705522537231445e-08,
+        "retained_exterior_by_role": {
+          "achene": 148,
+          "sepal": 8,
+          "pedicel": 1
+        },
+        "all_retained_exterior_closed_positive_volume": true,
+        "intersected_exterior_by_role": {
+          "achene": 4,
+          "sepal": 4
+        },
+        "update_and_measure_seconds": 0.904
+      },
+      {
+        "pose_y_xrot_zrot": [
+          0.0,
+          0,
+          0
+        ],
+        "body_vertices": 15311,
+        "body_faces": 15201,
+        "body_volume_model_units_cubed": 1.4726734179908787,
+        "cap_faces": 1,
+        "max_cap_plane_error_model_units": 8.060694413083473e-17,
+        "retained_exterior_by_role": {
+          "achene": 135,
+          "sepal": 6,
+          "pedicel": 1
+        },
+        "all_retained_exterior_closed_positive_volume": true,
+        "intersected_exterior_by_role": {
+          "achene": 7,
+          "sepal": 4,
+          "pedicel": 1
+        },
+        "update_and_measure_seconds": 1.006
+      },
+      {
+        "pose_y_xrot_zrot": [
+          -0.26,
+          0,
+          0
+        ],
+        "body_vertices": 21554,
+        "body_faces": 21388,
+        "body_volume_model_units_cubed": 2.113426114316468,
+        "cap_faces": 1,
+        "max_cap_plane_error_model_units": 0.0,
+        "retained_exterior_by_role": {
+          "achene": 174,
+          "sepal": 8,
+          "pedicel": 1
+        },
+        "all_retained_exterior_closed_positive_volume": true,
+        "intersected_exterior_by_role": {
+          "achene": 6,
+          "sepal": 3
+        },
+        "update_and_measure_seconds": 0.998
+      },
+      {
+        "pose_y_xrot_zrot": [
+          0.08,
+          29,
+          32
+        ],
+        "body_vertices": 12553,
+        "body_faces": 12344,
+        "body_volume_model_units_cubed": 1.4124435467659477,
+        "cap_faces": 1,
+        "max_cap_plane_error_model_units": 1.1548399925231934e-07,
+        "retained_exterior_by_role": {
+          "achene": 127,
+          "sepal": 8,
+          "pedicel": 1
+        },
+        "all_retained_exterior_closed_positive_volume": true,
+        "intersected_exterior_by_role": {
+          "achene": 9,
+          "sepal": 2
+        },
+        "update_and_measure_seconds": 0.91
+      }
+    ]
+  },
+  "poses": [
+    {
+      "pose_y_xrot_zrot": [
+        -0.1,
+        0.0,
+        -23.0
+      ],
+      "pr32": {
+        "vertices": 38136,
+        "triangles": 76268,
+        "cap_faces": 40873,
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_model_units_cubed": 1.7162383238280219,
+        "min_displacement_mm": 0.0,
+        "max_displacement_mm": 0.26509663111143333,
+        "mean_displacement_mm": 0.12305720858129687,
+        "displaced_cap_vertices_over_0_01_mm": 19790,
+        "max_undeformed_plane_error_model_units": 6.705522537231445e-08,
+        "max_tangential_drift_model_units": 1.1920928955078125e-07,
+        "refresh_seconds": 1.027994334232062,
+        "fast_update_seconds": 0.9039378333836794
+      },
+      "zones": {
+        "vertices": 38136,
+        "triangles": 76268,
+        "cap_faces": 40873,
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_model_units_cubed": 1.7078732072497,
+        "min_displacement_mm": 0.0,
+        "max_displacement_mm": 0.15884605103586025,
+        "mean_displacement_mm": 0.05290778948320715,
+        "displaced_cap_vertices_over_0_01_mm": 19476,
+        "max_undeformed_plane_error_model_units": 6.705522537231445e-08,
+        "max_tangential_drift_model_units": 1.1920928955078125e-07
+      },
+      "zones_refresh_seconds": 1.3858217922970653,
+      "skin_corner_normal_max_error_vs_pr32_exact": 0.0,
+      "skin_corner_normal_max_error_vs_fast": 0.0,
+      "rest_probe_error_after_knife_frame_roundtrip": 3.1215632079195643e-07
+    },
+    {
+      "pose_y_xrot_zrot": [
+        0.0,
+        0,
+        0
+      ],
+      "pr32": {
+        "vertices": 35746,
+        "triangles": 71488,
+        "cap_faces": 41248,
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_model_units_cubed": 1.4881231012822718,
+        "min_displacement_mm": 0.0,
+        "max_displacement_mm": 0.26249000403436723,
+        "mean_displacement_mm": 0.1290315379717186,
+        "displaced_cap_vertices_over_0_01_mm": 20068,
+        "max_undeformed_plane_error_model_units": 8.060694413083473e-17,
+        "max_tangential_drift_model_units": 0.0,
+        "refresh_seconds": 1.088981166947633,
+        "fast_update_seconds": 0.9445560001768172
+      },
+      "zones": {
+        "vertices": 35746,
+        "triangles": 71488,
+        "cap_faces": 41248,
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_model_units_cubed": 1.4789272482678588,
+        "min_displacement_mm": 0.0,
+        "max_displacement_mm": 0.16092500107740046,
+        "mean_displacement_mm": 0.05223539654332964,
+        "displaced_cap_vertices_over_0_01_mm": 19802,
+        "max_undeformed_plane_error_model_units": 8.060694413083473e-17,
+        "max_tangential_drift_model_units": 0.0
+      },
+      "zones_refresh_seconds": 1.4521797075867653,
+      "skin_corner_normal_max_error_vs_pr32_exact": 0.0,
+      "skin_corner_normal_max_error_vs_fast": 0.0,
+      "rest_probe_error_after_knife_frame_roundtrip": 0.0
+    },
+    {
+      "pose_y_xrot_zrot": [
+        -0.26,
+        0,
+        0
+      ],
+      "pr32": {
+        "vertices": 39149,
+        "triangles": 78294,
+        "cap_faces": 35741,
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_model_units_cubed": 2.126720525238864,
+        "min_displacement_mm": 0.0,
+        "max_displacement_mm": 0.2635975742590335,
+        "mean_displacement_mm": 0.1273463296181312,
+        "displaced_cap_vertices_over_0_01_mm": 17255,
+        "max_undeformed_plane_error_model_units": 0.0,
+        "max_tangential_drift_model_units": 0.0,
+        "refresh_seconds": 1.136582292150706,
+        "fast_update_seconds": 0.9303009998984635
+      },
+      "zones": {
+        "vertices": 39149,
+        "triangles": 78294,
+        "cap_faces": 35741,
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_model_units_cubed": 2.1199070843071173,
+        "min_displacement_mm": 0.0,
+        "max_displacement_mm": 0.150851412293318,
+        "mean_displacement_mm": 0.062085559301249954,
+        "displaced_cap_vertices_over_0_01_mm": 17157,
+        "max_undeformed_plane_error_model_units": 0.0,
+        "max_tangential_drift_model_units": 0.0
+      },
+      "zones_refresh_seconds": 1.2720939167775214,
+      "skin_corner_normal_max_error_vs_pr32_exact": 0.0,
+      "skin_corner_normal_max_error_vs_fast": 0.0,
+      "rest_probe_error_after_knife_frame_roundtrip": 2.5749206544745107e-07
+    },
+    {
+      "pose_y_xrot_zrot": [
+        0.08,
+        29,
+        32
+      ],
+      "pr32": {
+        "vertices": 31321,
+        "triangles": 62638,
+        "cap_faces": 38042,
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_model_units_cubed": 1.4260687110501797,
+        "min_displacement_mm": 0.0,
+        "max_displacement_mm": 0.26109517252861925,
+        "mean_displacement_mm": 0.1228785267240262,
+        "displaced_cap_vertices_over_0_01_mm": 18433,
+        "max_undeformed_plane_error_model_units": 1.1548399925231934e-07,
+        "max_tangential_drift_model_units": 1.3328003749250113e-07,
+        "refresh_seconds": 1.1561814160086215,
+        "fast_update_seconds": 0.9389924998395145
+      },
+      "zones": {
+        "vertices": 31321,
+        "triangles": 62638,
+        "cap_faces": 38042,
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_model_units_cubed": 1.4187292041843873,
+        "min_displacement_mm": 0.0,
+        "max_displacement_mm": 0.1590071491491124,
+        "mean_displacement_mm": 0.05669365027721404,
+        "displaced_cap_vertices_over_0_01_mm": 18282,
+        "max_undeformed_plane_error_model_units": 1.1548399925231934e-07,
+        "max_tangential_drift_model_units": 1.3328003749250113e-07
+      },
+      "zones_refresh_seconds": 1.281423875130713,
+      "skin_corner_normal_max_error_vs_pr32_exact": 0.0,
+      "skin_corner_normal_max_error_vs_fast": 0.0,
+      "rest_probe_error_after_knife_frame_roundtrip": 1.1038912797189937e-06
+    },
+    {
+      "pose_y_xrot_zrot": [
+        -0.18,
+        -23,
+        39
+      ],
+      "pr32": {
+        "vertices": 38648,
+        "triangles": 77292,
+        "cap_faces": 38245,
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_model_units_cubed": 1.722734869407991,
+        "min_displacement_mm": 0.0,
+        "max_displacement_mm": 0.2693735956145471,
+        "mean_displacement_mm": 0.12393424189035565,
+        "displaced_cap_vertices_over_0_01_mm": 18504,
+        "max_undeformed_plane_error_model_units": 8.940696716308594e-08,
+        "max_tangential_drift_model_units": 1.3328003749250113e-07,
+        "refresh_seconds": 1.20810033287853,
+        "fast_update_seconds": 0.950953375082463
+      },
+      "zones": {
+        "vertices": 38648,
+        "triangles": 77292,
+        "cap_faces": 38245,
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_model_units_cubed": 1.7151008577131075,
+        "min_displacement_mm": 0.0,
+        "max_displacement_mm": 0.15725899454605702,
+        "mean_displacement_mm": 0.05552305375725523,
+        "displaced_cap_vertices_over_0_01_mm": 18323,
+        "max_undeformed_plane_error_model_units": 8.940696716308594e-08,
+        "max_tangential_drift_model_units": 1.3328003749250113e-07
+      },
+      "zones_refresh_seconds": 1.3320089159533381,
+      "skin_corner_normal_max_error_vs_pr32_exact": 0.0,
+      "skin_corner_normal_max_error_vs_fast": 0.0,
+      "rest_probe_error_after_knife_frame_roundtrip": 1.0608587104332656e-06
+    }
+  ],
+  "controls": {
+    "individual_removed_strengths": {
+      "Cortex relief (mm)": {
+        "maximum_mm": 0.13171931426789185,
+        "cortex_mean_mm": 0.05291275809599689,
+        "pith_mean_mm": 0.0008203199480719218,
+        "near_path_mean_mm": 0.045959802279653614,
+        "outside_path_max_mm": 0.13171931426789185,
+        "vertices_over_0_001_mm": 17290
+      },
+      "Pith relief (mm)": {
+        "maximum_mm": 0.03492550802029759,
+        "cortex_mean_mm": 4.6975840447928866e-05,
+        "pith_mean_mm": 0.02262751569774703,
+        "near_path_mean_mm": 0.003510845369561363,
+        "outside_path_max_mm": 0.03431203547751491,
+        "vertices_over_0_001_mm": 3992
+      },
+      "Vascular relief (mm)": {
+        "maximum_mm": 0.0393009857581339,
+        "cortex_mean_mm": 0.006751069063481237,
+        "pith_mean_mm": 0.004657755653906871,
+        "near_path_mean_mm": 0.022487147457579376,
+        "outside_path_max_mm": 0.0,
+        "vertices_over_0_001_mm": 9902
+      }
+    },
+    "zero_max_displacement_mm": 0.0,
+    "cortex_pith_own_component_local_roughness": [
+      {
+        "edges": 44999,
+        "rms_delta_mm_per_mm": 0.05997390062089479
+      },
+      {
+        "edges": 5205,
+        "rms_delta_mm_per_mm": 0.005108508038345376
+      }
+    ]
+  },
+  "field_continuity": {
+    "probes": 1050,
+    "distance_mm": 0.0002,
+    "max_difference_at_0_002_mm": [
+      0.0010364467986559434,
+      0.0016583509016177,
+      0.0016583509016177,
+      0.002984353899955716,
+      0.0009685572450317537,
+      0.0021805539355322923
+    ],
+    "max_difference_green_cortexmask_pithmask_cortex_pith_vascular": [
+      0.00010364467986534454,
+      0.00016584208590331162,
+      0.00016584208590331162,
+      0.0002979892492294689,
+      9.694009180785668e-05,
+      0.00021818770612624938
+    ]
+  },
+  "rest_probes": [
+    {
+      "rest": [
+        0,
+        0,
+        0.2
+      ],
+      "masks_and_components": [
+        0.0,
+        1.0,
+        0.0,
+        0.45272402167320247,
+        0.0
+      ]
+    },
+    {
+      "rest": [
+        0.1,
+        0.04,
+        -0.7
+      ],
+      "masks_and_components": [
+        0.3806689341410473,
+        0.6193310658589527,
+        0.02875521131478108,
+        0.270178817080202,
+        0.1697107354601085
+      ]
+    },
+    {
+      "rest": [
+        0.22,
+        -0.08,
+        0.52
+      ],
+      "masks_and_components": [
+        0.4288225020266643,
+        0.5711774979733357,
+        0.21226404346545413,
+        0.1430733235468506,
+        0.3240630266688832
+      ]
+    },
+    {
+      "rest": [
+        0.38,
+        0.11,
+        0.5
+      ],
+      "masks_and_components": [
+        1.0,
+        0.0,
+        0.7317863368988037,
+        0.0,
+        0.18336682540533772
+      ]
+    },
+    {
+      "rest": [
+        0.57,
+        0,
+        0.2
+      ],
+      "masks_and_components": [
+        1.0,
+        0.0,
+        0.33572861075401306,
+        0.0,
+        0.003186751243429087
+      ]
+    },
+    {
+      "rest": [
+        0.06,
+        0.16,
+        0.72
+      ],
+      "masks_and_components": [
+        0.05816897268775123,
+        0.9418310273122488,
+        0.017966305176958408,
+        0.3922417183937729,
+        0.11695876714692026
+      ]
+    },
+    {
+      "rest": [
+        -0.25,
+        0.01,
+        -0.23
+      ],
+      "masks_and_components": [
+        0.9869992931168136,
+        0.013000706883186424,
+        0.7636776075485076,
+        0.005212289782514535,
+        0.0
+      ]
+    },
+    {
+      "rest": [
+        -0.19,
+        -0.12,
+        0.17
+      ],
+      "masks_and_components": [
+        0.8642841810519507,
+        0.13571581894804927,
+        0.30483506225764084,
+        0.01960604964605574,
+        0.2776034673588822
+      ]
+    },
+    {
+      "rest": [
+        0.34,
+        0.1,
+        0.03
+      ],
+      "masks_and_components": [
+        1.0,
+        0.0,
+        0.3045895111560821,
+        0.0,
+        0.4475718716532183
+      ]
+    }
+  ],
+  "source_snapshots_unchanged": true,
+  "save_and_reopen_restored_fast_and_persisted_control": true,
+  "callback_moves_and_reload": true,
+  "failure_restored_fast": true,
+  "exact_matched_and_flesh_solid_count_compared": 274,
+  "peak_validator_rss_bytes": 1033568256
+}
