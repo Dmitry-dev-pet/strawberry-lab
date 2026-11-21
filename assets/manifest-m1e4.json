@@ -1,0 +1,159 @@
+{
+  "schema": "strawberry-lab.m1e4.artifact-manifest.1",
+  "date": "2026-11-21",
+  "project": "Dmitry-dev-pet/strawberry-lab",
+  "milestone": "M1e4 selective BMesh CutSurface and original 3D filament field",
+  "status": "verified local Blender 5.2.4; Drive readback pending",
+  "source": "fully owned M1e3 Fast .blend; no commercial Frucht/private or GPL node code copied",
+  "measurements": {
+    "vertex_counts_frames_1_15_30": [
+      44474,
+      83806,
+      78650
+    ],
+    "nonmanifold_edges": [
+      0,
+      0,
+      0
+    ],
+    "real_3d_tube_verts": [
+      20520,
+      15628,
+      7798
+    ],
+    "source_3d_curves": 135,
+    "m1e3_exact_vertex_count_frame15": 503682,
+    "external_skin_surface_max_differences": [
+      0.0023857,
+      0.0023254,
+      0.00276563
+    ],
+    "limitations": [
+      "per-pose BMesh refinement, NOT dynamic GN LOD",
+      "tubes cut at sampled points",
+      "artistic, not biomedical reconstruction"
+    ]
+  },
+  "files": [
+    {
+      "name": "source-m1e3-fast.blend",
+      "bytes": 5073508,
+      "sha256": "6955539dbb04f4c98dbb17e36ada8b72531dca0df0802b0f38827c0991adc57d"
+    },
+    {
+      "name": "build_m1e4.py",
+      "bytes": 14872,
+      "sha256": "35fee6aa14e18f73e0951fbcd17e0bbbab243dac2c9ffdc19b361831dcc3c3ee"
+    },
+    {
+      "name": "validate_m1e4.py",
+      "bytes": 4954,
+      "sha256": "37ddb939a0e9744f46a654ac7d6e7f718f451e1fe82ebd4602df6889d2940f44"
+    },
+    {
+      "name": "render_m1e4.py",
+      "bytes": 1446,
+      "sha256": "699f9fa1d92539b38e6ceb0857afca1102936ed29cbb97bb7511c98b1e092245"
+    },
+    {
+      "name": "README.md",
+      "bytes": 2254,
+      "sha256": "275e95bee2ecda431aea9c943e32cbebba4466a7af5887dd61cbb06e2c72813a"
+    },
+    {
+      "name": "report.md",
+      "bytes": 6044,
+      "sha256": "91a89fae148f4ac5f27cf21a61578c30ff2091463b0fdf11a27cab020ef777f2"
+    },
+    {
+      "name": "m1e4-frame01-beauty.blend",
+      "bytes": 7016486,
+      "sha256": "ae0e0d05b197e2f136b578764617209cc54eee7b3786d9960d437a6c08a1af26"
+    },
+    {
+      "name": "m1e4-frame15-beauty.blend",
+      "bytes": 8740736,
+      "sha256": "49017dfe35eb5cdc86feabfc96299fc73bc24ac04db5b3c5842132f81cd70c3c"
+    },
+    {
+      "name": "m1e4-frame30-beauty.blend",
+      "bytes": 8557946,
+      "sha256": "6a35c27315c7e71254bae04d909399d04538737329d697e9e9d5e193422e61bb"
+    },
+    {
+      "name": "m1e4-frame15-diagnostic.blend",
+      "bytes": 8740745,
+      "sha256": "727048df969ba797b178fce5d139d2f3d15bc41fab4bcbb2ff68834c97c0d56b"
+    },
+    {
+      "name": "m1e4-frame01-beauty.png",
+      "bytes": 517518,
+      "sha256": "d202ce84eb926c7accbb87ec53b69d41c8daf6c85f544225ecbcb8cb6d94dff2"
+    },
+    {
+      "name": "m1e4-frame15-beauty.png",
+      "bytes": 620324,
+      "sha256": "0acb9d84f669e54bf3bf80a2f269d8fc7d977ff7eab272d3a8cd7f038e23176b"
+    },
+    {
+      "name": "m1e4-frame30-beauty.png",
+      "bytes": 483969,
+      "sha256": "917ee24ebf9b4d4ac2b15780c470b4cae1b2d1b0b121172c41eb6dcbaa171487"
+    },
+    {
+      "name": "m1e4-frame15-diagnostic.png",
+      "bytes": 644162,
+      "sha256": "7870d440642bca9f9e19e253a67b35e84f87a93666d4f21b8f4091c4abf27a5d"
+    },
+    {
+      "name": "m1e4-ab-comparison.jpg",
+      "bytes": 142613,
+      "sha256": "85a15248cd8a860ed750dd8cd84f0fbcb77b15b1a98a5d97dfc90222b7c458f2"
+    },
+    {
+      "name": "m1e4-three-poses.jpg",
+      "bytes": 114973,
+      "sha256": "f944fbe13e68c97241270cc9003a865a5a56b5ffbdf5840f26d7fa55861abe58"
+    },
+    {
+      "name": "build01.json",
+      "bytes": 688,
+      "sha256": "2745a49bb6051ba17bdb21fe05f30ef1e3e5cdb2550f71306ad5913d305ba652"
+    },
+    {
+      "name": "build15-beauty.json",
+      "bytes": 699,
+      "sha256": "9105b32abe2174366f24b904e358707059c2a866b14726b5016c692468c333f8"
+    },
+    {
+      "name": "build30.json",
+      "bytes": 699,
+      "sha256": "f92320aa1454acaacdd8bf58d0a919f7827af76c14090a2c6c4297783a8d0bba"
+    },
+    {
+      "name": "build15-diagnostic.json",
+      "bytes": 703,
+      "sha256": "be71064f1d476206a114a9aa129e87aeedcbda0368972364fa648701dfce5b4d"
+    },
+    {
+      "name": "validate01.json",
+      "bytes": 747,
+      "sha256": "8c34200576ff1c87abbcef7a615a3c2404abf53499c23eb6c8a3eabbd1ed346e"
+    },
+    {
+      "name": "validate15.json",
+      "bytes": 798,
+      "sha256": "37dd366bd6352913c590039f0f8e7d2505d3754d8edaf40d507ef2e7afa4026c"
+    },
+    {
+      "name": "validate30.json",
+      "bytes": 798,
+      "sha256": "9750def65aace0b0500a25e363dc4903e794c3e40ebca0897bcf802df4ca0723"
+    },
+    {
+      "name": "validate15diagnostic.json",
+      "bytes": 798,
+      "sha256": "7b89860963692f7dd9b1c872a97a39541f978c92de2a057c6ef51d9d24782dc6"
+    }
+  ]
+}
