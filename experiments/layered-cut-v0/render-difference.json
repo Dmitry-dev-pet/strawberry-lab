@@ -1,0 +1,16 @@
+{
+  "images": {
+    "A": [
+      620,
+      705
+    ],
+    "B": [
+      620,
+      705
+    ]
+  },
+  "mean_abs_rgb_difference": 18.8603,
+  "fraction_pixels_max_channel_diff_gt_15": 0.3991,
+  "fraction_pixels_max_channel_diff_gt_40": 0.2823,
+  "comparison_is_perceptual_not_structural_truth": true
+}

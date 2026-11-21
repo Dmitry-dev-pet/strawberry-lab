@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "count": 5,
+  "files": [
+    {
+      "name": "strawberry-independent-layers-v0.blend",
+      "a_bytes": 40932692,
+      "b_bytes": 40932692,
+      "sha256": "1f765f0f83f6da56229ba57402b1c458ae75fb6ba9ed632933bad4f4ff092050",
+      "pass": true
+    },
+    {
+      "name": "strawberry-layered-cut-v0-complete.zip",
+      "a_bytes": 72848558,
+      "b_bytes": 72848558,
+      "sha256": "cf1d8d8290fd5b95afae4e8d640944b811bc35b08a7d7b61937bf2e808f30f15",
+      "pass": true
+    },
+    {
+      "name": "real-ab-layer-clipping.jpg",
+      "a_bytes": 202860,
+      "b_bytes": 202860,
+      "sha256": "ac04bc78468c03c3da249b218e351c0b309e95dcc92804714f4f27a088ca6c13",
+      "pass": true
+    },
+    {
+      "name": "validation.json",
+      "a_bytes": 1702,
+      "b_bytes": 1702,
+      "sha256": "6fa3ac961ea0ceb8fb92897b32fd0905cc688e622ae7888dd646f34cf43fa007",
+      "pass": true
+    },
+    {
+      "name": "manifest-layered.json",
+      "a_bytes": 5333,
+      "b_bytes": 5333,
+      "sha256": "1a7bf37e493f622b7584840cb739310a702c0c89f6775d7de90d3a621a6119f3",
+      "pass": true
+    }
+  ]
+}

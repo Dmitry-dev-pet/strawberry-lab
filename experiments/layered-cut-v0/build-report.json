@@ -1,0 +1,33 @@
+{
+  "schema": "strawberry-lab.layered-cut-display.v0.1",
+  "source_scene": "v4-terminal-hooks.blend",
+  "new_scene_names": [
+    "LAYER A | common cut y=0",
+    "LAYER B | flesh-only cut y=0"
+  ],
+  "retained_solid_y": "y>=0",
+  "source_core_splines": 28,
+  "source_achene_branches": 539,
+  "source_achene_markers": 539,
+  "clipped_core_segments": 15,
+  "clipped_branch_segments": 283,
+  "clipped_seed_markers": 270,
+  "source_hashes_not_modified": true,
+  "cut_flesh_mesh_same_origin": true,
+  "layers": [
+    "flesh",
+    "full_core",
+    "clipped_core",
+    "full_branches",
+    "clipped_branches",
+    "full_achenes",
+    "clipped_achenes",
+    "optional_hull"
+  ],
+  "no_cell_or_juice_layers": "No separate physical cell or juice objects in our current Volume First v4 scenes; these are NOT silently fabricated",
+  "flesh_material": "original Volume First v0 tissue shader, not unrelated V1 494-path fiber material",
+  "source_no_new_anatomy": true,
+  "fiber_geometry_derived_from_exact_3D_curve_segments": "clip intersections interpolated at y=0 without moving in-volume original samples",
+  "author_relationship": "Hypothesis demonstration only, not equivalent to proprietary Frucht paid runtime",
+  "output": "/mnt/data/strawberry-layer-lab/outputs/strawberry-independent-layers-v0.blend"
+}
