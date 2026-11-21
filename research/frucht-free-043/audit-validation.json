@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "source_sha256": "aaa218470ab068ed1cb806308d9a4da1d43fd5d9e3de30f6486ac7d204787877",
+  "blender": "5.2.4 LTS",
+  "counts": {
+    "zip_entries": 71,
+    "python_files": 46,
+    "python_lines": 19837,
+    "kiwi_node_groups": 22,
+    "kiwi_objects": 11
+  },
+  "checks": {
+    "source_zip_unmodified": true,
+    "all_71_zip_members": true,
+    "46_python_modules": true,
+    "kiwi_22_groups": true,
+    "kiwi_11_objects": true,
+    "free_edition_kiwi_only": true,
+    "no_commercial_strawberry_blend": true,
+    "kiwi_groups_all_found": true,
+    "kiwi_seed_3_outputs": true,
+    "kiwi_three_vascular_families": true,
+    "kiwi_seeds_feed_strands": true,
+    "kiwi_cuts_have_5_volume_cubes": true,
+    "strawberry_curves_have_cubic_control_points": true,
+    "strawberry_ends_from_instance_transforms": true,
+    "strawberry_atlas_256_cubed": true,
+    "strawberry_32_void_bridges": true,
+    "zellen_selected_face_subdivision": true,
+    "cut_classifier_sdf": true,
+    "json_partial_graph_counts": true,
+    "json_flesh_values_17": true,
+    "published_report_no_raw_vendor_graph": true,
+    "all_modules_mentioned": true
+  },
+  "limitations": [
+    "commercial erdbeere.blend not provided",
+    "only partial strawberry GN capture via zellen_saft.json",
+    "static code + kiwi.blend audit, not production paid runtime",
+    "no source snippets or vendor graphs in public github"
+  ]
+}
