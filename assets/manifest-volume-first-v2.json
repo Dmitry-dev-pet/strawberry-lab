@@ -1,0 +1,148 @@
+{
+  "schema": "strawberry-lab.volume-first-v2.seed-link-assets.1",
+  "date": "2026-11-21",
+  "status": "QA-PASS, save/readback not yet verified",
+  "source": "owned M1a and Volume First V1, author source audited but not copied",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 2967,
+      "sha256": "a13232ea8e926c7f50bc65b4ed8ff810e53547c7265ab3bd83007b4b0c5de02b"
+    },
+    {
+      "name": "report.md",
+      "bytes": 4868,
+      "sha256": "ab6973f99e2aee628034a4d70fc4892ddd3e46a0c60552903e376e9e48962608"
+    },
+    {
+      "name": "extract_original_achene_centers.py",
+      "bytes": 3034,
+      "sha256": "70e6250019805c5c57bc720f0e746775db21430ad31cc80897007723da8f3422"
+    },
+    {
+      "name": "generate_seed_linked_network.py",
+      "bytes": 5152,
+      "sha256": "ac26d1d0a2215fef286171a6fff94b865bb469c639a291081347f91cc72fcbd3"
+    },
+    {
+      "name": "build_blender_seedlinked.py",
+      "bytes": 5486,
+      "sha256": "476c7eeaf920a314f4d029bb9551f1dc9777c9df6eebc6bf0088b69244ca22a6"
+    },
+    {
+      "name": "render_v2.py",
+      "bytes": 1255,
+      "sha256": "36de4849c8dd90b828bf0d73a4248331802cc56e454c939911e89226c5d0f245"
+    },
+    {
+      "name": "validate_v2.py",
+      "bytes": 3216,
+      "sha256": "1adc8998c688bac45baf2183e1410d7ddedb8236a5bb49cd90715f006b3b6944"
+    },
+    {
+      "name": "make_comparisons.py",
+      "bytes": 2054,
+      "sha256": "142dd26597348c52708ef11cadba6bca5bf7c1998805357d0d86ab6f2cd1a01f"
+    },
+    {
+      "name": "m1a-539-actual-achene-centers.npz",
+      "bytes": 28004,
+      "sha256": "f1510c3abc6bd953e4105f983b235363d149cbd48e4e87b63ecb9080f8c7f79d"
+    },
+    {
+      "name": "m1a-seed-anchor-extraction.json",
+      "bytes": 668,
+      "sha256": "445738b987f381c709e96031efb3e81d33561b5bef3dce00c5e0b844e5292369"
+    },
+    {
+      "name": "v2-seed-anchored-vascular-network.npz",
+      "bytes": 429102,
+      "sha256": "d1d078b6ef2a1a3b3c4d67d0bffb9483e25c0fbc2910fef2fa2bfeecc3b248a3"
+    },
+    {
+      "name": "v2-seed-anchored-vascular-network.json",
+      "bytes": 765,
+      "sha256": "df5e4455bb5396b45a1742443d483e86f2410f1023aca560771f3ccaf5623d35"
+    },
+    {
+      "name": "v2-control-14-strands.npz",
+      "bytes": 412943,
+      "sha256": "1e02f2fcebf822a1842db49c631b5adde4147597b4908059a2c098383fa8a1f0"
+    },
+    {
+      "name": "v2-control-14-strands.json",
+      "bytes": 765,
+      "sha256": "c9002288dea7919535c872a284153b6c7f78068c0a137b2fa0969d543fe2a5e1"
+    },
+    {
+      "name": "v2-control-40-strands.npz",
+      "bytes": 442719,
+      "sha256": "cd7fb6519e10663ff39b7a0320851d5b4c85a2a26d2b085263fe5a1f2637f600"
+    },
+    {
+      "name": "v2-control-40-strands.json",
+      "bytes": 765,
+      "sha256": "e320a8dbe00e0a74545b739138c0fd1d4d0a631849bcb5a5b947ff3ce76fa5cd"
+    },
+    {
+      "name": "build-report.json",
+      "bytes": 878,
+      "sha256": "981388535e8ca80c0e51bf57a2fbaf62a78a54ff9aabdd5d66238c75e267d361"
+    },
+    {
+      "name": "validation.json",
+      "bytes": 932,
+      "sha256": "f9c3cfb67eecbc4b00f85faa0891b4c1c1f6be06c2e877bffb2c61ae2173400c"
+    },
+    {
+      "name": "v2-seed-linked-539-diagnostic.blend",
+      "bytes": 27340748,
+      "sha256": "fb39fe2e327f04e40eb8715062a3a3845930a70f9b52e663331dda0a330b9cf8"
+    },
+    {
+      "name": "v2-only-539-anchored.png",
+      "bytes": 1147981,
+      "sha256": "1c6adf09cb6321124cbcf67c0aaed9f788e88ba0fdb3b02e79f3ba8e0801b93c"
+    },
+    {
+      "name": "v2-translucent-fruit.png",
+      "bytes": 1154437,
+      "sha256": "918581e60ab901ec876ec09ed53253a62b2ca5a82a497abb3c12f7c9bedb5f94"
+    },
+    {
+      "name": "v2-actual-cut-overlay.png",
+      "bytes": 1163121,
+      "sha256": "2616151ff5da9b6e5c349267365956fbb5bd3b2ccc0f798c3378a73ced63f368"
+    },
+    {
+      "name": "v2-three-blender-views.jpg",
+      "bytes": 472195,
+      "sha256": "5b3ea81c33b32714272afe3695cf2fdaf69b5373536905c627dffde252d129ed"
+    },
+    {
+      "name": "v1-original-494-only.png",
+      "bytes": 844655,
+      "sha256": "93dcca3aa4da1a09c4d6066c255de08864baae76571e73229453e377661847c5"
+    },
+    {
+      "name": "private-frucht-video-ref15.jpg",
+      "bytes": 199903,
+      "sha256": "39d26432170e08b5e713c67f7f60ba300c164629cc432b6645d3ab2c12b3fd02"
+    },
+    {
+      "name": "author-vs-v1-v2-real.jpg",
+      "bytes": 439606,
+      "sha256": "4d9b3fdc86647c1fc7834adfc04222bc8cabddf79a63f1194c9572222be3130a"
+    },
+    {
+      "name": "input-m1e5-live-exact.blend",
+      "bytes": 10218397,
+      "sha256": "2082a81c0d2607faabdefefe0403deed997c703f2c3a1dfe96ea0338e6c4efb2"
+    },
+    {
+      "name": "input-v1-494-fibers-inspection.blend",
+      "bytes": 26842162,
+      "sha256": "922115f2db153952d1e790dad8e8be644bd75ab88f4bd1a5fa72251fc58bac3d"
+    }
+  ]
+}
