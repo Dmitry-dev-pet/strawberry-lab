@@ -1,0 +1,270 @@
+{
+  "schema": "strawberry-lab.volume-first.v3.1",
+  "date": "2026-11-21",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 3943,
+      "sha256": "ddb5ea68fc2aaa3548646255cc6d2c3915add8ff0174bc9319233af8b914e8d1",
+      "public": true
+    },
+    {
+      "file": "blender-build-report.json",
+      "bytes": 676,
+      "sha256": "550e6e70f4423efa42e00f8c4f3145385e4c031b9eca76d976c0f8cbddb90679",
+      "public": false
+    },
+    {
+      "file": "blender-validation.json",
+      "bytes": 996,
+      "sha256": "842ccfe299f957d16faf1a2b97cb7dded6086be659fbd2d674b35cb155d44aa7",
+      "public": true
+    },
+    {
+      "file": "build_v3_blender.py",
+      "bytes": 3642,
+      "sha256": "69687142122b8a2847b645ac907128ec19ead98da71703aa91afec5e863c5e48",
+      "public": true
+    },
+    {
+      "file": "generate_v3_network.py",
+      "bytes": 7237,
+      "sha256": "a81f20ac57106ed0eaa6c74537ec0c96cb812bab2afdf4c4c0e1b34748a25f96",
+      "public": true
+    },
+    {
+      "file": "input-v2-network.npz",
+      "bytes": 429102,
+      "sha256": "d1d078b6ef2a1a3b3c4d67d0bffb9483e25c0fbc2910fef2fa2bfeecc3b248a3",
+      "public": false
+    },
+    {
+      "file": "input-v2-scene.blend",
+      "bytes": 27340748,
+      "sha256": "fb39fe2e327f04e40eb8715062a3a3845930a70f9b52e663331dda0a330b9cf8",
+      "public": false
+    },
+    {
+      "file": "make_real_comparisons.py",
+      "bytes": 2620,
+      "sha256": "b6e4dbd952fc0b3117f9dd0b3c8c9b6eb56da593eb8acbc686282fc19ad16371",
+      "public": true
+    },
+    {
+      "file": "outputs/ghost-28-sag1.0.png",
+      "bytes": 858021,
+      "sha256": "f6f3160102c9080a3eb91b2cbf3264fce0a09aa021712d5e369783e0ae7bd148",
+      "public": false
+    },
+    {
+      "file": "outputs/only-14-sag1.0.png",
+      "bytes": 863280,
+      "sha256": "0bf3215a249e882b50f87aeec2990f9c27448ff5cddcdb7d05c14bbf64401890",
+      "public": false
+    },
+    {
+      "file": "outputs/only-28-sag0.25.png",
+      "bytes": 860260,
+      "sha256": "1ec37dd0e672489ee7483caa941eebd5d9dee7a3a57dafe1528ad296be8225e5",
+      "public": false
+    },
+    {
+      "file": "outputs/only-28-sag1.0.png",
+      "bytes": 839273,
+      "sha256": "6e6a0fb89d1c0bf5095da4f0e1d42edb76c742c8a7d16a75567b2ce11607cf0e",
+      "public": false
+    },
+    {
+      "file": "outputs/only-28-sag1.8.png",
+      "bytes": 853773,
+      "sha256": "f1ac7b2200934499b3506170ceaccefe3d35c023a042fe21187c24334da1c204",
+      "public": false
+    },
+    {
+      "file": "outputs/only-40-sag1.0.png",
+      "bytes": 850075,
+      "sha256": "9fa4454b52e0df485b58cd58250a3124a0e465de97b2c629df1e7e11ed4fb3eb",
+      "public": false
+    },
+    {
+      "file": "outputs/only-v2.png",
+      "bytes": 815528,
+      "sha256": "9c68f3fe64822c76644c9bd08e0620438d384c8a4725f925c896517edda9b1a3",
+      "public": false
+    },
+    {
+      "file": "outputs/private-frucht-v2-v3-comparison.jpg",
+      "bytes": 376480,
+      "sha256": "a0f54c0d17ef2d42301a39663dce26323d3bb1ee92186c8f31e4d771225389e7",
+      "public": false
+    },
+    {
+      "file": "outputs/real-ab-sag.jpg",
+      "bytes": 513392,
+      "sha256": "c83107dc79339bb5a55331636fe12250491347ef03680dbe86ca3877660a9342",
+      "public": false
+    },
+    {
+      "file": "outputs/real-ab-strands.jpg",
+      "bytes": 396427,
+      "sha256": "b3718749caedb60870ecaa0793671ddd8443636e0f9c647c9e2d914d0c698cf4",
+      "public": false
+    },
+    {
+      "file": "outputs/render-14-sag1.0.log",
+      "bytes": 354,
+      "sha256": "efd48c229f63db8764a04fe101e0fa5c1eeb4e53b32f45a794305cdfb75e0baa",
+      "public": false
+    },
+    {
+      "file": "outputs/render-28-sag0.25.log",
+      "bytes": 356,
+      "sha256": "796d86ab12944b7272e631e4e77d2f6eb70fdcee4eb07fae8a54c4a357be08f2",
+      "public": false
+    },
+    {
+      "file": "outputs/render-28-sag1.0.log",
+      "bytes": 353,
+      "sha256": "e0c8696257cac5ad7720eccba5a58de45961054ba05acbf61c3c8a71ce603089",
+      "public": false
+    },
+    {
+      "file": "outputs/render-28-sag1.8.log",
+      "bytes": 354,
+      "sha256": "0aa8b39644eb8bb44c323a1da492c562d9675404211544b7f3da775185c87668",
+      "public": false
+    },
+    {
+      "file": "outputs/render-40-sag1.0.log",
+      "bytes": 353,
+      "sha256": "5dcc92a68bfffc28679ae9cc9b4f8d31ea00bce8f6ee2f2eaacbb8bd36f9e5f5",
+      "public": false
+    },
+    {
+      "file": "outputs/render-cut.log",
+      "bytes": 115,
+      "sha256": "8058736d6539c6ae334019f00cae847083c19ee2fb31f093572b818b75d60271",
+      "public": false
+    },
+    {
+      "file": "outputs/render-ghost.log",
+      "bytes": 356,
+      "sha256": "0200f66339fd81dba6db07ca87498bb078187265a88c9f6826a66529bb150765",
+      "public": false
+    },
+    {
+      "file": "outputs/render-v2.log",
+      "bytes": 340,
+      "sha256": "a3cd8150d9df3d280edf14ce1a6cfbb715a918e12e1baad2cf57b47a1efdcdaa",
+      "public": false
+    },
+    {
+      "file": "private-frucht-video-ref15.jpg",
+      "bytes": 199903,
+      "sha256": "39d26432170e08b5e713c67f7f60ba300c164629cc432b6645d3ab2c12b3fd02",
+      "public": false
+    },
+    {
+      "file": "qa-v3-data.json",
+      "bytes": 2095,
+      "sha256": "9b247c270d5eb5118bbe8c31612cdced4b5214c2ccd0f8f31065c0fc7f8a84c9",
+      "public": false
+    },
+    {
+      "file": "qa_v3_data.py",
+      "bytes": 2021,
+      "sha256": "b3758e0a40f153338fbb851018d26d622ec6f7460c63073e1a851d5cd4af7331",
+      "public": true
+    },
+    {
+      "file": "render_v3_blender.py",
+      "bytes": 1685,
+      "sha256": "106bf97b606dde7ab98928cd398ed7b1db5e97a9f0723265b42f9d44c990a3cd",
+      "public": true
+    },
+    {
+      "file": "report-v3.md",
+      "bytes": 4130,
+      "sha256": "34431a0ceaa3f04eb5331e0a2ff0ac802c70dd2fc36d269e90f7770134d2c166",
+      "public": true
+    },
+    {
+      "file": "reproduction-qa.json",
+      "bytes": 374,
+      "sha256": "81ae17ab0b4072799dcbfb5f0d6260a5484dde76265fa73bea773e1a77749f34",
+      "public": true
+    },
+    {
+      "file": "v3-carriers-bezier-variants.blend",
+      "bytes": 30202829,
+      "sha256": "071621fe4ceb50057439ffc01a382b064cbc58e267f806288fcc4179b476eef8",
+      "public": false
+    },
+    {
+      "file": "v3-profile14-sag1.0.json",
+      "bytes": 1329,
+      "sha256": "e04b05bc5e496792e95923ee2bb82a0fe0a76a2c5605597f1e2a9d320abcd7fb",
+      "public": false
+    },
+    {
+      "file": "v3-profile14-sag1.0.npz",
+      "bytes": 560555,
+      "sha256": "bfe4a58093c51ce10d9849901a40a1199ae681f0ec69b51ac62280a3e824e44c",
+      "public": false
+    },
+    {
+      "file": "v3-profile28-sag0.25.json",
+      "bytes": 1331,
+      "sha256": "93f3e133933b28f1b718069effdfa62e50178b72858251092a6b770e9ac905fc",
+      "public": false
+    },
+    {
+      "file": "v3-profile28-sag0.25.npz",
+      "bytes": 595083,
+      "sha256": "01edf716d50c63f0628687e7738f2f7ed62eaedb6671a774c6337de5ff853a8f",
+      "public": false
+    },
+    {
+      "file": "v3-profile28-sag1.0.json",
+      "bytes": 1327,
+      "sha256": "436a1e857b07c2c61952e4e4e5ad0f138be8613d102b0dfea47a1839dd6bfe2e",
+      "public": false
+    },
+    {
+      "file": "v3-profile28-sag1.0.npz",
+      "bytes": 594996,
+      "sha256": "4e5b452c203025c0aaaee896ab8f6031c270314f0e4e3128b282f69add992577",
+      "public": false
+    },
+    {
+      "file": "v3-profile28-sag1.8.json",
+      "bytes": 1328,
+      "sha256": "aaec5906f7ab7dd6eb4b35012e4f6457bf2b241c06c1f2d0fba869bd135e0a6b",
+      "public": false
+    },
+    {
+      "file": "v3-profile28-sag1.8.npz",
+      "bytes": 595136,
+      "sha256": "74ba62ddc0763719483ed6e9cdd70705ccea2fb4c96041020e44d021d7494df9",
+      "public": false
+    },
+    {
+      "file": "v3-profile40-sag1.0.json",
+      "bytes": 1327,
+      "sha256": "33f554986ea78d853c566350e781a32a09d87e96f2e4ec678716fb384b4fd6de",
+      "public": false
+    },
+    {
+      "file": "v3-profile40-sag1.0.npz",
+      "bytes": 625328,
+      "sha256": "f2a51e62e25a34c65fa89fbe39d0e6c0a36193b9ec4baf6ccc06a3adc1f82473",
+      "public": false
+    },
+    {
+      "file": "validate_v3_blender.py",
+      "bytes": 2104,
+      "sha256": "5eaee194988ce5efedd38fc89e7708a3345cf7e47a09df5df16aa7c5c459f842",
+      "public": true
+    }
+  ]
+}
