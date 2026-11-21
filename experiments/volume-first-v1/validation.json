@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "blender": "5.2.4 LTS",
+  "assertions": [
+    "source 494 actual spatial curves match single archived NPZ",
+    "all three cuts share same source",
+    "fine fiber field present",
+    "physical vertex displacement exists, not bump only",
+    "all skin/seams same as v0",
+    "1 connected surface, 0 nonmanifold edges, 0 degenerate faces",
+    "baseline meshes untouched"
+  ],
+  "slices": [
+    {
+      "angle": 0,
+      "verts": 78626,
+      "faces": 78960,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "cut_signal_gt025": 7370,
+      "actual_displaced_vertices_gt002": 5418,
+      "max_physical_displacement": 0.0070686,
+      "max_original_skin_change": 0.0,
+      "source_curves": 494
+    },
+    {
+      "angle": 32,
+      "verts": 78626,
+      "faces": 78960,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "cut_signal_gt025": 6846,
+      "actual_displaced_vertices_gt002": 4723,
+      "max_physical_displacement": 0.0070692,
+      "max_original_skin_change": 0.0,
+      "source_curves": 494
+    },
+    {
+      "angle": 82,
+      "verts": 78626,
+      "faces": 78960,
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "cut_signal_gt025": 6991,
+      "actual_displaced_vertices_gt002": 4940,
+      "max_physical_displacement": 0.0070676,
+      "max_original_skin_change": 0.0,
+      "source_curves": 494
+    }
+  ],
+  "limits": [
+    "not live arbitrary Boolean",
+    "artist designed lines not microscopy",
+    "manifold does not exclude all self intersections",
+    "static 3D reference curves need rebuild if edited"
+  ]
+}

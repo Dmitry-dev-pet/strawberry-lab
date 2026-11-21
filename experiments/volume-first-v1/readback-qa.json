@@ -1,0 +1,52 @@
+{
+  "schema": "strawberry-lab.volume-first.v1.drive-readback.1",
+  "readback_selected_critical": {
+    "count": 5,
+    "all_pass": true,
+    "files": [
+      {
+        "name": "strawberry-volume-first-v1-beauty.blend",
+        "bytes": 21963026,
+        "sha256": "bfc5c1b8367a00cdb548275625d9ee8c8a89093be1fac4594239c608a5dbfa82",
+        "pass": true
+      },
+      {
+        "name": "strawberry-volume-first-v1.blend",
+        "bytes": 21960374,
+        "sha256": "de21fdeede46fb0e11d73ed7f157ea06c0158a21af12f9024836b53043172816",
+        "pass": true
+      },
+      {
+        "name": "fine_fibers_3d.npz",
+        "bytes": 510219,
+        "sha256": "0255f063ae092fac0664d9f097695a133f569d9d1c3f6dc300318c6a5046f601",
+        "pass": true
+      },
+      {
+        "name": "comparison-full-0-and-82.jpg",
+        "bytes": 377346,
+        "sha256": "db32c145100f7e7690e0ba4c2010b5cd00c47e76c1ae1747cfd454fe69edd9bb",
+        "pass": true
+      },
+      {
+        "name": "validation.json",
+        "bytes": 1674,
+        "sha256": "ff0d2eece8debf7db7c79d2b365b3283450f7925afddfca8c21f8357428bf480",
+        "pass": true
+      }
+    ]
+  },
+  "zip": {
+    "name": "strawberry-volume-first-v1-complete.zip",
+    "bytes": 69455100,
+    "sha256": "06a35bb837094542b54d28046a7e8a46fa238c2f94db89b8cc7cd928815801ff",
+    "downloaded_full_matching_hash": true
+  },
+  "actual_drive_downloaded_beauty_blend_reopened_and_validated": true,
+  "source_reproduction_mesh_fingerprints_all_three_angles_match": true,
+  "limits": [
+    "5 critical files checked by full hash; remaining Drive uploads only confirmed by successful upload responses",
+    "static half cuts, not moving Boolean",
+    "artist curves not histology"
+  ]
+}

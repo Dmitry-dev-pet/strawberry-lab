@@ -1,0 +1,13 @@
+{
+  "schema": "strawberry-lab.volume-first.v1.1",
+  "new_curves": 348,
+  "previous_curves": 146,
+  "total_curves": 494,
+  "source_sample_points": 45928,
+  "source": "continuous 3D splines in fruit coordinates; no per-view fibers",
+  "radius_min_max": [
+    0.0081,
+    0.015
+  ],
+  "status": "artist-defined independent experiment, not botanical anatomy"
+}

@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "same_saved_vertices_and_fiber_attributes": true,
+  "baseline": {
+    "0": {
+      "offset_sha256": "2c1712d77abcba1c02fdc96df22ea5e2d9376e858761de5ee7512cf102b3c756",
+      "signal_sha256": "3e5007b58cdb165c3177deec87249a5e0e4a42ee203ffafd61ef70465ec260e9",
+      "vertices_sha256": "2f06e0b0fb9fe498c1a829e75b6cd7552b17bd8d6e3606947e818666e81d586f"
+    },
+    "32": {
+      "offset_sha256": "b25f6c6b36d26f62259ff25c1a210d1e97ef7fe4626e506c1f5a1b67fb3b72cd",
+      "signal_sha256": "454cf46cd86b684861847284a304e34641153346be5c351ad40c8fa7f52b9766",
+      "vertices_sha256": "1304cdcb552c882594c63ae1ffbb9fb9ad8a95a14f0461d43f41f61401176172"
+    },
+    "82": {
+      "offset_sha256": "ca7e0c7404e73dae5a4e84d344bc12bbc87aeb17e8ecfbb96ec0bee13326fd45",
+      "signal_sha256": "dc132f8e65b0f563ff1641676ecf98a5de31b782810b54c4ec27baaf6bf82d3d",
+      "vertices_sha256": "510d07e3de3d614e3e1d9769f7f9634996f1255e9f4bb8b6a3d914df7b7dc91b"
+    },
+    "mix": [
+      0.8299999833106995,
+      0.46000000834465027,
+      0.33000001311302185,
+      1.0
+    ],
+    "strength": 0.3100000023841858
+  },
+  "regenerated": {
+    "0": {
+      "offset_sha256": "2c1712d77abcba1c02fdc96df22ea5e2d9376e858761de5ee7512cf102b3c756",
+      "signal_sha256": "3e5007b58cdb165c3177deec87249a5e0e4a42ee203ffafd61ef70465ec260e9",
+      "vertices_sha256": "2f06e0b0fb9fe498c1a829e75b6cd7552b17bd8d6e3606947e818666e81d586f"
+    },
+    "32": {
+      "offset_sha256": "b25f6c6b36d26f62259ff25c1a210d1e97ef7fe4626e506c1f5a1b67fb3b72cd",
+      "signal_sha256": "454cf46cd86b684861847284a304e34641153346be5c351ad40c8fa7f52b9766",
+      "vertices_sha256": "1304cdcb552c882594c63ae1ffbb9fb9ad8a95a14f0461d43f41f61401176172"
+    },
+    "82": {
+      "offset_sha256": "ca7e0c7404e73dae5a4e84d344bc12bbc87aeb17e8ecfbb96ec0bee13326fd45",
+      "signal_sha256": "dc132f8e65b0f563ff1641676ecf98a5de31b782810b54c4ec27baaf6bf82d3d",
+      "vertices_sha256": "510d07e3de3d614e3e1d9769f7f9634996f1255e9f4bb8b6a3d914df7b7dc91b"
+    },
+    "mix": [
+      0.8299999833106995,
+      0.46000000834465027,
+      0.33000001311302185,
+      1.0
+    ],
+    "strength": 0.3100000023841858
+  }
+}
