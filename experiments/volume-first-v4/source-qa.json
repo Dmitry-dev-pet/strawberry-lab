@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "source": "owned V3 28-sag0.25",
+  "variants": [
+    {
+      "variant": "0.35",
+      "changed_vertices": 10780,
+      "max_point_change": 0.008778078481554985,
+      "median_tip_change": 0.0027621665503829718,
+      "all_539_ends_exact": true,
+      "carrier_and_first43_and_radius_exact": true,
+      "deterministic_regeneration": true
+    },
+    {
+      "variant": "0.85",
+      "changed_vertices": 10780,
+      "max_point_change": 0.023543210700154305,
+      "median_tip_change": 0.007261456921696663,
+      "all_539_ends_exact": true,
+      "carrier_and_first43_and_radius_exact": true,
+      "deterministic_regeneration": true
+    },
+    {
+      "variant": "1.5",
+      "changed_vertices": 10780,
+      "max_point_change": 0.02843146026134491,
+      "median_tip_change": 0.010726667009294033,
+      "all_539_ends_exact": true,
+      "carrier_and_first43_and_radius_exact": true,
+      "deterministic_regeneration": true
+    }
+  ],
+  "limit": [
+    "Does not prove visual match",
+    "No tissue geometry or shader atlas",
+    "Promotional reference shows possibly different animation state"
+  ]
+}
