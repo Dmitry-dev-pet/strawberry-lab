@@ -1,0 +1,167 @@
+{
+  "schema": "strawberry-lab.m1e5.drive-readback.v1",
+  "drive_folder_id": "1fI12HL3GbZMDZuwDJyH_OaQFABmnIS8O",
+  "date": "2026-11-21",
+  "readback": {
+    "status": "PASS",
+    "files_with_full_matching_sha256": 19,
+    "expected_files": 19,
+    "manifest_full_readback": true,
+    "zip_full_readback": true,
+    "downloaded_exact_blend_reopened_and_validator": "PASS",
+    "registered_handlers": "PASS",
+    "manual_translate_rotate_test": "PASS",
+    "new_portable_ui_test_reopened_from_drive": "PASS"
+  },
+  "files": [
+    {
+      "name": "source-m1e4-frame15-beauty.blend",
+      "size_bytes": 8740736,
+      "sha256": "49017dfe35eb5cdc86feabfc96299fc73bc24ac04db5b3c5842132f81cd70c3c",
+      "drive_file_id": "1eqDFK-mMppYqI_tD8Onx9lVzvG8jVWj8",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "strawberry-m1e5-live-exact.blend",
+      "size_bytes": 10218397,
+      "sha256": "2082a81c0d2607faabdefefe0403deed997c703f2c3a1dfe96ea0338e6c4efb2",
+      "drive_file_id": "1QXFQHVT3DM0PNpnLHOiHaWxcVXc_9YBX",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "m1e5_live_exact.py",
+      "size_bytes": 12969,
+      "sha256": "4ae0194fa6c0270740c6ddb047451d31d86a3bc5c57ee5df68a69ecc1c36d9f0",
+      "drive_file_id": "1Xduk8kHq_upety5bNGo-kG9-aYIsSsCK",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "build_m1e5.py",
+      "size_bytes": 2979,
+      "sha256": "a878e7b99fad090dc34e23c68a7ac2809ec891493bf79f7247ba7865d56bef9e",
+      "drive_file_id": "11v2C1H4MjOHD2kmHZ0EUf7zmagwYSXpV",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "validate_live_m1e5.py",
+      "size_bytes": 5053,
+      "sha256": "160f079d8058b8240611c52d357fa707a871980f506b09d2e4544f0a8847d0ae",
+      "drive_file_id": "1RWjwfUBSogT3L79L4-NhYYi3Ow_Uwe14",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "test_ui_rotation.py",
+      "size_bytes": 2298,
+      "sha256": "63228301420c40e68f4e24597911f0d1ca63e4a860f4c4f792c02c4dcb76c15c",
+      "drive_file_id": "1zNhh0hxVt-2YGr0YFcbOnYAzxWcHuwfS",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "render_m1e5.py",
+      "size_bytes": 2159,
+      "sha256": "9c04eb482d8df556080f813cac92c5fd02b5fd82b6ad9ce027c46b6747975fdf",
+      "drive_file_id": "1Z-XmeINjRBc7Z7PHgq7JMwF4snwzs9GX",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "README.md",
+      "size_bytes": 4750,
+      "sha256": "f856636d76cd3b2e2ab4b1a9655b8bceccd527f24fcd9e1e1f7221e26e29d1b5",
+      "drive_file_id": "1mx-McOxSbN6PQqYUyxBfMPbcdRYDTD5p",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "report.md",
+      "size_bytes": 4781,
+      "sha256": "82f80e9a7c12447c1d9c52e8a95636e69ea381e6ce1b5af1a9cd04c23ecf9966",
+      "drive_file_id": "1yVAD6ec0KYPANuZDuEnrErK0ztFEIObT",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "validation-live.json",
+      "size_bytes": 2267,
+      "sha256": "99095b4f4960069788d49801ecfea9dc5d1d79f40e0eba3f7a59e977bdc4e4b7",
+      "drive_file_id": "1D_xNXgeiNeULHZJqG4tXyAmdO4m6Nj9z",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "pixel-comparison.json",
+      "size_bytes": 518,
+      "sha256": "faf9e15a028ffbb3d46195568f3e47c0621dd65df4a14882257656a1d3376fc5",
+      "drive_file_id": "1uydF1vFl_5POkSOoytX5BuO7nmJ_wE6X",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "m1e5-live-exact-frame15.png",
+      "size_bytes": 620331,
+      "sha256": "61a3d3460de4db6e8f4b4b96419c2adaa656aaec34613c64b81a08ecd304fe0c",
+      "drive_file_id": "1ZU7Ms4Klr3iHXgrto_pGorD4I7hCzshT",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "m1e5-live-exact-frame21.png",
+      "size_bytes": 610491,
+      "sha256": "ad3f6469ee611aaf711a8a1b268ba29e11f9b44c16de023b5de1ad2c92cfe7ab",
+      "drive_file_id": "1rYXc5n6ZpnAkP4FfYfGyYduHh9fjXwU7",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "m1e5-live-exact-frame30.png",
+      "size_bytes": 376091,
+      "sha256": "ea64c7056ef9a61d776bf56c3f30cbac8a74d9b8d9fe1d1c5c06efed6ec78d1b",
+      "drive_file_id": "1UoB3JgVn1aMx3UTIkttUHsXS7jcEcwI9",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "M1e5-live-three-poses.jpg",
+      "size_bytes": 209156,
+      "sha256": "88cc94d63d153ecd5db9feea4b3a4e51ae2278205b7651bb1b1fd69d92717e91",
+      "drive_file_id": "1quLmOwgfe31XvoLIeKP42XhZhC4TTn96",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "test-run.log",
+      "size_bytes": 4799,
+      "sha256": "2be0581d6a7302cc6903c5568c1e2783c05c4f7924f2287830f80ab4818351be",
+      "drive_file_id": "1V3q-bylXt9m1_r54MshFuv9bvlnGzM1N",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "test-ui.log",
+      "size_bytes": 2388,
+      "sha256": "3a5934417bbdc0788812d82c2617005103459fa597b7949132077e67f381aa3c",
+      "drive_file_id": "1jqW_u_TNYWhPARCQCK7I1q1Gn2xH49zP",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "render21-final.log",
+      "size_bytes": 983,
+      "sha256": "fe265129c169bf6bc675af360d1802b15b1653e64091fe6f4c33524f69278a17",
+      "drive_file_id": "1HXnESDHscQwLd8Hj5QTcOw0pq5CFHkkU",
+      "verified_sha256_readback": true
+    },
+    {
+      "name": "render30.log",
+      "size_bytes": 982,
+      "sha256": "685c09a1eb54d3b56068587c5dac51476ee5b237b2e17bd10521631bb2cd913e",
+      "drive_file_id": "1BVrdYSOhLqaxdg1Im5ZofIQ9zB2Oz83U",
+      "verified_sha256_readback": true
+    }
+  ],
+  "manifest": {
+    "drive_file_id": "1dLoySXHk-U2dCcFuyYWmqIfSLU9_RI65",
+    "sha256": "ee1839f35c3d6149ce76631d27dbb392197b3d15759b20cbf85ca40328c4c11d",
+    "verified": true
+  },
+  "zip": {
+    "drive_file_id": "1M59FOaaVQGgNwvjo0HCMcFpvS9oVf4cX",
+    "size_bytes": 19866241,
+    "sha256": "bfd9fb8ab5e269eab7a1218007a81945fa1902772d3b4e9d92d5284f3f893e2c",
+    "verified": true
+  },
+  "notes": [
+    "Blender scene defaults to safe native GN Fast on open without addon",
+    "Exact needs user-enabled Python handler; per move ~0.4–0.7s tested",
+    "No vendor Frucht sources copied or bundled"
+  ]
+}
