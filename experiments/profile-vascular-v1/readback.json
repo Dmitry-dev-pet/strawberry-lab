@@ -1,0 +1,10 @@
+{
+  "full_readback": {
+    "elongated.blend": "a01b640089895d80bca5eadea97daae47e7d67761721eae8d35eaca598a5315f",
+    "round.blend": "e2b93d3d393fd0bc5614932ea09c9b031ede9c263533e7be7cfc18724f8f6d8a",
+    "comparison.png": "f8e95cc900fc0549e0680f198c068a28ea14552132b5e69566cda91787c1d199",
+    "profile-vascular-partial.zip": "5da3affa5e7411507f6ae287de0ae44da8f1e53fe3d818bade54579e5effbb71"
+  },
+  "all_six_png_bytes_verified_from_downloaded_zip": true,
+  "both_downloaded_scenes_reopened": true
+}
