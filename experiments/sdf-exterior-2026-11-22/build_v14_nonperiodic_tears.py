@@ -45,8 +45,11 @@ selected=selected_near+selected_far
 # float raster via continuous XYZ 192^3, identical for any cut angle.
 field=np.zeros((n,n,n),np.float32)
 raster_points=0
+raster_attempted=0
+raster_skipped=0
 def dab(q,amp,width):
- global raster_points
+ global raster_points,raster_attempted,raster_skipped
+ raster_attempted+=1
  q=np.asarray(q,dtype=np.float32)
  fx=(q[0]+18)/step[0];fy=(q[1]+18)/step[1];fz=(q[2]+1)/step[2]
  ix,iy,iz=[int(round(float(x))) for x in (fx,fy,fz)]
@@ -54,7 +57,7 @@ def dab(q,amp,width):
  a=max(0,ix-4);b=min(n,ix+5)
  c=max(0,iy-4);d=min(n,iy+5)
  e=max(0,iz-4);h=min(n,iz+5)
- if a>=b or c>=d or e>=h:return
+ if a>=b or c>=d or e>=h:raster_skipped+=1;return
  d2=((xs[None,None,a:b]-q[0])**2
      +(ys[None,c:d,None]-q[1])**2
      +(zs[e:h,None,None]-q[2])**2)
@@ -104,6 +107,7 @@ for rank,idx in enumerate(selected):
    q=bezier(q0,q1,q2,q3,t)
    dab(q,float(intensity*.68*(1-.37*t)),width*.65*(1-.20*t))
   twig_count+=1
+assert raster_attempted == raster_points + raster_skipped
 # Physical pixel maps are shared in shader and Geometry Nodes: replace
 # existing R by a 0.22× background plus new sparse nonperiodic structure.
 old_dist=[]
@@ -215,7 +219,7 @@ metadata={
  "atlas_sha256":hashlib.sha256(ATLAS.read_bytes()).hexdigest(),
  "atlas_shape":[192,192,192],"atlas_shader_gn_replacements":changed,
  "seed_anchors_total":264,"seed_anchors_used":len(selected),
- "fibrils_seed_linked":stem_count,"terminal_branches":twig_count,"raster_dabs":raster_points,
+ "fibrils_seed_linked":stem_count,"terminal_branches":twig_count,"raster_dabs":raster_points,"raster_attempted":raster_attempted,"raster_skipped":raster_skipped,
  "shader_green_blue":"unchanged unquantized values before PNG save",
  "original_r_global_mean":float(np.mean(old_dist)),"v14_r_global_mean":float(np.mean(new_dist)),
  "tear_gain_A_B":[0,1],"tear_rim_coverage_mm":1.85,
