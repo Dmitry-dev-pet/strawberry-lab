@@ -1,0 +1,134 @@
+{
+  "versions": {
+    "A": {
+      "scene_sha256": "3f796b53f6a30b560443b02904cc705e186a8d4b596685a62b5178ece0b66f08",
+      "states": {
+        "whole": {
+          "vertices": 157250,
+          "triangulated_faces_original": 157696,
+          "nonmanifold_edges": 0,
+          "volume": 21506.834,
+          "smallest_face_area": 3.871642184094526e-05
+        },
+        "plane": {
+          "vertices": 194354,
+          "triangulated_faces_original": 194352,
+          "nonmanifold_edges": 0,
+          "volume": 6777.508,
+          "smallest_face_area": 1.7062506231013685e-05,
+          "cell_physical_max_mm": 0.059551,
+          "high_field_verts": 1582,
+          "cell_gt_0_03mm": 47215,
+          "rest_field_p95": 0.138799
+        },
+        "bite": {
+          "vertices": 350314,
+          "triangulated_faces_original": 350312,
+          "nonmanifold_edges": 0,
+          "volume": 18829.354,
+          "smallest_face_area": 3.08305025100708e-05,
+          "cell_physical_max_mm": 0.058881,
+          "high_field_verts": 1994,
+          "cell_gt_0_03mm": 39756,
+          "rest_field_p95": 0.136297
+        },
+        "plane_moved": {
+          "vertices": 154762,
+          "triangulated_faces_original": 154760,
+          "nonmanifold_edges": 0,
+          "volume": 4267.035,
+          "smallest_face_area": 5.487352609634399e-06,
+          "cell_physical_max_mm": 0.059396,
+          "high_field_verts": 838,
+          "cell_gt_0_03mm": 42398,
+          "rest_field_p95": 0.136912
+        },
+        "bite_moved": {
+          "vertices": 361858,
+          "triangulated_faces_original": 361856,
+          "nonmanifold_edges": 0,
+          "volume": 16704.651,
+          "smallest_face_area": 1.51805579662323e-07,
+          "cell_physical_max_mm": 0.05893,
+          "high_field_verts": 4801,
+          "cell_gt_0_03mm": 57292,
+          "rest_field_p95": 0.141591
+        }
+      }
+    },
+    "B": {
+      "scene_sha256": "8b2189572d17ee603f5a6d5720ff6768b9d9b79bd7e9439c0969095b92577e12",
+      "states": {
+        "whole": {
+          "vertices": 157250,
+          "triangulated_faces_original": 157696,
+          "nonmanifold_edges": 0,
+          "volume": 21506.834,
+          "smallest_face_area": 3.871642184094526e-05
+        },
+        "plane": {
+          "vertices": 194354,
+          "triangulated_faces_original": 194352,
+          "nonmanifold_edges": 0,
+          "volume": 6777.629,
+          "smallest_face_area": 1.7062506231013685e-05,
+          "cell_physical_max_mm": 0.05909,
+          "high_field_verts": 1582,
+          "cell_gt_0_03mm": 45333,
+          "rest_field_p95": 0.138799
+        },
+        "bite": {
+          "vertices": 350314,
+          "triangulated_faces_original": 350312,
+          "nonmanifold_edges": 0,
+          "volume": 18829.414,
+          "smallest_face_area": 3.08305025100708e-05,
+          "cell_physical_max_mm": 0.058881,
+          "high_field_verts": 1994,
+          "cell_gt_0_03mm": 38681,
+          "rest_field_p95": 0.136297
+        },
+        "plane_moved": {
+          "vertices": 154762,
+          "triangulated_faces_original": 154760,
+          "nonmanifold_edges": 0,
+          "volume": 4267.075,
+          "smallest_face_area": 5.487352609634399e-06,
+          "cell_physical_max_mm": 0.059253,
+          "high_field_verts": 838,
+          "cell_gt_0_03mm": 41195,
+          "rest_field_p95": 0.136912
+        },
+        "bite_moved": {
+          "vertices": 361858,
+          "triangulated_faces_original": 361856,
+          "nonmanifold_edges": 0,
+          "volume": 16704.903,
+          "smallest_face_area": 1.51805579662323e-07,
+          "cell_physical_max_mm": 0.058785,
+          "high_field_verts": 4801,
+          "cell_gt_0_03mm": 53244,
+          "rest_field_p95": 0.141591
+        }
+      }
+    }
+  },
+  "cross_variant_geometry": {
+    "planar": {
+      "high_field_test_vertices": 1192,
+      "low_field_test_vertices": 31595,
+      "mean_high_field_relief_ratio_B_to_A": 0.17133934795856476,
+      "mean_low_field_relief_ratio_B_to_A": 1.0,
+      "real_vertex_max_difference_mm": 0.05459701642394066,
+      "changed_verts_gt_0_01mm": 2266
+    },
+    "bite": {
+      "high_field_test_vertices": 604,
+      "low_field_test_vertices": 29987,
+      "mean_high_field_relief_ratio_B_to_A": 0.15881448984146118,
+      "mean_low_field_relief_ratio_B_to_A": 1.0,
+      "real_vertex_max_difference_mm": 0.05394698679447174,
+      "changed_verts_gt_0_01mm": 1160
+    }
+  }
+}
