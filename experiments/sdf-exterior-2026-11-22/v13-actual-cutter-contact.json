@@ -1,0 +1,26 @@
+{
+  "planar_original": {
+    "seed_vertices": 16554,
+    "cutter_mesh_verts": 8,
+    "actual_cutter_sign_inside_vertices": 0,
+    "max_inward_distance": 0.0
+  },
+  "planar_moved": {
+    "seed_vertices": 11748,
+    "cutter_mesh_verts": 8,
+    "actual_cutter_sign_inside_vertices": 0,
+    "max_inward_distance": 0.0
+  },
+  "bite_original": {
+    "seed_vertices": 40228,
+    "cutter_mesh_verts": 6050,
+    "actual_cutter_sign_inside_vertices": 0,
+    "max_inward_distance": 0.0
+  },
+  "bite_moved": {
+    "seed_vertices": 37558,
+    "cutter_mesh_verts": 6050,
+    "actual_cutter_sign_inside_vertices": 0,
+    "max_inward_distance": 0.0
+  }
+}
