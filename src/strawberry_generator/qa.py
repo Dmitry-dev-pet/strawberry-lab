@@ -47,4 +47,6 @@ def validate(scene,anchors):
    if node.label=='Analytic nonlinear inverse: physical -> original PR29 rest':
     for rest in [(0,0,.2),(.2,.1,-.3),(.3,-.4,.6)]:errors.append(float(np.linalg.norm(np.array(env['evaluate'](node.outputs[0],forward(rest,original)))-rest)))
  assert errors and max(errors)<1e-6
- return {'status':'FAST_ONLY_PASS','actual_triangle_contacts':contacts,'terminal_max_error_mm':max(endpoint),'new_pit_field_max_error_model_units':pit_error,'old_only_pit_vertices_cleared':len(old_only),'old_only_max_residual_model_units':max(old_only),'fast_cuts':cuts,'live_profile_roundtrip_error':error,'shader_inverse_error':max(errors),'atlas_digest':packed_atlas_digest(),'four_layers':True,'Exact':'DISABLED: fresh refined mesh failed CDT seam distinct-vertex gate; no tolerance relaxation'}
+ from strawberry_generator.seam_fix.policy import validate_exact_caps
+ exact=validate_exact_caps(scene)
+ return {'status':'FAST_AND_EXACT_PASS_WITH_EXPLICIT_1UM_OFFSET','exact_validation':exact,'actual_triangle_contacts':contacts,'terminal_max_error_mm':max(endpoint),'new_pit_field_max_error_model_units':pit_error,'old_only_pit_vertices_cleared':len(old_only),'old_only_max_residual_model_units':max(old_only),'fast_cuts':cuts,'live_profile_roundtrip_error':error,'shader_inverse_error':max(errors),'atlas_digest':packed_atlas_digest(),'four_layers':True,'Exact':'Original CDT verified at physically offset blade poses; no fallback or epsilon change'}

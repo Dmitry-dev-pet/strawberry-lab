@@ -24,8 +24,9 @@ s=bpy.context.scene;mesh=s.objects['Receptacle | canonical PR29 hull'].data;mm=s
 rawdims=[(max(v.co[i] for v in mesh.vertices)-min(v.co[i] for v in mesh.vertices))*mm for i in range(3)]
 anchors=[AcheneAnchor(**{k:v for k,v in item.items() if k!='id'}) for item in json.loads((folder/'anchors.json').read_text())]
 activate_runtime();report=validate(s,anchors);report.update(old_diagnostic_canonical_digest=expected[0],atlas_unchanged=True,actual_uncut_raw_dimensions_mm=rawdims)
-# Exact is explicitly rejected, rather than a hidden failing mode.
+# Exact is enabled only after the shared physical-zero/CDT gates.
 from validate_pits import activate
-activate(s,'matched');assert bpy.ops.strawberry.exact_quality(exact=True)=={'CANCELLED'}
-report['Exact_activation_explicitly_rejected']=True
+activate(s,'matched');assert bpy.ops.strawberry.exact_quality(exact=True)=={'FINISHED'}
+bpy.ops.strawberry.exact_quality(exact=False)
+report['Exact_activation_verified']=True
 out.write_text(json.dumps(report,indent=2)+'\n')

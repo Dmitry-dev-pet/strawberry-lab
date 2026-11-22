@@ -73,14 +73,16 @@ def main():
  code=code.replace(needle,"        SESSION.error = None\n        if self.exact and context.scene.get('Generator Fast only'):\n            self.report({'WARNING'},'Generator v1 is Fast-only: new pit mesh failed Exact seam QA')\n            return {'CANCELLED'}\n        if self.exact:")
  needle='        layout = self.layout\n        if context.view_layer.name in CUT_LAYERS:';assert code.count(needle)==1
  code=code.replace(needle,"        layout = self.layout\n        if context.scene.get('Generator Fast only'):\n            layout.label(text='Generator v1: Fast only', icon='INFO')\n            layout.label(text='New pit mesh: Exact seam validation pending')\n            return\n        if context.view_layer.name in CUT_LAYERS:")
- text.clear();text.write(code);runtime=activate_runtime()
+ text.clear();text.write(code)
+ from strawberry_generator.seam_fix.policy import apply_policy
+ apply_policy(s);runtime=activate_runtime()
  for key,value in [('live_profile_a',recipe.a),('live_profile_b',recipe.b),('live_profile_h',recipe.h)]:setattr(s,key,value)
  assert bpy.ops.strawberry.apply_profile()=={'FINISHED'};activate(s,'whole');assert topology(body.data)>0
  from strawberry_generator.qa import validate
  qa=validate(s,anchors);(args.out/'qa.json').write_text(json.dumps(qa,indent=2)+'\n')
  path=args.out/'strawberry.blend';bpy.ops.wm.save_as_mainfile(filepath=str(path.resolve()),compress=True)
  positions=[tuple(o['nonlinear_original_anchor']) for o in sorted(col.objects,key=lambda o:o.name)];digest=hashlib.sha256(repr(positions).encode()).hexdigest()
- receipt={'recipe':asdict(recipe),'context_instance':context.instance_id,'source_sha256':pin,'scene_sha256':sha(path),'anchor_digest':digest,'canonical_body_digest':hashlib.sha256(repr([tuple(v.vector) for v in mesh.attributes['nonlinear_source_rest'].data]).encode()).hexdigest(),'body_vertices':len(mesh.vertices),'old_only_pit_vertices_restored':len(restored),'sampled_new_pit_depth_mm':[min(pit_depths),max(pit_depths)],'new_field_max_vertex_depth_mm':max(depths),'actual_dimensions_mm':[(max(v.co[i] for v in mesh.vertices)-min(v.co[i] for v in mesh.vertices))*mm for i in range(3)],'quality':'FAST_ONLY_VERIFIED; EXACT_DISABLED','provenance':'Canonical PR29 unpitted hull and150^3atlas inherited; scatter/pits/seed mesh/28+264artistgraph regenerated. Fixed264 only.'}
+ receipt={'recipe':asdict(recipe),'context_instance':context.instance_id,'source_sha256':pin,'scene_sha256':sha(path),'anchor_digest':digest,'canonical_body_digest':hashlib.sha256(repr([tuple(v.vector) for v in mesh.attributes['nonlinear_source_rest'].data]).encode()).hexdigest(),'body_vertices':len(mesh.vertices),'old_only_pit_vertices_restored':len(restored),'sampled_new_pit_depth_mm':[min(pit_depths),max(pit_depths)],'new_field_max_vertex_depth_mm':max(depths),'actual_dimensions_mm':[(max(v.co[i] for v in mesh.vertices)-min(v.co[i] for v in mesh.vertices))*mm for i in range(3)],'quality':'FAST_AND_EXACT_VERIFIED_WITH_EXPLICIT_PHYSICAL_OFFSET','physical_rest_y_bias_mm':s.objects['LIVE CUT | move or rotate this Empty']['physical_rest_y_bias_mm'],'provenance':'Canonical PR29 unpitted hull and150^3atlas inherited; scatter/pits/seed mesh/28+264artistgraph regenerated. Fixed264 only.'}
  (args.out/'receipt.json').write_text(json.dumps(receipt,indent=2)+'\n');(args.out/'anchors.json').write_text(json.dumps([dict(id=f'Achene {i+1:03}',**asdict(a)) for i,a in enumerate(anchors)],indent=2)+'\n')
  print(receipt,flush=True)
  if args.render:

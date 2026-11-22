@@ -1,6 +1,6 @@
-# Strawberry Generator v1 — Fast-only vertical slice
+# Strawberry Generator v1 — independent populations, Fast and opt-in Exact
 
-One Blender CLI now generates independent seed/pit/artist-graph populations from JSON recipes. Seeds101 and202 are newly scattered on the authenticated canonical hull; they are not renamed copies of the PR39 population. **This delivery is Fast-only and fixed264.** Exact on the newly refined pit mesh failed its existing seam gate, so the generated scenes explicitly disable it.
+One Blender CLI now generates independent seed/pit/artist-graph populations from JSON recipes. Seeds101 and202 are newly scattered on the authenticated canonical hull; they are not renamed copies of the PR39 population. Count remains fixed264. The current branch restores opt-in Exact using an **explicit physical blade offset of +0.001 mm in rest-Y**, applied to both Fast and Exact. [Source-cap investigation, verification and limits](seam_fix/README.md). This is a tested cutter-placement workaround, not a repaired native Boolean solver.
 
 [Owner-private outputs](https://drive.google.com/drive/folders/1C88ftQyspZZHHDP8lKZyrzZ-WDl6YDkd). [Seed101 scene](https://drive.google.com/file/d/1mYrvao6nCSIbFguFCbhFgCyUjAl7IVgg/view) and [seed202 scene](https://drive.google.com/file/d/1OBpfUbYXIFbX4KyF_89rUEi7s_Lm0mzn/view).
 
@@ -28,7 +28,7 @@ Recipe fields are `seed`, `achene_count`, `a`, `b`, `h`. Count must currently eq
 4. Create264 fresh editable seed meshes from the repository's owned ovoid emitter. Seat each at the measured triangle floor and apply the existing bounded exposure fit.
 5. Rebuild the existing artist graph object with28 trunks and264 branches ending at actual NEW seed-underside vertices. Seed IDs include the new FruitContext instance.
 6. Replace canonical live-profile buffers with these newly generated populations. Apply the recipe's nonlinear profile through the existing in-scene operator.
-7. Validate actual triangle contacts, endpoint matches, compact pit-field correspondence, three native Fast knife poses and live-profile roundtrip. Save native Fast; render only after validation.
+7. Validate actual triangle contacts, endpoint matches, compact pit-field correspondence, three native Fast and Exact knife poses with physical zero-geometry checks and live-profile roundtrip. Save native Fast; render only after validation.
 
 New source anchors and pitted canonical meshes have different digests for seed101 and202. Rebuilding seed101 through the final CLI reproduces its anchor digest, canonical pitted-body digest and vertex count. Binary `.blend` hashes may differ because Blender file metadata is not a deterministic serialization contract.
 
@@ -36,7 +36,7 @@ New source anchors and pitted canonical meshes have different digests for seed10
 
 The single PR29 unpitted hull, its inherited topology/refinement, crown, original28+539 diagnostic paths/539markers and packed150³ RGB tissue atlas come from the owned input. Old diagnostics retain their canonical buffers and radii, then follow the recipe's profile map. They remain separate from the newly rebuilt artist28+264 graph. Tissue histology is not regenerated. Seed shape prototypes and artistic graph routing are reused; their spatial population is new.
 
-The nonlinear F/inverse and four native View Layers are preserved. After opening the scene, run `TISSUE_ZONES__RUN.py` to use N → Strawberry Cut → Live nonlinear profile → Apply Profile on the NEW seed population. Native Fast works with scripts disabled. The panel explicitly says Fast-only; Exact activation is rejected with the seam-validation reason.
+The nonlinear F/inverse and four native View Layers are preserved. After opening the scene, run `TISSUE_ZONES__RUN.py` to use N → Strawberry Cut → Live nonlinear profile → Apply Profile on the NEW seed population. Native Fast works with scripts disabled. The panel exposes Exact and labels the physical blade offset. The actual matrix includes that offset; nominal location/euler values alone do not describe the physical plane.
 
 ## Verified limits
 
@@ -50,7 +50,7 @@ The nonlinear F/inverse and four native View Layers are preserved. After opening
 
 `verify.py` reopens the baseline and output independently, checks unchanged canonical old diagnostics/packed atlas, then repeats physical contacts, endpoint, field, Fast cuts, inverse shader and live-profile roundtrip checks. Old-only restoration is a **vertex-level** statement; fresh pit interpolation can extend beyond the analytic compact support between vertices. Uncut dimensions are measured from raw physical mesh vertices, not cached Boolean bounds. The original build-receipt dimension metric was corrected after that cache issue was observed; no geometry or PNG changed.
 
-The attempted Exact run failed on seed101's center cap: `The triangulator merged distinct seam vertices`. No CDT tolerance or geometry criterion was relaxed. The failure log is archived. Both final generated populations use explicit Fast-only policy, even if a particular pose might happen to triangulate. A general seam-safe Exact refinement adapter remains unfinished.
+The attempted Exact run failed on seed101's center cap: `The triangulator merged distinct seam vertices`. No CDT tolerance or geometry criterion was relaxed. The failure log is archived. Those original PR40 files remain Fast-only. New outputs from this branch use the documented physical blade offset and must pass three Fast/Exact poses before saving. A general solver repair for all knife planes remains unfinished.
 
 All120 prior Python tests plus4 new recipe-boundary tests pass. Final saved scenes are fully downloaded and reopened for verification. Four original750×750/12sample Cycles frames use fixed camera/light. Visual inspection confirms different layouts and real new pits; highlights remain waxy and some pits are coarse/angular. This is not a finished realism claim or a fully general fruit generator.
 
