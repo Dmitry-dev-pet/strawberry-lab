@@ -1,0 +1,8 @@
+{
+  "status": "NEGATIVE_EVIDENCE_ONLY",
+  "full_download_sha256": {
+    "REJECTED-clay-comparison.png": "619711c7949643fb52dda40c489049d1e9da95eb6c6982efb72a8d7989035eb3",
+    "REJECTED-generator-exact-evidence.zip": "a81e62ba090f80456d282873738a045a294b0c31a141b37d0955900433693316"
+  },
+  "release_accepted": false
+}

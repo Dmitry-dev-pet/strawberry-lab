@@ -1,0 +1,129 @@
+{
+  "status": "REJECTED_PHYSICAL_BOUNDARY_AND_CLAY_ARTIFACTS",
+  "results": {
+    "101": {
+      "scene_sha256": "d3944d2238df0e422616a8ee2eadc30aaf67dc68b5dfd24f066ba45839476a4e",
+      "poses": [
+        {
+          "pose": [
+            0,
+            0,
+            0
+          ],
+          "Fast": {
+            "zero_length_seam_edges": 2,
+            "zero_area_polygon_faces": 0,
+            "zero_area_render_triangles": 4
+          },
+          "Exact": {
+            "zero_length_seam_edges": 2,
+            "zero_area_polygon_faces": 2,
+            "zero_area_render_triangles": 4
+          },
+          "inherited_zero_length_edges": 2,
+          "inherited_zero_area_faces": 4,
+          "inherited_zero_area_render_triangles": 4,
+          "newly_created_degenerate_faces": 0,
+          "definition": "New degenerate render-triangle coordinate multiset beyond native Fast tessellation; source-boundary signatures are not relabelled. Steiner children are separately guarded by fallback.",
+          "triangulation": "conforming-centroids",
+          "BMesh_positive_connected_volume": 1.7801621876833469,
+          "physical_clean_geometry": false,
+          "inherited_zero_area_faces_basis": "Fast native render triangles",
+          "inherited_zero_area_native_polygons": 0,
+          "new_steiner_face_guard": "raises on degenerate new Steiner child before displacement"
+        },
+        {
+          "pose": [
+            0.08,
+            29,
+            32
+          ],
+          "Fast": {
+            "zero_length_seam_edges": 0,
+            "zero_area_polygon_faces": 0,
+            "zero_area_render_triangles": 0
+          },
+          "Exact": {
+            "zero_length_seam_edges": 0,
+            "zero_area_polygon_faces": 0,
+            "zero_area_render_triangles": 0
+          },
+          "inherited_zero_length_edges": 0,
+          "inherited_zero_area_faces": 0,
+          "inherited_zero_area_render_triangles": 0,
+          "newly_created_degenerate_faces": 0,
+          "definition": "New degenerate render-triangle coordinate multiset beyond native Fast tessellation; source-boundary signatures are not relabelled. Steiner children are separately guarded by fallback.",
+          "triangulation": "CDT",
+          "BMesh_positive_connected_volume": 1.8055432496235821,
+          "physical_clean_geometry": true,
+          "inherited_zero_area_faces_basis": "Fast native render triangles",
+          "inherited_zero_area_native_polygons": 0,
+          "new_steiner_face_guard": "raises on degenerate new Steiner child before displacement"
+        }
+      ]
+    },
+    "202": {
+      "scene_sha256": "7232f6d926c88e10cba549d9a6f2caf850047a734f64bbcb54feb67d36dc4f98",
+      "poses": [
+        {
+          "pose": [
+            0,
+            0,
+            0
+          ],
+          "Fast": {
+            "zero_length_seam_edges": 0,
+            "zero_area_polygon_faces": 0,
+            "zero_area_render_triangles": 0
+          },
+          "Exact": {
+            "zero_length_seam_edges": 0,
+            "zero_area_polygon_faces": 0,
+            "zero_area_render_triangles": 0
+          },
+          "inherited_zero_length_edges": 0,
+          "inherited_zero_area_faces": 0,
+          "inherited_zero_area_render_triangles": 0,
+          "newly_created_degenerate_faces": 0,
+          "definition": "New degenerate render-triangle coordinate multiset beyond native Fast tessellation; source-boundary signatures are not relabelled. Steiner children are separately guarded by fallback.",
+          "triangulation": "CDT",
+          "BMesh_positive_connected_volume": 1.4868098177789615,
+          "physical_clean_geometry": true,
+          "inherited_zero_area_faces_basis": "Fast native render triangles",
+          "inherited_zero_area_native_polygons": 0,
+          "new_steiner_face_guard": "raises on degenerate new Steiner child before displacement"
+        },
+        {
+          "pose": [
+            0.08,
+            29,
+            32
+          ],
+          "Fast": {
+            "zero_length_seam_edges": 0,
+            "zero_area_polygon_faces": 0,
+            "zero_area_render_triangles": 0
+          },
+          "Exact": {
+            "zero_length_seam_edges": 0,
+            "zero_area_polygon_faces": 0,
+            "zero_area_render_triangles": 0
+          },
+          "inherited_zero_length_edges": 0,
+          "inherited_zero_area_faces": 0,
+          "inherited_zero_area_render_triangles": 0,
+          "newly_created_degenerate_faces": 0,
+          "definition": "New degenerate render-triangle coordinate multiset beyond native Fast tessellation; source-boundary signatures are not relabelled. Steiner children are separately guarded by fallback.",
+          "triangulation": "CDT",
+          "BMesh_positive_connected_volume": 1.368646423642301,
+          "physical_clean_geometry": true,
+          "inherited_zero_area_faces_basis": "Fast native render triangles",
+          "inherited_zero_area_native_polygons": 0,
+          "new_steiner_face_guard": "raises on degenerate new Steiner child before displacement"
+        }
+      ]
+    }
+  },
+  "conclusion": "seed101 center retains collapsed native boundary; BMesh manifoldness is insufficient for physical cleanliness. PR40 remains Fast-only.",
+  "visual_assessment": "FAIL: center clay Exact has pronounced radial fan/ridge artifacts. No success PR. PR40 stays Fast-only."
+}
