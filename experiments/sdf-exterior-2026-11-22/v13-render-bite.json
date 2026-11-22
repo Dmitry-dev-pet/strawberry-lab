@@ -1,0 +1,13 @@
+{
+  "kind": "bite",
+  "frame": 40,
+  "samples": 36,
+  "resolution": [
+    860,
+    860
+  ],
+  "seconds": 11.95,
+  "bytes": 907839,
+  "sha256": "67adb2fe5aa32e129e9e073875f86f4ebd5ae577e2d36b8dfca544c2d9cb90ed",
+  "scene": "strawberry-sdf-vertical-slice-v13-spatial-fibrils.blend"
+}
