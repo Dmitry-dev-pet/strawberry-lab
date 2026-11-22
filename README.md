@@ -1,3 +1,7 @@
+# Technical SDF slice (draft, lookdev pending)
+
+[Seed101 native SDF whole/plane/bite implementation and limits](src/strawberry_generator/sdf/README.md). This experimental branch follows the owner's [main SDF ADR](https://github.com/Dmitry-dev-pet/strawberry-lab/blob/main/docs/architecture-decision-2026-11-22-sdf-visual-first.md); it does not merge the late PR stack into main or claim visual target acceptance.
+
 # Strawberry Lab 🍓
 
 **Open research project: procedural, anatomically structured strawberries in Blender.**
