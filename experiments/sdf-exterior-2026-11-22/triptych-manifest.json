@@ -1,0 +1,33 @@
+{
+  "order": "left=v4 | center=v5 diagnostic | right=v6 restrained",
+  "generated_from": "genuine Blender Cycles PNG, same camera and studio for whole-body and bite; all macros use same scale",
+  "files": [
+    {
+      "kind": "plane",
+      "path": "comparison-v4-v5-v6-plane.png",
+      "sha256": "177acae90928e04afc6994f0dc2cf6b2d1f2c85a8764a148f3b27a7ccd950808",
+      "pixels": [
+        2580,
+        860
+      ]
+    },
+    {
+      "kind": "bite",
+      "path": "comparison-v4-v5-v6-bite.png",
+      "sha256": "29d3b61ff931302a8a53c6e4ce5f0533633e66314e0bca1b233acaf48bff3a35",
+      "pixels": [
+        2580,
+        860
+      ]
+    },
+    {
+      "kind": "macro",
+      "path": "comparison-v4-v5-v6-macro.png",
+      "sha256": "653fe79d19865c7af1daa260ec4871d8ebb4ee6ba507da311b63289c79759eeb",
+      "pixels": [
+        2580,
+        860
+      ]
+    }
+  ]
+}
