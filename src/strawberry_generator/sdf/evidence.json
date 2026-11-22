@@ -1,0 +1,196 @@
+{
+  "status": "TECHNICAL_SDF_PASS_TESTED_STATES__VISUAL_TARGET_FAIL_LOOKDEV_PENDING",
+  "base_PR": 40,
+  "base_head": "229826fe54d73a59702f0f22139d4db9e643b2ea",
+  "main_ADR_head": "0b2faf0",
+  "scene_sha256": "fe8b85589c2162586c8aa260a068efe3c5594c5badc0ec45884c3e418ef4e756",
+  "fully_downloaded_scene_sha256": "fe8b85589c2162586c8aa260a068efe3c5594c5badc0ec45884c3e418ef4e756",
+  "reopened_QA": "PASS_NATIVE_SDF_TESTED_STATES",
+  "source_geometry_unchanged": true,
+  "source_sha256": "156908ee46fd6be4cb7624d63d3f668f772abab2323d8c65ba3619dc45f63017",
+  "atlas_sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+  "mm_per_model_unit": 22.22222276031971,
+  "native_scripts_disabled": true,
+  "tests": {
+    "prior": 124,
+    "new_saved_graph_contract": 4
+  },
+  "source_pits": {
+    "anchors": 264,
+    "depth_mm_min": 0.13005548057798108,
+    "depth_mm_median": 0.1765857908152793,
+    "depth_mm_max": 0.25996269340604455,
+    "positive_depth_count": 264
+  },
+  "states": [
+    {
+      "voxel_mm": 0.32,
+      "state": "whole",
+      "metrics": {
+        "vertices": 91046,
+        "triangles": 182088,
+        "nonmanifold_edges": 0,
+        "components": 1,
+        "signed_volume": 3.52425015566518,
+        "zero_edges": 0,
+        "zero_render_triangles": 0
+      },
+      "update_seconds": 0.46994912484660745,
+      "visible_achene_count": 264,
+      "same_cutter_center_mask_matches": true,
+      "max_process_RSS_bytes": 587988992,
+      "pit_depths": {
+        "anchors": 264,
+        "depth_mm_min": 0.07775108285390596,
+        "depth_mm_median": 0.14617257796648397,
+        "depth_mm_max": 0.23704862517970893,
+        "positive_depth_count": 264
+      }
+    },
+    {
+      "voxel_mm": 0.32,
+      "state": "plane-center",
+      "metrics": {
+        "vertices": 59400,
+        "triangles": 118796,
+        "nonmanifold_edges": 0,
+        "components": 1,
+        "signed_volume": 1.7732185726931906,
+        "zero_edges": 0,
+        "zero_render_triangles": 0
+      },
+      "update_seconds": 0.8258799999020994,
+      "visible_achene_count": 133,
+      "same_cutter_center_mask_matches": true,
+      "max_process_RSS_bytes": 663715840,
+      "rest_inverse_max_error": 5.960464477539105e-08,
+      "atlas_probes": 3
+    },
+    {
+      "voxel_mm": 0.32,
+      "state": "plane-oblique",
+      "metrics": {
+        "vertices": 65888,
+        "triangles": 131772,
+        "nonmanifold_edges": 0,
+        "components": 1,
+        "signed_volume": 1.7981816065663716,
+        "zero_edges": 0,
+        "zero_render_triangles": 0
+      },
+      "update_seconds": 0.9541008747182786,
+      "visible_achene_count": 118,
+      "same_cutter_center_mask_matches": true,
+      "max_process_RSS_bytes": 774946816,
+      "rest_inverse_max_error": 5.960464477539063e-08,
+      "atlas_probes": 3
+    },
+    {
+      "voxel_mm": 0.32,
+      "state": "sphere",
+      "metrics": {
+        "vertices": 90964,
+        "triangles": 181924,
+        "nonmanifold_edges": 0,
+        "components": 1,
+        "signed_volume": 3.0638339417137503,
+        "zero_edges": 0,
+        "zero_render_triangles": 0
+      },
+      "update_seconds": 0.6436582081951201,
+      "visible_achene_count": 233,
+      "same_cutter_center_mask_matches": true,
+      "max_process_RSS_bytes": 774946816,
+      "rest_inverse_max_error": 0.0,
+      "atlas_probes": 3
+    },
+    {
+      "voxel_mm": 0.2,
+      "state": "whole",
+      "metrics": {
+        "vertices": 233258,
+        "triangles": 466512,
+        "nonmanifold_edges": 0,
+        "components": 1,
+        "signed_volume": 3.524613692248971,
+        "zero_edges": 0,
+        "zero_render_triangles": 0
+      },
+      "update_seconds": 0.7746484582312405,
+      "visible_achene_count": 264,
+      "same_cutter_center_mask_matches": true,
+      "max_process_RSS_bytes": 883474432,
+      "pit_depths": {
+        "anchors": 264,
+        "depth_mm_min": 0.11446965204198926,
+        "depth_mm_median": 0.16705728631067235,
+        "depth_mm_max": 0.2519540666144393,
+        "positive_depth_count": 264
+      },
+      "actual_seed_mesh_contacts": {
+        "intersecting_seeds": 264,
+        "min_triangle_pairs": 52,
+        "max_triangle_pairs": 84
+      }
+    },
+    {
+      "voxel_mm": 0.2,
+      "state": "plane-center",
+      "metrics": {
+        "vertices": 152500,
+        "triangles": 304996,
+        "nonmanifold_edges": 0,
+        "components": 1,
+        "signed_volume": 1.7737991248172333,
+        "zero_edges": 0,
+        "zero_render_triangles": 0
+      },
+      "update_seconds": 1.6128820003941655,
+      "visible_achene_count": 133,
+      "same_cutter_center_mask_matches": true,
+      "max_process_RSS_bytes": 1118486528,
+      "rest_inverse_max_error": 5.960464477539063e-08,
+      "atlas_probes": 3
+    },
+    {
+      "voxel_mm": 0.2,
+      "state": "plane-oblique",
+      "metrics": {
+        "vertices": 168948,
+        "triangles": 337892,
+        "nonmanifold_edges": 0,
+        "components": 1,
+        "signed_volume": 1.7985960946155963,
+        "zero_edges": 0,
+        "zero_render_triangles": 0
+      },
+      "update_seconds": 1.9820900419726968,
+      "visible_achene_count": 118,
+      "same_cutter_center_mask_matches": true,
+      "max_process_RSS_bytes": 1118486528,
+      "rest_inverse_max_error": 0.0,
+      "atlas_probes": 3
+    },
+    {
+      "voxel_mm": 0.2,
+      "state": "sphere",
+      "metrics": {
+        "vertices": 233204,
+        "triangles": 466404,
+        "nonmanifold_edges": 0,
+        "components": 1,
+        "signed_volume": 3.064211999949284,
+        "zero_edges": 0,
+        "zero_render_triangles": 0
+      },
+      "update_seconds": 1.1372059998102486,
+      "visible_achene_count": 233,
+      "same_cutter_center_mask_matches": true,
+      "max_process_RSS_bytes": 1198620672,
+      "rest_inverse_max_error": 5.96046448031462e-08,
+      "atlas_probes": 3
+    }
+  ],
+  "sphere_move_changed_mesh": true,
+  "private_folder": "https://drive.google.com/drive/folders/1xePLbBZM2Hd6h33yGHgBYcWT9Ar2kHq3"
+}
