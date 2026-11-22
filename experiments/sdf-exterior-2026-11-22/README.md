@@ -50,3 +50,16 @@ Reopening the saved v3 .blend with autoexecution disabled verifies whole/planar/
 - **Not ready to merge.** The next actionable task is cut lookdev against authorized frames from Frucht, with measured/verified geometry and explicit visual acceptance.
 
 Original Frucht strawberry source was not used. The public author explanation and the independently inspected free Kiwi informed the overall strategy; no Frucht shader/nodes/meshes were copied. All parameters without primary data are ARTIST.
+
+
+## V4: thin fibers / cut-face cell lookdev (visual acceptance not reached)
+
+Add a denser shared **192³** volume and a narrower seed-linked artist fiber field without changing the SDF/seed controls. Code and qualitative A/B: [lookdev-v4 review](v4-lookdev-review.md). The saved editable `.blend`, packed atlas and three real 860px Cycles images are stored locally under `build/sdf-vertical-slice/` (not uploaded to Drive yet).
+
+```bash
+$B -b --disable-autoexec --python experiments/sdf-exterior-2026-11-22/lookdev_v4.py
+$B -b --disable-autoexec --python experiments/sdf-exterior-2026-11-22/validate_v4_motion.py
+$B -b --disable-autoexec --python experiments/sdf-exterior-2026-11-22/validate_render_v4.py
+```
+
+**Status: engineering PASS** (whole, plane, bite and moved cutter geometry; retained achene solids clear the cutter); **visual FAIL** (fibers too stylized, glossy patch on bite, repetitive cells). Do not merge on this visual result alone.
