@@ -1,0 +1,120 @@
+{
+  "engineering_status": "PASS",
+  "visual_status": "NOT ACCEPTED AS PHOTOREAL; residual angular/pale rims",
+  "base_pr": 33,
+  "base_sha": "0a30ad9a6139141de1ff404b8de1a5bb09b0544b",
+  "private_folder": "https://drive.google.com/drive/folders/1CITiby_t5TDXrqlaQHzk3j5H332RMDDl",
+  "superseded_wide_folder": "https://drive.google.com/drive/folders/16THp0UfqHItRDbchTZORSmTeddCDpaCU",
+  "artifacts": [
+    {
+      "path": "strawberry-geometric-achene-pits.blend",
+      "downloaded_name": "strawberry-geometric-achene-pits.blend",
+      "drive_id": "1ZU0SP_FA0gk3aSYE6xEPJvTn2lFw5iAd",
+      "url": "https://drive.google.com/file/d/1ZU0SP_FA0gk3aSYE6xEPJvTn2lFw5iAd/view?usp=drivesdk",
+      "sha256": "24a3f7a2b9b157aac3b5a8aa30aa1b84d2404be64df67f74705665de3dbf74b4",
+      "bytes": 7312734,
+      "full_download_verified": true
+    },
+    {
+      "path": "comparison.png",
+      "downloaded_name": "comparison.png",
+      "drive_id": "1YKoGeGHX4RsE-HuzcQp7vHyJz_h_6ZCT",
+      "url": "https://drive.google.com/file/d/1YKoGeGHX4RsE-HuzcQp7vHyJz_h_6ZCT/view?usp=drivesdk",
+      "sha256": "1892ff44ea16999649f0900abf75bf87fd4a54349e91d5dc889c1007b3bbf895",
+      "bytes": 1561306,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/baseline-whole.png",
+      "downloaded_name": "renders-baseline-whole.png",
+      "drive_id": "1ILhbCbS638btlmpBzev48tCdBHb5yZJ0",
+      "url": "https://drive.google.com/file/d/1ILhbCbS638btlmpBzev48tCdBHb5yZJ0/view?usp=drivesdk",
+      "sha256": "fe086bc5138a2917f5bef868e7a4b65a1bb882dd216852fb6bb9c31fabf1f8bc",
+      "bytes": 1095491,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/pitted-whole.png",
+      "downloaded_name": "renders-pitted-whole.png",
+      "drive_id": "1f95zEGCbzJ1WElQl1uV9P76a2jv8Rmoa",
+      "url": "https://drive.google.com/file/d/1f95zEGCbzJ1WElQl1uV9P76a2jv8Rmoa/view?usp=drivesdk",
+      "sha256": "1e3804b67119e3c64576a8411b899aa5c60b2ea50b47ecd4e55c9071b6934a44",
+      "bytes": 1096290,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/baseline-macro.png",
+      "downloaded_name": "renders-baseline-macro.png",
+      "drive_id": "1Vs_RdoreZvVJWldwgLDFLmRfZPUtLEHe",
+      "url": "https://drive.google.com/file/d/1Vs_RdoreZvVJWldwgLDFLmRfZPUtLEHe/view?usp=drivesdk",
+      "sha256": "85d049b6f95ac2b88ec2162838f65bbc1f3ee0bbe104d5620b703c169eafcf77",
+      "bytes": 1457726,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/pitted-macro.png",
+      "downloaded_name": "renders-pitted-macro.png",
+      "drive_id": "1165VL3A9w-Lum9gA2B3px6zon4LQ24t4",
+      "url": "https://drive.google.com/file/d/1165VL3A9w-Lum9gA2B3px6zon4LQ24t4/view?usp=drivesdk",
+      "sha256": "b1aa8fab31e13a69d86d2774b349f5988619b25d785cd4a3d28346dfefe2b6ba",
+      "bytes": 1474405,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/baseline-clay.png",
+      "downloaded_name": "renders-baseline-clay.png",
+      "drive_id": "1Ygrn1xWfEArxo61a-3clZv8EBk8i-aO7",
+      "url": "https://drive.google.com/file/d/1Ygrn1xWfEArxo61a-3clZv8EBk8i-aO7/view?usp=drivesdk",
+      "sha256": "7a7af837216464fa47f31582c5295a569b975c531a16d78ba854fb9f3e57850f",
+      "bytes": 1004206,
+      "full_download_verified": true
+    },
+    {
+      "path": "renders/pitted-clay.png",
+      "downloaded_name": "renders-pitted-clay.png",
+      "drive_id": "1dXHt2Mjzaomp4Tm6dP2NHvTBPLDH1Yf1",
+      "url": "https://drive.google.com/file/d/1dXHt2Mjzaomp4Tm6dP2NHvTBPLDH1Yf1/view?usp=drivesdk",
+      "sha256": "606ef8be6d8b8b0e3e1771289f24d41cfce55cac31d077be06d790ec4e1762fd",
+      "bytes": 1018119,
+      "full_download_verified": true
+    },
+    {
+      "path": "validation.json",
+      "downloaded_name": "validation.json",
+      "drive_id": "1lVfhrZOyrV_oZZo1L41nHLYy1JMZdNwr",
+      "url": "https://drive.google.com/file/d/1lVfhrZOyrV_oZZo1L41nHLYy1JMZdNwr/view?usp=drivesdk",
+      "sha256": "0c4d9ccd56d33f2a9da619e6c96cefca26acd5fdb39b089fe480c52bb1b623f6",
+      "bytes": 180919,
+      "full_download_verified": true
+    },
+    {
+      "path": "render-validation.json",
+      "downloaded_name": "render-validation.json",
+      "drive_id": "1UyvQ1uEy0yw6J30XR_cwBxSaDtuTomH0",
+      "url": "https://drive.google.com/file/d/1UyvQ1uEy0yw6J30XR_cwBxSaDtuTomH0/view?usp=drivesdk",
+      "sha256": "15841cbbb5e2f0e26b7da838f53ba51cb5b267b841057e3edd051f5a98fb10c1",
+      "bytes": 26708,
+      "full_download_verified": true
+    },
+    {
+      "path": "mesh-contacts.json",
+      "downloaded_name": "mesh-contacts.json",
+      "drive_id": "1MU8N9soxD4T6liFF7ONm3R4KTfXRwryN",
+      "url": "https://drive.google.com/file/d/1MU8N9soxD4T6liFF7ONm3R4KTfXRwryN/view?usp=drivesdk",
+      "sha256": "90b8af68733d84cc3f22c0e7b8031c17c91d2c9ea34962e507103766ba274c2c",
+      "bytes": 6098,
+      "full_download_verified": true
+    },
+    {
+      "path": "geometric-achene-pits-selected-private.zip",
+      "drive_id": "1JLuGlhtN52PrsQVQWJkBoYCxBi06Vp3m",
+      "url": "https://drive.google.com/file/d/1JLuGlhtN52PrsQVQWJkBoYCxBi06Vp3m/view",
+      "sha256": "2f4b54fc201ae29fcb1664cc3dc98970b27b2867eea31eea456d922b7b17646a",
+      "bytes": 94345657,
+      "full_download_verified": true,
+      "zip_integrity_verified": true
+    }
+  ],
+  "media_public": false,
+  "downloaded_scene_full_qa": "experiments/geometric-achene-pits-v1/downloaded-validation-summary.json"
+}

@@ -1,0 +1,22 @@
+{
+  "engineering_status": "PASS",
+  "visual_status": "NOT ACCEPTED AS PHOTOREAL; residual angular/pale rims",
+  "selected_scene_sha256": "24a3f7a2b9b157aac3b5a8aa30aa1b84d2404be64df67f74705665de3dbf74b4",
+  "source_pr33_sha256": "0f552c79054dec8ca82d2891bc2b5d6930eef64bc545e8188d808b946e1c66e2",
+  "raw_body_vertices": 38903,
+  "center_depth_mm": {
+    "min": 0.15203121758017524,
+    "median": 0.18557665685139355,
+    "max": 0.20951308306421051
+  },
+  "footprint_scale": 0.72,
+  "seed_lift_max_mm": 0.022151489257812497,
+  "adjusted_achenes": 37,
+  "all_264_actual_triangle_meshes_intersect": true,
+  "minimum_exposed_mesh_vertex_fraction": 0.4157303370786517,
+  "minimum_accepted_fraction_unchanged": 0.4,
+  "ellipsoid_interpolation_band_upper_bound_mm": 0.4247726593050612,
+  "cross_layer_both_pass": true,
+  "native_fast_and_exact_five_poses_pass": true,
+  "python_unit_tests_passed": 107
+}

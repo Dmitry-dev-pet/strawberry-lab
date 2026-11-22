@@ -1,0 +1,119 @@
+{
+  "status": "HISTORICAL engineering PASS; visually rejected wide craters",
+  "blender": "5.2.2 LTS",
+  "source_git_head": "0a30ad9a6139141de1ff404b8de1a5bb09b0544b",
+  "scene_sha256": "fdbb62617682c43d7399bcf4f7d7fabf61458cfee51d1cee35f78a8d4281a6c4",
+  "raw_body_vertices": 45123,
+  "native_view_layers": [
+    "matched",
+    "whole",
+    "flesh-only",
+    "fibers-only"
+  ],
+  "achene_count": 264,
+  "achene_center_depth_mm": {
+    "min": 0.18728975136255233,
+    "median": 0.25215765316827216,
+    "max": 0.29947823185969397
+  },
+  "achene_exposed_mm": {
+    "min": 0.2548050817146833,
+    "median": 0.3274598146026224,
+    "max": 0.3959572106474581
+  },
+  "achene_embedded_mm": {
+    "min": 0.1190449938728089,
+    "median": 0.15558944902717087,
+    "max": 0.18828607930687374
+  },
+  "max_achene_tangent_drift_mm": 2.929754546050603e-06,
+  "vertices_outside_field_unchanged": 28231,
+  "max_measured_support_extension_mm": 0.3731448012267342,
+  "native_poses_including_whole": 6,
+  "exact_poses": 5,
+  "cross_layer_decoded_pixels_identical": {
+    "matched": true,
+    "flesh-only": true
+  },
+  "python_unit_tests_passed": 107,
+  "build_seconds": 2.374522749800235,
+  "geometry_seconds": 0.8451373330317438,
+  "build_peak_rss_bytes": 537001984,
+  "exact_refresh_seconds": [
+    1.0868880837224424,
+    1.1002117916941643,
+    1.033092790748924,
+    1.0368399578146636,
+    1.0788107919506729
+  ],
+  "validation_peak_rss_bytes": 1133117440,
+  "render_seconds": {
+    "whole": {
+      "baseline": 20.226901791989803,
+      "pitted": 26.73017245810479
+    },
+    "macro": {
+      "baseline": 53.56901604216546,
+      "pitted": 56.783991291187704
+    },
+    "clay": {
+      "baseline": 48.57189341587946,
+      "pitted": 75.78472316591069
+    }
+  },
+  "inputs_sha256": {
+    "build/inputs/pr29-original.blend": "56b6d516e8794fb855512978e90e37cd754374a594fb4c5103e672c960a031cf",
+    "build/inputs/pr30-corrected.blend": "0b8af93c399d0077f51f864f7b9f55673b822a1755e2badcc626f5bfc6256bca",
+    "build/inputs/pr31-layer-modes.blend": "509725824a8707aade9ca19153c95b4d2de6a2a5b49a827afbb6c0ca11cb4a53",
+    "build/inputs/pr32-exact.blend": "c6d39d20e90f75826167a5b4345752ef874d62641e0ff428f38a68050ec7da3c",
+    "build/inputs/pr33-tissue-zones.blend": "0f552c79054dec8ca82d2891bc2b5d6930eef64bc545e8188d808b946e1c66e2"
+  },
+  "code_sha256": {
+    "experiments/geometric-achene-pits-v1/build_pits.py": "2d7d8d2c045ba6df07b4e76ba5878cb23e8ffe074b55af2170869c9a9ff9cf3b",
+    "experiments/geometric-achene-pits-v1/check_cross_layer.py": "0a0a2687d71ce8e240ba93fa64a573c57ed2acac98c88f0083f05cb2830adcc1",
+    "experiments/geometric-achene-pits-v1/compare_plates.py": "ba1258b710127586abccb00509c2dae71f26dee4b7a89cc8ebf00e7939474202",
+    "experiments/geometric-achene-pits-v1/render_pits.py": "3039c521bc000f0b21940069501a4d97f1f363f2d8a73c843081a4bd6f5a0c94",
+    "experiments/geometric-achene-pits-v1/validate_pits.py": "6d0fa1331b28c11b583243d4f866691a347afba081fcabb1c776a19ae8f7f330",
+    "experiments/geometric-achene-pits-v1/README.md": "25610e3030f62385cf3bc4fb312930f121d3b9095e9c04c6261649f638f3a0f1",
+    "src/exterior_shape.py": "9f7a6156e43312e987fd9cbd66c0a5cee8993877a71e7d9c1806ad6081b2b204",
+    "experiments/exact-tissue-zones-v1/build_tissue_zones.py": "9fbdfdbbd0a6fb5cf6ec076c3b3788e5efb47638933b366e9234d97dd0d7fdc0",
+    "experiments/exact-tissue-zones-v1/validate_tissue_zones.py": "2c8af948eea18c2b3854567d31b3cb815f8a1465ebe7fbb4501fcb0dc0d5a1d1",
+    "experiments/exact-tissue-zones-v1/tissue_field.py": "6c7fe3e8669e60fa931b49b49ed333e5b9ac2fdb296eb5fe246bde360ef09736",
+    "experiments/exact-tissue-zones-v1/atlas.py": "21f2445b1d2f130827089e068e53c9ac425d534d3c8418ea83ee94f587513a07",
+    "experiments/integration-exact-cut-v1/cap_geometry.py": "b3ab555ef31bd67b930f8d389cb3b446fcdee4d7214e9ba630d4a625bea1ad15",
+    "experiments/integration-exact-cut-v1/exact_runtime.py": "ef4e92a776a9fbae5633f83f3918aaf3d3e60f1247873afff3ff0546ba0f08f1",
+    "experiments/integration-exact-cut-v1/validate_exact_cut.py": "671456e0ba2010af9766e3d96d62949416a9fec26e5355427c04cd5c6af50cdb",
+    "experiments/integration-exact-cut-v1/validate_cross_layer_render.py": "d412d90b4aaaedad554dd8baa1d299bf7b9f37d20f049e4bc7240131a5dbec35",
+    "experiments/integration-layer-modes-v1/validate_layer_modes.py": "53b71460b2290c316a648a24650f88df291cd45830127682db106b5be619dd00",
+    "experiments/integration-live-exterior-v1/validate_integration.py": "e83c5313816f3a4d16c152bc3ac57d2de3551917515fc209bab2b72c96364b60"
+  },
+  "artifact_sha256": {
+    "build/geometric-achene-pits-v1/build-report.json": "1277c2d4c4ca86896cd4c33909ff57a5c618e5f32a15a837b82a5431deed277f",
+    "build/geometric-achene-pits-v1/comparison.png": "dce4e8f99848da3db3f0344860a0cf2f2e2f164bdafc3a934cc2af1f508648f4",
+    "build/geometric-achene-pits-v1/cross-layer/flesh-only-candidate.json": "f5c0b32bd6a5da2f6ba2809e33426ac5d2e280e26c3a609b0b54d641dd3c3b02",
+    "build/geometric-achene-pits-v1/cross-layer/flesh-only-candidate.png": "90d0b09e9fd260dba01557c0694f498ed8de308d673b7fa96a3a65f25a269869",
+    "build/geometric-achene-pits-v1/cross-layer/flesh-only-control.json": "7a0b73f7c5a06c79dd7b84f683b41cc4e0aeda78177f29c4d8555d01ac2490d5",
+    "build/geometric-achene-pits-v1/cross-layer/flesh-only-control.png": "56ea2d6886ffbca1177ef87a1f68df0513491450ace09782447957f91d069d8a",
+    "build/geometric-achene-pits-v1/cross-layer/matched-candidate.json": "51860c96ba80bdfa9253a8a3e54b8a1b124bf7eb964f2918398e6c2139b83156",
+    "build/geometric-achene-pits-v1/cross-layer/matched-candidate.png": "ff87fa1e887a826665213d6fe552dcab310b13af4d94c8f19a26c6ff10da0b62",
+    "build/geometric-achene-pits-v1/cross-layer/matched-control.json": "176185566e20eacf352e6e3e67c49b5c0ff7f947100774311835ad572fb08d43",
+    "build/geometric-achene-pits-v1/cross-layer/matched-control.png": "15b5c80cbbe02250917ce706036b12bd9bcb8ef874eeb2a047b12470b64eac33",
+    "build/geometric-achene-pits-v1/render-validation.json": "2d9ed939f99922e3afc1c66c887f8582c38f252e3a427cacf6b3d20712974c97",
+    "build/geometric-achene-pits-v1/renders/baseline-clay.json": "e20962efbfaae69b0a644efcaf0483fd65db0cb173760db9b6ab039eccce1645",
+    "build/geometric-achene-pits-v1/renders/baseline-clay.png": "7a7af837216464fa47f31582c5295a569b975c531a16d78ba854fb9f3e57850f",
+    "build/geometric-achene-pits-v1/renders/baseline-macro.json": "23429eba5ae3971b0e17c8c2a81f9a9187520535ee1b20c188a9c752499c01f5",
+    "build/geometric-achene-pits-v1/renders/baseline-macro.png": "85d049b6f95ac2b88ec2162838f65bbc1f3ee0bbe104d5620b703c169eafcf77",
+    "build/geometric-achene-pits-v1/renders/baseline-whole.json": "71c6b47798d6fe643f159405cd693f749dad3714005294095e04853a3a6b8ce7",
+    "build/geometric-achene-pits-v1/renders/baseline-whole.png": "fe086bc5138a2917f5bef868e7a4b65a1bb882dd216852fb6bb9c31fabf1f8bc",
+    "build/geometric-achene-pits-v1/renders/pitted-clay.json": "eb176c9f4fce243a5ad36dfacb68913b7f53559c01efc7da2320b03159856ce5",
+    "build/geometric-achene-pits-v1/renders/pitted-clay.png": "5fba240e8f851d93f5a2c3ccc47acbb64fbb240d58f741a482095ea8cca7b0ce",
+    "build/geometric-achene-pits-v1/renders/pitted-macro.json": "b188841371bdb8f0a9e4a0960c18550672de85db28ebf32c135c2d3b4e737341",
+    "build/geometric-achene-pits-v1/renders/pitted-macro.png": "a6d7a9baa9ef7cc827e509ab9db2e8f84ac6c11abc769a160b09494632167d14",
+    "build/geometric-achene-pits-v1/renders/pitted-whole.json": "0f098182d60da32a67658e2b17709413dc7d2b596a39b498ce2c28ae08ea285c",
+    "build/geometric-achene-pits-v1/renders/pitted-whole.png": "ceb8cce812d5adfd2a15216a2c81ab9e9bb2db0a5e2329d51f8365f4f07a81ab",
+    "build/geometric-achene-pits-v1/strawberry-geometric-achene-pits.blend": "fdbb62617682c43d7399bcf4f7d7fabf61458cfee51d1cee35f78a8d4281a6c4",
+    "build/geometric-achene-pits-v1/unit-tests.log": "7d0febd97716e23949c1adce3815a76943b344f82d89cb0019721ab339fd93d4",
+    "build/geometric-achene-pits-v1/validation.json": "96036ce07edb27e5655ab050f989d3363113440dfdf0221413f3dfe81664a2f8"
+  },
+  "metric_correction": "The original0.373mm enclosing-sphere estimate understated ellipsoid support extension. Independent corrected upper bound0.420095mm, below0.72mm budget. Not the selected variant."
+}
