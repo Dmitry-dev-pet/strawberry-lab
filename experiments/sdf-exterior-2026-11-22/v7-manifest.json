@@ -1,0 +1,11 @@
+{
+  "version": "v7",
+  "starting_point": "v4, not v5/v6",
+  "source_sha256": "0029b476cd229c4cc5b66c4a302180585b35d2b9f318effea173e2508022c4ed",
+  "atlas_sha256": "38c8f94099425d634d09607a46c160bbcf54ff350b94d9439a3c9868985c6317",
+  "v7_blend_sha256": "47b4e5fa00410e2c76c23ffaafecdd92a7e512d9e122e8837f6fb14215a0f467",
+  "shared_3d_vascular_field": "192^3 RGB channel R packed 16x12; Z linear interpolation both cuts",
+  "cut_cells": "Geometry Nodes Subdivide + shallow warped 3D Voronoi, flatten above same vascular atlas",
+  "biology": "ARTIST, no measured per-cell membrane geometry",
+  "seconds": 3.07
+}
