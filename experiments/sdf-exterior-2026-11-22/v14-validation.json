@@ -1,0 +1,112 @@
+{
+  "A": {
+    "scene_sha256": "9f75ea3271ffed23481735d352d2dc45a7ecb8cdfdce50101efc6abe95224ee3",
+    "states": {
+      "whole": {
+        "vertices": 157250,
+        "faces": 157696,
+        "volume": 21506.834,
+        "nonmanifold_edges": 0,
+        "min_face_area": 3.871642e-05
+      },
+      "plane": {
+        "vertices": 194354,
+        "faces": 194352,
+        "volume": 6779.214,
+        "nonmanifold_edges": 0,
+        "min_face_area": 1.706251e-05
+      },
+      "bite": {
+        "vertices": 350314,
+        "faces": 350312,
+        "volume": 18830.69,
+        "nonmanifold_edges": 0,
+        "min_face_area": 3.08305e-05,
+        "height_abs_max_mm": 0.0,
+        "height_nonzero_gt_0_02mm": 0
+      },
+      "plane_moved": {
+        "vertices": 154762,
+        "faces": 154760,
+        "volume": 4268.41,
+        "nonmanifold_edges": 0,
+        "min_face_area": 5.48735e-06
+      },
+      "bite_moved": {
+        "vertices": 361858,
+        "faces": 361856,
+        "volume": 16706.471,
+        "nonmanifold_edges": 0,
+        "min_face_area": 1.5181e-07,
+        "height_abs_max_mm": 0.0,
+        "height_nonzero_gt_0_02mm": 0
+      }
+    }
+  },
+  "B": {
+    "scene_sha256": "8b2a5e122ae69e676a51a58ca149c0d0fd8a5d956bf6ac6ef013908cb684c91d",
+    "states": {
+      "whole": {
+        "vertices": 157250,
+        "faces": 157696,
+        "volume": 21506.834,
+        "nonmanifold_edges": 0,
+        "min_face_area": 3.871642e-05
+      },
+      "plane": {
+        "vertices": 194354,
+        "faces": 194352,
+        "volume": 6779.214,
+        "nonmanifold_edges": 0,
+        "min_face_area": 1.706251e-05
+      },
+      "bite": {
+        "vertices": 350314,
+        "faces": 350312,
+        "volume": 18830.569,
+        "nonmanifold_edges": 0,
+        "min_face_area": 3.08305e-05,
+        "height_abs_max_mm": 0.191544,
+        "height_nonzero_gt_0_02mm": 6866
+      },
+      "plane_moved": {
+        "vertices": 154762,
+        "faces": 154760,
+        "volume": 4268.41,
+        "nonmanifold_edges": 0,
+        "min_face_area": 5.48735e-06
+      },
+      "bite_moved": {
+        "vertices": 361858,
+        "faces": 361856,
+        "volume": 16706.499,
+        "nonmanifold_edges": 0,
+        "min_face_area": 2.97707e-06,
+        "height_abs_max_mm": 0.16463,
+        "height_nonzero_gt_0_02mm": 9132
+      }
+    },
+    "actual_cutter_seed_contacts": {
+      "planar_initial": {
+        "tested_vertices": 16554,
+        "cutter_mesh_vertices": 8,
+        "inside_vertices": 0
+      },
+      "planar_moved": {
+        "tested_vertices": 11748,
+        "cutter_mesh_vertices": 8,
+        "inside_vertices": 0
+      },
+      "bite_initial": {
+        "tested_vertices": 40228,
+        "cutter_mesh_vertices": 6050,
+        "inside_vertices": 0
+      },
+      "bite_moved": {
+        "tested_vertices": 37558,
+        "cutter_mesh_vertices": 6050,
+        "inside_vertices": 0
+      }
+    }
+  }
+}
