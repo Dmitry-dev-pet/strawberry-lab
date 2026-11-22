@@ -1,0 +1,32 @@
+{
+  "source": "v12, unchanged",
+  "source_sha256": "300a2bfeaa86831220657b74fe8b00d4d7ec0b42f4ffefca863d6410cbb405b7",
+  "blends": {
+    "A": {
+      "name": "strawberry-sdf-vertical-slice-v15a-uncoupled-cells.blend",
+      "sha256": "3f796b53f6a30b560443b02904cc705e186a8d4b596685a62b5178ece0b66f08"
+    },
+    "B": {
+      "name": "strawberry-sdf-vertical-slice-v15b-restfield-coupled-cells.blend",
+      "sha256": "8b2189572d17ee603f5a6d5720ff6768b9d9b79bd7e9439c0969095b92577e12"
+    }
+  },
+  "atlas": "SDF proof v4 | 192^3 sparse volume and continuous branches",
+  "atlas_size": [
+    3072,
+    2304
+  ],
+  "voxel_field": "same packed v4 192³; red channel sampled by native GN and shader in same rest coordinates",
+  "experiment": {
+    "common_v8_cell_strength": 3.2,
+    "A_vascular_flatten_ToMax": 1.0,
+    "B_vascular_flatten_ToMax": 0.06,
+    "common_vascular_flatten_FromMin": 1.0
+  },
+  "materials_unchanged": true,
+  "cutters_unchanged": true,
+  "no_new_3d_fibers": true,
+  "elapsed_s": 3.79,
+  "visual_status": "unreviewed",
+  "biology": "ARTIST; not verified histology"
+}
