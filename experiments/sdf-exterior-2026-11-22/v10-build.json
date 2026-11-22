@@ -1,0 +1,23 @@
+{
+  "version": "v10",
+  "source": "v8",
+  "source_sha256": "eea4d9eb250c358ade017a8a47545308ec5c4265522507e4d0e05660f68c86ae",
+  "blend_sha256": "98ff4943bf283869b1173ebdeec04358e319ab3a73bea4811f0175b8454860ef",
+  "old_cutter_vertices": 162,
+  "new_cutter_vertices": 6050,
+  "cutter_nonmanifold_edges": 0,
+  "cutter_signed_volume_local": 4.198104162931989,
+  "radius_delta_min": -0.09180672426802161,
+  "radius_delta_max": 0.09280911693459037,
+  "face_scales": [
+    12.0,
+    12.0,
+    12.0
+  ],
+  "owner_video_reference": [
+    "18.2 sec",
+    "19.0 sec"
+  ],
+  "time_s": 3.4,
+  "ARTIST": true
+}
