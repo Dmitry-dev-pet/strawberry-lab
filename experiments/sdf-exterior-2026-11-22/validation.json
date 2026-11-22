@@ -1,0 +1,26 @@
+{
+  "plane_base": {
+    "vertices": 48590,
+    "nonmanifold_edges": 0,
+    "remaining_seed_solids": 93,
+    "achene_vertices_inside_cutter": 0
+  },
+  "plane_moved_rotated": {
+    "vertices": 38692,
+    "nonmanifold_edges": 0,
+    "remaining_seed_solids": 66,
+    "achene_vertices_inside_cutter": 0
+  },
+  "bite_base": {
+    "vertices": 86160,
+    "nonmanifold_edges": 0,
+    "remaining_seed_solids": 227,
+    "achene_vertices_inside_cutter": 0
+  },
+  "bite_moved_scaled": {
+    "vertices": 88676,
+    "nonmanifold_edges": 0,
+    "remaining_seed_solids": 215,
+    "achene_vertices_inside_cutter": 0
+  }
+}
