@@ -1,0 +1,10 @@
+{
+  "full_sha256_readback": {
+    "shouldered.blend": "e30f4c9b34fbc0f7b8235ce7f9452645b9e31781eb27b14f7905c962fcc56450",
+    "waisted.blend": "2cbc0883ca171eaef37753d03ac98f452d92fac5da51695f2d1cf68c311a9874",
+    "comparison.png": "3a6f72d433a25727ee798ababe1f23ad844c69def3359a180399c236a7c09b03",
+    "nonlinear-exact-v1.zip": "dc2fa0eb01a02cb84f1b4b0bb929b332fdaa8a9498f8b808e8bf883026623492"
+  },
+  "all_pngs_authenticated_from_downloaded_zip": true,
+  "downloaded_scenes_reopened_and_qa_passed": true
+}
