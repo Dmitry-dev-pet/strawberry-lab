@@ -49,3 +49,8 @@ $B -b --disable-autoexec --python experiments/sdf-exterior-2026-11-22/make_v8_co
 Use `STRAWBERRY_SDF_OUT` to override output directory; all existing v4/v5/v6/v7 artifacts and scripts are untouched. Small code/JSON receipts go in draft PR #43, large .blend/PNG artifacts remain in owner Drive with SHA-256 hashes.
 
 **Decision:** keep v8 as a more faithful *technical* implementation of the described idea, but do not merge. Next work needs the author reference frames actually available, rigorous visual match of cut/cells/fibers at the same scale, and localized glossy wet film. Avoid adding standalone whole-fruit cell meshes or rewriting the SDF cutter in the absence of evidence.
+
+
+## Verified private binary deliverables
+
+[Owner Drive v8 folder](https://drive.google.com/drive/folders/1U_1nExBgmu0es2va-JT0Y0AcMxPEFoQx) contains the editable [.blend](https://drive.google.com/file/d/13Q5SgERALXVbeWWBG_V-PpQXAhWPOOQW/view), true Cycles [macro A/B](https://drive.google.com/file/d/1uYxFhL1-JhU08Pyv50v7iy_yoleL8VYF/view), [plane A/B](https://drive.google.com/file/d/1xJrqhmRO2ps2M0sxc5jhpmrPDmcnRjgX/view), and [bite A/B](https://drive.google.com/file/d/19p6zKgKqbGaDU4ESTP2iN7MlQ6O071t_/view). The Drive folder was read back and file sizes matched the original Mac copies; local SHA-256 copy checks all matched. It remains owner-private and unmerged.
