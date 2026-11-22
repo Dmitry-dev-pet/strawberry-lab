@@ -92,3 +92,8 @@ $B -b --disable-autoexec --python experiments/sdf-exterior-2026-11-22/make_v7_co
 
 
 **Verified owner-private v8 Blender/PNG artifacts:** [Drive folder](https://drive.google.com/drive/folders/1U_1nExBgmu0es2va-JT0Y0AcMxPEFoQx) (Cycles A/B comparisons and SHA-256 included). V7 assets are superseded by v8.
+
+
+## Direct original-video audit: v9 pith / v10 ragged bite
+
+[Actual owner Frucht video study and verified negative/positive tests](owner-video-v9-v10-audit.md). The 38-second original MP4 was downloaded and decoded this session. At 10.0 s a pale central pith is visible; at 18.2-19.0 s a ragged, glossy torn bite differs dramatically from our spherical cavity. All extracted author images are in **owner-private Drive only**, not committed here. v9 increases a source-3D pith spindle, helps planar cut but introduces an overbright bite patch (**visual FAIL**). v10 changes **only the sphere cutter source mesh** to scallops; live SDF/seed coupling stays intact; 4 tested cutter poses again PASS geometry, but exposed wet torn-flesh fidelity is still **visual FAIL**. Original v8 baseline, v9 negative, v10 draft proof are retained separately; do not merge into main.
