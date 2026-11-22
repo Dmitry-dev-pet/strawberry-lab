@@ -1,0 +1,13 @@
+{
+  "kind": "plane",
+  "frame": 20,
+  "samples": 36,
+  "resolution": [
+    860,
+    860
+  ],
+  "seconds": 11.54,
+  "bytes": 846488,
+  "sha256": "538a1f60e1555c455cca4301ef4b7aa13e5f7e40aaa8d08d80f6a779196e9aaf",
+  "scene": "strawberry-sdf-vertical-slice-v13-spatial-fibrils.blend"
+}
