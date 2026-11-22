@@ -63,3 +63,12 @@ $B -b --disable-autoexec --python experiments/sdf-exterior-2026-11-22/validate_r
 ```
 
 **Status: engineering PASS** (whole, plane, bite and moved cutter geometry; retained achene solids clear the cutter); **visual FAIL** (fibers too stylized, glossy patch on bite, repetitive cells). Do not merge on this visual result alone.
+
+
+## V5/V6 native physical cut-cell relief — 22 Nov 2026
+
+[Full v5/v6 results and objective A/B](v5-v6-cut-cell-review.md). These are **additional bounded research variants**, not a release and not Frucht commercial code. v5 proves per-vertex cut-local 3D Voronoi displacement but appears like unrealistic caviar; v6 retains real geometry at a reduced strength (0.18), softens cut gloss and preserves live plane/sphere cutters.
+
+**V6 engineering PASS** on whole + plane + spherical bite, including moved/rotated plane and moved/scaled sphere (zero nonmanifold edges, zero surviving seed vertices intersecting cutter). Actual measured max additional vertex displacement ≈0.0237 mm. **Visual FAIL** versus Frucht's naturally fibrous, wet cut face; the work is ARTIST and not measured fruit histology. Report and JSON receipts show exact QA gates and limits.
+
+Source: `build_v5.py`, `finalize_v6.py`, `validate_v5.py`, `validate_v6.py`, `render_v5.py`, `render_v6.py`, `make_v6_triptych.py`; no Blender binaries in GitHub. RGB tissue atlas from v4 remains identical. Binary scenes and native Cycles A/B triptychs are stored only in private Drive; this branch stays draft and does not modify `main`.
