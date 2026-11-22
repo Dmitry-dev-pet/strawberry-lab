@@ -14,6 +14,7 @@ $B -b --python src/build_strawberry_exterior.py -- --out build/exterior-v1 --no-
 $B -b --python experiments/sdf-exterior-2026-11-22/build.py
 $B -b --python experiments/sdf-exterior-2026-11-22/tissue.py
 $B -b --python experiments/sdf-exterior-2026-11-22/validate.py
+$B -b build/sdf-vertical-slice/strawberry-sdf-vertical-slice-v3.blend --disable-autoexec --python experiments/sdf-exterior-2026-11-22/reopen.py
 $B -b build/sdf-vertical-slice/strawberry-sdf-vertical-slice-v3.blend --python experiments/sdf-exterior-2026-11-22/render.py
 ```
 
@@ -37,7 +38,7 @@ The original `build/exterior-v1/strawberry-exterior.blend` is never overwritten.
 | Sphere, initial | 86,160 | 0 | 227 | 0 |
 | Sphere, moved and enlarged | 88,676 | 0 | 215 | 0 |
 
-Two real native Cycles 820×820 renders + plane macro rendered from the saved scene. **Visual acceptance FAIL**: vessel atlas renders as large white spots/short fibers, not anatomically credible continuous thin strands; cap lacks believable juicy cellular relief, material palette is too waxy. Original calyx is not cutter-controlled. No 0.20/0.32 voxel comparison was run for this experiment; its 0.27 mm voxel does not beat the earlier seed101 SDF branch's pit-depth measurements. No physically validated cell/vessel dimensions or wet-film measurements.
+Reopening the saved v3 .blend with autoexecution disabled verifies whole/planar/bite bodies, zero nonmanifold edges, preserved `fruit_rest` on both cut modes, and a packed 2048×1024 tissue atlas. Two real native Cycles 820×820 renders + plane macro rendered from the saved scene. **Visual acceptance FAIL**: vessel atlas renders as large white spots/short fibers, not anatomically credible continuous thin strands; cap lacks believable juicy cellular relief, material palette is too waxy. Original calyx is not cutter-controlled. No 0.20/0.32 voxel comparison was run for this experiment; its 0.27 mm voxel does not beat the earlier seed101 SDF branch's pit-depth measurements. No physically validated cell/vessel dimensions or wet-film measurements.
 
 ## Known engineering limitations
 
