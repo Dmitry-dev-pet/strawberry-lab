@@ -1,0 +1,17 @@
+{
+  "source_sha256": "0f155bc62302a991ce0637979a1321d27ec22611c172f974590b9e310f41b2e2",
+  "blend_sha256": "0029b476cd229c4cc5b66c4a302180585b35d2b9f318effea173e2508022c4ed",
+  "atlas_sha256": "38c8f94099425d634d09607a46c160bbcf54ff350b94d9439a3c9868985c6317",
+  "dimensions": [
+    192,
+    192,
+    192
+  ],
+  "atlas_dimensions": [
+    3072,
+    2304
+  ],
+  "seed_anchors": 264,
+  "source": "own sculpted exterior; all tissue data ARTIST",
+  "build_sec": 3.04
+}
