@@ -1,0 +1,17 @@
+{
+  "zip": {
+    "sha256": "16802dead8f56c0db7db8fe84b7f772a73a036b641a31f41370dd7e8072d12ff",
+    "full_download_verified": true,
+    "bytes": 27789286
+  },
+  "report": {
+    "sha256": "383f509248ae3128b16db8b3d8d98505c10a6b17e36b8d04613f6bc2cbebd1dd",
+    "full_download_verified": true,
+    "bytes": 7444
+  },
+  "evidence": {
+    "sha256": "27ed1f36b9e8714103be21d14e14d488f5a7c61e934aa73cfaf2e11394a9da47",
+    "full_download_verified": true,
+    "bytes": 45519
+  }
+}

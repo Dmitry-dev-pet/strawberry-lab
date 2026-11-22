@@ -1,0 +1,1526 @@
+{
+  "status": "PASS_BOUNDED_AFFINE_SLICE",
+  "base_commit": "8dcf8282f448c215f300461cc2e78c77da73b934",
+  "source_sha256": "24a3f7a2b9b157aac3b5a8aa30aa1b84d2404be64df67f74705665de3dbf74b4",
+  "presets": [
+    {
+      "instance_id": "unified-elongated",
+      "context_class": "fruit_platform.FruitContext",
+      "seed": 1729,
+      "detail": "preview",
+      "research_plan_digest": "8c7ba1c976876c83c45ebad60653f19c51bae7788b6a2d3f6aec3e7973d6bee5",
+      "recipe": {
+        "organ_id": "pr34_affine_bundle",
+        "emitter": "pr34_shared_affine",
+        "evidence": "ARTIST_SHARED_MAPPING",
+        "params": {
+          "width_factor": 0.8,
+          "height_factor": 1.15
+        }
+      },
+      "mapping": "F(x,y,z)=(width*x,width*y,height*z)",
+      "vascular_connection_constraint": "UNRESOLVED:539diagnostic endpoints !=264achenes",
+      "measured_specimen_reference_mm": {
+        "height": 48.0,
+        "width": 32.5
+      },
+      "limits": "Affine morph only. Seed count/distribution and tissue synthesis are not regenerated. Reference-mm relief wavelengths/depths stretch with F.",
+      "source_sha256": "24a3f7a2b9b157aac3b5a8aa30aa1b84d2404be64df67f74705665de3dbf74b4",
+      "control_digest": "ea1dc2064b86f125c2f17602d1aa8fe3eb86713bd77eb939656b7e25ea2bd9bc",
+      "actual_body_dimensions_mm": [
+        32.61191394088869,
+        31.92250143631725,
+        55.199997966984824
+      ],
+      "reference_mm_per_model_unit": 22.22222276031971,
+      "world_from_reference": [
+        [
+          0.800000011920929,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.800000011920929,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.149999976158142,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scene_sha256": "4bbb4313111b0e19ffa31ba701bee5dfa66246effb31347bb1a031dfdc0cda2f"
+    },
+    {
+      "instance_id": "unified-round",
+      "context_class": "fruit_platform.FruitContext",
+      "seed": 1729,
+      "detail": "preview",
+      "research_plan_digest": "e3f3356bddeebfddd9035aa2950e065108cdf60d3170f152051eb3f85a22ac48",
+      "recipe": {
+        "organ_id": "pr34_affine_bundle",
+        "emitter": "pr34_shared_affine",
+        "evidence": "ARTIST_SHARED_MAPPING",
+        "params": {
+          "width_factor": 1.1,
+          "height_factor": 0.9
+        }
+      },
+      "mapping": "F(x,y,z)=(width*x,width*y,height*z)",
+      "vascular_connection_constraint": "UNRESOLVED:539diagnostic endpoints !=264achenes",
+      "measured_specimen_reference_mm": {
+        "height": 48.0,
+        "width": 32.5
+      },
+      "limits": "Affine morph only. Seed count/distribution and tissue synthesis are not regenerated. Reference-mm relief wavelengths/depths stretch with F.",
+      "source_sha256": "24a3f7a2b9b157aac3b5a8aa30aa1b84d2404be64df67f74705665de3dbf74b4",
+      "control_digest": "0e615320be6b8b4bc0b46ab94489342405c18fcaf10c398fe93d905f54a34927",
+      "actual_body_dimensions_mm": [
+        44.84138332440657,
+        43.89343897823083,
+        43.199998524122705
+      ],
+      "reference_mm_per_model_unit": 22.22222276031971,
+      "world_from_reference": [
+        [
+          1.100000023841858,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.100000023841858,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8999999761581421,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "scene_sha256": "509adc2b40714ea34e9066ff7e589a523e66048b722264d6009020ab654b18bd"
+    }
+  ],
+  "variant_qa": {
+    "elongated": {
+      "status": "PASS",
+      "scene_sha256": "4bbb4313111b0e19ffa31ba701bee5dfa66246effb31347bb1a031dfdc0cda2f",
+      "world_mapping_max_error_model_units": 1.6219150511531666e-07,
+      "actual_world_mesh_contacts": {
+        "Achene 001": 87,
+        "Achene 002": 80,
+        "Achene 003": 87,
+        "Achene 004": 85,
+        "Achene 005": 87,
+        "Achene 006": 87,
+        "Achene 007": 84,
+        "Achene 008": 92,
+        "Achene 009": 93,
+        "Achene 010": 89,
+        "Achene 011": 88,
+        "Achene 012": 86,
+        "Achene 013": 93,
+        "Achene 014": 87,
+        "Achene 015": 87,
+        "Achene 016": 87,
+        "Achene 017": 95,
+        "Achene 018": 90,
+        "Achene 019": 91,
+        "Achene 020": 97,
+        "Achene 021": 93,
+        "Achene 022": 88,
+        "Achene 023": 85,
+        "Achene 024": 88,
+        "Achene 025": 87,
+        "Achene 026": 79,
+        "Achene 027": 92,
+        "Achene 028": 85,
+        "Achene 029": 91,
+        "Achene 030": 91,
+        "Achene 031": 89,
+        "Achene 032": 90,
+        "Achene 033": 93,
+        "Achene 034": 86,
+        "Achene 035": 92,
+        "Achene 036": 93,
+        "Achene 037": 86,
+        "Achene 038": 95,
+        "Achene 039": 92,
+        "Achene 040": 89,
+        "Achene 041": 94,
+        "Achene 042": 85,
+        "Achene 043": 98,
+        "Achene 044": 96,
+        "Achene 045": 90,
+        "Achene 046": 92,
+        "Achene 047": 90,
+        "Achene 048": 89,
+        "Achene 049": 89,
+        "Achene 050": 95,
+        "Achene 051": 88,
+        "Achene 052": 96,
+        "Achene 053": 89,
+        "Achene 054": 96,
+        "Achene 055": 88,
+        "Achene 056": 93,
+        "Achene 057": 95,
+        "Achene 058": 91,
+        "Achene 059": 92,
+        "Achene 060": 96,
+        "Achene 061": 95,
+        "Achene 062": 90,
+        "Achene 063": 95,
+        "Achene 064": 89,
+        "Achene 065": 93,
+        "Achene 066": 96,
+        "Achene 067": 94,
+        "Achene 068": 93,
+        "Achene 069": 97,
+        "Achene 070": 96,
+        "Achene 071": 96,
+        "Achene 072": 95,
+        "Achene 073": 100,
+        "Achene 074": 96,
+        "Achene 075": 91,
+        "Achene 076": 94,
+        "Achene 077": 95,
+        "Achene 078": 94,
+        "Achene 079": 100,
+        "Achene 080": 95,
+        "Achene 081": 95,
+        "Achene 082": 96,
+        "Achene 083": 90,
+        "Achene 084": 99,
+        "Achene 085": 90,
+        "Achene 086": 97,
+        "Achene 087": 92,
+        "Achene 088": 96,
+        "Achene 089": 97,
+        "Achene 090": 105,
+        "Achene 091": 97,
+        "Achene 092": 99,
+        "Achene 093": 96,
+        "Achene 094": 99,
+        "Achene 095": 103,
+        "Achene 096": 88,
+        "Achene 097": 96,
+        "Achene 098": 93,
+        "Achene 099": 98,
+        "Achene 100": 101,
+        "Achene 101": 91,
+        "Achene 102": 93,
+        "Achene 103": 92,
+        "Achene 104": 97,
+        "Achene 105": 106,
+        "Achene 106": 98,
+        "Achene 107": 100,
+        "Achene 108": 102,
+        "Achene 109": 105,
+        "Achene 110": 93,
+        "Achene 111": 94,
+        "Achene 112": 96,
+        "Achene 113": 98,
+        "Achene 114": 105,
+        "Achene 115": 100,
+        "Achene 116": 94,
+        "Achene 117": 95,
+        "Achene 118": 89,
+        "Achene 119": 94,
+        "Achene 120": 102,
+        "Achene 121": 95,
+        "Achene 122": 103,
+        "Achene 123": 104,
+        "Achene 124": 100,
+        "Achene 125": 94,
+        "Achene 126": 93,
+        "Achene 127": 89,
+        "Achene 128": 98,
+        "Achene 129": 92,
+        "Achene 130": 86,
+        "Achene 131": 90,
+        "Achene 132": 102,
+        "Achene 133": 98,
+        "Achene 134": 97,
+        "Achene 135": 100,
+        "Achene 136": 104,
+        "Achene 137": 98,
+        "Achene 138": 102,
+        "Achene 139": 96,
+        "Achene 140": 100,
+        "Achene 141": 94,
+        "Achene 142": 101,
+        "Achene 143": 98,
+        "Achene 144": 91,
+        "Achene 145": 93,
+        "Achene 146": 96,
+        "Achene 147": 99,
+        "Achene 148": 87,
+        "Achene 149": 92,
+        "Achene 150": 99,
+        "Achene 151": 90,
+        "Achene 152": 100,
+        "Achene 153": 93,
+        "Achene 154": 96,
+        "Achene 155": 95,
+        "Achene 156": 96,
+        "Achene 157": 91,
+        "Achene 158": 89,
+        "Achene 159": 98,
+        "Achene 160": 99,
+        "Achene 161": 92,
+        "Achene 162": 93,
+        "Achene 163": 98,
+        "Achene 164": 96,
+        "Achene 165": 97,
+        "Achene 166": 94,
+        "Achene 167": 97,
+        "Achene 168": 97,
+        "Achene 169": 95,
+        "Achene 170": 95,
+        "Achene 171": 92,
+        "Achene 172": 97,
+        "Achene 173": 91,
+        "Achene 174": 96,
+        "Achene 175": 93,
+        "Achene 176": 96,
+        "Achene 177": 90,
+        "Achene 178": 91,
+        "Achene 179": 98,
+        "Achene 180": 99,
+        "Achene 181": 97,
+        "Achene 182": 95,
+        "Achene 183": 97,
+        "Achene 184": 90,
+        "Achene 185": 91,
+        "Achene 186": 88,
+        "Achene 187": 95,
+        "Achene 188": 91,
+        "Achene 189": 97,
+        "Achene 190": 100,
+        "Achene 191": 92,
+        "Achene 192": 99,
+        "Achene 193": 96,
+        "Achene 194": 96,
+        "Achene 195": 95,
+        "Achene 196": 92,
+        "Achene 197": 93,
+        "Achene 198": 96,
+        "Achene 199": 98,
+        "Achene 200": 97,
+        "Achene 201": 95,
+        "Achene 202": 87,
+        "Achene 203": 92,
+        "Achene 204": 94,
+        "Achene 205": 100,
+        "Achene 206": 93,
+        "Achene 207": 94,
+        "Achene 208": 95,
+        "Achene 209": 98,
+        "Achene 210": 93,
+        "Achene 211": 94,
+        "Achene 212": 96,
+        "Achene 213": 93,
+        "Achene 214": 97,
+        "Achene 215": 94,
+        "Achene 216": 96,
+        "Achene 217": 94,
+        "Achene 218": 94,
+        "Achene 219": 93,
+        "Achene 220": 95,
+        "Achene 221": 92,
+        "Achene 222": 96,
+        "Achene 223": 101,
+        "Achene 224": 96,
+        "Achene 225": 100,
+        "Achene 226": 98,
+        "Achene 227": 94,
+        "Achene 228": 98,
+        "Achene 229": 94,
+        "Achene 230": 92,
+        "Achene 231": 90,
+        "Achene 232": 90,
+        "Achene 233": 85,
+        "Achene 234": 92,
+        "Achene 235": 96,
+        "Achene 236": 91,
+        "Achene 237": 95,
+        "Achene 238": 89,
+        "Achene 239": 92,
+        "Achene 240": 93,
+        "Achene 241": 90,
+        "Achene 242": 93,
+        "Achene 243": 98,
+        "Achene 244": 92,
+        "Achene 245": 90,
+        "Achene 246": 93,
+        "Achene 247": 84,
+        "Achene 248": 85,
+        "Achene 249": 90,
+        "Achene 250": 89,
+        "Achene 251": 90,
+        "Achene 252": 83,
+        "Achene 253": 82,
+        "Achene 254": 86,
+        "Achene 255": 87,
+        "Achene 256": 90,
+        "Achene 257": 86,
+        "Achene 258": 83,
+        "Achene 259": 83,
+        "Achene 260": 97,
+        "Achene 261": 92,
+        "Achene 262": 95,
+        "Achene 263": 97,
+        "Achene 264": 140
+      },
+      "min_exposed_vertex_fraction": 0.4157303370786517,
+      "min_world_buried_mm": 0.09928015753849889,
+      "world_body_digest": "1dd751d497a4c98ac9c96f565664e4269b94c70eea0771adb1b6e409974cc0ae",
+      "world_anchor_digest": "4a8a0d0d8aab115d84d22b3bf393d60ee54c4a8c90dfa5d5989b14eb6c05af1b",
+      "original_diagnostic_digests": {
+        "V3 | 28-sag0.25 | CARRIERS": "72fdc0f109fcc26f3be1b303008ba544f9dd36fa8335c565a2b1b3ca0c97c001",
+        "V4 | hook0.85 | BRANCHES": "8904adfb7a1137843d47874b966e4aa05f93c24f5093a5e9bf72e910db77b167",
+        "V2 | 539 seed positions and branch endpoints": "f8725321fd8290cc7d4f5125a2ce282b862cc4c50af4513e4723062dc504396f"
+      },
+      "packed_atlas_digest": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+      "inverse_rest_max_error": 3.0719530773294423e-08,
+      "material_graphs_unchanged": true,
+      "texture_coordinate_bindings": {
+        "Achenes \u2022 straw \u00b7 amber \u00b7 olive": [
+          [
+            "Texture Coordinate",
+            null
+          ]
+        ],
+        "Calyx \u2022 folded olive green": [
+          [
+            "Texture Coordinate",
+            "Strawberry | PR29 rest space"
+          ]
+        ],
+        "LIVE | cut flesh from ORIGINAL v0 stored RGB volume": [
+          [
+            "PR29 rest coordinates",
+            "Strawberry | PR29 rest space"
+          ]
+        ],
+        "Pedicel \u2022 cut end": [],
+        "Pedicel \u2022 green": [
+          [
+            "Texture Coordinate",
+            "Strawberry | PR29 rest space"
+          ]
+        ],
+        "Skin \u2022 strawberry red": [
+          [
+            "Texture Coordinate",
+            "Strawberry | PR29 rest space"
+          ]
+        ],
+        "V2 | 539 actual seed anchor markers.001 | shared knife display": [
+          [
+            "Texture Coordinate",
+            "LIVE CUT | move or rotate this Empty"
+          ]
+        ],
+        "V2 | 539 anchored vascular branches.001 | shared knife display": [
+          [
+            "Texture Coordinate",
+            "LIVE CUT | move or rotate this Empty"
+          ]
+        ],
+        "V2 | core 28 true spatial carriers.001 | shared knife display": [
+          [
+            "Texture Coordinate",
+            "LIVE CUT | move or rotate this Empty"
+          ]
+        ]
+      },
+      "two_cut_poses": [
+        {
+          "pose": [
+            -0.1,
+            0,
+            -23
+          ],
+          "exact": {
+            "vertices": 43103,
+            "triangles": 86202,
+            "cap_faces": 41090,
+            "nonmanifold_edges": 0,
+            "connected_components": 1,
+            "volume_model_units_cubed": 1.7054134022481282,
+            "min_displacement_mm": 0.0,
+            "max_displacement_mm": 0.15884605103586025,
+            "mean_displacement_mm": 0.05228700441644054,
+            "displaced_cap_vertices_over_0_01_mm": 19458,
+            "max_undeformed_plane_error_model_units": 5.960464477539063e-08,
+            "max_tangential_drift_model_units": 1.1920928955078125e-07
+          },
+          "world_volume": 1.255184292793274
+        },
+        {
+          "pose": [
+            0.08,
+            29,
+            32
+          ],
+          "exact": {
+            "vertices": 35769,
+            "triangles": 71534,
+            "cap_faces": 38197,
+            "nonmanifold_edges": 0,
+            "connected_components": 1,
+            "volume_model_units_cubed": 1.4166759055547997,
+            "min_displacement_mm": 0.0,
+            "max_displacement_mm": 0.15900640409103467,
+            "mean_displacement_mm": 0.05608582952992,
+            "displaced_cap_vertices_over_0_01_mm": 18262,
+            "max_undeformed_plane_error_model_units": 1.4528632164001465e-07,
+            "max_tangential_drift_model_units": 1.228781230931777e-07
+          },
+          "world_volume": 1.0426734685897827
+        }
+      ],
+      "four_native_layers": true,
+      "live_width_driver_roundtrip": true,
+      "vascular_attachment_constraint": "UNRESOLVED;539 !=264",
+      "limits": "Affine template deformation; reference-mm texture/relief stretches under F. No new scatter/topology/histology."
+    },
+    "round": {
+      "status": "PASS",
+      "scene_sha256": "509adc2b40714ea34e9066ff7e589a523e66048b722264d6009020ab654b18bd",
+      "world_mapping_max_error_model_units": 1.5825530397250986e-07,
+      "actual_world_mesh_contacts": {
+        "Achene 001": 87,
+        "Achene 002": 80,
+        "Achene 003": 87,
+        "Achene 004": 85,
+        "Achene 005": 87,
+        "Achene 006": 87,
+        "Achene 007": 84,
+        "Achene 008": 92,
+        "Achene 009": 93,
+        "Achene 010": 89,
+        "Achene 011": 88,
+        "Achene 012": 86,
+        "Achene 013": 93,
+        "Achene 014": 87,
+        "Achene 015": 87,
+        "Achene 016": 87,
+        "Achene 017": 95,
+        "Achene 018": 90,
+        "Achene 019": 91,
+        "Achene 020": 97,
+        "Achene 021": 93,
+        "Achene 022": 88,
+        "Achene 023": 85,
+        "Achene 024": 88,
+        "Achene 025": 87,
+        "Achene 026": 79,
+        "Achene 027": 92,
+        "Achene 028": 85,
+        "Achene 029": 91,
+        "Achene 030": 91,
+        "Achene 031": 89,
+        "Achene 032": 90,
+        "Achene 033": 93,
+        "Achene 034": 86,
+        "Achene 035": 92,
+        "Achene 036": 93,
+        "Achene 037": 86,
+        "Achene 038": 95,
+        "Achene 039": 92,
+        "Achene 040": 89,
+        "Achene 041": 94,
+        "Achene 042": 85,
+        "Achene 043": 98,
+        "Achene 044": 96,
+        "Achene 045": 90,
+        "Achene 046": 92,
+        "Achene 047": 90,
+        "Achene 048": 89,
+        "Achene 049": 89,
+        "Achene 050": 95,
+        "Achene 051": 88,
+        "Achene 052": 96,
+        "Achene 053": 89,
+        "Achene 054": 96,
+        "Achene 055": 88,
+        "Achene 056": 93,
+        "Achene 057": 95,
+        "Achene 058": 91,
+        "Achene 059": 92,
+        "Achene 060": 96,
+        "Achene 061": 95,
+        "Achene 062": 90,
+        "Achene 063": 95,
+        "Achene 064": 89,
+        "Achene 065": 93,
+        "Achene 066": 96,
+        "Achene 067": 94,
+        "Achene 068": 93,
+        "Achene 069": 97,
+        "Achene 070": 96,
+        "Achene 071": 96,
+        "Achene 072": 95,
+        "Achene 073": 100,
+        "Achene 074": 96,
+        "Achene 075": 91,
+        "Achene 076": 94,
+        "Achene 077": 95,
+        "Achene 078": 94,
+        "Achene 079": 100,
+        "Achene 080": 95,
+        "Achene 081": 95,
+        "Achene 082": 96,
+        "Achene 083": 90,
+        "Achene 084": 99,
+        "Achene 085": 90,
+        "Achene 086": 97,
+        "Achene 087": 92,
+        "Achene 088": 96,
+        "Achene 089": 97,
+        "Achene 090": 105,
+        "Achene 091": 97,
+        "Achene 092": 99,
+        "Achene 093": 96,
+        "Achene 094": 99,
+        "Achene 095": 103,
+        "Achene 096": 88,
+        "Achene 097": 96,
+        "Achene 098": 93,
+        "Achene 099": 98,
+        "Achene 100": 101,
+        "Achene 101": 91,
+        "Achene 102": 93,
+        "Achene 103": 92,
+        "Achene 104": 97,
+        "Achene 105": 106,
+        "Achene 106": 98,
+        "Achene 107": 100,
+        "Achene 108": 102,
+        "Achene 109": 105,
+        "Achene 110": 93,
+        "Achene 111": 94,
+        "Achene 112": 96,
+        "Achene 113": 98,
+        "Achene 114": 105,
+        "Achene 115": 100,
+        "Achene 116": 94,
+        "Achene 117": 95,
+        "Achene 118": 89,
+        "Achene 119": 94,
+        "Achene 120": 102,
+        "Achene 121": 95,
+        "Achene 122": 103,
+        "Achene 123": 104,
+        "Achene 124": 100,
+        "Achene 125": 94,
+        "Achene 126": 93,
+        "Achene 127": 89,
+        "Achene 128": 98,
+        "Achene 129": 92,
+        "Achene 130": 86,
+        "Achene 131": 90,
+        "Achene 132": 102,
+        "Achene 133": 98,
+        "Achene 134": 97,
+        "Achene 135": 100,
+        "Achene 136": 104,
+        "Achene 137": 98,
+        "Achene 138": 102,
+        "Achene 139": 96,
+        "Achene 140": 100,
+        "Achene 141": 94,
+        "Achene 142": 101,
+        "Achene 143": 98,
+        "Achene 144": 91,
+        "Achene 145": 93,
+        "Achene 146": 96,
+        "Achene 147": 99,
+        "Achene 148": 87,
+        "Achene 149": 92,
+        "Achene 150": 99,
+        "Achene 151": 90,
+        "Achene 152": 100,
+        "Achene 153": 93,
+        "Achene 154": 96,
+        "Achene 155": 95,
+        "Achene 156": 96,
+        "Achene 157": 91,
+        "Achene 158": 89,
+        "Achene 159": 98,
+        "Achene 160": 99,
+        "Achene 161": 92,
+        "Achene 162": 93,
+        "Achene 163": 98,
+        "Achene 164": 96,
+        "Achene 165": 97,
+        "Achene 166": 94,
+        "Achene 167": 97,
+        "Achene 168": 97,
+        "Achene 169": 95,
+        "Achene 170": 95,
+        "Achene 171": 92,
+        "Achene 172": 97,
+        "Achene 173": 91,
+        "Achene 174": 96,
+        "Achene 175": 93,
+        "Achene 176": 96,
+        "Achene 177": 90,
+        "Achene 178": 91,
+        "Achene 179": 98,
+        "Achene 180": 99,
+        "Achene 181": 97,
+        "Achene 182": 95,
+        "Achene 183": 97,
+        "Achene 184": 90,
+        "Achene 185": 91,
+        "Achene 186": 89,
+        "Achene 187": 95,
+        "Achene 188": 91,
+        "Achene 189": 97,
+        "Achene 190": 100,
+        "Achene 191": 92,
+        "Achene 192": 99,
+        "Achene 193": 96,
+        "Achene 194": 96,
+        "Achene 195": 95,
+        "Achene 196": 92,
+        "Achene 197": 93,
+        "Achene 198": 96,
+        "Achene 199": 98,
+        "Achene 200": 97,
+        "Achene 201": 95,
+        "Achene 202": 87,
+        "Achene 203": 92,
+        "Achene 204": 94,
+        "Achene 205": 100,
+        "Achene 206": 93,
+        "Achene 207": 94,
+        "Achene 208": 95,
+        "Achene 209": 98,
+        "Achene 210": 92,
+        "Achene 211": 94,
+        "Achene 212": 96,
+        "Achene 213": 93,
+        "Achene 214": 97,
+        "Achene 215": 94,
+        "Achene 216": 96,
+        "Achene 217": 94,
+        "Achene 218": 94,
+        "Achene 219": 93,
+        "Achene 220": 95,
+        "Achene 221": 92,
+        "Achene 222": 96,
+        "Achene 223": 101,
+        "Achene 224": 96,
+        "Achene 225": 100,
+        "Achene 226": 98,
+        "Achene 227": 94,
+        "Achene 228": 98,
+        "Achene 229": 94,
+        "Achene 230": 92,
+        "Achene 231": 90,
+        "Achene 232": 90,
+        "Achene 233": 85,
+        "Achene 234": 92,
+        "Achene 235": 96,
+        "Achene 236": 91,
+        "Achene 237": 95,
+        "Achene 238": 89,
+        "Achene 239": 92,
+        "Achene 240": 93,
+        "Achene 241": 90,
+        "Achene 242": 93,
+        "Achene 243": 98,
+        "Achene 244": 92,
+        "Achene 245": 90,
+        "Achene 246": 92,
+        "Achene 247": 84,
+        "Achene 248": 85,
+        "Achene 249": 90,
+        "Achene 250": 89,
+        "Achene 251": 90,
+        "Achene 252": 84,
+        "Achene 253": 82,
+        "Achene 254": 86,
+        "Achene 255": 87,
+        "Achene 256": 90,
+        "Achene 257": 86,
+        "Achene 258": 83,
+        "Achene 259": 83,
+        "Achene 260": 97,
+        "Achene 261": 92,
+        "Achene 262": 95,
+        "Achene 263": 97,
+        "Achene 264": 140
+      },
+      "min_exposed_vertex_fraction": 0.4157303370786517,
+      "min_world_buried_mm": 0.10941129179190137,
+      "world_body_digest": "63ef051a82dc55950b39b9c4ce7a8d2ce3c794381674743d23f89ba8a81302a6",
+      "world_anchor_digest": "644459f65173da4eaef444eefdf7a83f8a72fd2308f4f639eae160c06c138659",
+      "original_diagnostic_digests": {
+        "V3 | 28-sag0.25 | CARRIERS": "72fdc0f109fcc26f3be1b303008ba544f9dd36fa8335c565a2b1b3ca0c97c001",
+        "V4 | hook0.85 | BRANCHES": "8904adfb7a1137843d47874b966e4aa05f93c24f5093a5e9bf72e910db77b167",
+        "V2 | 539 seed positions and branch endpoints": "f8725321fd8290cc7d4f5125a2ce282b862cc4c50af4513e4723062dc504396f"
+      },
+      "packed_atlas_digest": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+      "inverse_rest_max_error": 5.960464477539063e-08,
+      "material_graphs_unchanged": true,
+      "texture_coordinate_bindings": {
+        "Achenes \u2022 straw \u00b7 amber \u00b7 olive": [
+          [
+            "Texture Coordinate",
+            null
+          ]
+        ],
+        "Calyx \u2022 folded olive green": [
+          [
+            "Texture Coordinate",
+            "Strawberry | PR29 rest space"
+          ]
+        ],
+        "LIVE | cut flesh from ORIGINAL v0 stored RGB volume": [
+          [
+            "PR29 rest coordinates",
+            "Strawberry | PR29 rest space"
+          ]
+        ],
+        "Pedicel \u2022 cut end": [],
+        "Pedicel \u2022 green": [
+          [
+            "Texture Coordinate",
+            "Strawberry | PR29 rest space"
+          ]
+        ],
+        "Skin \u2022 strawberry red": [
+          [
+            "Texture Coordinate",
+            "Strawberry | PR29 rest space"
+          ]
+        ],
+        "V2 | 539 actual seed anchor markers.001 | shared knife display": [
+          [
+            "Texture Coordinate",
+            "LIVE CUT | move or rotate this Empty"
+          ]
+        ],
+        "V2 | 539 anchored vascular branches.001 | shared knife display": [
+          [
+            "Texture Coordinate",
+            "LIVE CUT | move or rotate this Empty"
+          ]
+        ],
+        "V2 | core 28 true spatial carriers.001 | shared knife display": [
+          [
+            "Texture Coordinate",
+            "LIVE CUT | move or rotate this Empty"
+          ]
+        ]
+      },
+      "two_cut_poses": [
+        {
+          "pose": [
+            -0.1,
+            0,
+            -23
+          ],
+          "exact": {
+            "vertices": 43103,
+            "triangles": 86202,
+            "cap_faces": 41090,
+            "nonmanifold_edges": 0,
+            "connected_components": 1,
+            "volume_model_units_cubed": 1.7054133863133443,
+            "min_displacement_mm": 0.0,
+            "max_displacement_mm": 0.15884605103586025,
+            "mean_displacement_mm": 0.05228700002453375,
+            "displaced_cap_vertices_over_0_01_mm": 19458,
+            "max_undeformed_plane_error_model_units": 5.960464477539063e-08,
+            "max_tangential_drift_model_units": 1.1920928955078125e-07
+          },
+          "world_volume": 1.8571951389312744
+        },
+        {
+          "pose": [
+            0.08,
+            29,
+            32
+          ],
+          "exact": {
+            "vertices": 35769,
+            "triangles": 71534,
+            "cap_faces": 38197,
+            "nonmanifold_edges": 0,
+            "connected_components": 1,
+            "volume_model_units_cubed": 1.4166759253659045,
+            "min_displacement_mm": 0.0,
+            "max_displacement_mm": 0.15900706636488154,
+            "mean_displacement_mm": 0.05608582967430362,
+            "displaced_cap_vertices_over_0_01_mm": 18262,
+            "max_undeformed_plane_error_model_units": 1.2293457984924316e-07,
+            "max_tangential_drift_model_units": 1.3328003749250113e-07
+          },
+          "world_volume": 1.5427600145339966
+        }
+      ],
+      "four_native_layers": true,
+      "live_width_driver_roundtrip": true,
+      "vascular_attachment_constraint": "UNRESOLVED;539 !=264",
+      "limits": "Affine template deformation; reference-mm texture/relief stretches under F. No new scatter/topology/histology."
+    }
+  },
+  "cross_layer": {
+    "elongated": {
+      "MATCHED": {
+        "pixel_identical": true,
+        "candidate": {
+          "cap_plane_error_mm": 1.655684617185571e-06,
+          "sha256": "fb8f092cb82db9095c50dfaadf67f5d3c4cafd34278eecdfa62d550c25a14433",
+          "vertices": 35747,
+          "refresh_count": 2,
+          "layer": "MATCHED",
+          "case": "candidate",
+          "source_sha256": "4bbb4313111b0e19ffa31ba701bee5dfa66246effb31347bb1a031dfdc0cda2f",
+          "elapsed_seconds": 8.018332791980356,
+          "peak_rss_bytes": 983187456
+        },
+        "control": {
+          "cap_plane_error_mm": 1.655684617185571e-06,
+          "sha256": "387d0b4637026ebf5328db6aa54ea8cc156550cec2635f36e1f5dbfe1f0adb91",
+          "vertices": 35747,
+          "refresh_count": 1,
+          "layer": "MATCHED",
+          "case": "control",
+          "source_sha256": "4bbb4313111b0e19ffa31ba701bee5dfa66246effb31347bb1a031dfdc0cda2f",
+          "elapsed_seconds": 6.557181749958545,
+          "peak_rss_bytes": 964657152
+        }
+      },
+      "FLESH ONLY": {
+        "pixel_identical": true,
+        "candidate": {
+          "cap_plane_error_mm": 1.655684617185571e-06,
+          "sha256": "8396043ebf7e56d9dbd18efe8fc929c2157035dd6a431b98bf635f45fadae206",
+          "vertices": 35747,
+          "refresh_count": 2,
+          "layer": "FLESH ONLY",
+          "case": "candidate",
+          "source_sha256": "4bbb4313111b0e19ffa31ba701bee5dfa66246effb31347bb1a031dfdc0cda2f",
+          "elapsed_seconds": 8.006110499612987,
+          "peak_rss_bytes": 975355904
+        },
+        "control": {
+          "cap_plane_error_mm": 1.655684617185571e-06,
+          "sha256": "c0f30e359071a184d9115b8c3c5b40d469b3cf34e0c38fc66160178857c74208",
+          "vertices": 35747,
+          "refresh_count": 1,
+          "layer": "FLESH ONLY",
+          "case": "control",
+          "source_sha256": "4bbb4313111b0e19ffa31ba701bee5dfa66246effb31347bb1a031dfdc0cda2f",
+          "elapsed_seconds": 6.566910124849528,
+          "peak_rss_bytes": 966639616
+        }
+      }
+    },
+    "round": {
+      "MATCHED": {
+        "pixel_identical": true,
+        "candidate": {
+          "cap_plane_error_mm": 1.9868215406226852e-06,
+          "sha256": "fdbc362b1440eef265ac4229d7c1f60b18d2e36f316eb1098f5ebed5bab5588d",
+          "vertices": 35747,
+          "refresh_count": 2,
+          "layer": "MATCHED",
+          "case": "candidate",
+          "source_sha256": "509adc2b40714ea34e9066ff7e589a523e66048b722264d6009020ab654b18bd",
+          "elapsed_seconds": 8.055763541720808,
+          "peak_rss_bytes": 980631552
+        },
+        "control": {
+          "cap_plane_error_mm": 1.9868215406226852e-06,
+          "sha256": "77d59a9bbb9f20f4c71ff3b7a273673b7fa91c956e3fe1fc1f5b07b5c282ae97",
+          "vertices": 35747,
+          "refresh_count": 1,
+          "layer": "MATCHED",
+          "case": "control",
+          "source_sha256": "509adc2b40714ea34e9066ff7e589a523e66048b722264d6009020ab654b18bd",
+          "elapsed_seconds": 6.564729375299066,
+          "peak_rss_bytes": 964558848
+        }
+      },
+      "FLESH ONLY": {
+        "pixel_identical": true,
+        "candidate": {
+          "cap_plane_error_mm": 1.9868215406226852e-06,
+          "sha256": "7ec5cb713dc910e85d37067e3062b17149cba4f4d6b3028a4aceb724482aeaae",
+          "vertices": 35747,
+          "refresh_count": 2,
+          "layer": "FLESH ONLY",
+          "case": "candidate",
+          "source_sha256": "509adc2b40714ea34e9066ff7e589a523e66048b722264d6009020ab654b18bd",
+          "elapsed_seconds": 8.00562975043431,
+          "peak_rss_bytes": 975306752
+        },
+        "control": {
+          "cap_plane_error_mm": 1.9868215406226852e-06,
+          "sha256": "07cbeba2a2d213558d9dcc38a943f5456b7b244e6396be617b66f0988dcef4d8",
+          "vertices": 35747,
+          "refresh_count": 1,
+          "layer": "FLESH ONLY",
+          "case": "control",
+          "source_sha256": "509adc2b40714ea34e9066ff7e589a523e66048b722264d6009020ab654b18bd",
+          "elapsed_seconds": 6.568337291944772,
+          "peak_rss_bytes": 965738496
+        }
+      }
+    }
+  },
+  "render_receipts": {
+    "elongated-whole": {
+      "source_sha256": "4bbb4313111b0e19ffa31ba701bee5dfa66246effb31347bb1a031dfdc0cda2f",
+      "frame": "whole",
+      "context": {
+        "context_class": "fruit_platform.FruitContext",
+        "detail": "preview",
+        "instance_id": "unified-elongated",
+        "limits": "Affine morph only. Seed count/distribution and tissue synthesis are not regenerated. Reference-mm relief wavelengths/depths stretch with F.",
+        "mapping": "F(x,y,z)=(width*x,width*y,height*z)",
+        "measured_specimen_reference_mm": {
+          "height": 48.0,
+          "width": 32.5
+        },
+        "recipe": {
+          "emitter": "pr34_shared_affine",
+          "evidence": "ARTIST_SHARED_MAPPING",
+          "organ_id": "pr34_affine_bundle",
+          "params": {
+            "height_factor": 1.15,
+            "width_factor": 0.8
+          }
+        },
+        "research_plan_digest": "8c7ba1c976876c83c45ebad60653f19c51bae7788b6a2d3f6aec3e7973d6bee5",
+        "seed": 1729,
+        "vascular_connection_constraint": "UNRESOLVED:539diagnostic endpoints !=264achenes"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 10.677276583388448,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          0.7999998927116394,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.7999998927116394,
+          0.0,
+          -1.2799999713897705
+        ],
+        [
+          0.0,
+          0.0,
+          1.149999737739563,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "90186d5acc0f3158978793a635f190a83bd88cc7f1e725f8558ad40b4a08b142"
+    },
+    "round-whole": {
+      "source_sha256": "509adc2b40714ea34e9066ff7e589a523e66048b722264d6009020ab654b18bd",
+      "frame": "whole",
+      "context": {
+        "context_class": "fruit_platform.FruitContext",
+        "detail": "preview",
+        "instance_id": "unified-round",
+        "limits": "Affine morph only. Seed count/distribution and tissue synthesis are not regenerated. Reference-mm relief wavelengths/depths stretch with F.",
+        "mapping": "F(x,y,z)=(width*x,width*y,height*z)",
+        "measured_specimen_reference_mm": {
+          "height": 48.0,
+          "width": 32.5
+        },
+        "recipe": {
+          "emitter": "pr34_shared_affine",
+          "evidence": "ARTIST_SHARED_MAPPING",
+          "organ_id": "pr34_affine_bundle",
+          "params": {
+            "height_factor": 0.9,
+            "width_factor": 1.1
+          }
+        },
+        "research_plan_digest": "e3f3356bddeebfddd9035aa2950e065108cdf60d3170f152051eb3f85a22ac48",
+        "seed": 1729,
+        "vascular_connection_constraint": "UNRESOLVED:539diagnostic endpoints !=264achenes"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 15.43552116677165,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          1.100000023841858,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.100000023841858,
+          0.0,
+          -1.7600001096725464
+        ],
+        [
+          0.0,
+          0.0,
+          0.8999999761581421,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "627a0ac6df952f95c5ae7787d61d52d5938163eca6a235e3102d0839b0fed0c0"
+    },
+    "round-cut": {
+      "source_sha256": "509adc2b40714ea34e9066ff7e589a523e66048b722264d6009020ab654b18bd",
+      "frame": "cut",
+      "context": {
+        "context_class": "fruit_platform.FruitContext",
+        "detail": "preview",
+        "instance_id": "unified-round",
+        "limits": "Affine morph only. Seed count/distribution and tissue synthesis are not regenerated. Reference-mm relief wavelengths/depths stretch with F.",
+        "mapping": "F(x,y,z)=(width*x,width*y,height*z)",
+        "measured_specimen_reference_mm": {
+          "height": 48.0,
+          "width": 32.5
+        },
+        "recipe": {
+          "emitter": "pr34_shared_affine",
+          "evidence": "ARTIST_SHARED_MAPPING",
+          "organ_id": "pr34_affine_bundle",
+          "params": {
+            "height_factor": 0.9,
+            "width_factor": 1.1
+          }
+        },
+        "research_plan_digest": "e3f3356bddeebfddd9035aa2950e065108cdf60d3170f152051eb3f85a22ac48",
+        "seed": 1729,
+        "vascular_connection_constraint": "UNRESOLVED:539diagnostic endpoints !=264achenes"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 16.62042770907283,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          1.0125553607940674,
+          0.4298042356967926,
+          0.0,
+          0.0
+        ],
+        [
+          -0.4298042356967926,
+          1.0125553607940674,
+          0.0,
+          -0.11000000685453415
+        ],
+        [
+          0.0,
+          0.0,
+          0.8999999761581421,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "dfdec1038082980a2372c8a721960fa10237eabd528a9acfa8b853cef8058024"
+    },
+    "elongated-cut": {
+      "source_sha256": "4bbb4313111b0e19ffa31ba701bee5dfa66246effb31347bb1a031dfdc0cda2f",
+      "frame": "cut",
+      "context": {
+        "context_class": "fruit_platform.FruitContext",
+        "detail": "preview",
+        "instance_id": "unified-elongated",
+        "limits": "Affine morph only. Seed count/distribution and tissue synthesis are not regenerated. Reference-mm relief wavelengths/depths stretch with F.",
+        "mapping": "F(x,y,z)=(width*x,width*y,height*z)",
+        "measured_specimen_reference_mm": {
+          "height": 48.0,
+          "width": 32.5
+        },
+        "recipe": {
+          "emitter": "pr34_shared_affine",
+          "evidence": "ARTIST_SHARED_MAPPING",
+          "organ_id": "pr34_affine_bundle",
+          "params": {
+            "height_factor": 1.15,
+            "width_factor": 0.8
+          }
+        },
+        "research_plan_digest": "8c7ba1c976876c83c45ebad60653f19c51bae7788b6a2d3f6aec3e7973d6bee5",
+        "seed": 1729,
+        "vascular_connection_constraint": "UNRESOLVED:539diagnostic endpoints !=264achenes"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 14.988933625165373,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          0.7364038825035095,
+          0.31258490681648254,
+          0.0,
+          0.0
+        ],
+        [
+          -0.31258490681648254,
+          0.7364038825035095,
+          0.0,
+          -0.08000000566244125
+        ],
+        [
+          0.0,
+          0.0,
+          1.149999976158142,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "d80b9348fea3ddbcd39d3f40e9702413067d2b6dabb061bbb8850f42d900d1d8"
+    },
+    "elongated-oblique": {
+      "source_sha256": "4bbb4313111b0e19ffa31ba701bee5dfa66246effb31347bb1a031dfdc0cda2f",
+      "frame": "oblique",
+      "context": {
+        "context_class": "fruit_platform.FruitContext",
+        "detail": "preview",
+        "instance_id": "unified-elongated",
+        "limits": "Affine morph only. Seed count/distribution and tissue synthesis are not regenerated. Reference-mm relief wavelengths/depths stretch with F.",
+        "mapping": "F(x,y,z)=(width*x,width*y,height*z)",
+        "measured_specimen_reference_mm": {
+          "height": 48.0,
+          "width": 32.5
+        },
+        "recipe": {
+          "emitter": "pr34_shared_affine",
+          "evidence": "ARTIST_SHARED_MAPPING",
+          "organ_id": "pr34_affine_bundle",
+          "params": {
+            "height_factor": 1.15,
+            "width_factor": 0.8
+          }
+        },
+        "research_plan_digest": "8c7ba1c976876c83c45ebad60653f19c51bae7788b6a2d3f6aec3e7973d6bee5",
+        "seed": 1729,
+        "vascular_connection_constraint": "UNRESOLVED:539diagnostic endpoints !=264achenes"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 15.986722250003368,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          0.6784384846687317,
+          -0.3707822561264038,
+          0.20552797615528107,
+          0.0
+        ],
+        [
+          0.4239354133605957,
+          0.5933756828308105,
+          -0.32891350984573364,
+          0.06400000303983688
+        ],
+        [
+          0.0,
+          0.5575310587882996,
+          1.005812644958496,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "8f208815e827b330b34193be6e6986d03a4ee36a5453de7c8a92bfdcb5b5347c"
+    },
+    "round-oblique": {
+      "source_sha256": "509adc2b40714ea34e9066ff7e589a523e66048b722264d6009020ab654b18bd",
+      "frame": "oblique",
+      "context": {
+        "context_class": "fruit_platform.FruitContext",
+        "detail": "preview",
+        "instance_id": "unified-round",
+        "limits": "Affine morph only. Seed count/distribution and tissue synthesis are not regenerated. Reference-mm relief wavelengths/depths stretch with F.",
+        "mapping": "F(x,y,z)=(width*x,width*y,height*z)",
+        "measured_specimen_reference_mm": {
+          "height": 48.0,
+          "width": 32.5
+        },
+        "recipe": {
+          "emitter": "pr34_shared_affine",
+          "evidence": "ARTIST_SHARED_MAPPING",
+          "organ_id": "pr34_affine_bundle",
+          "params": {
+            "height_factor": 0.9,
+            "width_factor": 1.1
+          }
+        },
+        "research_plan_digest": "e3f3356bddeebfddd9035aa2950e065108cdf60d3170f152051eb3f85a22ac48",
+        "seed": 1729,
+        "vascular_connection_constraint": "UNRESOLVED:539diagnostic endpoints !=264achenes"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 12.468929625116289,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          0.9328529238700867,
+          -0.509825587272644,
+          0.2826009690761566,
+          0.0
+        ],
+        [
+          0.5829111933708191,
+          0.8158915638923645,
+          -0.45225608348846436,
+          0.08799999952316284
+        ],
+        [
+          0.0,
+          0.436328649520874,
+          0.7871577143669128,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "81c169b2683a5b65dd2d9ab2ae05ad89797727a53eca3365488400525c451747"
+    }
+  },
+  "full_drive_readback_sha256": {
+    "round.blend": "509adc2b40714ea34e9066ff7e589a523e66048b722264d6009020ab654b18bd",
+    "elongated.blend": "4bbb4313111b0e19ffa31ba701bee5dfa66246effb31347bb1a031dfdc0cda2f",
+    "elongated-cut.png": "d80b9348fea3ddbcd39d3f40e9702413067d2b6dabb061bbb8850f42d900d1d8",
+    "elongated-oblique.png": "8f208815e827b330b34193be6e6986d03a4ee36a5453de7c8a92bfdcb5b5347c",
+    "round-cut.png": "dfdec1038082980a2372c8a721960fa10237eabd528a9acfa8b853cef8058024",
+    "round-whole.png": "627a0ac6df952f95c5ae7787d61d52d5938163eca6a235e3102d0839b0fed0c0",
+    "comparison.png": "85277640add2a06a7232cf62241898b421ef12488a0a4b20a36be8e782f31827",
+    "elongated-whole.png": "90186d5acc0f3158978793a635f190a83bd88cc7f1e725f8558ad40b4a08b142",
+    "round-oblique.png": "81c169b2683a5b65dd2d9ab2ae05ad89797727a53eca3365488400525c451747"
+  },
+  "downloaded_scenes_reopened_and_validated": true,
+  "tests": {
+    "repository": 107,
+    "inherited_atlas_and_receipts": 8,
+    "new_context": 5
+  },
+  "private_folder": "https://drive.google.com/drive/folders/1ELh4EIMLCPIictDQvd4wkvLlOwYuDsoX",
+  "vascular_attachment": "FAIL/UNRESOLVED:539 !=264",
+  "visual_status": "Distinct coherent silhouettes; no realism claim. Inherited waxy skin and pale/angular pit rims persist.",
+  "scope": "Affine template adapter around existing FruitContext; not new scatter, topology, cells, or physical-scale-invariant tissue generation."
+}
