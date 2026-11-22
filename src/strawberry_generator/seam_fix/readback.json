@@ -1,0 +1,9 @@
+{
+  "archive_sha256": "ae71c821990f8ea606b907ef12fb333cccb4025db3a73f631e393546b96c4359",
+  "bytes": 60056770,
+  "all_archive_members_verified": 85,
+  "scene_readback_reopened_QA": {
+    "101": "PASS",
+    "202": "PASS"
+  }
+}

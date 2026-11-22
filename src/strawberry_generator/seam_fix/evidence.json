@@ -1,0 +1,380 @@
+{
+  "base_PR": 40,
+  "base_head": "229826fe54d73a59702f0f22139d4db9e643b2ea",
+  "physical_rest_y_bias_mm": 0.001,
+  "scope": "Tested recipes and poses only; nominal Y=0 without delta remains defective",
+  "tests": {
+    "existing": 124,
+    "physical_metric_regressions": 3
+  },
+  "private_folder": "https://drive.google.com/drive/folders/1wcZlmCYQZ2hZ6qLhCetdhh8W-lgSoMs2",
+  "private_archive": {
+    "url": "https://drive.google.com/file/d/1Y0_th1dDi-le1ockQ-bVBKNpvlU2WEYL/view",
+    "sha256": "ae71c821990f8ea606b907ef12fb333cccb4025db3a73f631e393546b96c4359",
+    "detailed_evidence_path": "source/seam_fix/evidence.json"
+  },
+  "seeds": {
+    "101": {
+      "scene_sha256": "24ed79734a09251c0605d936931d7db79b726939cb33f18f02f279748e16b6f6",
+      "full_download_sha256": "24ed79734a09251c0605d936931d7db79b726939cb33f18f02f279748e16b6f6",
+      "reopened_QA_status": "PASS_NONLINEAR_EXACT",
+      "contacts": {
+        "count": 264,
+        "minimum_intersecting_triangle_pairs": 81
+      },
+      "artist_endpoint_max_error_mm": 0.0,
+      "A_B_A_max_coordinate_error": 0.0,
+      "source_geometry_equal": true,
+      "source_materials_equal": true,
+      "fresh_CLI_anchor_body_digests_match_PR40": true,
+      "cross_layer_pixels_identical": {
+        "MATCHED": true,
+        "FLESH ONLY": true
+      },
+      "poses": [
+        {
+          "requested_pose": [
+            0,
+            0,
+            0
+          ],
+          "physical_knife_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              4.5000000682193786e-05
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "physical_rest_y_bias_mm": 0.001,
+          "max_displacement_mm": 0.14407695102546836,
+          "Fast_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 1.7739982054826977
+          },
+          "Exact_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 1.780708136664151
+          }
+        },
+        {
+          "requested_pose": [
+            -0.26,
+            0,
+            0
+          ],
+          "physical_knife_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2599549889564514
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "physical_rest_y_bias_mm": 0.001,
+          "max_displacement_mm": 0.14353328628535778,
+          "Fast_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 2.493766348198339
+          },
+          "Exact_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 2.500237905330194
+          }
+        },
+        {
+          "requested_pose": [
+            0.08,
+            29,
+            32
+          ],
+          "physical_knife_matrix": [
+            [
+              0.8480480909347534,
+              -0.46347782015800476,
+              0.25690996646881104,
+              0.0
+            ],
+            [
+              0.5299192667007446,
+              0.7417196035385132,
+              -0.41114187240600586,
+              0.08004499971866608
+            ],
+            [
+              0.0,
+              0.48480960726737976,
+              0.874619722366333,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "physical_rest_y_bias_mm": 0.001,
+          "max_displacement_mm": 0.14360712981928425,
+          "Fast_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 1.798737300526603
+          },
+          "Exact_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 1.8054541093358234
+          }
+        }
+      ]
+    },
+    "202": {
+      "scene_sha256": "960672859d162b36160e1d029536e7b1a7627f8b0691bc3610e6a69203f79355",
+      "full_download_sha256": "960672859d162b36160e1d029536e7b1a7627f8b0691bc3610e6a69203f79355",
+      "reopened_QA_status": "PASS_NONLINEAR_EXACT",
+      "contacts": {
+        "count": 264,
+        "minimum_intersecting_triangle_pairs": 79
+      },
+      "artist_endpoint_max_error_mm": 0.0,
+      "A_B_A_max_coordinate_error": 0.0,
+      "source_geometry_equal": true,
+      "source_materials_equal": true,
+      "fresh_CLI_anchor_body_digests_match_PR40": true,
+      "cross_layer_pixels_identical": {
+        "MATCHED": true,
+        "FLESH ONLY": true
+      },
+      "poses": [
+        {
+          "requested_pose": [
+            0,
+            0,
+            0
+          ],
+          "physical_knife_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              4.5000000682193786e-05
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "physical_rest_y_bias_mm": 0.001,
+          "max_displacement_mm": 0.15138923039712415,
+          "Fast_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 1.4807246289531932
+          },
+          "Exact_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 1.4866944058517868
+          }
+        },
+        {
+          "requested_pose": [
+            -0.26,
+            0,
+            0
+          ],
+          "physical_knife_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2599549889564514
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "physical_rest_y_bias_mm": 0.001,
+          "max_displacement_mm": 0.17430186693728755,
+          "Fast_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 2.1111835143591486
+          },
+          "Exact_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 2.1171407684817516
+          }
+        },
+        {
+          "requested_pose": [
+            0.08,
+            29,
+            32
+          ],
+          "physical_knife_matrix": [
+            [
+              0.8480480909347534,
+              -0.46347782015800476,
+              0.25690996646881104,
+              0.0
+            ],
+            [
+              0.5299192667007446,
+              0.7417196035385132,
+              -0.41114187240600586,
+              0.08004499971866608
+            ],
+            [
+              0.0,
+              0.48480960726737976,
+              0.874619722366333,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "physical_rest_y_bias_mm": 0.001,
+          "max_displacement_mm": 0.1511093679566755,
+          "Fast_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 1.3625479493769341
+          },
+          "Exact_zero_audit": {
+            "zero_edges_all": 0,
+            "zero_seam_edges": 0,
+            "zero_polygon_faces": 0,
+            "zero_render_triangles": 0,
+            "closed_connected_positive": true,
+            "volume": 1.3685662753972758
+          }
+        }
+      ]
+    }
+  },
+  "original_CDT_unchanged": {
+    "101": {
+      "runtime_only_panel_label_changed": true,
+      "original_CDT_and_make_mesh_AST_sha256": {
+        "cap_patch": "6ad18e4788774a4e76801f94d9f041731587856871b0ec1994564eb32608ec61",
+        "make_mesh": "bcd1d9a834df8dd3e3aa7f403caf346d8024d75169e47cee31a33a6c1045098c"
+      }
+    },
+    "202": {
+      "runtime_only_panel_label_changed": true,
+      "original_CDT_and_make_mesh_AST_sha256": {
+        "cap_patch": "6ad18e4788774a4e76801f94d9f041731587856871b0ec1994564eb32608ec61",
+        "make_mesh": "bcd1d9a834df8dd3e3aa7f403caf346d8024d75169e47cee31a33a6c1045098c"
+      }
+    }
+  }
+}
