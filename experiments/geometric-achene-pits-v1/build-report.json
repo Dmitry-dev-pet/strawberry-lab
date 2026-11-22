@@ -1,0 +1,38 @@
+{
+  "original_vertices": 30242,
+  "original_triangles": 60480,
+  "vertices": 38903,
+  "faces": 63898,
+  "triangles": 77802,
+  "split_edge_counts": [
+    8553,
+    108
+  ],
+  "displaced_vertices": 8763,
+  "vertex_displacement_mm": {
+    "min": 4.486818790660579e-15,
+    "median": 0.0793138744235718,
+    "max": 0.20981858399058156
+  },
+  "center_depth_mm": {
+    "min": 0.15203121758017524,
+    "median": 0.18557665685139355,
+    "max": 0.20951308306421051
+  },
+  "seat_lift_mm": {
+    "min": 0.0,
+    "median": 0.0,
+    "max": 0.022151489257812497
+  },
+  "adjusted_achenes": 37,
+  "original_volume_bu3": 2.925810412078801,
+  "pitted_volume_bu3": 2.9214004250400385,
+  "refined_base_volume_bu3": 2.925810530178648,
+  "source_sha256": "0f552c79054dec8ca82d2891bc2b5d6930eef64bc545e8188d808b946e1c66e2",
+  "scene_sha256": "24a3f7a2b9b157aac3b5a8aa30aa1b84d2404be64df67f74705665de3dbf74b4",
+  "builder_sha256": "fdf7e6167d6adcd3a736308f944eff7432a17406832c15f5048444d1a8660070",
+  "geometry_seconds": 0.7842819173820317,
+  "build_seconds": 2.3065315829589963,
+  "peak_rss_bytes": 485212160,
+  "blender": "5.2.2 LTS"
+}
