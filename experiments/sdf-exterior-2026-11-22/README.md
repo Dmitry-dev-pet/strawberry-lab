@@ -84,3 +84,8 @@ $B -b --disable-autoexec --python experiments/sdf-exterior-2026-11-22/validate_v
 $B -b --disable-autoexec --python experiments/sdf-exterior-2026-11-22/render_v7.py
 $B -b --disable-autoexec --python experiments/sdf-exterior-2026-11-22/make_v7_comparison.py
 ```
+
+
+## V8: corrected exact coordinate lookup for author-inspired cut cells
+
+**V8 supersedes V7**. V7 smoothstepped atlas normalized XYZ in GN, causing a mismatch with shader sampling; v8 uses the same linear clamp and XYZ mapping for both. [V8 full report](v8-author-cut-cells-review.md), tested Blender QA, real Cycles images. Same 192^3 source and original v4 SDF cutter, only exposed-cut Voronoi microgeometry flattened over the exact shared vascular field. No 3D biological cell membranes. Engineering PASS tested four poses, **visual Frucht acceptance FAIL**. GitHub remains a draft: do not merge to main without visual acceptance.
