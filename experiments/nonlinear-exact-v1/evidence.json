@@ -1,0 +1,908 @@
+{
+  "status": "PASS_NONLINEAR_EXACT",
+  "source_base": "a42a44b12da8f9208e79802daa4aa8e5f334821b",
+  "downloaded_scenes_reopened": true,
+  "qa": {
+    "shouldered": {
+      "status": "PASS_NONLINEAR_EXACT",
+      "source_geometry_equal": true,
+      "source_materials_equal": true,
+      "double_activation": true,
+      "callback_move_rotation": true,
+      "four_layers": true,
+      "zero_controls_flat": true,
+      "error_fallback": true,
+      "save_reopen_fast": true,
+      "poses": [
+        {
+          "vertices": 42616,
+          "triangles": 85228,
+          "cap_faces": 46321,
+          "nonmanifold_edges": 0,
+          "connected_components": 1,
+          "volume_model_units_cubed": 1.7811837790177005,
+          "min_displacement_mm": 0.0,
+          "max_displacement_mm": 0.16049845532789803,
+          "mean_displacement_mm": 0.05205867378420499,
+          "displaced_cap_vertices_over_0_01_mm": 22215,
+          "max_undeformed_plane_error_model_units": 1.0479403300678314e-07,
+          "max_tangential_drift_model_units": 0.0,
+          "samples": [
+            {
+              "physical_source": [
+                -0.5372800230979919,
+                0.0,
+                -0.5500041842460632
+              ],
+              "reference_rest": [
+                -0.5911835432052612,
+                0.0,
+                -0.5092631578445435
+              ],
+              "atlas_green": 0.017148505804690486
+            },
+            {
+              "physical_source": [
+                -0.5345999598503113,
+                0.0,
+                -0.14731091260910034
+              ],
+              "reference_rest": [
+                -0.5883841514587402,
+                0.0,
+                -0.13639898598194122
+              ],
+              "atlas_green": 0.05103873316111174
+            },
+            {
+              "physical_source": [
+                -0.2065500020980835,
+                0.0,
+                0.3998439311981201
+              ],
+              "reference_rest": [
+                -0.1728842854499817,
+                0.0,
+                0.3702258765697479
+              ],
+              "atlas_green": 0.31408416992679566
+            }
+          ],
+          "refresh_seconds": 0.7740785423666239
+        },
+        {
+          "vertices": 45567,
+          "triangles": 91130,
+          "cap_faces": 46050,
+          "nonmanifold_edges": 0,
+          "connected_components": 1,
+          "volume_model_units_cubed": 2.037180014117528,
+          "min_displacement_mm": 0.0,
+          "max_displacement_mm": 0.1486137545331917,
+          "mean_displacement_mm": 0.052068245033742494,
+          "displaced_cap_vertices_over_0_01_mm": 21911,
+          "max_undeformed_plane_error_model_units": 6.705522537231445e-08,
+          "max_tangential_drift_model_units": 1.1920928955078125e-07,
+          "samples": [
+            {
+              "physical_source": [
+                -0.49601811170578003,
+                0.11054717004299164,
+                -0.5817709565162659
+              ],
+              "reference_rest": [
+                -0.5415030121803284,
+                0.12068434804677963,
+                -0.5386767983436584
+              ],
+              "atlas_green": 0.01719289221571883
+            },
+            {
+              "physical_source": [
+                0.6151273250579834,
+                -0.3611060678958893,
+                -0.168355330824852
+              ],
+              "reference_rest": [
+                0.6812576651573181,
+                -0.39992740750312805,
+                -0.15588456392288208
+              ],
+              "atlas_green": 0.01568627543747425
+            },
+            {
+              "physical_source": [
+                -0.6095353364944458,
+                0.15873238444328308,
+                0.3893217146396637
+              ],
+              "reference_rest": [
+                -0.5121840834617615,
+                0.13338062167167664,
+                0.3604830801486969
+              ],
+              "atlas_green": 0.09946409666604704
+            }
+          ],
+          "refresh_seconds": 1.5926802917383611
+        },
+        {
+          "vertices": 37379,
+          "triangles": 74754,
+          "cap_faces": 42405,
+          "nonmanifold_edges": 0,
+          "connected_components": 1,
+          "volume_model_units_cubed": 1.805784657231217,
+          "min_displacement_mm": 0.0,
+          "max_displacement_mm": 0.15867650893106044,
+          "mean_displacement_mm": 0.05629988287623866,
+          "displaced_cap_vertices_over_0_01_mm": 20332,
+          "max_undeformed_plane_error_model_units": 1.30385160446167e-07,
+          "max_tangential_drift_model_units": 1.3328003749250113e-07,
+          "samples": [
+            {
+              "physical_source": [
+                -0.7830972075462341,
+                -0.5135087966918945,
+                0.1593797355890274
+              ],
+              "reference_rest": [
+                -0.743048369884491,
+                -0.48724713921546936,
+                0.1475738286972046
+              ],
+              "atlas_green": 0.016476927344712705
+            },
+            {
+              "physical_source": [
+                -0.13150055706501007,
+                0.0038446341641247272,
+                -0.009202929213643074
+              ],
+              "reference_rest": [
+                -0.1368783712387085,
+                0.0040018633008003235,
+                -0.008521230891346931
+              ],
+              "atlas_green": 0.26049622317141957
+            },
+            {
+              "physical_source": [
+                -0.0277581587433815,
+                -0.208033949136734,
+                0.41413190960884094
+              ],
+              "reference_rest": [
+                -0.023119477555155754,
+                -0.17326927185058594,
+                0.3834554851055145
+              ],
+              "atlas_green": 0.3329046679169634
+            }
+          ],
+          "refresh_seconds": 1.5161599172279239
+        }
+      ],
+      "sha256": "e30f4c9b34fbc0f7b8235ce7f9452645b9e31781eb27b14f7905c962fcc56450"
+    },
+    "waisted": {
+      "status": "PASS_NONLINEAR_EXACT",
+      "source_geometry_equal": true,
+      "source_materials_equal": true,
+      "double_activation": true,
+      "callback_move_rotation": true,
+      "four_layers": true,
+      "zero_controls_flat": true,
+      "error_fallback": true,
+      "save_reopen_fast": true,
+      "poses": [
+        {
+          "vertices": 39728,
+          "triangles": 79452,
+          "cap_faces": 40545,
+          "nonmanifold_edges": 0,
+          "connected_components": 1,
+          "volume_model_units_cubed": 1.4869604534906722,
+          "min_displacement_mm": 0.0,
+          "max_displacement_mm": 0.15950333713282522,
+          "mean_displacement_mm": 0.05208149097252484,
+          "displaced_cap_vertices_over_0_01_mm": 19435,
+          "max_undeformed_plane_error_model_units": 1.0700716046585512e-07,
+          "max_tangential_drift_model_units": 0.0,
+          "samples": [
+            {
+              "physical_source": [
+                -0.5207142233848572,
+                0.0,
+                -0.6307705044746399
+              ],
+              "reference_rest": [
+                -0.48163652420043945,
+                0.0,
+                -0.6570526361465454
+              ],
+              "atlas_green": 0.02239755330160917
+            },
+            {
+              "physical_source": [
+                -0.3219749927520752,
+                0.0,
+                -0.24201078712940216
+              ],
+              "reference_rest": [
+                -0.27380916476249695,
+                0.0,
+                -0.252094566822052
+              ],
+              "atlas_green": 0.0916761287523275
+            },
+            {
+              "physical_source": [
+                -0.7472249865531921,
+                0.0,
+                0.24201078712940216
+              ],
+              "reference_rest": [
+                -0.7848168015480042,
+                0.0,
+                0.252094566822052
+              ],
+              "atlas_green": 0.018868995500009336
+            }
+          ],
+          "refresh_seconds": 0.6383918751962483
+        },
+        {
+          "vertices": 42729,
+          "triangles": 85454,
+          "cap_faces": 40430,
+          "nonmanifold_edges": 0,
+          "connected_components": 1,
+          "volume_model_units_cubed": 1.711221854176122,
+          "min_displacement_mm": 0.0,
+          "max_displacement_mm": 0.16738706570207373,
+          "mean_displacement_mm": 0.05232612237027591,
+          "displaced_cap_vertices_over_0_01_mm": 19136,
+          "max_undeformed_plane_error_model_units": 6.705522537231445e-08,
+          "max_tangential_drift_model_units": 1.1920928955078125e-07,
+          "samples": [
+            {
+              "physical_source": [
+                -0.4703255593776703,
+                0.09964132308959961,
+                -0.6483101844787598
+              ],
+              "reference_rest": [
+                -0.4376641511917114,
+                0.09272180497646332,
+                -0.6753231287002563
+              ],
+              "atlas_green": 0.023506936309728867
+            },
+            {
+              "physical_source": [
+                -0.1789461374282837,
+                -0.02404186874628067,
+                -0.2525329887866974
+              ],
+              "reference_rest": [
+                -0.15201924741268158,
+                -0.020424172282218933,
+                -0.2630552053451538
+              ],
+              "atlas_green": 0.29730940033841796
+            },
+            {
+              "physical_source": [
+                0.28519541025161743,
+                -0.22105827927589417,
+                0.2209663838148117
+              ],
+              "reference_rest": [
+                0.29626232385635376,
+                -0.22963638603687286,
+                0.23017331957817078
+              ],
+              "atlas_green": 0.03698036726617747
+            }
+          ],
+          "refresh_seconds": 1.1937655000947416
+        },
+        {
+          "vertices": 36147,
+          "triangles": 72290,
+          "cap_faces": 38164,
+          "nonmanifold_edges": 0,
+          "connected_components": 1,
+          "volume_model_units_cubed": 1.3688494464535848,
+          "min_displacement_mm": 0.0,
+          "max_displacement_mm": 0.15603693373011235,
+          "mean_displacement_mm": 0.056535642357125986,
+          "displaced_cap_vertices_over_0_01_mm": 18254,
+          "max_undeformed_plane_error_model_units": 1.1548399925231934e-07,
+          "max_tangential_drift_model_units": 1.3328003749250113e-07,
+          "samples": [
+            {
+              "physical_source": [
+                -0.7855232357978821,
+                -0.2196979969739914,
+                -0.2924463152885437
+              ],
+              "reference_rest": [
+                -0.6661697626113892,
+                -0.18631678819656372,
+                -0.3046315908432007
+              ],
+              "atlas_green": 0.024765959132882404
+            },
+            {
+              "physical_source": [
+                -0.04080352932214737,
+                0.15676330029964447,
+                -0.1564498245716095
+              ],
+              "reference_rest": [
+                -0.035296306014060974,
+                0.1356050670146942,
+                -0.16296856105327606
+              ],
+              "atlas_green": 0.24163258844341848
+            },
+            {
+              "physical_source": [
+                0.05753234773874283,
+                -0.04646303504705429,
+                0.24847914278507233
+              ],
+              "reference_rest": [
+                0.060627151280641556,
+                -0.048962391912937164,
+                0.2588324546813965
+              ],
+              "atlas_green": 0.31754700093649335
+            }
+          ],
+          "refresh_seconds": 1.1719008330255747
+        }
+      ],
+      "sha256": "2cbc0883ca171eaef37753d03ac98f452d92fac5da51695f2d1cf68c311a9874"
+    }
+  },
+  "cross_layer": {
+    "shouldered": {
+      "MATCHED": {
+        "pixel_identical": true,
+        "candidate": {
+          "cap_plane_error_mm": 1.9868215406226852e-06,
+          "sha256": "f4f1d3a2cc21303d3dd1cb3720798842e0cf4098c9cfdb6302d3622c94d6af20",
+          "vertices": 38258,
+          "refresh_count": 2,
+          "layer": "MATCHED",
+          "case": "candidate",
+          "source_sha256": "e30f4c9b34fbc0f7b8235ce7f9452645b9e31781eb27b14f7905c962fcc56450",
+          "elapsed_seconds": 7.889124167151749,
+          "peak_rss_bytes": 895008768
+        },
+        "control": {
+          "cap_plane_error_mm": 1.9868215406226852e-06,
+          "sha256": "b85ce0cbea55421e1097046440537d23dabde6e5484ddcb61403ec185cb16d46",
+          "vertices": 38258,
+          "refresh_count": 1,
+          "layer": "MATCHED",
+          "case": "control",
+          "source_sha256": "e30f4c9b34fbc0f7b8235ce7f9452645b9e31781eb27b14f7905c962fcc56450",
+          "elapsed_seconds": 7.065166040789336,
+          "peak_rss_bytes": 824852480
+        }
+      },
+      "FLESH ONLY": {
+        "pixel_identical": true,
+        "candidate": {
+          "cap_plane_error_mm": 1.9868215406226852e-06,
+          "sha256": "db8780b69b9998d88d33767f3e69ff1e5f91b60009edeaaa6cc8e164ab3a7135",
+          "vertices": 38258,
+          "refresh_count": 2,
+          "layer": "FLESH ONLY",
+          "case": "candidate",
+          "source_sha256": "e30f4c9b34fbc0f7b8235ce7f9452645b9e31781eb27b14f7905c962fcc56450",
+          "elapsed_seconds": 7.867011167109013,
+          "peak_rss_bytes": 931446784
+        },
+        "control": {
+          "cap_plane_error_mm": 1.9868215406226852e-06,
+          "sha256": "4b4f7de024c635e6d83fa201e3864e30e26e7527406f83c93a01df8ba6ac7632",
+          "vertices": 38258,
+          "refresh_count": 1,
+          "layer": "FLESH ONLY",
+          "case": "control",
+          "source_sha256": "e30f4c9b34fbc0f7b8235ce7f9452645b9e31781eb27b14f7905c962fcc56450",
+          "elapsed_seconds": 7.007490375079215,
+          "peak_rss_bytes": 736215040
+        }
+      }
+    },
+    "waisted": {
+      "MATCHED": {
+        "pixel_identical": true,
+        "candidate": {
+          "cap_plane_error_mm": 1.3245476937484568e-06,
+          "sha256": "0fe12ca27dbf4f1e4515168de99cefa473373849c22c99235f7e8ecbcec02dd3",
+          "vertices": 35433,
+          "refresh_count": 2,
+          "layer": "MATCHED",
+          "case": "candidate",
+          "source_sha256": "2cbc0883ca171eaef37753d03ac98f452d92fac5da51695f2d1cf68c311a9874",
+          "elapsed_seconds": 7.802248207852244,
+          "peak_rss_bytes": 895516672
+        },
+        "control": {
+          "cap_plane_error_mm": 1.3245476937484568e-06,
+          "sha256": "634d64d187a8de29e9334795a504ce364cd7a9f73e0fa62be4aee896902b38dd",
+          "vertices": 35433,
+          "refresh_count": 1,
+          "layer": "MATCHED",
+          "case": "control",
+          "source_sha256": "2cbc0883ca171eaef37753d03ac98f452d92fac5da51695f2d1cf68c311a9874",
+          "elapsed_seconds": 7.104845666792244,
+          "peak_rss_bytes": 796409856
+        }
+      },
+      "FLESH ONLY": {
+        "pixel_identical": true,
+        "candidate": {
+          "cap_plane_error_mm": 1.3245476937484568e-06,
+          "sha256": "7e2f427ff55ac7ba92ab8546a1ffe27b2d7f89daef32c82e738682df0223c561",
+          "vertices": 35433,
+          "refresh_count": 2,
+          "layer": "FLESH ONLY",
+          "case": "candidate",
+          "source_sha256": "2cbc0883ca171eaef37753d03ac98f452d92fac5da51695f2d1cf68c311a9874",
+          "elapsed_seconds": 7.790878832805902,
+          "peak_rss_bytes": 896614400
+        },
+        "control": {
+          "cap_plane_error_mm": 1.3245476937484568e-06,
+          "sha256": "d80890c2f235e494a1dd4a6c00cac28afc957d4dec87fd318f494591083b9380",
+          "vertices": 35433,
+          "refresh_count": 1,
+          "layer": "FLESH ONLY",
+          "case": "control",
+          "source_sha256": "2cbc0883ca171eaef37753d03ac98f452d92fac5da51695f2d1cf68c311a9874",
+          "elapsed_seconds": 9.015402750112116,
+          "peak_rss_bytes": 703004672
+        }
+      }
+    }
+  },
+  "tests_existing": 120,
+  "renders": {
+    "shouldered-fast-beauty-cut": {
+      "source_sha256": "e30f4c9b34fbc0f7b8235ce7f9452645b9e31781eb27b14f7905c962fcc56450",
+      "frame": "cut",
+      "quality": "fast",
+      "look": "beauty",
+      "context": {
+        "name": "shouldered",
+        "a": 0.23,
+        "b": -0.12,
+        "h": 1.08,
+        "source_sha256": "e2b93d3d393fd0bc5614932ea09c9b031ede9c263533e7be7cfc18724f8f6d8a",
+        "status": "FAST_ONLY; EXACT_DISABLED"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 9.671988165937364,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          0.9205048680305481,
+          0.3907311260700226,
+          0.0,
+          0.0
+        ],
+        [
+          -0.3907311260700226,
+          0.9205048680305481,
+          0.0,
+          -0.10000000149011612
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "b9b5af02e3ba713db60beff771ca3987c8d0a2b6cf0862ef645d97616117b16f"
+    },
+    "shouldered-exact-beauty-cut": {
+      "source_sha256": "e30f4c9b34fbc0f7b8235ce7f9452645b9e31781eb27b14f7905c962fcc56450",
+      "frame": "cut",
+      "quality": "exact",
+      "look": "beauty",
+      "context": {
+        "name": "shouldered",
+        "a": 0.23,
+        "b": -0.12,
+        "h": 1.08,
+        "source_sha256": "e2b93d3d393fd0bc5614932ea09c9b031ede9c263533e7be7cfc18724f8f6d8a",
+        "status": "FAST_ONLY; EXACT_DISABLED"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 10.944801582954824,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          0.9205048680305481,
+          0.3907311260700226,
+          0.0,
+          0.0
+        ],
+        [
+          -0.3907311260700226,
+          0.9205048680305481,
+          0.0,
+          -0.10000000149011612
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "978f7797c67a66e8e15d1695632357d24125dd328dd667b72ab0094659e23989"
+    },
+    "waisted-fast-beauty-cut": {
+      "source_sha256": "2cbc0883ca171eaef37753d03ac98f452d92fac5da51695f2d1cf68c311a9874",
+      "frame": "cut",
+      "quality": "fast",
+      "look": "beauty",
+      "context": {
+        "name": "waisted",
+        "a": -0.12,
+        "b": 0.18,
+        "h": 0.96,
+        "source_sha256": "e2b93d3d393fd0bc5614932ea09c9b031ede9c263533e7be7cfc18724f8f6d8a",
+        "status": "FAST_ONLY; EXACT_DISABLED"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 12.079487665556371,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          0.9205048680305481,
+          0.3907311260700226,
+          0.0,
+          0.0
+        ],
+        [
+          -0.3907311260700226,
+          0.9205048680305481,
+          0.0,
+          -0.10000000149011612
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "8f7f37f327a25586564e67e281269d202c6799092543192535af943c1b4290a2"
+    },
+    "waisted-exact-beauty-cut": {
+      "source_sha256": "2cbc0883ca171eaef37753d03ac98f452d92fac5da51695f2d1cf68c311a9874",
+      "frame": "cut",
+      "quality": "exact",
+      "look": "beauty",
+      "context": {
+        "name": "waisted",
+        "a": -0.12,
+        "b": 0.18,
+        "h": 0.96,
+        "source_sha256": "e2b93d3d393fd0bc5614932ea09c9b031ede9c263533e7be7cfc18724f8f6d8a",
+        "status": "FAST_ONLY; EXACT_DISABLED"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 13.22289116634056,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          0.9205048680305481,
+          0.3907311260700226,
+          0.0,
+          0.0
+        ],
+        [
+          -0.3907311260700226,
+          0.9205048680305481,
+          0.0,
+          -0.10000000149011612
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "b5c5f62e80e519147f30f63ede0ea06f0108f1f27aba56420d00e705d8bb5b04"
+    },
+    "shouldered-fast-clay-isolated": {
+      "source_sha256": "e30f4c9b34fbc0f7b8235ce7f9452645b9e31781eb27b14f7905c962fcc56450",
+      "frame": "oblique",
+      "quality": "fast",
+      "look": "clay",
+      "context": {
+        "name": "shouldered",
+        "a": 0.23,
+        "b": -0.12,
+        "h": 1.08,
+        "source_sha256": "e2b93d3d393fd0bc5614932ea09c9b031ede9c263533e7be7cfc18724f8f6d8a",
+        "status": "FAST_ONLY; EXACT_DISABLED"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 10.582724791951478,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          0.8480480909347534,
+          -0.46347782015800476,
+          0.25690996646881104,
+          0.0
+        ],
+        [
+          0.5299192667007446,
+          0.7417196035385132,
+          -0.41114187240600586,
+          0.07999999821186066
+        ],
+        [
+          0.0,
+          0.48480960726737976,
+          0.874619722366333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "eb7583e0d1481a7a8782a8ce71da28d9cd0762454b94acd00c892377319cb26a"
+    },
+    "shouldered-exact-clay-isolated": {
+      "source_sha256": "e30f4c9b34fbc0f7b8235ce7f9452645b9e31781eb27b14f7905c962fcc56450",
+      "frame": "oblique",
+      "quality": "exact",
+      "look": "clay",
+      "context": {
+        "name": "shouldered",
+        "a": 0.23,
+        "b": -0.12,
+        "h": 1.08,
+        "source_sha256": "e2b93d3d393fd0bc5614932ea09c9b031ede9c263533e7be7cfc18724f8f6d8a",
+        "status": "FAST_ONLY; EXACT_DISABLED"
+      },
+      "resolution": 750,
+      "samples": 12,
+      "seed": 1729,
+      "seconds": 12.360736291855574,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14214259386062622,
+          0.49000149965286255,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.23961181938648224,
+          -0.8260025382041931,
+          -5.900000095367432
+        ],
+        [
+          -6.5920335856617385e-09,
+          0.960407018661499,
+          0.27860066294670105,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "knife": [
+        [
+          0.8480480909347534,
+          -0.46347782015800476,
+          0.25690996646881104,
+          0.0
+        ],
+        [
+          0.5299192667007446,
+          0.7417196035385132,
+          -0.41114187240600586,
+          0.07999999821186066
+        ],
+        [
+          0.0,
+          0.48480960726737976,
+          0.874619722366333,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "png_sha256": "b9a5c0f16cbafc2e4f804c07d7ceb4df4fb68c4899f0fc31565c04be9210e4fe"
+    }
+  },
+  "comparison_sha256": "3a6f72d433a25727ee798ababe1f23ad844c69def3359a180399c236a7c09b03",
+  "limitations": "ARTIST relief. Old28+539 drives proximity; new28+264 display only. Shape parameters require rebuild."
+}
