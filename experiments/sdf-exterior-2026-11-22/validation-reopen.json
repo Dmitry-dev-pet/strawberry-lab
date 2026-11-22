@@ -1,0 +1,30 @@
+{
+  "status": "REOPEN_WITH_DISABLED_SCRIPTS_PASS",
+  "engine": "5.2.2 LTS",
+  "packed_atlas": true,
+  "atlas_dimensions": [
+    2048,
+    1024
+  ],
+  "scene": {
+    "whole": {
+      "vertices": 157250,
+      "evaluated_vertices": 157250,
+      "nonmanifold_edges": 0,
+      "fruit_rest_on_cut": false
+    },
+    "planar": {
+      "vertices": null,
+      "evaluated_vertices": 48590,
+      "nonmanifold_edges": 0,
+      "fruit_rest_on_cut": true
+    },
+    "bite": {
+      "vertices": null,
+      "evaluated_vertices": 86160,
+      "nonmanifold_edges": 0,
+      "fruit_rest_on_cut": true
+    }
+  },
+  "blend_sha256": "0f155bc62302a991ce0637979a1321d27ec22611c172f974590b9e310f41b2e2"
+}
