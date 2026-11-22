@@ -1,0 +1,41 @@
+{
+  "hypothesis": "not periodic stripes; sparse seed-linked 3D branches + local field-conditioned torn bite lip",
+  "source": "v12",
+  "source_sha256": "300a2bfeaa86831220657b74fe8b00d4d7ec0b42f4ffefca863d6410cbb405b7",
+  "blends": [
+    {
+      "variant": "A",
+      "sha256": "9f75ea3271ffed23481735d352d2dc45a7ecb8cdfdce50101efc6abe95224ee3"
+    },
+    {
+      "variant": "B",
+      "sha256": "8b2a5e122ae69e676a51a58ca149c0d0fd8a5d956bf6ac6ef013908cb684c91d"
+    }
+  ],
+  "atlas_sha256": "3217dbf3e50a8541c8886c8a7f780618bf4f2776a586759f83277810c4fa7a0c",
+  "atlas_shape": [
+    192,
+    192,
+    192
+  ],
+  "atlas_shader_gn_replacements": {
+    "shader": 2,
+    "gn": 2
+  },
+  "seed_anchors_total": 264,
+  "seed_anchors_used": 72,
+  "fibrils_seed_linked": 72,
+  "terminal_branches": 139,
+  "raster_dabs": 9200,
+  "shader_green_blue": "unchanged unquantized values before PNG save",
+  "original_r_global_mean": 0.024578246190988768,
+  "v14_r_global_mean": 0.00842622630079859,
+  "tear_gain_A_B": [
+    0,
+    1
+  ],
+  "tear_rim_coverage_mm": 1.85,
+  "biology": "ARTIST, not validated strawberry histology",
+  "seconds": 6.42,
+  "visual_status": "UNREVIEWED"
+}
