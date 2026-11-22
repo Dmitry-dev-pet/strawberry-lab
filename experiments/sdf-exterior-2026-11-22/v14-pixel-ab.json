@@ -1,0 +1,41 @@
+{
+  "pixels_per_frame": 739600,
+  "comparisons": {
+    "plane:v12-v14a": {
+      "mae_rgb": 0.0016702067805454135,
+      "pct_pixels_over_0_01": 6.494,
+      "pct_pixels_over_0_05": 1.251,
+      "max_rgb_difference": 0.1568627655506134
+    },
+    "plane:v14a-v14b": {
+      "mae_rgb": 0.0,
+      "pct_pixels_over_0_01": 0.0,
+      "pct_pixels_over_0_05": 0.0,
+      "max_rgb_difference": 0.0
+    },
+    "bite:v12-v14a": {
+      "mae_rgb": 0.0008710750262252986,
+      "pct_pixels_over_0_01": 3.693,
+      "pct_pixels_over_0_05": 0.447,
+      "max_rgb_difference": 0.16078433394432068
+    },
+    "bite:v14a-v14b": {
+      "mae_rgb": 0.0006667303387075663,
+      "pct_pixels_over_0_01": 1.69,
+      "pct_pixels_over_0_05": 0.534,
+      "max_rgb_difference": 0.2980392277240753
+    },
+    "macro:v12-v14a": {
+      "mae_rgb": 0.006712391972541809,
+      "pct_pixels_over_0_01": 25.992,
+      "pct_pixels_over_0_05": 5.957,
+      "max_rgb_difference": 0.16470590233802795
+    },
+    "macro:v14a-v14b": {
+      "mae_rgb": 0.0,
+      "pct_pixels_over_0_01": 0.0,
+      "pct_pixels_over_0_05": 0.0,
+      "max_rgb_difference": 0.0
+    }
+  }
+}
