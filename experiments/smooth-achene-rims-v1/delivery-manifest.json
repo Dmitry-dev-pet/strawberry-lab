@@ -1,0 +1,107 @@
+{
+  "status": "VISUAL FAIL; no model accepted, PR34 retained",
+  "base_sha": "8dcf8282f448c215f300461cc2e78c77da73b934",
+  "private_folder": "https://drive.google.com/drive/folders/1Fs2D6ust3d5YwKK0sfPKj6dVEtlr3Rve",
+  "artifacts": [
+    {
+      "path": "build/smooth-rims-v1/negative-comparison.png",
+      "downloaded_name": "build-smooth-rims-v1-negative-comparison.png",
+      "url": "https://drive.google.com/file/d/19mAqsET19Gebk1xaavmmqq-Y0r_xH6WE/view?usp=drivesdk",
+      "drive_id": "19mAqsET19Gebk1xaavmmqq-Y0r_xH6WE",
+      "sha256": "5260962441334f78ccce7f3d4bbbf8cfdf9ac09eb1313d5c272de78c395d8323",
+      "bytes": 1027373,
+      "full_download_verified": true
+    },
+    {
+      "path": "build/smooth-rims-v1/alt2/smooth-rims.blend",
+      "downloaded_name": "build-smooth-rims-v1-alt2-smooth-rims.blend",
+      "url": "https://drive.google.com/file/d/1YUQsquWK2N5QG3erLcg2hyhhQ-ON5d1U/view?usp=drivesdk",
+      "drive_id": "1YUQsquWK2N5QG3erLcg2hyhhQ-ON5d1U",
+      "sha256": "a68722764e1c36685faa3709f646a3ad283da9c0f3e245b537bbf52870eb5838",
+      "bytes": 10682785,
+      "full_download_verified": true
+    },
+    {
+      "path": "build/smooth-rims-v1/forensic/pit-bump-off.blend",
+      "downloaded_name": "build-smooth-rims-v1-forensic-pit-bump-off.blend",
+      "url": "https://drive.google.com/file/d/1oV5mjLptVOIRjk7A4kEXGX3iS3YZfIiO/view?usp=drivesdk",
+      "drive_id": "1oV5mjLptVOIRjk7A4kEXGX3iS3YZfIiO",
+      "sha256": "19f770005f3775e4f90ef4a913c1a4ca4166a6fa322a95c636a2fa4fe5eed3d4",
+      "bytes": 7312678,
+      "full_download_verified": true
+    },
+    {
+      "path": "build/smooth-rims-v1/alt2/renders/pitted-macro.png",
+      "downloaded_name": "build-smooth-rims-v1-alt2-renders-pitted-macro.png",
+      "url": "https://drive.google.com/file/d/18ij-mvFfdba6V_tlpJD8daduRtPz33S2/view?usp=drivesdk",
+      "drive_id": "18ij-mvFfdba6V_tlpJD8daduRtPz33S2",
+      "sha256": "0986b173004b29887277d19fe7939c793222e2ba70ba436fbd0a25697e82778b",
+      "bytes": 1477865,
+      "full_download_verified": true
+    },
+    {
+      "path": "build/smooth-rims-v1/alt2/renders/pitted-clay.png",
+      "downloaded_name": "build-smooth-rims-v1-alt2-renders-pitted-clay.png",
+      "url": "https://drive.google.com/file/d/1rab5_IaY1WwDUSMQtWuni3iDo_nnuhGK/view?usp=drivesdk",
+      "drive_id": "1rab5_IaY1WwDUSMQtWuni3iDo_nnuhGK",
+      "sha256": "0b1fbd7fc99ef3aaa9f8cf595be629bc359b87bc8046231862789ae6b8be6daa",
+      "bytes": 1019796,
+      "full_download_verified": true
+    },
+    {
+      "path": "build/smooth-rims-v1/alt2/renders/pitted-whole.png",
+      "downloaded_name": "build-smooth-rims-v1-alt2-renders-pitted-whole.png",
+      "url": "https://drive.google.com/file/d/1s4X2QJeYLOyM9kTz7kq1JfqTD5zCdu85/view?usp=drivesdk",
+      "drive_id": "1s4X2QJeYLOyM9kTz7kq1JfqTD5zCdu85",
+      "sha256": "5701a05359a72688c0ee2bb608d01e6bb85bbfdc4ca5d10c205918b63e619ea4",
+      "bytes": 1096608,
+      "full_download_verified": true
+    },
+    {
+      "path": "build/smooth-rims-v1/forensic/renders/macro.png",
+      "downloaded_name": "build-smooth-rims-v1-forensic-renders-macro.png",
+      "url": "https://drive.google.com/file/d/1jeYZ0HbjKLJXdKxDCFPmOEAMovwYBiHs/view?usp=drivesdk",
+      "drive_id": "1jeYZ0HbjKLJXdKxDCFPmOEAMovwYBiHs",
+      "sha256": "81be334f37320cdc0f1ec29a1beae95518572dcc439891b84f87c920378cecc8",
+      "bytes": 1469040,
+      "full_download_verified": true
+    },
+    {
+      "path": "build/smooth-rims-v1/forensic/renders/clay.png",
+      "downloaded_name": "build-smooth-rims-v1-forensic-renders-clay.png",
+      "url": "https://drive.google.com/file/d/1FHTVb71rG3d-6GbE-uPntBfTPc5RbsDP/view?usp=drivesdk",
+      "drive_id": "1FHTVb71rG3d-6GbE-uPntBfTPc5RbsDP",
+      "sha256": "9182010475d822285ed60033aa1aeb92f44aa099da18b99ddffdecf0451a45a0",
+      "bytes": 1018091,
+      "full_download_verified": true
+    },
+    {
+      "path": "experiments/smooth-achene-rims-v1/README.md",
+      "downloaded_name": "experiments-smooth-achene-rims-v1-README.md",
+      "url": "https://docs.google.com/document/d/1dPb6uNFA-EUzGI5ewVZ734qQ9Rk57_UE/edit?usp=drivesdk&ouid=114252206612061669808&rtpof=true&sd=true",
+      "drive_id": "1dPb6uNFA-EUzGI5ewVZ734qQ9Rk57_UE",
+      "sha256": "27b7c0caffbcdcc1a73ede70bcd21bcd1ba1e7644f203e35d3238a36340575aa",
+      "bytes": 5083,
+      "full_download_verified": true
+    },
+    {
+      "path": "experiments/smooth-achene-rims-v1/result-summary.json",
+      "downloaded_name": "experiments-smooth-achene-rims-v1-result-summary.json",
+      "url": "https://drive.google.com/file/d/1_OGASMGt5-JKDdnDL1DTd9Ez0q1ikixG/view?usp=drivesdk",
+      "drive_id": "1_OGASMGt5-JKDdnDL1DTd9Ez0q1ikixG",
+      "sha256": "1a388040e6779d97177491333e086e4249c06f55951efd516871ba251cefbba7",
+      "bytes": 1760,
+      "full_download_verified": true
+    },
+    {
+      "path": "build/smooth-rims-negative-private.zip",
+      "downloaded_name": "smooth-rims-negative-private.zip",
+      "url": "https://drive.google.com/file/d/1e6Q-yqXwxACovoQA14elyVYQSaZedhKQ/view?usp=drivesdk",
+      "drive_id": "1e6Q-yqXwxACovoQA14elyVYQSaZedhKQ",
+      "sha256": "8af0efa1b3ecb6f94f164f87b041e90176548ec7e2e801e7383635aad9cdd0fc",
+      "bytes": 103673639,
+      "full_download_verified": true,
+      "zip_integrity_verified": true
+    }
+  ]
+}

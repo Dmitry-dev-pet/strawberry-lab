@@ -1,0 +1,54 @@
+{
+  "forensic_macro_mean_abs_rgb_8bit": 0.35047466666666666,
+  "forensic_macro_fraction_pixels_max_channel_diff_over8": 0.015198,
+  "forensic_clay_decoded_pixels_identical": true,
+  "visual_status": "FAIL: angular shoulders remain in alt2 clay and forensic clay",
+  "new_geometry_attempts": 2,
+  "lookdev_calibrations": 1,
+  "baseline_commit": "8dcf8282f448c215f300461cc2e78c77da73b934",
+  "alt2_engineering_qa": "PASS",
+  "alt2_scene_sha256": "a68722764e1c36685faa3709f646a3ad283da9c0f3e245b537bbf52870eb5838",
+  "alt2_vertices": 72694,
+  "depths": {
+    "min": 0.15814286350820309,
+    "median": 0.1884465093255128,
+    "max": 0.20950315801103267
+  },
+  "min_exposed_fraction": 0.4157303370786517,
+  "actual_mesh_contacts": true,
+  "unit_tests": 115,
+  "baseline_probe": {
+    "scene": "build/inputs/pr34-pits.blend",
+    "vertices": 38903,
+    "shoulder_edges": 22823,
+    "seeds_sampled": 264,
+    "dihedral_degrees_p50_p95_max": [
+      7.211736343654357,
+      22.652971250318437,
+      43.58957060372604
+    ],
+    "edge_length_mm_p50_p95_max": [
+      0.3338098399870409,
+      0.43481758296358414,
+      0.8671187902185851
+    ],
+    "limitation": "Raw geometric dihedrals; denser edges mechanically reduce angles. Not a realism score."
+  },
+  "alt2_probe": {
+    "scene": "build/smooth-rims-v1/alt2/smooth-rims.blend",
+    "vertices": 72694,
+    "shoulder_edges": 65059,
+    "seeds_sampled": 264,
+    "dihedral_degrees_p50_p95_max": [
+      4.812943598181437,
+      20.500467015466537,
+      37.09110664622788
+    ],
+    "edge_length_mm_p50_p95_max": [
+      0.1820342245404099,
+      0.2874995340981096,
+      0.3722176459823763
+    ],
+    "limitation": "Raw geometric dihedrals; denser edges mechanically reduce angles. Not a realism score."
+  }
+}

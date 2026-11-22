@@ -1,0 +1,19 @@
+{
+  "scene": "build/rims-readback/build-smooth-rims-v1-alt2-smooth-rims.blend",
+  "vertices": 72694,
+  "raw_closed_positive_volume": true,
+  "volume": 2.9214015120321606,
+  "shoulder_edges": 65059,
+  "seeds_sampled": 264,
+  "dihedral_degrees_p50_p95_max": [
+    4.812943598181437,
+    20.500467015466537,
+    37.09110664622788
+  ],
+  "edge_length_mm_p50_p95_max": [
+    0.1820342245404099,
+    0.2874995340981096,
+    0.3722176459823763
+  ],
+  "limitation": "Raw geometric dihedrals; denser edges mechanically reduce angles. Not a realism score."
+}
