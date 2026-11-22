@@ -1,0 +1,32 @@
+{
+  "version": "v13",
+  "parent": "v12",
+  "base_sha256": "300a2bfeaa86831220657b74fe8b00d4d7ec0b42f4ffefca863d6410cbb405b7",
+  "blend_sha256": "c081922c8264a1913b82a1f567595a30bd6258925abd42792973e819c4c158c0",
+  "atlas_sha256": "f9c19ebfacbab58ebd19161f88c8c2596105157b9fa783e1d2734b37b6cceab7",
+  "replaced": {
+    "shader": 2,
+    "gn": 2
+  },
+  "field": {
+    "slices": 192,
+    "fibril_family_count": 38,
+    "rest_bounds_mm": [
+      [
+        -18,
+        18
+      ],
+      [
+        -18,
+        18
+      ],
+      [
+        -1,
+        50
+      ]
+    ],
+    "preserved_green_blue": true,
+    "artist": true
+  },
+  "build_s": 3.02
+}
