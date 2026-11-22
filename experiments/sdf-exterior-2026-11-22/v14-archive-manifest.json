@@ -1,0 +1,150 @@
+{
+  "zip_name": "strawberry-v14-AB-research.zip",
+  "zip_size_bytes": 67165457,
+  "zip_sha256": "4641c0f75895bf97e5d2b0042ef127466b7617d0d78918f1c1ba99952e6dd0fa",
+  "members": [
+    {
+      "name": "strawberry-sdf-vertical-slice-v14a-branch-field.blend",
+      "bytes": 24529022,
+      "sha256": "9f75ea3271ffed23481735d352d2dc45a7ecb8cdfdce50101efc6abe95224ee3"
+    },
+    {
+      "name": "strawberry-sdf-vertical-slice-v14b-branch-tear.blend",
+      "bytes": 24529063,
+      "sha256": "8b2a5e122ae69e676a51a58ca149c0d0fd8a5d956bf6ac6ef013908cb684c91d"
+    },
+    {
+      "name": "tissue-v14-seed-linked-branches-192.png",
+      "bytes": 7940196,
+      "sha256": "3217dbf3e50a8541c8886c8a7f780618bf4f2776a586759f83277810c4fa7a0c"
+    },
+    {
+      "name": "comparison-v12-v14a-v14b-three-shots.png",
+      "bytes": 5795476,
+      "sha256": "98db9a81f35ea2dcdd45f033ddcdbcc4c8a72faa32ef4bdd973dbc1bcbc3adb9"
+    },
+    {
+      "name": "build_v14_nonperiodic_tears.py",
+      "bytes": 11910,
+      "sha256": "973bbfc60eb021cbc6fd8b49a027c50f0a0455aeba972699edb1b2a4b4d95ac8"
+    },
+    {
+      "name": "validate_v14_nonperiodic_tears.py",
+      "bytes": 4961,
+      "sha256": "3d6c5a6fa83c173ffc6c17bf575b7a25da9c6d8be2273072fe0199fafc8ba165"
+    },
+    {
+      "name": "render_v14.py",
+      "bytes": 1374,
+      "sha256": "5e4cb2f8b6db3f0aea0bb619c729e705ea084389a4738bc0f8c6f7bdf1d06cc2"
+    },
+    {
+      "name": "analyze_v14_image_ab.py",
+      "bytes": 1139,
+      "sha256": "fe4bac453af4a1aa16353db6a2867f27c75323fcd0f1f55c4bb12ea066072dde"
+    },
+    {
+      "name": "make_v14_contact_sheet.py",
+      "bytes": 1325,
+      "sha256": "adc23d3d50e491c8ac736e76cccaff87e45f49a13964757dd03a47020a88fbe4"
+    },
+    {
+      "name": "v14-build.json",
+      "bytes": 1164,
+      "sha256": "e408c14992f330504ad9c8a9d549c87be238fcae6fec3aa25d6bec91c1a00ed5"
+    },
+    {
+      "name": "v14-validation.json",
+      "bytes": 2915,
+      "sha256": "f43c5e521d1c47416cb6c3e75d1f063ca75c932d9adcf734d9687cc40b0386ef"
+    },
+    {
+      "name": "v14-pixel-ab.json",
+      "bytes": 1136,
+      "sha256": "edef5d0887b2b4c8c0ab50e2d673ca584f96183a87d8dff1c2067a108cb10478"
+    },
+    {
+      "name": "v14-contact-sheet.json",
+      "bytes": 452,
+      "sha256": "c4ceb6f4d496d7c49cdc81c596e9d7a4e58c8829e0288b3954ed2b1032bd9832"
+    },
+    {
+      "name": "sdf-v12-matched-plane.png",
+      "bytes": 844111,
+      "sha256": "d0af41651bbcce6fd78de89ea1513a65f840cb9bd0a8e31861e97d6b6e9316ae"
+    },
+    {
+      "name": "sdf-v12-matched-bite.png",
+      "bytes": 906868,
+      "sha256": "ba747b5bad1a7885074419a6bf500ccc9ae2aeee2c1a9c6bd875519cf0929bc2"
+    },
+    {
+      "name": "sdf-v12-matched-macro.png",
+      "bytes": 990366,
+      "sha256": "f56e8b713bf5ab49b85b6a2382848311a5abdecb6927e3c5ffbf8ee7074bf191"
+    },
+    {
+      "name": "sdf-v14a-matched-plane.png",
+      "bytes": 837239,
+      "sha256": "606eaed4ce7550d0acc21aa03513432eeb96907212a2da87ab5ad370b5bd9327"
+    },
+    {
+      "name": "sdf-v14a-matched-bite.png",
+      "bytes": 905648,
+      "sha256": "8cd05029dd68bde341be07159972b19641b15c554bc0ebc27d78e141c5b7256e"
+    },
+    {
+      "name": "sdf-v14a-matched-macro.png",
+      "bytes": 992285,
+      "sha256": "5d6030e0a67400deeb77a160755cb84ce50c4e62eda6a331ba81d2febcfe2959"
+    },
+    {
+      "name": "sdf-v14b-matched-plane.png",
+      "bytes": 837238,
+      "sha256": "45f41a982044f2258b2bb08144116f87de2e320510025a30d3b2a878e5fa7c01"
+    },
+    {
+      "name": "sdf-v14b-matched-bite.png",
+      "bytes": 910676,
+      "sha256": "4ffd02cd6b81483ae9086ef8e88fa85c75f359bcae244e23d15ccd3dada7099a"
+    },
+    {
+      "name": "sdf-v14b-matched-macro.png",
+      "bytes": 992284,
+      "sha256": "ba5f84351f32f5a851b65d56465c00db18f317d8b3594d7cf6388adcda3e14a4"
+    },
+    {
+      "name": "v14-v14a-plane-render.json",
+      "bytes": 241,
+      "sha256": "265ffdd9b869c4e4b23bdb59acfbd87b21912f4f720943c925c7e1786920f951"
+    },
+    {
+      "name": "v14-v14a-bite-render.json",
+      "bytes": 240,
+      "sha256": "c2e8b3919b84c2c9b7b17c33e63d65242a15acf286827bdfa7798ea42d5cbc9d"
+    },
+    {
+      "name": "v14-v14a-macro-render.json",
+      "bytes": 241,
+      "sha256": "a0e531571da328084a030857a6517366b2a310cef5398156882006ebcce298cd"
+    },
+    {
+      "name": "v14-v14b-plane-render.json",
+      "bytes": 241,
+      "sha256": "e7dc7149c1d5a912dac093642634d4f00fd932ba36bf4c3ed4638aca291e9875"
+    },
+    {
+      "name": "v14-v14b-bite-render.json",
+      "bytes": 240,
+      "sha256": "1f2236257e4263beaafaa3f987ab4876b9dfd465a03358a3f8f7d8752fb59b55"
+    },
+    {
+      "name": "v14-v14b-macro-render.json",
+      "bytes": 241,
+      "sha256": "6f088d25c644c158cd029b63c6fd0908ae4551a6fb7826958251cd486ee92e74"
+    }
+  ],
+  "verified_all": true,
+  "owner_private_frucht_frames_included": false,
+  "storage": "LOCAL_ONLY; not yet uploaded to owner Drive; prior restricted folder not accessible from local Mac CLI"
+}
