@@ -5,8 +5,10 @@ import bpy,numpy as np
 from mathutils import Vector
 sys.path.insert(0,str(Path(__file__).parent))
 from common import *
-p,out=map(Path,sys.argv[sys.argv.index('--')+1:]);assert not out.exists()
-source=ROOT.parent/'strawberry-generator/build/generator-v1-final/seed101/strawberry.blend';bpy.ops.wm.open_mainfile(filepath=str(source),use_scripts=False);expected=digest_geometry();atlas=atlas_sha();bpy.ops.wm.open_mainfile(filepath=str(p.resolve()),use_scripts=False);s=bpy.context.scene;b=s.objects[BODY];assert digest_geometry()==expected and atlas_sha()==atlas
+from build import PIN
+from qa_inputs import parse_qa_inputs
+p,out,source = parse_qa_inputs(sys.argv[sys.argv.index('--')+1:], PIN)
+bpy.ops.wm.open_mainfile(filepath=str(source),use_scripts=False);expected=digest_geometry();atlas=atlas_sha();bpy.ops.wm.open_mainfile(filepath=str(p),use_scripts=False);s=bpy.context.scene;b=s.objects[BODY];assert digest_geometry()==expected and atlas_sha()==atlas
 assert len([o for o in s.objects if o.get('role')=='achene'])==264
 assert all(m.type!='BOOLEAN' for o in s.objects for m in o.modifiers)
 source_depth=pit_depths(b.data);rows=[]

@@ -25,10 +25,11 @@ With Blender5.2.2, repository root and the authenticated PR40 input supplied in 
 B=/Applications/Blender.app/Contents/MacOS/Blender
 $B -b --factory-startup --disable-autoexec -t 4 --python-exit-code 1 --python src/strawberry_generator/sdf/build.py -- --input inputs/pr40-seed101.blend --out build/my-sdf/strawberry-sdf.blend
 $B -b --factory-startup --disable-autoexec -t 4 --python-exit-code 1 --python src/strawberry_generator/sdf/test_contract.py -- build/my-sdf/strawberry-sdf.blend
+$B -b --factory-startup --disable-autoexec -t 4 --python-exit-code 1 --python src/strawberry_generator/sdf/qa.py -- build/my-sdf/strawberry-sdf.blend build/my-sdf/reopened-sdf-qa.json --source inputs/pr40-seed101.blend
 $B -b --factory-startup --disable-autoexec -t 4 --python-exit-code 1 --python src/strawberry_generator/sdf/render.py -- build/my-sdf/strawberry-sdf.blend plane build/my-sdf/plane.png
 ```
 
-Build refuses a different input SHA or existing output. QA scripts resolve the original source at the documented sibling worktree path; adjust that source path when reproducing in another checkout. Source and render receipts pin hashes; Blender binary serialization itself is not promised deterministic.
+Build refuses a different input SHA or existing output. The reopened-scene QA requires an explicit `--source` pointing to the hash-pinned PR40 `.blend`; it never reads a sibling worktree and refuses a mismatched source SHA or an existing receipt path. Source and render receipts pin hashes; Blender binary serialization itself is not promised deterministic.
 
 ## Fields, organs and policy
 
