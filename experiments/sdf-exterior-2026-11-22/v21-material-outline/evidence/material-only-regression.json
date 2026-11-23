@@ -1,0 +1,1323 @@
+{
+  "schema": "strawberry-v21-material-only-regression/v1",
+  "status": "PASS_FOR_INSPECTED_STRUCTURE_AND_THREE_POSES",
+  "source_scene": "/workspace/scratch/f80a98ef8ca4/work/v20_halo/output/strawberry-v20b-halo-suppression.blend",
+  "target_scene": "/workspace/scratch/f80a98ef8ca4/work/v21_material/output/strawberry-v21b-soft-cell-outline.blend",
+  "file_sha256": {
+    "source": "35fd1d81c51aea1cc8f4cd71c39a2815da87a1137056d32c3f78d4ab1cf649e4",
+    "target": "92e7e288f7851ec8c5e68897d5f7f19b5b5f73310a6d7d9084836f854c258a13"
+  },
+  "blender": "5.2.4 LTS",
+  "build_hash": "cd5dc428cce1",
+  "allowed_change": {
+    "material": "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)",
+    "node": "Math.039",
+    "input_index": 1,
+    "values": {
+      "source": 0.10000000149011612,
+      "target": 0.019999999552965164,
+      "source_identifier": "Value_001",
+      "target_identifier": "Value_001"
+    }
+  },
+  "checks": {
+    "scripts_disabled": true,
+    "expected_source_scalar": true,
+    "expected_target_scalar": true,
+    "edited_socket_unlinked": true,
+    "only_named_material_socket_differs_in_inspected_structure": true,
+    "plane_body_and_seeds_exactly_unchanged": true,
+    "bite_body_and_seeds_exactly_unchanged": true,
+    "plane_rotated_body_and_seeds_exactly_unchanged": true
+  },
+  "structural_differences_after_masking_one_socket": [],
+  "pose_differences": {
+    "plane": [],
+    "bite": [],
+    "plane_rotated": []
+  },
+  "structural_section_signatures": {
+    "source": {
+      "unit_scale": "5ee7fbef762a9d92dbe5e0aecc473d6b96df8acded5235c50a8ee23be89628d1",
+      "objects": "af2a98ca5351f9e50b60c21339dbde7269af02fe827c3a55b62216b5f9b1d54f",
+      "meshes": "dc9ecd777b2277aa9d2f607de116e3a853e160bf1d0133a4e736413f77642c2d",
+      "node_groups": "5967b7d2e81cda653d66baf1e409f9ce2ee2d77dbe1c37bd0b2f27197062f3d7",
+      "materials": "c90044434c42935cf190b450c4cf55f8d66e6e719f5aae101dd2fb919a83fccf",
+      "images": "0e8d2e9730634c1a654a03b1845a3ab7f6cfb3daae31a63919388204e11ee497"
+    },
+    "target": {
+      "unit_scale": "5ee7fbef762a9d92dbe5e0aecc473d6b96df8acded5235c50a8ee23be89628d1",
+      "objects": "af2a98ca5351f9e50b60c21339dbde7269af02fe827c3a55b62216b5f9b1d54f",
+      "meshes": "dc9ecd777b2277aa9d2f607de116e3a853e160bf1d0133a4e736413f77642c2d",
+      "node_groups": "5967b7d2e81cda653d66baf1e409f9ce2ee2d77dbe1c37bd0b2f27197062f3d7",
+      "materials": "79aa00738ae6f1f8094b60139a633eb33c747efa8d57e633aeaab105c4e6ea96",
+      "images": "0e8d2e9730634c1a654a03b1845a3ab7f6cfb3daae31a63919388204e11ee497"
+    }
+  },
+  "structural_counts": {
+    "source": {
+      "objects": 287,
+      "meshes": 21,
+      "node_groups": 6,
+      "materials": 7,
+      "images": 2
+    },
+    "target": {
+      "objects": 287,
+      "meshes": 21,
+      "node_groups": 6,
+      "materials": 7,
+      "images": 2
+    }
+  },
+  "evaluated_poses": {
+    "source": {
+      "plane": {
+        "cutter_matrix_world": [
+          [
+            41.36192321777344,
+            6.345880508422852,
+            -1.466886281967163,
+            -3.956559419631958
+          ],
+          [
+            -7.2932233810424805,
+            35.98927688598633,
+            -8.319125175476074,
+            -34.81888961791992
+          ],
+          [
+            0.0,
+            5.7880754470825195,
+            53.33517074584961,
+            20.473766326904297
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "body": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 194354,
+            "edges": 388704,
+            "polygons": 194352,
+            "coords_f32": "f8e126d1a92bb12e76c7cff7a789ab4e123c47c1be059f9df9d589692d696742",
+            "edges_i32": "f3cdb14d69a9d3d6912e0c3879533156989b6170a383f1843191e8bc300ea30d",
+            "loop_vertices_i32": "a4ec94c7902dd9b93013d6c52dca805691ff7d5664d40a88baa44d7d47fed717",
+            "polygon_starts_i32": "313dd10764bf685e44a82ebf206dd9a91337626168f9ddd908b11d49157d3ff1",
+            "polygon_sizes_i32": "60bb5af99dfc51e116b0838981daae6a1d23560d7bf5d2ee45995e04740fbeaa",
+            "material_indices_i32": "061b64957548bd9ad8ec2d49836dc35c6364882c6349227db3a323f6b5968af9",
+            "materials": [
+              null,
+              "Skin • strawberry red",
+              "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "f8e126d1a92bb12e76c7cff7a789ab4e123c47c1be059f9df9d589692d696742"
+              },
+              "fruit_rest": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "335caa72c721497d14a280d8e4259f1f258f4a86e0afead34f3a3d1b0f1258da"
+              },
+              "material_index": {
+                "type": "INT",
+                "domain": "FACE",
+                "count": 194352,
+                "sha256": "061b64957548bd9ad8ec2d49836dc35c6364882c6349227db3a323f6b5968af9"
+              },
+              "v8_vascular_intensity": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "af50b771b09745a98367db5fd1415d8e4dcdbe626ecc74ba401051ce09cec270"
+              },
+              "v8_cell_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "460f7526bfd7a1c605dfc3d5a527a87c3c02299f4ce41d5f2bb93c55b21d8df2"
+              },
+              "v20_halo": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "a9b916cb2c35f97a95576beb4e41960806603b63526af8608dff745dca4c7346"
+              },
+              "v20_cell_suppression": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "b79123ae5336b253fd4c32e9991501be374761a8ce463b773dfbbe3ec0e77fff"
+              },
+              "v20_ridge_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "bd66a8c40bfef3545483f984f508bd888b4ca7fea7825f5106f33168891b29ba"
+              },
+              "v20_total_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "b41ec210f03a27f8c659eb04120d4eacf3096dcf2b9e7b0f29db0a45a24a5d94"
+              },
+              "v20_cap_rim": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "f6e298ae2d02c012bc55b7b529ec4d82a177848247f74677df4b531005e426c4"
+              },
+              "v20_rest_normal": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "e8ff9dc15eeb755cb48a2fdc16ca477bf60bdffcb1bfbfd42fa04aff59671636"
+              }
+            },
+            "triangles": 388704,
+            "triangles_i32": "48ac2a2432ae8cf7d576426239680282bf3fc6d4cc7d4b64dec16a7cfdeb27bd"
+          }
+        },
+        "seeds": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 16554,
+            "edges": 34224,
+            "polygons": 17856,
+            "coords_f32": "a46a3f5354cef5bfd89021c845e30ac4363b50d2b547b88f903748e4197e168d",
+            "edges_i32": "2edf9140fa8eed83bd8d11ace09341fcc0e5677a21ac1b57558851ed809b359b",
+            "loop_vertices_i32": "905108fbaa4ba01c33b5763b7ebbca2952e5419927ce397c58213699cf2effbc",
+            "polygon_starts_i32": "60f188895c37d36cbeb9c3a8404d593c89373cc4fe8ab2ac0f30ed5cdfb6d21f",
+            "polygon_sizes_i32": "a16b1c8c564d247c5b89f7c274503db0efe300dbaa063bd641f525cb4eb43f11",
+            "material_indices_i32": "d85e17add50567dc7be0e902c3a6e04c5dad0e2ea88e56fe02dd4cde5fa0a9ed",
+            "materials": [
+              "Achenes • straw · amber · olive"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 16554,
+                "sha256": "a46a3f5354cef5bfd89021c845e30ac4363b50d2b547b88f903748e4197e168d"
+              },
+              "achene_center": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 16554,
+                "sha256": "e255c42bfa6abe90f01ac7bc0a347fe82d8729756514e57a88e6c2ce625a5a92"
+              },
+              "sharp_face": {
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 17856,
+                "sha256": "b351dba54eb4f54d26b8310ce0962540d41f81428dc62123eb3bd0640bf416d5"
+              }
+            },
+            "triangles": 32736,
+            "triangles_i32": "96ebdf1af35742f3cbab2a8a0cbc1d8db9e0ca8f777c36fc5cabf4a5541202c3"
+          }
+        }
+      },
+      "bite": {
+        "cutter_matrix_world": [
+          [
+            12.0,
+            0.0,
+            0.0,
+            4.072440147399902
+          ],
+          [
+            0.0,
+            12.0,
+            0.0,
+            -13.537470817565918
+          ],
+          [
+            0.0,
+            0.0,
+            12.0,
+            26.380231857299805
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "body": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 350314,
+            "edges": 700624,
+            "polygons": 350312,
+            "coords_f32": "2ef8dbcab1643e2adb607ad6720b1d13fce233857e9707ca121e9e4517020c91",
+            "edges_i32": "baf93bfc2b8b765a4aeb24996ac0a61f40334d9995446216dbfb6d807a96987a",
+            "loop_vertices_i32": "6d01cd63c1d57b64159b7cf14b213f225bce13ef56d18728475258f50c6b32a2",
+            "polygon_starts_i32": "cb9207765d39db6f3f4f5a731b2313f662630d21e42801d9716d6e481ca22273",
+            "polygon_sizes_i32": "c91bc60ffc5481dccb5b4035c8a5c07f951dd30a69272ab0ae5e5c5829929678",
+            "material_indices_i32": "6d16d71ec5bc60fd7f5095b24118d82752da5f551bdc0d7afff5e6bde1acf188",
+            "materials": [
+              null,
+              "Skin • strawberry red",
+              "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "2ef8dbcab1643e2adb607ad6720b1d13fce233857e9707ca121e9e4517020c91"
+              },
+              "fruit_rest": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "145ac5c6417eb45ece1dd418ecf147b3cb66a2c420599847f1545e97a1a81dcd"
+              },
+              "material_index": {
+                "type": "INT",
+                "domain": "FACE",
+                "count": 350312,
+                "sha256": "6d16d71ec5bc60fd7f5095b24118d82752da5f551bdc0d7afff5e6bde1acf188"
+              },
+              "v8_vascular_intensity": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "fa23bbc4ba4fe85ed3465ef251d0cc10f9a47ca572af49b5c408f406b6086087"
+              },
+              "v8_cell_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "03bbdc53097a1446abc4e60a1f0d27b712d3a644694d55777ca9a5b417bc284f"
+              },
+              "v20_halo": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "988cc5504aa30d54daa8f0e62d15a0eac501c4788319e2197cbdc4b5ab3d960a"
+              },
+              "v20_cell_suppression": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "9bbdd8e24e41cbb5d77dbded2b47e4e02720a34abfe493d248e5de8f2519a147"
+              },
+              "v20_ridge_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "88c775a657c6c56c5c3a58b0f34d0c9e4b7cfb93d0fdfec91e9e50a7a107933f"
+              },
+              "v20_total_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "a1eb6ed3a7a03e2de4245cf2e2d6c801753c93f9268f839bb86adca16474a487"
+              },
+              "v20_cap_rim": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "00805d4f0231329110455143b75f33a164d7492e22efb1bc595ba82cb166c96c"
+              },
+              "v20_rest_normal": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "3e6c4993b58e5595761633ece4784183f4d198f1f74b50945d454e495e64eccc"
+              }
+            },
+            "triangles": 700624,
+            "triangles_i32": "365f12314594ab57f0efa792a85a114917f0e2c5fa0506851aa7a2b4b84f789a"
+          }
+        },
+        "seeds": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 40228,
+            "edges": 83168,
+            "polygons": 43392,
+            "coords_f32": "7b51ee4db7e61bf7db9d28956d7e314b6fd097eefc3a143cd682bede93aeb327",
+            "edges_i32": "0bceca77ae4bb86ecdea0fbd09775056352495b5c37ab5fbc588bb533501ad9b",
+            "loop_vertices_i32": "4255a3a12d1757432c3a76fc7f442e65f4ee95543f5d4730e4ed9bc3e4f46f7e",
+            "polygon_starts_i32": "18abf42848e5be32289565a9b2b2806f524bd268450c5f42f5f34f0745af08eb",
+            "polygon_sizes_i32": "e6e1df25402c6507e45364d5308e87a1abaff6d4c2d167df4c67021d7b6574b8",
+            "material_indices_i32": "26808e28c7f17f9878340214242edef91402481c1b636afd1282d8f957f56105",
+            "materials": [
+              "Achenes • straw · amber · olive"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 40228,
+                "sha256": "7b51ee4db7e61bf7db9d28956d7e314b6fd097eefc3a143cd682bede93aeb327"
+              },
+              "achene_center": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 40228,
+                "sha256": "13a95450ef11a2f412d9e73a9321bfae9735d2f864ff3249b9ce9c928dcbaeb0"
+              },
+              "sharp_face": {
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 43392,
+                "sha256": "731e69ac8eeeb5b4a22a2e17548754531f12e76b50a3500af0d4c03f726bed55"
+              }
+            },
+            "triangles": 79552,
+            "triangles_i32": "103f9d867d165392ba98262c11e6827b75abd79f81aba4b7bd9a5825278d7ae4"
+          }
+        }
+      },
+      "plane_rotated": {
+        "cutter_matrix_world": [
+          [
+            37.08693313598633,
+            -10.638693809509277,
+            20.03079605102539,
+            -3.956559419631958
+          ],
+          [
+            13.498539924621582,
+            35.017642974853516,
+            -1.6989871263504028,
+            -34.81888961791992
+          ],
+          [
+            -14.364845275878906,
+            5.439011573791504,
+            50.11866760253906,
+            20.473766326904297
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "body": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 181562,
+            "edges": 363120,
+            "polygons": 181560,
+            "coords_f32": "8d7d8bba5cc732fda2158465d9cd8625eb0f8dcfe65e7bd92edc0828a00f91e8",
+            "edges_i32": "737c3944b51f27c1c539ec729db4c8636109f280feddc9681de4f0de1f3d4ed7",
+            "loop_vertices_i32": "fb5ca539c4efb3fe7d407bc328a437507cfdf21619d5d5e5e78091f544b78fd0",
+            "polygon_starts_i32": "a4763e2edf34dbddc72c0828aa399d4120d010c41bb5621e2b6e58a5b237e64f",
+            "polygon_sizes_i32": "71f629b552891e347cf14cd6049029eda8fd972dbcee61f74b60bc176f2dba1b",
+            "material_indices_i32": "2876498fa9414e4db5a455e0438119428e37f4d22ea9e7f8e5f13b13ee032206",
+            "materials": [
+              null,
+              "Skin • strawberry red",
+              "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "8d7d8bba5cc732fda2158465d9cd8625eb0f8dcfe65e7bd92edc0828a00f91e8"
+              },
+              "fruit_rest": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "bcde1f0ad917aa9ac88250c9d672b907b98557ba53a929ea1f66ab584316f129"
+              },
+              "material_index": {
+                "type": "INT",
+                "domain": "FACE",
+                "count": 181560,
+                "sha256": "2876498fa9414e4db5a455e0438119428e37f4d22ea9e7f8e5f13b13ee032206"
+              },
+              "v8_vascular_intensity": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "5903a90cdc0b6b4585bee986761d8d778c6f1123c8e7a2f98b506a828f828fc4"
+              },
+              "v8_cell_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "bf80391ba4869d33d0f21d22ff0062c5c2a80659a9e0b1d1b955feb0fc006ec8"
+              },
+              "v20_halo": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "005a432c1cf0fbcfa4433d39a17f4273198dfbd74f79bd2bdb2d6407f35cf3ae"
+              },
+              "v20_cell_suppression": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "1c99e4f68fedf4b5d3d62378ef894416f64380e315c977467066514f76c25c1c"
+              },
+              "v20_ridge_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "2eb579beadc23add9a4ff225cf3516533a3b3c1ae6acfc5aed5e86275074fe36"
+              },
+              "v20_total_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "b071a7c833bd0965bd8df09fa56b1d857ae8845ba02251dcdceff2cebdc0e848"
+              },
+              "v20_cap_rim": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "852d657b966211f67fb1dd5a81c0f58f38ee393bf8840029dc5646a1d1be8908"
+              },
+              "v20_rest_normal": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "ad0ad8efc36deeddd854eb751ff6ee33b5b3a79a3e20c836c946fca26fda1233"
+              }
+            },
+            "triangles": 363120,
+            "triangles_i32": "82b8dfcba6f02ab2cfeba9fd884118df21fc3f0bd2833ef868b456407c1ab9ea"
+          }
+        },
+        "seeds": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 15130,
+            "edges": 31280,
+            "polygons": 16320,
+            "coords_f32": "5f5942c72b6757079d3a9e39a7d2baab169eb00439474a6d85c64d0fe4e5a4cb",
+            "edges_i32": "13dcca7ba5203fdba8036a32d71b2b7c86a04f1ac47a4bbd3ba700d9500b7098",
+            "loop_vertices_i32": "d1eee8412229e7f4ea8ebac99fab6fcbc008823efa32e7dbce522b9a1a144c7e",
+            "polygon_starts_i32": "3a8d1440297d60460023a3ab6dbd2dbcd9fe8cc612dcd904376db5312116e3b3",
+            "polygon_sizes_i32": "9a1798bbf7320d568d0628f93c67242cbd24234aed68269f4ca45095e39a4786",
+            "material_indices_i32": "d5ebf1b7b54e7dc914c34c1b00390bb1e1bc3924914b03db78d47c687eb747fa",
+            "materials": [
+              "Achenes • straw · amber · olive"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 15130,
+                "sha256": "5f5942c72b6757079d3a9e39a7d2baab169eb00439474a6d85c64d0fe4e5a4cb"
+              },
+              "achene_center": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 15130,
+                "sha256": "d8fd9c48e000cbee8e4c6757afed09cdce984ac4d7a31c0886f11a4ad7165df2"
+              },
+              "sharp_face": {
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 16320,
+                "sha256": "23f37df93e65dd4be63d9adebe8aacadc1fbd6183768762237d8ffff15135e4d"
+              }
+            },
+            "triangles": 29920,
+            "triangles_i32": "b683807347da74411f013a77606c871e498087052e34b189104c6cfc507d7fe7"
+          }
+        }
+      }
+    },
+    "target": {
+      "plane": {
+        "cutter_matrix_world": [
+          [
+            41.36192321777344,
+            6.345880508422852,
+            -1.466886281967163,
+            -3.956559419631958
+          ],
+          [
+            -7.2932233810424805,
+            35.98927688598633,
+            -8.319125175476074,
+            -34.81888961791992
+          ],
+          [
+            0.0,
+            5.7880754470825195,
+            53.33517074584961,
+            20.473766326904297
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "body": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 194354,
+            "edges": 388704,
+            "polygons": 194352,
+            "coords_f32": "f8e126d1a92bb12e76c7cff7a789ab4e123c47c1be059f9df9d589692d696742",
+            "edges_i32": "f3cdb14d69a9d3d6912e0c3879533156989b6170a383f1843191e8bc300ea30d",
+            "loop_vertices_i32": "a4ec94c7902dd9b93013d6c52dca805691ff7d5664d40a88baa44d7d47fed717",
+            "polygon_starts_i32": "313dd10764bf685e44a82ebf206dd9a91337626168f9ddd908b11d49157d3ff1",
+            "polygon_sizes_i32": "60bb5af99dfc51e116b0838981daae6a1d23560d7bf5d2ee45995e04740fbeaa",
+            "material_indices_i32": "061b64957548bd9ad8ec2d49836dc35c6364882c6349227db3a323f6b5968af9",
+            "materials": [
+              null,
+              "Skin • strawberry red",
+              "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "f8e126d1a92bb12e76c7cff7a789ab4e123c47c1be059f9df9d589692d696742"
+              },
+              "fruit_rest": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "335caa72c721497d14a280d8e4259f1f258f4a86e0afead34f3a3d1b0f1258da"
+              },
+              "material_index": {
+                "type": "INT",
+                "domain": "FACE",
+                "count": 194352,
+                "sha256": "061b64957548bd9ad8ec2d49836dc35c6364882c6349227db3a323f6b5968af9"
+              },
+              "v8_vascular_intensity": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "af50b771b09745a98367db5fd1415d8e4dcdbe626ecc74ba401051ce09cec270"
+              },
+              "v8_cell_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "460f7526bfd7a1c605dfc3d5a527a87c3c02299f4ce41d5f2bb93c55b21d8df2"
+              },
+              "v20_halo": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "a9b916cb2c35f97a95576beb4e41960806603b63526af8608dff745dca4c7346"
+              },
+              "v20_cell_suppression": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "b79123ae5336b253fd4c32e9991501be374761a8ce463b773dfbbe3ec0e77fff"
+              },
+              "v20_ridge_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "bd66a8c40bfef3545483f984f508bd888b4ca7fea7825f5106f33168891b29ba"
+              },
+              "v20_total_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "b41ec210f03a27f8c659eb04120d4eacf3096dcf2b9e7b0f29db0a45a24a5d94"
+              },
+              "v20_cap_rim": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "f6e298ae2d02c012bc55b7b529ec4d82a177848247f74677df4b531005e426c4"
+              },
+              "v20_rest_normal": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 194354,
+                "sha256": "e8ff9dc15eeb755cb48a2fdc16ca477bf60bdffcb1bfbfd42fa04aff59671636"
+              }
+            },
+            "triangles": 388704,
+            "triangles_i32": "48ac2a2432ae8cf7d576426239680282bf3fc6d4cc7d4b64dec16a7cfdeb27bd"
+          }
+        },
+        "seeds": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 16554,
+            "edges": 34224,
+            "polygons": 17856,
+            "coords_f32": "a46a3f5354cef5bfd89021c845e30ac4363b50d2b547b88f903748e4197e168d",
+            "edges_i32": "2edf9140fa8eed83bd8d11ace09341fcc0e5677a21ac1b57558851ed809b359b",
+            "loop_vertices_i32": "905108fbaa4ba01c33b5763b7ebbca2952e5419927ce397c58213699cf2effbc",
+            "polygon_starts_i32": "60f188895c37d36cbeb9c3a8404d593c89373cc4fe8ab2ac0f30ed5cdfb6d21f",
+            "polygon_sizes_i32": "a16b1c8c564d247c5b89f7c274503db0efe300dbaa063bd641f525cb4eb43f11",
+            "material_indices_i32": "d85e17add50567dc7be0e902c3a6e04c5dad0e2ea88e56fe02dd4cde5fa0a9ed",
+            "materials": [
+              "Achenes • straw · amber · olive"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 16554,
+                "sha256": "a46a3f5354cef5bfd89021c845e30ac4363b50d2b547b88f903748e4197e168d"
+              },
+              "achene_center": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 16554,
+                "sha256": "e255c42bfa6abe90f01ac7bc0a347fe82d8729756514e57a88e6c2ce625a5a92"
+              },
+              "sharp_face": {
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 17856,
+                "sha256": "b351dba54eb4f54d26b8310ce0962540d41f81428dc62123eb3bd0640bf416d5"
+              }
+            },
+            "triangles": 32736,
+            "triangles_i32": "96ebdf1af35742f3cbab2a8a0cbc1d8db9e0ca8f777c36fc5cabf4a5541202c3"
+          }
+        }
+      },
+      "bite": {
+        "cutter_matrix_world": [
+          [
+            12.0,
+            0.0,
+            0.0,
+            4.072440147399902
+          ],
+          [
+            0.0,
+            12.0,
+            0.0,
+            -13.537470817565918
+          ],
+          [
+            0.0,
+            0.0,
+            12.0,
+            26.380231857299805
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "body": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 350314,
+            "edges": 700624,
+            "polygons": 350312,
+            "coords_f32": "2ef8dbcab1643e2adb607ad6720b1d13fce233857e9707ca121e9e4517020c91",
+            "edges_i32": "baf93bfc2b8b765a4aeb24996ac0a61f40334d9995446216dbfb6d807a96987a",
+            "loop_vertices_i32": "6d01cd63c1d57b64159b7cf14b213f225bce13ef56d18728475258f50c6b32a2",
+            "polygon_starts_i32": "cb9207765d39db6f3f4f5a731b2313f662630d21e42801d9716d6e481ca22273",
+            "polygon_sizes_i32": "c91bc60ffc5481dccb5b4035c8a5c07f951dd30a69272ab0ae5e5c5829929678",
+            "material_indices_i32": "6d16d71ec5bc60fd7f5095b24118d82752da5f551bdc0d7afff5e6bde1acf188",
+            "materials": [
+              null,
+              "Skin • strawberry red",
+              "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "2ef8dbcab1643e2adb607ad6720b1d13fce233857e9707ca121e9e4517020c91"
+              },
+              "fruit_rest": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "145ac5c6417eb45ece1dd418ecf147b3cb66a2c420599847f1545e97a1a81dcd"
+              },
+              "material_index": {
+                "type": "INT",
+                "domain": "FACE",
+                "count": 350312,
+                "sha256": "6d16d71ec5bc60fd7f5095b24118d82752da5f551bdc0d7afff5e6bde1acf188"
+              },
+              "v8_vascular_intensity": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "fa23bbc4ba4fe85ed3465ef251d0cc10f9a47ca572af49b5c408f406b6086087"
+              },
+              "v8_cell_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "03bbdc53097a1446abc4e60a1f0d27b712d3a644694d55777ca9a5b417bc284f"
+              },
+              "v20_halo": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "988cc5504aa30d54daa8f0e62d15a0eac501c4788319e2197cbdc4b5ab3d960a"
+              },
+              "v20_cell_suppression": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "9bbdd8e24e41cbb5d77dbded2b47e4e02720a34abfe493d248e5de8f2519a147"
+              },
+              "v20_ridge_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "88c775a657c6c56c5c3a58b0f34d0c9e4b7cfb93d0fdfec91e9e50a7a107933f"
+              },
+              "v20_total_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "a1eb6ed3a7a03e2de4245cf2e2d6c801753c93f9268f839bb86adca16474a487"
+              },
+              "v20_cap_rim": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "00805d4f0231329110455143b75f33a164d7492e22efb1bc595ba82cb166c96c"
+              },
+              "v20_rest_normal": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 350314,
+                "sha256": "3e6c4993b58e5595761633ece4784183f4d198f1f74b50945d454e495e64eccc"
+              }
+            },
+            "triangles": 700624,
+            "triangles_i32": "365f12314594ab57f0efa792a85a114917f0e2c5fa0506851aa7a2b4b84f789a"
+          }
+        },
+        "seeds": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 40228,
+            "edges": 83168,
+            "polygons": 43392,
+            "coords_f32": "7b51ee4db7e61bf7db9d28956d7e314b6fd097eefc3a143cd682bede93aeb327",
+            "edges_i32": "0bceca77ae4bb86ecdea0fbd09775056352495b5c37ab5fbc588bb533501ad9b",
+            "loop_vertices_i32": "4255a3a12d1757432c3a76fc7f442e65f4ee95543f5d4730e4ed9bc3e4f46f7e",
+            "polygon_starts_i32": "18abf42848e5be32289565a9b2b2806f524bd268450c5f42f5f34f0745af08eb",
+            "polygon_sizes_i32": "e6e1df25402c6507e45364d5308e87a1abaff6d4c2d167df4c67021d7b6574b8",
+            "material_indices_i32": "26808e28c7f17f9878340214242edef91402481c1b636afd1282d8f957f56105",
+            "materials": [
+              "Achenes • straw · amber · olive"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 40228,
+                "sha256": "7b51ee4db7e61bf7db9d28956d7e314b6fd097eefc3a143cd682bede93aeb327"
+              },
+              "achene_center": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 40228,
+                "sha256": "13a95450ef11a2f412d9e73a9321bfae9735d2f864ff3249b9ce9c928dcbaeb0"
+              },
+              "sharp_face": {
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 43392,
+                "sha256": "731e69ac8eeeb5b4a22a2e17548754531f12e76b50a3500af0d4c03f726bed55"
+              }
+            },
+            "triangles": 79552,
+            "triangles_i32": "103f9d867d165392ba98262c11e6827b75abd79f81aba4b7bd9a5825278d7ae4"
+          }
+        }
+      },
+      "plane_rotated": {
+        "cutter_matrix_world": [
+          [
+            37.08693313598633,
+            -10.638693809509277,
+            20.03079605102539,
+            -3.956559419631958
+          ],
+          [
+            13.498539924621582,
+            35.017642974853516,
+            -1.6989871263504028,
+            -34.81888961791992
+          ],
+          [
+            -14.364845275878906,
+            5.439011573791504,
+            50.11866760253906,
+            20.473766326904297
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "body": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 181562,
+            "edges": 363120,
+            "polygons": 181560,
+            "coords_f32": "8d7d8bba5cc732fda2158465d9cd8625eb0f8dcfe65e7bd92edc0828a00f91e8",
+            "edges_i32": "737c3944b51f27c1c539ec729db4c8636109f280feddc9681de4f0de1f3d4ed7",
+            "loop_vertices_i32": "fb5ca539c4efb3fe7d407bc328a437507cfdf21619d5d5e5e78091f544b78fd0",
+            "polygon_starts_i32": "a4763e2edf34dbddc72c0828aa399d4120d010c41bb5621e2b6e58a5b237e64f",
+            "polygon_sizes_i32": "71f629b552891e347cf14cd6049029eda8fd972dbcee61f74b60bc176f2dba1b",
+            "material_indices_i32": "2876498fa9414e4db5a455e0438119428e37f4d22ea9e7f8e5f13b13ee032206",
+            "materials": [
+              null,
+              "Skin • strawberry red",
+              "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "8d7d8bba5cc732fda2158465d9cd8625eb0f8dcfe65e7bd92edc0828a00f91e8"
+              },
+              "fruit_rest": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "bcde1f0ad917aa9ac88250c9d672b907b98557ba53a929ea1f66ab584316f129"
+              },
+              "material_index": {
+                "type": "INT",
+                "domain": "FACE",
+                "count": 181560,
+                "sha256": "2876498fa9414e4db5a455e0438119428e37f4d22ea9e7f8e5f13b13ee032206"
+              },
+              "v8_vascular_intensity": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "5903a90cdc0b6b4585bee986761d8d778c6f1123c8e7a2f98b506a828f828fc4"
+              },
+              "v8_cell_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "bf80391ba4869d33d0f21d22ff0062c5c2a80659a9e0b1d1b955feb0fc006ec8"
+              },
+              "v20_halo": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "005a432c1cf0fbcfa4433d39a17f4273198dfbd74f79bd2bdb2d6407f35cf3ae"
+              },
+              "v20_cell_suppression": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "1c99e4f68fedf4b5d3d62378ef894416f64380e315c977467066514f76c25c1c"
+              },
+              "v20_ridge_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "2eb579beadc23add9a4ff225cf3516533a3b3c1ae6acfc5aed5e86275074fe36"
+              },
+              "v20_total_height_mm": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "b071a7c833bd0965bd8df09fa56b1d857ae8845ba02251dcdceff2cebdc0e848"
+              },
+              "v20_cap_rim": {
+                "type": "FLOAT",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "852d657b966211f67fb1dd5a81c0f58f38ee393bf8840029dc5646a1d1be8908"
+              },
+              "v20_rest_normal": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 181562,
+                "sha256": "ad0ad8efc36deeddd854eb751ff6ee33b5b3a79a3e20c836c946fca26fda1233"
+              }
+            },
+            "triangles": 363120,
+            "triangles_i32": "82b8dfcba6f02ab2cfeba9fd884118df21fc3f0bd2833ef868b456407c1ab9ea"
+          }
+        },
+        "seeds": {
+          "matrix_world": [
+            [
+              0.9820041656494141,
+              -0.011324737221002579,
+              -0.18851907551288605,
+              0.0
+            ],
+            [
+              -1.1240106623233714e-09,
+              0.998200535774231,
+              -0.05996400862932205,
+              0.0
+            ],
+            [
+              0.18885891139507294,
+              0.058884911239147186,
+              0.9802371263504028,
+              -0.0990448147058487
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "mesh": {
+            "vertices": 15130,
+            "edges": 31280,
+            "polygons": 16320,
+            "coords_f32": "5f5942c72b6757079d3a9e39a7d2baab169eb00439474a6d85c64d0fe4e5a4cb",
+            "edges_i32": "13dcca7ba5203fdba8036a32d71b2b7c86a04f1ac47a4bbd3ba700d9500b7098",
+            "loop_vertices_i32": "d1eee8412229e7f4ea8ebac99fab6fcbc008823efa32e7dbce522b9a1a144c7e",
+            "polygon_starts_i32": "3a8d1440297d60460023a3ab6dbd2dbcd9fe8cc612dcd904376db5312116e3b3",
+            "polygon_sizes_i32": "9a1798bbf7320d568d0628f93c67242cbd24234aed68269f4ca45095e39a4786",
+            "material_indices_i32": "d5ebf1b7b54e7dc914c34c1b00390bb1e1bc3924914b03db78d47c687eb747fa",
+            "materials": [
+              "Achenes • straw · amber · olive"
+            ],
+            "named_attributes": {
+              "position": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 15130,
+                "sha256": "5f5942c72b6757079d3a9e39a7d2baab169eb00439474a6d85c64d0fe4e5a4cb"
+              },
+              "achene_center": {
+                "type": "FLOAT_VECTOR",
+                "domain": "POINT",
+                "count": 15130,
+                "sha256": "d8fd9c48e000cbee8e4c6757afed09cdce984ac4d7a31c0886f11a4ad7165df2"
+              },
+              "sharp_face": {
+                "type": "BOOLEAN",
+                "domain": "FACE",
+                "count": 16320,
+                "sha256": "23f37df93e65dd4be63d9adebe8aacadc1fbd6183768762237d8ffff15135e4d"
+              }
+            },
+            "triangles": 29920,
+            "triangles_i32": "b683807347da74411f013a77606c871e498087052e34b189104c6cfc507d7fe7"
+          }
+        }
+      }
+    }
+  },
+  "seconds_including_opens_updates_and_analysis": 137.1801879300001,
+  "maxrss_kib_linux": 1790424,
+  "limits": [
+    "Exact geometry equality for three finite poses transfers previously measured v20 geometric properties for those poses; no universal cutter or realism claim.",
+    "Scene provenance custom properties, editor node layout, internal dot-prefixed mesh caches and transient render-result images are intentionally excluded.",
+    "Raw mesh geometry and named supported attributes, object references/transforms/modifiers/constraints/action references, GN/material node structure and packed image bytes are compared.",
+    "Animation action contents and hidden curve control points are not exhaustively audited; tested evaluated meshes and cutter transforms must nevertheless match exactly."
+  ]
+}

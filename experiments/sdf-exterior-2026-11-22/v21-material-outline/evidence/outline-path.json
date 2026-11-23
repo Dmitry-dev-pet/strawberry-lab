@@ -1,0 +1,1769 @@
+{
+  "source_scene": "strawberry-v20b-halo-suppression.blend",
+  "source_sha256": "35fd1d81c51aea1cc8f4cd71c39a2815da87a1137056d32c3f78d4ab1cf649e4",
+  "blender": "5.2.4 LTS",
+  "scripts_disabled": true,
+  "material": "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)",
+  "nodes": [
+    {
+      "name": "Attribute",
+      "type": "ShaderNodeAttribute",
+      "label": "Continuous rest-space coordinates from SDF",
+      "attribute_name": "fruit_rest",
+      "inputs": []
+    },
+    {
+      "name": "Voronoi Texture",
+      "type": "ShaderNodeTexVoronoi",
+      "label": "",
+      "feature": "DISTANCE_TO_EDGE",
+      "voronoi_dimensions": "3D",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Vector",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": [
+            [
+              "Attribute",
+              "Vector"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "W",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Scale",
+          "value": 2.700000047683716,
+          "links": []
+        },
+        {
+          "index": 3,
+          "identifier": "Detail",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 4,
+          "identifier": "Roughness",
+          "value": 0.5,
+          "links": []
+        },
+        {
+          "index": 5,
+          "identifier": "Lacunarity",
+          "value": 2.0,
+          "links": []
+        },
+        {
+          "index": 6,
+          "identifier": "Smoothness",
+          "value": 1.0,
+          "links": []
+        },
+        {
+          "index": 7,
+          "identifier": "Exponent",
+          "value": 0.5,
+          "links": []
+        },
+        {
+          "index": 8,
+          "identifier": "Randomness",
+          "value": 1.0,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Map Range",
+      "type": "ShaderNodeMapRange",
+      "label": "",
+      "interpolation_type": "LINEAR",
+      "clamp": true,
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 1.0,
+          "links": [
+            [
+              "Voronoi Texture",
+              "Distance"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "From Min",
+          "value": 0.006000000052154064,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "From Max",
+          "value": 0.07000000029802322,
+          "links": []
+        },
+        {
+          "index": 3,
+          "identifier": "To Min",
+          "value": 0.550000011920929,
+          "links": []
+        },
+        {
+          "index": 4,
+          "identifier": "To Max",
+          "value": 0.019999999552965164,
+          "links": []
+        },
+        {
+          "index": 5,
+          "identifier": "Steps",
+          "value": 4.0,
+          "links": []
+        },
+        {
+          "index": 6,
+          "identifier": "Vector",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 7,
+          "identifier": "From_Min_FLOAT3",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 8,
+          "identifier": "From_Max_FLOAT3",
+          "value": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "links": []
+        },
+        {
+          "index": 9,
+          "identifier": "To_Min_FLOAT3",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 10,
+          "identifier": "To_Max_FLOAT3",
+          "value": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "links": []
+        },
+        {
+          "index": 11,
+          "identifier": "Steps_FLOAT3",
+          "value": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Math.039",
+      "type": "ShaderNodeMath",
+      "label": "",
+      "operation": "MULTIPLY",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 0.5,
+          "links": [
+            [
+              "Map Range",
+              "Result"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Value_001",
+          "value": 0.10000000149011612,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Value_002",
+          "value": 0.5,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Mix (Legacy).004",
+      "type": "ShaderNodeMixRGB",
+      "label": "",
+      "blend_type": "MIX",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Fac",
+          "value": 0.5,
+          "links": [
+            [
+              "Math.039",
+              "Value"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Color1",
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "links": [
+            [
+              "Mix (Legacy).003",
+              "Color"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "identifier": "Color2",
+          "value": [
+            0.9800000190734863,
+            0.6399999856948853,
+            0.5400000214576721,
+            1.0
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Separate Color",
+      "type": "ShaderNodeSeparateColor",
+      "label": "",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Color",
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "links": [
+            [
+              "Mix (Legacy)",
+              "Color"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Math.033",
+      "type": "ShaderNodeMath",
+      "label": "",
+      "operation": "MULTIPLY",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 0.5,
+          "links": [
+            [
+              "Separate Color",
+              "Red"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Value_001",
+          "value": 0.5600000023841858,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Value_002",
+          "value": 0.5,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Mix (Legacy).001",
+      "type": "ShaderNodeMixRGB",
+      "label": "",
+      "blend_type": "MIX",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Fac",
+          "value": 0.5,
+          "links": [
+            [
+              "Separate Color",
+              "Blue"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Color1",
+          "value": [
+            0.6200000047683716,
+            0.04500000178813934,
+            0.057999998331069946,
+            1.0
+          ],
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Color2",
+          "value": [
+            0.8899999856948853,
+            0.36000001430511475,
+            0.30000001192092896,
+            1.0
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Mix (Legacy).002",
+      "type": "ShaderNodeMixRGB",
+      "label": "",
+      "blend_type": "MIX",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Fac",
+          "value": 0.5,
+          "links": [
+            [
+              "Math.033",
+              "Value"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Color1",
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "links": [
+            [
+              "Mix (Legacy).001",
+              "Color"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "identifier": "Color2",
+          "value": [
+            0.8700000047683716,
+            0.5699999928474426,
+            0.47999998927116394,
+            1.0
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Mix (Legacy).003",
+      "type": "ShaderNodeMixRGB",
+      "label": "",
+      "blend_type": "MULTIPLY",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Fac",
+          "value": 0.2199999988079071,
+          "links": []
+        },
+        {
+          "index": 1,
+          "identifier": "Color1",
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "links": [
+            [
+              "Mix (Legacy).002",
+              "Color"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "identifier": "Color2",
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+          ],
+          "links": [
+            [
+              "Separate Color",
+              "Green"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Map Range.001",
+      "type": "ShaderNodeMapRange",
+      "label": "",
+      "interpolation_type": "LINEAR",
+      "clamp": true,
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 1.0,
+          "links": [
+            [
+              "Voronoi Texture",
+              "Distance"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "From Min",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "From Max",
+          "value": 0.5,
+          "links": []
+        },
+        {
+          "index": 3,
+          "identifier": "To Min",
+          "value": 0.33000001311302185,
+          "links": []
+        },
+        {
+          "index": 4,
+          "identifier": "To Max",
+          "value": 0.49000000953674316,
+          "links": []
+        },
+        {
+          "index": 5,
+          "identifier": "Steps",
+          "value": 4.0,
+          "links": []
+        },
+        {
+          "index": 6,
+          "identifier": "Vector",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 7,
+          "identifier": "From_Min_FLOAT3",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 8,
+          "identifier": "From_Max_FLOAT3",
+          "value": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "links": []
+        },
+        {
+          "index": 9,
+          "identifier": "To_Min_FLOAT3",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 10,
+          "identifier": "To_Max_FLOAT3",
+          "value": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "links": []
+        },
+        {
+          "index": 11,
+          "identifier": "Steps_FLOAT3",
+          "value": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Bump",
+      "type": "ShaderNodeBump",
+      "label": "",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Strength",
+          "value": 0.1899999976158142,
+          "links": []
+        },
+        {
+          "index": 1,
+          "identifier": "Distance",
+          "value": 0.017000000923871994,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Filter Width",
+          "value": 0.10000000149011612,
+          "links": []
+        },
+        {
+          "index": 3,
+          "identifier": "Height",
+          "value": 1.0,
+          "links": [
+            [
+              "Math.038",
+              "Value"
+            ]
+          ]
+        },
+        {
+          "index": 4,
+          "identifier": "Normal",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Bump.001",
+      "type": "ShaderNodeBump",
+      "label": "V11 wet grooves | material normals, not claimed cell solids",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Strength",
+          "value": 0.07500000298023224,
+          "links": []
+        },
+        {
+          "index": 1,
+          "identifier": "Distance",
+          "value": 0.007000000216066837,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Filter Width",
+          "value": 0.10000000149011612,
+          "links": []
+        },
+        {
+          "index": 3,
+          "identifier": "Height",
+          "value": 1.0,
+          "links": [
+            [
+              "Noise Texture",
+              "Fac"
+            ]
+          ]
+        },
+        {
+          "index": 4,
+          "identifier": "Normal",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": [
+            [
+              "Bump",
+              "Normal"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Voronoi Texture.001",
+      "type": "ShaderNodeTexVoronoi",
+      "label": "",
+      "feature": "DISTANCE_TO_EDGE",
+      "voronoi_dimensions": "3D",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Vector",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": [
+            [
+              "Attribute",
+              "Vector"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "W",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Scale",
+          "value": 8.5,
+          "links": []
+        },
+        {
+          "index": 3,
+          "identifier": "Detail",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 4,
+          "identifier": "Roughness",
+          "value": 0.5,
+          "links": []
+        },
+        {
+          "index": 5,
+          "identifier": "Lacunarity",
+          "value": 2.0,
+          "links": []
+        },
+        {
+          "index": 6,
+          "identifier": "Smoothness",
+          "value": 1.0,
+          "links": []
+        },
+        {
+          "index": 7,
+          "identifier": "Exponent",
+          "value": 0.5,
+          "links": []
+        },
+        {
+          "index": 8,
+          "identifier": "Randomness",
+          "value": 1.0,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Voronoi Texture.002",
+      "type": "ShaderNodeTexVoronoi",
+      "label": "",
+      "feature": "DISTANCE_TO_EDGE",
+      "voronoi_dimensions": "3D",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Vector",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": [
+            [
+              "Attribute",
+              "Vector"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "W",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Scale",
+          "value": 24.0,
+          "links": []
+        },
+        {
+          "index": 3,
+          "identifier": "Detail",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 4,
+          "identifier": "Roughness",
+          "value": 0.5,
+          "links": []
+        },
+        {
+          "index": 5,
+          "identifier": "Lacunarity",
+          "value": 2.0,
+          "links": []
+        },
+        {
+          "index": 6,
+          "identifier": "Smoothness",
+          "value": 1.0,
+          "links": []
+        },
+        {
+          "index": 7,
+          "identifier": "Exponent",
+          "value": 0.5,
+          "links": []
+        },
+        {
+          "index": 8,
+          "identifier": "Randomness",
+          "value": 1.0,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Math.034",
+      "type": "ShaderNodeMath",
+      "label": "",
+      "operation": "MULTIPLY",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 0.5,
+          "links": [
+            [
+              "Voronoi Texture",
+              "Distance"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Value_001",
+          "value": 0.5799999833106995,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Value_002",
+          "value": 0.5,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Math.035",
+      "type": "ShaderNodeMath",
+      "label": "",
+      "operation": "MULTIPLY",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 0.5,
+          "links": [
+            [
+              "Voronoi Texture.001",
+              "Distance"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Value_001",
+          "value": 0.3100000023841858,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Value_002",
+          "value": 0.5,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Math.036",
+      "type": "ShaderNodeMath",
+      "label": "",
+      "operation": "MULTIPLY",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 0.5,
+          "links": [
+            [
+              "Voronoi Texture.002",
+              "Distance"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Value_001",
+          "value": 0.10000000149011612,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Value_002",
+          "value": 0.5,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Math.037",
+      "type": "ShaderNodeMath",
+      "label": "",
+      "operation": "ADD",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 0.5,
+          "links": [
+            [
+              "Math.034",
+              "Value"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Value_001",
+          "value": 0.5,
+          "links": [
+            [
+              "Math.035",
+              "Value"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "identifier": "Value_002",
+          "value": 0.5,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Math.038",
+      "type": "ShaderNodeMath",
+      "label": "",
+      "operation": "ADD",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 0.5,
+          "links": [
+            [
+              "Math.037",
+              "Value"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Value_001",
+          "value": 0.5,
+          "links": [
+            [
+              "Math.036",
+              "Value"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "identifier": "Value_002",
+          "value": 0.5,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Vector Math.001",
+      "type": "ShaderNodeVectorMath",
+      "label": "V11 | narrow wet striations in fruit rest space",
+      "operation": "MULTIPLY",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Vector",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": [
+            [
+              "Attribute",
+              "Vector"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Vector_001",
+          "value": [
+            1.25,
+            1.25,
+            0.18000000715255737
+          ],
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Vector_002",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 3,
+          "identifier": "Scale",
+          "value": 1.0,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Noise Texture",
+      "type": "ShaderNodeTexNoise",
+      "label": "",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Vector",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": [
+            [
+              "Vector Math.001",
+              "Vector"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "W",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Scale",
+          "value": 4.199999809265137,
+          "links": []
+        },
+        {
+          "index": 3,
+          "identifier": "Detail",
+          "value": 2.0,
+          "links": []
+        },
+        {
+          "index": 4,
+          "identifier": "Roughness",
+          "value": 0.5199999809265137,
+          "links": []
+        },
+        {
+          "index": 5,
+          "identifier": "Lacunarity",
+          "value": 2.0,
+          "links": []
+        },
+        {
+          "index": 6,
+          "identifier": "Offset",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 7,
+          "identifier": "Gain",
+          "value": 1.0,
+          "links": []
+        },
+        {
+          "index": 8,
+          "identifier": "Distortion",
+          "value": 0.0,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Map Range.003",
+      "type": "ShaderNodeMapRange",
+      "label": "",
+      "interpolation_type": "SMOOTHSTEP",
+      "clamp": true,
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 1.0,
+          "links": [
+            [
+              "Noise Texture",
+              "Fac"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "From Min",
+          "value": 0.3499999940395355,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "From Max",
+          "value": 0.699999988079071,
+          "links": []
+        },
+        {
+          "index": 3,
+          "identifier": "To Min",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 4,
+          "identifier": "To Max",
+          "value": 0.04500000178813934,
+          "links": []
+        },
+        {
+          "index": 5,
+          "identifier": "Steps",
+          "value": 4.0,
+          "links": []
+        },
+        {
+          "index": 6,
+          "identifier": "Vector",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 7,
+          "identifier": "From_Min_FLOAT3",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 8,
+          "identifier": "From_Max_FLOAT3",
+          "value": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "links": []
+        },
+        {
+          "index": 9,
+          "identifier": "To_Min_FLOAT3",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 10,
+          "identifier": "To_Max_FLOAT3",
+          "value": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "links": []
+        },
+        {
+          "index": 11,
+          "identifier": "Steps_FLOAT3",
+          "value": [
+            4.0,
+            4.0,
+            4.0
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Math.040",
+      "type": "ShaderNodeMath",
+      "label": "",
+      "operation": "SUBTRACT",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 0.5,
+          "links": [
+            [
+              "Map Range.001",
+              "Result"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Value_001",
+          "value": 0.5,
+          "links": [
+            [
+              "Map Range.003",
+              "Result"
+            ]
+          ]
+        },
+        {
+          "index": 2,
+          "identifier": "Value_002",
+          "value": 0.5,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Math.041",
+      "type": "ShaderNodeMath",
+      "label": "",
+      "operation": "MAXIMUM",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Value",
+          "value": 0.5,
+          "links": [
+            [
+              "Math.040",
+              "Value"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Value_001",
+          "value": 0.1599999964237213,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Value_002",
+          "value": 0.5,
+          "links": []
+        }
+      ]
+    },
+    {
+      "name": "Principled BSDF",
+      "type": "ShaderNodeBsdfPrincipled",
+      "label": "",
+      "inputs": [
+        {
+          "index": 0,
+          "identifier": "Base Color",
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "links": [
+            [
+              "Mix (Legacy).004",
+              "Color"
+            ]
+          ]
+        },
+        {
+          "index": 1,
+          "identifier": "Metallic",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 2,
+          "identifier": "Roughness",
+          "value": 0.4300000071525574,
+          "links": [
+            [
+              "Math.041",
+              "Value"
+            ]
+          ]
+        },
+        {
+          "index": 3,
+          "identifier": "IOR",
+          "value": 1.5,
+          "links": []
+        },
+        {
+          "index": 4,
+          "identifier": "Alpha",
+          "value": 1.0,
+          "links": []
+        },
+        {
+          "index": 5,
+          "identifier": "Thin Wall",
+          "value": false,
+          "links": []
+        },
+        {
+          "index": 6,
+          "identifier": "Normal",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": [
+            [
+              "Bump.001",
+              "Normal"
+            ]
+          ]
+        },
+        {
+          "index": 7,
+          "identifier": "Weight",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 8,
+          "identifier": "Diffuse Roughness",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 9,
+          "identifier": "Subsurface Weight",
+          "value": 0.1599999964237213,
+          "links": []
+        },
+        {
+          "index": 10,
+          "identifier": "Subsurface Radius",
+          "value": [
+            1.0,
+            0.20000000298023224,
+            0.10000000149011612
+          ],
+          "links": []
+        },
+        {
+          "index": 11,
+          "identifier": "Subsurface Scale",
+          "value": 0.004999999888241291,
+          "links": []
+        },
+        {
+          "index": 12,
+          "identifier": "Subsurface IOR",
+          "value": 1.399999976158142,
+          "links": []
+        },
+        {
+          "index": 13,
+          "identifier": "Subsurface Anisotropy",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 14,
+          "identifier": "Specular IOR Level",
+          "value": 0.5,
+          "links": []
+        },
+        {
+          "index": 15,
+          "identifier": "Specular Tint",
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "links": []
+        },
+        {
+          "index": 16,
+          "identifier": "Anisotropic",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 17,
+          "identifier": "Anisotropic Rotation",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 18,
+          "identifier": "Tangent",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 19,
+          "identifier": "Transmission Weight",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 20,
+          "identifier": "Coat Weight",
+          "value": 0.09000000357627869,
+          "links": []
+        },
+        {
+          "index": 21,
+          "identifier": "Coat Roughness",
+          "value": 0.25999999046325684,
+          "links": []
+        },
+        {
+          "index": 22,
+          "identifier": "Coat IOR",
+          "value": 1.5,
+          "links": []
+        },
+        {
+          "index": 23,
+          "identifier": "Coat Tint",
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "links": []
+        },
+        {
+          "index": 24,
+          "identifier": "Coat Normal",
+          "value": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "links": []
+        },
+        {
+          "index": 25,
+          "identifier": "Sheen Weight",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 26,
+          "identifier": "Sheen Roughness",
+          "value": 0.5,
+          "links": []
+        },
+        {
+          "index": 27,
+          "identifier": "Sheen Tint",
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "links": []
+        },
+        {
+          "index": 28,
+          "identifier": "Emission Color",
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "links": []
+        },
+        {
+          "index": 29,
+          "identifier": "Emission Strength",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 30,
+          "identifier": "Thin Film Thickness",
+          "value": 0.0,
+          "links": []
+        },
+        {
+          "index": 31,
+          "identifier": "Thin Film IOR",
+          "value": 1.3300000429153442,
+          "links": []
+        }
+      ]
+    }
+  ],
+  "links": [
+    [
+      "Principled BSDF",
+      "BSDF",
+      "Material Output",
+      "Surface"
+    ],
+    [
+      "Attribute",
+      "Vector",
+      "Vector Math",
+      "Vector"
+    ],
+    [
+      "Mix (Legacy)",
+      "Color",
+      "Separate Color",
+      "Color"
+    ],
+    [
+      "Separate Color",
+      "Blue",
+      "Mix (Legacy).001",
+      "Fac"
+    ],
+    [
+      "Math.033",
+      "Value",
+      "Mix (Legacy).002",
+      "Fac"
+    ],
+    [
+      "Mix (Legacy).001",
+      "Color",
+      "Mix (Legacy).002",
+      "Color1"
+    ],
+    [
+      "Mix (Legacy).002",
+      "Color",
+      "Mix (Legacy).003",
+      "Color1"
+    ],
+    [
+      "Separate Color",
+      "Green",
+      "Mix (Legacy).003",
+      "Color2"
+    ],
+    [
+      "Attribute",
+      "Vector",
+      "Voronoi Texture",
+      "Vector"
+    ],
+    [
+      "Voronoi Texture",
+      "Distance",
+      "Math.034",
+      "Value"
+    ],
+    [
+      "Attribute",
+      "Vector",
+      "Voronoi Texture.001",
+      "Vector"
+    ],
+    [
+      "Voronoi Texture.001",
+      "Distance",
+      "Math.035",
+      "Value"
+    ],
+    [
+      "Attribute",
+      "Vector",
+      "Voronoi Texture.002",
+      "Vector"
+    ],
+    [
+      "Voronoi Texture.002",
+      "Distance",
+      "Math.036",
+      "Value"
+    ],
+    [
+      "Math.034",
+      "Value",
+      "Math.037",
+      "Value"
+    ],
+    [
+      "Math.035",
+      "Value",
+      "Math.037",
+      "Value_001"
+    ],
+    [
+      "Math.037",
+      "Value",
+      "Math.038",
+      "Value"
+    ],
+    [
+      "Math.036",
+      "Value",
+      "Math.038",
+      "Value_001"
+    ],
+    [
+      "Math.038",
+      "Value",
+      "Bump",
+      "Height"
+    ],
+    [
+      "Voronoi Texture",
+      "Distance",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Map Range",
+      "Result",
+      "Math.039",
+      "Value"
+    ],
+    [
+      "Math.039",
+      "Value",
+      "Mix (Legacy).004",
+      "Fac"
+    ],
+    [
+      "Mix (Legacy).003",
+      "Color",
+      "Mix (Legacy).004",
+      "Color1"
+    ],
+    [
+      "Mix (Legacy).004",
+      "Color",
+      "Principled BSDF",
+      "Base Color"
+    ],
+    [
+      "Voronoi Texture",
+      "Distance",
+      "Map Range.001",
+      "Value"
+    ],
+    [
+      "Attribute",
+      "Vector",
+      "Vector Math.001",
+      "Vector"
+    ],
+    [
+      "Vector Math.001",
+      "Vector",
+      "Noise Texture",
+      "Vector"
+    ],
+    [
+      "Noise Texture",
+      "Fac",
+      "Bump.001",
+      "Height"
+    ],
+    [
+      "Bump",
+      "Normal",
+      "Bump.001",
+      "Normal"
+    ],
+    [
+      "Bump.001",
+      "Normal",
+      "Principled BSDF",
+      "Normal"
+    ],
+    [
+      "Noise Texture",
+      "Fac",
+      "Map Range.003",
+      "Value"
+    ],
+    [
+      "Map Range.001",
+      "Result",
+      "Math.040",
+      "Value"
+    ],
+    [
+      "Map Range.003",
+      "Result",
+      "Math.040",
+      "Value_001"
+    ],
+    [
+      "Math.040",
+      "Value",
+      "Math.041",
+      "Value"
+    ],
+    [
+      "Math.041",
+      "Value",
+      "Principled BSDF",
+      "Roughness"
+    ],
+    [
+      "Separate Color",
+      "Red",
+      "Math.033",
+      "Value"
+    ]
+  ],
+  "gain_reaches_principled_inputs": [
+    "Base Color"
+  ],
+  "candidate": {
+    "node": "Math.039",
+    "input_index": 1,
+    "input_identifier": "Value_001",
+    "from": 0.10000000149011612,
+    "to": 0.02,
+    "scope": "80% reduction of only the final cell-color overlay weight; ARTIST"
+  },
+  "original_atlas_users": [
+    [
+      "Image Texture",
+      "V19 | rooted 264-seed graph 192^3 rest R (ARTIST)"
+    ],
+    [
+      "Image Texture.001",
+      "V19 | rooted 264-seed graph 192^3 rest R (ARTIST)"
+    ]
+  ],
+  "scene_was_saved": false
+}

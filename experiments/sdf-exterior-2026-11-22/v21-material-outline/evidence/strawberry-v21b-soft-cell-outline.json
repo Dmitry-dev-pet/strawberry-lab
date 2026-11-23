@@ -1,0 +1,27 @@
+{
+  "experiment": "v21-material-outline",
+  "hypothesis": "Attenuating the explicit pale cell-color outline reduces the drawn polygonal appearance.",
+  "status": "built; independent validation and actual renders required",
+  "classification": "ARTIST / template-derived",
+  "blender": "5.2.4 LTS",
+  "blender_build_hash": "cd5dc428cce1",
+  "source": "strawberry-v20b-halo-suppression.blend",
+  "source_sha256": "35fd1d81c51aea1cc8f4cd71c39a2815da87a1137056d32c3f78d4ab1cf649e4",
+  "candidate": "strawberry-v21b-soft-cell-outline.blend",
+  "candidate_sha256": "92e7e288f7851ec8c5e68897d5f7f19b5b5f73310a6d7d9084836f854c258a13",
+  "bytes": 55010821,
+  "changed_socket": {
+    "material": "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)",
+    "node": "Math.039",
+    "input_index": 1,
+    "old": 0.10000000149011612,
+    "new": 0.019999999552965164
+  },
+  "packed_images_before": {
+    "V19 | rooted 264-seed graph 192^3 rest R (ARTIST)": "02d8abd338b590451e0396a2e453e443aa60bfa1656f1f01ab2c1edaad238d65",
+    "V20 | core R and broad halo G, separate from pith (ARTIST)": "0d86f9cdc2b676181a3e81aa34bfccf002c062fa9b6797d4a25375d25f4cee9c"
+  },
+  "frame": 20,
+  "build_seconds": 5.607034116001159,
+  "maxrss_kib": 1446056
+}

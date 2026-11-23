@@ -1,0 +1,72 @@
+{
+  "comparisons": [
+    {
+      "shot": "macro",
+      "camera_light_render_settings_identical": true,
+      "mean_absolute_srgb_difference": 0.006734256166964769,
+      "fraction_pixels_max_rgb_difference_gt_0_01": 0.30074119567871094,
+      "interpretation": "Image difference only, not a realism or accuracy score."
+    },
+    {
+      "shot": "plane",
+      "camera_light_render_settings_identical": true,
+      "mean_absolute_srgb_difference": 0.0011161471484228969,
+      "fraction_pixels_max_rgb_difference_gt_0_01": 0.0835400390625,
+      "interpretation": "Image difference only, not a realism or accuracy score."
+    },
+    {
+      "shot": "bite",
+      "camera_light_render_settings_identical": true,
+      "mean_absolute_srgb_difference": 0.0006314178463071585,
+      "fraction_pixels_max_rgb_difference_gt_0_01": 0.04217529296875,
+      "interpretation": "Image difference only, not a realism or accuracy score."
+    }
+  ],
+  "sheets": [
+    {
+      "sheet": "v21-cycles-A-B-comparison.png",
+      "sha256": "9721ad14fc2b808e76fc8721d34b9168e9417e973509fa2c7c85033124223fc1",
+      "source_images": [
+        {
+          "file": "cycles-v21a-plane.png",
+          "sha256": "238a18431706bc1551f854cd8b2c6d4eca4db241cc581c9471bbc31d600119f4",
+          "resized": false
+        },
+        {
+          "file": "cycles-v21b-plane.png",
+          "sha256": "761197e673414533954500585c047f1331e8fb3e58462453b7fe03553f71cee7",
+          "resized": false
+        },
+        {
+          "file": "cycles-v21a-bite.png",
+          "sha256": "79d79e5e5475a4ee88ed0f67aeb244086969ff7e00c8a9a45375afa9065e16ec",
+          "resized": false
+        },
+        {
+          "file": "cycles-v21b-bite.png",
+          "sha256": "722fd48373043612b409d08e19871596a6200175420c1c2451efd8d83d9968a2",
+          "resized": false
+        }
+      ],
+      "processing": "original image pixels, unchanged scale; labels and arrangement only"
+    },
+    {
+      "sheet": "v21-macro-A-B-comparison.png",
+      "sha256": "446d619d6dac8f57a91ca97a920dc67b407c9a50ed1573dcb01cfd4b4b305339",
+      "source_images": [
+        {
+          "file": "cycles-v21a-macro.png",
+          "sha256": "509f9ac4144af6921063e3fcf1a8bc62f5ac9273e37fab7a574dd35cc66c630b",
+          "resized": false
+        },
+        {
+          "file": "cycles-v21b-macro.png",
+          "sha256": "7be8bf5aae806f27513ae9814959c9ae3d2aaa943a897e2891e77b7c11e75dfb",
+          "resized": false
+        }
+      ],
+      "processing": "original image pixels, unchanged scale; labels and arrangement only"
+    }
+  ],
+  "baseline_provenance": "A images are actual v20B Cycles outputs. See render-batch receipt for whether reused or freshly rendered."
+}
