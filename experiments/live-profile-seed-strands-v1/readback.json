@@ -1,0 +1,10 @@
+{
+  "full_downloaded_sha256": {
+    "live-profile.blend": "481f98534847c7d18d1c1fcc14b9f30403c16099c7b0928b0ecdee13ffde9d95",
+    "live-profile-B.blend": "6a803feb2c9e77b113a57834edd751ed569c5b384a3c3a6a5f4c520e136babb3",
+    "comparison.png": "3bf615a565e4553f3d6e07736b0752887b3e67a6221044354ced828ac21b0818",
+    "live-profile-v1.zip": "55ba870b21c7e21975fa03ab737eb0ac3a00fb689b4a8d168f92af0fff0d5326"
+  },
+  "all_six_png_bytes_checked_in_downloaded_zip": true,
+  "downloaded_both_scenes_reopened_A_B_A_UI_QA_passed": true
+}
