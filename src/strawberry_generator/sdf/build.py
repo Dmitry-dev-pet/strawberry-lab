@@ -71,14 +71,62 @@ def body_group(body,plane,sphere,params,skin,cap,mm):
  smooth=node(g,'GeometryNodeSetShadeSmooth');smooth.domain='FACE';wire(g,cut.outputs[0],smooth.inputs['Geometry']);wire(g,smooth.outputs[0],out.inputs['Geometry'])
  return g
 
-def mask_group(body,plane,sphere):
- g=tree('SDF | same-cutter CENTER mask for solid seeds and crown');inp=node(g,'NodeGroupInput');out=node(g,'NodeGroupOutput');mode=driven(g,body,'sdf_mode');pos=node(g,'GeometryNodeInputPosition');mean=node(g,'GeometryNodeAttributeStatistic');mean.data_type='FLOAT_VECTOR';mean.domain='POINT';wire(g,inp.outputs[0],mean.inputs['Geometry']);wire(g,pos.outputs[0],mean.inputs['Attribute']);point=mean.outputs['Mean']
- a=info(g,plane);b=info(g,sphere)
- def subtract(x,y):
-  n=node(g,'ShaderNodeVectorMath');n.operation='SUBTRACT';wire(g,x,n.inputs[0]);wire(g,y,n.inputs[1]);return n.outputs['Vector']
- vec=subtract(point,a.outputs['Location']);rotate=node(g,'ShaderNodeVectorRotate');rotate.rotation_type='EULER_XYZ';rotate.invert=True;wire(g,vec,rotate.inputs['Vector']);wire(g,a.outputs['Rotation'],rotate.inputs['Rotation']);xyz=node(g,'ShaderNodeSeparateXYZ');wire(g,rotate.outputs[0],xyz.inputs[0]);insideplane=mathnode(g,'LESS_THAN',xyz.outputs['Y'],0)
- length=node(g,'ShaderNodeVectorMath');length.operation='LENGTH';wire(g,subtract(point,b.outputs['Location']),length.inputs[0]);scale=node(g,'ShaderNodeSeparateXYZ');wire(g,b.outputs['Scale'],scale.inputs[0]);insidesphere=mathnode(g,'LESS_THAN',length.outputs['Value'],scale.outputs['X'])
- choose=node(g,'GeometryNodeSwitch');choose.input_type='BOOLEAN';wire(g,mathnode(g,'GREATER_THAN',mode,1.5),choose.inputs['Switch']);wire(g,insideplane,choose.inputs['False']);wire(g,insidesphere,choose.inputs['True']);active=mathnode(g,'GREATER_THAN',mode,.5);remove=mathnode(g,'MULTIPLY',active,choose.outputs[0]);delete=node(g,'GeometryNodeDeleteGeometry');delete.domain='POINT';wire(g,inp.outputs[0],delete.inputs['Geometry']);wire(g,remove,delete.inputs['Selection']);wire(g,delete.outputs[0],out.inputs[0]);return g
+def mask_group(body, plane, sphere):
+    """Conservative per-object guard: discard an entire seed at first vertex intrusion.
+
+    All evaluation stays in native Geometry Nodes when the cutter moves; the
+    source seed solids and sphere/plane geometry are not altered or remeshed.
+    This is *not* partial seed/calyx clipping or triangle-intersection proof.
+    """
+    g=tree('SDF | live seed vertex intersection guard')
+    inp=node(g,'NodeGroupInput')
+    out=node(g,'NodeGroupOutput')
+    mode=driven(g,body,'sdf_mode')
+    pos=node(g,'GeometryNodeInputPosition')
+    a=info(g,plane);b=info(g,sphere)
+
+    def subtract(x,y):
+        n=node(g,'ShaderNodeVectorMath')
+        n.operation='SUBTRACT'
+        wire(g,x,n.inputs[0]);wire(g,y,n.inputs[1])
+        return n.outputs['Vector']
+
+    def min_over_seed(field, label):
+        n=node(g,'GeometryNodeAttributeStatistic',label)
+        n.data_type='FLOAT';n.domain='POINT'
+        wire(g,inp.outputs['Geometry'],n.inputs['Geometry'])
+        wire(g,field,n.inputs['Attribute'])
+        return n.outputs['Min']
+
+    # Local signed coordinate of *each* achene vertex, not just its centre.
+    local=node(g,'ShaderNodeVectorRotate','Plane coordinates of all vertices')
+    local.rotation_type='EULER_XYZ';local.invert=True
+    wire(g,subtract(pos.outputs['Position'],a.outputs['Location']),local.inputs['Vector'])
+    wire(g,a.outputs['Rotation'],local.inputs['Rotation'])
+    xyz=node(g,'ShaderNodeSeparateXYZ')
+    wire(g,local.outputs['Vector'],xyz.inputs[0])
+    inside_plane=mathnode(g,'LESS_THAN',min_over_seed(xyz.outputs['Y'],'Minimum local plane Y'),0)
+
+    # The spherical cutter uses a uniform object scale (existing SDF contract).
+    radius=node(g,'ShaderNodeSeparateXYZ')
+    wire(g,b.outputs['Scale'],radius.inputs[0])
+    length=node(g,'ShaderNodeVectorMath','Per-vertex distance to sphere')
+    length.operation='LENGTH'
+    wire(g,subtract(pos.outputs['Position'],b.outputs['Location']),length.inputs[0])
+    inside_sphere=mathnode(g,'LESS_THAN',min_over_seed(length.outputs['Value'],'Minimum distance to sphere'),radius.outputs['X'])
+
+    select=node(g,'GeometryNodeSwitch')
+    select.input_type='BOOLEAN'
+    wire(g,mathnode(g,'GREATER_THAN',mode,1.5),select.inputs['Switch'])
+    wire(g,inside_plane,select.inputs['False'])
+    wire(g,inside_sphere,select.inputs['True'])
+    remove=mathnode(g,'MULTIPLY',mathnode(g,'GREATER_THAN',mode,.5),select.outputs[0])
+    delete=node(g,'GeometryNodeDeleteGeometry')
+    delete.domain='POINT'
+    wire(g,inp.outputs['Geometry'],delete.inputs['Geometry'])
+    wire(g,remove,delete.inputs['Selection'])
+    wire(g,delete.outputs[0],out.inputs[0])
+    return g
 
 def main():
  p=argparse.ArgumentParser();p.add_argument('--input',type=Path,required=True);p.add_argument('--out',type=Path,required=True);args=p.parse_args(sys.argv[sys.argv.index('--')+1:]);assert hashlib.sha256(args.input.read_bytes()).hexdigest()==PIN;assert not args.out.exists();args.out.parent.mkdir(parents=True,exist_ok=True)
@@ -110,9 +158,9 @@ def main():
  cap=cut_material(body.data.materials[1]);body.data.materials.clear();body.data.materials.append(skin);body.data.materials.append(cap);mod=body.modifiers.new('SDF engine | edit body Custom Properties mode / voxel mm','NODES');mod.node_group=body_group(body,plane,sphere,params,skin,cap,mm)
  group=mask_group(body,plane,sphere)
  for o in s.objects:
-  if o.get('role') in {'achene','sepal','pedicel'}:o.modifiers.new('Same cutter | center cull, no solid clipping','NODES').node_group=group
+  if o.get('role') in {'achene','sepal','pedicel'}:o.modifiers.new('Same cutter | vertex intersection guard, no partial clipping','NODES').node_group=group
  s['SDF slice provenance']='PR40 seed101 source hull/264 seeds/pits/ARTIST graph; original packed150^3 template-derived field. Own GN SDF pipeline; no Frucht assets.'
- s['SDF limitations']='Seed/crown CENTER culling only, no partial solid intersection. Source profile fixed; old live Python Exact/Profile removed. Diagnostics retained hidden, not clipped by SDF. Cut microtexture shader-only.'
+ s['SDF limitations']='Seed/crown per-vertex conservative whole-solid hiding only, no partial mesh intersection. Source profile fixed; old live Python Exact/Profile removed. Diagnostics retained hidden, not clipped by SDF. Cut microtexture shader-only.'
  s['SDF controls']='Select canonical body > Object Custom Properties: sdf_mode 0/1/2; sdf_voxel_mm. Move/rotate SDF plane; move/uniform-scale sphere. No auto scripts.'
  s['SDF params']=json.dumps(params);s['SDF source_sha256']=PIN
  note=bpy.data.texts.new('SDF_SLICE__README.txt');note.write(s['SDF controls']+'\n'+s['SDF limitations']+'\nModes are geometry-node drivers. No Python execution required after reopening.')

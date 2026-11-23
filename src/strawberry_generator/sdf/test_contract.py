@@ -25,6 +25,13 @@ class SavedSDFContract(unittest.TestCase):
   self.assertTrue(any(n.type=='ATTRIBUTE' and n.attribute_name==REST and n.outputs['Vector'].is_linked for n in cap.node_tree.nodes))
   inverse=next(n for n in cap.node_tree.nodes if n.label=='Analytic nonlinear inverse: physical -> original PR29 rest');self.assertFalse(inverse.outputs[0].is_linked)
   self.assertEqual(sum(n.type=='TEX_VORONOI' and n.name.startswith('Own 3D wetness') for n in cap.node_tree.nodes),3)
+ def test_seed_mask_uses_all_seed_vertices_not_centers(self):
+  masks=[g for g in bpy.data.node_groups if g.name.startswith('SDF | live seed vertex intersection guard')]
+  self.assertEqual(len(masks),1)
+  stats=[n for n in masks[0].nodes if n.bl_idname=='GeometryNodeAttributeStatistic']
+  self.assertEqual(len(stats),2)
+  self.assertTrue(all(n.data_type=='FLOAT' and n.domain=='POINT' and n.outputs['Min'].is_linked for n in stats))
+  self.assertFalse(any(n.data_type=='FLOAT_VECTOR' and n.outputs['Mean'].is_linked for n in stats))
  def test_native_saved_controls_not_embedded_runtime(self):
   self.assertEqual(self.body['sdf_mode'],0);self.assertAlmostEqual(self.body['sdf_voxel_mm'],.20)
   self.assertFalse(any(t.name.endswith('.py') for t in bpy.data.texts))
