@@ -1,0 +1,33 @@
+{
+  "status": "PASS_DYNAMIC_WET_FILM",
+  "scene_sha256": "213f25b9dc5c2c72bbbfb6091e904b92bbb3edb4cac9372e31d847b45727a998",
+  "blender": "5.2.4 LTS",
+  "scripts_disabled": true,
+  "states": [
+    {
+      "name": "plane-original",
+      "faces": 4789,
+      "sha": "54e238389237377aaae7a306d2f3fb387f4be469a772d6c46b4391225f6449b6"
+    },
+    {
+      "name": "film-disabled",
+      "faces": 0,
+      "sha": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "name": "film-restored",
+      "faces": 4789,
+      "sha": "54e238389237377aaae7a306d2f3fb387f4be469a772d6c46b4391225f6449b6"
+    },
+    {
+      "name": "plane-rotated",
+      "faces": 6235,
+      "sha": "34c0ae61b6ee101e60c10156560ad82934b98e2bf2121aeee01ca4ffb0eabbdc"
+    },
+    {
+      "name": "bite-edge",
+      "faces": 5983,
+      "sha": "dd6fb99044ef77afb7c5668998a6941589cf30ede578e7cc510717f7821b3f2d"
+    }
+  ]
+}

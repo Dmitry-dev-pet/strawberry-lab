@@ -1,0 +1,26 @@
+{
+  "status": "PASS_NO_V21_COLOR_OUTLINE_PATH",
+  "blender": "5.2.4 LTS",
+  "scene_sha256": "0b79e33b0725f807524061b1afe79671f4fcf1c6b5c429bd8203cec8d6a21bd2",
+  "material": "SDF | inherited 150^3 tissue + own multiscale wetness",
+  "total_nodes": 82,
+  "original_v21_identifier": "Math.039",
+  "math_039_operation": "MULTIPLY",
+  "math_039_outgoing": [
+    [
+      "Math.056",
+      "Value"
+    ]
+  ],
+  "principled_base_color": [
+    [
+      "Hue/Saturation/Value",
+      "Color"
+    ]
+  ],
+  "v21_Mix_Legacy_004_present": false,
+  "tex_images": [
+    "LIVE | ORIGINAL V0 native RGB volume atlas (150^3)"
+  ],
+  "conclusion": "The v21 color-outline knob is absent here. Math.039 feeds wetness roughness and Bump, NOT color. Do not copy 0.10 to 0.02."
+}

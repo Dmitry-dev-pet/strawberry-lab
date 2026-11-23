@@ -1,0 +1,132 @@
+{
+  "status": "PASS_NATIVE_INDEPENDENT_WET_FILM_AB_TESTED_STATES",
+  "blender": "5.2.4 LTS",
+  "variants": {
+    "A": {
+      "sha256": "1e063e37cb2f07775f60e2a4b1fcce8bdf83bf33b224cf97beef9b94540b6179",
+      "states": {
+        "0.32/whole": {
+          "body_vertices": 91046,
+          "body_sha256": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+          "body_cap_faces": 0,
+          "film_vertices": 0,
+          "film_faces": 0,
+          "sampled_film_body_gap_mm": null,
+          "seconds": 1.039
+        },
+        "0.32/plane": {
+          "body_vertices": 59400,
+          "body_sha256": "a165e4d603ea0e5238ca81c65a43f28d2de688e6b285df6d743c9e79d940955c",
+          "body_cap_faces": 14817,
+          "film_vertices": 0,
+          "film_faces": 0,
+          "sampled_film_body_gap_mm": null,
+          "seconds": 1.671
+        },
+        "0.32/edge-bite": {
+          "body_vertices": 91004,
+          "body_sha256": "af454e777ea6f529deaaec7bf66bf03ca5b842a02b3e3d8fdc16610146a9da39",
+          "body_cap_faces": 19122,
+          "film_vertices": 0,
+          "film_faces": 0,
+          "sampled_film_body_gap_mm": null,
+          "seconds": 2.016
+        },
+        "0.2/whole": {
+          "body_vertices": 233258,
+          "body_sha256": "cb60ed5ba6711e2bd2cb989971701c8e6385265ad75cf17bbc17b8df98fcf1f5",
+          "body_cap_faces": 0,
+          "film_vertices": 0,
+          "film_faces": 0,
+          "sampled_film_body_gap_mm": null,
+          "seconds": 2.023
+        },
+        "0.2/plane": {
+          "body_vertices": 152500,
+          "body_sha256": "15cb6cd0ad6a9ab7135ad1b3538d92bc5831a3f969c7e13e2fdf21ce136f655c",
+          "body_cap_faces": 37250,
+          "film_vertices": 0,
+          "film_faces": 0,
+          "sampled_film_body_gap_mm": null,
+          "seconds": 2.656
+        },
+        "0.2/edge-bite": {
+          "body_vertices": 233234,
+          "body_sha256": "5fd551e73f40eba1b43f2dcf636d15774c73626e4c0fd2d4839b71a64ebac3da",
+          "body_cap_faces": 48114,
+          "film_vertices": 0,
+          "film_faces": 0,
+          "sampled_film_body_gap_mm": null,
+          "seconds": 2.705
+        }
+      }
+    },
+    "B": {
+      "sha256": "8226328cc010cc408a5c96128341e0acd86bf6bff63c2ffde896ae5d13fe32e2",
+      "states": {
+        "0.32/whole": {
+          "body_vertices": 91046,
+          "body_sha256": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+          "body_cap_faces": 0,
+          "film_vertices": 0,
+          "film_faces": 0,
+          "sampled_film_body_gap_mm": null,
+          "seconds": 0.799
+        },
+        "0.32/plane": {
+          "body_vertices": 59400,
+          "body_sha256": "a165e4d603ea0e5238ca81c65a43f28d2de688e6b285df6d743c9e79d940955c",
+          "body_cap_faces": 14817,
+          "film_vertices": 15126,
+          "film_faces": 14817,
+          "sampled_film_body_gap_mm": 0.02499684079335595,
+          "seconds": 1.51
+        },
+        "0.32/edge-bite": {
+          "body_vertices": 91004,
+          "body_sha256": "af454e777ea6f529deaaec7bf66bf03ca5b842a02b3e3d8fdc16610146a9da39",
+          "body_cap_faces": 19122,
+          "film_vertices": 19428,
+          "film_faces": 19122,
+          "sampled_film_body_gap_mm": 0.024988467944506695,
+          "seconds": 1.741
+        },
+        "0.2/whole": {
+          "body_vertices": 233258,
+          "body_sha256": "cb60ed5ba6711e2bd2cb989971701c8e6385265ad75cf17bbc17b8df98fcf1f5",
+          "body_cap_faces": 0,
+          "film_vertices": 0,
+          "film_faces": 0,
+          "sampled_film_body_gap_mm": null,
+          "seconds": 1.397
+        },
+        "0.2/plane": {
+          "body_vertices": 152500,
+          "body_sha256": "15cb6cd0ad6a9ab7135ad1b3538d92bc5831a3f969c7e13e2fdf21ce136f655c",
+          "body_cap_faces": 37250,
+          "film_vertices": 37744,
+          "film_faces": 37250,
+          "sampled_film_body_gap_mm": 0.024995712858210492,
+          "seconds": 2.816
+        },
+        "0.2/edge-bite": {
+          "body_vertices": 233234,
+          "body_sha256": "5fd551e73f40eba1b43f2dcf636d15774c73626e4c0fd2d4839b71a64ebac3da",
+          "body_cap_faces": 48114,
+          "film_vertices": 48598,
+          "film_faces": 48114,
+          "sampled_film_body_gap_mm": 0.024985024637904394,
+          "seconds": 3.085
+        }
+      }
+    }
+  },
+  "tests": [],
+  "base_body_unchanged": true,
+  "original_material_atlas_unchanged": true,
+  "limitations": [
+    "Film is an open surface sheet (0 thickness), not watertight independently",
+    "Reflective translucency is ARTIST and visually unaccepted",
+    "Checks limited to whole/plane/side-bite at 0.32/0.20 mm; no all-pose guarantee"
+  ]
+}
