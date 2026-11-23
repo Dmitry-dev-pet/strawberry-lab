@@ -67,4 +67,12 @@ The Blender QA master run in the original environment timed out after 9 states; 
 
 ### Files and access
 
-The user-visible comparison sheet is `comparison-v12-v17-plane-bite.png` (6 frames); a 9-frame macro contact sheet is `comparison-v12-v17-all-9-cycles.png`. `strawberry-v17-research.zip` includes both original editable v17 scenes, packed RGB atlases, original nine Cycles PNGs, analysis code, JSON receipts, and diagnostic maps; hash-verified member-by-member. The original 25 MB v12 scene remains on private Drive and is not included in this derivative package. No public share setting was changed.
+The user-visible comparison sheet is `comparison-v12-v17-plane-bite.png` (6 frames); a 9-frame macro contact sheet is `comparison-v12-v17-all-9-cycles.png`. `strawberry-v17-research-verified.zip` includes both original editable v17 scenes, packed RGB atlases, original nine Cycles PNGs, analysis code, JSON receipts, and diagnostic maps; hash-verified member-by-member. The original 25 MB v12 scene remains on private Drive and is not included in this derivative package. No public share setting was changed.
+
+## Completed reproducibility addendum
+
+The original 9-state exploratory Blender diagnostic was followed by two complete standalone core validators (one saved scene per process, auto-execution disabled). Each independently passed five native geometry states, so **10/10** states have positive volume and zero nonmanifold edges. These independent runs are separate from the initial timed-out exploratory process. Tested source: [isolated validator](validate_v17_restfield_blender.py), [field preparation](prepare_v17_restfield.py), [scene generator](build_v17_restfield_blender.py), and [Cycles renderer](render_v17_restfield.py).
+
+**Final owner download package (local container, not Google Drive):** strawberry-v17-research-verified.zip, 93,472,945 bytes, 64 members, full per-member SHA-256 readback PASS, archive SHA-256 d24816549d6e33d4b9216fcb95de1e5e3e5760f0eae8ba032cda9f8d563bbe99. Contains two editable scenes, packed 192³ atlases, nine genuine 640px/16sample Cycles PNGs, contact sheets, R maps, caps, scripts, core validation receipts, and A/B numeric data. **Not yet uploaded to Drive**; original v12 stays in owner-private Drive and is excluded.
+
+**Visual decision unchanged:** remap-only v17A creates too many isolated bright dots and streaks; v17B reduces field fragmentation while producing blurry pale spots. Neither gives convincing wet fibrous strawberry flesh compared to the original Frucht demonstration. Do not merge PR #43 or promote v17 to product main without owner visual acceptance.
