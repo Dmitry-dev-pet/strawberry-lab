@@ -1,0 +1,24 @@
+{
+  "status": "BUILT_UNVERIFIED",
+  "source_sha256": "bfecf691df67cafff020971368f1afc877f4bac1165e851520bdcc1773f85ce1",
+  "blender": "5.2.4 LTS",
+  "variants": [
+    {
+      "variant": "A",
+      "gain": 0.0,
+      "bytes": 11571999,
+      "sha256": "af81927308d0c902451671be019e7ab9ba7b3381163806f7b1015a4e84b43ce7"
+    },
+    {
+      "variant": "B",
+      "gain": 1.0,
+      "bytes": 11572032,
+      "sha256": "2a092a29f9425b5b8d04e66ae3bddb2c8785eeec8bbff06282c5ad4c22426338"
+    }
+  ],
+  "notes": [
+    "one native GN group plus one gain, rest-space cap relief",
+    "ARTIST 0.095mm peak amplitude; no measured tissue packing",
+    "same object geometry, material, cutter, camera source; validation to follow"
+  ]
+}

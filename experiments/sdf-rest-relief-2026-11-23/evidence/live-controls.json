@@ -1,0 +1,24 @@
+{
+  "status": "PASS_LIVE_CONTROL",
+  "scene_sha256": "51e044143cabfea157aa0244e59701a6e31a63e7d05284ff31fa521bacebb380",
+  "script_execution_disabled": true,
+  "gain_round_trip": [
+    {
+      "gain": 0.35,
+      "digest": "4fed30bd74bdb31203e301c3812086309373a56b15859289761ec7b19ad0978e",
+      "vertices": 59400
+    },
+    {
+      "gain": 0.0,
+      "digest": "f224ff210fe9984d5ad7df25342d9dd5b4be24ccabc4ce8880f1f070fd3af639",
+      "vertices": 59400
+    },
+    {
+      "gain": 0.35,
+      "digest": "4fed30bd74bdb31203e301c3812086309373a56b15859289761ec7b19ad0978e",
+      "vertices": 59400
+    }
+  ],
+  "cutter_rotation_changes_mesh": true,
+  "blender": "5.2.4 LTS"
+}

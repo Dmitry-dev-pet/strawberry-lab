@@ -1,0 +1,59 @@
+{
+  "status": "PASS_SHADER_ONLY_AB",
+  "blender": "5.2.4 LTS",
+  "A": {
+    "gain": 0.0,
+    "materials_sha_excluding_gain": "5552b72e6a82844692ccf7c905253a978a32e724eb7ca5e7fae6f84bc144be04",
+    "raw_geometry_sha": "3b5d2a6e248af0bcaa2f03ff4b81709989e319cd8476f87b0b59c8fec41f3854",
+    "mesh_objects": 278,
+    "packed_atlas_sha": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+    "poses": [
+      {
+        "pose": "plane",
+        "verts": 59400,
+        "nonmanifold": 0,
+        "volume": 1.773218572709918,
+        "geometry_sha": "49252bc16c3006cd5750307594ea7badf78982e830ddd1ff66c88644e1a118c7"
+      },
+      {
+        "pose": "bite",
+        "verts": 90964,
+        "nonmanifold": 0,
+        "volume": 3.0638339412930953,
+        "geometry_sha": "04b71aa656283fa9848fde22b880a1acbf23b396eb04ebeab3373d25b52f5e04"
+      }
+    ],
+    "scene_sha": "4d21aada50c88a214179d93ef1facb31dd2ae1cb448516121bacbcb6cac5f738"
+  },
+  "B": {
+    "gain": 1.0,
+    "materials_sha_excluding_gain": "5552b72e6a82844692ccf7c905253a978a32e724eb7ca5e7fae6f84bc144be04",
+    "raw_geometry_sha": "3b5d2a6e248af0bcaa2f03ff4b81709989e319cd8476f87b0b59c8fec41f3854",
+    "mesh_objects": 278,
+    "packed_atlas_sha": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+    "poses": [
+      {
+        "pose": "plane",
+        "verts": 59400,
+        "nonmanifold": 0,
+        "volume": 1.773218572709918,
+        "geometry_sha": "49252bc16c3006cd5750307594ea7badf78982e830ddd1ff66c88644e1a118c7"
+      },
+      {
+        "pose": "bite",
+        "verts": 90964,
+        "nonmanifold": 0,
+        "volume": 3.0638339412930953,
+        "geometry_sha": "04b71aa656283fa9848fde22b880a1acbf23b396eb04ebeab3373d25b52f5e04"
+      }
+    ],
+    "scene_sha": "5088d848cb67d814101d38e4deb5597a6d1c703f98516990f42a58ff342a44da"
+  },
+  "identical_pose_geometry": true,
+  "same_packed_atlas": true,
+  "only_gain_diff_mat_graph": true,
+  "caveats": [
+    "Bump/roughness shader only, no new cells or physical fluid",
+    "Tested plane and bite at 0.32mm only; inherited PR48 validation covers 8 previous geometry states"
+  ]
+}
