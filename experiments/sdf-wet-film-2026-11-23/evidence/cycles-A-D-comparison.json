@@ -1,0 +1,39 @@
+{
+  "shots": {
+    "plane": {
+      "changed_pixel_fraction_gt10": 0.12214409722222222,
+      "changed_pixel_fraction_gt2": 0.20375868055555554,
+      "mean_absolute_RGB_255": 3.600886863425926,
+      "render_seconds": {
+        "A": 7.927,
+        "D": 7.209
+      },
+      "wet_faces": {
+        "A": 0,
+        "D": 11976
+      },
+      "image_sha256": {
+        "A": "877e78c5841f7da7f8ebbac4cbf6b29a12cc9694f9760dc8b29c89b32884055f",
+        "D": "9c81a81d89c0bd62649ca418f6856f41960db983961e780e4e703f62c6c27828"
+      }
+    },
+    "bite": {
+      "changed_pixel_fraction_gt10": 0.07565538194444445,
+      "changed_pixel_fraction_gt2": 0.1237109375,
+      "mean_absolute_RGB_255": 1.9762485532407408,
+      "render_seconds": {
+        "A": 7.168,
+        "D": 7.873
+      },
+      "wet_faces": {
+        "A": 0,
+        "D": 15175
+      },
+      "image_sha256": {
+        "A": "9bd27271dd7ccf4a4b9059c01586f598f6e4fe4183ba424c902950958c2be7ea",
+        "D": "b4410eddcce1efdff775616f78d29b838379f2f58d9985e88806521f11c4a18d"
+      }
+    }
+  },
+  "meaning": "Changes measure effect, not realism"
+}

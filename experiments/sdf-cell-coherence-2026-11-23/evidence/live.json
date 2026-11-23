@@ -1,0 +1,33 @@
+{
+  "status": "PASS_NATIVE_CELL_COHERENCE_DYNAMIC_GAIN_AND_CUTTER",
+  "scene_sha": "4732b465b103f9a0b4ab262dfeae51e26a8865aa586c3779d472d86eed845399",
+  "blender": "5.2.4 LTS",
+  "scripts_disabled": true,
+  "records": [
+    {
+      "name": "on",
+      "verts": 59400,
+      "xyz_sha": "5e3d255bcd7a55459c603c5c95efce10eb9fdc16cf52f1a33e732c1934d71543"
+    },
+    {
+      "name": "off",
+      "verts": 59400,
+      "xyz_sha": "a165e4d603ea0e5238ca81c65a43f28d2de688e6b285df6d743c9e79d940955c"
+    },
+    {
+      "name": "restored",
+      "verts": 59400,
+      "xyz_sha": "5e3d255bcd7a55459c603c5c95efce10eb9fdc16cf52f1a33e732c1934d71543"
+    },
+    {
+      "name": "rotated",
+      "verts": 65986,
+      "xyz_sha": "134dfa1bfb8a034b6fd9cd2904c6d3b1b3b922611175cb3bf824d0d1088a41f5"
+    },
+    {
+      "name": "edge bite",
+      "verts": 91004,
+      "xyz_sha": "f9d5d8ff095f65d95eb06be095f2ef68af55d303d48f7ca0a9fcf33bd313996f"
+    }
+  ]
+}

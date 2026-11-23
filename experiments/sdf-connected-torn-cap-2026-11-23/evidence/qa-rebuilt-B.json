@@ -1,0 +1,37 @@
+{
+  "scene_sha256": "389f299ac5a7d7cb32baf412720580691d0900f06f1e243c0c1ff87eac7777e4",
+  "gain": 1.0,
+  "blender": "5.2.4 LTS",
+  "poses": [
+    {
+      "pose": "edge",
+      "voxel_mm": 0.32,
+      "verts": 91064,
+      "faces": 91062,
+      "cap_faces": 19182,
+      "candidate_faces": 99,
+      "xyz_sha": "037ab2ea9117ae548896999634715e5ecf893358d8c0bebb3a6c84cc8b7c0f4b",
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "signed_volume_BU3": 2.8398952500380688,
+      "min_face_area_BU2": 8.63206969370367e-06,
+      "elapsed_sec": 3.381
+    },
+    {
+      "pose": "edge-fine",
+      "voxel_mm": 0.2,
+      "verts": 233314,
+      "faces": 233312,
+      "cap_faces": 48194,
+      "candidate_faces": 162,
+      "xyz_sha": "e7f068d922c4fbf47841bfb0f40c61bc03361238b0bb70fcf0eb6343bb1e4c09",
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "signed_volume_BU3": 2.8403386848777403,
+      "min_face_area_BU2": 1.3057724572718143e-06,
+      "elapsed_sec": 7.851
+    }
+  ],
+  "rss_kb": 975132,
+  "status": "PASS_CLOSED_TESTED_POSES"
+}

@@ -1,0 +1,170 @@
+{
+  "status": "PASS_NATIVE_RESTSPACE_GEO_AB",
+  "blender": "5.2.4 LTS",
+  "source_A": "af81927308d0c902451671be019e7ab9ba7b3381163806f7b1015a4e84b43ce7",
+  "source_B": "51e044143cabfea157aa0244e59701a6e31a63e7d05284ff31fa521bacebb380",
+  "raw_mesh_equal": true,
+  "atlas_equal": true,
+  "states": [
+    {
+      "pose": "0.32/whole",
+      "max_displacement_mm": 0.0,
+      "moved_vertices": 0,
+      "median_of_moved_mm": 0,
+      "A": {
+        "mesh_vertices": 91046,
+        "mesh_triangles": 182088,
+        "coords_sha": "efce5ea8e0e6da77ec877fbf60954de34974f71f161b990d119f6a06ef39c223",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 3.52425015562777,
+        "min_triangle_area_mm2": 9.281063472109272e-05,
+        "cut_material_faces": 91044
+      },
+      "B": {
+        "mesh_vertices": 91046,
+        "mesh_triangles": 182088,
+        "coords_sha": "efce5ea8e0e6da77ec877fbf60954de34974f71f161b990d119f6a06ef39c223",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 3.52425015562777,
+        "min_triangle_area_mm2": 9.281063472109272e-05,
+        "cut_material_faces": 91044
+      }
+    },
+    {
+      "pose": "0.32/plane",
+      "max_displacement_mm": 0.03325029899962747,
+      "moved_vertices": 12913,
+      "median_of_moved_mm": 0.013299875231684365,
+      "A": {
+        "mesh_vertices": 59400,
+        "mesh_triangles": 118796,
+        "coords_sha": "c4fefc5404b8fb4776254ccf4e06095eb6e99bc80f77444a68ace2424e593b1f",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1.773218572709918,
+        "min_triangle_area_mm2": 9.944815834066514e-05,
+        "cut_material_faces": 44581
+      },
+      "B": {
+        "mesh_vertices": 59400,
+        "mesh_triangles": 118796,
+        "coords_sha": "7fdc26125a99dd3b32453278c4a4e98cc03ac77e6e7756f3962a0d8b124e726b",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1.7732215813603083,
+        "min_triangle_area_mm2": 9.944815834066514e-05,
+        "cut_material_faces": 44581
+      }
+    },
+    {
+      "pose": "0.32/bite",
+      "max_displacement_mm": 0.03325065499426864,
+      "moved_vertices": 18552,
+      "median_of_moved_mm": 0.01683839743594539,
+      "A": {
+        "mesh_vertices": 91004,
+        "mesh_triangles": 182004,
+        "coords_sha": "615b5f3a26cb1e72e3a3499b46ab9ced2e8baf865229482765873270679612c6",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 2.8341363204129277,
+        "min_triangle_area_mm2": 6.784679912623392e-05,
+        "cut_material_faces": 71880
+      },
+      "B": {
+        "mesh_vertices": 91004,
+        "mesh_triangles": 182004,
+        "coords_sha": "992343a0f62452df769e3cd1e12f221430c84795fa260617954c8048fab00c7d",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 2.834144116293937,
+        "min_triangle_area_mm2": 8.640628495272222e-06,
+        "cut_material_faces": 71880
+      }
+    },
+    {
+      "pose": "0.2/whole",
+      "max_displacement_mm": 0.0,
+      "moved_vertices": 0,
+      "median_of_moved_mm": 0,
+      "A": {
+        "mesh_vertices": 233258,
+        "mesh_triangles": 466512,
+        "coords_sha": "dec0b6f0aee7dd2c97fad109a63e89c698789646be2f27bc5887a771d22c24d3",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 3.5246136922766427,
+        "min_triangle_area_mm2": 1.1580108582870956e-06,
+        "cut_material_faces": 233256
+      },
+      "B": {
+        "mesh_vertices": 233258,
+        "mesh_triangles": 466512,
+        "coords_sha": "dec0b6f0aee7dd2c97fad109a63e89c698789646be2f27bc5887a771d22c24d3",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 3.5246136922766427,
+        "min_triangle_area_mm2": 1.1580108582870956e-06,
+        "cut_material_faces": 233256
+      }
+    },
+    {
+      "pose": "0.2/plane",
+      "max_displacement_mm": 0.03325028856774915,
+      "moved_vertices": 32290,
+      "median_of_moved_mm": 0.01379254423899174,
+      "A": {
+        "mesh_vertices": 152500,
+        "mesh_triangles": 304996,
+        "coords_sha": "50130b4ca9d7a3cd137d823787c3a112ef8375dc24e9a2149723469c8f5787ad",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1.773799124821224,
+        "min_triangle_area_mm2": 5.5189004371274064e-05,
+        "cut_material_faces": 115248
+      },
+      "B": {
+        "mesh_vertices": 152500,
+        "mesh_triangles": 304996,
+        "coords_sha": "1db1a403f4fef3366e098f350ca515e051a9ce029bb806f364259b84ad02f09a",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 1.7738170072671244,
+        "min_triangle_area_mm2": 5.5189004371274064e-05,
+        "cut_material_faces": 115248
+      }
+    },
+    {
+      "pose": "0.2/bite",
+      "max_displacement_mm": 0.033250722793866816,
+      "moved_vertices": 46690,
+      "median_of_moved_mm": 0.017104349632599047,
+      "A": {
+        "mesh_vertices": 233234,
+        "mesh_triangles": 466464,
+        "coords_sha": "0e4a5ba48e4a90decb2586217e87c0dd1a5a81d7c837a3cd5acf7f441e0542ee",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 2.834578442159322,
+        "min_triangle_area_mm2": 1.3063982069505289e-05,
+        "cut_material_faces": 185118
+      },
+      "B": {
+        "mesh_vertices": 233234,
+        "mesh_triangles": 466464,
+        "coords_sha": "beecdc9f0ecf1adfb629d0fb18360585686c57aa2d367332ba6dbdbfe8923ef2",
+        "components": 1,
+        "nonmanifold_edges": 0,
+        "signed_volume": 2.8345802917350005,
+        "min_triangle_area_mm2": 6.373636188131037e-06,
+        "cut_material_faces": 185118
+      }
+    }
+  ],
+  "caveats": [
+    "Geometry displacement not proven histological",
+    "No exhaustive self-intersection/physical seeds cutter intersection for new displaced body"
+  ]
+}

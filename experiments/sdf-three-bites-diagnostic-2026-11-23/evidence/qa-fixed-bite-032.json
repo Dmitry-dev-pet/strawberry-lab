@@ -1,0 +1,21 @@
+{
+  "status": "PASS_REAL_CUTTER_AND_SEED_GUARD",
+  "pose": "bite-032",
+  "scene_sha": "57cbdf8adcd88de15e5049262faf9ed13eb2dbaa1aac7d10982f5eafa330d5c4",
+  "blender": "5.2.4 LTS",
+  "voxel": 0.32,
+  "body_verts": 92848,
+  "body_faces": 92846,
+  "cap_faces": 20015,
+  "body_coords_sha": "191e16e829c8f9498df6edc79ca028dfbd0987022ac3c2e479b937c7ca9388e0",
+  "nonmanifold_edges": 0,
+  "positive_volume": true,
+  "body_seconds": 3.439,
+  "seeds_visible": 207,
+  "seeds_expected": 207,
+  "retained_seed_vertices_inside_actual_cutter": 0,
+  "guard_seconds": 0.419,
+  "cutter_verts": 10681,
+  "cutter_faces": 10561,
+  "rss_kb": 808064
+}

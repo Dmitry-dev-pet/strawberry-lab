@@ -1,0 +1,64 @@
+{
+  "status": "PASS_NATIVE_LIVE_EXTRUDED_TISSUE",
+  "source_sha256": "9616069ab08d49d14d88e1561936395970d3d0dc3b70b66e0b6a422b54131067",
+  "blender": "5.2.4 LTS",
+  "autoexec": false,
+  "records": [
+    {
+      "name": "on",
+      "gain": 1.0,
+      "mode": 2,
+      "verts": 91064,
+      "faces": 91062,
+      "sha": "037ab2ea9117ae548896999634715e5ecf893358d8c0bebb3a6c84cc8b7c0f4b"
+    },
+    {
+      "name": "off",
+      "gain": 0.0,
+      "mode": 2,
+      "verts": 91004,
+      "faces": 91002,
+      "sha": "f9d5d8ff095f65d95eb06be095f2ef68af55d303d48f7ca0a9fcf33bd313996f"
+    },
+    {
+      "name": "restored",
+      "gain": 1.0,
+      "mode": 2,
+      "verts": 91064,
+      "faces": 91062,
+      "sha": "037ab2ea9117ae548896999634715e5ecf893358d8c0bebb3a6c84cc8b7c0f4b"
+    },
+    {
+      "name": "moved sphere",
+      "gain": 1.0,
+      "mode": 2,
+      "verts": 91891,
+      "faces": 91892,
+      "sha": "706cadaf89ab0d8a2cfb670f54b84dbdf8a5bc6c968a39c8ef22eaea2cd58dc0"
+    },
+    {
+      "name": "plane gain on",
+      "gain": 1.0,
+      "mode": 1,
+      "verts": 59400,
+      "faces": 59398,
+      "sha": "5e3d255bcd7a55459c603c5c95efce10eb9fdc16cf52f1a33e732c1934d71543"
+    },
+    {
+      "name": "plane gain off",
+      "gain": 0.0,
+      "mode": 1,
+      "verts": 59400,
+      "faces": 59398,
+      "sha": "5e3d255bcd7a55459c603c5c95efce10eb9fdc16cf52f1a33e732c1934d71543"
+    },
+    {
+      "name": "whole",
+      "gain": 0.0,
+      "mode": 0,
+      "verts": 91046,
+      "faces": 91044,
+      "sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263"
+    }
+  ]
+}

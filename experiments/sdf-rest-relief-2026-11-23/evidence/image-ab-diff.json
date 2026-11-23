@@ -1,0 +1,59 @@
+{
+  "settings": {
+    "samples": 20,
+    "resolution": 720,
+    "seed": 1729,
+    "camera_matched": true
+  },
+  "pairs": {
+    "plane_A_vs_C": {
+      "changed_fraction_gt_2": 0.10779513888888889,
+      "changed_fraction_gt_10": 0.0049151234567901235,
+      "mean_absolute_rgb_0_255": 0.4985371656378601,
+      "max_difference": 69,
+      "a_sha256": "776acfc60b5bba4de8eaa96598b5a2595e36f349ca07f39b7545da45803fa545",
+      "candidate_sha256": "e175787d78f1b3ccb4a357b94457b41a05f0d93c59aac59ce72ba6a12b0dc0d7"
+    },
+    "plane_A_vs_B": {
+      "changed_fraction_gt_2": 0.17929012345679013,
+      "changed_fraction_gt_10": 0.071875,
+      "mean_absolute_rgb_0_255": 1.3769997427983538,
+      "max_difference": 120,
+      "a_sha256": "776acfc60b5bba4de8eaa96598b5a2595e36f349ca07f39b7545da45803fa545",
+      "candidate_sha256": "c4be5a79f20688c67560e3c9b1f2decb7e4846573f81bb18b0384757a434c181"
+    },
+    "macro_A_vs_C": {
+      "changed_fraction_gt_2": 0.10750771604938271,
+      "changed_fraction_gt_10": 0.004672067901234568,
+      "mean_absolute_rgb_0_255": 0.4950983796296296,
+      "max_difference": 63,
+      "a_sha256": "1eef0e441872d6f06c9a97fa44f4bcd59c8fb14ab787790e995058bd57216d34",
+      "candidate_sha256": "01946f0203bbc1227729c130f466a59a33af3d2773ff1bf369a1f81b6741cb37"
+    },
+    "macro_A_vs_B": {
+      "changed_fraction_gt_2": 0.17967399691358024,
+      "changed_fraction_gt_10": 0.07261574074074074,
+      "mean_absolute_rgb_0_255": 1.38302533436214,
+      "max_difference": 110,
+      "a_sha256": "1eef0e441872d6f06c9a97fa44f4bcd59c8fb14ab787790e995058bd57216d34",
+      "candidate_sha256": "476616c4462e8dd78e864a67d005439b097a72491e9565135086997f25b55d52"
+    },
+    "bite_A_vs_C": {
+      "changed_fraction_gt_2": 0.07256751543209876,
+      "changed_fraction_gt_10": 0.013888888888888888,
+      "mean_absolute_rgb_0_255": 0.43231738683127574,
+      "max_difference": 85,
+      "a_sha256": "948bc80702bfe432435732518c36835a7526b0f01c963240021c4ba93937c352",
+      "candidate_sha256": "83270021756e47577339480ddaa7a54ce7c9f70e6fc1c9219ff738025aa8b52a"
+    },
+    "bite_A_vs_B": {
+      "changed_fraction_gt_2": 0.11354166666666667,
+      "changed_fraction_gt_10": 0.04868055555555555,
+      "mean_absolute_rgb_0_255": 1.1062152777777778,
+      "max_difference": 120,
+      "a_sha256": "948bc80702bfe432435732518c36835a7526b0f01c963240021c4ba93937c352",
+      "candidate_sha256": "146461f69c5df4a889648e1857f16ca0c57080aca4fe80b6d80e3045a4b27496"
+    }
+  },
+  "photos_meaning": "Image pixel difference, NOT photorealism or owner acceptance"
+}

@@ -1,0 +1,83 @@
+{
+  "status": "PASS_SHARED_VASCULAR_ATTRIBUTE_IN_SHADER_AND_BODY_UNCHANGED",
+  "blender": "5.2.4 LTS",
+  "scenes": {
+    "A": {
+      "scene_sha256": "ea2b8891a6379d47c9d02a3b4caeaaed75a52360a037ee9df7fed6d9c580b74a",
+      "source_mesh_hash": "52892d21f519992ee2f2ba270acf4c875f92c93d0782310ed5df252e2711691b",
+      "source_150_atlas_sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+      "cap_nodes": 88,
+      "GN_nodes": 79
+    },
+    "B": {
+      "scene_sha256": "84fc711db90d835b9d769c4fee438f9eafd55d3afcd0afa7ada90f729c130140",
+      "source_mesh_hash": "52892d21f519992ee2f2ba270acf4c875f92c93d0782310ed5df252e2711691b",
+      "source_150_atlas_sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+      "cap_nodes": 88,
+      "GN_nodes": 79
+    }
+  },
+  "poses": [
+    {
+      "pose": "whole_coarse",
+      "same_body_and_core_point_attribute": true,
+      "metrics": {
+        "pose": "whole_coarse",
+        "vertex_count": 91046,
+        "coords_sha256": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+        "core_vertex_sha256": "71dff52cf5002158fea16f55456fb84f4ced7e808bacbd9740fa96c31454c8a8",
+        "nonmanifold_edges": 0,
+        "positive_volume": true
+      }
+    },
+    {
+      "pose": "plane_coarse",
+      "same_body_and_core_point_attribute": true,
+      "metrics": {
+        "pose": "plane_coarse",
+        "vertex_count": 59400,
+        "coords_sha256": "a165e4d603ea0e5238ca81c65a43f28d2de688e6b285df6d743c9e79d940955c",
+        "core_vertex_sha256": "8e73585643afa71ab2936f2003a7531828a2f35414c163279936fc5672f92cbc",
+        "nonmanifold_edges": 0,
+        "positive_volume": true
+      }
+    },
+    {
+      "pose": "bite_edge_coarse",
+      "same_body_and_core_point_attribute": true,
+      "metrics": {
+        "pose": "bite_edge_coarse",
+        "vertex_count": 91004,
+        "coords_sha256": "af454e777ea6f529deaaec7bf66bf03ca5b842a02b3e3d8fdc16610146a9da39",
+        "core_vertex_sha256": "824bdafd9f021f75ac5999e63ad851639163bfd6dff72d5310c3d83d58281c71",
+        "nonmanifold_edges": 0,
+        "positive_volume": true
+      }
+    },
+    {
+      "pose": "plane_fine",
+      "same_body_and_core_point_attribute": true,
+      "metrics": {
+        "pose": "plane_fine",
+        "vertex_count": 152500,
+        "coords_sha256": "15cb6cd0ad6a9ab7135ad1b3538d92bc5831a3f969c7e13e2fdf21ce136f655c",
+        "core_vertex_sha256": "c77303476fc776d4f0fd488125662a0f6bf69f873c6476092b1a6acd8a37692e",
+        "nonmanifold_edges": 0,
+        "positive_volume": true
+      }
+    },
+    {
+      "pose": "bite_edge_fine",
+      "same_body_and_core_point_attribute": true,
+      "metrics": {
+        "pose": "bite_edge_fine",
+        "vertex_count": 233234,
+        "coords_sha256": "5fd551e73f40eba1b43f2dcf636d15774c73626e4c0fd2d4839b71a64ebac3da",
+        "core_vertex_sha256": "718d7db171a75b2a2335dab860060a19f60108c5bf91b2072511ba9556e66df3",
+        "nonmanifold_edges": 0,
+        "positive_volume": true
+      }
+    }
+  ],
+  "peak_rss_kb": 1205840
+}

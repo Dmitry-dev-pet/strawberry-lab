@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "resolution": 640,
+    "samples": 16,
+    "seed": 1729
+  },
+  "shots": {
+    "plane": {
+      "variants": [
+        "A",
+        "C",
+        "B"
+      ],
+      "difference_not_quality": {
+        "C": {
+          "fraction_gt2": 0.05906494140625,
+          "fraction_gt10": 0.02366943359375,
+          "mean_abs_rgb": 0.44427083333333334,
+          "max_abs": 56
+        },
+        "B": {
+          "fraction_gt2": 0.07439208984375,
+          "fraction_gt10": 0.0554052734375,
+          "mean_abs_rgb": 1.2572989908854166,
+          "max_abs": 107
+        }
+      },
+      "render_sec": {
+        "A": 15.21,
+        "C": 14.18,
+        "B": 17.18
+      },
+      "baseline_identical_to_source_pixels": true
+    },
+    "bite": {
+      "variants": [
+        "A",
+        "C"
+      ],
+      "difference_not_quality": {
+        "C": {
+          "fraction_gt2": 0.02881103515625,
+          "fraction_gt10": 0.0099609375,
+          "mean_abs_rgb": 0.22793294270833334,
+          "max_abs": 52
+        }
+      },
+      "render_sec": {
+        "A": 14.87,
+        "C": 14.88
+      },
+      "baseline_identical_to_source_pixels": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+00:00.578  blend            | Read blend: "/mnt/data/strawberry_cutter_audit/bite-B-three-baked.blend"
+BODY_PASS bite-032 92848 3.911
+Traceback (most recent call last):
+  File "/mnt/data/strawberry_cutter_audit/qa_baked_fast.py", line 34, in <module>
+    assert visible==expected and intruding==0,rec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'status': 'UNVERIFIED', 'pose': 'bite-032', 'scene_sha': 'eeec7a28f3b12ddf6f6e853d297cf458b0a5d625d491ba4884dc7b8ae4cca2f5', 'blender': '5.2.4 LTS', 'voxel': 0.32, 'body_verts': 92848, 'body_faces': 92846, 'cap_faces': 20015, 'body_coords_sha': '191e16e829c8f9498df6edc79ca028dfbd0987022ac3c2e479b937c7ca9388e0', 'nonmanifold_edges': 0, 'positive_volume': True, 'body_seconds': 3.911, 'seeds_visible': 202, 'seeds_expected': 207, 'retained_seed_vertices_inside_actual_cutter': 1310, 'guard_seconds': 0.493, 'cutter_verts': 10681, 'cutter_faces': 10561}
+
+Error: script failed, file: '/mnt/data/strawberry_cutter_audit/qa_baked_fast.py', exiting.
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:31:47)
+
+Blender quit

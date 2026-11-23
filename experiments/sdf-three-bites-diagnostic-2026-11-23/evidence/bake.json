@@ -1,0 +1,10 @@
+{
+  "source_sha": "d317b66929c0ff66a4a7d857b66033130b338d2823e7a19731d03536e53ce21a",
+  "new_sha": "eeec7a28f3b12ddf6f6e853d297cf458b0a5d625d491ba4884dc7b8ae4cca2f5",
+  "cut_verts": 10681,
+  "faces": 10561,
+  "nonmanifold_edges": 0,
+  "cut_local_volume": 4.232933849905531,
+  "blender": "5.2.4 LTS",
+  "render_source_unchanged": true
+}

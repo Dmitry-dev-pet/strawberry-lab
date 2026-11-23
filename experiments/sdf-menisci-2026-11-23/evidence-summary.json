@@ -1,0 +1,358 @@
+{
+  "schema": "sdf-menisci-durable-evidence-v1",
+  "date": "2026-11-23",
+  "repository": "Dmitry-dev-pet/strawberry-lab",
+  "pr": 49,
+  "status": "ENGINEERING_PASS_TESTED_POSES_VISUAL_FAIL",
+  "source_scene_sha256": "0b79e33b0725f807524061b1afe79671f4fcf1c6b5c429bd8203cec8d6a21bd2",
+  "editable_C_sha256": "fa5e44b73707d983c119d60f1f4bc619d9b7a8b6427b07b34d2c24d340c5ef8c",
+  "C_scene_material_trial": "near-clear physical lens IOR1.33/artistic transmission0.9",
+  "zip_sha256": "4a6738b1f026c42b629fb67b06baa0c77a30a536eb82e749b9af7a4c5cf2c73c",
+  "contact_sheet_sha256": "24b7494a471d6cf7bee6253cdf77c753c4a419438f3b21b96cf83464f2bcf758",
+  "geometry_QA": {
+    "qa-032": {
+      "sha256": "df558eee6b0287885ac635c38b063d668360b76ca1958f38876df6d9d78e11ae",
+      "status": "PASS_TESTED_MENISCI_ATTACHMENTS_AND_BODY_UNCHANGED",
+      "voxel_mm": 0.32,
+      "poses_by_variant": {
+        "A": [
+          {
+            "pose": "whole",
+            "menisci": 0,
+            "body_sha256": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          },
+          {
+            "pose": "plane",
+            "menisci": 0,
+            "body_sha256": "a165e4d603ea0e5238ca81c65a43f28d2de688e6b285df6d743c9e79d940955c",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          },
+          {
+            "pose": "plane-oblique",
+            "menisci": 0,
+            "body_sha256": "dc47ba008d44a2717c39ab3137eacdd54aaae504e5fed64079b679280dbffd1d",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          },
+          {
+            "pose": "bite",
+            "menisci": 0,
+            "body_sha256": "9193306a7c11ac96fc033b4e0a31a128fc127132d4b50258b36138c8be9acd8f",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          },
+          {
+            "pose": "edge-bite",
+            "menisci": 0,
+            "body_sha256": "af454e777ea6f529deaaec7bf66bf03ca5b842a02b3e3d8fdc16610146a9da39",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          }
+        ],
+        "B": [
+          {
+            "pose": "whole",
+            "menisci": 0,
+            "body_sha256": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          },
+          {
+            "pose": "plane",
+            "menisci": 29,
+            "body_sha256": "a165e4d603ea0e5238ca81c65a43f28d2de688e6b285df6d743c9e79d940955c",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          },
+          {
+            "pose": "plane-oblique",
+            "menisci": 20,
+            "body_sha256": "dc47ba008d44a2717c39ab3137eacdd54aaae504e5fed64079b679280dbffd1d",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          },
+          {
+            "pose": "bite",
+            "menisci": 10,
+            "body_sha256": "9193306a7c11ac96fc033b4e0a31a128fc127132d4b50258b36138c8be9acd8f",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          },
+          {
+            "pose": "edge-bite",
+            "menisci": 26,
+            "body_sha256": "af454e777ea6f529deaaec7bf66bf03ca5b842a02b3e3d8fdc16610146a9da39",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          }
+        ],
+        "C": [
+          {
+            "pose": "whole",
+            "menisci": 0,
+            "body_sha256": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          },
+          {
+            "pose": "plane",
+            "menisci": 29,
+            "body_sha256": "a165e4d603ea0e5238ca81c65a43f28d2de688e6b285df6d743c9e79d940955c",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          },
+          {
+            "pose": "plane-oblique",
+            "menisci": 20,
+            "body_sha256": "dc47ba008d44a2717c39ab3137eacdd54aaae504e5fed64079b679280dbffd1d",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          },
+          {
+            "pose": "bite",
+            "menisci": 10,
+            "body_sha256": "9193306a7c11ac96fc033b4e0a31a128fc127132d4b50258b36138c8be9acd8f",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          },
+          {
+            "pose": "edge-bite",
+            "menisci": 26,
+            "body_sha256": "af454e777ea6f529deaaec7bf66bf03ca5b842a02b3e3d8fdc16610146a9da39",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          }
+        ]
+      },
+      "max_process_RSS_kB": 1083592
+    },
+    "qa-020-main": {
+      "sha256": "39ebe3c267d9279933d312b8a3b22025598b682ba1a223ac1bc951a5cc6c0010",
+      "status": "PASS_TESTED_MENISCI_ATTACHMENTS_AND_BODY_UNCHANGED",
+      "voxel_mm": 0.2,
+      "poses_by_variant": {
+        "A": [
+          {
+            "pose": "whole",
+            "menisci": 0,
+            "body_sha256": "cb60ed5ba6711e2bd2cb989971701c8e6385265ad75cf17bbc17b8df98fcf1f5",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          },
+          {
+            "pose": "plane",
+            "menisci": 0,
+            "body_sha256": "15cb6cd0ad6a9ab7135ad1b3538d92bc5831a3f969c7e13e2fdf21ce136f655c",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          },
+          {
+            "pose": "plane-oblique",
+            "menisci": 0,
+            "body_sha256": "1cb78ecc3aa999547e84b6021fbb65eea307f138f773eeceec5b301618f9ed58",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          },
+          {
+            "pose": "bite",
+            "menisci": 0,
+            "body_sha256": "ccb4021f2054ac6b2cf011565fe24eb02aaba2da86b3f8dc6c3530e7470633f4",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          }
+        ],
+        "B": [
+          {
+            "pose": "whole",
+            "menisci": 0,
+            "body_sha256": "cb60ed5ba6711e2bd2cb989971701c8e6385265ad75cf17bbc17b8df98fcf1f5",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          },
+          {
+            "pose": "plane",
+            "menisci": 25,
+            "body_sha256": "15cb6cd0ad6a9ab7135ad1b3538d92bc5831a3f969c7e13e2fdf21ce136f655c",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          },
+          {
+            "pose": "plane-oblique",
+            "menisci": 20,
+            "body_sha256": "1cb78ecc3aa999547e84b6021fbb65eea307f138f773eeceec5b301618f9ed58",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          },
+          {
+            "pose": "bite",
+            "menisci": 13,
+            "body_sha256": "ccb4021f2054ac6b2cf011565fe24eb02aaba2da86b3f8dc6c3530e7470633f4",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          }
+        ],
+        "C": [
+          {
+            "pose": "whole",
+            "menisci": 0,
+            "body_sha256": "cb60ed5ba6711e2bd2cb989971701c8e6385265ad75cf17bbc17b8df98fcf1f5",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          },
+          {
+            "pose": "plane",
+            "menisci": 25,
+            "body_sha256": "15cb6cd0ad6a9ab7135ad1b3538d92bc5831a3f969c7e13e2fdf21ce136f655c",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          },
+          {
+            "pose": "plane-oblique",
+            "menisci": 20,
+            "body_sha256": "1cb78ecc3aa999547e84b6021fbb65eea307f138f773eeceec5b301618f9ed58",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          },
+          {
+            "pose": "bite",
+            "menisci": 13,
+            "body_sha256": "ccb4021f2054ac6b2cf011565fe24eb02aaba2da86b3f8dc6c3530e7470633f4",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          }
+        ]
+      },
+      "max_process_RSS_kB": 1418248
+    },
+    "qa-020-edge": {
+      "sha256": "a2c288e4da00827df93b6117fa094514f6a4454da587f860f48545e3415ebaf4",
+      "status": "PASS_TESTED_MENISCI_ATTACHMENTS_AND_BODY_UNCHANGED",
+      "voxel_mm": 0.2,
+      "poses_by_variant": {
+        "A": [
+          {
+            "pose": "edge-bite",
+            "menisci": 0,
+            "body_sha256": "5fd551e73f40eba1b43f2dcf636d15774c73626e4c0fd2d4839b71a64ebac3da",
+            "body_nonmanifold": 0,
+            "all_attach": null
+          }
+        ],
+        "B": [
+          {
+            "pose": "edge-bite",
+            "menisci": 22,
+            "body_sha256": "5fd551e73f40eba1b43f2dcf636d15774c73626e4c0fd2d4839b71a64ebac3da",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          }
+        ],
+        "C": [
+          {
+            "pose": "edge-bite",
+            "menisci": 22,
+            "body_sha256": "5fd551e73f40eba1b43f2dcf636d15774c73626e4c0fd2d4839b71a64ebac3da",
+            "body_nonmanifold": 0,
+            "all_attach": true
+          }
+        ]
+      },
+      "max_process_RSS_kB": 1242356
+    }
+  },
+  "live_QA": {
+    "status": "PASS_NATIVE_LIVE_MENISCI",
+    "scene_sha256": "fa5e44b73707d983c119d60f1f4bc619d9b7a8b6427b07b34d2c24d340c5ef8c",
+    "scripts_disabled": true,
+    "blender": "5.2.4 LTS",
+    "records": [
+      {
+        "name": "original",
+        "verts": 4698,
+        "faces": 5568,
+        "sha": "bbb68ac424ac53c0520d71562ffddaf26ea7bfb7a8161fd2d38e55fd7e7388a2"
+      },
+      {
+        "name": "disabled",
+        "verts": 0,
+        "faces": 0,
+        "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "restored",
+        "verts": 4698,
+        "faces": 5568,
+        "sha": "bbb68ac424ac53c0520d71562ffddaf26ea7bfb7a8161fd2d38e55fd7e7388a2"
+      },
+      {
+        "name": "rotated plane",
+        "verts": 3888,
+        "faces": 4608,
+        "sha": "0166e1a286abbde034027ed71824e56f1fe28d698528a2a57d679375c200047f"
+      },
+      {
+        "name": "open-side bite",
+        "verts": 4212,
+        "faces": 4992,
+        "sha": "d4dcf2f9ddd8563f7a38c81da0c5f52ac027cf2b5155199c485f227da4d022f0"
+      }
+    ],
+    "limits": "Only tested plane rotation and moved sphere, not arbitrary poses"
+  },
+  "cycles_A_vs_C": {
+    "plane": {
+      "source_image_sha": "03bc80203031bc115416263d7e4ba0f026e0b8e6729c24a613bb2fbefff231e4",
+      "menisci_image_sha": "df5c3402f769deb56dbd2350feee5c709185c7b7096a518e1cdc963472d17662",
+      "changed_fraction_gt2": 0.005043402777777778,
+      "changed_fraction_gt10": 0.0021137152777777777,
+      "mean_absolute_rgb_255": 0.11347077546296297,
+      "render_seconds": {
+        "A": 8.0,
+        "C": 8.83
+      },
+      "lens_polygons": {
+        "A": 0,
+        "C": 4800
+      }
+    },
+    "bite": {
+      "source_image_sha": "f3d1f894cb3f3ea2cf5eac7ef4b18d4a90b88a55a6c0a276b9fbbbb21f042f7b",
+      "menisci_image_sha": "306130b8c40a083deef00fe40357f51805e787108ce0e06882fe20c68402da0a",
+      "changed_fraction_gt2": 0.006362847222222222,
+      "changed_fraction_gt10": 0.0017317708333333334,
+      "mean_absolute_rgb_255": 0.10565248842592592,
+      "render_seconds": {
+        "A": 12.07,
+        "C": 10.09
+      },
+      "lens_polygons": {
+        "A": 0,
+        "C": 4224
+      }
+    },
+    "macro": {
+      "source_image_sha": "db2758fefe6931951e038f97779bdad91f8987fdde96f773bc4d00f9c2329ee5",
+      "menisci_image_sha": "15d6fae8a95f9d509f8e3f5d916e26b31ad9edb67c67114c79d369cc808d0094",
+      "changed_fraction_gt2": 0.005338541666666667,
+      "changed_fraction_gt10": 0.0021354166666666665,
+      "mean_absolute_rgb_255": 0.11359809027777777,
+      "render_seconds": {
+        "A": 8.37,
+        "C": 8.15
+      },
+      "lens_polygons": {
+        "A": 0,
+        "C": 4800
+      }
+    }
+  },
+  "private_Drive_folder": "https://drive.google.com/drive/folders/1l2T6gVurZ_exE9ZHY51cvfN4zC_ssT83",
+  "limitations": [
+    "Not physical wet flow; independent interpenetrating lens solids",
+    "C improves glints but not pith or torn bite shape; visual FAIL",
+    "Not Frucht parity, no general arbitrary cut guarantees"
+  ]
+}

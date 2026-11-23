@@ -1,0 +1,152 @@
+{
+  "status": "PASS_OPTICAL_AB_NATIVE_GEOMETRY_AND_SSS_LINK_TESTED_STATES",
+  "label": "A",
+  "scene_sha256": "9b1b5744b3ef8ed2da59a71b36d628a632745910d4d9edfb4e3cfed29fd32ebd",
+  "source_mesh_sha256": "52f9c557f35b6e25d076fbf24fef83c9a165652660f7bbeee95a1da26f83bc09",
+  "packed_150_sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+  "blender": "5.2.4 LTS",
+  "gain": 0.0,
+  "principled": {
+    "base_color_upstream": "Hue/Saturation/Value",
+    "roughness_upstream": "Math.059",
+    "normal_upstream": "Soft wet surface | shader only",
+    "ss_scale_BU": 0.012000000104308128,
+    "sss_socket_upstream": "MATERIAL V20 | SSS weight existing 0.08 + delta"
+  },
+  "states": [
+    {
+      "name": "whole",
+      "voxel_mm": 0.32,
+      "body_verts": 91046,
+      "body_faces": 91044,
+      "cap_faces": 0,
+      "body_coords_sha256": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+      "core_attr_sha256": "71dff52cf5002158fea16f55456fb84f4ced7e808bacbd9740fa96c31454c8a8",
+      "cell_attr_sha256": "7a33b91332f919873c598790cf16d19e1d998502ea9d4fdd4812a230d404dc64",
+      "nonmanifold_edges": 0,
+      "positive_volume": true,
+      "estimated_sss_weight_from_point_attributes": {
+        "min": 0.07999999821186066,
+        "max": 0.07999999821186066,
+        "mean": 0.07999998331069946,
+        "nonuniform": false
+      },
+      "seconds": 2.199
+    },
+    {
+      "name": "plane",
+      "voxel_mm": 0.32,
+      "body_verts": 59400,
+      "body_faces": 59398,
+      "cap_faces": 14817,
+      "body_coords_sha256": "a165e4d603ea0e5238ca81c65a43f28d2de688e6b285df6d743c9e79d940955c",
+      "core_attr_sha256": "8e73585643afa71ab2936f2003a7531828a2f35414c163279936fc5672f92cbc",
+      "cell_attr_sha256": "9e2b2d38370492b1eaa77849f2e656e99ea3aee1c09174a6deabcf60a48db63b",
+      "nonmanifold_edges": 0,
+      "positive_volume": true,
+      "estimated_sss_weight_from_point_attributes": {
+        "min": 0.07999999821186066,
+        "max": 0.07999999821186066,
+        "mean": 0.07999999076128006,
+        "nonuniform": false
+      },
+      "seconds": 2.482
+    },
+    {
+      "name": "plane-oblique",
+      "voxel_mm": 0.32,
+      "body_verts": 65888,
+      "body_faces": 65886,
+      "cap_faces": 22675,
+      "body_coords_sha256": "dc47ba008d44a2717c39ab3137eacdd54aaae504e5fed64079b679280dbffd1d",
+      "core_attr_sha256": "5dcfa482875254cb615a1728f9af9ee9041abc17b22f4e775f243418b734e848",
+      "cell_attr_sha256": "3a3908735d0e1801363d5d2f48a135cf5e6388727e049b2cbfb092a4092ec811",
+      "nonmanifold_edges": 0,
+      "positive_volume": true,
+      "estimated_sss_weight_from_point_attributes": {
+        "min": 0.07999999821186066,
+        "max": 0.07999999821186066,
+        "mean": 0.07999999076128006,
+        "nonuniform": false
+      },
+      "seconds": 3.226
+    },
+    {
+      "name": "bite",
+      "voxel_mm": 0.32,
+      "body_verts": 90964,
+      "body_faces": 90962,
+      "cap_faces": 12346,
+      "body_coords_sha256": "9193306a7c11ac96fc033b4e0a31a128fc127132d4b50258b36138c8be9acd8f",
+      "core_attr_sha256": "9d93351bbac76eb5177c7e0eff606212b0edc915601366f6070e578801dbec70",
+      "cell_attr_sha256": "7205e60fd76447be35c56ff381bb13cf6adf5e4c1b45537492a296482e2bf38d",
+      "nonmanifold_edges": 0,
+      "positive_volume": true,
+      "estimated_sss_weight_from_point_attributes": {
+        "min": 0.07999999821186066,
+        "max": 0.07999999821186066,
+        "mean": 0.07999998331069946,
+        "nonuniform": false
+      },
+      "seconds": 3.044
+    },
+    {
+      "name": "bite-edge",
+      "voxel_mm": 0.32,
+      "body_verts": 91004,
+      "body_faces": 91002,
+      "cap_faces": 19122,
+      "body_coords_sha256": "af454e777ea6f529deaaec7bf66bf03ca5b842a02b3e3d8fdc16610146a9da39",
+      "core_attr_sha256": "824bdafd9f021f75ac5999e63ad851639163bfd6dff72d5310c3d83d58281c71",
+      "cell_attr_sha256": "97f48f6878f028b8361f11f5efb2b0d6243fab3a77a8e201de21b42dcd4f04b0",
+      "nonmanifold_edges": 0,
+      "positive_volume": true,
+      "estimated_sss_weight_from_point_attributes": {
+        "min": 0.07999999821186066,
+        "max": 0.07999999821186066,
+        "mean": 0.07999998331069946,
+        "nonuniform": false
+      },
+      "seconds": 3.276
+    },
+    {
+      "name": "plane",
+      "voxel_mm": 0.2,
+      "body_verts": 152500,
+      "body_faces": 152498,
+      "cap_faces": 37250,
+      "body_coords_sha256": "15cb6cd0ad6a9ab7135ad1b3538d92bc5831a3f969c7e13e2fdf21ce136f655c",
+      "core_attr_sha256": "c77303476fc776d4f0fd488125662a0f6bf69f873c6476092b1a6acd8a37692e",
+      "cell_attr_sha256": "ef8d2097ada49022581d6c26de77546917f05ed1f5fc0f008b8419cdba11033e",
+      "nonmanifold_edges": 0,
+      "positive_volume": true,
+      "estimated_sss_weight_from_point_attributes": {
+        "min": 0.07999999821186066,
+        "max": 0.07999999821186066,
+        "mean": 0.07999999076128006,
+        "nonuniform": false
+      },
+      "seconds": 6.581
+    },
+    {
+      "name": "bite-edge",
+      "voxel_mm": 0.2,
+      "body_verts": 233234,
+      "body_faces": 233232,
+      "cap_faces": 48114,
+      "body_coords_sha256": "5fd551e73f40eba1b43f2dcf636d15774c73626e4c0fd2d4839b71a64ebac3da",
+      "core_attr_sha256": "718d7db171a75b2a2335dab860060a19f60108c5bf91b2072511ba9556e66df3",
+      "cell_attr_sha256": "57760bdff2fb5f8d71469bdedfbe241451fcb33bdd9ccc3f9808809817cb7dd5",
+      "nonmanifold_edges": 0,
+      "positive_volume": true,
+      "estimated_sss_weight_from_point_attributes": {
+        "min": 0.07999999821186066,
+        "max": 0.07999999821186066,
+        "mean": 0.07999999821186066,
+        "nonuniform": false
+      },
+      "seconds": 4.835
+    }
+  ],
+  "peak_rss_kb": 1070932
+}

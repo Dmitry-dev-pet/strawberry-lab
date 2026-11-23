@@ -1,0 +1,23 @@
+{
+  "state": "NATIVE_CYCLES_MATCHED_A_vs_C",
+  "setting_consistent": true,
+  "shots": {
+    "bite": {
+      "resolution": 480,
+      "samples": 12,
+      "seed": 1729,
+      "changed_pixel_fraction_gt2": 0.18193576388888888,
+      "changed_pixel_fraction_gt10": 0.15257378472222222,
+      "changed_pixel_fraction_gt25": 0.10791666666666666,
+      "mean_abs_rgb_255": 5.747964409722222,
+      "render_s": {
+        "A": 13.603,
+        "C": 19.282
+      },
+      "image_sha": {
+        "A": "91ca60566b7d25a8875694f2a6ec931b3b920a23a4ee5b1d1a43302bb7361f11",
+        "C": "c36b8d332fbcffe53cc0cfaf24dbb9e8d6eab0d67a96ecf5557db94b18b9f174"
+      }
+    }
+  }
+}

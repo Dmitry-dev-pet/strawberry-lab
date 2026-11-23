@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "blender": "5.2.4 LTS",
+  "scene_sha": "57cbdf8adcd88de15e5049262faf9ed13eb2dbaa1aac7d10982f5eafa330d5c4",
+  "cutter_position": [
+    0.7400000095367432,
+    -0.6899999976158142,
+    -0.36000001430511475
+  ],
+  "cutter_euler": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "body_vertices": 92110,
+  "manifold": true,
+  "positive_volume": true,
+  "seeds_visible": 199,
+  "seeds_expected_by_actual_BVH": 199,
+  "retained_seed_vertices_in_actual_cutter": 0,
+  "elapsed_s": 3.923
+}

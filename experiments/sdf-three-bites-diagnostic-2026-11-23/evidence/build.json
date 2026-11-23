@@ -1,0 +1,45 @@
+{
+  "source_scene_SHA256": "4732b465b103f9a0b4ab262dfeae51e26a8865aa586c3779d472d86eed845399",
+  "blender": "5.2.4 LTS",
+  "A": {
+    "name": "bite-A-one.blend",
+    "sha256": "1c5a4bfc67a0cf0037809a54cb6e6255d6b8f4a1f1874bd162f15c5feb35daa9",
+    "size_bytes": 27140412
+  },
+  "B": {
+    "name": "bite-B-three.blend",
+    "sha256": "d317b66929c0ff66a4a7d857b66033130b338d2823e7a19731d03536e53ce21a",
+    "size_bytes": 27369186
+  },
+  "cutter_b": {
+    "verts": 10681,
+    "faces": 10561,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_local_BU3": 4.232933849905531
+  },
+  "three_centers_local_BU": [
+    [
+      -0.39,
+      -0.04,
+      0.22
+    ],
+    [
+      0.36,
+      0.07,
+      0.11
+    ],
+    [
+      -0.05,
+      -0.02,
+      -0.42
+    ]
+  ],
+  "radius_local_BU_each": 0.78,
+  "original_sphere_nominal_volume_BU3": 4.1887902047863905,
+  "volume_ratio_to_sphere": 1.0105385189902085,
+  "materials_changed": false,
+  "tissue_atlas_changed": false,
+  "cutter_live_boolean_modifiers": 2,
+  "regime": "ARTIST own 3 overlapping smooth spherical cutters, no deformation, no Frucht meshes"
+}

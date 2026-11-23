@@ -1,0 +1,46 @@
+{
+  "status": "PASS_INDEPENDENT_A_B_SAME_GEOMETRY_AND_FIELDS",
+  "blender": "5.2.4 LTS",
+  "states": 7,
+  "state_keys": [
+    [
+      0.32,
+      "whole"
+    ],
+    [
+      0.32,
+      "plane"
+    ],
+    [
+      0.32,
+      "plane-oblique"
+    ],
+    [
+      0.32,
+      "bite"
+    ],
+    [
+      0.32,
+      "bite-edge"
+    ],
+    [
+      0.2,
+      "plane"
+    ],
+    [
+      0.2,
+      "bite-edge"
+    ]
+  ],
+  "original_packed_atlas": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+  "source_raw_mesh": "52f9c557f35b6e25d076fbf24fef83c9a165652660f7bbeee95a1da26f83bc09",
+  "varying_sss_weight_B_plane_fine": {
+    "min": 0.08942840248346329,
+    "max": 0.2800000011920929,
+    "mean": 0.23527628183364868,
+    "nonuniform": true
+  },
+  "peak_rss_kb": 1081832,
+  "SSS_in_whole_ignored": "whole uses separate skin material, not flesh cap shader",
+  "note": "Bounded actual meshes and one-factor material graph, not proof of image quality"
+}

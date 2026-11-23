@@ -1,0 +1,72 @@
+{
+  "status": "PASS_BYTE_IDENTICAL_RAW_MESH_AND_ATLASES_A_B_SOURCE",
+  "results": {
+    "source": {
+      "scene_sha256": "4732b465b103f9a0b4ab262dfeae51e26a8865aa586c3779d472d86eed845399",
+      "raw_mesh_sha256": "8a2c6342af2967d301822902097290218937f3a0bbec2d7fcb521c1eb68962ec",
+      "source_vertex_count": 47384,
+      "seeds": 264,
+      "images": {
+        "LIVE | ORIGINAL V0 native RGB volume atlas (150^3)": {
+          "sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+          "width": 2250,
+          "height": 1500
+        },
+        "V20 bridge | seed101 core R halo G 192^3 ARTIST": {
+          "sha256": "8c2a414cebbc656d660fbcf3fda6106e14cf08458fa2d1ce90e2c463e6d64202",
+          "width": 3072,
+          "height": 2304
+        }
+      },
+      "material_nodes": 89,
+      "geometry_nodes": 87,
+      "blender": "5.2.4 LTS"
+    },
+    "A": {
+      "scene_sha256": "d510461755b1ccf884668f7263e6c617564fc36136442c75db239ac78b451814",
+      "raw_mesh_sha256": "8a2c6342af2967d301822902097290218937f3a0bbec2d7fcb521c1eb68962ec",
+      "source_vertex_count": 47384,
+      "seeds": 264,
+      "images": {
+        "LIVE | ORIGINAL V0 native RGB volume atlas (150^3)": {
+          "sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+          "width": 2250,
+          "height": 1500
+        },
+        "V20 bridge | seed101 core R halo G 192^3 ARTIST": {
+          "sha256": "8c2a414cebbc656d660fbcf3fda6106e14cf08458fa2d1ce90e2c463e6d64202",
+          "width": 3072,
+          "height": 2304
+        }
+      },
+      "material_nodes": 89,
+      "geometry_nodes": 112,
+      "blender": "5.2.4 LTS",
+      "tear_gain": 0.0,
+      "extrude_node": "GeometryNodeExtrudeMesh"
+    },
+    "B": {
+      "scene_sha256": "9616069ab08d49d14d88e1561936395970d3d0dc3b70b66e0b6a422b54131067",
+      "raw_mesh_sha256": "8a2c6342af2967d301822902097290218937f3a0bbec2d7fcb521c1eb68962ec",
+      "source_vertex_count": 47384,
+      "seeds": 264,
+      "images": {
+        "LIVE | ORIGINAL V0 native RGB volume atlas (150^3)": {
+          "sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+          "width": 2250,
+          "height": 1500
+        },
+        "V20 bridge | seed101 core R halo G 192^3 ARTIST": {
+          "sha256": "8c2a414cebbc656d660fbcf3fda6106e14cf08458fa2d1ce90e2c463e6d64202",
+          "width": 3072,
+          "height": 2304
+        }
+      },
+      "material_nodes": 89,
+      "geometry_nodes": 112,
+      "blender": "5.2.4 LTS",
+      "tear_gain": 1.0,
+      "extrude_node": "GeometryNodeExtrudeMesh"
+    }
+  }
+}
