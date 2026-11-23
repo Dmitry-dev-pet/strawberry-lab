@@ -1,0 +1,44 @@
+{
+  "status": "PASS_MATCHED_NATIVE_CYCLES",
+  "disclaimer": "pixel changes are not realism/fidelity scores",
+  "comparisons": {
+    "BITE": {
+      "pixels_gt2": 0.002204861111111111,
+      "pixels_gt10": 0.0010069444444444444,
+      "pixels_gt25": 0.0005772569444444445,
+      "mean_absolute_rgb255": 0.049311342592592594,
+      "max_channel_delta": 105,
+      "render_s": {
+        "A": 15.317,
+        "B": 19.861
+      },
+      "sizes": [
+        233234,
+        233314
+      ],
+      "render_sha": [
+        "daaef2547b919183bd6dfa298124063773890fcf54ccdfd4f7b1e84c2745bb04",
+        "c4f1ffda546d35281bcf36e6c17b0a7643ae21e71fc8e0320a1c300018d68da8"
+      ]
+    },
+    "BITE MACRO": {
+      "pixels_gt2": 0.0101171875,
+      "pixels_gt10": 0.004033203125,
+      "pixels_gt25": 0.00220703125,
+      "mean_absolute_rgb255": 0.201845703125,
+      "max_channel_delta": 106,
+      "render_s": {
+        "A": 14.748,
+        "B": 11.524
+      },
+      "sizes": [
+        233234,
+        233314
+      ],
+      "render_sha": [
+        "aae8e7d3dca9e7029e0733589948e64793f1b64395107786c9d804b5a17333e9",
+        "372138aad4fe78ff24336c2f895a5f36449c730c2cce4ae0a24dba0add56c7b4"
+      ]
+    }
+  }
+}

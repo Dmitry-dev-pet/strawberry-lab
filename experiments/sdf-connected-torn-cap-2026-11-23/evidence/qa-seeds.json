@@ -1,0 +1,31 @@
+{
+  "status": "PASS_SAME_PR48_VERTEX_GUARD",
+  "scene_sha256": "9616069ab08d49d14d88e1561936395970d3d0dc3b70b66e0b6a422b54131067",
+  "blender": "5.2.4 LTS",
+  "rows": [
+    {
+      "pose": "whole",
+      "visible_achenes": 264,
+      "expected": 264,
+      "intruding_retained_seed_vertices": 0
+    },
+    {
+      "pose": "plane",
+      "visible_achenes": 130,
+      "expected": 130,
+      "intruding_retained_seed_vertices": 0
+    },
+    {
+      "pose": "oblique",
+      "visible_achenes": 114,
+      "expected": 114,
+      "intruding_retained_seed_vertices": 0
+    },
+    {
+      "pose": "bite-edge",
+      "visible_achenes": 202,
+      "expected": 202,
+      "intruding_retained_seed_vertices": 0
+    }
+  ]
+}
