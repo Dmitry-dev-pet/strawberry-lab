@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "pose": "whole",
+  "source_sha": "361696819fd44733d560e3f59b101cd11f59862e7ebd7b7f83ce94fd07909963",
+  "scene_sha": "0498a4bb9daf0fbdb15630a052539283e89f117bbe074c2b8762868ba0deb1b0",
+  "A": {
+    "vertices": 91046,
+    "faces": 91044,
+    "triangles": 182088,
+    "nonmanifold": 0,
+    "volume_mm3": 38674.90163665786,
+    "degenerate_triangles": 0,
+    "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+    "topology_sha": "907c5d3f9eb01abdc657dca1a771ce81d88a5ddd29740be0442b64f6209cb19c"
+  },
+  "B": {
+    "vertices": 91046,
+    "faces": 91044,
+    "triangles": 182088,
+    "nonmanifold": 0,
+    "volume_mm3": 38674.90163665786,
+    "degenerate_triangles": 0,
+    "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+    "topology_sha": "907c5d3f9eb01abdc657dca1a771ce81d88a5ddd29740be0442b64f6209cb19c"
+  },
+  "juice_A": {
+    "vertices": 0,
+    "faces": 0
+  },
+  "juice_B": {
+    "vertices": 0,
+    "faces": 0
+  },
+  "old_A_receipt_match": true,
+  "topology_identical": true,
+  "whole_identical": true
+}

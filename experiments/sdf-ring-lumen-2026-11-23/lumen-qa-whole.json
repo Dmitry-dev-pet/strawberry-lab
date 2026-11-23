@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "pose": "whole",
+  "voxel_mm": 0.32,
+  "A": {
+    "vertices": 91046,
+    "faces": 91044,
+    "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+    "topology_sha": "907c5d3f9eb01abdc657dca1a771ce81d88a5ddd29740be0442b64f6209cb19c",
+    "nonmanifold": 0,
+    "orientation_edges": 0,
+    "degenerate_triangles": 0,
+    "component_signed_volumes_mm3": [
+      38674.903471919366
+    ],
+    "wall_faces": 0,
+    "wall_component_ids": [],
+    "juice": {
+      "vertices": 0,
+      "faces": 0
+    }
+  },
+  "B": {
+    "vertices": 93076,
+    "faces": 93072,
+    "coords_sha": "b2305c3e288e8f6e488b23252e0a045e780c76149259d7696237ae5ad4178e34",
+    "topology_sha": "06448cad62bdef6d85d516f87d641eb7eee60a0460309700bf0f8cb95556a835",
+    "nonmanifold": 0,
+    "orientation_edges": 0,
+    "degenerate_triangles": 0,
+    "component_signed_volumes_mm3": [
+      38674.903471919366,
+      -102.67119035884402
+    ],
+    "wall_faces": 2028,
+    "wall_component_ids": [
+      1
+    ],
+    "juice": {
+      "vertices": 0,
+      "faces": 0
+    },
+    "wall_excluded_from_juice_cap_interior": true
+  },
+  "source_sha": "361696819fd44733d560e3f59b101cd11f59862e7ebd7b7f83ce94fd07909963",
+  "scene_sha": "ccd9d4b5e93d000bdaee27a83afa95581fe19a69533493a0f96ce12917574b45",
+  "outer_coordinates_exactly_equal": true
+}

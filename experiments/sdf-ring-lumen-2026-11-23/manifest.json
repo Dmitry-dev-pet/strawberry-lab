@@ -1,0 +1,100 @@
+{
+  "files": {
+    "lumen-B.blend": {
+      "sha256": "ccd9d4b5e93d000bdaee27a83afa95581fe19a69533493a0f96ce12917574b45",
+      "size": 27254224
+    },
+    "ring-B.blend": {
+      "sha256": "0498a4bb9daf0fbdb15630a052539283e89f117bbe074c2b8762868ba0deb1b0",
+      "size": 26476304
+    },
+    "ring-field.npz": {
+      "sha256": "65cdd1b27fa6569ced1da7dde1c10f921f9933a1aadee963c7cc6c73330e193f",
+      "size": 14989344
+    },
+    "README.md": {
+      "sha256": "0364b28e8ff700683a7c28f7dd98ed6434ef0617e688c58a068821a9afaa42d9",
+      "size": 7865
+    },
+    "build_lumen.py": {
+      "sha256": "a94bf0831647d335094db866e653c12fe85a8f3ed3be8bfce24290157259976c",
+      "size": 5091
+    },
+    "build_ring.py": {
+      "sha256": "a380bc85ace2ee88165397a19dcf048e08cdc8e79c3661e8518192ec42968316",
+      "size": 2949
+    },
+    "compare.py": {
+      "sha256": "da0a7fbbf1c7ec3d5f0ef90cb6fa826f33f6124c3902dc32474784f98c5b9d51",
+      "size": 1324
+    },
+    "comparison.png": {
+      "sha256": "d4e6de0a550f06b7c3f24db1a5767a5a8a64a72a1355b8742b1b79a3725598f0",
+      "size": 405190
+    },
+    "initial-invalid.log": {
+      "sha256": "533fdffa1d6a460d25da8b57b72e745e59cb456252320d841303e9d12767af36",
+      "size": 2017
+    },
+    "lumen-B.json": {
+      "sha256": "79ae10c2bda54bedf7d988517aa487d6baf73cc0f4dc6628042115e8a6273afc",
+      "size": 423
+    },
+    "lumen-qa-bite.json": {
+      "sha256": "b37587f7f6ae3b6c675f7b044d89efc9c96234a644b81e494353269e5e9d95c2",
+      "size": 2538
+    },
+    "lumen-qa-plane.json": {
+      "sha256": "dfcfb6fb8412a1a4cd961ab22afecb2407b96004f384ad1b38acf626e1e72bfb",
+      "size": 2518
+    },
+    "lumen-qa-whole.json": {
+      "sha256": "63306409bc8077cbb7bdc321f89ffeca206543060a873fdcc971a90fdc1aedf4",
+      "size": 1350
+    },
+    "plane-A.png": {
+      "sha256": "ebb93c0d32f267b57224f8e59f90d66d344f81a1906a20f51471e78a6938cfb2",
+      "size": 304724
+    },
+    "plane-lumen.png": {
+      "sha256": "45f8f87c7429faa8a5bfcb32915597b6a2a01851a1a91a1f1046fa4f6132e8e4",
+      "size": 304828
+    },
+    "plane-ring.png": {
+      "sha256": "6a409d8ca6529c550e8c0bfa24fb86a1263e9aa3ee682a58979af0f6fafd2d79",
+      "size": 306495
+    },
+    "qa_lumen.py": {
+      "sha256": "04594fb2dda55c5df6e758625c449faae808f4acc1ebeb68bba254f4467621bd",
+      "size": 3688
+    },
+    "qa_ring.py": {
+      "sha256": "a034a22580449d127ff479cfed13ca0cc873e0e496a8214f341cb4d6116dc4cf",
+      "size": 2490
+    },
+    "render-comparison.json": {
+      "sha256": "562c303aec603e5f9b359e90af417fcb565035bf19dcdf5d01a120133e96c4e9",
+      "size": 3223
+    },
+    "ring-B.json": {
+      "sha256": "c1ad0a4091b217d1498edc57f3c7fcdec17406c96a073e058c5c7d3e71218dd6",
+      "size": 1288
+    },
+    "ring-qa-bite.json": {
+      "sha256": "8c5f6ff652b6304e2ecc25708b994b1e0376bdfb1ea5ee5feb070ed357b876dd",
+      "size": 2485
+    },
+    "ring-qa-plane.json": {
+      "sha256": "6f238dad4e35136ba95baf672b662ee90e617ecbeaacc67ec0cf2e97346627b3",
+      "size": 2490
+    },
+    "ring-qa-whole.json": {
+      "sha256": "db9e1cdfd24c194d109ae5a7f3ddc489aa7204e4b38cb431a1cd82dde050b3bf",
+      "size": 1095
+    },
+    "ring_field.py": {
+      "sha256": "daf6ff513edaca46f60fcb672117f0fe22ee6d4c5c34e20365c7ae227a550b2d",
+      "size": 4060
+    }
+  }
+}
