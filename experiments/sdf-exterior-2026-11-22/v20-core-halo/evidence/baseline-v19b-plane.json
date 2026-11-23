@@ -1,0 +1,752 @@
+{
+  "schema": "strawberry-independent-pose-qa/v1",
+  "scene": "<workspace>/previous/strawberry-v19-rooted-graph/strawberry-v19b-solid-scaffold.blend",
+  "pose": "plane",
+  "scene_sha256": "ed60ec1b21fdeb98184907391738f31278846c2a04b6176d428127ae3a43d69e",
+  "source_size_bytes": 33832331,
+  "scientific_status": "ARTIST parameters; no histological validation",
+  "visual_status": "NOT_ASSESSED_BY_THIS_SCRIPT",
+  "blender": {
+    "version": "5.2.4 LTS",
+    "build_hash": "cd5dc428cce1",
+    "auto_execute_scripts": false
+  },
+  "frame": 20,
+  "object": "SDF visible body | planar",
+  "unit_system": "METRIC",
+  "mm_per_blender_unit": 1.0000000474974513,
+  "matrix_world": [
+    [
+      0.9820041656494141,
+      -0.011324737221002579,
+      -0.18851907551288605,
+      0.0
+    ],
+    [
+      -1.1240106623233714e-09,
+      0.998200535774231,
+      -0.05996400862932205,
+      0.0
+    ],
+    [
+      0.18885891139507294,
+      0.058884911239147186,
+      0.9802371263504028,
+      -0.0990448147058487
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "cutter_original_matrix_world": [
+    [
+      41.36192321777344,
+      6.345880508422852,
+      -1.466886281967163,
+      -3.956559419631958
+    ],
+    [
+      -7.2932233810424805,
+      35.98927688598633,
+      -8.319125175476074,
+      -34.81888961791992
+    ],
+    [
+      0.0,
+      5.7880754470825195,
+      53.33517074584961,
+      20.473766326904297
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "cutter_test_matrix_world": [
+    [
+      41.36192321777344,
+      6.345880508422852,
+      -1.466886281967163,
+      -3.956559419631958
+    ],
+    [
+      -7.2932233810424805,
+      35.98927688598633,
+      -8.319125175476074,
+      -34.81888961791992
+    ],
+    [
+      0.0,
+      5.7880754470825195,
+      53.33517074584961,
+      20.473766326904297
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_body": {
+    "vertices": 157250,
+    "local_vertices_sha256_float32_le": "064ad0111e5a99c059087ee201be534863294946871e2106ffc9c3126e13f3a8"
+  },
+  "vertices": 229002,
+  "edges": 457968,
+  "polygons": 228984,
+  "triangles": 457968,
+  "bounds_mm": [
+    [
+      -21.657448406940336,
+      -2.9406660340399253,
+      4.486536948909308
+    ],
+    [
+      11.17404713720195,
+      13.187320349391651,
+      47.20517502107524
+    ]
+  ],
+  "evaluated_vertices_sha256_float32_le": "84c4d9ae952ac2bed1e0f5ad8fbf4a834b73d80c6d9ac64fb41fac3fa0ec1c55",
+  "evaluated_triangles_sha256_int32_le": "dec2e0071dcceef63b99428a9709ac751cbd36cd948d1d2588be8982317815ac",
+  "connected_components": 24,
+  "component_vertex_counts": [
+    227428,
+    402,
+    250,
+    114,
+    82,
+    82,
+    74,
+    58,
+    42,
+    42,
+    42,
+    42,
+    42,
+    42,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26,
+    26
+  ],
+  "largest_vertex_fraction": 0.9931266975834272,
+  "components": [
+    {
+      "index": 0,
+      "vertices": 227428,
+      "triangles": 454912,
+      "signed_volume_mm3": 6947.610814122473,
+      "area_mm2": 2908.856599199779,
+      "bounds_mm": [
+        [
+          -21.657448406940336,
+          -2.9406660340399253,
+          5.4993328206440815
+        ],
+        [
+          11.17404713720195,
+          13.187320349391651,
+          47.20517502107524
+        ]
+      ]
+    },
+    {
+      "index": 1,
+      "vertices": 402,
+      "triangles": 800,
+      "signed_volume_mm3": 0.45102663735729276,
+      "area_mm2": 4.0772051441049335,
+      "bounds_mm": [
+        [
+          -20.117939357991926,
+          3.688948568075207,
+          27.281682315366567
+        ],
+        [
+          -17.996746898113297,
+          4.4742997191960105,
+          28.507851301478446
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "vertices": 250,
+      "triangles": 496,
+      "signed_volume_mm3": 0.37682506599848337,
+      "area_mm2": 2.8274713826505233,
+      "bounds_mm": [
+        [
+          -2.0098492884164836,
+          4.194411962751272,
+          5.285224882528332
+        ],
+        [
+          -1.0549206362121335,
+          5.045691841281895,
+          6.299272259755905
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "vertices": 114,
+      "triangles": 224,
+      "signed_volume_mm3": 0.028243154796385686,
+      "area_mm2": 0.7170770419674602,
+      "bounds_mm": [
+        [
+          1.3344917515593087,
+          3.8564998881965806,
+          4.486536948909308
+        ],
+        [
+          1.9372166714191148,
+          4.0608821139849,
+          5.439110116800271
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "vertices": 82,
+      "triangles": 160,
+      "signed_volume_mm3": 0.020397713280560382,
+      "area_mm2": 0.5671982245039229,
+      "bounds_mm": [
+        [
+          -12.11900154934024,
+          4.09950385461912,
+          17.706368492763925
+        ],
+        [
+          -11.59587571307549,
+          4.2555899437731375,
+          18.35346909504318
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "vertices": 82,
+      "triangles": 160,
+      "signed_volume_mm3": 0.02349710170989388,
+      "area_mm2": 0.5515670343449671,
+      "bounds_mm": [
+        [
+          -10.081079205177486,
+          4.6188939034561205,
+          12.890511454627447
+        ],
+        [
+          -9.598361984696119,
+          4.8115497777258405,
+          13.528985356800222
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "vertices": 74,
+      "triangles": 144,
+      "signed_volume_mm3": 0.015025365320950697,
+      "area_mm2": 0.4587968843857952,
+      "bounds_mm": [
+        [
+          7.192409871421465,
+          1.6389477930954952,
+          11.80578542764954
+        ],
+        [
+          7.571643190197203,
+          1.7747114509991158,
+          12.507579864725278
+        ]
+      ]
+    },
+    {
+      "index": 7,
+      "vertices": 58,
+      "triangles": 112,
+      "signed_volume_mm3": 0.004740141362645163,
+      "area_mm2": 0.21929609240099432,
+      "bounds_mm": [
+        [
+          -21.397641211863768,
+          3.3617064341712832,
+          33.10423480848187
+        ],
+        [
+          -21.189553607269502,
+          3.451740521999895,
+          33.67739417195998
+        ]
+      ]
+    },
+    {
+      "index": 8,
+      "vertices": 42,
+      "triangles": 80,
+      "signed_volume_mm3": 0.0002703879223049456,
+      "area_mm2": 0.03677597268779319,
+      "bounds_mm": [
+        [
+          -11.356289404637812,
+          2.916897538864684,
+          24.47475458761142
+        ],
+        [
+          -11.263591473096248,
+          2.953206252240195,
+          24.780075848347995
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "vertices": 42,
+      "triangles": 80,
+      "signed_volume_mm3": 0.00024706211181591974,
+      "area_mm2": 0.04123802618276367,
+      "bounds_mm": [
+        [
+          -9.405475111226965,
+          4.443820040919781,
+          12.91517206192789
+        ],
+        [
+          -9.30605447969546,
+          4.481350190109432,
+          13.271381512485414
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "vertices": 42,
+      "triangles": 80,
+      "signed_volume_mm3": 0.0010672601368937181,
+      "area_mm2": 0.0758262116709582,
+      "bounds_mm": [
+        [
+          8.79972905966274,
+          0.5707082388047761,
+          17.063058245923028
+        ],
+        [
+          9.10883394775311,
+          0.641926678859575,
+          17.184101099842163
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "vertices": 42,
+      "triangles": 80,
+      "signed_volume_mm3": 0.0018974211124022818,
+      "area_mm2": 0.12515251485819634,
+      "bounds_mm": [
+        [
+          -11.764501776575306,
+          1.986898072581803,
+          30.663452068630296
+        ],
+        [
+          -11.594291205554871,
+          2.0505986400137264,
+          31.074941874320874
+        ]
+      ]
+    },
+    {
+      "index": 12,
+      "vertices": 42,
+      "triangles": 80,
+      "signed_volume_mm3": 0.00041605657346657397,
+      "area_mm2": 0.052997078391362425,
+      "bounds_mm": [
+        [
+          -11.08151002686135,
+          0.7821631854009439,
+          37.42061714066628
+        ],
+        [
+          -10.9662029745592,
+          0.8189241422014824,
+          37.772387041227745
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "vertices": 42,
+      "triangles": 80,
+      "signed_volume_mm3": 4.76380478681796e-05,
+      "area_mm2": 0.016631036016950852,
+      "bounds_mm": [
+        [
+          3.2626930516557975,
+          -1.9277004631397965,
+          40.02072609120897
+        ],
+        [
+          3.548084429383053,
+          -1.9164231761162251,
+          40.099568907053296
+        ]
+      ]
+    },
+    {
+      "index": 14,
+      "vertices": 26,
+      "triangles": 48,
+      "signed_volume_mm3": 7.445810183557774e-05,
+      "area_mm2": 0.0117664594159104,
+      "bounds_mm": [
+        [
+          -10.318599047940513,
+          4.6737737544134506,
+          13.593861045425108
+        ],
+        [
+          -10.264052434815481,
+          4.702495917804035,
+          13.676674053553564
+        ]
+      ]
+    },
+    {
+      "index": 15,
+      "vertices": 26,
+      "triangles": 48,
+      "signed_volume_mm3": 1.8491579741544196e-05,
+      "area_mm2": 0.0053831825196996716,
+      "bounds_mm": [
+        [
+          -5.81572208561388,
+          3.573214908816718,
+          14.716316295177384
+        ],
+        [
+          -5.756353469087427,
+          3.5855060713162166,
+          14.759669505762565
+        ]
+      ]
+    },
+    {
+      "index": 16,
+      "vertices": 26,
+      "triangles": 48,
+      "signed_volume_mm3": 1.4339758865374946e-08,
+      "area_mm2": 5.074643805578143e-05,
+      "bounds_mm": [
+        [
+          -6.443087894063867,
+          2.203519226604599,
+          23.974147857577833
+        ],
+        [
+          -6.4389349415425725,
+          2.2046577586998093,
+          23.98060314198494
+        ]
+      ]
+    },
+    {
+      "index": 17,
+      "vertices": 26,
+      "triangles": 48,
+      "signed_volume_mm3": 0.0001661077241341595,
+      "area_mm2": 0.018976593638827262,
+      "bounds_mm": [
+        [
+          -1.071798387570326,
+          4.143009357192955,
+          5.895900279433115
+        ],
+        [
+          -1.0063535762851519,
+          4.187616950776069,
+          5.989522758480207
+        ]
+      ]
+    },
+    {
+      "index": 18,
+      "vertices": 26,
+      "triangles": 48,
+      "signed_volume_mm3": 7.241314841794114e-05,
+      "area_mm2": 0.011362345790320838,
+      "bounds_mm": [
+        [
+          2.165502931664541,
+          3.680272132988689,
+          5.102297923293152
+        ],
+        [
+          2.209641386555138,
+          3.7162621601374637,
+          5.186077675595349
+        ]
+      ]
+    },
+    {
+      "index": 19,
+      "vertices": 26,
+      "triangles": 48,
+      "signed_volume_mm3": 3.3232997196094426e-05,
+      "area_mm2": 0.006880620193032807,
+      "bounds_mm": [
+        [
+          5.90745193540526,
+          -0.2618244640668935,
+          26.185740015900294
+        ],
+        [
+          5.9568559466922775,
+          -0.24175416700974262,
+          26.240284428400816
+        ]
+      ]
+    },
+    {
+      "index": 20,
+      "vertices": 26,
+      "triangles": 48,
+      "signed_volume_mm3": 5.745704559770098e-07,
+      "area_mm2": 0.0006037643754415544,
+      "bounds_mm": [
+        [
+          9.086899154225298,
+          0.8784952531519106,
+          16.878817479306072
+        ],
+        [
+          9.122571904750565,
+          0.8827827842959951,
+          16.889673788135685
+        ]
+      ]
+    },
+    {
+      "index": 21,
+      "vertices": 26,
+      "triangles": 48,
+      "signed_volume_mm3": 4.63847349345597e-06,
+      "area_mm2": 0.0018062336447891944,
+      "bounds_mm": [
+        [
+          -11.413185440043137,
+          0.758326205386308,
+          38.18591914717952
+        ],
+        [
+          -11.396073294375821,
+          0.7735273609213666,
+          38.21831851469168
+        ]
+      ]
+    },
+    {
+      "index": 22,
+      "vertices": 26,
+      "triangles": 48,
+      "signed_volume_mm3": 6.946508862404983e-07,
+      "area_mm2": 0.0007003472767867552,
+      "bounds_mm": [
+        [
+          -10.172081195309291,
+          1.3410252172071913,
+          33.19753057520594
+        ],
+        [
+          -10.159720210826684,
+          1.346779999783318,
+          33.235996435687674
+        ]
+      ]
+    },
+    {
+      "index": 23,
+      "vertices": 26,
+      "triangles": 48,
+      "signed_volume_mm3": 7.518466550194696e-07,
+      "area_mm2": 0.0005055830775156667,
+      "bounds_mm": [
+        [
+          -8.377566206628703,
+          -0.27634853075953064,
+          47.05412596810677
+        ],
+        [
+          -8.365083986226287,
+          -0.2688014105238818,
+          47.066470689223145
+        ]
+      ]
+    }
+  ],
+  "boundary_edges": 0,
+  "wire_edges": 0,
+  "edges_with_more_than_two_faces": 0,
+  "nonmanifold_edges": 0,
+  "nonmanifold_vertices": 0,
+  "inconsistent_winding_edges": 0,
+  "signed_volume_mm3": 6948.534886505615,
+  "surface_area_mm2": 2918.681867720389,
+  "minimum_triangle_area_mm2": 3.001332710785556e-11,
+  "zero_area_triangles": 0,
+  "tiny_area_threshold_mm2": 1e-10,
+  "triangles_below_area_threshold": 8,
+  "tiny_triangle_indices": [
+    241920,
+    241921,
+    241922,
+    241923,
+    241924,
+    241925,
+    241926,
+    241927
+  ],
+  "material_counts": [
+    {
+      "slot": 1,
+      "name": "Skin • strawberry red",
+      "polygons": 142768,
+      "triangles": 285536
+    },
+    {
+      "slot": 2,
+      "name": "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)",
+      "polygons": 86216,
+      "triangles": 172432
+    }
+  ],
+  "attributes": {
+    "fruit_rest": {
+      "present": true,
+      "domain": "POINT",
+      "data_type": "FLOAT_VECTOR",
+      "length": 229002,
+      "finite": true,
+      "sha256_float32_le": "bc77bd910f36a705615951ca44157d32873da52f9029d71c75480d5b4bbb4dd0",
+      "minimum": [
+        -14.820412635803223,
+        -0.5064190626144409,
+        3.9777541160583496
+      ],
+      "maximum": [
+        17.099884033203125,
+        15.168394088745117,
+        47.8405647277832
+      ]
+    },
+    "v8_vascular_intensity": {
+      "present": true,
+      "domain": "POINT",
+      "data_type": "FLOAT",
+      "length": 229002,
+      "finite": true,
+      "sha256_float32_le": "15108077243182a9884fcbfd0e7361ede4948930457b1615aa123c218233fe9a",
+      "minimum": 0.0,
+      "maximum": 0.7480682134628296
+    }
+  },
+  "atlases": [
+    {
+      "name": "V19 | rooted 264-seed graph 192^3 rest R (ARTIST)",
+      "size": [
+        3072,
+        2304
+      ],
+      "channels": 4,
+      "users": 4,
+      "source": "FILE",
+      "colorspace": "Non-Color",
+      "packed": true,
+      "finite_pixels": true,
+      "sha256_float32_le": "7fcf270580c43e545bcf94d751bb073c51f93f56dc40b7cfcd7a8172fef01c47",
+      "R_sha256_float32_le": "940635ee4274e1ef46792ff8ea39559a43008ed86e680b7665b762233ddd5d4f",
+      "G_sha256_float32_le": "e5ca238352edcc6b9f4facbe4958836bbd2508d743466bb271879fa8c5b4ee03",
+      "B_sha256_float32_le": "9ba651dd502d0a28c1c5c40cb689bb40328b6a586ef0374969c60f257cbab9ba",
+      "A_sha256_float32_le": "1dc6b0edfd132b86e59779908a9f96f3eb3599ad2036d442b185550c86a5cddc",
+      "GBA_sha256_float32_le": "ea047ec4df54725a77810d258c436683aa2b78ba5ffab74ca46350d7f3c2550d",
+      "BA_sha256_float32_le": "cfeae2c0530674e338bf8843d96944e2ba22c2f4aa58f7f9be4f806a639786cb",
+      "packed_sha256": "02d8abd338b590451e0396a2e453e443aa60bfa1656f1f01ab2c1edaad238d65",
+      "packed_bytes": 113283664
+    }
+  ],
+  "source_hull_distance": {
+    "reference": "SDF visible body | planar",
+    "reference_geometry": "raw source mesh of the evaluated body, in that same object frame; modifiers not evaluated",
+    "query": "centroid of every evaluated loop triangle",
+    "signed_test_limit": "nearest-surface normal, not a general inside/outside proof",
+    "by_material": [
+      {
+        "slot": 1,
+        "name": "Skin • strawberry red",
+        "triangles": 285536,
+        "distance_min_mm": 4.76837158203125e-07,
+        "distance_max_mm": 12.095159530639648,
+        "distance_median_mm": 0.0047954951878637075,
+        "farther_than_0_5_mm": 51251,
+        "farther_than_0_5_mm_and_inward_nearest_normal": 51251
+      },
+      {
+        "slot": 2,
+        "name": "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)",
+        "triangles": 172432,
+        "distance_min_mm": 0.0,
+        "distance_max_mm": 11.425470352172852,
+        "distance_median_mm": 4.2178521156311035,
+        "farther_than_0_5_mm": 151628,
+        "farther_than_0_5_mm_and_inward_nearest_normal": 151628
+      }
+    ]
+  },
+  "checks": {
+    "blender_5_2_or_newer": true,
+    "scripts_disabled": true,
+    "one_mm_per_unit": true,
+    "finite_vertices": true,
+    "one_connected_component": false,
+    "closed_manifold_edges": true,
+    "manifold_vertices": true,
+    "consistent_edge_winding": true,
+    "positive_signed_volume": true,
+    "all_triangle_areas_at_least_1e_10_mm2": false,
+    "atlas_present": true,
+    "atlas_pixels_finite": true,
+    "required_rest_attributes_present_and_finite": true,
+    "source_sha_matches": true,
+    "atlas_R_sha_matches": true,
+    "atlas_GBA_sha_matches": true
+  },
+  "status": "FAIL",
+  "timing_seconds": {
+    "from_script_start_including_open_and_updates": 20.44434499699946,
+    "open_mainfile": 5.910507323999809,
+    "frame_set": 0.0023396990000037476,
+    "pose_update_and_evaluated_mesh": 5.6170177000003605,
+    "mesh_analysis": 2.37137636999978,
+    "atlas_read_and_hash": 0.7704626519998783,
+    "optional_distance_and_witness": 5.687472163000166
+  },
+  "timing_limit": "Includes file open/frame changes/depsgraph evaluation, excludes Blender process startup and final JSON write; frame_set may evaluate multiple visible scene objects.",
+  "maxrss_kib_linux": 1748792
+}
