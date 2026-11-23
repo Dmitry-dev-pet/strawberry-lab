@@ -1,0 +1,86 @@
+{
+  "sheets": [
+    {
+      "sheet": "v20-cycles-A-B-comparison.png",
+      "source_images": [
+        {
+          "file": "cycles-v20a-plane.png",
+          "sha256": "bf90dbe47b22076bd00970b8e692ee7fff376a140354c81a974d695c3250e5ef",
+          "image_resized": false
+        },
+        {
+          "file": "cycles-v20b-plane.png",
+          "sha256": "238a18431706bc1551f854cd8b2c6d4eca4db241cc581c9471bbc31d600119f4",
+          "image_resized": false
+        },
+        {
+          "file": "cycles-v20a-bite.png",
+          "sha256": "c317e8896dcd07f310779e338876806edf704ed77fd90eac4c6247584f58752f",
+          "image_resized": false
+        },
+        {
+          "file": "cycles-v20b-bite.png",
+          "sha256": "79d79e5e5475a4ee88ed0f67aeb244086969ff7e00c8a9a45375afa9065e16ec",
+          "image_resized": false
+        }
+      ],
+      "postprocessing": "labels and arrangement only; no image pixel edits or resizing"
+    },
+    {
+      "sheet": "v20-macro-A-B-comparison.png",
+      "source_images": [
+        {
+          "file": "cycles-v20a-macro.png",
+          "sha256": "5c2350363a82e027fe72b072f672d9bab8dee44afa2e298ed3d556c66bdb807a",
+          "image_resized": false
+        },
+        {
+          "file": "cycles-v20b-macro.png",
+          "sha256": "509f9ac4144af6921063e3fcf1a8bc62f5ac9273e37fab7a574dd35cc66c630b",
+          "image_resized": false
+        },
+        {
+          "file": "cycles-v20a-macro-clay.png",
+          "sha256": "82de437d7cbaf6ba2b2d9b44c9794b6374a91bdd6e52dc4f1770e7a0ff47efda",
+          "image_resized": false
+        },
+        {
+          "file": "cycles-v20b-macro-clay.png",
+          "sha256": "63dc41ec28dc2b403e01dd783a3c2eb5fedf325025f8cdb570cb91a6cfd41ca9",
+          "image_resized": false
+        }
+      ],
+      "postprocessing": "labels and arrangement only; no image pixel edits or resizing"
+    }
+  ],
+  "comparisons": [
+    {
+      "shot": "plane",
+      "settings_identical": true,
+      "mean_absolute_srgb_difference": 0.00031348291668109596,
+      "fraction_pixels_max_rgb_difference_gt_0_01": 0.00447509765625,
+      "meaning": "Pixel difference only; NOT a realism score. Denoising can spread local differences."
+    },
+    {
+      "shot": "bite",
+      "settings_identical": true,
+      "mean_absolute_srgb_difference": 0.00029103158158250153,
+      "fraction_pixels_max_rgb_difference_gt_0_01": 0.00886962890625,
+      "meaning": "Pixel difference only; NOT a realism score. Denoising can spread local differences."
+    },
+    {
+      "shot": "macro",
+      "settings_identical": true,
+      "mean_absolute_srgb_difference": 0.003143998561426997,
+      "fraction_pixels_max_rgb_difference_gt_0_01": 0.10118389129638672,
+      "meaning": "Pixel difference only; NOT a realism score. Denoising can spread local differences."
+    },
+    {
+      "shot": "macro-clay",
+      "settings_identical": true,
+      "mean_absolute_srgb_difference": 0.0028626571875065565,
+      "fraction_pixels_max_rgb_difference_gt_0_01": 0.06855392456054688,
+      "meaning": "Pixel difference only; NOT a realism score. Denoising can spread local differences."
+    }
+  ]
+}

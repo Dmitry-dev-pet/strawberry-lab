@@ -1,0 +1,104 @@
+{
+  "hypothesis": "Only change A/B cell-suppression input from existing narrow core to broader same-graph halo.",
+  "source_sha256": "d89dd750f6f97bd7e85bce55eae0fb58af7d2a1dee9d07dc503932258a8b8110",
+  "blender": "5.2.4 LTS",
+  "graph": {
+    "segments_total": 557,
+    "root": 1,
+    "carriers": 28,
+    "terminals": 264,
+    "twigs": 264,
+    "all_connected_to_one_root": true,
+    "parent_joint_max_error_mm": 0.0,
+    "endpoints_on_achene_anchors": 264,
+    "max_graph_radius_mm": 16.841047286987305,
+    "seed": 19011
+  },
+  "raw_original_core_reproduction": {
+    "grid_shape_ZYX": [
+      192,
+      192,
+      192
+    ],
+    "field_min": 0.0,
+    "field_max": 0.766750156879425,
+    "field_mean": 0.03319365158677101,
+    "over_025_fraction": 0.05129383228443287,
+    "raster_dabs_applied": 35003,
+    "raster_dabs_clipped": 0,
+    "field_sha256": "ffe30f3ac3dd75824afb69ca37aa500ab028b0730a40138b9df65af5e95d2eaf",
+    "voxel_pitch_mm_xyz": [
+      0.1884816735982895,
+      0.1884816735982895,
+      0.2670156955718994
+    ]
+  },
+  "halo_raster": {
+    "grid_shape_ZYX": [
+      192,
+      192,
+      192
+    ],
+    "field_min": 0.0,
+    "field_max": 0.7758861780166626,
+    "field_mean": 0.08510547131299973,
+    "over_025_fraction": 0.13816395512333624,
+    "raster_dabs_applied": 35003,
+    "raster_dabs_clipped": 0,
+    "field_sha256": "f1b311a8a9f270bb75592ad9ef2536a2edc80d88c136bc01570822e8bdb99f81",
+    "voxel_pitch_mm_xyz": [
+      0.1884816735982895,
+      0.1884816735982895,
+      0.2670156955718994
+    ]
+  },
+  "halo_sigma_factor_ARTIST": 1.8,
+  "ridge_coefficient_mm_ARTIST": 0.18,
+  "original_material_atlas_packed_sha256": "02d8abd338b590451e0396a2e453e443aa60bfa1656f1f01ab2c1edaad238d65",
+  "original_material_pixels_sha256": "7fcf270580c43e545bcf94d751bb073c51f93f56dc40b7cfcd7a8172fef01c47",
+  "original_material_R_sha256": "940635ee4274e1ef46792ff8ea39559a43008ed86e680b7665b762233ddd5d4f",
+  "original_material_GBA_sha256": "ea047ec4df54725a77810d258c436683aa2b78ba5ffab74ca46350d7f3c2550d",
+  "geometry_atlas_packed_sha256": "0d86f9cdc2b676181a3e81aa34bfccf002c062fa9b6797d4a25375d25f4cee9c",
+  "geometry_core_zyx_sha256": "cd9857bedd5c40fe020c7357387b5e6b2de604604daa6a6be792b5d3641bac97",
+  "geometry_halo_zyx_sha256": "270707e71269c861fb9ff328248deafd0b5b61b743ba3406d8aa2d268e3fed5b",
+  "halo_not_below_core": true,
+  "grid_fraction_halo_above_core_by_0_05": 0.25881703694661456,
+  "mean_cell_suppression_core": 0.9537274241447449,
+  "mean_cell_suppression_halo": 0.8767468333244324,
+  "pith_policy": "Unchanged original material B. Ring-relative coordinate and geometric liquid are outside this single-factor experiment.",
+  "groups": {
+    "planar": {
+      "nodes": 55,
+      "links": 70,
+      "cell_strength": 1.0,
+      "ridge_gain_mm": 0.18,
+      "inherited_cap_tolerance_mm": 0.5805000066757202,
+      "inherited_voxel_size_mm": 0.27000001072883606,
+      "removed_unused_v18_v19_nodes": 38
+    },
+    "bite": {
+      "nodes": 55,
+      "links": 70,
+      "cell_strength": 1.0,
+      "ridge_gain_mm": 0.18,
+      "inherited_cap_tolerance_mm": 0.5805000066757202,
+      "inherited_voxel_size_mm": 0.27000001072883606,
+      "removed_unused_v18_v19_nodes": 38
+    }
+  },
+  "variants": {
+    "a": {
+      "file": "strawberry-v20a-core-suppression.blend",
+      "bytes": 55010815,
+      "sha256": "a75e8cc7e21ff6fd83bcd26b85087cfafd83f534e10d40121021e2034806823f",
+      "broad_halo": false
+    },
+    "b": {
+      "file": "strawberry-v20b-halo-suppression.blend",
+      "bytes": 55010832,
+      "sha256": "35fd1d81c51aea1cc8f4cd71c39a2815da87a1137056d32c3f78d4ab1cf649e4",
+      "broad_halo": true
+    }
+  },
+  "build_seconds": 19.330649194000216
+}

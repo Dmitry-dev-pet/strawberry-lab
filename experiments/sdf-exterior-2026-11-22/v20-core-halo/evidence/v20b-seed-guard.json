@@ -1,0 +1,334 @@
+{
+  "schema": "strawberry-v20-seed-guard/v1",
+  "scene": "<workspace>/work/v20_halo/output/strawberry-v20b-halo-suppression.blend",
+  "scene_sha256": "35fd1d81c51aea1cc8f4cd71c39a2815da87a1137056d32c3f78d4ab1cf649e4",
+  "variant": "b",
+  "blender": "5.2.4 LTS",
+  "build_hash": "cd5dc428cce1",
+  "auto_execute_scripts": false,
+  "tolerance_cutter_local": -0.0002,
+  "method": "Every evaluated seed vertex queried against evaluated cutter BVH; nearest-surface normal signed dot product in cutter-local coordinates.",
+  "limitations": [
+    "Four specified cutter poses only; no universal cutter regression proof.",
+    "Nearest-normal vertex test, not exhaustive inside/outside or triangle/triangle intersection proof.",
+    "No seed-to-body attachment test; calyx and stem are outside this check.",
+    "Tolerance is in cutter-local units, not a fixed world-space millimetre distance."
+  ],
+  "raw_seed_inputs": {
+    "SDF visible seeds | planar": {
+      "vertices": 46992,
+      "edges": 97152,
+      "polygons": 50688,
+      "vertices_sha256_float32_le": "c27d1cf88147f8c8efc9029d29b4a0b8c0b0519948bbcb47427e5d99a8d936d3",
+      "edges_sha256_int32_le": "08f7f2f0ea05abd74a9df7ba090a99b813a484b4c66833c767303ce567f0293d",
+      "loop_vertices_sha256_int32_le": "7aca76bd67435efaff3baa98f8a9eda85deb59ce8ba9a0515b04374596da937c",
+      "polygon_starts_sha256_int32_le": "a51ae990b5bdcb05de18bdff6c2b6a92783bb39933550eb16499dd65bc211b2a",
+      "polygon_sizes_sha256_int32_le": "0de7762ddc1c94e1526ef732d2b6490befea90d4c162e55f7f1888f8191580e7",
+      "material_indices_sha256_int32_le": "e7a3fa893dcd1ae7b11c0e80a875aad5ebf03e6bc0e7d9ce3200fc6d4cea036d",
+      "achene_center_domain": "POINT",
+      "achene_center_count": 46992,
+      "achene_center_sha256_float32_le": "670d1c447c00bf976ee4be907e5549a8a8220a6619e97b6faa6d8d1630b8ca00"
+    },
+    "SDF visible seeds | bite": {
+      "vertices": 46992,
+      "edges": 97152,
+      "polygons": 50688,
+      "vertices_sha256_float32_le": "c27d1cf88147f8c8efc9029d29b4a0b8c0b0519948bbcb47427e5d99a8d936d3",
+      "edges_sha256_int32_le": "08f7f2f0ea05abd74a9df7ba090a99b813a484b4c66833c767303ce567f0293d",
+      "loop_vertices_sha256_int32_le": "7aca76bd67435efaff3baa98f8a9eda85deb59ce8ba9a0515b04374596da937c",
+      "polygon_starts_sha256_int32_le": "a51ae990b5bdcb05de18bdff6c2b6a92783bb39933550eb16499dd65bc211b2a",
+      "polygon_sizes_sha256_int32_le": "0de7762ddc1c94e1526ef732d2b6490befea90d4c162e55f7f1888f8191580e7",
+      "material_indices_sha256_int32_le": "e7a3fa893dcd1ae7b11c0e80a875aad5ebf03e6bc0e7d9ce3200fc6d4cea036d",
+      "achene_center_domain": "POINT",
+      "achene_center_count": 46992,
+      "achene_center_sha256_float32_le": "670d1c447c00bf976ee4be907e5549a8a8220a6619e97b6faa6d8d1630b8ca00"
+    }
+  },
+  "reference": {
+    "scene": "<workspace>/previous/strawberry-v19-rooted-graph/strawberry-v19a-graph-only.blend",
+    "sha256": "d89dd750f6f97bd7e85bce55eae0fb58af7d2a1dee9d07dc503932258a8b8110",
+    "raw_seed_inputs": {
+      "SDF visible seeds | planar": {
+        "vertices": 46992,
+        "edges": 97152,
+        "polygons": 50688,
+        "vertices_sha256_float32_le": "c27d1cf88147f8c8efc9029d29b4a0b8c0b0519948bbcb47427e5d99a8d936d3",
+        "edges_sha256_int32_le": "08f7f2f0ea05abd74a9df7ba090a99b813a484b4c66833c767303ce567f0293d",
+        "loop_vertices_sha256_int32_le": "7aca76bd67435efaff3baa98f8a9eda85deb59ce8ba9a0515b04374596da937c",
+        "polygon_starts_sha256_int32_le": "a51ae990b5bdcb05de18bdff6c2b6a92783bb39933550eb16499dd65bc211b2a",
+        "polygon_sizes_sha256_int32_le": "0de7762ddc1c94e1526ef732d2b6490befea90d4c162e55f7f1888f8191580e7",
+        "material_indices_sha256_int32_le": "e7a3fa893dcd1ae7b11c0e80a875aad5ebf03e6bc0e7d9ce3200fc6d4cea036d",
+        "achene_center_domain": "POINT",
+        "achene_center_count": 46992,
+        "achene_center_sha256_float32_le": "670d1c447c00bf976ee4be907e5549a8a8220a6619e97b6faa6d8d1630b8ca00"
+      },
+      "SDF visible seeds | bite": {
+        "vertices": 46992,
+        "edges": 97152,
+        "polygons": 50688,
+        "vertices_sha256_float32_le": "c27d1cf88147f8c8efc9029d29b4a0b8c0b0519948bbcb47427e5d99a8d936d3",
+        "edges_sha256_int32_le": "08f7f2f0ea05abd74a9df7ba090a99b813a484b4c66833c767303ce567f0293d",
+        "loop_vertices_sha256_int32_le": "7aca76bd67435efaff3baa98f8a9eda85deb59ce8ba9a0515b04374596da937c",
+        "polygon_starts_sha256_int32_le": "a51ae990b5bdcb05de18bdff6c2b6a92783bb39933550eb16499dd65bc211b2a",
+        "polygon_sizes_sha256_int32_le": "0de7762ddc1c94e1526ef732d2b6490befea90d4c162e55f7f1888f8191580e7",
+        "material_indices_sha256_int32_le": "e7a3fa893dcd1ae7b11c0e80a875aad5ebf03e6bc0e7d9ce3200fc6d4cea036d",
+        "achene_center_domain": "POINT",
+        "achene_center_count": 46992,
+        "achene_center_sha256_float32_le": "670d1c447c00bf976ee4be907e5549a8a8220a6619e97b6faa6d8d1630b8ca00"
+      }
+    }
+  },
+  "poses": {
+    "planar_original": {
+      "frame": 20,
+      "evaluated_seed_vertices": 16554,
+      "checked_seed_vertices": 16554,
+      "strictly_inside_cutter_vertices": 0,
+      "minimum_signed_nearest_normal_cutter_local": 0.014868855476379395,
+      "evaluated_cutter_vertices": 8,
+      "cutter_matrix_world": [
+        [
+          41.36192321777344,
+          6.345880508422852,
+          -1.466886281967163,
+          -3.956559419631958
+        ],
+        [
+          -7.2932233810424805,
+          35.98927688598633,
+          -8.319125175476074,
+          -34.81888961791992
+        ],
+        [
+          0.0,
+          5.7880754470825195,
+          53.33517074584961,
+          20.473766326904297
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "seed_matrix_world": [
+        [
+          0.9820041656494141,
+          -0.011324737221002579,
+          -0.18851907551288605,
+          0.0
+        ],
+        [
+          -1.1240106623233714e-09,
+          0.998200535774231,
+          -0.05996400862932205,
+          0.0
+        ],
+        [
+          0.18885891139507294,
+          0.058884911239147186,
+          0.9802371263504028,
+          -0.0990448147058487
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "planar_moved": {
+      "frame": 20,
+      "evaluated_seed_vertices": 11748,
+      "checked_seed_vertices": 11748,
+      "strictly_inside_cutter_vertices": 0,
+      "minimum_signed_nearest_normal_cutter_local": 0.015700221061706543,
+      "evaluated_cutter_vertices": 8,
+      "cutter_matrix_world": [
+        [
+          41.36192321777344,
+          6.0749406814575195,
+          -3.0528531074523926,
+          -3.956559419631958
+        ],
+        [
+          -7.2932233810424805,
+          34.45269775390625,
+          -17.31359100341797,
+          -31.818889617919922
+        ],
+        [
+          0.0,
+          12.046021461486816,
+          51.05800247192383,
+          20.473766326904297
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "seed_matrix_world": [
+        [
+          0.9820041656494141,
+          -0.011324737221002579,
+          -0.18851907551288605,
+          0.0
+        ],
+        [
+          -1.1240106623233714e-09,
+          0.998200535774231,
+          -0.05996400862932205,
+          0.0
+        ],
+        [
+          0.18885891139507294,
+          0.058884911239147186,
+          0.9802371263504028,
+          -0.0990448147058487
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "bite_original": {
+      "frame": 40,
+      "evaluated_seed_vertices": 40228,
+      "checked_seed_vertices": 40228,
+      "strictly_inside_cutter_vertices": 0,
+      "minimum_signed_nearest_normal_cutter_local": 0.06306458148173988,
+      "evaluated_cutter_vertices": 6050,
+      "cutter_matrix_world": [
+        [
+          12.0,
+          0.0,
+          0.0,
+          4.072440147399902
+        ],
+        [
+          0.0,
+          12.0,
+          0.0,
+          -13.537470817565918
+        ],
+        [
+          0.0,
+          0.0,
+          12.0,
+          26.380231857299805
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "seed_matrix_world": [
+        [
+          0.9820041656494141,
+          -0.011324737221002579,
+          -0.18851907551288605,
+          0.0
+        ],
+        [
+          -1.1240106623233714e-09,
+          0.998200535774231,
+          -0.05996400862932205,
+          0.0
+        ],
+        [
+          0.18885891139507294,
+          0.058884911239147186,
+          0.9802371263504028,
+          -0.0990448147058487
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "bite_moved": {
+      "frame": 40,
+      "evaluated_seed_vertices": 37558,
+      "checked_seed_vertices": 37558,
+      "strictly_inside_cutter_vertices": 0,
+      "minimum_signed_nearest_normal_cutter_local": 0.028108050348237157,
+      "evaluated_cutter_vertices": 6050,
+      "cutter_matrix_world": [
+        [
+          13.559999465942383,
+          0.0,
+          0.0,
+          0.07244014739990234
+        ],
+        [
+          0.0,
+          13.559999465942383,
+          0.0,
+          -13.537470817565918
+        ],
+        [
+          0.0,
+          0.0,
+          13.559999465942383,
+          26.380231857299805
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "seed_matrix_world": [
+        [
+          0.9820041656494141,
+          -0.011324737221002579,
+          -0.18851907551288605,
+          0.0
+        ],
+        [
+          -1.1240106623233714e-09,
+          0.998200535774231,
+          -0.05996400862932205,
+          0.0
+        ],
+        [
+          0.18885891139507294,
+          0.058884911239147186,
+          0.9802371263504028,
+          -0.0990448147058487
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "checks": {
+    "scripts_disabled": true,
+    "four_poses_evaluated": true,
+    "all_seed_vertices_checked": true,
+    "zero_vertices_inside_cutter_at_inherited_tolerance": true,
+    "raw_seed_inputs_identical_to_pinned_v19a": true
+  },
+  "total_checked_seed_vertices": 106088,
+  "status": "PASS_FOR_FOUR_TESTED_POSES",
+  "seconds_including_loads_and_updates": 83.33825823700045,
+  "maxrss_kib_linux": 1612904
+}

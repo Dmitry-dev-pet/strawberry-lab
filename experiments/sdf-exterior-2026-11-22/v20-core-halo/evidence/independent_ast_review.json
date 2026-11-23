@@ -1,0 +1,47 @@
+{
+  "review": "Independent saved-scene AST review, no evaluated-mesh tests",
+  "blender_version": "5.2.4 LTS",
+  "material_node_signatures_identical_source_A_B": true,
+  "material_count": 7,
+  "original_material_atlas_packed_sha256": "02d8abd338b590451e0396a2e453e443aa60bfa1656f1f01ab2c1edaad238d65",
+  "original_core_sampler_unchanged": true,
+  "green_low_high_slice_links_correct": true,
+  "AB_only_cutgroup_differences": [
+    "V20_USE_BROAD_HALO.boolean in planar",
+    "V20_USE_BROAD_HALO.boolean in bite"
+  ],
+  "core_max": 0.766750156879425,
+  "common_ridge_scalar_upper_bound_mm": 0.1380150282382965,
+  "halo_not_below_core_after_npz_roundtrip": true,
+  "issues": [],
+  "limits": [
+    "Native connectivity/numeric geometry outcomes are owned by separate QA.",
+    "Common ridge coefficient0.18mm is shared ARTIST baseline, not isolated A/B effect.",
+    "Current material shader remains unchanged; this tests geometric suppression only."
+  ],
+  "reviewed_at_utc": "2026-11-23T01:22:17.107076+00:00",
+  "scene_sha256": {
+    "strawberry-v19a-graph-only.blend": "d89dd750f6f97bd7e85bce55eae0fb58af7d2a1dee9d07dc503932258a8b8110",
+    "strawberry-v20a-core-suppression.blend": "a75e8cc7e21ff6fd83bcd26b85087cfafd83f534e10d40121021e2034806823f",
+    "strawberry-v20b-halo-suppression.blend": "35fd1d81c51aea1cc8f4cd71c39a2815da87a1137056d32c3f78d4ab1cf649e4"
+  },
+  "material_node_signature_sha256": {
+    "Achenes \u2022 straw \u00b7 amber \u00b7 olive": "f50b9b6383fecbc0b3d81551fa598206956f2db27c99bd9cb0cfef5a94355b07",
+    "Calyx \u2022 folded olive green": "567bbf384f0fe1bb425dcea496a24e9ca928bb88b22d40144da79644a5ae30c4",
+    "Pedicel \u2022 cut end": "569f191a006c2125ddf910c635d84277b562089b5238656772fa6574e2eb97e5",
+    "Pedicel \u2022 green": "4ed083f649e316deb4b0deafb2f15c12ea23cf4c004aeb318dbc8a1718e17b00",
+    "SDF v12 | continuous vascular fibers, restrained wetness (ARTIST)": "d6d9dd05acd4529e9d1729e562086a4935b18b33df32d04e3f463f2799fc134d",
+    "Skin \u2022 strawberry red": "46f01ee5e1e54362e56aa3b27efa0c1f2f0800a0ff177552382e700f519c118e",
+    "Stage \u2022 warm charcoal": "6ea7c0d7211a3db6f10e753e5929a857a8067596bb5f587ac100f2fafe9ed7df"
+  },
+  "wire_factors": {
+    "native_pipeline": "SDF Grid Boolean -> Grid to Mesh -> Set Shade Smooth; same A/B",
+    "suppression_a": "original narrow core R",
+    "suppression_b": "same-graph broad halo G",
+    "rim_and_cap": "inherited, unchanged",
+    "ridge": "0.18 mm coefficient times core R and inherited cap/rim; same A/B",
+    "height": "cell relief after suppression plus independent ridge",
+    "original_material_channels": "G=mottling, B=pith; unchanged"
+  },
+  "public_safety": "Own node summaries and hashes only; no source asset, third-party node export or private locator."
+}
