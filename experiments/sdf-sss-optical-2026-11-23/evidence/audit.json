@@ -1,0 +1,61 @@
+{
+  "source_sha256": "0b79e33b0725f807524061b1afe79671f4fcf1c6b5c429bd8203cec8d6a21bd2",
+  "blender": "5.2.4 LTS",
+  "materials_used_by_body": [
+    "SDF | source skin at true rest_position",
+    "SDF | inherited 150^3 tissue + own multiscale wetness"
+  ],
+  "cap_material": "SDF | inherited 150^3 tissue + own multiscale wetness",
+  "BSDF": {
+    "Base Color": {
+      "value": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "linked": true
+    },
+    "Subsurface Weight": {
+      "value": 0.07999999821186066,
+      "linked": false
+    },
+    "Subsurface Radius": {
+      "value": [
+        1.0,
+        0.20000000298023224,
+        0.10000000149011612
+      ],
+      "linked": false
+    },
+    "Subsurface Scale": {
+      "value": 0.012000000104308128,
+      "linked": false
+    },
+    "Roughness": {
+      "value": 0.3499999940395355,
+      "linked": true
+    },
+    "Coat Weight": {
+      "value": 0.10000000149011612,
+      "linked": false
+    },
+    "Transmission Weight": {
+      "value": 0.0,
+      "linked": false
+    }
+  },
+  "GN_attributes": [
+    "sdf_rest_position",
+    "achene_pit",
+    "sdf_v20_core",
+    "sdf_v20_halo",
+    "sdf_v20_cell_suppression",
+    "sdf_v20_height_mm"
+  ],
+  "cap_nodes": 82,
+  "gn_nodes": 79,
+  "seeds": 264,
+  "autoexec": false,
+  "mm_per_BU": 22.22222276031971
+}

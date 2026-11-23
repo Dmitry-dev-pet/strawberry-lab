@@ -1,0 +1,35 @@
+{
+  "status": "BUILT_A_B_UNVERIFIED",
+  "input_sha256": "0b79e33b0725f807524061b1afe79671f4fcf1c6b5c429bd8203cec8d6a21bd2",
+  "blender": "5.2.4 LTS",
+  "source_material": "SDF | inherited 150^3 tissue + own multiscale wetness",
+  "original_sss_weight": 0.08,
+  "added_artist_sss_weight_max": 0.2,
+  "ss_scale_BU": 0.012,
+  "ss_scale_mm": 0.2666666731238366,
+  "original_packed_atlas_sha256": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+  "raw_mesh_hash": "52f9c557f35b6e25d076fbf24fef83c9a165652660f7bbeee95a1da26f83bc09",
+  "original_mat_nodes": 82,
+  "new_mat_nodes": 91,
+  "control": "sdf_optical_gain",
+  "source_attributes": [
+    "sdf_v20_core",
+    "sdf_v20_cell_suppression"
+  ],
+  "other_principled_sockets_unchanged": true,
+  "notes": "ONLY Subsurface Weight now varies; no color/radius/geometry/light modifications. All values ARTIST.",
+  "scenes": [
+    {
+      "variant": "A",
+      "gain": 0.0,
+      "scene_sha256": "9b1b5744b3ef8ed2da59a71b36d628a632745910d4d9edfb4e3cfed29fd32ebd",
+      "bytes": 27138342
+    },
+    {
+      "variant": "B",
+      "gain": 1.0,
+      "scene_sha256": "e2fe22b7849093250b49a9dcc01755d78e45625f0bd22f101297e67bfe81a1e4",
+      "bytes": 27138346
+    }
+  ]
+}

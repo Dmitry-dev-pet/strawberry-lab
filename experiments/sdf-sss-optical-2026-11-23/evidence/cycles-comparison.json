@@ -1,0 +1,60 @@
+{
+  "schema": "sdf-cell-sss-optical-ab-2026-11-23",
+  "status": "PASS_MATCHED_CYCLES_IMAGE_RECEIPTS",
+  "settings": {
+    "resolution": 640,
+    "samples": 16,
+    "seed": 1729
+  },
+  "shots": {
+    "plane": {
+      "baseline_A_pixel_identical_to_prior_verified_v20": true,
+      "total_pixels": 409600,
+      "fraction_changed_gt2": 0.04982666015625,
+      "fraction_changed_gt10": 0.0004150390625,
+      "mean_abs_RGB_255": 0.28015055338541667,
+      "max_channel_delta": 36,
+      "render_seconds": {
+        "A": 13.4,
+        "B": 15.36
+      },
+      "image_sha256": {
+        "A": "749426caa66d4fe2b0cecd18eb2379db732c9f1338c1da108f23aeb92500ba37",
+        "B": "d36632a061814c4202c1fa34570679ccd556032f5f57720d73f006760ada2a84"
+      }
+    },
+    "bite": {
+      "baseline_A_pixel_identical_to_prior_verified_v20": true,
+      "total_pixels": 409600,
+      "fraction_changed_gt2": 0.02264892578125,
+      "fraction_changed_gt10": 0.00028564453125,
+      "mean_abs_RGB_255": 0.14588623046875,
+      "max_channel_delta": 31,
+      "render_seconds": {
+        "A": 14.96,
+        "B": 16.71
+      },
+      "image_sha256": {
+        "A": "c5785fef3cb3c916ea8b9603294783259e6e5e98297b0d7476ce8fe10872143e",
+        "B": "41ec4da037c49e910251c3a77c53963b0ac2b8917033ec4dc1c11bd6a5406c16"
+      }
+    },
+    "macro": {
+      "baseline_A_pixel_identical_to_prior_verified_v20": true,
+      "total_pixels": 409600,
+      "fraction_changed_gt2": 0.04935546875,
+      "fraction_changed_gt10": 0.000380859375,
+      "mean_abs_RGB_255": 0.2795182291666667,
+      "max_channel_delta": 49,
+      "render_seconds": {
+        "A": 15.82,
+        "B": 14.88
+      },
+      "image_sha256": {
+        "A": "cd38098acb0ea6e832ece5580d4940f434201b78456ded29c0d1a9ef62d86881",
+        "B": "89e475d280672444fdb0ca1afca1fb709ace8e1e92880e75ae28856d3cf90c5a"
+      }
+    }
+  },
+  "interpretation": "pixel change demonstrates real intervention, not resemblance to Frucht"
+}

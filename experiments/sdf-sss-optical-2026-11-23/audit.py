@@ -1,0 +1,7 @@
+import bpy,hashlib,json,sys
+from pathlib import Path
+src=Path(sys.argv[sys.argv.index('--')+1]);bpy.ops.wm.open_mainfile(filepath=str(src.resolve()),use_scripts=False)
+s=bpy.context.scene;b=s.objects['Receptacle | canonical PR29 hull'];mat=bpy.data.materials['SDF | inherited 150^3 tissue + own multiscale wetness'];gn=b.modifiers[0].node_group
+bs=next(n for n in mat.node_tree.nodes if n.type=='BSDF_PRINCIPLED')
+rec={'source_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'blender':bpy.app.version_string,'materials_used_by_body':[m.name for m in b.data.materials],'cap_material':mat.name,'BSDF':{k:{'value': list(bs.inputs[k].default_value) if hasattr(bs.inputs[k].default_value,'__len__') else bs.inputs[k].default_value,'linked':bool(bs.inputs[k].links)} for k in ['Base Color','Subsurface Weight','Subsurface Radius','Subsurface Scale','Roughness','Coat Weight','Transmission Weight']},'GN_attributes':[n.inputs['Name'].default_value for n in gn.nodes if n.bl_idname=='GeometryNodeStoreNamedAttribute' and n.inputs['Name'].is_linked==False], 'cap_nodes':len(mat.node_tree.nodes),'gn_nodes':len(gn.nodes),'seeds':sum(x.get('role')=='achene' for x in s.objects),'autoexec':bpy.context.preferences.filepaths.use_scripts_auto_execute,'mm_per_BU':s.unit_settings.scale_length*1000}
+print('AUDIT',json.dumps(rec,default=str));Path('/mnt/data/strawberry_material_ab/qa/audit.json').write_text(json.dumps(rec,default=str,indent=2)+'\n')
