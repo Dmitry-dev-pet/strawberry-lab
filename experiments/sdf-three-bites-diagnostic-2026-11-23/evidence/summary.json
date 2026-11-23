@@ -1,0 +1,217 @@
+{
+  "status": "DIAGNOSTIC_1_VS_3_BITES_GEOMETRY_PASS_TESTED_VISUAL_FAIL",
+  "author_film_observation": "Bites slider 2 at 18.5s, 3 at 19.5s; not exact commercial internals",
+  "original_cutter": {
+    "vertices": 6050,
+    "radial_cv": 0.0
+  },
+  "union_cutter": {
+    "verts": 10681,
+    "faces": 10561,
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "volume_local_BU3": 4.232933849905531
+  },
+  "ungarded_failure": {
+    "source": "qa-bite-032.log, actual BVH on evaluated cutter",
+    "body_manifold": true,
+    "seeds_visible": 202,
+    "expected": 207,
+    "retained_seed_vertices_inside": 1310
+  },
+  "guard_fixed": {
+    "qa-fixed-bite-032.json": {
+      "status": "PASS_REAL_CUTTER_AND_SEED_GUARD",
+      "pose": "bite-032",
+      "scene_sha": "57cbdf8adcd88de15e5049262faf9ed13eb2dbaa1aac7d10982f5eafa330d5c4",
+      "blender": "5.2.4 LTS",
+      "voxel": 0.32,
+      "body_verts": 92848,
+      "body_faces": 92846,
+      "cap_faces": 20015,
+      "body_coords_sha": "191e16e829c8f9498df6edc79ca028dfbd0987022ac3c2e479b937c7ca9388e0",
+      "nonmanifold_edges": 0,
+      "positive_volume": true,
+      "body_seconds": 3.439,
+      "seeds_visible": 207,
+      "seeds_expected": 207,
+      "retained_seed_vertices_inside_actual_cutter": 0,
+      "guard_seconds": 0.419,
+      "cutter_verts": 10681,
+      "cutter_faces": 10561,
+      "rss_kb": 808064
+    },
+    "qa-fixed-bite-020.json": {
+      "status": "PASS_REAL_CUTTER_AND_SEED_GUARD",
+      "pose": "bite-020",
+      "scene_sha": "57cbdf8adcd88de15e5049262faf9ed13eb2dbaa1aac7d10982f5eafa330d5c4",
+      "blender": "5.2.4 LTS",
+      "voxel": 0.2,
+      "body_verts": 238088,
+      "body_faces": 238086,
+      "cap_faces": 50350,
+      "body_coords_sha": "8e53da607962613ade2ba7a05af03dc22b13f0e90cadfef5181e7777a7848ee0",
+      "nonmanifold_edges": 0,
+      "positive_volume": true,
+      "body_seconds": 7.474,
+      "seeds_visible": 207,
+      "seeds_expected": 207,
+      "retained_seed_vertices_inside_actual_cutter": 0,
+      "guard_seconds": 0.41,
+      "cutter_verts": 10681,
+      "cutter_faces": 10561,
+      "rss_kb": 927444
+    },
+    "qa-moved-unrotated.json": {
+      "status": "PASS",
+      "blender": "5.2.4 LTS",
+      "scene_sha": "57cbdf8adcd88de15e5049262faf9ed13eb2dbaa1aac7d10982f5eafa330d5c4",
+      "cutter_position": [
+        0.7400000095367432,
+        -0.6899999976158142,
+        -0.36000001430511475
+      ],
+      "cutter_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "body_vertices": 92110,
+      "manifold": true,
+      "positive_volume": true,
+      "seeds_visible": 199,
+      "seeds_expected_by_actual_BVH": 199,
+      "retained_seed_vertices_in_actual_cutter": 0,
+      "elapsed_s": 3.923
+    },
+    "qa-moved-rotated.json": {
+      "status": "FAIL",
+      "blender": "5.2.4 LTS",
+      "scene_sha": "57cbdf8adcd88de15e5049262faf9ed13eb2dbaa1aac7d10982f5eafa330d5c4",
+      "cutter_position": [
+        0.7400000095367432,
+        -0.6899999976158142,
+        -0.36000001430511475
+      ],
+      "cutter_euler": [
+        0.0,
+        0.18000000715255737,
+        0.27000001072883606
+      ],
+      "body_vertices": 90004,
+      "manifold": true,
+      "positive_volume": true,
+      "seeds_visible": 196,
+      "seeds_expected_by_actual_BVH": 197,
+      "retained_seed_vertices_in_actual_cutter": 0,
+      "elapsed_s": 3.394
+    }
+  },
+  "rebuild_fixed": {
+    "qa-rebuilt2-bite-032.json": {
+      "status": "PASS_REAL_CUTTER_AND_SEED_GUARD",
+      "pose": "bite-032",
+      "scene_sha": "74053868c513ba07fda81c98e9703975ee2c2dee6c8e70d23aec1c83fd734557",
+      "blender": "5.2.4 LTS",
+      "voxel": 0.32,
+      "body_verts": 92848,
+      "body_faces": 92846,
+      "cap_faces": 20015,
+      "body_coords_sha": "191e16e829c8f9498df6edc79ca028dfbd0987022ac3c2e479b937c7ca9388e0",
+      "nonmanifold_edges": 0,
+      "positive_volume": true,
+      "body_seconds": 2.753,
+      "seeds_visible": 207,
+      "seeds_expected": 207,
+      "retained_seed_vertices_inside_actual_cutter": 0,
+      "guard_seconds": 0.395,
+      "cutter_verts": 10681,
+      "cutter_faces": 10561,
+      "rss_kb": 813152
+    },
+    "qa-rebuilt2-bite-020.json": {
+      "status": "PASS_REAL_CUTTER_AND_SEED_GUARD",
+      "pose": "bite-020",
+      "scene_sha": "74053868c513ba07fda81c98e9703975ee2c2dee6c8e70d23aec1c83fd734557",
+      "blender": "5.2.4 LTS",
+      "voxel": 0.2,
+      "body_verts": 238088,
+      "body_faces": 238086,
+      "cap_faces": 50350,
+      "body_coords_sha": "8e53da607962613ade2ba7a05af03dc22b13f0e90cadfef5181e7777a7848ee0",
+      "nonmanifold_edges": 0,
+      "positive_volume": true,
+      "body_seconds": 7.243,
+      "seeds_visible": 207,
+      "seeds_expected": 207,
+      "retained_seed_vertices_inside_actual_cutter": 0,
+      "guard_seconds": 0.396,
+      "cutter_verts": 10681,
+      "cutter_faces": 10561,
+      "rss_kb": 929524
+    }
+  },
+  "material_provenance": {
+    "A": {
+      "scene_sha256": "1c5a4bfc67a0cf0037809a54cb6e6255d6b8f4a1f1874bd162f15c5feb35daa9",
+      "body_source_xyz_sha256": "8a2c6342af2967d301822902097290218937f3a0bbec2d7fcb521c1eb68962ec",
+      "tissue_atlases_sha256": {
+        "LIVE | ORIGINAL V0 native RGB volume atlas (150^3)": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+        "V20 bridge | seed101 core R halo G 192^3 ARTIST": "8c2a414cebbc656d660fbcf3fda6106e14cf08458fa2d1ce90e2c463e6d64202"
+      },
+      "original_cut_shader_nodes": 89,
+      "body_GN_nodes": 87,
+      "achene_objects": 264,
+      "achene_source_meshes_sha256": "84f32b92c726f2724f8bc7d543fe49cbeb6bd830d9ad979a15bc03ac9dacd943",
+      "seed_GN_node_count": 21,
+      "cut_mesh_vertices": 6050,
+      "cut_mesh_faces": 6144
+    },
+    "C": {
+      "scene_sha256": "57cbdf8adcd88de15e5049262faf9ed13eb2dbaa1aac7d10982f5eafa330d5c4",
+      "body_source_xyz_sha256": "8a2c6342af2967d301822902097290218937f3a0bbec2d7fcb521c1eb68962ec",
+      "tissue_atlases_sha256": {
+        "LIVE | ORIGINAL V0 native RGB volume atlas (150^3)": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+        "V20 bridge | seed101 core R halo G 192^3 ARTIST": "8c2a414cebbc656d660fbcf3fda6106e14cf08458fa2d1ce90e2c463e6d64202"
+      },
+      "original_cut_shader_nodes": 89,
+      "body_GN_nodes": 87,
+      "achene_objects": 264,
+      "achene_source_meshes_sha256": "84f32b92c726f2724f8bc7d543fe49cbeb6bd830d9ad979a15bc03ac9dacd943",
+      "seed_GN_node_count": 32,
+      "cut_mesh_vertices": 10681,
+      "cut_mesh_faces": 10561
+    },
+    "status": "PASS_UNCHANGED_SOURCE_GEOMETRY_ATLASES_CUT_SHADER_AND_SEEDS"
+  },
+  "cycles": {
+    "state": "NATIVE_CYCLES_MATCHED_A_vs_C",
+    "setting_consistent": true,
+    "shots": {
+      "bite": {
+        "resolution": 480,
+        "samples": 12,
+        "seed": 1729,
+        "changed_pixel_fraction_gt2": 0.18193576388888888,
+        "changed_pixel_fraction_gt10": 0.15257378472222222,
+        "changed_pixel_fraction_gt25": 0.10791666666666666,
+        "mean_abs_rgb_255": 5.747964409722222,
+        "render_s": {
+          "A": 13.603,
+          "C": 19.282
+        },
+        "image_sha": {
+          "A": "91ca60566b7d25a8875694f2a6ec931b3b920a23a4ee5b1d1a43302bb7361f11",
+          "C": "c36b8d332fbcffe53cc0cfaf24dbb9e8d6eab0d67a96ecf5557db94b18b9f174"
+        }
+      }
+    }
+  },
+  "limitations": [
+    "not exact Frucht paid strawberry",
+    "analytical 3-ball mask not arbitrary shape",
+    "one false hidden seed under combined rotation+translation",
+    "no physical tear microstructure",
+    "visual FAIL"
+  ]
+}

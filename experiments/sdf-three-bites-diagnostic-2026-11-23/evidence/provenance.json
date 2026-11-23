@@ -1,0 +1,33 @@
+{
+  "A": {
+    "scene_sha256": "1c5a4bfc67a0cf0037809a54cb6e6255d6b8f4a1f1874bd162f15c5feb35daa9",
+    "body_source_xyz_sha256": "8a2c6342af2967d301822902097290218937f3a0bbec2d7fcb521c1eb68962ec",
+    "tissue_atlases_sha256": {
+      "LIVE | ORIGINAL V0 native RGB volume atlas (150^3)": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+      "V20 bridge | seed101 core R halo G 192^3 ARTIST": "8c2a414cebbc656d660fbcf3fda6106e14cf08458fa2d1ce90e2c463e6d64202"
+    },
+    "original_cut_shader_nodes": 89,
+    "body_GN_nodes": 87,
+    "achene_objects": 264,
+    "achene_source_meshes_sha256": "84f32b92c726f2724f8bc7d543fe49cbeb6bd830d9ad979a15bc03ac9dacd943",
+    "seed_GN_node_count": 21,
+    "cut_mesh_vertices": 6050,
+    "cut_mesh_faces": 6144
+  },
+  "C": {
+    "scene_sha256": "57cbdf8adcd88de15e5049262faf9ed13eb2dbaa1aac7d10982f5eafa330d5c4",
+    "body_source_xyz_sha256": "8a2c6342af2967d301822902097290218937f3a0bbec2d7fcb521c1eb68962ec",
+    "tissue_atlases_sha256": {
+      "LIVE | ORIGINAL V0 native RGB volume atlas (150^3)": "4177add8b8140286204f814761692332041c9bffeaa3fceb11ee238199d26621",
+      "V20 bridge | seed101 core R halo G 192^3 ARTIST": "8c2a414cebbc656d660fbcf3fda6106e14cf08458fa2d1ce90e2c463e6d64202"
+    },
+    "original_cut_shader_nodes": 89,
+    "body_GN_nodes": 87,
+    "achene_objects": 264,
+    "achene_source_meshes_sha256": "84f32b92c726f2724f8bc7d543fe49cbeb6bd830d9ad979a15bc03ac9dacd943",
+    "seed_GN_node_count": 32,
+    "cut_mesh_vertices": 10681,
+    "cut_mesh_faces": 10561
+  },
+  "status": "PASS_UNCHANGED_SOURCE_GEOMETRY_ATLASES_CUT_SHADER_AND_SEEDS"
+}
