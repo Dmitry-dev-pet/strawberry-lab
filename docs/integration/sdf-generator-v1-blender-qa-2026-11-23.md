@@ -43,6 +43,12 @@ All eight evaluated bodies were **one connected component, zero nonmanifold edge
 
 ## Artifact integrity and retention
 
-Full local reproduction bundle (new `.blend`, 4 authentic PNGs, image receipts, QA JSON, Python/Blender logs, side-by-side sheet and SHA manifest) was packed as `pr47-sdf-blender-verified.zip` with SHA256 `bdd4c1d7f2269b874724c3a1b7533f7ac0331180431fcb065880a73a1ec30cb3` (~17.1 MB) and returned in the owner chat. **It is not yet uploaded to durable private Drive**; avoid claiming durable retrieval outside the current conversation.
+Full local reproduction bundle (new `.blend`, 4 authentic PNGs, image receipts, QA JSON, Python/Blender logs, side-by-side sheet and SHA manifest) was packed as `pr47-sdf-blender-verified.zip` with SHA256 `bdd4c1d7f2269b874724c3a1b7533f7ac0331180431fcb065880a73a1ec30cb3` (~17.1 MB) and returned in the owner chat. **Durable owner-private Drive upload completed 23 Nov 2026; original files not overwritten.** [PR47 SDF Blender QA folder](https://drive.google.com/drive/folders/1geMz9gMgm5ze6BV8WoiPg_tADWRNx1-z). Provider metadata confirms folder and files are **not shared**. Each of the following was separately downloaded back from Drive and SHA-256 checked **4/4 byte-identical** against the local generated source:
+- [Full verified ZIP](https://drive.google.com/file/d/1h67kthZVWHZuC3QNCEHnL5CYAeHF5xOg/view?usp=drivesdk), 17,085,815 bytes, SHA256 `bdd4c1d7f2269b874724c3a1b7533f7ac0331180431fcb065880a73a1ec30cb3`.
+- [Editable `rebuilt-sdf.blend`](https://drive.google.com/file/d/1AI7HKnSo0_VBLCWZl-a6vIgMc5swZUhF/view?usp=drivesdk), 11,565,008 bytes, SHA256 `c27ebc88e17e5172c80b3d4dbc3882a78be690fcc7a8f0af68d697d18addbc4f`.
+- [Cycles contact sheet](https://drive.google.com/file/d/1f9lqSUIM2dft7E0V4vbY2B0nSBsR6b1w/view?usp=drivesdk), 1,903,340 bytes, SHA256 `933e3be092f61e05fbc20d8d9a2a83d8864658b48902b376865fea1e89e3ca61`.
+- [JSON integrity manifest](https://drive.google.com/file/d/10v7M_lFXZSBpQw8yVTsdY-SLH9O55Hyu/view?usp=drivesdk), 3,080 bytes, SHA256 `53314a2c37b0a5b05e744f1ef66d93aa0d15ec7b1bcac52c1881f9852913a036`.
+
+The ZIP retains all four original individual Cycles PNGs, QA receipts and execution logs. The Drive readback validates bytes and visibility; it does not upgrade the visual QA verdict or expand the set of tested cutter poses.
 
 **Decision:** Technical SDF slice is now independently reproduced from PR47 at Blender 5.2.4. Keep PR47 **Draft**: owner visual QA, arbitrary-angle/calyx/partial-achene clipping, and v20/v21 transfer remain unaccepted. Do not merge/close old PRs based on numeric geometry PASS alone.
