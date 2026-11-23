@@ -1,0 +1,112 @@
+{
+  "version": "v8",
+  "script_autoexec": false,
+  "sdf_source_version": "v4",
+  "three_d_sampler_count": 2,
+  "atlas_size": [
+    3072,
+    2304
+  ],
+  "states": {
+    "whole": {
+      "vertices": 157250,
+      "faces": 157696,
+      "nonmanifold_edges": 0,
+      "signed_volume": 21506.83
+    },
+    "plane": {
+      "vertices": 194354,
+      "faces": 194352,
+      "nonmanifold_edges": 0,
+      "signed_volume": 6779.24,
+      "vessel_percentiles": [
+        0.0,
+        0.11508,
+        0.1388,
+        0.2648
+      ],
+      "vessel_max": 0.607788622379303,
+      "cut_height_p99_mm": 0.017358796671032906,
+      "cut_height_abs_max_mm": 0.018386945128440857,
+      "cells_vertices_gt_0_002mm": 62549,
+      "vessel_verts_gt_0_12": 17776,
+      "visible_seed_solids": 93,
+      "seed_vertices_inside_cutter": 0
+    },
+    "bite": {
+      "vertices": 344634,
+      "faces": 344632,
+      "nonmanifold_edges": 0,
+      "signed_volume": 18926.09,
+      "vessel_percentiles": [
+        0.0,
+        0.10619,
+        0.13589,
+        0.19027
+      ],
+      "vessel_max": 0.6391258835792542,
+      "cut_height_p99_mm": 0.017076240852475166,
+      "cut_height_abs_max_mm": 0.018462928012013435,
+      "cells_vertices_gt_0_002mm": 46253,
+      "vessel_verts_gt_0_12": 27280,
+      "visible_seed_solids": 227,
+      "seed_vertices_inside_cutter": 0
+    },
+    "plane_moved": {
+      "vertices": 154762,
+      "faces": 154760,
+      "nonmanifold_edges": 0,
+      "signed_volume": 4268.44,
+      "vessel_percentiles": [
+        0.0,
+        0.10944,
+        0.13691,
+        0.19576
+      ],
+      "vessel_max": 0.6029868721961975,
+      "cut_height_p99_mm": 0.017408201470971107,
+      "cut_height_abs_max_mm": 0.018537288531661034,
+      "cells_vertices_gt_0_002mm": 56511,
+      "vessel_verts_gt_0_12": 12934,
+      "visible_seed_solids": 66,
+      "seed_vertices_inside_cutter": 0
+    },
+    "bite_moved": {
+      "vertices": 354698,
+      "faces": 354696,
+      "nonmanifold_edges": 0,
+      "signed_volume": 16878.84,
+      "vessel_percentiles": [
+        0.0,
+        0.12009,
+        0.14261,
+        0.37426
+      ],
+      "vessel_max": 0.6470531821250916,
+      "cut_height_p99_mm": 0.0171427670866251,
+      "cut_height_abs_max_mm": 0.01848163828253746,
+      "cells_vertices_gt_0_002mm": 66342,
+      "vessel_verts_gt_0_12": 35535,
+      "visible_seed_solids": 215,
+      "seed_vertices_inside_cutter": 0
+    }
+  },
+  "a_b": {
+    "planar": {
+      "max_position_delta_mm": 0.0183870866894722,
+      "vertices_shift_gt_0_005mm": 55444,
+      "fiber_density_verts_in_test": 1744,
+      "nonfiber_density_verts_in_test": 27965,
+      "fiber_relief_amplitude_ratio_to_unflattened": 0.3246661424636841,
+      "nonfiber_relief_amplitude_ratio_to_unflattened": 1.0
+    },
+    "bite": {
+      "max_position_delta_mm": 0.018462838605046272,
+      "vertices_shift_gt_0_005mm": 41217,
+      "fiber_density_verts_in_test": 751,
+      "nonfiber_density_verts_in_test": 24704,
+      "fiber_relief_amplitude_ratio_to_unflattened": 0.31527623534202576,
+      "nonfiber_relief_amplitude_ratio_to_unflattened": 1.0
+    }
+  }
+}

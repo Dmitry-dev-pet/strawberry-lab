@@ -1,0 +1,16 @@
+{
+  "path": "/Users/dmitry/.t3/scratch/2026-11-20-38bf61cd/strawberry-lab/build/sdf-vertical-slice/comparison-v12-v14a-v14b-three-shots.png",
+  "sha256": "98db9a81f35ea2dcdd45f033ddcdbcc4c8a72faa32ef4bdd973dbc1bcbc3adb9",
+  "bytes": 5795476,
+  "layout_columns": [
+    "v12",
+    "v14a",
+    "v14b"
+  ],
+  "layout_rows_top_to_bottom": [
+    "plane",
+    "bite",
+    "macro"
+  ],
+  "source": "unmodified genuine Blender Cycles frames 860px/36 samples"
+}

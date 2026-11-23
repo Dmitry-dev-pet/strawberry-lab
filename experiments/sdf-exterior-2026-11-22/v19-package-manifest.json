@@ -1,0 +1,173 @@
+{
+  "archive": "strawberry-v19-pith-vascular-study.zip",
+  "sha256": "9cfbfb9734122393b69b3c8941227edb9df656eb418dea7cd11569a4bac9e2a0",
+  "bytes": 68655257,
+  "files": 32,
+  "members": [
+    {
+      "name": "build_v19_pith_ring.py",
+      "sha256": "055d8cdb956c907e6bf7a184976548cc66b2e20b8beb3e7ad4c28413fd4a7d59",
+      "bytes": 6877
+    },
+    {
+      "name": "qa_v19.py",
+      "sha256": "6fc369ccbcc7f665621623ab89655ae820c220e8b05140eff1d8b2100b68717a",
+      "bytes": 6232
+    },
+    {
+      "name": "render_v19.py",
+      "sha256": "ef463ec89ed99f493cf149f65c3776197e33de7f4d1a364d04ee4dcfca699b00",
+      "bytes": 2204
+    },
+    {
+      "name": "run_render_batch.py",
+      "sha256": "1903c38b06ecb8dc8561f7469726a63aa55838a5b7c8945b9a341be634c6aec0",
+      "bytes": 836
+    },
+    {
+      "name": "plot_v19_fields.py",
+      "sha256": "9564126b7d8b47ed8526c0d3c91ba9628d9683a71086a526dab37d5eb979f8c0",
+      "bytes": 2352
+    },
+    {
+      "name": "analyze_v19_renders.py",
+      "sha256": "eb89f2c29424456cf1c10db97f364033bed88169c164cd0f25f5a6907d7259cf",
+      "bytes": 2577
+    },
+    {
+      "name": "build.log",
+      "sha256": "4096027549858263ce4c04eec4a1ce9837dd68b19c8e779e6a296e852e81f823",
+      "bytes": 1840
+    },
+    {
+      "name": "qa-a.log",
+      "sha256": "2c3cad272e056278493ffc324d25870f9ac7ee81134d0fffaed0299e0c33ba17",
+      "bytes": 1953
+    },
+    {
+      "name": "qa-b.log",
+      "sha256": "5a177a1ae81153edcb4359d1280ef480c85f3377feafe47d73c2c3ebaff5a785",
+      "bytes": 1954
+    },
+    {
+      "name": "render-batch.log",
+      "sha256": "d2a000620b25d1a0f1303ceae63e0fca3d804269f2305d60cb94b4a2b9b538be",
+      "bytes": 4144
+    },
+    {
+      "name": "v19-build.json",
+      "sha256": "897820ef2afc03bb94222fd6e374d7cef9471eb81ea56b880bd041d9f25c8654",
+      "bytes": 1840
+    },
+    {
+      "name": "v19-qa-a.json",
+      "sha256": "071ef9559169b238a1ff675d5e023b37b76488e89985fedbc30ea9a5ec325162",
+      "bytes": 2333
+    },
+    {
+      "name": "v19-qa-b.json",
+      "sha256": "bbbcaaf63c10b8e3687b0086e23cd3564967c6c058facdb095cf3ee311e08b62",
+      "bytes": 2334
+    },
+    {
+      "name": "v19-pixel-comparison.json",
+      "sha256": "cb0f344d925ee6628be1074c8875db0a9b45c3dcbe0440872ac2d0be3514e548",
+      "bytes": 1344
+    },
+    {
+      "name": "strawberry-v19a-pith-ring.blend",
+      "sha256": "5959922e27f26b8501290e6a533725221c011569c79f40408dacadb5722fb46c",
+      "bytes": 25393946
+    },
+    {
+      "name": "strawberry-v19b-pith-ring.blend",
+      "sha256": "f6792a2e52b8af80b1835aa8b7d81a475a646221f532e14464223a99fd6bda8a",
+      "bytes": 25434146
+    },
+    {
+      "name": "v19a-packed-tissue-192.png",
+      "sha256": "a3b5fd60955e892df147cf4ac4e802d03765bcc651a3a50111ecaddc08da5399",
+      "bytes": 8778819
+    },
+    {
+      "name": "v19b-packed-tissue-192.png",
+      "sha256": "86322266a09872e52eb108a0288d4d30d2775b539012a4710aa85c463567b9eb",
+      "bytes": 8818684
+    },
+    {
+      "name": "v19-tissue-zones-diagnostic.png",
+      "sha256": "2bd4f3158c3b135ad92f6d2cee3403eb03f8edf4492de58fd9cb795fa27a78d5",
+      "bytes": 187348
+    },
+    {
+      "name": "comparison-v12-v19a-v19b-cycles.png",
+      "sha256": "cd666e1c46cceb54354522596c0c9e90a30cf80a3b892638b8c0e743a36853a6",
+      "bytes": 930428
+    },
+    {
+      "name": "cycles-v12-central-640px-16s.png",
+      "sha256": "2f639380cac15cfcdfb825a0f36f7e2fcda6f3610a21458ce781e665cb930a8a",
+      "bytes": 484899
+    },
+    {
+      "name": "cycles-v19a-central-640px-16s.png",
+      "sha256": "d355e9170dceb053a3efa74b5c4d645d1ddb522c713671cdec44a69c5b55a351",
+      "bytes": 485352
+    },
+    {
+      "name": "cycles-v19b-central-640px-16s.png",
+      "sha256": "f0f10e0ccee21e158801371c82701969dd75b7a914f4ac5417443e4fc6d068f4",
+      "bytes": 485740
+    },
+    {
+      "name": "cycles-v19a-bite-640px-16s.png",
+      "sha256": "4620aaea124eaa7b6481ee0cc748498a8f919d17879d6ee25da602fa70477598",
+      "bytes": 516292
+    },
+    {
+      "name": "cycles-v19b-bite-640px-16s.png",
+      "sha256": "a7ef0b7c74009214e8dd56c80f76a7d0a8b85e614b455cc392c30f45c6a17a17",
+      "bytes": 516110
+    },
+    {
+      "name": "cycles-v19b-central_macro-640px-16s.png",
+      "sha256": "a8d911a7d11b7e0db82099b075dd83184712962832a79397fc85a68286a35af8",
+      "bytes": 565883
+    },
+    {
+      "name": "render-v12-central.json",
+      "sha256": "e78534242bd7f934f5629751478c88dd274f1141f6dd03d58bfd3e81e63711fc",
+      "bytes": 420
+    },
+    {
+      "name": "render-v19a-central.json",
+      "sha256": "968901d4cab72879375c3467c7550126599c77591338d6566a7421a5d14a2f3a",
+      "bytes": 421
+    },
+    {
+      "name": "render-v19b-central.json",
+      "sha256": "f5d904335f40fd0aadde6b0ac0bc82ba9cff8080c026bc07e0d3ff1f283e4bb0",
+      "bytes": 421
+    },
+    {
+      "name": "render-v19a-bite.json",
+      "sha256": "ed22f85408a93e691fc2b2a798148b1336ad7394fd3871872884d875ce058b18",
+      "bytes": 409
+    },
+    {
+      "name": "render-v19b-bite.json",
+      "sha256": "e01cab45d94361d0aed2ee94c8e02ee56bc6ff4474b2455437f20c3b25283b9b",
+      "bytes": 410
+    },
+    {
+      "name": "render-v19b-central_macro.json",
+      "sha256": "001693e3a293862887ddb22ae2b5721bbd47efb08b780081a5a1b9d95b95ed0e",
+      "bytes": 427
+    }
+  ],
+  "source": "Owner-private v12 source SHA 300a2bfeaa86831220657b74fe8b00d4d7ec0b42f4ffefca863d6410cbb405b7",
+  "readback_verified": true,
+  "original_v12_included": false,
+  "original_Frucht_media_included": false,
+  "status": "Technical geometry QA PASS; visual acceptance NOT REACHED; ARTIST not biological measurements"
+}

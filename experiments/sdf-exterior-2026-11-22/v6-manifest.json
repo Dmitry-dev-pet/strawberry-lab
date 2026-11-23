@@ -1,0 +1,9 @@
+{
+  "version": "v6",
+  "parent_sha": "5da75e63b3fb184f4852dc1d994ef1f28e70b743ee6d9eaffa1bbd9b72355e36",
+  "blend_sha256": "0ff8ba20aabad99e17e826f3c449a4033acbade7d566bc65931629eda00290d4",
+  "new_mesh_relief_strength": 0.18,
+  "render_shading": "subtle cell bump, wet film roughness",
+  "cell_scaling": "ARTIST",
+  "original_v4_tissue_atlas_sha256": "38c8f94099425d634d09607a46c160bbcf54ff350b94d9439a3c9868985c6317"
+}

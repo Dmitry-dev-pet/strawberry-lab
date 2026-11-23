@@ -1,0 +1,76 @@
+{
+  "pixels_per_frame": 739600,
+  "metrics": {
+    "plane:v12→v15a": {
+      "mae_rgb": 0.002370611997321248,
+      "pct_pixels_over_001": 10.755,
+      "pct_pixels_over_005": 0.451,
+      "max_channel_difference": 0.16862747073173523
+    },
+    "plane:v15a→v15b": {
+      "mae_rgb": 0.0002466693113092333,
+      "pct_pixels_over_001": 0.652,
+      "pct_pixels_over_005": 0.024,
+      "max_channel_difference": 0.10196080803871155
+    },
+    "plane:v12→v15b": {
+      "mae_rgb": 0.0022161954548209906,
+      "pct_pixels_over_001": 10.323,
+      "pct_pixels_over_005": 0.337,
+      "max_channel_difference": 0.16470590233802795
+    },
+    "bite:v12→v15a": {
+      "mae_rgb": 0.0018478776328265667,
+      "pct_pixels_over_001": 6.947,
+      "pct_pixels_over_005": 1.293,
+      "max_channel_difference": 0.3019607961177826
+    },
+    "bite:v15a→v15b": {
+      "mae_rgb": 0.00018859337433241308,
+      "pct_pixels_over_001": 0.6,
+      "pct_pixels_over_005": 0.02,
+      "max_channel_difference": 0.16470587253570557
+    },
+    "bite:v12→v15b": {
+      "mae_rgb": 0.0017732585547491908,
+      "pct_pixels_over_001": 6.764,
+      "pct_pixels_over_005": 1.216,
+      "max_channel_difference": 0.3019607961177826
+    },
+    "macro:v12→v15a": {
+      "mae_rgb": 0.010523558594286442,
+      "pct_pixels_over_001": 44.865,
+      "pct_pixels_over_005": 3.295,
+      "max_channel_difference": 0.2392157018184662
+    },
+    "macro:v15a→v15b": {
+      "mae_rgb": 0.0009007378248497844,
+      "pct_pixels_over_001": 2.613,
+      "pct_pixels_over_005": 0.113,
+      "max_channel_difference": 0.12941178679466248
+    },
+    "macro:v12→v15b": {
+      "mae_rgb": 0.009867987595498562,
+      "pct_pixels_over_001": 43.249,
+      "pct_pixels_over_005": 2.687,
+      "max_channel_difference": 0.2392157018184662
+    }
+  },
+  "contact_sheet": {
+    "name": "comparison-v12-v15a-v15b-three-shots.png",
+    "bytes": 6708536,
+    "sha256": "f78ec9137c3ab3cd3335a3e86ee575a2682539428dbbb941760aaf0bcf8e4369",
+    "columns": [
+      "v12 original",
+      "v15A uncoupled",
+      "v15B field coupled"
+    ],
+    "rows": [
+      "plane",
+      "bite",
+      "macro"
+    ]
+  },
+  "all_sources": "genuine Blender 5.2.2 Cycles 860x860 36 samples original camera/light/fixed frames",
+  "biological_credibility": "not evaluated"
+}

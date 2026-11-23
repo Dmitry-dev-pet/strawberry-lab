@@ -1,0 +1,92 @@
+{
+  "version": "v5",
+  "scripts_disabled": true,
+  "scene_sha256": "5da75e63b3fb184f4852dc1d994ef1f28e70b743ee6d9eaffa1bbd9b72355e36",
+  "states": {
+    "whole": {
+      "vertices": 157250,
+      "faces": 157696,
+      "nonmanifold_edges": 0,
+      "signed_volume": 21506.8336,
+      "min_face_area": 3.871642184094526e-05,
+      "evaluation_seconds": 0.069
+    },
+    "planar_base": {
+      "vertices": 194354,
+      "faces": 194352,
+      "nonmanifold_edges": 0,
+      "signed_volume": 6777.8149,
+      "min_face_area": 1.7062506231013685e-05,
+      "evaluation_seconds": 0.074,
+      "relief_p01_mm": -0.11921963840723038,
+      "relief_p50_mm": -0.0,
+      "relief_p99_mm": 0.12041985243558884,
+      "relief_abs_gt_0_025_mm": 59416,
+      "relief_abs_gt_0_005_mm": 65539,
+      "max_abs_relief_mm": 0.1309768110513687,
+      "visible_achene_solids": 93,
+      "achene_vertices_inside_cutter": 0
+    },
+    "bite_base": {
+      "vertices": 344634,
+      "faces": 344632,
+      "nonmanifold_edges": 0,
+      "signed_volume": 18924.7586,
+      "min_face_area": 3.08305025100708e-05,
+      "evaluation_seconds": 0.139,
+      "relief_p01_mm": -0.11581966280937195,
+      "relief_p50_mm": 0.0,
+      "relief_p99_mm": 0.1171419769525528,
+      "relief_abs_gt_0_025_mm": 43692,
+      "relief_abs_gt_0_005_mm": 48319,
+      "max_abs_relief_mm": 0.1315818578004837,
+      "visible_achene_solids": 227,
+      "achene_vertices_inside_cutter": 0
+    },
+    "planar_geometry_AB": {
+      "max_positional_change_mm": 0.13097693026065826,
+      "p95_positional_change_mm": 0.1164432093501091,
+      "vertices_changed_over_0_03mm": 57974,
+      "vertices_identical_within_1e-5mm": 126722
+    },
+    "bite_geometry_AB": {
+      "max_positional_change_mm": 0.13158190250396729,
+      "p95_positional_change_mm": 0.10998370498418808,
+      "vertices_changed_over_0_03mm": 42623,
+      "vertices_identical_within_1e-5mm": 294770
+    },
+    "planar_moved_and_rotated": {
+      "vertices": 154762,
+      "faces": 154760,
+      "nonmanifold_edges": 0,
+      "signed_volume": 4266.3704,
+      "min_face_area": 5.487352609634399e-06,
+      "evaluation_seconds": 0.059,
+      "relief_p01_mm": -0.1196039617061615,
+      "relief_p50_mm": -0.0,
+      "relief_p99_mm": 0.12066641449928284,
+      "relief_abs_gt_0_025_mm": 53123,
+      "relief_abs_gt_0_005_mm": 58987,
+      "max_abs_relief_mm": 0.13169455528259277,
+      "visible_achene_solids": 66,
+      "achene_vertices_inside_cutter": 0
+    },
+    "bite_moved_and_scaled": {
+      "vertices": 354698,
+      "faces": 354696,
+      "nonmanifold_edges": 0,
+      "signed_volume": 16876.9492,
+      "min_face_area": 3.08305025100708e-05,
+      "evaluation_seconds": 0.139,
+      "relief_p01_mm": -0.11736882477998734,
+      "relief_p50_mm": 0.0,
+      "relief_p99_mm": 0.11866235733032227,
+      "relief_abs_gt_0_025_mm": 63979,
+      "relief_abs_gt_0_005_mm": 70452,
+      "max_abs_relief_mm": 0.13189250230789185,
+      "visible_achene_solids": 215,
+      "achene_vertices_inside_cutter": 0
+    }
+  },
+  "started": 1795379449.178886
+}

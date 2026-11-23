@@ -1,0 +1,13 @@
+{
+  "variant": "v14a",
+  "shot": "bite",
+  "frame": 40,
+  "samples": 36,
+  "resolution": [
+    860,
+    860
+  ],
+  "render_seconds": 13.09,
+  "sha256": "8cd05029dd68bde341be07159972b19641b15c554bc0ebc27d78e141c5b7256e",
+  "bytes": 905648
+}

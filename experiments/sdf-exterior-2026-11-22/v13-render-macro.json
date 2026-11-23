@@ -1,0 +1,13 @@
+{
+  "kind": "macro",
+  "frame": 20,
+  "samples": 36,
+  "resolution": [
+    860,
+    860
+  ],
+  "seconds": 20.77,
+  "bytes": 997750,
+  "sha256": "622ad68824341bc16eef9295a0803efcb3d228fa4a7f37a0bedede74a91cab6a",
+  "scene": "strawberry-sdf-vertical-slice-v13-spatial-fibrils.blend"
+}

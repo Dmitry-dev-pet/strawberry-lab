@@ -1,0 +1,34 @@
+{
+  "version": 4,
+  "source_sha256": "0029b476cd229c4cc5b66c4a302180585b35d2b9f318effea173e2508022c4ed",
+  "atlas_sha256": "38c8f94099425d634d09607a46c160bbcf54ff350b94d9439a3c9868985c6317",
+  "scripts_autoexecute": false,
+  "packed_atlas": [
+    3072,
+    2304
+  ],
+  "states": {
+    "whole": {
+      "vertices": 157250,
+      "faces": 157696,
+      "rest_present": false,
+      "nonmanifold_edges": 0
+    },
+    "planar": {
+      "vertices": 48590,
+      "faces": 48588,
+      "rest_present": true,
+      "nonmanifold_edges": 0,
+      "remaining_seeds": 93,
+      "seed_vertices_inside_cutter": 0
+    },
+    "bite": {
+      "vertices": 86160,
+      "faces": 86158,
+      "rest_present": true,
+      "nonmanifold_edges": 0,
+      "remaining_seeds": 227,
+      "seed_vertices_inside_cutter": 0
+    }
+  }
+}

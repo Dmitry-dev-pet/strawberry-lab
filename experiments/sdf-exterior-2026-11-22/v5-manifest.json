@@ -1,0 +1,13 @@
+{
+  "version": "v5",
+  "source_sha256": "0029b476cd229c4cc5b66c4a302180585b35d2b9f318effea173e2508022c4ed",
+  "blend_sha256": "5da75e63b3fb184f4852dc1d994ef1f28e70b743ee6d9eaffa1bbd9b72355e36",
+  "source_v4_atlas_sha256": "38c8f94099425d634d09607a46c160bbcf54ff350b94d9439a3c9868985c6317",
+  "cut_resolution_level": 1,
+  "wall_center_displacement_mm": [
+    -0.115,
+    0.115
+  ],
+  "scientific_status": "ARTIST",
+  "seconds": 3.16
+}

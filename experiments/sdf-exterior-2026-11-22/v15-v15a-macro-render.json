@@ -1,0 +1,13 @@
+{
+  "variant": "v15a",
+  "shot": "macro",
+  "frame": 20,
+  "cycles_samples": 36,
+  "resolution": [
+    860,
+    860
+  ],
+  "sec": 26.03,
+  "sha256": "1909f8b67ec24abe21d53c073d5aea5d63524933c0b1e4c8ae8e6223f49656e2",
+  "bytes": 1076026
+}

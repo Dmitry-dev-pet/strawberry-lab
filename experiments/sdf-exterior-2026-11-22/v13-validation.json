@@ -1,0 +1,72 @@
+{
+  "saved_scene_sha256": "c081922c8264a1913b82a1f567595a30bd6258925abd42792973e819c4c158c0",
+  "image_atlas": [
+    3072,
+    2304
+  ],
+  "autoexec_enabled": false,
+  "test_states": {
+    "whole": {
+      "vertices": 157250,
+      "faces": 157696,
+      "nonmanifold_edges": 0,
+      "volume": 21506.834
+    },
+    "plane": {
+      "vertices": 194354,
+      "faces": 194352,
+      "nonmanifold_edges": 0,
+      "volume": 6782.623,
+      "vascular_p95": 0.39558,
+      "ridge_abs_max_mm": 0.062,
+      "ridge_vertices_gt_0_01mm": 50659,
+      "visible_seed_solids": 93,
+      "seed_vertices_inside_cutter_conservative": 0
+    },
+    "bite": {
+      "vertices": 350314,
+      "faces": 350312,
+      "nonmanifold_edges": 0,
+      "volume": 18831.17,
+      "vascular_p95": 0.39404,
+      "ridge_abs_max_mm": 0.062,
+      "ridge_vertices_gt_0_01mm": 44415,
+      "visible_seed_solids": 226,
+      "seed_vertices_inside_cutter_conservative": 0
+    },
+    "moved_plane": {
+      "vertices": 154762,
+      "faces": 154760,
+      "nonmanifold_edges": 0,
+      "volume": 4267.881,
+      "vascular_p95": 0.38042,
+      "ridge_abs_max_mm": 0.062,
+      "ridge_vertices_gt_0_01mm": 47517,
+      "visible_seed_solids": 66,
+      "seed_vertices_inside_cutter_conservative": 0
+    },
+    "moved_bite": {
+      "vertices": 361858,
+      "faces": 361856,
+      "nonmanifold_edges": 0,
+      "volume": 16707.555,
+      "vascular_p95": 0.39456,
+      "ridge_abs_max_mm": 0.062,
+      "ridge_vertices_gt_0_01mm": 62118,
+      "visible_seed_solids": 211,
+      "seed_vertices_inside_cutter_conservative": 0
+    }
+  },
+  "physical_ab": {
+    "planar": {
+      "max_real_displacement_mm": 0.062,
+      "changed_vertices_gt_0_01mm": 50659,
+      "mean_displacement_mm": 0.005727
+    },
+    "bite": {
+      "max_real_displacement_mm": 0.062,
+      "changed_vertices_gt_0_01mm": 44414,
+      "mean_displacement_mm": 0.002526
+    }
+  }
+}

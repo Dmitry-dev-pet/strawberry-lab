@@ -1,0 +1,137 @@
+{
+  "archive_file": "strawberry-v15-field-cell-coupling-AB.zip",
+  "bytes": 62512551,
+  "sha256": "e83e0af13a50a824a51664b1ab292b55cabcd9b0b5ad74597865b42ba5a09708",
+  "members": [
+    {
+      "file": "strawberry-sdf-vertical-slice-v15a-uncoupled-cells.blend",
+      "bytes": 25545393,
+      "sha256": "3f796b53f6a30b560443b02904cc705e186a8d4b596685a62b5178ece0b66f08"
+    },
+    {
+      "file": "strawberry-sdf-vertical-slice-v15b-restfield-coupled-cells.blend",
+      "bytes": 25545357,
+      "sha256": "8b2189572d17ee603f5a6d5720ff6768b9d9b79bd7e9439c0969095b92577e12"
+    },
+    {
+      "file": "comparison-v12-v15a-v15b-three-shots.png",
+      "bytes": 6708536,
+      "sha256": "f78ec9137c3ab3cd3335a3e86ee575a2682539428dbbb941760aaf0bcf8e4369"
+    },
+    {
+      "file": "build_v15_field_cells_ab.py",
+      "bytes": 3636,
+      "sha256": "1e367255cfcf1f568e8b34a82fb60e768e78436c5c7c280f37c70c3ca68f3e62"
+    },
+    {
+      "file": "validate_v15_field_cells_ab.py",
+      "bytes": 5172,
+      "sha256": "b4f365011a366e1502e7e56befddd311c0c739f51366a017ed66b7215ca0ff9d"
+    },
+    {
+      "file": "render_v15.py",
+      "bytes": 1411,
+      "sha256": "c1fcba9b7e5ce1f9d46a0be23cfa43b6db2a79ed5e3474878554bdd68bab133a"
+    },
+    {
+      "file": "v15_compare_images.py",
+      "bytes": 2245,
+      "sha256": "1b3a8e62e0c1bd404240140a9453b48fbebe752b1ab12a71e4fd43a0649d52fc"
+    },
+    {
+      "file": "v15-build.json",
+      "bytes": 1088,
+      "sha256": "ee65d73df3bf9bce42391e3ca4b4588482c1850d8bb7f75e12c1c02366857502"
+    },
+    {
+      "file": "v15-validation.json",
+      "bytes": 4466,
+      "sha256": "b426be822860c518b64caa61bb4a705e7ba2b38e11e63ce319280f9edf2ac278"
+    },
+    {
+      "file": "v15-image-ab.json",
+      "bytes": 2314,
+      "sha256": "97116dd73c49d5ab8ff08e5a22a01a91b863fa83000f005ee4a401117c7bbaad"
+    },
+    {
+      "file": "sdf-v12-matched-plane.png",
+      "bytes": 844111,
+      "sha256": "d0af41651bbcce6fd78de89ea1513a65f840cb9bd0a8e31861e97d6b6e9316ae"
+    },
+    {
+      "file": "sdf-v12-matched-bite.png",
+      "bytes": 906868,
+      "sha256": "ba747b5bad1a7885074419a6bf500ccc9ae2aeee2c1a9c6bd875519cf0929bc2"
+    },
+    {
+      "file": "sdf-v12-matched-macro.png",
+      "bytes": 990366,
+      "sha256": "f56e8b713bf5ab49b85b6a2382848311a5abdecb6927e3c5ffbf8ee7074bf191"
+    },
+    {
+      "file": "sdf-v15a-matched-plane.png",
+      "bytes": 880636,
+      "sha256": "de1960a87e42a23db8f679f35e0d1fba5f4c6a4779f3cb532bae2920963b0ccd"
+    },
+    {
+      "file": "sdf-v15a-matched-bite.png",
+      "bytes": 935518,
+      "sha256": "39b2e5cd47c67236a50e3d95d24336ae55e6d4e5c91f44fcd884a4d4829af736"
+    },
+    {
+      "file": "sdf-v15a-matched-macro.png",
+      "bytes": 1076026,
+      "sha256": "1909f8b67ec24abe21d53c073d5aea5d63524933c0b1e4c8ae8e6223f49656e2"
+    },
+    {
+      "file": "sdf-v15b-matched-plane.png",
+      "bytes": 878310,
+      "sha256": "7cafdebefd26f7e308b8cf8d9ef0ef01d6caebbc2993af1285f045f56b63c9f2"
+    },
+    {
+      "file": "sdf-v15b-matched-bite.png",
+      "bytes": 934533,
+      "sha256": "160473c933ae0b0a172a3e584f19db47df0a2f11a7347302c3ef524241efbdbd"
+    },
+    {
+      "file": "sdf-v15b-matched-macro.png",
+      "bytes": 1068121,
+      "sha256": "0755e6a557da9eda93ba2bbec99f313d1c601eb281f7e1ae3e8e9cc998e123d6"
+    },
+    {
+      "file": "v15-v15a-plane-render.json",
+      "bytes": 237,
+      "sha256": "0943f4d9327315d762e64b4c67201743a967c8fb4e2534efeb9b6be5454767b8"
+    },
+    {
+      "file": "v15-v15a-bite-render.json",
+      "bytes": 236,
+      "sha256": "063ff261d9948bab1b15a7a5f2be3138b1b17ab5aeadee78357928bd47ba4c30"
+    },
+    {
+      "file": "v15-v15a-macro-render.json",
+      "bytes": 238,
+      "sha256": "2e419ebbdac65df37bcd70b646c7bf88c9c533e20e0bc3ef0e7f7f82c365acb7"
+    },
+    {
+      "file": "v15-v15b-plane-render.json",
+      "bytes": 237,
+      "sha256": "f9ee4ce78df8daee9eaf74dcc63d91747773ecbc32cd46098d0af1ae09774d46"
+    },
+    {
+      "file": "v15-v15b-bite-render.json",
+      "bytes": 236,
+      "sha256": "93e12caf3e1585086e7a77fba61e601aea7a7c717e0c6353578a13acf86b16d6"
+    },
+    {
+      "file": "v15-v15b-macro-render.json",
+      "bytes": 238,
+      "sha256": "24d2af2b61dcc442bfe38b0ba8c628f3d1cc3f12f5232f3e5397e42d76e6b9e9"
+    }
+  ],
+  "verified": 25,
+  "verification": "ZIP reopened and each member SHA-256 matched local original",
+  "storage": "LOCAL_MAC_ONLY; not uploaded to Drive; not shared publicly",
+  "private_Frucht_video_or_frames_included": false,
+  "scientific_status": "all tissue/vessel geometry ARTIST"
+}

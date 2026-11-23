@@ -1,0 +1,30 @@
+{
+  "side_by_side": "left v4, right v8",
+  "inputs": "native Blender Cycles source PNGs, same camera/lights",
+  "files": [
+    {
+      "name": "comparison-v4-v8-plane.png",
+      "sha256": "a41a21b5e386e324402a4e80e77e2d3754a6a820142016ed1f21423e2dfc7f52",
+      "pixels": [
+        1720,
+        860
+      ]
+    },
+    {
+      "name": "comparison-v4-v8-bite.png",
+      "sha256": "0178b87334bdb6a5700a005fa36f967242f6ee7df854c177573e08e36481ed20",
+      "pixels": [
+        1720,
+        860
+      ]
+    },
+    {
+      "name": "comparison-v4-v8-macro.png",
+      "sha256": "8284efbe8a7afaee990242e1bcc2566adaf5967df61a9b216d3afbf12138f903",
+      "pixels": [
+        1720,
+        860
+      ]
+    }
+  ]
+}

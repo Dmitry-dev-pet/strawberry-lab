@@ -1,0 +1,13 @@
+{
+  "variant": "v14b",
+  "shot": "plane",
+  "frame": 20,
+  "samples": 36,
+  "resolution": [
+    860,
+    860
+  ],
+  "render_seconds": 12.13,
+  "sha256": "45f41a982044f2258b2bb08144116f87de2e320510025a30d3b2a878e5fa7c01",
+  "bytes": 837238
+}
