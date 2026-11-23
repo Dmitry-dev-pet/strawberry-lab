@@ -1,0 +1,132 @@
+{
+  "input": {
+    "source": "PR50 vascular-ab.blend",
+    "sha256": "2ccb17510bf46ae7ae3fa1a09eac144144dffb5a5f10c193dae9832b70760973"
+  },
+  "files": {
+    "README.md": {
+      "sha256": "30045274364b9521d29a9e212189c9e219819074b3ce1d914938c36219e320c6",
+      "size": 5668
+    },
+    "build_juice_surface.py": {
+      "sha256": "dfd38ad041429cacc1151099da0b2e65d8c2ce196769cc515c405edd7fbaf07a",
+      "size": 10230
+    },
+    "qa_juice_surface.py": {
+      "sha256": "f9b496b1f409fa43c446b0f6937a8be1529efd3c6796ea6775e19b7c535027a9",
+      "size": 5158
+    },
+    "render_juice_surface.py": {
+      "sha256": "3792bc535430f866a83a423a3ef9b86270b7aa91707e6f32b1cfba263a337af3",
+      "size": 1499
+    },
+    "juice-ab.blend": {
+      "sha256": "2fcc5a8e65273d3ac0f633f887e4f5522da9642c375f5d4499e891bc2889d394",
+      "size": 27159749
+    },
+    "qa-plane.json": {
+      "sha256": "9b9c68c3a3fa1b31946d74cd91f0a254026757dfc202245a14f4fde5115af8f4",
+      "size": 1623
+    },
+    "qa-bite.json": {
+      "sha256": "503d98d7fbf1632bac0a85fe858ef7804dd2ee53b76df0d963439b02f0c884bd",
+      "size": 1620
+    },
+    "qa-whole.json": {
+      "sha256": "ffd0a14e14cdc92c72fc8559dc6ce0890e7c54a08f8ce21d68883cbf7d16c8be",
+      "size": 965
+    },
+    "qa-initial-plane.log": {
+      "sha256": "96dc08286dfe970b87ee4aea7e421ed29d78384e5c09239d294027dd1728b774",
+      "size": 1194
+    },
+    "build.log": {
+      "sha256": "ef653055e9ebac80e14c101bbc1099daf2bbb74225148c0715fafc46ba651ab7",
+      "size": 508
+    },
+    "run.log": {
+      "sha256": "afdbaf13b76d89fb2d0cc32fc25e0e1d6af9c3c096ce13f5d3fa85bb7d06986e",
+      "size": 76
+    },
+    "render-comparison.json": {
+      "sha256": "35d3006c6d2c060566465025199c73ab2c51345980cb26acffc08916d563009a",
+      "size": 6025
+    },
+    "juice-comparison.png": {
+      "sha256": "7c797b6860700c1c496f6689233ee2e7402cfec828c9d289ae81afe4e34da6c7",
+      "size": 1064907
+    },
+    "plane-A.png": {
+      "sha256": "4f6fa26a4f11d6117478985f93f0b2270a33d79634cfd5655d98d2ed4d0b2516",
+      "size": 298030
+    },
+    "plane-A.json": {
+      "sha256": "fc0e218bbd39d604676af6ef1ab8c725ceff0e3a7a72aa113ace0e99c108db81",
+      "size": 751
+    },
+    "plane-B.png": {
+      "sha256": "386f5aafb5ac1c70896bf856aeb6e8342d504bb09a2e1d5b6a03dfef5331fd86",
+      "size": 306489
+    },
+    "plane-B.json": {
+      "sha256": "202d322c4f9793b4c0fed67ac80f6d9d3142b8ce45589c03793fc73ddd539922",
+      "size": 773
+    },
+    "macro-A.png": {
+      "sha256": "f27d7c3a7a97b9088a26c76d928ac526ca1926702d96420696f0f31f6438580d",
+      "size": 297317
+    },
+    "macro-A.json": {
+      "sha256": "8e69b5bb813cd506dcc5133886fa20a91ef8743daa3df9b09e16040d6e2d51b6",
+      "size": 764
+    },
+    "macro-B.png": {
+      "sha256": "dffefbe92276d82244c5ef46ccab4ea3c4a7d457c663d69a72a5567d8d01233e",
+      "size": 306272
+    },
+    "macro-B.json": {
+      "sha256": "07332de051080fd696fd40613148a3136f1174a9442dce67684a90e220f03fed",
+      "size": 787
+    },
+    "bite-A.png": {
+      "sha256": "193a7b89a922923ed36dfd7d70812828f154938d5697faccfee866d768a067dd",
+      "size": 302320
+    },
+    "bite-A.json": {
+      "sha256": "bf8cb44a02f14848f034d6fc713d0d4d98523dc618912e230822fc082fd8ff19",
+      "size": 750
+    },
+    "bite-B.png": {
+      "sha256": "e405d5a49350dfbf13c3e81d689d9c41d042ad9839dcac10b2822f37197cfd17",
+      "size": 307276
+    },
+    "bite-B.json": {
+      "sha256": "d278ceb326f6a64907aea32e8a4a7d9a9dfd7559a1e964be52b71aa8306b2530",
+      "size": 771
+    },
+    "qa-plane.log": {
+      "sha256": "fe10412c5ef815c60e6d8774d5b1454a57865b4db7c5a425f58dbce7dc81a4ac",
+      "size": 1272
+    },
+    "qa-bite.log": {
+      "sha256": "c8c3f09dd94b8a2f0d8ae88085d979957368fb4c6d7e5c45daf828da10fd09e9",
+      "size": 1270
+    },
+    "qa-whole.log": {
+      "sha256": "89265d44f13aac1f8e95667865a659d25744a627a23a9b6e4e666f9c2cd84b83",
+      "size": 726
+    },
+    "render-plane.log": {
+      "sha256": "131403254a6b4983b90576407569b334366aa94935b27919317ba4e1166a3b10",
+      "size": 228
+    },
+    "render-macro.log": {
+      "sha256": "43ba3465611581480667ea4365197b667d28a663bc3bc61f1563b8dac48e0d79",
+      "size": 228
+    },
+    "render-bite.log": {
+      "sha256": "b0c43eee4b5e2a86b50e00431e03032a7f4774cf33b5722edf499b1ce9c8a370",
+      "size": 227
+    }
+  }
+}
