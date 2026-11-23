@@ -1,0 +1,70 @@
+{
+  "status": "PASS_READONLY_SEED101_3D_VASCULAR_CAP_COVERAGE",
+  "source_scene_sha256": "0b79e33b0725f807524061b1afe79671f4fcf1c6b5c429bd8203cec8d6a21bd2",
+  "blender": "5.2.4 LTS",
+  "records": [
+    {
+      "pose": "plane",
+      "mesh_vertices": 59400,
+      "total_faces": 59398,
+      "cap_faces": 14817,
+      "cap_area_mm2": 1498.538818359375,
+      "field_summary": {
+        "sdf_v20_core": {
+          "mean": 0.15045487086723608,
+          "max": 0.7538328766822815,
+          "area_fraction": {
+            "0.1": 0.37984803318977356,
+            "0.2": 0.28371956944465637,
+            "0.3": 0.21552997827529907,
+            "0.5": 0.10613704472780228
+          }
+        },
+        "sdf_v20_halo": {
+          "mean": 0.30112037239633493,
+          "max": 0.7718281149864197,
+          "area_fraction": {
+            "0.1": 0.7006100416183472,
+            "0.2": 0.5610803365707397,
+            "0.3": 0.4508950412273407,
+            "0.5": 0.2644735276699066
+          }
+        }
+      },
+      "max_geometric_cut_relief_mm": 0.13771480321884155,
+      "elapsed_s": 1.41
+    },
+    {
+      "pose": "edge-bite",
+      "mesh_vertices": 91004,
+      "total_faces": 91002,
+      "cap_faces": 19122,
+      "cap_area_mm2": 1280.648193359375,
+      "field_summary": {
+        "sdf_v20_core": {
+          "mean": 0.10585046726244962,
+          "max": 0.7236040234565735,
+          "area_fraction": {
+            "0.1": 0.2936648726463318,
+            "0.2": 0.2001265585422516,
+            "0.3": 0.14223875105381012,
+            "0.5": 0.05668903887271881
+          }
+        },
+        "sdf_v20_halo": {
+          "mean": 0.25339813449999693,
+          "max": 0.7484482526779175,
+          "area_fraction": {
+            "0.1": 0.6581282615661621,
+            "0.2": 0.4964779019355774,
+            "0.3": 0.36951807141304016,
+            "0.5": 0.18069204688072205
+          }
+        }
+      },
+      "max_geometric_cut_relief_mm": 0.13674238324165344,
+      "elapsed_s": 1.51
+    }
+  ],
+  "limitations": "Cap area fractions from interpolated point scalars; threshold-dependent, not real measured fiber diameters; direct comparison to v16 older scene invalid."
+}
