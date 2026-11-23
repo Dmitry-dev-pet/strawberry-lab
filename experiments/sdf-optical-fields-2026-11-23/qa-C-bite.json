@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "variant": "C",
+  "pose": "bite",
+  "voxel_mm": 0.32,
+  "source_sha256": "361696819fd44733d560e3f59b101cd11f59862e7ebd7b7f83ce94fd07909963",
+  "scene_sha256": "00d758833b8c910de6e103474e6ec7bb95e5bbf3b55ec33544bae726499c4b35",
+  "preserved_material_trees": 12,
+  "added_nodes": [
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Field Optical | Rest-space radial projection",
+      "ShaderNodeVectorMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Field Optical | Radius from fruit axis",
+      "ShaderNodeVectorMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Field Optical | Smooth radial scattering scale",
+      "ShaderNodeMapRange"
+    ]
+  ],
+  "only_existing_socket_link": [
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "ShaderNodeBsdfPrincipled",
+      "Subsurface Scale"
+    ]
+  ],
+  "visibility_unchanged": true,
+  "body": {
+    "vertices": 363850,
+    "faces": 363848,
+    "coords_sha": "e9ae045d89968d4ef4fb5aa547b42dd54a9ba9a2de5c4516ae6439a4341d8624",
+    "topology_sha": "0786882e533ba35a202e7eef892715863ac8f6e9e9197d2aa15c323add94b9dd"
+  },
+  "juice": {
+    "vertices": 35612,
+    "faces": 30670,
+    "coords_sha": "5e9b3ec0e88889aa7eb16926c342314350cbea935f0a8160ff365b29903c0bca",
+    "topology_sha": "b8334c991dd70d843bf8711073cb00578f71f39fd45f4fddf7f5a2f5d9229f34"
+  },
+  "derived_field_statistics": {
+    "rest_radius_min_max_BU": [
+      2.708076607405019e-08,
+      0.9283498525619507
+    ],
+    "derived_scale_min_max_BU": [
+      0.006000000052154064,
+      0.020000014454126358
+    ],
+    "attr_sha": "41179a648347f9fad4a24e7c4aadcd99fcf2990c097e12a23847f001915b2d5c"
+  }
+}
