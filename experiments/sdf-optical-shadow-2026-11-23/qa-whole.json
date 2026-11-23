@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "pose": "whole",
+  "voxel_mm": 0.32,
+  "source_sha256": "2fcc5a8e65273d3ac0f633f887e4f5522da9642c375f5d4499e891bc2889d394",
+  "scene_sha256": "361696819fd44733d560e3f59b101cd11f59862e7ebd7b7f83ce94fd07909963",
+  "same_material_graph_digest": "f44588f23f6c913de95eab8f7054daebb109c95a695b592f89b0e9a25a705cbe",
+  "material_trees_compared": 12,
+  "only_visibility_change": "juice visible_shadow True->False",
+  "juice_topology_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "body": {
+    "vertices": 91046,
+    "faces": 91044,
+    "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+    "topology_sha": "907c5d3f9eb01abdc657dca1a771ce81d88a5ddd29740be0442b64f6209cb19c"
+  },
+  "juice": {
+    "vertices": 0,
+    "faces": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "plane": {
+    "pixels_gt2_pct": 11.118055555555555,
+    "pixels_gt10_pct": 6.290798611111111,
+    "mean_abs_rgb_change": 2.430543899536133,
+    "A_png_sha": "386f5aafb5ac1c70896bf856aeb6e8342d504bb09a2e1d5b6a03dfef5331fd86",
+    "B_png_sha": "ebb93c0d32f267b57224f8e59f90d66d344f81a1906a20f51471e78a6938cfb2",
+    "archived_A": true,
+    "settings_match": true
+  },
+  "macro": {
+    "pixels_gt2_pct": 11.256944444444445,
+    "pixels_gt10_pct": 6.360243055555556,
+    "mean_abs_rgb_change": 2.451587200164795,
+    "A_png_sha": "dffefbe92276d82244c5ef46ccab4ea3c4a7d457c663d69a72a5567d8d01233e",
+    "B_png_sha": "a86f82ad8051e820b631cb71db1103f8e89324f0702ea57a1be7f0af1a26f5f2",
+    "archived_A": true,
+    "settings_match": true
+  },
+  "bite": {
+    "pixels_gt2_pct": 9.47873263888889,
+    "pixels_gt10_pct": 4.923611111111112,
+    "mean_abs_rgb_change": 1.4366955757141113,
+    "A_png_sha": "e405d5a49350dfbf13c3e81d689d9c41d042ad9839dcac10b2822f37197cfd17",
+    "B_png_sha": "1c243883dc47d5cd9587190cca1db9f7b21cc7a4a0310e6e69cbf589792c52e6",
+    "archived_A": true,
+    "settings_match": true
+  }
+}
