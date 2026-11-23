@@ -1,0 +1,26 @@
+{
+  "render_settings": {
+    "resolution": 640,
+    "samples": 16,
+    "seed": 1729
+  },
+  "render_effect_not_quality": true,
+  "results": {
+    "plane": {
+      "mean_abs_delta_RGB255": 1.8944580078125,
+      "fraction_changed_gt2": 0.11593017578125,
+      "fraction_changed_gt10": 0.08109375,
+      "max_delta": 99,
+      "source_sha": "300aa37ee5d55d026ed7a62efbdd62be34f1e928c5d61e528a02a7089eb2c2e6",
+      "B_sha": "88563f33af542a8e0ac97cc788321b28463cd6a93615c22aa7cec1f336c0a7b1"
+    },
+    "bite": {
+      "mean_abs_delta_RGB255": 0.75529052734375,
+      "fraction_changed_gt2": 0.07090576171875,
+      "fraction_changed_gt10": 0.035703125,
+      "max_delta": 96,
+      "source_sha": "eb8fbe628a76eb317c0a0d148c61f882e4ab2f1ad5fd06b6016d069eff622703",
+      "B_sha": "c2cac2d20bbf944c685711ebcded7c3f9266c98ac970fe781ac3aa8fea2c5c02"
+    }
+  }
+}
