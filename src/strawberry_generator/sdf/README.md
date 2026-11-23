@@ -6,8 +6,6 @@ One editable seed101 fruit from PR40, one native Geometry Nodes engine: **Mesh t
 
 Follows the owner's [accepted main ADR](https://github.com/Dmitry-dev-pet/strawberry-lab/blob/main/docs/architecture-decision-2026-11-22-sdf-visual-first.md), Issue8 decision7083933344 and our own M1c/M1d principles. Stacked on PR40, not on PR41; main and previous artifacts remain untouched.
 
-[Six native Cycles frames](https://drive.google.com/file/d/1d16Je-yuC7BXDCMjRJOxStQfYNzj8xw1/view) · [Private ZIP](https://drive.google.com/file/d/1BGpdfZJvASrTAzt4l9Kf9r5m-Ns4rzxW/view)
-
 ## Use / reproduce
 
 Select **Receptacle | canonical PR29 hull → Object Custom Properties**:
@@ -15,7 +13,7 @@ Select **Receptacle | canonical PR29 hull → Object Custom Properties**:
 - `sdf_mode`:0 whole,1 plane,2 sphere.
 - `sdf_voxel_mm`: actual millimetres; default0.20. GN divides by22.22222276 mm per Blender unit.
 - Move/rotate **SDF | editable plane halfspace** in Object Mode. Its local Y=0 face is the physical cutting plane; no offset. Keep its finite box large enough to cover the fruit.
-- Move/uniform-scale **SDF | editable sphere bite** in Object Mode. Do not edit cutter mesh shapes or nonuniform-scale the sphere: solid center masks assume these defined cutter primitives.
+- Move/uniform-scale **SDF | editable sphere bite** in Object Mode. Do not edit cutter mesh shapes or nonuniform-scale the sphere: native all-vertex seed guards assume these defined cutter primitives.
 
 Native drivers and nodes perform updates; no embedded Python/add-on is required. One `SDF | live` View Layer replaces legacy four-layer/Exact UI in this bounded slice. The nonlinear source profile is fixed. Legacy Apply Profile/Exact scripts were removed deliberately; this does not restore those features.
 
@@ -39,7 +37,7 @@ After Grid→Mesh, GN computes true `sdf_rest_position = inverseF(physical_posit
 
 The separate cut material is assigned by active-cutter proximity within1.7voxels; three restrained 3D Voronoi layers drive shader bump/roughness with coat/SSS. This is **shader microtexture, not geometric cell walls or Exact microrelief**. Source `achene_pit` shading mask is nearest-surface transferred after remeshing.
 
-Seeds, eight sepals and stem use **whole-solid CENTER culling** against the same plane/sphere transforms. Boundary-crossing seeds/crown parts are not physically intersected and can protrude across a cut. Native visible achene counts: whole264, plane133, oblique118, bite233. This limitation is intentional, not solid clipping.
+Seeds, eight sepals and stem use a **native point-domain minimum-over-object intersection guard** against the same moving plane/sphere: if any sampled mesh vertex is inside the cutter, the entire object is hidden. This is conservative removal, **not physical partial clipping of solid seeds** or exhaustive triangle/surface intersection testing. The previous center-mask count assertions belong to PR #47 and no longer apply.
 
 ## Measured result
 
@@ -60,4 +58,4 @@ The fine remesh loses about5.4% of the median pit depth; coarse loses17.2%. This
 
 The private comparison uses authenticated owner video frames04s/10s, with different camera/lighting and compression, so it is qualitative. Our whole skin is waxy/pink and crown simplified; the template cut has a broad smooth pith column, blurred tissue detail and little convincing wet microstructure compared with the reference. A thin pale bite/cut rim remains. The denser sphere removes the first frame's conspicuous angular highlight patches, but this is **not Frucht-level fidelity** and does not close Issue8.
 
-This is a working technical SDF slice, not a completed general fruit generator or accepted photoreal result. Arbitrary cutter poses, profile regeneration, radius-aware seed clipping, dynamic diagnostic-network cuts and detailed geometric cut microstructure remain outside this delivery. No further geometry/lookdev iterations are part of this milestone. Reference images remain owner-private; public GitHub contains only our code, compact numbers and SHA.
+This is a working technical SDF slice, not a completed general fruit generator or accepted photoreal result. Arbitrary cutter poses, profile regeneration, partial achene solid clipping, dynamic diagnostic-network cuts and detailed geometric cut microstructure remain outside this delivery. No further geometry/lookdev iterations are part of this milestone. Reference images remain owner-private; public GitHub contains only our code, compact numbers and SHA.
