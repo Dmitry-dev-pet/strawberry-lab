@@ -1,0 +1,58 @@
+{
+  "status": "PASS_MATCHED_NATIVE_BLENDER_CYCLES",
+  "blender": "5.2.4 LTS",
+  "seed": 1729,
+  "resolution": 640,
+  "samples": 16,
+  "effects_not_realism_scores": true,
+  "views": {
+    "plane": {
+      "A_is_pixel_identical_to_v20": true,
+      "changed_pixel_fraction_gt2": 0.16112060546875,
+      "changed_pixel_fraction_gt10": 0.0680712890625,
+      "changed_pixel_fraction_gt25": 0.0032861328125,
+      "mean_absolute_RGB_255": 0.9949755859375,
+      "max_RGB_difference": 96,
+      "render_seconds": {
+        "A": 13.406,
+        "B": 28.882
+      },
+      "image_sha": {
+        "A": "979a2ba5457279a2511c6c8c56bd8fd01ce4678eea0ad499473684caca384f37",
+        "B": "0891ad053a84117b108292b8344f14fe8092d0ac0c3bf1350405d6c54b808dd0"
+      }
+    },
+    "bite": {
+      "A_is_pixel_identical_to_v20": true,
+      "changed_pixel_fraction_gt2": 0.1016455078125,
+      "changed_pixel_fraction_gt10": 0.0327099609375,
+      "changed_pixel_fraction_gt25": 0.00196533203125,
+      "mean_absolute_RGB_255": 0.5883601888020833,
+      "max_RGB_difference": 80,
+      "render_seconds": {
+        "A": 15.042,
+        "B": 25.76
+      },
+      "image_sha": {
+        "A": "4ab07346ef9793fd66976cce6bdac33c9d15d7169396feea2ab8078c8bc5d966",
+        "B": "450c5b02a22a1f5522e1cefe0b00c988647a3feb702cfaeb9c6569d9d05edb50"
+      }
+    },
+    "macro": {
+      "A_is_pixel_identical_to_v20": true,
+      "changed_pixel_fraction_gt2": 0.16166748046875,
+      "changed_pixel_fraction_gt10": 0.06781494140625,
+      "changed_pixel_fraction_gt25": 0.00324462890625,
+      "mean_absolute_RGB_255": 0.9944710286458334,
+      "max_RGB_difference": 69,
+      "render_seconds": {
+        "A": 14.605,
+        "B": 30.15
+      },
+      "image_sha": {
+        "A": "044e08a28264ad6ccb018794f8532f7e539feca11402ec19d604841ef2a141dc",
+        "B": "eb54e58a67f4feed8ef21078bc6e8d49e8e6a2caa58e9e4e052b5665bda19146"
+      }
+    }
+  }
+}
