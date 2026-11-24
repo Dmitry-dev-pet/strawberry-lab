@@ -1,0 +1,84 @@
+{
+  "archive_sha": "aaa218470ab068ed1cb806308d9a4da1d43fd5d9e3de30f6486ac7d204787877",
+  "kiwi_sha": "98c9e957a611cfeee26f2848868755794ad4d8eb42aec33ba543547d263ea840",
+  "blender": "5.2.4 LTS",
+  "build_hash": "cd5dc428cce1",
+  "species_explicit_clean_clip": {
+    "strawberry": false,
+    "kiwi": false,
+    "cherry": true
+  },
+  "strawberry_name_dispatch": {
+    "SCHNITTE • Entfernen": true,
+    "SCHNELL • Live Entfernen": false
+  },
+  "kiwi_runtime_graph": {
+    "SCHNELL KIWI | Körper": {
+      "nodes": 12,
+      "mesh_boolean": 0,
+      "grid_to_mesh": 0,
+      "sample_grid": 1,
+      "set_position": 0,
+      "delete_geometry": 2,
+      "sdf_boolean": 0
+    },
+    "SCHNELL KIWI | Fleisch Quelle": {
+      "nodes": 9,
+      "mesh_boolean": 0,
+      "grid_to_mesh": 1,
+      "sample_grid": 0,
+      "set_position": 0,
+      "delete_geometry": 0,
+      "sdf_boolean": 0
+    },
+    "SCHNELL KIWI | Schnittfläche": {
+      "nodes": 30,
+      "mesh_boolean": 0,
+      "grid_to_mesh": 1,
+      "sample_grid": 1,
+      "set_position": 1,
+      "delete_geometry": 0,
+      "sdf_boolean": 1
+    }
+  },
+  "synthetic_connected": {
+    "vertices": 121,
+    "faces": 100,
+    "connectivity_unchanged": true,
+    "moved_vertices": 55,
+    "max_displacement": 1.9018945271884837,
+    "far_max_displacement": 0.0,
+    "node_count": 22
+  },
+  "synthetic_disconnected": {
+    "vertices": 132,
+    "faces": 100,
+    "connectivity_unchanged": true,
+    "moved_vertices": 0,
+    "max_displacement": 0.0,
+    "far_max_displacement": 0.0,
+    "node_count": 22
+  },
+  "synthetic_snap": {
+    "before_vertices": 30,
+    "after_vertices": 20,
+    "before_faces": 20,
+    "after_faces": 12,
+    "snapped_vertices": 5,
+    "retained_positive_vertices": 15,
+    "expected_positive_vertices": 15,
+    "remaining_negative_vertices": 0
+  },
+  "synthetic_flesh": {
+    "original_vertices": 1490,
+    "remeshed_reference_vertices": 2936,
+    "flesh_vertices": 1908,
+    "distance_samples": 1908,
+    "max_grid_error": 0.0,
+    "max_original_error": 0.00935229193419218,
+    "max_distance_difference": 0.00935229193419218,
+    "grid_node_count": 9,
+    "flesh_node_count": 27
+  },
+  "scope": "Original isolated functions with synthetic inputs; no commercial Strawberry scene execution or new Strawberry geometry."
+}
