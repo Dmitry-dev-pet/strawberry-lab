@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "pose": "bite",
+  "voxel_mm": 0.32,
+  "scene_sha": "790dc4adbd9025b56e7833c2cedb8ada83c0e9b738ac294f96889fbb52e0e215",
+  "body": {
+    "vertices": 373146,
+    "faces": 373144,
+    "coords_sha": "db87e1872feca53a46ad428966e841e7f577692d268bab1512cdd483f5dc3481",
+    "topology_sha": "1c7266650dd3ec8b56750acabfbf06effddcde7da27666c3450044e0fbcd2854",
+    "nonmanifold": 0,
+    "orientation_edges": 0,
+    "degenerate_triangles": 0,
+    "component_signed_volumes_mm3": [
+      33672.80036405582,
+      -98.36982972539337
+    ],
+    "wall_faces": 9296,
+    "wall_excluded_from_cap_interior": true,
+    "sl_vascular_core": {
+      "max_error": 4.573921326844754e-05,
+      "min": 0.0,
+      "max": 0.716998279094696,
+      "samples": 256
+    },
+    "sl_vascular_halo": {
+      "max_error": 2.107961642949796e-05,
+      "min": 0.0,
+      "max": 0.7462300658226013,
+      "samples": 256
+    },
+    "sl_ring_relative": {
+      "max_error": 2.916430431376682e-06,
+      "min": 0.5055997967720032,
+      "max": 1.0,
+      "samples": 256
+    },
+    "juice": {
+      "vertices": 35612,
+      "faces": 30670,
+      "components": 89,
+      "over_two_face_edges": 0,
+      "degenerate_triangles": 0,
+      "clearance_min_mm": -0.1729355901479721,
+      "clearance_max_mm": 0.17947709560394287,
+      "visible_points": 10248,
+      "buried_points": 23823,
+      "boundary_points": 9875,
+      "boundary_above_005_mm": 0,
+      "boundary_max_mm": -0.017999999225139618,
+      "source_cap_points_only": true,
+      "clearance_equation_max_mm_error": 6.826594471931458e-07,
+      "position_equation_max_mm_error": 1.3245477248347015e-06,
+      "liquid_mesh_sha": "a8d3b7f1d3e46c09699c2a1a7e3a58e00843b1ab27eee77ccf319d862b88786a"
+    }
+  },
+  "elapsed_s": 16.058958487999973,
+  "scope": "body+wall+existing juice regression; no fresh seed/calyx or exhaustive self-intersection check"
+}

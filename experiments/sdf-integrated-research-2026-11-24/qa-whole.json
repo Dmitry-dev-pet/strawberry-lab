@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "pose": "whole",
+  "voxel_mm": 0.32,
+  "scene_sha": "790dc4adbd9025b56e7833c2cedb8ada83c0e9b738ac294f96889fbb52e0e215",
+  "body": {
+    "vertices": 93370,
+    "faces": 93368,
+    "coords_sha": "4239354f93893bf7eb166a2a88d6042a08934d6767199fbc6a14115387d61f54",
+    "topology_sha": "0ba619dfb0c1695053e639c635d493e370224913b7155ff9c8d7e2e6a981bae4",
+    "nonmanifold": 0,
+    "orientation_edges": 0,
+    "degenerate_triangles": 0,
+    "component_signed_volumes_mm3": [
+      38674.903471919366,
+      -98.36585819670044
+    ],
+    "wall_faces": 2324,
+    "wall_excluded_from_cap_interior": true,
+    "exact_whole_previous_protrusions": true,
+    "juice": {
+      "vertices": 0,
+      "faces": 0
+    }
+  },
+  "elapsed_s": 4.111720409999975,
+  "scope": "body+wall+existing juice regression; no fresh seed/calyx or exhaustive self-intersection check"
+}
