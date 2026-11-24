@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "pose": "plane",
+  "voxel_mm": 0.32,
+  "A": {
+    "vertices": 239218,
+    "faces": 239216,
+    "coords_sha": "f2dfb8e72c529c94e4d55ecc172695569d21ca793cc4e40647d744d6a65ced13",
+    "topology_sha": "c44d47b3a0d9df00b9a73f4e9fef78d6702b5404cdc6a4637418bf32bdeb4a6c",
+    "nonmanifold": 0,
+    "orientation_edges": 0,
+    "degenerate_triangles": 0,
+    "component_signed_volumes_mm3": [
+      19499.463134676695
+    ],
+    "wall_faces": 3708,
+    "wall_component_ids": [
+      0
+    ],
+    "juice": {
+      "vertices": 41676,
+      "faces": 34385,
+      "components": 165,
+      "over_two_face_edges": 0,
+      "degenerate_triangles": 0,
+      "clearance_min_mm": -0.17287909984588623,
+      "clearance_max_mm": 0.18405435979366302,
+      "visible_points": 7728,
+      "buried_points": 32437,
+      "boundary_points": 14460,
+      "boundary_above_005_mm": 0,
+      "boundary_max_mm": -0.017999999225139618,
+      "source_cap_points_only": true,
+      "clearance_equation_max_mm_error": 8.195638656616211e-08,
+      "position_equation_max_mm_error": 2.5870072750677764e-09,
+      "liquid_mesh_sha": "f117ec6e6dca209499fc519a07ce56d90f1f6308e0cf96aa4cc5fa48873a6b5b"
+    },
+    "wall_excluded_from_juice_cap_interior": true
+  },
+  "B": {
+    "vertices": 239642,
+    "faces": 239640,
+    "coords_sha": "cadbd912922a42ac014f6b462e345b8a95025507b62b6a25460ff2d6d795e318",
+    "topology_sha": "4cc03d512670709916d84bce8a83857fbaf0c0c13912d897070cf82f8cddd3d3",
+    "nonmanifold": 0,
+    "orientation_edges": 0,
+    "degenerate_triangles": 0,
+    "component_signed_volumes_mm3": [
+      19501.078972461237
+    ],
+    "wall_faces": 4096,
+    "wall_component_ids": [
+      0
+    ],
+    "juice": {
+      "vertices": 41711,
+      "faces": 34413,
+      "components": 165,
+      "over_two_face_edges": 0,
+      "degenerate_triangles": 0,
+      "clearance_min_mm": -0.17287909984588623,
+      "clearance_max_mm": 0.18405435979366302,
+      "visible_points": 7728,
+      "buried_points": 32472,
+      "boundary_points": 14473,
+      "boundary_above_005_mm": 0,
+      "boundary_max_mm": -0.017999999225139618,
+      "source_cap_points_only": true,
+      "clearance_equation_max_mm_error": 8.195638656616211e-08,
+      "position_equation_max_mm_error": 2.5870072750677764e-09,
+      "liquid_mesh_sha": "4cc2a45d9cda036ffa469672ebec024738a05bdd67bdf364327ca02d1c1c0b5f"
+    },
+    "wall_excluded_from_juice_cap_interior": true
+  },
+  "source_sha": "ccd9d4b5e93d000bdaee27a83afa95581fe19a69533493a0f96ce12917574b45",
+  "scene_sha": "03ea71e06d8dd77d47ba76d77da0793c4346dd98dfb34db079185e4862b55117"
+}

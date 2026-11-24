@@ -1,0 +1,169 @@
+{
+  "files": {
+    "README.md": {
+      "sha256": "89ccbeaa0cac9b3336e02cf6806974963e6b2a90819f0b5294e934011cecf05f",
+      "bytes": 7430
+    },
+    "build-lumen.log": {
+      "sha256": "e1d18f0106b3c3a658c22a38c160f7bcf8c9cf72b1b11c8e08d7fb87307f6a3f",
+      "bytes": 665
+    },
+    "build-pigment.log": {
+      "sha256": "56dd3ff8a124281f2a4f596a642840598d48b075e5f1280269f5fd5d0be98395",
+      "bytes": 540
+    },
+    "build_lumen_protrusions.py": {
+      "sha256": "2921d29e7e925ab4b190e4b02e3407c408e6ba7c1818fd885fabe34972c5ba46",
+      "bytes": 5436
+    },
+    "build_ring_pigment.py": {
+      "sha256": "0bf67cfda1f1ff4f9424cce176614ffdd3ee1d7d6ddc36c2a2986340bd25b447",
+      "bytes": 4943
+    },
+    "compare.py": {
+      "sha256": "a05f76dabfd88c7a528752286ad77bf1ea5b5bf773593a41dd1d95bd8e8641a3",
+      "bytes": 1834
+    },
+    "comparison.png": {
+      "sha256": "d8ba3147ab11e642dedbb1939ce5ea6d070f782c4abcc7989ceb0900376e111f",
+      "bytes": 641648
+    },
+    "initial-build-error.log": {
+      "sha256": "53d62833084e5fb6ca6a2d0c20045b8fa7fa80f9ab6940633895547096165b85",
+      "bytes": 1288
+    },
+    "initial-grid-failure.log": {
+      "sha256": "8625a74b627a9f256639224cfee9f53c383a111d60cee861488abde1f939ffe7",
+      "bytes": 1763
+    },
+    "initial-probe-failure.log": {
+      "sha256": "57b2115aa328693ab2a7aa865d792755e3d09aa84e1225952cc3cd041397e4b6",
+      "bytes": 1372
+    },
+    "lumen-A.json": {
+      "sha256": "9c1f142fefd724e5db6f13c02055130d660d0420e88e36ca6ac920a5c0984ec4",
+      "bytes": 817
+    },
+    "lumen-A.png": {
+      "sha256": "45f8f87c7429faa8a5bfcb32915597b6a2a01851a1a91a1f1046fa4f6132e8e4",
+      "bytes": 304828
+    },
+    "lumen-protrusions-plane.json": {
+      "sha256": "db818020fa3b69acda257e93ee0461f23eed737808ec4c6ba5c0891ab7c5d1e0",
+      "bytes": 817
+    },
+    "lumen-protrusions-plane.png": {
+      "sha256": "aaad8da1ba3679c594eedd2ab369cf90d007ed738d852e5b19864a93caf9881c",
+      "bytes": 305127
+    },
+    "lumen-protrusions.blend": {
+      "sha256": "03ea71e06d8dd77d47ba76d77da0793c4346dd98dfb34db079185e4862b55117",
+      "bytes": 27347875
+    },
+    "lumen-protrusions.json": {
+      "sha256": "0df29c7af8c7dc22a7e23c438471ef9171869756b3a8cc4d18681f6166c75240",
+      "bytes": 10198
+    },
+    "lumen-qa-bite.json": {
+      "sha256": "2fe55aef8b91a706b316fe82a1bde79357f5c3fa1fb8770560fcee849cc60b6b",
+      "bytes": 2648
+    },
+    "lumen-qa-bite.log": {
+      "sha256": "848d36db43232e37227fdd1b311d453d6cfd69aad0664cc9ecb382e949793ede",
+      "bytes": 3466
+    },
+    "lumen-qa-plane.json": {
+      "sha256": "a9e753204024a08c009327ddab780574eb48a7172970dd4a6ade8dcf3767fdef",
+      "bytes": 2603
+    },
+    "lumen-qa-plane.log": {
+      "sha256": "e8bf4f2ddc5d7b5922cc7170268f7a18b199f9ec27c10c04d17d9aaf451f698e",
+      "bytes": 3416
+    },
+    "lumen-qa-whole.json": {
+      "sha256": "8de10035c439147ce02ebac7848c920a09610f872dae0b165855bb66a1c43d0f",
+      "bytes": 2003
+    },
+    "lumen-qa-whole.log": {
+      "sha256": "52023a6ba2f9a2c8b2f8eb846ef64a9fd37fdf150589e1f7af4f873f6605bc06",
+      "bytes": 2840
+    },
+    "pigment-qa-bite.json": {
+      "sha256": "207223c7e7e6c37596ed62f1d3a03fb6fcce5f5dacf48cbe832a7df417b6b919",
+      "bytes": 1447
+    },
+    "pigment-qa-bite.log": {
+      "sha256": "5f97918a43099e0497108bbf9f2ce7f2f24530654e7b7e6897b3f116c670542c",
+      "bytes": 1475
+    },
+    "pigment-qa-plane.json": {
+      "sha256": "dc9bab5c1863fa68feab5067c3d36fa49e89e3fb1748835d8d061372a0880b32",
+      "bytes": 1451
+    },
+    "pigment-qa-plane.log": {
+      "sha256": "463de23c5140cc42e856960846bf52de8ba5c949d22c574b3a86a692f5e90131",
+      "bytes": 1479
+    },
+    "pigment-qa-whole.json": {
+      "sha256": "a7cdc00bf2562fed89589ee9012ee46ac3525fb9f3d94177ea1d3cb0413a6857",
+      "bytes": 643
+    },
+    "pigment-qa-whole.log": {
+      "sha256": "37ffb529773d806b8218485f8d6042f34fb6d96af7a6b753a5890eca7c9d94d9",
+      "bytes": 737
+    },
+    "probe_lumen_grid.py": {
+      "sha256": "49f0d8b0c2a5dc384a0645f10360ef958a4d2641f2b422d5bbc048ebe3f92e14",
+      "bytes": 1341
+    },
+    "qa_lumen_protrusions.py": {
+      "sha256": "efa95c502b72b51a5ed54135edf9404b603486f143c06d4d2c5b4b18b80cec16",
+      "bytes": 4329
+    },
+    "qa_ring_pigment.py": {
+      "sha256": "d3e21235f304a540125824a2279e64c9f589d545b5ef53f4a3d8ff2938ec5f1d",
+      "bytes": 2381
+    },
+    "rejected-lumen.json": {
+      "sha256": "d6338fde1d37273c3556f4b95b92d63fd7ebc94d8e841adeaae9d3c0a3f7211a",
+      "bytes": 10198
+    },
+    "render-comparison.json": {
+      "sha256": "89fc7e86bd7e750db253c39435db0d1146a9c5a8b4e95931c3e56303f2214be5",
+      "bytes": 4665
+    },
+    "render-lumen.log": {
+      "sha256": "ac4cf745df0470b6596b520483d67fd22ac6d786dd3b3388a3ddc5acf09f390f",
+      "bytes": 271
+    },
+    "render-ring.log": {
+      "sha256": "ecd187a4aaf7545bdae156df5ea0b21a277b87d76bd850eb9d6ceeabe9602c4a",
+      "bytes": 261
+    },
+    "ring-A.json": {
+      "sha256": "d746e1250220eef395a2d4d5488d86fd8b204f5b2989a55dd8418f729918ae29",
+      "bytes": 818
+    },
+    "ring-A.png": {
+      "sha256": "6a409d8ca6529c550e8c0bfa24fb86a1263e9aa3ee682a58979af0f6fafd2d79",
+      "bytes": 306495
+    },
+    "ring-pigment-plane.json": {
+      "sha256": "eb09bf858401c761c9a66f50dd9c47ee1b0ca2ec992260db58144c116c4653ec",
+      "bytes": 818
+    },
+    "ring-pigment-plane.png": {
+      "sha256": "243a7619fc7bc15354e9f7d0a76e49ad840b32461f4300fa19fce3a51967e0a6",
+      "bytes": 299756
+    },
+    "ring-pigment.blend": {
+      "sha256": "2d540447b36063408808995079295d2c6f3045835e4362216fbc48c6ca78b23d",
+      "bytes": 26480655
+    },
+    "ring-pigment.json": {
+      "sha256": "05d5b008d185d03a293f6bd04ff0a947bf262e868d4ff92f9ebc40882e50b2af",
+      "bytes": 366
+    }
+  },
+  "binary_scenes_stored_separately": true
+}

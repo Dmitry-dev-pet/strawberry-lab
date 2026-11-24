@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "pose": "whole",
+  "source_sha": "0498a4bb9daf0fbdb15630a052539283e89f117bbe074c2b8762868ba0deb1b0",
+  "scene_sha": "2d540447b36063408808995079295d2c6f3045835e4362216fbc48c6ca78b23d",
+  "body": {
+    "vertices": 91046,
+    "faces": 91044,
+    "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+    "topology_sha": "907c5d3f9eb01abdc657dca1a771ce81d88a5ddd29740be0442b64f6209cb19c"
+  },
+  "juice": {
+    "vertices": 0,
+    "faces": 0
+  },
+  "geometry_identical_to_ring_receipt": true,
+  "new_shader_outgoing_links": [
+    [
+      "ShaderNodeBsdfPrincipled",
+      "Base Color"
+    ]
+  ]
+}

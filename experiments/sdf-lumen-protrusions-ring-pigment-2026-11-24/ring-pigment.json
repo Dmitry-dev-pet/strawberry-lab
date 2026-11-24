@@ -1,0 +1,9 @@
+{
+  "new_shader_nodes": 18,
+  "source_atlas_fraction": 0.2,
+  "only_shader_socket": "cap Base Color",
+  "ring_attribute": "sl_ring_relative",
+  "blue_channel_reuses_original_sampler_weights": true,
+  "source_sha": "0498a4bb9daf0fbdb15630a052539283e89f117bbe074c2b8762868ba0deb1b0",
+  "scene_sha": "2d540447b36063408808995079295d2c6f3045835e4362216fbc48c6ca78b23d"
+}
