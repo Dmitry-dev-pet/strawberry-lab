@@ -1,5 +1,9 @@
 # Strawberry Lab — рабочие правила для агентов
 
+## Current continuation — 24 Nov 2026
+
+Read the owner-approved [Frucht visual gap review and next milestone](docs/frucht-gap-review-2026-11-24.md) **in addition to the SDF ADR** before continuing. Main has the PR47 technical SDF baseline; the dated review pins the newer, visually unaccepted PR50 experiment. Refresh its actual head and reports, not its stale opening description. First complete the missing calyx/pedicel on the latest independently tested fruit, then cavity/vessel coherence, cell heterogeneity, coordinated colors and torn bite/juice. Preserve all biological/ARTIST and QA boundaries; no bulk integration or automatic visual acceptance.
+
 ## Current adopted direction — 22 Nov 2026
 
 **Перед любыми новыми изменениями читать [ADR SDF + 3D fields + visual-first](docs/architecture-decision-2026-11-22-sdf-visual-first.md).** Он задаёт текущий порядок работ и уточняет исторические секции ниже. Ближайшая веха: один original SDF vertical slice (whole / movable plane / sphere bite) из `FruitContext`, общего rest-space 3D tissue/vascular field и материалов/геометрии среза; оригинальные Cycles A/B прежде расширения инфраструктуры. М1c/М1d — проверенные собственные исходные подходы. PR #40/41 и другие Mesh Boolean/Exact патчи — отдельные эксперименты, не текущий архитектурный ориентир и не merged `main`.
