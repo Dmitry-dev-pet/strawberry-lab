@@ -1,0 +1,38 @@
+{
+  "seeds": 264,
+  "vertices": 46992,
+  "attribute_sha": {
+    "sl_achene_local": "6d2ba6d51edb51935c6c607b073652ec9c8994f92f8272fa47edf8a230e7fa7a",
+    "sl_achene_variation": "4e574c002d338769aacf4dbea836bcb5cde8164e758533d212e22f637010ed28",
+    "sl_achene_gradient": "fe2d265125387795e5c30aef7796274df53e14d76fda56388587601f8c86bfcd"
+  },
+  "longitudinal_range": [
+    -0.5000026822090149,
+    0.500002384185791
+  ],
+  "variation_range": [
+    0.0524357445538044,
+    0.9474419951438904
+  ],
+  "gradient_range": [
+    0.0,
+    1.0
+  ],
+  "source_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+  "scene_sha": "d8f86ac4a3fbe69d34ae43a6410583c16c6ddc7d8805886bc28d65d7ed27974a",
+  "stock_receipt_sha": "23beb6082f419148578ed556cc8dee0b83799b83f499df6453b161d9bb79bde6",
+  "shader_nodes": {
+    "Diagnostic clay | skin": 22,
+    "Diagnostic clay | achenes": 20
+  },
+  "seed_palette_srgb_ARTIST": {
+    "seed_dark": "805027",
+    "seed_gold": "B78B36",
+    "seed_cap": "E6CD86",
+    "seed_olive": "A5A05A",
+    "seed_grain": "5D401C"
+  },
+  "default_exterior_mode": 0,
+  "scope": "Exterior shaders and seed shading attributes only; same skin pigment and grade as revised cap; seed grade independent; no calyx",
+  "elapsed_seconds": 1.381618045000323
+}
