@@ -1,5 +1,27 @@
 # Strawberry Lab — рабочие правила для агентов
 
+## Runtime bootstrap — mandatory before declaring Blender unavailable
+
+**Owner decision, 24 Nov 2026:** Blender need not be preinstalled in a new ChatGPT session. Restore the existing owner-approved portable Linux runtime from Google Drive when local Blender is absent or incompatible. No need to switch chats, request a manual install, use pip/apt, fetch the binary from the internet, or move work to the Mac merely because `which blender` fails.
+
+1. First probe the actual chat execution environment (Python/process execution, OS/architecture, available disk/RAM, existing Blender and its version). See [Truthrail session compute](https://github.com/Dmitry-dev-pet/truthrail/blob/main/docs/CHATGPT_SESSION_RUNTIME.md). Reuse a compatible already verified binary if present; current research scenes were built in Blender **5.2.4 LTS**, not the older 4.5.14 bundle.
+2. On Linux x86-64, discover the authorized Google Drive folder **`Alfred-Runtime-Bundles / Blender-5.2.4-linux-x64`** (in the mounted Library: `/Google Drive/Alfred-Runtime-Bundles/Blender-5.2.4-linux-x64`). The folder was checked on 24 Nov 2026: all **17** numbered parts (00–16), `blender-5.2.4.storage.json`, `restore_blender_drive.py`, `BLENDER_RESTORE_RU.md` and upstream checksums are present. The official archive is 385,047,680 bytes, SHA-256 `2fd14c50987426897ba60237ee996edf2b4151f4b1a72a460ca20be58c1d2d86`. Re-read the actual manifest and folder listing rather than relying on an old download path.
+3. Use the authorized Drive/Library connector to materialize the manifest, restore script and all parts as raw files into one fresh local temporary directory, in supported batches. Use returned local paths; do not expose tokens or private links, change sharing, assume direct internet egress, or insert binary/base64 into chat. Inspect the supplied restore script before running it. Check filenames, sizes, each part SHA-256 and the complete archive against the manifest and pinned digest. Stop on any mismatch; do not overwrite a known-good archive or scene.
+4. From the directory containing the verified parts and helper:
+
+   ```sh
+   python3 restore_blender_drive.py --manifest blender-5.2.4.storage.json --parts-dir . --output-dir .
+   mkdir -p blender-runtime
+   tar -xJf blender-5.2.4-linux-x64.tar.xz -C blender-runtime
+   B="$PWD/blender-runtime/blender-5.2.4-linux-x64/blender"
+   "$B" --version
+   "$B" -b --factory-startup --disable-autoexec --python-exit-code 1 --python-expr 'import bpy; print(bpy.app.version_string); assert bpy.app.version[:3] == (5,2,4)'
+   ```
+
+   Inspect archive paths before extracting, use an isolated writable directory, and do not install system packages or modify the persistent host. Perform a task-specific smoke test (e.g. actual Geometry Nodes/SDF evaluation and a tiny Cycles CPU render) before claiming the runtime works. Record version/build, tests, and any failure; the folder listing alone is not a runtime PASS.
+5. Restore the actual project scene and owned dependencies from the current pinned GitHub report / private Drive evidence, verify SHA-256, reopen with autoexec disabled, and work on a separate output copy. A new session's temporary extraction is not persistent. Save code/receipts to GitHub and heavy artifacts to the documented private Drive storage with verified readback.
+6. Only if in-chat execution or this recovery route genuinely fails after an attempt, use the narrowest approved alternative (including connected Blender/Mac where appropriate). Discover available GitHub/Drive/Blender tools in the current session; do not infer absence from prior chat text. Report the specific failing step and evidence, not a blanket claim that the environment is unavailable. No paid compute, new public uploads or broader host permissions are authorized by this rule.
+
 ## Current continuation — 24 Nov 2026
 
 Read the owner-approved [Frucht visual gap review and next milestone](docs/frucht-gap-review-2026-11-24.md) **in addition to the SDF ADR** before continuing. Main has the PR47 technical SDF baseline; the dated review pins the newer, visually unaccepted PR50 experiment. Refresh its actual head and reports, not its stale opening description. First complete the missing calyx/pedicel on the latest independently tested fruit, then cavity/vessel coherence, cell heterogeneity, coordinated colors and torn bite/juice. Preserve all biological/ARTIST and QA boundaries; no bulk integration or automatic visual acceptance.
