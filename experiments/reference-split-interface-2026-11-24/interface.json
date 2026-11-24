@@ -1,0 +1,10 @@
+{
+  "nodes": 62,
+  "source_join": true,
+  "interface_gain_default": 0.0,
+  "map_version": "common-gaussian-map-v1",
+  "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+  "source_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+  "scene_sha": "b46cc7492e3b42a5125147564c2aaabe42cd4e713e3c66c0de54ba43c32ab8e9",
+  "split_builder_git_sha": "1fd07748a0bc668b81715d037e3ee5db8b6cad20"
+}

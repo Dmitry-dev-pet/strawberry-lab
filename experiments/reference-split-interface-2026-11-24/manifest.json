@@ -1,0 +1,137 @@
+{
+  "scene": {
+    "name": "interface.blend",
+    "sha256": "b46cc7492e3b42a5125147564c2aaabe42cd4e713e3c66c0de54ba43c32ab8e9",
+    "bytes": 15418742
+  },
+  "files": {
+    "README.md": {
+      "sha256": "52aa8ad48011b3d28b89409154ce8415434c705702c442f406806885a903edeb",
+      "bytes": 8648
+    },
+    "bite-0.json": {
+      "sha256": "8cca89495bf5caf9ec75a409f58ebc9320d5729dca48af6c4847ca906c362ca3",
+      "bytes": 759
+    },
+    "bite-0.png": {
+      "sha256": "db5119f9834f2fa7503700baaebab2dd9e743ba70aba18ff95a1df0c006ac4b6",
+      "bytes": 636290
+    },
+    "bite-1.json": {
+      "sha256": "3fcf4b870786f9d291491aee1314e2f8335ae4ef75eda9fadb7a9fb7376cbcd1",
+      "bytes": 759
+    },
+    "bite-1.png": {
+      "sha256": "9a4727d92b149e49e5c349ea33ee87c3854384aa64ce59cd6b020e3aa458225e",
+      "bytes": 632877
+    },
+    "build.log": {
+      "sha256": "821dba5583e10406b6ff353fcfee4aa2f5b6f8fb32080ba9124672cad4a31439",
+      "bytes": 625
+    },
+    "build_interface.py": {
+      "sha256": "0dcedd737639135f416627eeef5ab49207fd8243377db70ab2dcae3e7fcfa58c",
+      "bytes": 5757
+    },
+    "comparison.png": {
+      "sha256": "f83545da75d00a8b12c828f88018e256bfc117b8fea002bfbe5a65e59008a9bd",
+      "bytes": 892029
+    },
+    "initial-edge-distance.log": {
+      "sha256": "285a3d3d7f0feac9bae7cac391a3569256b5aa5032446700667189e5c99818e6",
+      "bytes": 3340
+    },
+    "initial-import.log": {
+      "sha256": "14dd064b97000d17acc69a01da5e87c7470b6cc5b25666a050c82b47bc2fd480",
+      "bytes": 1473
+    },
+    "initial-triangulation-change.log": {
+      "sha256": "9f6cd7aa89cc5c48b99aad3c87f4dcfa10599fd07d364a05c65fc427b3821d6b",
+      "bytes": 4387
+    },
+    "interface.json": {
+      "sha256": "11ef4fffae0ef6c13b14ea920375972e78a88330976ffd92faa025376eec7d9b",
+      "bytes": 442
+    },
+    "qa-bite.json": {
+      "sha256": "5f6c88bf75b930e0bec94a5da34faa0d1088be41382af3ad8c0751fa687e5745",
+      "bytes": 8182
+    },
+    "qa-bite.log": {
+      "sha256": "9faacb34e8ad88dafdf3100bb3c13e63f5b2646764cef15a22dd4d35992fd08f",
+      "bytes": 4999
+    },
+    "qa-plane.json": {
+      "sha256": "6d1560a7b424616356c3cd8e320837e1cb0042dcb163652a182a8e786d0fef80",
+      "bytes": 8190
+    },
+    "qa-plane.log": {
+      "sha256": "33dc058cb36e9859c2ea4824f39a8d2c0880e94b3f38910b4bfa348f9bc17493",
+      "bytes": 5004
+    },
+    "qa-tilted.json": {
+      "sha256": "a2f8b7278e7444560189ffd8721ab9f10dee50681e95c9b5b1d2970d60cf1074",
+      "bytes": 8225
+    },
+    "qa-tilted.log": {
+      "sha256": "042abe84a4d34691ef8b12dd3ff41b41b8ff86217853bf4b1e96c196c34fc228",
+      "bytes": 5046
+    },
+    "qa-whole.json": {
+      "sha256": "9b7ff36244d810de85290003c01a88c89f6a4b8854f47972564ceef7ef786627",
+      "bytes": 2359
+    },
+    "qa-whole.log": {
+      "sha256": "93aafa07d150126045e1ba94f0feba09c6a853e32a07a8f0ee31839bdf7c9346",
+      "bytes": 1395
+    },
+    "qa_interface.py": {
+      "sha256": "863d998f92a3ea08ca29003c0545661dcc40c45b25afe56092204261eb09c7f3",
+      "bytes": 6573
+    },
+    "render-bite-0.log": {
+      "sha256": "f7e3e59b3a84a0879f1a4dde0ac984baabedf81547527897b56efc9c2bc1536d",
+      "bytes": 665
+    },
+    "render-bite-1.log": {
+      "sha256": "e8968252be762783d1715d56cb55bf4e366121e9b93b16545c2402fe60b69940",
+      "bytes": 665
+    },
+    "render-comparison.json": {
+      "sha256": "e46879b1cd6cd4ea1c826e64e788fedca9bb30dad72e5fa0233b7f8bf749efe3",
+      "bytes": 3916
+    },
+    "render-tilted-0.log": {
+      "sha256": "900edcc643f8c107a89f899e87822331b3351d7a03b274e9b5a307e73f585bc9",
+      "bytes": 667
+    },
+    "render-tilted-1.log": {
+      "sha256": "4a1c175a55a281671ac45f4cdc85b942ed9ce1d2af383f00c4a395ea3f0b1b5b",
+      "bytes": 667
+    },
+    "render_interface.py": {
+      "sha256": "6f6d3aea94a3fbe66deb264eca32118237a54e55afa49e35e387bfd1574af192",
+      "bytes": 1473
+    },
+    "summary.json": {
+      "sha256": "823003b6b2f74ceb397ba692d177cc4fae755e44b8daab5a104d421c1d40db58",
+      "bytes": 35163
+    },
+    "tilted-0.json": {
+      "sha256": "cf7508c861b4b74c7f439fc99540cb4615a20860c5bcd7d11a2a58c88ab157f1",
+      "bytes": 761
+    },
+    "tilted-0.png": {
+      "sha256": "52b369d6882960d553529b208159b14b4bd6e29fd9b11ce5fc671a233b76646d",
+      "bytes": 373044
+    },
+    "tilted-1.json": {
+      "sha256": "ab749c4ccaf94bfc5639c84c63cf36dec3039a4ec14da50d68695b2f51411f59",
+      "bytes": 761
+    },
+    "tilted-1.png": {
+      "sha256": "588ba5cadf66bdd3f85931c609e0c25de9192cfc0b4c47f24e9efad458388820",
+      "bytes": 373197
+    }
+  }
+}
