@@ -1,0 +1,215 @@
+{
+  "source_sha": "d147164be18c2feecd170568b46df698ad3882c48f7f9645fc758d07fd81a0a0",
+  "scene_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+  "pose_gate_pass": 4,
+  "mode_observations": 10,
+  "render_count": 5,
+  "visual_acceptance": false,
+  "results": [
+    {
+      "pose": "whole",
+      "source_sha": "d147164be18c2feecd170568b46df698ad3882c48f7f9645fc758d07fd81a0a0",
+      "scene_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+      "mode_checks": [
+        {
+          "mode": 0,
+          "evaluated_driver": 0.0,
+          "geometry_and_juice_equal": true
+        },
+        {
+          "mode": 1,
+          "evaluated_driver": 1.0,
+          "geometry_and_juice_equal": true
+        },
+        {
+          "mode": 2,
+          "evaluated_driver": 2.0,
+          "geometry_and_juice_equal": true
+        },
+        {
+          "mode": 0,
+          "evaluated_driver": 0.0,
+          "geometry_and_juice_equal": true
+        }
+      ],
+      "other_material_graphs_equal": true,
+      "original_cap_nodes_equal": true,
+      "fast_bypass_driver_verified": true,
+      "field_ranges": {},
+      "field_scope": "named mesh attributes and independent SSS formula, not per-pixel shader socket sampling",
+      "gate": true,
+      "elapsed_seconds": 8.683156563000011
+    },
+    {
+      "pose": "plane",
+      "source_sha": "d147164be18c2feecd170568b46df698ad3882c48f7f9645fc758d07fd81a0a0",
+      "scene_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+      "mode_checks": [
+        {
+          "mode": 0,
+          "evaluated_driver": 0.0,
+          "geometry_and_juice_equal": true
+        },
+        {
+          "mode": 2,
+          "evaluated_driver": 2.0,
+          "geometry_and_juice_equal": true
+        }
+      ],
+      "other_material_graphs_equal": true,
+      "original_cap_nodes_equal": true,
+      "fast_bypass_driver_verified": true,
+      "field_ranges": {
+        "sl_vascular_core": [
+          0.0,
+          0.7518357038497925
+        ],
+        "sl_vascular_halo": [
+          0.0,
+          0.7574601173400879
+        ],
+        "sl_vascular_ring_relative": [
+          0.240199014544487,
+          1.0
+        ],
+        "sl_cell_dome": [
+          -4.76837158203125e-07,
+          1.0
+        ],
+        "sl_edge_distance_mm": [
+          0.18035218119621277,
+          13.200532913208008
+        ],
+        "independent_sss_scale_mm": [
+          0.13,
+          0.65
+        ]
+      },
+      "field_scope": "named mesh attributes and independent SSS formula, not per-pixel shader socket sampling",
+      "gate": true,
+      "elapsed_seconds": 26.49770990800016
+    },
+    {
+      "pose": "bite",
+      "source_sha": "d147164be18c2feecd170568b46df698ad3882c48f7f9645fc758d07fd81a0a0",
+      "scene_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+      "mode_checks": [
+        {
+          "mode": 0,
+          "evaluated_driver": 0.0,
+          "geometry_and_juice_equal": true
+        },
+        {
+          "mode": 2,
+          "evaluated_driver": 2.0,
+          "geometry_and_juice_equal": true
+        }
+      ],
+      "other_material_graphs_equal": true,
+      "original_cap_nodes_equal": true,
+      "fast_bypass_driver_verified": true,
+      "field_ranges": {
+        "sl_vascular_core": [
+          0.0,
+          0.7346591949462891
+        ],
+        "sl_vascular_halo": [
+          0.0,
+          0.7517257928848267
+        ],
+        "sl_vascular_ring_relative": [
+          0.36447829008102417,
+          1.0
+        ],
+        "sl_cell_dome": [
+          -7.152557373046875e-07,
+          1.0
+        ],
+        "sl_edge_distance_mm": [
+          0.03680175542831421,
+          13.28499984741211
+        ],
+        "independent_sss_scale_mm": [
+          0.13472989153172682,
+          0.65
+        ]
+      },
+      "field_scope": "named mesh attributes and independent SSS formula, not per-pixel shader socket sampling",
+      "gate": true,
+      "elapsed_seconds": 16.422322641999926
+    },
+    {
+      "pose": "tilted",
+      "source_sha": "d147164be18c2feecd170568b46df698ad3882c48f7f9645fc758d07fd81a0a0",
+      "scene_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+      "mode_checks": [
+        {
+          "mode": 0,
+          "evaluated_driver": 0.0,
+          "geometry_and_juice_equal": true
+        },
+        {
+          "mode": 2,
+          "evaluated_driver": 2.0,
+          "geometry_and_juice_equal": true
+        }
+      ],
+      "other_material_graphs_equal": true,
+      "original_cap_nodes_equal": true,
+      "fast_bypass_driver_verified": true,
+      "field_ranges": {
+        "sl_vascular_core": [
+          0.0,
+          0.7333676815032959
+        ],
+        "sl_vascular_halo": [
+          0.0,
+          0.7514196634292603
+        ],
+        "sl_vascular_ring_relative": [
+          0.27088597416877747,
+          1.0
+        ],
+        "sl_cell_dome": [
+          -8.344650268554688e-07,
+          1.0
+        ],
+        "sl_edge_distance_mm": [
+          0.014629393815994263,
+          15.06875991821289
+        ],
+        "independent_sss_scale_mm": [
+          0.13008534916041845,
+          0.65
+        ]
+      },
+      "field_scope": "named mesh attributes and independent SSS formula, not per-pixel shader socket sampling",
+      "gate": true,
+      "elapsed_seconds": 29.882206464999854
+    }
+  ],
+  "comparisons": {
+    "plane-0 vs plane-1": {
+      "mean_abs_channel_difference": 19.941440263605443,
+      "percent_max_channel_gt_2": 35.42474489795918,
+      "percent_max_channel_gt_10": 35.08163265306122
+    },
+    "plane-1 vs plane-2": {
+      "mean_abs_channel_difference": 1.1343165391156462,
+      "percent_max_channel_gt_2": 27.432079081632654,
+      "percent_max_channel_gt_10": 1.0089285714285714
+    },
+    "plane-0 vs plane-2": {
+      "mean_abs_channel_difference": 20.749409013605444,
+      "percent_max_channel_gt_2": 35.45599489795918,
+      "percent_max_channel_gt_10": 35.08577806122449
+    }
+  },
+  "limitations": [
+    "sampled pose .32 mm geometry equality, not exhaustive all-pose or .20 mm regression",
+    "whole checked with initial full-liquid validator; cuts checked with reduced geometry/attribute snapshot validator (0 and 2)",
+    "diagnostic skin, seeds and cavity wall unchanged; no calyx",
+    "not calibrated optical measurements or commercial Frucht graph",
+    "regular pale vascular traces and broad pale area still look stylized"
+  ]
+}

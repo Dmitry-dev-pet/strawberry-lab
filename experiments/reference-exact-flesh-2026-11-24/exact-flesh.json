@@ -1,0 +1,26 @@
+{
+  "material": "SL Split | cut tissue",
+  "palette_srgb": {
+    "inner": "D76559",
+    "outer": "BF1825",
+    "halo": "E7A08B",
+    "core": "EBC2A0",
+    "rim": "9E1420"
+  },
+  "sss_scale_mm": [
+    0.13,
+    0.65
+  ],
+  "sss_weight": 0.58,
+  "sss_radius": [
+    1.0,
+    0.43,
+    0.24
+  ],
+  "default_mode": 0,
+  "new_nodes": 36,
+  "other_materials_unchanged_by_construction": true,
+  "source_sha": "d147164be18c2feecd170568b46df698ad3882c48f7f9645fc758d07fd81a0a0",
+  "scene_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+  "elapsed_seconds": 1.702102381000259
+}
