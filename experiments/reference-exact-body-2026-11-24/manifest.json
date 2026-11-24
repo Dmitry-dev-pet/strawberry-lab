@@ -1,0 +1,204 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 10615,
+      "sha256": "06d9a1fe15cd13c7a791894790a753bc3d5cc8277cb9842838d6182bf19104e2"
+    },
+    "bite-0.json": {
+      "bytes": 793,
+      "sha256": "6f27fc770db7b5e22443b95d2712afe70c95a2c1391e9e3d3ac87c2767df0aeb"
+    },
+    "bite-0.png": {
+      "bytes": 634257,
+      "sha256": "8f7286ee7a769c61c5135d62711c482a9f465d6e33f91ae3189be61e1a76db09"
+    },
+    "bite-1.json": {
+      "bytes": 793,
+      "sha256": "4b41521a1439f7766bd0762d1bfd33fb96e63930c728d06b3ed00a6c6aa5d675"
+    },
+    "bite-1.png": {
+      "bytes": 625736,
+      "sha256": "67ccd8e4669a0e22ee29b1781bbe69cbdd9dfc002349ed3adb5ef32ba3c0921e"
+    },
+    "build-zero.log": {
+      "bytes": 797,
+      "sha256": "da899ca8004b9260697f6c0b4357fb80cb4cbc06e3e4a41378a4314ed358433b"
+    },
+    "build.log": {
+      "bytes": 766,
+      "sha256": "c529c7250f0907c691f79a709eae9265fc8ee57f325ec37d0fc4fdf7f7358ff3"
+    },
+    "build_exact.py": {
+      "bytes": 4945,
+      "sha256": "da0b4b7160979512f9259826ea100c5f0291825bd83cea07ddcfac2335ac4555"
+    },
+    "build_exact_default.py": {
+      "bytes": 4841,
+      "sha256": "822742ca72d74ce40c40872d50edb32c667f79e1b10a5beef6e92c3ba4f3563e"
+    },
+    "comparison.png": {
+      "bytes": 858351,
+      "sha256": "f6ff57246410c8cf336f5838757ab9eb31ea07037dfa860e6df502ea492f6e2c"
+    },
+    "exact-zero.blend": {
+      "bytes": 15425156,
+      "sha256": "36f9ff4a5de1f1d222548d3c827a87df209624d55949643d9ff61449a1460cd6"
+    },
+    "exact-zero.json": {
+      "bytes": 609,
+      "sha256": "eea3c5f2ac3f201e39f4f7a84ef10e1a3a03ffed0eb5865f7ae121f6cb82b484"
+    },
+    "exact.blend": {
+      "bytes": 15425165,
+      "sha256": "102ed16fa3c0d6fc3669a61f71fb2880044a1effdefd716cf703396b4a123eed"
+    },
+    "exact.json": {
+      "bytes": 581,
+      "sha256": "f4b40b3ce33ed5ca22ff5ef133828ad884d1c33b2874cc5e792b89751bdac80f"
+    },
+    "initial-mesh-lifetime.log": {
+      "bytes": 3341,
+      "sha256": "e6d0b4ff48d7fe69a0f0977e5e274a589fa941d38c0ad301ca5161fe16e56a63"
+    },
+    "initial-zero-bite-topology-fail.log": {
+      "bytes": 2253,
+      "sha256": "1fe5e88f4197de5015f241c6b19e3aedd277d3c018981a7800556575892b5445"
+    },
+    "qa-bite-020.json": {
+      "bytes": 2803,
+      "sha256": "442e1f80f32702cf7cff4cffed3da589b208bed60ae5783009fe14d1cc25ca43"
+    },
+    "qa-bite-020.log": {
+      "bytes": 3795,
+      "sha256": "76004898855046280bab94ec6302927650b2c0c9cc212d99b64867d181d2efaf"
+    },
+    "qa-plane-020.json": {
+      "bytes": 2803,
+      "sha256": "2cb269fa02bc4aeff1d0fa12a093d0678417bb8b1aa4cabc3c357250c9f90572"
+    },
+    "qa-plane-020.log": {
+      "bytes": 3804,
+      "sha256": "25292dc5e148a36c58d2649afa5015b1f6aad453e0713e80eec679913b126d81"
+    },
+    "qa-plane-032.json": {
+      "bytes": 2809,
+      "sha256": "7a2faa1ce9a79596373dbd4bb589b77da2299939c0bc0d090ccc316dd11d0518"
+    },
+    "qa-plane-032.log": {
+      "bytes": 3802,
+      "sha256": "0a4909f99e5639acdeb48bdb15bd1a5a6a4eef748a0d8fa2d26898a46fd23d8c"
+    },
+    "qa-tilted-020.json": {
+      "bytes": 2820,
+      "sha256": "59eb2b26da29ecde3421d4a9d0df180b69b7d2b2d6f4fec1821ff8fb8e60dabe"
+    },
+    "qa-tilted-020.log": {
+      "bytes": 3821,
+      "sha256": "de52965bf26046a6e0084f229c6089c0b7decb9e6a13e96c9cb1f8b058d41dec"
+    },
+    "qa-whole-020.json": {
+      "bytes": 638,
+      "sha256": "13e0d6a6a807cac23365d5a290114d2c55eb6a8748b77d42c68c99ebcaddc7e7"
+    },
+    "qa-whole-020.log": {
+      "bytes": 1965,
+      "sha256": "4e65c7a916f6bf4bb47413f82434691422969d519f97241512958ee26da13535"
+    },
+    "qa-zero-bite-020.json": {
+      "bytes": 3422,
+      "sha256": "5c5c2b878f36edf9f0ad3826b09135459d1dbea81241965bd0b30a0f000bf962"
+    },
+    "qa-zero-bite-020.log": {
+      "bytes": 4144,
+      "sha256": "be2692c286d46dee70348dd31c1e9c8963c9f4d26aa3e74333a2622becc7af3d"
+    },
+    "qa-zero-plane-020.json": {
+      "bytes": 2810,
+      "sha256": "cd844d894b2c37cf844fa32a6a5532cc030d362d1fad0bd4156edcc59d541af2"
+    },
+    "qa-zero-plane-020.log": {
+      "bytes": 3822,
+      "sha256": "257224aab51928404370796e6b2db0505c5d544aec5bda4be8f3f1cf2e6b1134"
+    },
+    "qa-zero-plane-032.json": {
+      "bytes": 2928,
+      "sha256": "1350c2e05dc2ffc4b5c6522d19b0b0a8aa40441b0903b9aeb85d97121700ab48"
+    },
+    "qa-zero-plane-032.log": {
+      "bytes": 3912,
+      "sha256": "e29ceecfc93c6e2d20bab24899e9671317d41c8c9fbc1d1b86e352e0eb086d4a"
+    },
+    "qa-zero-tilted-020.json": {
+      "bytes": 2832,
+      "sha256": "f465e490f217d75ba4bfed6eb1afcf0109ce06e502d7eb9e4679221d3b5e7e78"
+    },
+    "qa-zero-tilted-020.log": {
+      "bytes": 3848,
+      "sha256": "6f201837b15841933dda2027c97e1b03425d53b901cccadde2a7aaa4b03ab0ef"
+    },
+    "qa-zero-whole-020.json": {
+      "bytes": 638,
+      "sha256": "e43fe572ddabce0c7d6dedd18fa9316197e1ff63c8582a12b7984a9059f56f15"
+    },
+    "qa-zero-whole-020.log": {
+      "bytes": 1981,
+      "sha256": "01f737442a176e92a7e87415df91b3193911f55afaffa100e4b3ccb3bd167028"
+    },
+    "qa_exact.py": {
+      "bytes": 11495,
+      "sha256": "75de6268573f42e777a901f82b6dc6b2461c01270f3649cb10306dbc6eb14e15"
+    },
+    "render-bite-0.log": {
+      "bytes": 668,
+      "sha256": "b0a1e9bfb4a863ee34d6c3211d8d0a619d4a267deb36cd5ab81660959afacf76"
+    },
+    "render-bite-1-retry.log": {
+      "bytes": 668,
+      "sha256": "4ce8edfc23fc8c9d01f2bd2eaa5d73055e3eae7fc02d7d3f218587652895e7eb"
+    },
+    "render-bite-1.log": {
+      "bytes": 86,
+      "sha256": "751aaa8fd9e05e37c8f54eb6d207debe548c015d6f67e3e68d92db0ea627470a"
+    },
+    "render-comparison.json": {
+      "bytes": 4094,
+      "sha256": "4f1fa2c370f7be30329a42a613a19f1b29842bf404b92763dea029f4890884ac"
+    },
+    "render-tilted-0.log": {
+      "bytes": 670,
+      "sha256": "e38f7affbd76e03e70f978b0d7db5459a5d0a0b1922ff69de47ba16935893607"
+    },
+    "render-tilted-1.log": {
+      "bytes": 670,
+      "sha256": "c9c66e1cb6093ffbceb86c31ff02c18fd131de35c8d94b5e6dad4bbff6418f02"
+    },
+    "render_exact.py": {
+      "bytes": 1485,
+      "sha256": "bad2957ad3f7df77c865f8f5d70dabae44537d7b1e38231e9f592cdf6aa6e655"
+    },
+    "summary.json": {
+      "bytes": 32698,
+      "sha256": "116cdfeb626372b3fbab9dc74486c8871383976efa22013a8c18610b26ea76eb"
+    },
+    "tilted-0.json": {
+      "bytes": 795,
+      "sha256": "c3336ff733a904b6023839780f9cab5148bdc87a16b7374c5cbe1f75d5012667"
+    },
+    "tilted-0.png": {
+      "bytes": 373504,
+      "sha256": "fd8459574f55094d6199b0cc7dc2e6780e5894ced43cce44cbdb968d28c15908"
+    },
+    "tilted-1.json": {
+      "bytes": 795,
+      "sha256": "5d7327e70531ef7f14f7dddea0d8b29541ba9b26c46d6c76b7cb93851e82efa6"
+    },
+    "tilted-1.png": {
+      "bytes": 371889,
+      "sha256": "c1fa145d4b99cb3f177bd8be40711f6872d85f07d343d9d1b642f35909e08bab"
+    }
+  },
+  "binary_scenes_separate": [
+    "exact.blend",
+    "exact-zero.blend"
+  ]
+}
