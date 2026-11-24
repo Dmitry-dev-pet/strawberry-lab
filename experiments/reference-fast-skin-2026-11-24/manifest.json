@@ -1,0 +1,133 @@
+{
+  "files": {
+    "README.md": {
+      "sha256": "7d29461f0330c56918c2f619b8e1c2f116135eb9ee4fb25f91f57eb35a27c9b0",
+      "bytes": 7570
+    },
+    "bite-A.json": {
+      "sha256": "679aa21d7333d0322211c8b0c0e3269d975e2dbdcca859e499686f50e8039a3a",
+      "bytes": 745
+    },
+    "bite-A.png": {
+      "sha256": "c0803baf4fdbf783b80358a280f71fe021ba5c598d721427fd609790a2821cc6",
+      "bytes": 634265
+    },
+    "bite-B.json": {
+      "sha256": "e26edf44a9f72fb49c29b1db907490311202a26d86f468e9db5921503d22de5c",
+      "bytes": 745
+    },
+    "bite-B.png": {
+      "sha256": "ca0dea68f473454324ead201a7aa6901b814f6020bc6a6fa5bce1ccb09cd50d6",
+      "bytes": 635654
+    },
+    "build.log": {
+      "sha256": "8ed4d59096a5cb8eb487086d82f56251589ebb0e514695349958bca95da71c12",
+      "bytes": 881
+    },
+    "build_fast_skin.py": {
+      "sha256": "e96d003149df53dbe9070b551a0670dd75e00dfe53936da6f07ae0a7cdc33392",
+      "bytes": 3108
+    },
+    "comparison.png": {
+      "sha256": "dadbd2713b8648469ce4e9edbe140d04a430d5bc08ed1e2832d141a19b6e4c9c",
+      "bytes": 847677
+    },
+    "fast-skin.json": {
+      "sha256": "492c5ee06b30352bafa85905ecef2a38842992aad8550a300b05012831687427",
+      "bytes": 696
+    },
+    "qa-bite-020.json": {
+      "sha256": "230acacc20e121281fc30353f2987c3ea6448a5e5b3b11287c34bb2e45bfa8d5",
+      "bytes": 6265
+    },
+    "qa-bite-020.log": {
+      "sha256": "c78006b660a37b121a65621f2b1a2cc9f4b1a1fd8329b069344ff582257c0139",
+      "bytes": 3276
+    },
+    "qa-bite-032.json": {
+      "sha256": "af17c288ff68c59da3bc0d67823808eb68da4a82452e79c929798f90a8b35a8f",
+      "bytes": 6268
+    },
+    "qa-bite-032.log": {
+      "sha256": "02256758612fe47045ec5f9612e4f27cc588c2b806e93f363e7d84815bf17fac",
+      "bytes": 3281
+    },
+    "qa-plane-032.json": {
+      "sha256": "f03c6e6d6949d6580bf250c002c3261d9bb002ed1bc556ec9505ab64d0d681b3",
+      "bytes": 6125
+    },
+    "qa-plane-032.log": {
+      "sha256": "96f4bc794e2955a2db81e7aa4d7c74994b33a732a3f36b3a1f8bea2cb03e7230",
+      "bytes": 3139
+    },
+    "qa-tilted-020.json": {
+      "sha256": "51ec39c8fb81fa1b80fa4de508b4b8f008b74be04ad0711eeb662e90bdfafcc4",
+      "bytes": 6274
+    },
+    "qa-tilted-020.log": {
+      "sha256": "227da8fe013cfe11598e7641c3d6757798435f6084faad95c2bc05ba4362eb09",
+      "bytes": 3285
+    },
+    "qa-tilted-032.json": {
+      "sha256": "ceb5f6f4ddfc086e9566fcdb34e40bfc4cfc0ec400130814dbe17fbc0c045532",
+      "bytes": 6279
+    },
+    "qa-tilted-032.log": {
+      "sha256": "e026a3e2d0c1dfb4cbe2c885710ac3d58ea4a5742c9de318d92be554ade4bac6",
+      "bytes": 3293
+    },
+    "qa-whole-032.json": {
+      "sha256": "1458195b8a4165d523ec4a29282352c3703cbfb2965bf772f0e5d68bf5f2d05d",
+      "bytes": 3401
+    },
+    "qa-whole-032.log": {
+      "sha256": "ed700d987e92f4b89ae3b0c8137158cc058d8d3694434898a70db172b62fa22e",
+      "bytes": 1575
+    },
+    "qa_fast_skin.py": {
+      "sha256": "f002c518f7f3aef9f4e4755db30ae42d84a17a5978e8f3dbd81462fb94228b26",
+      "bytes": 8448
+    },
+    "render-bite-B.log": {
+      "sha256": "3678ea786e534a5a2446dcd496aec73d7f5f1fc32950094c51ebc8aee3b41f42",
+      "bytes": 665
+    },
+    "render-comparison.json": {
+      "sha256": "4dd9a50861d6ee8bb673f9c063da6a557f94c43556038cbc4b3054d9a538166d",
+      "bytes": 3935
+    },
+    "render-tilted-B.log": {
+      "sha256": "cc05d48455cefabf1e48a68bb6389d179ca63dbec12309f667105408060aee2c",
+      "bytes": 667
+    },
+    "render_fast_skin.py": {
+      "sha256": "70fed433aab6390f1822a73eeee01d7ca9cbdd5da077af8834b953d25cc946cd",
+      "bytes": 1402
+    },
+    "summary.json": {
+      "sha256": "a3c0385b7db694742add62661487a07d9d5d59b3d9911a7cf9338db5c35d9e5e",
+      "bytes": 38749
+    },
+    "tilted-A.json": {
+      "sha256": "5964008e4d5a8c04040a82a67b0ee8d23422ba6c3821a386d083f5fab4953704",
+      "bytes": 746
+    },
+    "tilted-A.png": {
+      "sha256": "fd1334e76d775f29837756c3eb9219a2114c830c609ea8b8b591be65546372b9",
+      "bytes": 373512
+    },
+    "tilted-B.json": {
+      "sha256": "f29fcdc7edeb743243fc1e4f3eee3675bfaa6e89e2562a9a69b81ebc0d201732",
+      "bytes": 746
+    },
+    "tilted-B.png": {
+      "sha256": "3466f67e7b083c4ee4a9ac45363e6e10d731648df6c26f9ce5b0bb4cce1b70bf",
+      "bytes": 373694
+    }
+  },
+  "scene": {
+    "name": "fast-skin.blend",
+    "sha256": "c82d664a9c2e9873fd8415658e41c456569852dac23569c63246d770e383fd5e",
+    "bytes": 15415441
+  }
+}
