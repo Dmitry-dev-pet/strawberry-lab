@@ -1,0 +1,85 @@
+{
+  "a": {
+    "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+    "image_sha": "9683532021f361141775f51202c30ff1fc051508ea4c169d178c41298d47aa78",
+    "pose": "plane",
+    "tissue_gain": 0.0,
+    "exact_voxel_mm": 0.2,
+    "engine": "BLENDER_WORKBENCH",
+    "resolution": [
+      700,
+      700
+    ],
+    "camera_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.6292068494294654e-07,
+        -1.0,
+        -120.0
+      ],
+      [
+        0.0,
+        1.0,
+        -1.6292068494294654e-07,
+        24.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "ortho_scale": 55.0,
+    "render_seconds": 12.871590648999927
+  },
+  "b": {
+    "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+    "image_sha": "f9bf058473338fddd665dfc5838d62c120e8d1d28735a440c55d68e7589f7ba9",
+    "pose": "plane",
+    "tissue_gain": 1.0,
+    "exact_voxel_mm": 0.2,
+    "engine": "BLENDER_WORKBENCH",
+    "resolution": [
+      700,
+      700
+    ],
+    "camera_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.6292068494294654e-07,
+        -1.0,
+        -120.0
+      ],
+      [
+        0.0,
+        1.0,
+        -1.6292068494294654e-07,
+        24.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "ortho_scale": 55.0,
+    "render_seconds": 9.475731076000102
+  },
+  "fraction_gt_2": 0.26224897959183674,
+  "fraction_gt_10": 0.07273673469387755,
+  "comparison_sha": "1bcb70c0f9cb754ccb7679054a673e16f9e98266633a9d8ccc9c355764122486"
+}

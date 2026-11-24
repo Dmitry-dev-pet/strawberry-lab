@@ -1,0 +1,40 @@
+{
+  "carriers": 28,
+  "terminals": 264,
+  "segments": 292,
+  "joint_max_mm": 0.0,
+  "seed_offset_mm": [
+    0.9499999999999971,
+    0.9500000000000033
+  ],
+  "tapered_terminals": true,
+  "root_trunk": false,
+  "sampled_points": 19976,
+  "min_sampled_inside_margin_mm": 0.579714834690094,
+  "outside_samples": 0,
+  "max_seed_centroid_offset_mm": 0.02497697580638916,
+  "dependency_key": "d90800f97bc7e131d33436726013ec693f4b3f5e181c9adf95dd615a561b92ea",
+  "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+  "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+  "seed_centres_sha": "7bee6bb01461c691b54f7df80dcce365078da24f945fc2619bc9ec39ce5eefd1",
+  "core_sha": "58ec02038cda02d917602c783057e77c74f96d8c9b19222ebd6de4e7dc205ca1",
+  "halo_sha": "7f7cb5d52feebd5a1ba6e978531279a27dd3ae1129f127b2826a1fbdb11f65c1",
+  "ring_sha": "eedd8e9c6e4f67c8ff3f75a3a5f67fc27bc18202fb6d10eb499dde8f2ed03ee6",
+  "raster_core": {
+    "dabs": 34072,
+    "clipped": 0
+  },
+  "raster_halo": {
+    "dabs": 34072,
+    "clipped": 0
+  },
+  "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+  "graph_sha": "e739fcc9f1ff2871108757cebaf323c13c64516797a77cd68a6e640366bd9fcc",
+  "packed_image_sha": "d540e475e343d9b091ee505c9e2cc527a3cb76c7f7b33957f92eb8f325021903",
+  "tissue_nodes": 59,
+  "sampler_nodes": 50,
+  "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+  "source_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+  "elapsed_seconds": 10.987399363999998,
+  "tissue_gain_default": 0.0
+}

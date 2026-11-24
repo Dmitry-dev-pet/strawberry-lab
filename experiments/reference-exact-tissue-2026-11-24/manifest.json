@@ -1,0 +1,156 @@
+{
+  "scene": {
+    "path": "exact-tissue.blend",
+    "sha256": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2"
+  },
+  "field": {
+    "path": "vascular-field.npz",
+    "sha256": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e"
+  },
+  "archive_entries": {
+    "README.md": {
+      "sha256": "72a4bf886b58fa4a1ae6293578ed4e1109ba80016d4a5d2890708a558d1e760d",
+      "bytes": 8608
+    },
+    "build_tissue.py": {
+      "sha256": "d2559e03eb3c51b6c0e6389bb8d18ba752d62e0c40f94ab87af32bed37439c7d",
+      "bytes": 10951
+    },
+    "qa_tissue.py": {
+      "sha256": "f22f741c618602ac1c203a0eef6e23d947f9c1e5414e03128132e0e295b12735",
+      "bytes": 8019
+    },
+    "render_tissue.py": {
+      "sha256": "6dd89adc2a89ec3f377184a51e8f477f9c41b85f3814f60dafb9da682f7373c3",
+      "bytes": 1669
+    },
+    "summary.json": {
+      "sha256": "589cc6a9f987a45a418b3351c283a54ee78ab7fb9a7d8e2d7ac510932324138e",
+      "bytes": 14843
+    },
+    "exact-tissue.json": {
+      "sha256": "a6f4517a6f1339f753bfc565788217b2a48fd38e73c1d55a846a80bee07cf075",
+      "bytes": 1620
+    },
+    "vascular-graph.json": {
+      "sha256": "e739fcc9f1ff2871108757cebaf323c13c64516797a77cd68a6e640366bd9fcc",
+      "bytes": 1592433
+    },
+    "comparison.png": {
+      "sha256": "1bcb70c0f9cb754ccb7679054a673e16f9e98266633a9d8ccc9c355764122486",
+      "bytes": 536021
+    },
+    "render-comparison.json": {
+      "sha256": "2abb3dd31f52af96c2f996b36e45ba92ddc39965bc9cfab8eff4e8cd9669b686",
+      "bytes": 1673
+    },
+    "plane-0.png": {
+      "sha256": "9683532021f361141775f51202c30ff1fc051508ea4c169d178c41298d47aa78",
+      "bytes": 381011
+    },
+    "plane-1.png": {
+      "sha256": "f9bf058473338fddd665dfc5838d62c120e8d1d28735a440c55d68e7589f7ba9",
+      "bytes": 483390
+    },
+    "plane-0.json": {
+      "sha256": "e34123b3c0f1c3cfea349af386e8fbacfc4bf16597153bfb9b52771e487277ae",
+      "bytes": 665
+    },
+    "plane-1.json": {
+      "sha256": "b9985fb7d3276a45d68a6ecd184d4bc05796104550197e356efdbbc843614c72",
+      "bytes": 664
+    },
+    "qa-bite-20.json": {
+      "sha256": "49d3fa3c958bddfc42f47310616b200fa79bf23f47e11089986edb18605982b8",
+      "bytes": 1787
+    },
+    "qa-bite-32.json": {
+      "sha256": "3cae90cd4766736e9cdb8d2c6c65e68a03629dd6832feeebd4c4f331ebe2dfe8",
+      "bytes": 1785
+    },
+    "qa-plane-20.json": {
+      "sha256": "d8924221469b53878652c84ef91f2a17d660a753b7c25df29d135a57735a50d8",
+      "bytes": 1791
+    },
+    "qa-plane-32.json": {
+      "sha256": "c55e3eab43cb80f86d020dd106617edbc7208a7e93ddeedd652e2ffdd6510ac6",
+      "bytes": 1789
+    },
+    "qa-tilted-20.json": {
+      "sha256": "b3bd225a8e07852198f04b9b2d9936fb716f637e6e897d2ec370d655b29aa46d",
+      "bytes": 1790
+    },
+    "qa-whole-20.json": {
+      "sha256": "be2054bbd764a07bc66ee039eb630d5ccaec6b7435e81fd029f157826570bd12",
+      "bytes": 603
+    },
+    "batch.log": {
+      "sha256": "0ad71488c3c60afa9f6ef7cee0fce7d253a8494d094254b48af6fd35ae2b3f1f",
+      "bytes": 153
+    },
+    "build.log": {
+      "sha256": "525addc7f20a7897b1c6f06a16db441e78f068d2ccb541adb53ca655a40b8888",
+      "bytes": 2074
+    },
+    "initial-import.log": {
+      "sha256": "dfc15b617771df35af0931ca355a26224b4804dde576e707630304d882eb6ccc",
+      "bytes": 387
+    },
+    "qa-bite-20.log": {
+      "sha256": "2637f8588f880b196907e4c991ad6e891fe20303a7fd16f44ad4767682776eed",
+      "bytes": 2975
+    },
+    "qa-bite-32.log": {
+      "sha256": "fffd7475a5982da59c754fb7c05667ff27fb6a3a97171c96f370ef01fb293b72",
+      "bytes": 2969
+    },
+    "qa-plane-20.log": {
+      "sha256": "5907e2d26155521b769bddce3350e513a30a8deff0c786f7e05a5ac7c27c5981",
+      "bytes": 1872
+    },
+    "qa-plane-32.log": {
+      "sha256": "49096c5f5cbfcde5a533562d05907c7f6bde6a3242ddbb1a56277003eb148a51",
+      "bytes": 2979
+    },
+    "qa-tilted-20.log": {
+      "sha256": "92609c1e6cb78d02e38b9af5819514125d9a43d4e764e9e4697debe78f217fc5",
+      "bytes": 2982
+    },
+    "qa-whole-20.log": {
+      "sha256": "1ad1a41432f41dde36e8873411dc27acd19b05d869be7eca324cb4c9428df46e",
+      "bytes": 1968
+    },
+    "render-batch.log": {
+      "sha256": "d69a1dcc934d665d99fc72d20328b5e9a371b113ae3d27cf6b243b9baf17f5ed",
+      "bytes": 30
+    },
+    "render-plane-0.log": {
+      "sha256": "f032854a91fd2651790bfb7a1fcc1dc9e95e59419a954dabd7d08b748598c5b8",
+      "bytes": 675
+    },
+    "render-plane-1.log": {
+      "sha256": "b6cfd18b298230416b2ed9c3c351174452be91210b195ed204815e10bd1d42fe",
+      "bytes": 675
+    },
+    "deps/build_split.py": {
+      "sha256": "87a35c5934e31f4b5f733c8132d0541052dacff7e2820884fac57df265e06793",
+      "bytes": 10366
+    },
+    "deps/qa_split.py": {
+      "sha256": "08669f33cbbb05b4c5dc2bddd8dc6423ff0ae28f219bf5627dff6e00d35f10a6",
+      "bytes": 7369
+    },
+    "deps/ring_field.py": {
+      "sha256": "daf6ff513edaca46f60fcb672117f0fe22ee6d4c5c34e20365c7ae227a550b2d",
+      "bytes": 4060
+    },
+    "deps/sampler.py": {
+      "sha256": "837f8de37ac85b06262faa21973aba8eff392ed62b43f702b69e6965df8fe41c",
+      "bytes": 3267
+    },
+    "deps/stock264.json": {
+      "sha256": "23beb6082f419148578ed556cc8dee0b83799b83f499df6453b161d9bb79bde6",
+      "bytes": 318789
+    }
+  }
+}
