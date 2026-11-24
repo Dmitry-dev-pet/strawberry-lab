@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "pose": "plane",
+  "voxel_mm": 0.32,
+  "source_sha256": "2fcc5a8e65273d3ac0f633f887e4f5522da9642c375f5d4499e891bc2889d394",
+  "scene_sha256": "361696819fd44733d560e3f59b101cd11f59862e7ebd7b7f83ce94fd07909963",
+  "same_material_graph_digest": "f44588f23f6c913de95eab8f7054daebb109c95a695b592f89b0e9a25a705cbe",
+  "material_trees_compared": 12,
+  "only_visibility_change": "juice visible_shadow True->False",
+  "juice_topology_sha256": "23e0f350a0f8f836758c7576a6444356471733bc5d43079f26e8c578632db805",
+  "body": {
+    "vertices": 237594,
+    "faces": 237592,
+    "coords_sha": "4bfd207aa5357693f780e786fb9b76312a0fa340c005908c5ad2f45b57c25532",
+    "topology_sha": "c3b6c7c4393da34a2fe9a466b66f34290033d49493e7d938465bef4866794a81"
+  },
+  "juice": {
+    "vertices": 44528,
+    "faces": 36824,
+    "components": 176,
+    "over_two_face_edges": 0,
+    "degenerate_triangles": 0,
+    "clearance_min_mm": -0.17287909984588623,
+    "clearance_max_mm": 0.18405435979366302,
+    "visible_points": 7758,
+    "buried_points": 35217,
+    "boundary_points": 15292,
+    "boundary_above_005_mm": 0,
+    "boundary_max_mm": -0.017999999225139618,
+    "source_cap_points_only": true,
+    "clearance_equation_max_mm_error": 8.195638656616211e-08,
+    "position_equation_max_mm_error": 2.5870072750677764e-09,
+    "liquid_mesh_sha": "55d7b570ced5eb66659c5e32fc644c710d77a50b91e07d163926b1017e8f4fab"
+  }
+}

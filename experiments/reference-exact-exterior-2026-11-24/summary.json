@@ -1,0 +1,124 @@
+{
+  "source_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+  "scene_sha": "d8f86ac4a3fbe69d34ae43a6410583c16c6ddc7d8805886bc28d65d7ed27974a",
+  "pose_gate_pass": 4,
+  "mode_observations": 5,
+  "seed_attribute_observations_colored": 738,
+  "render_count": 5,
+  "visual_acceptance": false,
+  "results": [
+    {
+      "pose": "whole",
+      "source_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+      "scene_sha": "d8f86ac4a3fbe69d34ae43a6410583c16c6ddc7d8805886bc28d65d7ed27974a",
+      "checks": [
+        {
+          "mode": 0,
+          "geometry_equal": true,
+          "seed_attribute_roundtrip_equal": true,
+          "retained_seeds": 264,
+          "driver_values": {
+            "Diagnostic clay | skin": 0.0,
+            "Diagnostic clay | achenes": 0.0
+          }
+        },
+        {
+          "mode": 1,
+          "geometry_equal": true,
+          "seed_attribute_roundtrip_equal": true,
+          "retained_seeds": 264,
+          "driver_values": {
+            "Diagnostic clay | skin": 1.0,
+            "Diagnostic clay | achenes": 1.0
+          }
+        }
+      ],
+      "seed_local_max_error": 2.9799111178618887e-08,
+      "other_materials_equal": true,
+      "original_exterior_nodes_preserved": true,
+      "shared_skin_foundation_and_grade_verified": true,
+      "gate": true,
+      "elapsed_seconds": 6.192237125999782
+    },
+    {
+      "pose": "plane",
+      "source_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+      "scene_sha": "d8f86ac4a3fbe69d34ae43a6410583c16c6ddc7d8805886bc28d65d7ed27974a",
+      "checks": [
+        {
+          "mode": 1,
+          "geometry_equal": true,
+          "seed_attribute_roundtrip_equal": true,
+          "retained_seeds": 130,
+          "driver_values": {
+            "Diagnostic clay | skin": 1.0,
+            "Diagnostic clay | achenes": 1.0
+          }
+        }
+      ],
+      "seed_local_max_error": 2.9799111178618887e-08,
+      "other_materials_equal": true,
+      "original_exterior_nodes_preserved": true,
+      "shared_skin_foundation_and_grade_verified": true,
+      "gate": true,
+      "elapsed_seconds": 24.891616533999695
+    },
+    {
+      "pose": "bite",
+      "source_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+      "scene_sha": "d8f86ac4a3fbe69d34ae43a6410583c16c6ddc7d8805886bc28d65d7ed27974a",
+      "checks": [
+        {
+          "mode": 1,
+          "geometry_equal": true,
+          "seed_attribute_roundtrip_equal": true,
+          "retained_seeds": 227,
+          "driver_values": {
+            "Diagnostic clay | skin": 1.0,
+            "Diagnostic clay | achenes": 1.0
+          }
+        }
+      ],
+      "seed_local_max_error": 2.9799111178618887e-08,
+      "other_materials_equal": true,
+      "original_exterior_nodes_preserved": true,
+      "shared_skin_foundation_and_grade_verified": true,
+      "gate": true,
+      "elapsed_seconds": 14.689578643999994
+    },
+    {
+      "pose": "tilted",
+      "source_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+      "scene_sha": "d8f86ac4a3fbe69d34ae43a6410583c16c6ddc7d8805886bc28d65d7ed27974a",
+      "checks": [
+        {
+          "mode": 1,
+          "geometry_equal": true,
+          "seed_attribute_roundtrip_equal": true,
+          "retained_seeds": 117,
+          "driver_values": {
+            "Diagnostic clay | skin": 1.0,
+            "Diagnostic clay | achenes": 1.0
+          }
+        }
+      ],
+      "seed_local_max_error": 2.9799111178618887e-08,
+      "other_materials_equal": true,
+      "original_exterior_nodes_preserved": true,
+      "shared_skin_foundation_and_grade_verified": true,
+      "gate": true,
+      "elapsed_seconds": 24.88626491299965
+    }
+  ],
+  "whole_comparison": {
+    "mean_absolute_channel_difference": 25.92816326530612,
+    "percent_max_channel_gt_2": 36.376938775510204,
+    "percent_max_channel_gt_10": 35.873673469387754
+  },
+  "limitations": [
+    "ARTIST palette, shader bump and optical parameters; no biological calibration or complete Frucht graph",
+    "No calyx or hairs; macro too smooth, shoulder too pale, highlights broad, cortex too orange",
+    "Four sampled .32 mm pose equality checks, not new contact/intersection or all pose proof",
+    "Exterior mode affects Fast and whole as well as Exact when enabled; default off; grade on revised flesh/wall/skin, not achene shell"
+  ]
+}

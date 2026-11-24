@@ -1,0 +1,207 @@
+{
+  "status": "PASS",
+  "pose": "bite",
+  "voxel_mm": 0.32,
+  "source_sha": "361696819fd44733d560e3f59b101cd11f59862e7ebd7b7f83ce94fd07909963",
+  "candidate_sha": "b2be0f122e1a668536b9d07f5cc05713d7b78fe342dc776e36cf624bbd4d749c",
+  "old_material_trees": 12,
+  "only_replaced_socket": [
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "ShaderNodeBsdfPrincipled",
+      "Base Color"
+    ]
+  ],
+  "removed_link": [
+    "Hue/Saturation/Value",
+    "Color",
+    "Principled BSDF",
+    "Base Color"
+  ],
+  "new_nodes": [
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | sl_cell_dome",
+      "ShaderNodeAttribute"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | sl_vascular_cell_multiplier",
+      "ShaderNodeAttribute"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | sl_vascular_core",
+      "ShaderNodeAttribute"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | sl_vascular_halo",
+      "ShaderNodeAttribute"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | sdf_rest_position",
+      "ShaderNodeAttribute"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Actual suppressed cell dome",
+      "ShaderNodeMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Cell interior pigment",
+      "ShaderNodeMapRange"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Cortex, same cells as relief",
+      "ShaderNodeMixRGB"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Broad vascular halo weight",
+      "ShaderNodeMapRange"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Warm halo tint",
+      "ShaderNodeMixRGB"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Narrow vascular core weight",
+      "ShaderNodeMapRange"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Subtle core tint",
+      "ShaderNodeMixRGB"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Axis projection",
+      "ShaderNodeVectorMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Rest radius",
+      "ShaderNodeVectorMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Axial position",
+      "ShaderNodeSeparateXYZ"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Axial centre offset",
+      "ShaderNodeMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Squared axial distance",
+      "ShaderNodeMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Spindle falloff exponent",
+      "ShaderNodeMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Smooth axial taper",
+      "ShaderNodeMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Spindle width",
+      "ShaderNodeMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Pith radius BU",
+      "ShaderNodeMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Radius relative to spindle",
+      "ShaderNodeMath"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Reddish pith weight",
+      "ShaderNodeMapRange"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Narrow warm axial tissue",
+      "ShaderNodeMixRGB"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Retain minor source atlas variation",
+      "ShaderNodeMixRGB"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | A/B gain",
+      "ShaderNodeValue"
+    ],
+    [
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Pigment | Original or coherent pigment",
+      "ShaderNodeMixRGB"
+    ]
+  ],
+  "visibility_unchanged": true,
+  "body": {
+    "vertices": 363850,
+    "faces": 363848,
+    "coords_sha": "e9ae045d89968d4ef4fb5aa547b42dd54a9ba9a2de5c4516ae6439a4341d8624",
+    "topology_sha": "0786882e533ba35a202e7eef892715863ac8f6e9e9197d2aa15c323add94b9dd"
+  },
+  "juice": {
+    "vertices": 35612,
+    "faces": 30670,
+    "coords_sha": "5e9b3ec0e88889aa7eb16926c342314350cbea935f0a8160ff365b29903c0bca",
+    "topology_sha": "b8334c991dd70d843bf8711073cb00578f71f39fd45f4fddf7f5a2f5d9229f34"
+  },
+  "unchanged_attributes_and_derived_weights": {
+    "cap_vertices": 49817,
+    "attribute_hashes": {
+      "sdf_rest_position": "41179a648347f9fad4a24e7c4aadcd99fcf2990c097e12a23847f001915b2d5c",
+      "sl_cell_dome": "7ef825dc62c36e3acde708d567427f67caeca206e8c38311ccb2177cad0336e1",
+      "sl_vascular_core": "fbb182524e2aa602709562dbbe4378fe167ed6a10f022a249af9b73c4dbaa6ef",
+      "sl_vascular_halo": "aa8da1a323318d7298b6def9be30968d322bd3566beb528ec4ac624253d70fec",
+      "sl_vascular_cell_multiplier": "733ef26978c125beb6c813892cbf7d5c3a54785d7aabaa949865fefed6db05bb"
+    },
+    "weights": {
+      "cell": {
+        "min": 0.0,
+        "max": 1.0000004768371582,
+        "mean": 0.31929534673690796,
+        "positive_fraction": 0.8656683461468977
+      },
+      "halo": {
+        "min": 0.0,
+        "max": 0.2800001800060272,
+        "mean": 0.0508754588663578,
+        "positive_fraction": 0.4999096693899673
+      },
+      "core": {
+        "min": 0.0,
+        "max": 0.3199999928474426,
+        "mean": 0.010570913553237915,
+        "positive_fraction": 0.1014312383322962
+      },
+      "pith": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "positive_fraction": 0.0
+      }
+    }
+  }
+}

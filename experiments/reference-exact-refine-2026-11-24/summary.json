@@ -1,0 +1,684 @@
+{
+  "source_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+  "scene_sha": "0868e656bc1d4c68c1a0f2b555bb5443f5f2527e34ca8bab0e55a1ae9d656e67",
+  "gate_pass": 6,
+  "gate_total": 6,
+  "seed_contacts": 831,
+  "new_field_sample_observations": 10712,
+  "maximum_field_error": 7.691140419818776e-05,
+  "maximum_inverse_coordinate_error_mm": 2.0435878198554747e-06,
+  "results": [
+    {
+      "pose": "bite",
+      "voxel_mm": 0.2,
+      "source_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "scene_sha": "0868e656bc1d4c68c1a0f2b555bb5443f5f2527e34ca8bab0e55a1ae9d656e67",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "fast_equal": true,
+      "level0_exact_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "baseline": {
+        "vertices": 167798,
+        "faces": 167796,
+        "cap_faces": 26430,
+        "cap_area_p95_mm2": 0.041938672587275495,
+        "cap_area_median_mm2": 0.024805362336337566,
+        "pure_cap_area_p95_mm2": 0.041968133486807335,
+        "pure_cap_faces_above_limit": 8315,
+        "protected_vertices": 141657
+      },
+      "levels": [
+        {
+          "vertices": 176113,
+          "faces": 192741,
+          "cap_faces": 51375,
+          "cap_area_p95_mm2": 0.02727353237569332,
+          "cap_area_median_mm2": 0.01036850456148386,
+          "pure_cap_area_p95_mm2": 0.027136503159999846,
+          "pure_cap_faces_above_limit": 0,
+          "protected_vertices": 141657,
+          "level": 1,
+          "new_vertices": 8315,
+          "expected_selected_faces": 8315,
+          "face_count_expected_match": true,
+          "old_vertices_retained": true,
+          "new_vertices_cap_only": true,
+          "protected_triangles_and_boundary_equal": true,
+          "components": [
+            {
+              "vertices": 170071,
+              "volume_mm3": 18870.281064111412
+            },
+            {
+              "vertices": 6042,
+              "volume_mm3": -99.41458768966393
+            }
+          ],
+          "topology": {
+            "vertices": 176113,
+            "faces": 192741,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 18770.857416509552,
+            "degenerate_triangles": 0
+          },
+          "centroid_max_error_mm": 3.960906724387314e-06,
+          "new_point_inverse_max_error_mm": 0.0,
+          "field_samples": 2048,
+          "field_error": {
+            "core": 6.188075931903847e-05,
+            "halo": 5.047388928036689e-05,
+            "ring_relative": 3.4986088084387745e-06
+          },
+          "gate": true
+        },
+        {
+          "vertices": 176113,
+          "faces": 192741,
+          "cap_faces": 51375,
+          "cap_area_p95_mm2": 0.02727353237569332,
+          "cap_area_median_mm2": 0.01036850456148386,
+          "pure_cap_area_p95_mm2": 0.027136503159999846,
+          "pure_cap_faces_above_limit": 0,
+          "protected_vertices": 141657,
+          "level": 2,
+          "new_vertices": 0,
+          "expected_selected_faces": 0,
+          "face_count_expected_match": true,
+          "old_vertices_retained": true,
+          "new_vertices_cap_only": true,
+          "protected_triangles_and_boundary_equal": true,
+          "components": [
+            {
+              "vertices": 170071,
+              "volume_mm3": 18870.281064111412
+            },
+            {
+              "vertices": 6042,
+              "volume_mm3": -99.41458768966393
+            }
+          ],
+          "topology": {
+            "vertices": 176113,
+            "faces": 192741,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 18770.857416509552,
+            "degenerate_triangles": 0
+          },
+          "centroid_max_error_mm": null,
+          "new_point_inverse_max_error_mm": 0.0,
+          "field_samples": 0,
+          "field_error": {},
+          "gate": true
+        }
+      ],
+      "protected_vertices_fixed_with_relief": true,
+      "relief_max_mm": 0.14800749719142914,
+      "relief_moved_vertices": 34362,
+      "relief_topology": {
+        "vertices": 176113,
+        "faces": 192741,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 18816.059722699247,
+        "degenerate_triangles": 0
+      },
+      "seed_contacts": [
+        227,
+        227
+      ],
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 42.786805131000165
+    },
+    {
+      "pose": "bite",
+      "voxel_mm": 0.32,
+      "source_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "scene_sha": "0868e656bc1d4c68c1a0f2b555bb5443f5f2527e34ca8bab0e55a1ae9d656e67",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "fast_equal": true,
+      "level0_exact_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "baseline": {
+        "vertices": 65422,
+        "faces": 65418,
+        "cap_faces": 10318,
+        "cap_area_p95_mm2": 0.10751150995492935,
+        "cap_area_median_mm2": 0.06279010698199272,
+        "pure_cap_area_p95_mm2": 0.10751210004091262,
+        "pure_cap_faces_above_limit": 9920,
+        "protected_vertices": 55283
+      },
+      "levels": [
+        {
+          "vertices": 75342,
+          "faces": 95178,
+          "cap_faces": 40078,
+          "cap_area_p95_mm2": 0.027765397448092703,
+          "cap_area_median_mm2": 0.015909754671156406,
+          "pure_cap_area_p95_mm2": 0.02739562503993511,
+          "pure_cap_faces_above_limit": 472,
+          "protected_vertices": 55283,
+          "level": 1,
+          "new_vertices": 9920,
+          "expected_selected_faces": 9920,
+          "face_count_expected_match": true,
+          "old_vertices_retained": true,
+          "new_vertices_cap_only": true,
+          "protected_triangles_and_boundary_equal": true,
+          "components": [
+            {
+              "vertices": 73028,
+              "volume_mm3": 18869.08769451944
+            },
+            {
+              "vertices": 2314,
+              "volume_mm3": -98.34774200168042
+            }
+          ],
+          "topology": {
+            "vertices": 75342,
+            "faces": 95178,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 18770.777714111227,
+            "degenerate_triangles": 0
+          },
+          "centroid_max_error_mm": 3.960906724387314e-06,
+          "new_point_inverse_max_error_mm": 0.0,
+          "field_samples": 2048,
+          "field_error": {
+            "core": 4.539602440523094e-05,
+            "halo": 4.548378849872359e-05,
+            "ring_relative": 3.8097355106181396e-06
+          },
+          "gate": true
+        },
+        {
+          "vertices": 75814,
+          "faces": 96122,
+          "cap_faces": 41022,
+          "cap_area_p95_mm2": 0.027201197203248737,
+          "cap_area_median_mm2": 0.015503067057579756,
+          "pure_cap_area_p95_mm2": 0.026921235490590334,
+          "pure_cap_faces_above_limit": 0,
+          "protected_vertices": 55283,
+          "level": 2,
+          "new_vertices": 472,
+          "expected_selected_faces": 472,
+          "face_count_expected_match": true,
+          "old_vertices_retained": true,
+          "new_vertices_cap_only": true,
+          "protected_triangles_and_boundary_equal": true,
+          "components": [
+            {
+              "vertices": 73500,
+              "volume_mm3": 18869.087694304493
+            },
+            {
+              "vertices": 2314,
+              "volume_mm3": -98.34774200168042
+            }
+          ],
+          "topology": {
+            "vertices": 75814,
+            "faces": 96122,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 18770.77771389633,
+            "degenerate_triangles": 0
+          },
+          "centroid_max_error_mm": 7.68876816437114e-06,
+          "new_point_inverse_max_error_mm": 0.0,
+          "field_samples": 472,
+          "field_error": {
+            "core": 7.691140419818776e-05,
+            "halo": 4.076681141723659e-05,
+            "ring_relative": 3.5268323189674433e-06
+          },
+          "gate": true
+        }
+      ],
+      "protected_vertices_fixed_with_relief": true,
+      "relief_max_mm": 0.1479780077934265,
+      "relief_moved_vertices": 20503,
+      "relief_topology": {
+        "vertices": 75814,
+        "faces": 96122,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 18815.999470387356,
+        "degenerate_triangles": 0
+      },
+      "seed_contacts": [
+        227,
+        227
+      ],
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 25.914904731999968
+    },
+    {
+      "pose": "plane",
+      "voxel_mm": 0.2,
+      "source_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "scene_sha": "0868e656bc1d4c68c1a0f2b555bb5443f5f2527e34ca8bab0e55a1ae9d656e67",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "fast_equal": true,
+      "level0_exact_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "baseline": {
+        "vertices": 106964,
+        "faces": 106962,
+        "cap_faces": 26705,
+        "cap_area_p95_mm2": 0.040000319480895996,
+        "cap_area_median_mm2": 0.040000081062316895,
+        "pure_cap_area_p95_mm2": 0.040000319480895996,
+        "pure_cap_faces_above_limit": 25698,
+        "protected_vertices": 80764
+      },
+      "levels": [
+        {
+          "vertices": 132662,
+          "faces": 184056,
+          "cap_faces": 103799,
+          "cap_area_p95_mm2": 0.010000231675803661,
+          "cap_area_median_mm2": 0.010000028647482395,
+          "pure_cap_area_p95_mm2": 0.010000225156545639,
+          "pure_cap_faces_above_limit": 0,
+          "protected_vertices": 80764,
+          "level": 1,
+          "new_vertices": 25698,
+          "expected_selected_faces": 25698,
+          "face_count_expected_match": true,
+          "old_vertices_retained": true,
+          "new_vertices_cap_only": true,
+          "protected_triangles_and_boundary_equal": true,
+          "components": [
+            {
+              "vertices": 132662,
+              "volume_mm3": 11378.218827995659
+            }
+          ],
+          "topology": {
+            "vertices": 132662,
+            "faces": 184056,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 11378.215428136084,
+            "degenerate_triangles": 0
+          },
+          "centroid_max_error_mm": 2.1324806311895372e-06,
+          "new_point_inverse_max_error_mm": 0.0,
+          "field_samples": 2048,
+          "field_error": {
+            "core": 5.720804615749753e-05,
+            "halo": 3.3921045837270736e-05,
+            "ring_relative": 3.6092029878087573e-06
+          },
+          "gate": true
+        },
+        {
+          "vertices": 132662,
+          "faces": 184056,
+          "cap_faces": 103799,
+          "cap_area_p95_mm2": 0.010000231675803661,
+          "cap_area_median_mm2": 0.010000028647482395,
+          "pure_cap_area_p95_mm2": 0.010000225156545639,
+          "pure_cap_faces_above_limit": 0,
+          "protected_vertices": 80764,
+          "level": 2,
+          "new_vertices": 0,
+          "expected_selected_faces": 0,
+          "face_count_expected_match": true,
+          "old_vertices_retained": true,
+          "new_vertices_cap_only": true,
+          "protected_triangles_and_boundary_equal": true,
+          "components": [
+            {
+              "vertices": 132662,
+              "volume_mm3": 11378.218827995659
+            }
+          ],
+          "topology": {
+            "vertices": 132662,
+            "faces": 184056,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 11378.215428136084,
+            "degenerate_triangles": 0
+          },
+          "centroid_max_error_mm": null,
+          "new_point_inverse_max_error_mm": 0.0,
+          "field_samples": 0,
+          "field_error": {},
+          "gate": true
+        }
+      ],
+      "protected_vertices_fixed_with_relief": true,
+      "relief_max_mm": 0.14799764752388,
+      "relief_moved_vertices": 51641,
+      "relief_topology": {
+        "vertices": 132662,
+        "faces": 184056,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11443.606895004017,
+        "degenerate_triangles": 0
+      },
+      "seed_contacts": [
+        130,
+        130
+      ],
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 57.655440509999835
+    },
+    {
+      "pose": "plane",
+      "voxel_mm": 0.32,
+      "source_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "scene_sha": "0868e656bc1d4c68c1a0f2b555bb5443f5f2527e34ca8bab0e55a1ae9d656e67",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "fast_equal": true,
+      "level0_exact_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "baseline": {
+        "vertices": 41746,
+        "faces": 41744,
+        "cap_faces": 10405,
+        "cap_area_p95_mm2": 0.10240110754966736,
+        "cap_area_median_mm2": 0.10239988565444946,
+        "pure_cap_area_p95_mm2": 0.1024007797241211,
+        "pure_cap_faces_above_limit": 9785,
+        "protected_vertices": 31652
+      },
+      "levels": [
+        {
+          "vertices": 51531,
+          "faces": 71099,
+          "cap_faces": 39760,
+          "cap_area_p95_mm2": 0.025600409135222435,
+          "cap_area_median_mm2": 0.025599969550967216,
+          "pure_cap_area_p95_mm2": 0.025600256398320198,
+          "pure_cap_faces_above_limit": 0,
+          "protected_vertices": 31652,
+          "level": 1,
+          "new_vertices": 9785,
+          "expected_selected_faces": 9785,
+          "face_count_expected_match": true,
+          "old_vertices_retained": true,
+          "new_vertices_cap_only": true,
+          "protected_triangles_and_boundary_equal": true,
+          "components": [
+            {
+              "vertices": 51531,
+              "volume_mm3": 11374.876217108515
+            }
+          ],
+          "topology": {
+            "vertices": 51531,
+            "faces": 71099,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 11374.900705764358,
+            "degenerate_triangles": 0
+          },
+          "centroid_max_error_mm": 3.932099843950709e-06,
+          "new_point_inverse_max_error_mm": 0.0,
+          "field_samples": 2048,
+          "field_error": {
+            "core": 7.084904415516347e-05,
+            "halo": 4.097868102981295e-05,
+            "ring_relative": 3.353965141839055e-06
+          },
+          "gate": true
+        },
+        {
+          "vertices": 51531,
+          "faces": 71099,
+          "cap_faces": 39760,
+          "cap_area_p95_mm2": 0.025600409135222435,
+          "cap_area_median_mm2": 0.025599969550967216,
+          "pure_cap_area_p95_mm2": 0.025600256398320198,
+          "pure_cap_faces_above_limit": 0,
+          "protected_vertices": 31652,
+          "level": 2,
+          "new_vertices": 0,
+          "expected_selected_faces": 0,
+          "face_count_expected_match": true,
+          "old_vertices_retained": true,
+          "new_vertices_cap_only": true,
+          "protected_triangles_and_boundary_equal": true,
+          "components": [
+            {
+              "vertices": 51531,
+              "volume_mm3": 11374.876217108515
+            }
+          ],
+          "topology": {
+            "vertices": 51531,
+            "faces": 71099,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 11374.900705764358,
+            "degenerate_triangles": 0
+          },
+          "centroid_max_error_mm": null,
+          "new_point_inverse_max_error_mm": 0.0,
+          "field_samples": 0,
+          "field_error": {},
+          "gate": true
+        }
+      ],
+      "protected_vertices_fixed_with_relief": true,
+      "relief_max_mm": 0.1480121612548828,
+      "relief_moved_vertices": 19789,
+      "relief_topology": {
+        "vertices": 51531,
+        "faces": 71099,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11440.191940300456,
+        "degenerate_triangles": 0
+      },
+      "seed_contacts": [
+        130,
+        130
+      ],
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 36.1717915669999
+    },
+    {
+      "pose": "tilted",
+      "voxel_mm": 0.2,
+      "source_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "scene_sha": "0868e656bc1d4c68c1a0f2b555bb5443f5f2527e34ca8bab0e55a1ae9d656e67",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "fast_equal": true,
+      "level0_exact_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "baseline": {
+        "vertices": 123694,
+        "faces": 123692,
+        "cap_faces": 40209,
+        "cap_area_p95_mm2": 0.04400550574064255,
+        "cap_area_median_mm2": 0.028702426701784134,
+        "pure_cap_area_p95_mm2": 0.04400552436709404,
+        "pure_cap_faces_above_limit": 17915,
+        "protected_vertices": 84071
+      },
+      "levels": [
+        {
+          "vertices": 141609,
+          "faces": 177437,
+          "cap_faces": 93954,
+          "cap_area_p95_mm2": 0.026551833376288414,
+          "cap_area_median_mm2": 0.010153398849070072,
+          "pure_cap_area_p95_mm2": 0.025725772604346275,
+          "pure_cap_faces_above_limit": 0,
+          "protected_vertices": 84071,
+          "level": 1,
+          "new_vertices": 17915,
+          "expected_selected_faces": 17915,
+          "face_count_expected_match": true,
+          "old_vertices_retained": true,
+          "new_vertices_cap_only": true,
+          "protected_triangles_and_boundary_equal": true,
+          "components": [
+            {
+              "vertices": 141609,
+              "volume_mm3": 11735.460395159296
+            }
+          ],
+          "topology": {
+            "vertices": 141609,
+            "faces": 177437,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 11735.474245312933,
+            "degenerate_triangles": 0
+          },
+          "centroid_max_error_mm": 2.1457672119140625e-06,
+          "new_point_inverse_max_error_mm": 2.0435878198554747e-06,
+          "field_samples": 2048,
+          "field_error": {
+            "core": 4.965986871963146e-05,
+            "halo": 4.2754937750688615e-05,
+            "ring_relative": 3.4541534682519526e-06
+          },
+          "gate": true
+        },
+        {
+          "vertices": 141609,
+          "faces": 177437,
+          "cap_faces": 93954,
+          "cap_area_p95_mm2": 0.026551833376288414,
+          "cap_area_median_mm2": 0.010153398849070072,
+          "pure_cap_area_p95_mm2": 0.025725772604346275,
+          "pure_cap_faces_above_limit": 0,
+          "protected_vertices": 84071,
+          "level": 2,
+          "new_vertices": 0,
+          "expected_selected_faces": 0,
+          "face_count_expected_match": true,
+          "old_vertices_retained": true,
+          "new_vertices_cap_only": true,
+          "protected_triangles_and_boundary_equal": true,
+          "components": [
+            {
+              "vertices": 141609,
+              "volume_mm3": 11735.460395159296
+            }
+          ],
+          "topology": {
+            "vertices": 141609,
+            "faces": 177437,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 11735.474245312933,
+            "degenerate_triangles": 0
+          },
+          "centroid_max_error_mm": null,
+          "new_point_inverse_max_error_mm": 0.0,
+          "field_samples": 0,
+          "field_error": {},
+          "gate": true
+        }
+      ],
+      "protected_vertices_fixed_with_relief": true,
+      "relief_max_mm": 0.14806684851646423,
+      "relief_moved_vertices": 57428,
+      "relief_topology": {
+        "vertices": 141609,
+        "faces": 177437,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11812.640600156956,
+        "degenerate_triangles": 0
+      },
+      "seed_contacts": [
+        117,
+        117
+      ],
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 60.99449808500003
+    },
+    {
+      "pose": "whole",
+      "voxel_mm": 0.2,
+      "source_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "scene_sha": "0868e656bc1d4c68c1a0f2b555bb5443f5f2527e34ca8bab0e55a1ae9d656e67",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "fast_equal": true,
+      "level0_exact_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "whole_bypass": true,
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 6.391196033999904
+    }
+  ],
+  "limitations": [
+    "area-based face-centre fans preserve original edges; not isotropic edge-length refinement or full Frucht reconstruction",
+    "two-pass limit, default threshold 0.03 mm2, protected boundary collar excluded",
+    "original cut surface may be nonplanar; fan triangulation can change interior triangulation",
+    "whole bypass and Fast unchanged; no general self-intersection or performance proof",
+    "diagnostic Workbench renders only; visual quality and juice/optics remain pending"
+  ]
+}

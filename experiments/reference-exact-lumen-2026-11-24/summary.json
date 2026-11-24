@@ -1,0 +1,407 @@
+{
+  "scene_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+  "source_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+  "gate_pass": 6,
+  "gate_total": 6,
+  "seed_contacts": 831,
+  "wall_vertex_observations": 13089,
+  "cap_boundary_vertex_observations": 3744,
+  "protrusion_probe": [
+    {
+      "voxel_mm": 0.32,
+      "sites_with_interior_sample_in_material": 18,
+      "sites": 18,
+      "samples": 96,
+      "retained_samples": 86
+    },
+    {
+      "voxel_mm": 0.2,
+      "sites_with_interior_sample_in_material": 18,
+      "sites": 18,
+      "samples": 96,
+      "retained_samples": 96
+    }
+  ],
+  "results": [
+    {
+      "pose": "bite",
+      "voxel_mm": 0.2,
+      "source_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "scene_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "fast_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "outer_skin_triangle_counts": [
+        270648,
+        270648
+      ],
+      "outer_skin_missing_triangles": 0,
+      "outer_skin_new_triangles": 0,
+      "body_topology_gain0": {
+        "vertices": 167798,
+        "faces": 167796,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 18770.85744390825,
+        "degenerate_triangles": 0
+      },
+      "body_topology_gain1": {
+        "vertices": 167798,
+        "faces": 167796,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 18816.069247982756,
+        "degenerate_triangles": 0
+      },
+      "components_gain0": [
+        {
+          "vertices": 161756,
+          "signed_volume_mm3": 18870.281033614207
+        },
+        {
+          "vertices": 6042,
+          "signed_volume_mm3": -99.41458768966393
+        }
+      ],
+      "positive_components": 1,
+      "negative_components": 1,
+      "outer_skin_equal": true,
+      "wall_faces": 6042,
+      "cap_faces": 26430,
+      "protected_vertices": 141657,
+      "wall_vertices": 6042,
+      "shared_cap_boundary_vertices": 580,
+      "protected_exactly_fixed": true,
+      "seed_contacts": [
+        227,
+        227
+      ],
+      "tip_probe": {
+        "positive_inside_tissue": 0,
+        "total": 18,
+        "signed_tip_distances_mm": [
+          -0.05794908478856087,
+          -0.012533853820059448,
+          -0.05492451158352196,
+          -0.04125628928159131,
+          -0.05456472001969814,
+          -0.02763351581961615,
+          -0.016561910742893815,
+          -0.040226267214166,
+          -0.012529044406733192,
+          -0.020273975213058293,
+          -0.03263721838811762,
+          -0.011579227750189602,
+          -0.003494170776775718,
+          -0.010792404296807945,
+          -0.0631712575268466,
+          -0.012047111056745052,
+          -0.01053797866916284,
+          -0.03232937795110047
+        ],
+        "note": "nearest actual oriented wall; centre sample, not complete protrusion survival"
+      },
+      "volume_removed_mm3": 99.41676750738407,
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 21.828304365999998
+    },
+    {
+      "pose": "bite",
+      "voxel_mm": 0.32,
+      "source_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "scene_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "fast_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "outer_skin_triangle_counts": [
+        105576,
+        105576
+      ],
+      "outer_skin_missing_triangles": 0,
+      "outer_skin_new_triangles": 0,
+      "body_topology_gain0": {
+        "vertices": 65422,
+        "faces": 65418,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 18770.77781846559,
+        "degenerate_triangles": 0
+      },
+      "body_topology_gain1": {
+        "vertices": 65422,
+        "faces": 65418,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 18815.977258983017,
+        "degenerate_triangles": 0
+      },
+      "components_gain0": [
+        {
+          "vertices": 63108,
+          "signed_volume_mm3": 18869.087585772904
+        },
+        {
+          "vertices": 2314,
+          "signed_volume_mm3": -98.34774200168042
+        }
+      ],
+      "positive_components": 1,
+      "negative_components": 1,
+      "outer_skin_equal": true,
+      "wall_faces": 2312,
+      "cap_faces": 10318,
+      "protected_vertices": 55283,
+      "wall_vertices": 2314,
+      "shared_cap_boundary_vertices": 360,
+      "protected_exactly_fixed": true,
+      "seed_contacts": [
+        227,
+        227
+      ],
+      "tip_probe": {
+        "positive_inside_tissue": 0,
+        "total": 18,
+        "signed_tip_distances_mm": [
+          -0.13939864560961723,
+          -0.01587741868570447,
+          -0.11011436022818089,
+          -0.07671350333839655,
+          -0.04517041571932623,
+          -0.08749494422227144,
+          -0.06910036510089412,
+          -0.15311451547313482,
+          -0.17725341458572075,
+          -0.059860277599000256,
+          -0.08568867482244968,
+          -0.1808094452135265,
+          -0.0424351105466485,
+          -0.06375775719061494,
+          -0.06015527953968558,
+          -0.027011355850845575,
+          -0.06178538501262665,
+          -0.050698092905804515
+        ],
+        "note": "nearest actual oriented wall; centre sample, not complete protrusion survival"
+      },
+      "volume_removed_mm3": 98.34010774023045,
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 14.23453241499999
+    },
+    {
+      "pose": "plane",
+      "voxel_mm": 0.2,
+      "source_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "scene_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "fast_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "outer_skin_triangle_counts": [
+        154742,
+        154742
+      ],
+      "outer_skin_missing_triangles": 0,
+      "outer_skin_new_triangles": 0,
+      "body_topology_gain0": {
+        "vertices": 106964,
+        "faces": 106962,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11378.215132636586,
+        "degenerate_triangles": 0
+      },
+      "body_topology_gain1": {
+        "vertices": 106964,
+        "faces": 106962,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11443.59625207198,
+        "degenerate_triangles": 0
+      },
+      "components_gain0": [
+        {
+          "vertices": 106964,
+          "signed_volume_mm3": 11378.21912346812
+        }
+      ],
+      "positive_components": 1,
+      "negative_components": 0,
+      "outer_skin_equal": true,
+      "wall_faces": 2886,
+      "cap_faces": 26705,
+      "protected_vertices": 80764,
+      "wall_vertices": 2991,
+      "shared_cap_boundary_vertices": 1010,
+      "protected_exactly_fixed": true,
+      "seed_contacts": [
+        130,
+        130
+      ],
+      "tip_probe": null,
+      "volume_removed_mm3": 47.920075930811436,
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 29.27219774699995
+    },
+    {
+      "pose": "plane",
+      "voxel_mm": 0.32,
+      "source_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "scene_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "fast_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "outer_skin_triangle_counts": [
+        60446,
+        60446
+      ],
+      "outer_skin_missing_triangles": 0,
+      "outer_skin_new_triangles": 0,
+      "body_topology_gain0": {
+        "vertices": 41746,
+        "faces": 41744,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11374.899879930106,
+        "degenerate_triangles": 0
+      },
+      "body_topology_gain1": {
+        "vertices": 41746,
+        "faces": 41744,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11440.133696916786,
+        "degenerate_triangles": 0
+      },
+      "components_gain0": [
+        {
+          "vertices": 41746,
+          "signed_volume_mm3": 11374.877042867116
+        }
+      ],
+      "positive_components": 1,
+      "negative_components": 0,
+      "outer_skin_equal": true,
+      "wall_faces": 1116,
+      "cap_faces": 10405,
+      "protected_vertices": 31652,
+      "wall_vertices": 1180,
+      "shared_cap_boundary_vertices": 622,
+      "protected_exactly_fixed": true,
+      "seed_contacts": [
+        130,
+        130
+      ],
+      "tip_probe": null,
+      "volume_removed_mm3": 48.29396627403912,
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 21.08475729299994
+    },
+    {
+      "pose": "tilted",
+      "voxel_mm": 0.2,
+      "source_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "scene_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "fast_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "outer_skin_triangle_counts": [
+        166006,
+        166006
+      ],
+      "outer_skin_missing_triangles": 0,
+      "outer_skin_new_triangles": 0,
+      "body_topology_gain0": {
+        "vertices": 123694,
+        "faces": 123692,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11735.474299451638,
+        "degenerate_triangles": 0
+      },
+      "body_topology_gain1": {
+        "vertices": 123694,
+        "faces": 123692,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11812.626572869101,
+        "degenerate_triangles": 0
+      },
+      "components_gain0": [
+        {
+          "vertices": 123694,
+          "signed_volume_mm3": 11735.46033280683
+        }
+      ],
+      "positive_components": 1,
+      "negative_components": 0,
+      "outer_skin_equal": true,
+      "wall_faces": 480,
+      "cap_faces": 40209,
+      "protected_vertices": 84071,
+      "wall_vertices": 562,
+      "shared_cap_boundary_vertices": 1172,
+      "protected_exactly_fixed": true,
+      "seed_contacts": [
+        117,
+        117
+      ],
+      "tip_probe": null,
+      "volume_removed_mm3": 2.3290286353585543,
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 31.704616281000085
+    },
+    {
+      "pose": "whole",
+      "voxel_mm": 0.2,
+      "source_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "scene_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+      "fast_equal": true,
+      "seed_mesh_equal": true,
+      "raw_stock_equal": true,
+      "whole_display_bypass": true,
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "elapsed_seconds": 5.12633224800004
+    }
+  ],
+  "limitations": [
+    "whole display bypass, cavity evaluated only in Exact cuts",
+    "tip rounding and incomplete fine structure at coarse voxel size",
+    "no continuous attachment or exhaustive self-intersection proof",
+    "no adaptive refinement, juice or production materials"
+  ]
+}

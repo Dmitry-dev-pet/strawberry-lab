@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "pose": "whole",
+  "voxel_mm": 0.32,
+  "body_unchanged_vs_vascular": true,
+  "scene_sha256": "2fcc5a8e65273d3ac0f633f887e4f5522da9642c375f5d4499e891bc2889d394",
+  "states": {
+    "0.0": {
+      "body": {
+        "vertices": 91046,
+        "faces": 91044,
+        "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+        "topology_sha": "907c5d3f9eb01abdc657dca1a771ce81d88a5ddd29740be0442b64f6209cb19c"
+      },
+      "juice": {
+        "vertices": 0,
+        "faces": 0
+      },
+      "seconds": 1.719656601999759
+    },
+    "1.0": {
+      "body": {
+        "vertices": 91046,
+        "faces": 91044,
+        "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+        "topology_sha": "907c5d3f9eb01abdc657dca1a771ce81d88a5ddd29740be0442b64f6209cb19c"
+      },
+      "juice": {
+        "vertices": 0,
+        "faces": 0
+      },
+      "seconds": 1.7395473930000662
+    }
+  }
+}

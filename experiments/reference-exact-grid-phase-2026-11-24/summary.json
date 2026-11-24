@@ -1,0 +1,895 @@
+{
+  "status": "PASS for six sampled states; not arbitrary-cutter guarantee or visual acceptance",
+  "input_sha": "36f9ff4a5de1f1d222548d3c827a87df209624d55949643d9ff61449a1460cd6",
+  "candidate": {
+    "source_sha": "36f9ff4a5de1f1d222548d3c827a87df209624d55949643d9ff61449a1460cd6",
+    "scene_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+    "grid_phase_in_voxels": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "isovalue_mm": 0.0,
+    "node_count": 42,
+    "world_cutter_unchanged": true
+  },
+  "probe": {
+    "source_sha": "36f9ff4a5de1f1d222548d3c827a87df209624d55949643d9ff61449a1460cd6",
+    "build_hash": "cd5dc428cce1",
+    "cutter_origin": [
+      6.0,
+      -13.0,
+      30.0
+    ],
+    "voxel_mm": 0.2,
+    "final": {
+      "vertices": 161780,
+      "faces": 161776,
+      "components": [
+        161772,
+        8
+      ],
+      "small_components": [
+        {
+          "vertices": 8,
+          "triangles": 12,
+          "bounds_mm": [
+            [
+              14.19689655303955,
+              -5.803558826446533,
+              34.99488830566406
+            ],
+            [
+              14.202264785766602,
+              -5.772862911224365,
+              35.008907318115234
+            ]
+          ],
+          "centroid_mm": [
+            14.199580192565918,
+            -5.788210391998291,
+            35.00189971923828
+          ],
+          "analytic_cutter_distances_mm": [
+            -0.0030508041381835938,
+            0.0027923583984375,
+            0.015387535095214844,
+            0.02122211456298828,
+            0.0006170272827148438,
+            0.006459236145019531,
+            0.019049644470214844,
+            0.024883270263671875
+          ],
+          "signed_volume_mm3": 2.3100923588099953e-06,
+          "areas_mm2": [
+            0.00021516320703085512,
+            0.00021516320703085512,
+            3.762866253964603e-05,
+            3.762866253964603e-05,
+            8.239140879595652e-05,
+            8.239140879595652e-05,
+            0.00021516320703085512,
+            0.00021516320703085512,
+            3.762866253964603e-05,
+            3.762866253964603e-05,
+            8.239140879595652e-05,
+            8.239140879595652e-05
+          ]
+        }
+      ],
+      "degenerate": [
+        {
+          "vertices": [
+            109844,
+            109843,
+            109853
+          ],
+          "coords": [
+            [
+              5.999999046325684,
+              -1.0,
+              30.000001907348633
+            ],
+            [
+              5.999999046325684,
+              -1.0,
+              29.999998092651367
+            ],
+            [
+              6.000000953674316,
+              -1.0,
+              29.999998092651367
+            ]
+          ],
+          "area_mm2": 3.637978807091713e-12,
+          "component_size": 161772
+        },
+        {
+          "vertices": [
+            109844,
+            109853,
+            109854
+          ],
+          "coords": [
+            [
+              5.999999046325684,
+              -1.0,
+              30.000001907348633
+            ],
+            [
+              6.000000953674316,
+              -1.0,
+              29.999998092651367
+            ],
+            [
+              6.000000953674316,
+              -1.0,
+              30.000001907348633
+            ]
+          ],
+          "area_mm2": 3.637978807091713e-12,
+          "component_size": 161772
+        }
+      ]
+    },
+    "raw_difference": {
+      "vertices": 161780,
+      "faces": 161776,
+      "components": [
+        161772,
+        8
+      ],
+      "small_components": [
+        {
+          "vertices": 8,
+          "triangles": 12,
+          "bounds_mm": [
+            [
+              14.19689655303955,
+              -5.803558826446533,
+              34.99488830566406
+            ],
+            [
+              14.202264785766602,
+              -5.772862911224365,
+              35.008907318115234
+            ]
+          ],
+          "centroid_mm": [
+            14.199580192565918,
+            -5.788210391998291,
+            35.00189971923828
+          ],
+          "analytic_cutter_distances_mm": [
+            -0.0030508041381835938,
+            0.0027923583984375,
+            0.015387535095214844,
+            0.02122211456298828,
+            0.0006170272827148438,
+            0.006459236145019531,
+            0.019049644470214844,
+            0.024883270263671875
+          ],
+          "signed_volume_mm3": 2.3100923588099953e-06,
+          "areas_mm2": [
+            0.00021516320703085512,
+            0.00021516320703085512,
+            3.762866253964603e-05,
+            3.762866253964603e-05,
+            8.239140879595652e-05,
+            8.239140879595652e-05,
+            0.00021516320703085512,
+            0.00021516320703085512,
+            3.762866253964603e-05,
+            3.762866253964603e-05,
+            8.239140879595652e-05,
+            8.239140879595652e-05
+          ]
+        }
+      ],
+      "degenerate": [
+        {
+          "vertices": [
+            109844,
+            109843,
+            109853
+          ],
+          "coords": [
+            [
+              5.999999046325684,
+              -1.0,
+              30.000001907348633
+            ],
+            [
+              5.999999046325684,
+              -1.0,
+              29.999998092651367
+            ],
+            [
+              6.000000953674316,
+              -1.0,
+              29.999998092651367
+            ]
+          ],
+          "area_mm2": 3.637978807091713e-12,
+          "component_size": 161772
+        },
+        {
+          "vertices": [
+            109844,
+            109853,
+            109854
+          ],
+          "coords": [
+            [
+              5.999999046325684,
+              -1.0,
+              30.000001907348633
+            ],
+            [
+              6.000000953674316,
+              -1.0,
+              29.999998092651367
+            ],
+            [
+              6.000000953674316,
+              -1.0,
+              30.000001907348633
+            ]
+          ],
+          "area_mm2": 3.637978807091713e-12,
+          "component_size": 161772
+        }
+      ]
+    },
+    "uncut_body": {
+      "vertices": 153840,
+      "faces": 153838,
+      "components": [
+        153840
+      ],
+      "small_components": [],
+      "degenerate": []
+    },
+    "cutter_zero_surface": {
+      "vertices": 67688,
+      "faces": 67686,
+      "components": [
+        67688
+      ],
+      "small_components": [],
+      "degenerate": [
+        {
+          "vertices": [
+            23228,
+            23226,
+            23216
+          ],
+          "coords": [
+            [
+              6.000001430511475,
+              -12.999999046325684,
+              18.0
+            ],
+            [
+              6.000001430511475,
+              -13.000001907348633,
+              18.0
+            ],
+            [
+              5.999998569488525,
+              -13.000001907348633,
+              18.0
+            ]
+          ],
+          "area_mm2": 4.092726157978177e-12,
+          "component_size": 67688
+        },
+        {
+          "vertices": [
+            23228,
+            23216,
+            23218
+          ],
+          "coords": [
+            [
+              6.000001430511475,
+              -12.999999046325684,
+              18.0
+            ],
+            [
+              5.999998569488525,
+              -13.000001907348633,
+              18.0
+            ],
+            [
+              5.999998569488525,
+              -12.999999046325684,
+              18.0
+            ]
+          ],
+          "area_mm2": 4.092726157978177e-12,
+          "component_size": 67688
+        },
+        {
+          "vertices": [
+            44247,
+            44245,
+            44255
+          ],
+          "coords": [
+            [
+              5.999998569488525,
+              -12.999999046325684,
+              42.0
+            ],
+            [
+              5.999998569488525,
+              -13.000001907348633,
+              42.0
+            ],
+            [
+              6.000001430511475,
+              -13.000001907348633,
+              42.0
+            ]
+          ],
+          "area_mm2": 4.092726157978177e-12,
+          "component_size": 67688
+        },
+        {
+          "vertices": [
+            44247,
+            44255,
+            44257
+          ],
+          "coords": [
+            [
+              5.999998569488525,
+              -12.999999046325684,
+              42.0
+            ],
+            [
+              6.000001430511475,
+              -13.000001907348633,
+              42.0
+            ],
+            [
+              6.000001430511475,
+              -12.999999046325684,
+              42.0
+            ]
+          ],
+          "area_mm2": 4.092726157978177e-12,
+          "component_size": 67688
+        },
+        {
+          "vertices": [
+            45286,
+            45285,
+            45275
+          ],
+          "coords": [
+            [
+              6.000000953674316,
+              -1.0,
+              30.000001907348633
+            ],
+            [
+              6.000000953674316,
+              -1.0,
+              29.999998092651367
+            ],
+            [
+              5.999999046325684,
+              -1.0,
+              29.999998092651367
+            ]
+          ],
+          "area_mm2": 3.637978807091713e-12,
+          "component_size": 67688
+        },
+        {
+          "vertices": [
+            45286,
+            45275,
+            45276
+          ],
+          "coords": [
+            [
+              6.000000953674316,
+              -1.0,
+              30.000001907348633
+            ],
+            [
+              5.999999046325684,
+              -1.0,
+              29.999998092651367
+            ],
+            [
+              5.999999046325684,
+              -1.0,
+              30.000001907348633
+            ]
+          ],
+          "area_mm2": 3.637978807091713e-12,
+          "component_size": 67688
+        }
+      ]
+    }
+  },
+  "states": [
+    {
+      "pose": "bite",
+      "exact_voxel_mm": 0.2,
+      "fast_voxel_mm": 0.32,
+      "source_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "scene_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "fast_before_identical": true,
+      "seed_hash_identical": true,
+      "exact": {
+        "topology": {
+          "vertices": 161756,
+          "faces": 161754,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 18870.274211415635,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "423cfb55ef2d8b28d42a9f47189f3481514bbc34041b845b57a1d8d7be0f69a4",
+        "triangle_sha": "84a50d4be98894bee468d3161ba757e5541db433cd00593a30c5c35c0d740796",
+        "connected_components": 1,
+        "component_vertex_counts": [
+          161756
+        ],
+        "degenerate_triangles_detail": [],
+        "topology_gate": true,
+        "skin_faces": 135324,
+        "cap_faces": 26430,
+        "shared_material_edges": 580,
+        "shared_edge_components": 1,
+        "shared_edge_bad_valence": 0,
+        "max_inverse_error_mm": 0.0,
+        "max_normal_length_error": 1.7881393432617188e-07,
+        "edge_distance_samples": 4096,
+        "edge_distance_error_mm": 0.0,
+        "clear_cap_probes": 1902,
+        "clear_cap_wrong": 0,
+        "clear_outer_probes": 9972,
+        "clear_outer_wrong": 0,
+        "cutter_signed_near_error_mm": 0.010028889402747154,
+        "minimum_analytic_cutter_margin_mm": -0.009930610656738281,
+        "cap_vertices_analytic_distance_mm": {
+          "min": 3.910064697265625e-05,
+          "median": 0.005980491638183594,
+          "p95": 0.009267807006835938,
+          "max": 0.16553211212158203
+        },
+        "reference_rim_abs_cutter_mm": {
+          "min": 0.00025272369384765625,
+          "median": 0.0503239631652832,
+          "p95": 0.12316107749938965,
+          "max": 0.16553211212158203
+        },
+        "pit_mask_finite": true
+      },
+      "seed_contact": {
+        "retained": 227,
+        "original_stock_contact": 227,
+        "exact_skin_contact": 227,
+        "exact_no_contact_ids": [],
+        "all_retained_complete": true
+      },
+      "pit_probes": {
+        "eligible": 217,
+        "matched": 217,
+        "missing_ids": [],
+        "original_depth_mm": {
+          "min": 0.22420121543109417,
+          "median": 0.3302784599363804,
+          "p95": 0.3985888640396297,
+          "max": 0.4091111496090889
+        },
+        "exact_depth_mm": {
+          "min": 0.22356002405285835,
+          "median": 0.32773973140865564,
+          "p95": 0.3929500229656696,
+          "max": 0.4051358662545681
+        },
+        "median_relative_loss": 0.00768663063347752
+      },
+      "common_boundary_gate": true,
+      "seed_contact_gate": true,
+      "fast_roundtrip_identical": true,
+      "raw_stock_unchanged": true,
+      "blender": "5.2.4 LTS",
+      "elapsed_seconds": 17.60941392699999
+    },
+    {
+      "pose": "bite",
+      "exact_voxel_mm": 0.32,
+      "fast_voxel_mm": 0.32,
+      "source_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "scene_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "fast_before_identical": true,
+      "seed_hash_identical": true,
+      "exact": {
+        "topology": {
+          "vertices": 63108,
+          "faces": 63106,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 18869.11792620582,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "148defe66836c8a9a9bb412e2b387615fcbfd3d02ff229437ab8371a912ec0f3",
+        "triangle_sha": "fe941869508577fb0e608c88bde1ca53317bfdbf7f6c9c55ec9a253ff70013a1",
+        "connected_components": 1,
+        "component_vertex_counts": [
+          63108
+        ],
+        "degenerate_triangles_detail": [],
+        "topology_gate": true,
+        "skin_faces": 52788,
+        "cap_faces": 10318,
+        "shared_material_edges": 360,
+        "shared_edge_components": 1,
+        "shared_edge_bad_valence": 0,
+        "max_inverse_error_mm": 0.0,
+        "max_normal_length_error": 1.1920928955078125e-07,
+        "edge_distance_samples": 4096,
+        "edge_distance_error_mm": 0.0,
+        "clear_cap_probes": 1859,
+        "clear_cap_wrong": 0,
+        "clear_outer_probes": 9933,
+        "clear_outer_wrong": 0,
+        "cutter_signed_near_error_mm": 0.01020282506942749,
+        "minimum_analytic_cutter_margin_mm": -0.010770797729492188,
+        "cap_vertices_analytic_distance_mm": {
+          "min": 0.0002117156982421875,
+          "median": 0.0075283050537109375,
+          "p95": 0.00994882546365261,
+          "max": 0.27768516540527344
+        },
+        "reference_rim_abs_cutter_mm": {
+          "min": 0.002002716064453125,
+          "median": 0.08228254318237305,
+          "p95": 0.19998200237751007,
+          "max": 0.27768516540527344
+        },
+        "pit_mask_finite": true
+      },
+      "seed_contact": {
+        "retained": 227,
+        "original_stock_contact": 227,
+        "exact_skin_contact": 227,
+        "exact_no_contact_ids": [],
+        "all_retained_complete": true
+      },
+      "pit_probes": {
+        "eligible": 217,
+        "matched": 217,
+        "missing_ids": [],
+        "original_depth_mm": {
+          "min": 0.22420121543109417,
+          "median": 0.3302784599363804,
+          "p95": 0.3985888640396297,
+          "max": 0.4091111496090889
+        },
+        "exact_depth_mm": {
+          "min": 0.18424968793988228,
+          "median": 0.3101463206112385,
+          "p95": 0.3793955373577773,
+          "max": 0.39725617691874504
+        },
+        "median_relative_loss": 0.06095504783757266
+      },
+      "common_boundary_gate": true,
+      "seed_contact_gate": true,
+      "fast_roundtrip_identical": true,
+      "raw_stock_unchanged": true,
+      "blender": "5.2.4 LTS",
+      "elapsed_seconds": 13.313662319999992
+    },
+    {
+      "pose": "plane",
+      "exact_voxel_mm": 0.2,
+      "fast_voxel_mm": 0.32,
+      "source_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "scene_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "fast_before_identical": true,
+      "seed_hash_identical": true,
+      "exact": {
+        "topology": {
+          "vertices": 105340,
+          "faces": 105338,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11426.135208567397,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "7162d6285e67b91f640b2ecc37a709b363f9c49f9255a0b55fe0ca216aacd489",
+        "triangle_sha": "1c54b4717a166e8f7c2ca4ce1f28c6010d46b3617689cc3d3a4db485eeccda39",
+        "connected_components": 1,
+        "component_vertex_counts": [
+          105340
+        ],
+        "degenerate_triangles_detail": [],
+        "topology_gate": true,
+        "skin_faces": 77371,
+        "cap_faces": 27967,
+        "shared_material_edges": 802,
+        "shared_edge_components": 1,
+        "shared_edge_bad_valence": 0,
+        "max_inverse_error_mm": 0.0,
+        "max_normal_length_error": 1.1920928955078125e-07,
+        "edge_distance_samples": 4096,
+        "edge_distance_error_mm": 0.0,
+        "clear_cap_probes": 3072,
+        "clear_cap_wrong": 0,
+        "clear_outer_probes": 8686,
+        "clear_outer_wrong": 0,
+        "cutter_signed_near_error_mm": 1.1920928955078125e-07,
+        "minimum_analytic_cutter_margin_mm": 1.043081283569336e-07,
+        "cap_vertices_analytic_distance_mm": {
+          "min": 1.043081283569336e-07,
+          "median": 1.043081283569336e-07,
+          "p95": 1.043081283569336e-07,
+          "max": 0.09429917484521866
+        },
+        "reference_rim_abs_cutter_mm": {
+          "min": 0.012396268546581268,
+          "median": 0.05616718530654907,
+          "p95": 0.08475003093481064,
+          "max": 0.09429917484521866
+        },
+        "pit_mask_finite": true
+      },
+      "seed_contact": {
+        "retained": 130,
+        "original_stock_contact": 130,
+        "exact_skin_contact": 130,
+        "exact_no_contact_ids": [],
+        "all_retained_complete": true
+      },
+      "pit_probes": {
+        "eligible": 117,
+        "matched": 117,
+        "missing_ids": [],
+        "original_depth_mm": {
+          "min": 0.22420121543109417,
+          "median": 0.33339092833921313,
+          "p95": 0.40407540202140807,
+          "max": 0.40854809805750847
+        },
+        "exact_depth_mm": {
+          "min": 0.22356002405285835,
+          "median": 0.3328353692777455,
+          "p95": 0.4004716921597719,
+          "max": 0.4051358662545681
+        },
+        "median_relative_loss": 0.0016663892573057781
+      },
+      "common_boundary_gate": true,
+      "seed_contact_gate": true,
+      "fast_roundtrip_identical": true,
+      "raw_stock_unchanged": true,
+      "blender": "5.2.4 LTS",
+      "elapsed_seconds": 28.001043856000024
+    },
+    {
+      "pose": "plane",
+      "exact_voxel_mm": 0.32,
+      "fast_voxel_mm": 0.32,
+      "source_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "scene_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "fast_before_identical": true,
+      "seed_hash_identical": true,
+      "exact": {
+        "topology": {
+          "vertices": 41128,
+          "faces": 41126,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11423.193846204145,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "ac4c2ca2ab9321d13cf817e50b3c7ae5d08f88544ebeb4393cfdc1b96515796f",
+        "triangle_sha": "3932c8bdff363028260effd7b4e3db5699ac310d5c47c791fbc49a62d84e31cd",
+        "connected_components": 1,
+        "component_vertex_counts": [
+          41128
+        ],
+        "degenerate_triangles_detail": [],
+        "topology_gate": true,
+        "skin_faces": 30223,
+        "cap_faces": 10903,
+        "shared_material_edges": 496,
+        "shared_edge_components": 1,
+        "shared_edge_bad_valence": 0,
+        "max_inverse_error_mm": 0.0,
+        "max_normal_length_error": 1.1920928955078125e-07,
+        "edge_distance_samples": 4096,
+        "edge_distance_error_mm": 0.0,
+        "clear_cap_probes": 3011,
+        "clear_cap_wrong": 0,
+        "clear_outer_probes": 8542,
+        "clear_outer_wrong": 0,
+        "cutter_signed_near_error_mm": 1.1920928955078125e-07,
+        "minimum_analytic_cutter_margin_mm": 8.940696716308594e-08,
+        "cap_vertices_analytic_distance_mm": {
+          "min": 8.940696716308594e-08,
+          "median": 8.940696716308594e-08,
+          "p95": 0.01404055655002577,
+          "max": 0.14875222742557526
+        },
+        "reference_rim_abs_cutter_mm": {
+          "min": 0.019477203488349915,
+          "median": 0.08836546540260315,
+          "p95": 0.13348092138767242,
+          "max": 0.14875222742557526
+        },
+        "pit_mask_finite": true
+      },
+      "seed_contact": {
+        "retained": 130,
+        "original_stock_contact": 130,
+        "exact_skin_contact": 130,
+        "exact_no_contact_ids": [],
+        "all_retained_complete": true
+      },
+      "pit_probes": {
+        "eligible": 117,
+        "matched": 117,
+        "missing_ids": [],
+        "original_depth_mm": {
+          "min": 0.22420121543109417,
+          "median": 0.33339092833921313,
+          "p95": 0.40407540202140807,
+          "max": 0.40854809805750847
+        },
+        "exact_depth_mm": {
+          "min": 0.18424968793988228,
+          "median": 0.31806427240371704,
+          "p95": 0.3847656704485416,
+          "max": 0.39725617691874504
+        },
+        "median_relative_loss": 0.045972024529419064
+      },
+      "common_boundary_gate": true,
+      "seed_contact_gate": true,
+      "fast_roundtrip_identical": true,
+      "raw_stock_unchanged": true,
+      "blender": "5.2.4 LTS",
+      "elapsed_seconds": 18.051813703999983
+    },
+    {
+      "pose": "tilted",
+      "exact_voxel_mm": 0.2,
+      "fast_voxel_mm": 0.32,
+      "source_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "scene_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "fast_before_identical": true,
+      "seed_hash_identical": true,
+      "exact": {
+        "topology": {
+          "vertices": 123638,
+          "faces": 123636,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11737.803328086997,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "5cdf1d92df8ad7abab58adc46ee6d40aa3cfe0adcc982c73a6fc1cc872aa2d6b",
+        "triangle_sha": "dac4e6234867b32451dfbbb4fe25c9ff0b0647af9a55f9c19aa7fdc17b897b36",
+        "connected_components": 1,
+        "component_vertex_counts": [
+          123638
+        ],
+        "degenerate_triangles_detail": [],
+        "topology_gate": true,
+        "skin_faces": 83003,
+        "cap_faces": 40633,
+        "shared_material_edges": 1010,
+        "shared_edge_components": 1,
+        "shared_edge_bad_valence": 0,
+        "max_inverse_error_mm": 2.1280862192440964e-06,
+        "max_normal_length_error": 1.7881393432617188e-07,
+        "edge_distance_samples": 4096,
+        "edge_distance_error_mm": 0.0,
+        "clear_cap_probes": 3819,
+        "clear_cap_wrong": 0,
+        "clear_outer_probes": 7900,
+        "clear_outer_wrong": 0,
+        "cutter_signed_near_error_mm": 1.335962842574645e-06,
+        "minimum_analytic_cutter_margin_mm": -1.2210919733135484e-06,
+        "cap_vertices_analytic_distance_mm": {
+          "min": 3.959149674770401e-09,
+          "median": 2.1029967417485196e-07,
+          "p95": 1.208262678353833e-06,
+          "max": 0.17309851338686322
+        },
+        "reference_rim_abs_cutter_mm": {
+          "min": 8.190206273184231e-07,
+          "median": 0.05686432606935998,
+          "p95": 0.12412718855693615,
+          "max": 0.17309851338686322
+        },
+        "pit_mask_finite": true
+      },
+      "seed_contact": {
+        "retained": 117,
+        "original_stock_contact": 117,
+        "exact_skin_contact": 117,
+        "exact_no_contact_ids": [],
+        "all_retained_complete": true
+      },
+      "pit_probes": {
+        "eligible": 102,
+        "matched": 102,
+        "missing_ids": [],
+        "original_depth_mm": {
+          "min": 0.2116500362753868,
+          "median": 0.31695009395480156,
+          "p95": 0.4116340127773583,
+          "max": 0.4617139569600113
+        },
+        "exact_depth_mm": {
+          "min": 0.21119847521185875,
+          "median": 0.3149819918908179,
+          "p95": 0.41104551199823613,
+          "max": 0.4602940929471515
+        },
+        "median_relative_loss": 0.006209501437359877
+      },
+      "common_boundary_gate": true,
+      "seed_contact_gate": true,
+      "fast_roundtrip_identical": true,
+      "raw_stock_unchanged": true,
+      "blender": "5.2.4 LTS",
+      "elapsed_seconds": 30.53327077
+    },
+    {
+      "pose": "whole",
+      "exact_voxel_mm": 0.2,
+      "fast_voxel_mm": 0.32,
+      "source_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "scene_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "fast_before_identical": true,
+      "seed_hash_identical": true,
+      "whole_original_stock": true,
+      "fast_roundtrip_identical": true,
+      "raw_stock_unchanged": true,
+      "blender": "5.2.4 LTS",
+      "elapsed_seconds": 5.988439572000033
+    }
+  ],
+  "frozen_integrated_sha": "790dc4adbd9025b56e7833c2cedb8ada83c0e9b738ac294f96889fbb52e0e215"
+}

@@ -1,0 +1,408 @@
+{
+  "source_sha256": "790dc4adbd9025b56e7833c2cedb8ada83c0e9b738ac294f96889fbb52e0e215",
+  "blender": "5.2.4 LTS",
+  "mm_per_bu": 22.22222276031971,
+  "params": [
+    0.23000000417232513,
+    -0.11999999731779099,
+    1.0800000429153442
+  ],
+  "role_counts": {
+    "None": 16,
+    "receptacle": 1,
+    "achene": 264,
+    "sepal": 8,
+    "pedicel": 1
+  },
+  "object_count": 290,
+  "seed_count": 264,
+  "seed_vertices_distribution": {
+    "min": 178.0,
+    "p10": 178.0,
+    "median": 178.0,
+    "p90": 178.0,
+    "max": 178.0
+  },
+  "skin_material": "SDF | source skin at true rest_position",
+  "skin_inputs": {
+    "Base Color": {
+      "link": "Mix (Legacy).001",
+      "socket": "Color"
+    },
+    "Roughness": {
+      "link": "Color Ramp.003",
+      "socket": "Color"
+    },
+    "Normal": {
+      "link": "Bump.001",
+      "socket": "Normal"
+    },
+    "Coat Weight": {
+      "value": 0.12999999523162842
+    },
+    "Coat Roughness": {
+      "value": 0.3100000023841858
+    },
+    "Coat Normal": {
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Subsurface Weight": {
+      "value": 0.08500000089406967
+    },
+    "Subsurface Scale": {
+      "value": 0.03824999928474426
+    }
+  },
+  "roughness_ramp": [
+    {
+      "position": 0.20999999344348907,
+      "rgba": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.30000001192092896,
+        1.0
+      ]
+    },
+    {
+      "position": 0.800000011920929,
+      "rgba": [
+        0.38999998569488525,
+        0.38999998569488525,
+        0.38999998569488525,
+        1.0
+      ]
+    }
+  ],
+  "skin_attributes": [
+    "achene_pit",
+    "sdf_rest_position"
+  ],
+  "skin_nodes": [
+    {
+      "name": "Principled BSDF",
+      "label": "",
+      "type": "ShaderNodeBsdfPrincipled"
+    },
+    {
+      "name": "Material Output",
+      "label": "",
+      "type": "ShaderNodeOutputMaterial"
+    },
+    {
+      "name": "Texture Coordinate",
+      "label": "PR29 rest coordinates",
+      "type": "ShaderNodeTexCoord"
+    },
+    {
+      "name": "Noise Texture",
+      "label": "Ripening patches",
+      "type": "ShaderNodeTexNoise"
+    },
+    {
+      "name": "Color Ramp",
+      "label": "Crimson to scarlet",
+      "type": "ShaderNodeValToRGB"
+    },
+    {
+      "name": "Separate XYZ",
+      "label": "Ripeness toward the shoulder",
+      "type": "ShaderNodeSeparateXYZ"
+    },
+    {
+      "name": "Map Range",
+      "label": "Warm shoulder fade",
+      "type": "ShaderNodeMapRange"
+    },
+    {
+      "name": "Color Ramp.001",
+      "label": "Warm shoulder tones",
+      "type": "ShaderNodeValToRGB"
+    },
+    {
+      "name": "Mix (Legacy)",
+      "label": "Fruit colour",
+      "type": "ShaderNodeMixRGB"
+    },
+    {
+      "name": "Attribute",
+      "label": "achene_pit",
+      "type": "ShaderNodeAttribute"
+    },
+    {
+      "name": "Color Ramp.002",
+      "label": "Recess tint weight",
+      "type": "ShaderNodeValToRGB"
+    },
+    {
+      "name": "Mix (Legacy).001",
+      "label": "Shaded pit floor",
+      "type": "ShaderNodeMixRGB"
+    },
+    {
+      "name": "Noise Texture.001",
+      "label": "Fine cuticle relief",
+      "type": "ShaderNodeTexNoise"
+    },
+    {
+      "name": "Color Ramp.003",
+      "label": "Waxy roughness variation",
+      "type": "ShaderNodeValToRGB"
+    },
+    {
+      "name": "Noise Texture.002",
+      "label": "Subtle skin grain",
+      "type": "ShaderNodeTexNoise"
+    },
+    {
+      "name": "Mix (Legacy).002",
+      "label": "Cuticle and skin grain",
+      "type": "ShaderNodeMixRGB"
+    },
+    {
+      "name": "Bump",
+      "label": "Surface relief in mm",
+      "type": "ShaderNodeBump"
+    },
+    {
+      "name": "Vector Math",
+      "label": "Rest units to millimetres",
+      "type": "ShaderNodeVectorMath"
+    },
+    {
+      "name": "Vector Math.001",
+      "label": "Measure height from the tip",
+      "type": "ShaderNodeVectorMath"
+    },
+    {
+      "name": "Bump.001",
+      "label": "Shallow skin relief at achene contacts",
+      "type": "ShaderNodeBump"
+    },
+    {
+      "name": "Separate XYZ.001",
+      "label": "",
+      "type": "ShaderNodeSeparateXYZ"
+    },
+    {
+      "name": "LIVE inverse height",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.001",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.002",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.003",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.004",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.005",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "LIVE inverse shoulder",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.007",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.008",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.009",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.010",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.011",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "LIVE inverse waist",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.013",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.014",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Combine XYZ",
+      "label": "Analytic nonlinear inverse: physical -> original PR29 rest",
+      "type": "ShaderNodeCombineXYZ"
+    },
+    {
+      "name": "Math.015",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "Math.016",
+      "label": "",
+      "type": "ShaderNodeMath"
+    },
+    {
+      "name": "sdf_rest_position",
+      "label": "sdf_rest_position",
+      "type": "ShaderNodeAttribute"
+    }
+  ],
+  "socket_dependencies": {
+    "Base Color": [
+      "Attribute",
+      "Color Ramp",
+      "Color Ramp.001",
+      "Color Ramp.002",
+      "Map Range",
+      "Mix (Legacy)",
+      "Mix (Legacy).001",
+      "Noise Texture",
+      "Separate XYZ",
+      "Vector Math",
+      "Vector Math.001",
+      "sdf_rest_position"
+    ],
+    "Roughness": [
+      "Color Ramp.003",
+      "Noise Texture.001",
+      "Vector Math",
+      "Vector Math.001",
+      "sdf_rest_position"
+    ],
+    "Normal": [
+      "Attribute",
+      "Bump",
+      "Bump.001",
+      "Mix (Legacy).002",
+      "Noise Texture.001",
+      "Noise Texture.002",
+      "Vector Math",
+      "Vector Math.001",
+      "sdf_rest_position"
+    ],
+    "Coat Weight": [],
+    "Coat Roughness": [],
+    "Coat Normal": [],
+    "Subsurface Weight": [],
+    "Subsurface Scale": []
+  },
+  "results": [
+    {
+      "label": "raw source",
+      "verts": 47384,
+      "triangles": 94764,
+      "pit_depth_mm": {
+        "min": 0.13005548057798108,
+        "p10": 0.14863247009704914,
+        "median": 0.1765857908152793,
+        "p90": 0.21379401661846775,
+        "max": 0.25996269340604455
+      },
+      "positive_depths": 264,
+      "seed_triangle_contact_count": 264,
+      "seed_contact_triangle_pairs": {
+        "min": 81.0,
+        "p10": 88.0,
+        "median": 93.0,
+        "p90": 100.0,
+        "max": 125.0
+      },
+      "dimensions_mm": [
+        47.66078567504883,
+        47.21461486816406,
+        51.84000015258789
+      ],
+      "seconds": 0.2957779159999063
+    },
+    {
+      "label": "whole SDF 0.32 mm",
+      "verts": 93370,
+      "triangles": 186736,
+      "pit_depth_mm": {
+        "min": 0.08096707818680918,
+        "p10": 0.11076793827889456,
+        "median": 0.14716664882785485,
+        "p90": 0.1892076192464095,
+        "max": 0.24038823256795244
+      },
+      "positive_depths": 264,
+      "seed_triangle_contact_count": 264,
+      "seed_contact_triangle_pairs": {
+        "min": 78.0,
+        "p10": 84.0,
+        "median": 94.0,
+        "p90": 102.0,
+        "max": 116.0
+      },
+      "dimensions_mm": [
+        47.64369583129883,
+        47.20195388793945,
+        51.702369689941406
+      ],
+      "seconds": 0.3007221370000934
+    },
+    {
+      "label": "whole SDF 0.20 mm",
+      "verts": 239270,
+      "triangles": 478536,
+      "pit_depth_mm": {
+        "min": 0.11665423993612034,
+        "p10": 0.13821412021755794,
+        "median": 0.1677399176609032,
+        "p90": 0.20902558966411608,
+        "max": 0.2522275527288564
+      },
+      "positive_depths": 264,
+      "seed_triangle_contact_count": 264,
+      "seed_contact_triangle_pairs": {
+        "min": 90.0,
+        "p10": 101.0,
+        "median": 112.5,
+        "p90": 125.70000000000002,
+        "max": 139.0
+      },
+      "dimensions_mm": [
+        47.649879455566406,
+        47.20660400390625,
+        51.761077880859375
+      ],
+      "seconds": 0.7644194100000732
+    }
+  ]
+}

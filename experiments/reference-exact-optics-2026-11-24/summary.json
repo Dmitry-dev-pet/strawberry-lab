@@ -1,0 +1,177 @@
+{
+  "scene_sha": "d147164be18c2feecd170568b46df698ad3882c48f7f9645fc758d07fd81a0a0",
+  "source_sha": "250732d06c5c2cfbc24f531612cda2672755ba8cad50afddd0a2a894553954fb",
+  "pose_gate_pass": 2,
+  "mode_observations": 8,
+  "render_count": 5,
+  "visual_acceptance": false,
+  "default_mode": 0,
+  "results": [
+    {
+      "source_sha": "250732d06c5c2cfbc24f531612cda2672755ba8cad50afddd0a2a894553954fb",
+      "scene_sha": "d147164be18c2feecd170568b46df698ad3882c48f7f9645fc758d07fd81a0a0",
+      "pose": "bite",
+      "voxel_mm": 0.32,
+      "modes": [
+        {
+          "mode": 0,
+          "evaluated_driver": 0.0,
+          "body_seed_fast_equal": true,
+          "juice_geometry_attributes_equal": true
+        },
+        {
+          "mode": 1,
+          "evaluated_driver": 1.0,
+          "body_seed_fast_equal": true,
+          "juice_geometry_attributes_equal": true
+        },
+        {
+          "mode": 2,
+          "evaluated_driver": 2.0,
+          "body_seed_fast_equal": true,
+          "juice_geometry_attributes_equal": true
+        },
+        {
+          "mode": 0,
+          "evaluated_driver": 0.0,
+          "body_seed_fast_equal": true,
+          "juice_geometry_attributes_equal": true
+        }
+      ],
+      "juice": {
+        "vertices": 12017,
+        "faces": 18134,
+        "components": 129,
+        "open_boundary_vertices": 5555,
+        "boundary_max_clearance_mm": -0.017999999225139618,
+        "visible_points": 2036,
+        "buried_points": 9572,
+        "max_clearance_mm": 0.14552634954452515,
+        "min_protected_distance_mm": 0.6924918293952942,
+        "over_two_face_or_wire_edges": 0,
+        "inconsistent_edges": 0,
+        "degenerate_triangles": 0,
+        "source_pure_cap_match": true,
+        "normal_height_error_mm": 1.903623342514038e-06,
+        "position_error_mm": 0.0,
+        "pos_sha": "40a57ae42c32dd1cccf8fe20a8b83a838de59bb67ed1e516c7f93ad419769624",
+        "topology_sha": "a3e89962420db0bfa0bdd02ca9677a8f559aace63aae5d91d524e64b2cb8f299"
+      },
+      "transparent_shadow_route": true,
+      "intended_linear_rgb_ranges": [
+        [
+          0.9423233932014994,
+          0.7491632164196129,
+          0.6579323145764816
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "gap_model": "normal clearance proxy, not measured optical path; numerical equation not direct shader sampling",
+      "gate": true,
+      "elapsed_seconds": 22.638100206999752
+    },
+    {
+      "source_sha": "250732d06c5c2cfbc24f531612cda2672755ba8cad50afddd0a2a894553954fb",
+      "scene_sha": "d147164be18c2feecd170568b46df698ad3882c48f7f9645fc758d07fd81a0a0",
+      "pose": "plane",
+      "voxel_mm": 0.32,
+      "modes": [
+        {
+          "mode": 0,
+          "evaluated_driver": 0.0,
+          "body_seed_fast_equal": true,
+          "juice_geometry_attributes_equal": true
+        },
+        {
+          "mode": 1,
+          "evaluated_driver": 1.0,
+          "body_seed_fast_equal": true,
+          "juice_geometry_attributes_equal": true
+        },
+        {
+          "mode": 2,
+          "evaluated_driver": 2.0,
+          "body_seed_fast_equal": true,
+          "juice_geometry_attributes_equal": true
+        },
+        {
+          "mode": 0,
+          "evaluated_driver": 0.0,
+          "body_seed_fast_equal": true,
+          "juice_geometry_attributes_equal": true
+        }
+      ],
+      "juice": {
+        "vertices": 11832,
+        "faces": 17072,
+        "components": 165,
+        "open_boundary_vertices": 6132,
+        "boundary_max_clearance_mm": -0.017999999225139618,
+        "visible_points": 1514,
+        "buried_points": 9935,
+        "max_clearance_mm": 0.16252709925174713,
+        "min_protected_distance_mm": 0.71617192029953,
+        "over_two_face_or_wire_edges": 0,
+        "inconsistent_edges": 0,
+        "degenerate_triangles": 0,
+        "source_pure_cap_match": true,
+        "normal_height_error_mm": 0.0,
+        "position_error_mm": 0.0,
+        "pos_sha": "4255a3fb112cfccd287b1021071b0885602d6423b217d7dee14955b77fced1c5",
+        "topology_sha": "0a81fad8c2b582aeb40a97a6dcc772c03abe36b0ac88f7929b332be0963237da"
+      },
+      "transparent_shadow_route": true,
+      "intended_linear_rgb_ranges": [
+        [
+          0.9358062670731578,
+          0.7243094548096417,
+          0.6265283041694469
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "gap_model": "normal clearance proxy, not measured optical path; numerical equation not direct shader sampling",
+      "gate": true,
+      "elapsed_seconds": 34.515725054000086
+    }
+  ],
+  "comparisons": {
+    "plane-0 vs plane-1": {
+      "mean_absolute_channel_difference": 0.12618344907407408,
+      "percent_max_channel_gt_2": 1.7061631944444444,
+      "percent_max_channel_gt_10": 0.00043402777777777775,
+      "max_channel_difference": 11
+    },
+    "plane-1 vs plane-2": {
+      "mean_absolute_channel_difference": 0.02819878472222222,
+      "percent_max_channel_gt_2": 0.15364583333333331,
+      "percent_max_channel_gt_10": 0.0,
+      "max_channel_difference": 5
+    },
+    "plane-0 vs plane-2": {
+      "mean_absolute_channel_difference": 0.11271556712962963,
+      "percent_max_channel_gt_2": 1.5494791666666667,
+      "percent_max_channel_gt_10": 0.0,
+      "max_channel_difference": 10
+    },
+    "macro-0 vs macro-2": {
+      "mean_absolute_channel_difference": 0.13728153935185186,
+      "percent_max_channel_gt_2": 2.941840277777778,
+      "percent_max_channel_gt_10": 0.0,
+      "max_channel_difference": 9
+    }
+  },
+  "limitations": [
+    "open optical interface not measured optical path",
+    "pale diagnostic clay and high-key light rig",
+    "two pose optical geometry checks",
+    "no calibrated pigment/scattering"
+  ]
+}

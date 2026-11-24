@@ -1,0 +1,11 @@
+{
+  "plane": {
+    "pixels_changed_gt_2_of_255_percent": 23.374131944444446
+  },
+  "macro": {
+    "pixels_changed_gt_2_of_255_percent": 23.40581597222222
+  },
+  "bite": {
+    "pixels_changed_gt_2_of_255_percent": 11.242621527777779
+  }
+}

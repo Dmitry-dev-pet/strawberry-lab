@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scene_sha": "2ccb17510bf46ae7ae3fa1a09eac144144dffb5a5f10c193dae9832b70760973",
+  "voxel_mm": 0.32,
+  "poses": {
+    "whole": {
+      "A": {
+        "vertices": 91046,
+        "faces": 91044,
+        "triangles": 182088,
+        "nonmanifold": 0,
+        "volume_mm3": 38674.90163665786,
+        "degenerate_triangles": 0,
+        "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+        "topology_sha": "907c5d3f9eb01abdc657dca1a771ce81d88a5ddd29740be0442b64f6209cb19c"
+      },
+      "B": {
+        "vertices": 91046,
+        "faces": 91044,
+        "triangles": 182088,
+        "nonmanifold": 0,
+        "volume_mm3": 38674.90163665786,
+        "degenerate_triangles": 0,
+        "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+        "topology_sha": "907c5d3f9eb01abdc657dca1a771ce81d88a5ddd29740be0442b64f6209cb19c"
+      },
+      "A_matches_PR50": true,
+      "seconds_A": 1.636324211000101,
+      "seconds_B": 1.57426350500009,
+      "whole_unchanged": true
+    }
+  },
+  "peak_rss_kib": 820884
+}

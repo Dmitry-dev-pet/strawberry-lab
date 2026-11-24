@@ -1,0 +1,647 @@
+{
+  "scope": "Reference-first independent skin and flesh paths; not final seam or visual acceptance",
+  "source_neutral_sha": "d430ac081f5383148e4f6a6a81f0dfc89fdfc5e8fb7538dd76cf97598398026a",
+  "scene_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+  "prior_control_sha": "790dc4adbd9025b56e7833c2cedb8ada83c0e9b738ac294f96889fbb52e0e215",
+  "qa_states": [
+    {
+      "source_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+      "pose": "whole",
+      "shape": [
+        0,
+        0,
+        1.0
+      ],
+      "voxel_mm": 0.32,
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "skin": {
+        "vertices": 157250,
+        "faces": 157696,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 22328.274121490722,
+        "degenerate_triangles": 0,
+        "original_safe_vertices": 157250,
+        "exact_safe_vertices": 157250,
+        "exact_safe_fraction": 1.0,
+        "position_sha": "d3e63872f1bc5bbbe829ad834ffea5a025b0ddbdf13bd81182e8aeac626479fb",
+        "pit_sha": "52b4fea28303dd5fba33cecff75026e213619ae58f652a76dac51b8501f410a1",
+        "raw_unchanged": true,
+        "rim_abs_cutter_distance_mm": null,
+        "safe_pit_vertex_count": 34366,
+        "retained_pit_attribute_max_error": 0.0
+      },
+      "seeds": {
+        "kept_ids": 264,
+        "vertices": 46992,
+        "min_analytic_cutter_margin_mm": null,
+        "all_kept_solids_complete": true,
+        "position_sha": "8c4a9058b0819ccce47e920d80d28c26db2ad7a11018117ad2e00f456695bf43"
+      },
+      "flesh": {
+        "vertices": 0,
+        "faces": 0,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 0.0,
+        "degenerate_triangles": 0
+      },
+      "elapsed_seconds": 2.9218177029997605,
+      "blender": "5.2.4 LTS",
+      "qa_peak_rss_KiB": 665356
+    },
+    {
+      "source_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+      "pose": "plane",
+      "shape": [
+        0,
+        0,
+        1.0
+      ],
+      "voxel_mm": 0.32,
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "skin": {
+        "vertices": 77395,
+        "faces": 76885,
+        "boundary_edges": 1296,
+        "boundary_components": 1,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11427.83256525824,
+        "degenerate_triangles": 0,
+        "original_safe_vertices": 71277,
+        "exact_safe_vertices": 71277,
+        "exact_safe_fraction": 1.0,
+        "position_sha": "857fb6aafbcb87bc8997b1aaa744f2ffb5edaacafbb3545843640aeca71479e5",
+        "pit_sha": "ccb2b38c9965e17c8a00e1fc9f29ae2d64a8426883799ae59637ffb4fa2135a0",
+        "raw_unchanged": true,
+        "rim_abs_cutter_distance_mm": {
+          "min": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "max": 0.0
+        },
+        "safe_pit_vertex_count": 15735,
+        "retained_pit_attribute_max_error": 0.0
+      },
+      "seeds": {
+        "kept_ids": 130,
+        "vertices": 23140,
+        "min_analytic_cutter_margin_mm": 0.11418092250823975,
+        "all_kept_solids_complete": true,
+        "position_sha": "3878b8f2da31628a503c9cf70a246872431cb72b2a5753003e389c872d5ceb62"
+      },
+      "flesh": {
+        "vertices": 41816,
+        "faces": 41814,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11349.218164213013,
+        "degenerate_triangles": 0,
+        "materials": [
+          null,
+          "SL Split | recessed tissue",
+          "SL Split | cut tissue"
+        ],
+        "cap_faces": 11616,
+        "outer_samples": 9246,
+        "outer_signed_distance_mm": {
+          "min": -0.13712547160685062,
+          "median": -0.10126696713268757,
+          "p95": -0.07280545285902917,
+          "max": -0.022110790014266968
+        },
+        "outer_protrusions_over_0_03mm": 0
+      },
+      "seam": {
+        "samples": 2592,
+        "rim_to_tissue_mm": {
+          "min": 4.4630919546762016e-06,
+          "median": 0.03237738087773323,
+          "p95": 0.05652950480580329,
+          "max": 0.06245666742324829
+        },
+        "over_0_10mm": 0,
+        "over_0_32mm": 0,
+        "criterion": "proximity, not watertight combined topology"
+      },
+      "elapsed_seconds": 3.996051895999699,
+      "blender": "5.2.4 LTS",
+      "qa_peak_rss_KiB": 986020
+    },
+    {
+      "source_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+      "pose": "tilted",
+      "shape": [
+        0.16,
+        -0.1,
+        1.12
+      ],
+      "voxel_mm": 0.32,
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "skin": {
+        "vertices": 62109,
+        "faces": 61367,
+        "boundary_edges": 1278,
+        "boundary_components": 1,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 12372.99313485921,
+        "degenerate_triangles": 0,
+        "original_safe_vertices": 56981,
+        "exact_safe_vertices": 56981,
+        "exact_safe_fraction": 1.0,
+        "position_sha": "e5248c70dcd40aa844c222386a61a716f9d645549b447eafc7fa5cebd4fa1439",
+        "pit_sha": "59583e867f418185eb6afb2bf5b4b176f4d349e84c9f849d6363cf0176c53ce5",
+        "raw_unchanged": true,
+        "rim_abs_cutter_distance_mm": {
+          "min": 1.3020908795624564e-09,
+          "median": 6.978863616724507e-07,
+          "p95": 1.3103442013218104e-06,
+          "max": 1.80928978199546e-06
+        },
+        "safe_pit_vertex_count": 12547,
+        "retained_pit_attribute_max_error": 0.0
+      },
+      "seeds": {
+        "kept_ids": 117,
+        "vertices": 20826,
+        "min_analytic_cutter_margin_mm": 0.11084101005392366,
+        "all_kept_solids_complete": true,
+        "position_sha": "a2841d8c4d0f21d182f0cd0258e16d82c6d1877ce664121ade45ab2228c61795"
+      },
+      "flesh": {
+        "vertices": 48966,
+        "faces": 48964,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11661.734957638477,
+        "degenerate_triangles": 0,
+        "materials": [
+          null,
+          "SL Split | recessed tissue",
+          "SL Split | cut tissue"
+        ],
+        "cap_faces": 16745,
+        "outer_samples": 9802,
+        "outer_signed_distance_mm": {
+          "min": -0.14683874510228634,
+          "median": -0.10113712238307926,
+          "p95": -0.075407687202096,
+          "max": -0.02352825801790459
+        },
+        "outer_protrusions_over_0_03mm": 0
+      },
+      "seam": {
+        "samples": 2556,
+        "rim_to_tissue_mm": {
+          "min": 4.9305977881886065e-05,
+          "median": 0.02488076500594616,
+          "p95": 0.07720793783664703,
+          "max": 0.14785133302211761
+        },
+        "over_0_10mm": 32,
+        "over_0_32mm": 0,
+        "criterion": "proximity, not watertight combined topology"
+      },
+      "elapsed_seconds": 4.4669110679997175,
+      "blender": "5.2.4 LTS",
+      "qa_peak_rss_KiB": 1055368
+    },
+    {
+      "source_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+      "pose": "bite",
+      "shape": [
+        0,
+        0,
+        1.0
+      ],
+      "voxel_mm": 0.32,
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "skin": {
+        "vertices": 146621,
+        "faces": 146533,
+        "boundary_edges": 774,
+        "boundary_components": 1,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 19841.7420805112,
+        "degenerate_triangles": 0,
+        "original_safe_vertices": 144734,
+        "exact_safe_vertices": 144734,
+        "exact_safe_fraction": 1.0,
+        "position_sha": "d0d0ebd781b7f27f8231e2d41edc69c6519988d25f55049e2ea3d8c60ab9b464",
+        "pit_sha": "314fa8d474f90ae049afdff414e46479ce47204bea026c238a504fe39b71b784",
+        "raw_unchanged": true,
+        "rim_abs_cutter_distance_mm": {
+          "min": 9.5367431640625e-07,
+          "median": 0.003657817840576172,
+          "p95": 0.007899235002696514,
+          "max": 0.00995635986328125
+        },
+        "safe_pit_vertex_count": 31354,
+        "retained_pit_attribute_max_error": 0.0
+      },
+      "seeds": {
+        "kept_ids": 227,
+        "vertices": 40406,
+        "min_analytic_cutter_margin_mm": 0.20275115966796875,
+        "all_kept_solids_complete": true,
+        "position_sha": "b5a8b519c5c84182a12d31da3605f0e25db2fb78eb2a83da290388d45c714b06",
+        "triangle_min_sphere_margin_mm": 0.20275115966796875
+      },
+      "flesh": {
+        "vertices": 63872,
+        "faces": 63870,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 18596.960432383767,
+        "degenerate_triangles": 0,
+        "materials": [
+          null,
+          "SL Split | recessed tissue",
+          "SL Split | cut tissue"
+        ],
+        "cap_faces": 10725,
+        "outer_samples": 8550,
+        "outer_signed_distance_mm": {
+          "min": -0.13972148299217224,
+          "median": -0.10126429129741155,
+          "p95": -0.07239072686061264,
+          "max": -0.03152013560429623
+        },
+        "outer_protrusions_over_0_03mm": 0
+      },
+      "seam": {
+        "samples": 1548,
+        "rim_to_tissue_mm": {
+          "min": 4.546736818156205e-05,
+          "median": 0.034221550449728966,
+          "p95": 0.08429063633084294,
+          "max": 0.1737448126077652
+        },
+        "over_0_10mm": 33,
+        "over_0_32mm": 0,
+        "criterion": "proximity, not watertight combined topology"
+      },
+      "elapsed_seconds": 3.654756695999822,
+      "blender": "5.2.4 LTS",
+      "qa_peak_rss_KiB": 813540
+    },
+    {
+      "source_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+      "pose": "tilted",
+      "shape": [
+        0.16,
+        -0.1,
+        1.12
+      ],
+      "voxel_mm": 0.2,
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "skin": {
+        "vertices": 62109,
+        "faces": 61367,
+        "boundary_edges": 1278,
+        "boundary_components": 1,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 12372.99313485921,
+        "degenerate_triangles": 0,
+        "original_safe_vertices": 56981,
+        "exact_safe_vertices": 56981,
+        "exact_safe_fraction": 1.0,
+        "position_sha": "e5248c70dcd40aa844c222386a61a716f9d645549b447eafc7fa5cebd4fa1439",
+        "pit_sha": "59583e867f418185eb6afb2bf5b4b176f4d349e84c9f849d6363cf0176c53ce5",
+        "raw_unchanged": true,
+        "rim_abs_cutter_distance_mm": {
+          "min": 1.3020908795624564e-09,
+          "median": 6.978863616724507e-07,
+          "p95": 1.3103442013218104e-06,
+          "max": 1.80928978199546e-06
+        },
+        "safe_pit_vertex_count": 12547,
+        "retained_pit_attribute_max_error": 0.0
+      },
+      "seeds": {
+        "kept_ids": 117,
+        "vertices": 20826,
+        "min_analytic_cutter_margin_mm": 0.11084101005392366,
+        "all_kept_solids_complete": true,
+        "position_sha": "a2841d8c4d0f21d182f0cd0258e16d82c6d1877ce664121ade45ab2228c61795"
+      },
+      "flesh": {
+        "vertices": 125644,
+        "faces": 125642,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11663.691327525345,
+        "degenerate_triangles": 0,
+        "materials": [
+          null,
+          "SL Split | recessed tissue",
+          "SL Split | cut tissue"
+        ],
+        "cap_faces": 42463,
+        "outer_samples": 8373,
+        "outer_signed_distance_mm": {
+          "min": -0.124484583735466,
+          "median": -0.10036959988065064,
+          "p95": -0.0898969088710146,
+          "max": -0.06265365332365036
+        },
+        "outer_protrusions_over_0_03mm": 0
+      },
+      "seam": {
+        "samples": 2556,
+        "rim_to_tissue_mm": {
+          "min": 0.0004031214630231261,
+          "median": 0.0518423393368721,
+          "p95": 0.08453819528222084,
+          "max": 0.0998869389295578
+        },
+        "over_0_10mm": 0,
+        "over_0_32mm": 0,
+        "criterion": "proximity, not watertight combined topology"
+      },
+      "elapsed_seconds": 7.401348068000516,
+      "blender": "5.2.4 LTS",
+      "qa_peak_rss_KiB": 1693580
+    },
+    {
+      "source_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+      "pose": "bite",
+      "shape": [
+        0,
+        0,
+        1.0
+      ],
+      "voxel_mm": 0.2,
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "skin": {
+        "vertices": 146621,
+        "faces": 146533,
+        "boundary_edges": 774,
+        "boundary_components": 1,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 19841.7420805112,
+        "degenerate_triangles": 0,
+        "original_safe_vertices": 144734,
+        "exact_safe_vertices": 144734,
+        "exact_safe_fraction": 1.0,
+        "position_sha": "d0d0ebd781b7f27f8231e2d41edc69c6519988d25f55049e2ea3d8c60ab9b464",
+        "pit_sha": "314fa8d474f90ae049afdff414e46479ce47204bea026c238a504fe39b71b784",
+        "raw_unchanged": true,
+        "rim_abs_cutter_distance_mm": {
+          "min": 9.5367431640625e-07,
+          "median": 0.003657817840576172,
+          "p95": 0.007899235002696514,
+          "max": 0.00995635986328125
+        },
+        "safe_pit_vertex_count": 31354,
+        "retained_pit_attribute_max_error": 0.0
+      },
+      "seeds": {
+        "kept_ids": 227,
+        "vertices": 40406,
+        "min_analytic_cutter_margin_mm": 0.20275115966796875,
+        "all_kept_solids_complete": true,
+        "position_sha": "b5a8b519c5c84182a12d31da3605f0e25db2fb78eb2a83da290388d45c714b06",
+        "triangle_min_sphere_margin_mm": 0.20275115966796875
+      },
+      "flesh": {
+        "vertices": 163930,
+        "faces": 163928,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 18595.370417318667,
+        "degenerate_triangles": 0,
+        "materials": [
+          null,
+          "SL Split | recessed tissue",
+          "SL Split | cut tissue"
+        ],
+        "cap_faces": 27206,
+        "outer_samples": 8227,
+        "outer_signed_distance_mm": {
+          "min": -0.12424913805443794,
+          "median": -0.1004337603226304,
+          "p95": -0.0890501738875173,
+          "max": -0.0699162760283798
+        },
+        "outer_protrusions_over_0_03mm": 0
+      },
+      "seam": {
+        "samples": 1548,
+        "rim_to_tissue_mm": {
+          "min": 0.00024119147565215826,
+          "median": 0.04798007197678089,
+          "p95": 0.08456642180681227,
+          "max": 0.09807034581899643
+        },
+        "over_0_10mm": 0,
+        "over_0_32mm": 0,
+        "criterion": "proximity, not watertight combined topology"
+      },
+      "elapsed_seconds": 5.175739629000418,
+      "blender": "5.2.4 LTS",
+      "qa_peak_rss_KiB": 875284
+    }
+  ],
+  "exact_safe_coordinates_and_pit_mask_all_states": true,
+  "fine_coarse_skin_and_seed_sha_equal_tilted_and_bite": true,
+  "seam_proximity_limit_mm": 0.1,
+  "coarse_tilted_bite_exceed_limit": true,
+  "fine_tilted_bite_within_limit": true,
+  "joined_watertight_surface_proven": false,
+  "renders": [
+    {
+      "source_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+      "image_sha": "3584f99335a9a137c87f7b997deaf9f59aaa8a6d23a04f9cecfcea0977254b8b",
+      "pose": "whole",
+      "voxel_mm": 0.32,
+      "engine": "BLENDER_WORKBENCH",
+      "resolution": [
+        700,
+        700
+      ],
+      "camera_matrix": [
+        [
+          0.8466365337371826,
+          -0.17793771624565125,
+          0.501542329788208,
+          66.0
+        ],
+        [
+          0.5321715474128723,
+          0.28308266401290894,
+          -0.7979083061218262,
+          -105.0
+        ],
+        [
+          4.134413700285222e-08,
+          0.942444920539856,
+          0.3343615233898163,
+          68.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_ortho_scale": 70,
+      "render_seconds": 4.355489096000383
+    },
+    {
+      "source_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+      "image_sha": "e4e310c403abd3e5420fd66557bdf70969eb8294ac7912096983fb6792f4a415",
+      "pose": "plane",
+      "voxel_mm": 0.32,
+      "engine": "BLENDER_WORKBENCH",
+      "resolution": [
+        700,
+        700
+      ],
+      "camera_matrix": [
+        [
+          0.8466365337371826,
+          -0.17793771624565125,
+          0.501542329788208,
+          66.0
+        ],
+        [
+          0.5321715474128723,
+          0.28308266401290894,
+          -0.7979083061218262,
+          -105.0
+        ],
+        [
+          4.134413700285222e-08,
+          0.942444920539856,
+          0.3343615233898163,
+          68.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_ortho_scale": 70,
+      "render_seconds": 3.72624917200028
+    },
+    {
+      "source_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+      "image_sha": "da6c0a633d06e944ecab17acc90dbff4816d2fa1489c152de19a3ff33ef56677",
+      "pose": "tilted",
+      "voxel_mm": 0.32,
+      "engine": "BLENDER_WORKBENCH",
+      "resolution": [
+        700,
+        700
+      ],
+      "camera_matrix": [
+        [
+          0.8466365337371826,
+          -0.17793771624565125,
+          0.501542329788208,
+          66.0
+        ],
+        [
+          0.5321715474128723,
+          0.28308266401290894,
+          -0.7979083061218262,
+          -105.0
+        ],
+        [
+          4.134413700285222e-08,
+          0.942444920539856,
+          0.3343615233898163,
+          68.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_ortho_scale": 70,
+      "render_seconds": 3.845628917000795
+    },
+    {
+      "source_sha": "6c614f51d9879589d8c57efbf1cb48cbd3dffb7d96b273d5c14e6c2ecdd6f839",
+      "image_sha": "b9fb9fdcb71e09b5c165071824c15801279a241611921bb438080b3e77ed5296",
+      "pose": "bite",
+      "voxel_mm": 0.32,
+      "engine": "BLENDER_WORKBENCH",
+      "resolution": [
+        700,
+        700
+      ],
+      "camera_matrix": [
+        [
+          0.8466365337371826,
+          -0.17793771624565125,
+          0.501542329788208,
+          66.0
+        ],
+        [
+          0.5321715474128723,
+          0.28308266401290894,
+          -0.7979083061218262,
+          -105.0
+        ],
+        [
+          4.134413700285222e-08,
+          0.942444920539856,
+          0.3343615233898163,
+          68.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_ortho_scale": 70,
+      "render_seconds": 4.873839468000369
+    }
+  ]
+}

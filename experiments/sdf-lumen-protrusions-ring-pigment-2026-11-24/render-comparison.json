@@ -1,0 +1,198 @@
+{
+  "Vascular ring: pigment": {
+    "A": {
+      "shot": "plane",
+      "variant": "B",
+      "visible_shadow": false,
+      "juice_gain": 1.0,
+      "cell_gain": 1.0,
+      "vascular_gain": 1.0,
+      "voxel_mm": 0.32,
+      "resolution": 480,
+      "samples": 8,
+      "seed": 1729,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14378738403320312,
+          0.4895212948322296,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.24238461256027222,
+          -0.8251931667327881,
+          -5.900000095367432
+        ],
+        [
+          -6.339892877349484e-08,
+          0.9594659209251404,
+          0.28182461857795715,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "elapsed": 10.161766008000086,
+      "source_sha": "0498a4bb9daf0fbdb15630a052539283e89f117bbe074c2b8762868ba0deb1b0",
+      "png_sha": "6a409d8ca6529c550e8c0bfa24fb86a1263e9aa3ee682a58979af0f6fafd2d79"
+    },
+    "B": {
+      "shot": "plane",
+      "variant": "B",
+      "visible_shadow": false,
+      "juice_gain": 1.0,
+      "cell_gain": 1.0,
+      "vascular_gain": 1.0,
+      "voxel_mm": 0.32,
+      "resolution": 480,
+      "samples": 8,
+      "seed": 1729,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14378738403320312,
+          0.4895212948322296,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.24238461256027222,
+          -0.8251931667327881,
+          -5.900000095367432
+        ],
+        [
+          -6.339892877349484e-08,
+          0.9594659209251404,
+          0.28182461857795715,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "elapsed": 11.090188914999999,
+      "source_sha": "2d540447b36063408808995079295d2c6f3045835e4362216fbc48c6ca78b23d",
+      "png_sha": "243a7619fc7bc15354e9f7d0a76e49ad840b32461f4300fa19fce3a51967e0a6"
+    },
+    "changed_gt_2_255_percent": 28.412326388888886,
+    "changed_gt_10_255_percent": 24.91840277777778,
+    "matched_settings": [
+      "shot",
+      "visible_shadow",
+      "juice_gain",
+      "cell_gain",
+      "vascular_gain",
+      "voxel_mm",
+      "resolution",
+      "samples",
+      "seed",
+      "camera"
+    ]
+  },
+  "Lumen: attached tissue": {
+    "A": {
+      "shot": "plane",
+      "variant": "B",
+      "visible_shadow": false,
+      "juice_gain": 1.0,
+      "cell_gain": 1.0,
+      "vascular_gain": 1.0,
+      "voxel_mm": 0.32,
+      "resolution": 480,
+      "samples": 8,
+      "seed": 1729,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14378738403320312,
+          0.4895212948322296,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.24238461256027222,
+          -0.8251931667327881,
+          -5.900000095367432
+        ],
+        [
+          -6.339892877349484e-08,
+          0.9594659209251404,
+          0.28182461857795715,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "elapsed": 8.591749795999931,
+      "source_sha": "ccd9d4b5e93d000bdaee27a83afa95581fe19a69533493a0f96ce12917574b45",
+      "png_sha": "45f8f87c7429faa8a5bfcb32915597b6a2a01851a1a91a1f1046fa4f6132e8e4"
+    },
+    "B": {
+      "shot": "plane",
+      "variant": "B",
+      "visible_shadow": false,
+      "juice_gain": 1.0,
+      "cell_gain": 1.0,
+      "vascular_gain": 1.0,
+      "voxel_mm": 0.32,
+      "resolution": 480,
+      "samples": 8,
+      "seed": 1729,
+      "camera": [
+        [
+          0.8600546717643738,
+          -0.14378738403320312,
+          0.4895212948322296,
+          3.5
+        ],
+        [
+          0.5102018713951111,
+          0.24238461256027222,
+          -0.8251931667327881,
+          -5.900000095367432
+        ],
+        [
+          -6.339892877349484e-08,
+          0.9594659209251404,
+          0.28182461857795715,
+          2.049999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "elapsed": 7.547456828999202,
+      "source_sha": "03ea71e06d8dd77d47ba76d77da0793c4346dd98dfb34db079185e4862b55117",
+      "png_sha": "aaad8da1ba3679c594eedd2ab369cf90d007ed738d852e5b19864a93caf9881c"
+    },
+    "changed_gt_2_255_percent": 0.4288194444444444,
+    "changed_gt_10_255_percent": 0.14322916666666666,
+    "matched_settings": [
+      "shot",
+      "visible_shadow",
+      "juice_gain",
+      "cell_gain",
+      "vascular_gain",
+      "voxel_mm",
+      "resolution",
+      "samples",
+      "seed",
+      "camera"
+    ]
+  }
+}

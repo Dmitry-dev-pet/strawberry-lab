@@ -1,0 +1,126 @@
+{
+  "source_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+  "scene_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+  "pose_gate_pass": 3,
+  "mode_observations": 4,
+  "render_count": 3,
+  "baseline_frames_reused": 3,
+  "visual_acceptance": false,
+  "results": [
+    {
+      "pose": "whole",
+      "source_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+      "scene_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+      "revision_checks": [
+        {
+          "revision": 0,
+          "actual_driver": 0.0,
+          "geometry_and_juice_equal": true
+        },
+        {
+          "revision": 1,
+          "actual_driver": 1.0,
+          "geometry_and_juice_equal": true
+        }
+      ],
+      "old_material_nodes_and_sss_preserved": true,
+      "other_materials_equal": true,
+      "shared_tissue_and_skin_foundation_verified": true,
+      "grade_driver_values": {
+        "fruit_hue_degrees": 10.0,
+        "fruit_saturation": 0.800000011920929,
+        "fruit_brightness": 0.8999999761581421
+      },
+      "axial_field": {},
+      "fast_bypass_driver_verified": true,
+      "gate": true,
+      "elapsed_seconds": 7.067933710000034
+    },
+    {
+      "pose": "plane",
+      "source_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+      "scene_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+      "revision_checks": [
+        {
+          "revision": 1,
+          "actual_driver": 1.0,
+          "geometry_and_juice_equal": true
+        }
+      ],
+      "old_material_nodes_and_sss_preserved": true,
+      "other_materials_equal": true,
+      "shared_tissue_and_skin_foundation_verified": true,
+      "grade_driver_values": {},
+      "axial_field": {
+        "tip_factor_range": [
+          0.18,
+          1.0
+        ],
+        "rest_z_mm_range": [
+          0.6399999260902405,
+          47.679996490478516
+        ],
+        "samples": 19879
+      },
+      "fast_bypass_driver_verified": false,
+      "gate": true,
+      "elapsed_seconds": 23.450060142999973
+    },
+    {
+      "pose": "bite",
+      "source_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+      "scene_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+      "revision_checks": [
+        {
+          "revision": 1,
+          "actual_driver": 1.0,
+          "geometry_and_juice_equal": true
+        }
+      ],
+      "old_material_nodes_and_sss_preserved": true,
+      "other_materials_equal": true,
+      "shared_tissue_and_skin_foundation_verified": true,
+      "grade_driver_values": {},
+      "axial_field": {
+        "tip_factor_range": [
+          0.998979374441044,
+          1.0
+        ],
+        "rest_z_mm_range": [
+          18.12877082824707,
+          41.966739654541016
+        ],
+        "samples": 20531
+      },
+      "fast_bypass_driver_verified": false,
+      "gate": true,
+      "elapsed_seconds": 13.793179876000067
+    }
+  ],
+  "comparisons": {
+    "plane": {
+      "mean_abs_rgb_delta": 4.8120812074829935,
+      "percent_max_channel_gt_2": 36.666772959183675,
+      "percent_max_channel_gt_10": 30.549426020408166
+    },
+    "macro": {
+      "mean_abs_rgb_delta": 14.907733843537414,
+      "percent_max_channel_gt_2": 99.63265306122449,
+      "percent_max_channel_gt_10": 80.41741071428572
+    },
+    "bite": {
+      "mean_abs_rgb_delta": 1.6199564200680272,
+      "percent_max_channel_gt_2": 13.547831632653063,
+      "percent_max_channel_gt_10": 11.79623724489796
+    }
+  },
+  "limitations": [
+    "Artistic palette and coefficients, no copied author settings or complete commercial shader",
+    "revised cap and wall colour; original cap SSS unchanged; cavity shader newly coloured",
+    "shared skin foundation only evaluated in flesh rim, exterior material unchanged",
+    "global grade controls revised flesh and wall only; no shared SSS-radius hue control yet",
+    "sampled .32 mm geometry equality; no tilted or fine voxel regression in this milestone",
+    "initial full plane validator timed out; reduced validator verifies revised mode on cuts and both modes/global drivers on whole",
+    "visual style still too soft and regular"
+  ]
+}

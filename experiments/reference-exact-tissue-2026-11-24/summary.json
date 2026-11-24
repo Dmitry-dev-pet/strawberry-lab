@@ -1,0 +1,482 @@
+{
+  "scope": "Original ARTIST vascular field and cell relief, technical QA only; no visual acceptance",
+  "build": {
+    "carriers": 28,
+    "terminals": 264,
+    "segments": 292,
+    "joint_max_mm": 0.0,
+    "seed_offset_mm": [
+      0.9499999999999971,
+      0.9500000000000033
+    ],
+    "tapered_terminals": true,
+    "root_trunk": false,
+    "sampled_points": 19976,
+    "min_sampled_inside_margin_mm": 0.579714834690094,
+    "outside_samples": 0,
+    "max_seed_centroid_offset_mm": 0.02497697580638916,
+    "dependency_key": "d90800f97bc7e131d33436726013ec693f4b3f5e181c9adf95dd615a561b92ea",
+    "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+    "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+    "seed_centres_sha": "7bee6bb01461c691b54f7df80dcce365078da24f945fc2619bc9ec39ce5eefd1",
+    "core_sha": "58ec02038cda02d917602c783057e77c74f96d8c9b19222ebd6de4e7dc205ca1",
+    "halo_sha": "7f7cb5d52feebd5a1ba6e978531279a27dd3ae1129f127b2826a1fbdb11f65c1",
+    "ring_sha": "eedd8e9c6e4f67c8ff3f75a3a5f67fc27bc18202fb6d10eb499dde8f2ed03ee6",
+    "raster_core": {
+      "dabs": 34072,
+      "clipped": 0
+    },
+    "raster_halo": {
+      "dabs": 34072,
+      "clipped": 0
+    },
+    "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+    "graph_sha": "e739fcc9f1ff2871108757cebaf323c13c64516797a77cd68a6e640366bd9fcc",
+    "packed_image_sha": "d540e475e343d9b091ee505c9e2cc527a3cb76c7f7b33957f92eb8f325021903",
+    "tissue_nodes": 59,
+    "sampler_nodes": 50,
+    "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+    "source_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+    "elapsed_seconds": 10.987399363999998,
+    "tissue_gain_default": 0.0
+  },
+  "states": [
+    {
+      "pose": "bite",
+      "voxel_mm": 0.2,
+      "source_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "dependency_key": "d90800f97bc7e131d33436726013ec693f4b3f5e181c9adf95dd615a561b92ea",
+      "fast_before_equal": true,
+      "gain0_exact_equal": true,
+      "seed_hash_equal": true,
+      "vertices": 161756,
+      "faces": 161754,
+      "pure_cap_vertices": 26141,
+      "shared_boundary_vertices": 580,
+      "moved_vertices": 26067,
+      "max_skin_displacement_mm": 0.0,
+      "max_relief_mm": 0.1480075865983963,
+      "max_height_equation_error_mm": 2.9802322387695312e-08,
+      "max_displacement_equation_error_mm": 1.914799213409424e-06,
+      "field_samples": 4096,
+      "field_error": {
+        "core": 5.969698807689605e-05,
+        "halo": 3.934026280760783e-05,
+        "ring_relative": 3.883219710565378e-06
+      },
+      "field_ranges": {
+        "core": [
+          0.0,
+          0.7367334961891174
+        ],
+        "halo": [
+          0.0,
+          0.7524346113204956
+        ],
+        "ring_relative": [
+          0.36442360281944275,
+          1.0
+        ]
+      },
+      "cell_multiplier_range": [
+        0.11999905109405518,
+        1.0
+      ],
+      "max_ridge_mm": 0.12226757407188416,
+      "topology": {
+        "vertices": 161756,
+        "faces": 161754,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 18915.486015490125,
+        "degenerate_triangles": 0
+      },
+      "polygon_connectivity_equal": true,
+      "reference_attrs_equal": true,
+      "seed_contacts": [
+        227,
+        227
+      ],
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "raw_stock_equal": true,
+      "elapsed_seconds": 19.12148265000019
+    },
+    {
+      "pose": "bite",
+      "voxel_mm": 0.32,
+      "source_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "dependency_key": "d90800f97bc7e131d33436726013ec693f4b3f5e181c9adf95dd615a561b92ea",
+      "fast_before_equal": true,
+      "gain0_exact_equal": true,
+      "seed_hash_equal": true,
+      "vertices": 63108,
+      "faces": 63106,
+      "pure_cap_vertices": 10139,
+      "shared_boundary_vertices": 360,
+      "moved_vertices": 10121,
+      "max_skin_displacement_mm": 0.0,
+      "max_relief_mm": 0.14793558418750763,
+      "max_height_equation_error_mm": 2.2351741790771484e-08,
+      "max_displacement_equation_error_mm": 1.909211277961731e-06,
+      "field_samples": 4096,
+      "field_error": {
+        "core": 6.891371426751003e-05,
+        "halo": 4.8396903951031245e-05,
+        "ring_relative": 3.56714965554783e-06
+      },
+      "field_ranges": {
+        "core": [
+          0.0,
+          0.730259358882904
+        ],
+        "halo": [
+          0.0,
+          0.7503498792648315
+        ],
+        "ring_relative": [
+          0.36447829008102417,
+          1.0
+        ]
+      },
+      "cell_multiplier_range": [
+        0.11999911069869995,
+        1.0
+      ],
+      "max_ridge_mm": 0.12139686942100525,
+      "topology": {
+        "vertices": 63108,
+        "faces": 63106,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 18914.317366723226,
+        "degenerate_triangles": 0
+      },
+      "polygon_connectivity_equal": true,
+      "reference_attrs_equal": true,
+      "seed_contacts": [
+        227,
+        227
+      ],
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "raw_stock_equal": true,
+      "elapsed_seconds": 17.198421543999984
+    },
+    {
+      "pose": "plane",
+      "voxel_mm": 0.2,
+      "source_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "dependency_key": "d90800f97bc7e131d33436726013ec693f4b3f5e181c9adf95dd615a561b92ea",
+      "fast_before_equal": true,
+      "gain0_exact_equal": true,
+      "seed_hash_equal": true,
+      "vertices": 105340,
+      "faces": 105338,
+      "pure_cap_vertices": 27567,
+      "shared_boundary_vertices": 802,
+      "moved_vertices": 27394,
+      "max_skin_displacement_mm": 0.0,
+      "max_relief_mm": 0.14798219501972198,
+      "max_height_equation_error_mm": 2.9802322387695312e-08,
+      "max_displacement_equation_error_mm": 1.9041690393351018e-06,
+      "field_samples": 4096,
+      "field_error": {
+        "core": 5.7851303507383545e-05,
+        "halo": 3.611365349598383e-05,
+        "ring_relative": 3.7352009285562815e-06
+      },
+      "field_ranges": {
+        "core": [
+          0.0,
+          0.7437722086906433
+        ],
+        "halo": [
+          0.0,
+          0.7547018527984619
+        ],
+        "ring_relative": [
+          0.20074744522571564,
+          1.0
+        ]
+      },
+      "cell_multiplier_range": [
+        0.11999928951263428,
+        1.0
+      ],
+      "max_ridge_mm": 0.1232142448425293,
+      "topology": {
+        "vertices": 105340,
+        "faces": 105338,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11495.157800100678,
+        "degenerate_triangles": 0
+      },
+      "polygon_connectivity_equal": true,
+      "reference_attrs_equal": true,
+      "seed_contacts": [
+        130,
+        130
+      ],
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "raw_stock_equal": true,
+      "elapsed_seconds": 33.03590575700002
+    },
+    {
+      "pose": "plane",
+      "voxel_mm": 0.32,
+      "source_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "dependency_key": "d90800f97bc7e131d33436726013ec693f4b3f5e181c9adf95dd615a561b92ea",
+      "fast_before_equal": true,
+      "gain0_exact_equal": true,
+      "seed_hash_equal": true,
+      "vertices": 41128,
+      "faces": 41126,
+      "pure_cap_vertices": 10656,
+      "shared_boundary_vertices": 496,
+      "moved_vertices": 10599,
+      "max_skin_displacement_mm": 0.0,
+      "max_relief_mm": 0.14793774485588074,
+      "max_height_equation_error_mm": 1.862645149230957e-08,
+      "max_displacement_equation_error_mm": 1.8850896594813094e-06,
+      "field_samples": 4096,
+      "field_error": {
+        "core": 3.7264893776312036e-05,
+        "halo": 2.8390298308367257e-05,
+        "ring_relative": 3.448006271611348e-06
+      },
+      "field_ranges": {
+        "core": [
+          0.0,
+          0.7386083602905273
+        ],
+        "halo": [
+          0.0,
+          0.7532014846801758
+        ],
+        "ring_relative": [
+          0.20232164859771729,
+          1.0
+        ]
+      },
+      "cell_multiplier_range": [
+        0.11999964714050293,
+        1.0
+      ],
+      "max_ridge_mm": 0.12252707034349442,
+      "topology": {
+        "vertices": 41128,
+        "faces": 41126,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11492.229047751876,
+        "degenerate_triangles": 0
+      },
+      "polygon_connectivity_equal": true,
+      "reference_attrs_equal": true,
+      "seed_contacts": [
+        130,
+        130
+      ],
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "raw_stock_equal": true,
+      "elapsed_seconds": 24.236788941999976
+    },
+    {
+      "pose": "tilted",
+      "voxel_mm": 0.2,
+      "source_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "dependency_key": "d90800f97bc7e131d33436726013ec693f4b3f5e181c9adf95dd615a561b92ea",
+      "fast_before_equal": true,
+      "gain0_exact_equal": true,
+      "seed_hash_equal": true,
+      "vertices": 123638,
+      "faces": 123636,
+      "pure_cap_vertices": 40129,
+      "shared_boundary_vertices": 1010,
+      "moved_vertices": 40037,
+      "max_skin_displacement_mm": 0.0,
+      "max_relief_mm": 0.148066446185112,
+      "max_height_equation_error_mm": 2.9802322387695312e-08,
+      "max_displacement_equation_error_mm": 1.9066646927967668e-06,
+      "field_samples": 4096,
+      "field_error": {
+        "core": 6.339143637137945e-05,
+        "halo": 4.560029828293288e-05,
+        "ring_relative": 3.817268274253216e-06
+      },
+      "field_ranges": {
+        "core": [
+          0.0,
+          0.7316413521766663
+        ],
+        "halo": [
+          0.0,
+          0.7508924603462219
+        ],
+        "ring_relative": [
+          0.25803348422050476,
+          1.0
+        ]
+      },
+      "cell_multiplier_range": [
+        0.11999940872192383,
+        1.0
+      ],
+      "max_ridge_mm": 0.12158260494470596,
+      "topology": {
+        "vertices": 123638,
+        "faces": 123636,
+        "boundary_edges": 0,
+        "boundary_components": 0,
+        "boundary_bad_valence": 0,
+        "wire_or_over_two_face_edges": 0,
+        "inconsistent_edges": 0,
+        "signed_volume_mm3": 11815.986520775334,
+        "degenerate_triangles": 0
+      },
+      "polygon_connectivity_equal": true,
+      "reference_attrs_equal": true,
+      "seed_contacts": [
+        117,
+        117
+      ],
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "raw_stock_equal": true,
+      "elapsed_seconds": 37.01178743000014
+    },
+    {
+      "pose": "whole",
+      "voxel_mm": 0.2,
+      "source_sha": "2e31a68dba83e689b55b5599a7f2a13a34a9f3fb08dd09b4eff055c31c108224",
+      "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "field_sha": "0f6bbaa59a3a478c917a1c7bf69a41add5d9199f097c3ef8f0a2ebc984bb2c7e",
+      "dependency_key": "d90800f97bc7e131d33436726013ec693f4b3f5e181c9adf95dd615a561b92ea",
+      "fast_before_equal": true,
+      "gain0_exact_equal": true,
+      "seed_hash_equal": true,
+      "whole_bypass": true,
+      "gate": true,
+      "fast_roundtrip_equal": true,
+      "raw_stock_equal": true,
+      "elapsed_seconds": 6.705208202999984
+    }
+  ],
+  "total_field_samples": 20480,
+  "max_field_error": 6.891371426751003e-05,
+  "total_seed_contacts": 831,
+  "total_shared_boundary_vertices": 3248,
+  "max_relief_mm": 0.148066446185112,
+  "all_sampled_states_pass": true,
+  "render": {
+    "a": {
+      "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "image_sha": "9683532021f361141775f51202c30ff1fc051508ea4c169d178c41298d47aa78",
+      "pose": "plane",
+      "tissue_gain": 0.0,
+      "exact_voxel_mm": 0.2,
+      "engine": "BLENDER_WORKBENCH",
+      "resolution": [
+        700,
+        700
+      ],
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -120.0
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          24.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ortho_scale": 55.0,
+      "render_seconds": 12.871590648999927
+    },
+    "b": {
+      "scene_sha": "95b40e781ee948f9496ba5277ac08be0bb305435de1b498031b51c669be1b5c2",
+      "image_sha": "f9bf058473338fddd665dfc5838d62c120e8d1d28735a440c55d68e7589f7ba9",
+      "pose": "plane",
+      "tissue_gain": 1.0,
+      "exact_voxel_mm": 0.2,
+      "engine": "BLENDER_WORKBENCH",
+      "resolution": [
+        700,
+        700
+      ],
+      "camera_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -120.0
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          24.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ortho_scale": 55.0,
+      "render_seconds": 9.475731076000102
+    },
+    "fraction_gt_2": 0.26224897959183674,
+    "fraction_gt_10": 0.07273673469387755,
+    "comparison_sha": "1bcb70c0f9cb754ccb7679054a673e16f9e98266633a9d8ccc9c355764122486"
+  }
+}

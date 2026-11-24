@@ -1,0 +1,50 @@
+{
+  "palette_linear_rgba": {
+    "valley": [
+      0.38,
+      0.013,
+      0.009,
+      1.0
+    ],
+    "dome": [
+      0.61,
+      0.052,
+      0.029,
+      1.0
+    ],
+    "halo": [
+      0.67,
+      0.19,
+      0.105,
+      1.0
+    ],
+    "core": [
+      0.72,
+      0.31,
+      0.2,
+      1.0
+    ],
+    "pith": [
+      0.78,
+      0.42,
+      0.27,
+      1.0
+    ]
+  },
+  "source_input": [
+    "Hue/Saturation/Value",
+    "Color"
+  ],
+  "new_nodes": 27,
+  "target": "Base Color",
+  "source_atlas_fraction": 0.12,
+  "attributes": [
+    "sdf_rest_position",
+    "sl_cell_dome",
+    "sl_vascular_cell_multiplier",
+    "sl_vascular_core",
+    "sl_vascular_halo"
+  ],
+  "source_sha": "361696819fd44733d560e3f59b101cd11f59862e7ebd7b7f83ce94fd07909963",
+  "scene_sha": "b2be0f122e1a668536b9d07f5cc05713d7b78fe342dc776e36cf624bbd4d749c"
+}

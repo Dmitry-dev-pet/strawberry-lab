@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "variant": "B",
+  "pose": "whole",
+  "voxel_mm": 0.32,
+  "source_sha256": "361696819fd44733d560e3f59b101cd11f59862e7ebd7b7f83ce94fd07909963",
+  "scene_sha256": "14ccb7ac3854916f931a755b0807edda235fedee1e8fd05e0f03523b4b558c95",
+  "preserved_material_trees": 12,
+  "added_nodes": [
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Existing signed clearance mm",
+      "ShaderNodeAttribute"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Positive bounded thickness proxy",
+      "ShaderNodeClamp"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Normalize to 0.10 mm",
+      "ShaderNodeMath"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Independent channel attenuation",
+      "ShaderNodeCombineColor"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Red attenuation",
+      "ShaderNodeMath"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Green attenuation",
+      "ShaderNodeMath"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Blue attenuation",
+      "ShaderNodeMath"
+    ]
+  ],
+  "only_existing_socket_link": [
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "ShaderNodeBsdfPrincipled",
+      "Base Color"
+    ]
+  ],
+  "visibility_unchanged": true,
+  "body": {
+    "vertices": 91046,
+    "faces": 91044,
+    "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+    "topology_sha": "907c5d3f9eb01abdc657dca1a771ce81d88a5ddd29740be0442b64f6209cb19c"
+  },
+  "juice": {
+    "vertices": 0,
+    "faces": 0,
+    "coords_sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "topology_sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "derived_field_statistics": null
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "scene_sha": "2ccb17510bf46ae7ae3fa1a09eac144144dffb5a5f10c193dae9832b70760973",
+  "voxel_mm": 0.32,
+  "poses": {
+    "oblique": {
+      "A": {
+        "vertices": 263546,
+        "faces": 263544,
+        "triangles": 527088,
+        "nonmanifold": 0,
+        "volume_mm3": 19819.683993490962,
+        "degenerate_triangles": 0,
+        "coords_sha": "4cb72ff4e936327472bc5d2a6b053386f93865a06958b59f9f598dccd5a4f709",
+        "topology_sha": "01a6af3f76cf7081b18d8da4ac898857e415eedad84a689d830f798d7b463837"
+      },
+      "B": {
+        "vertices": 263546,
+        "faces": 263544,
+        "triangles": 527088,
+        "nonmanifold": 0,
+        "volume_mm3": 19818.70079856111,
+        "degenerate_triangles": 0,
+        "coords_sha": "232e5d260ccde305d7625342c4285f0e43b2cca4cbe6df2ad58ce1ac0e5c4196",
+        "topology_sha": "01a6af3f76cf7081b18d8da4ac898857e415eedad84a689d830f798d7b463837"
+      },
+      "A_matches_PR50": true,
+      "seconds_A": 9.473155703999964,
+      "seconds_B": 10.000348621000057,
+      "max_delta_mm": 0.12222607433795929,
+      "mean_delta_cap_mm": 0.015636958181858063,
+      "skin_max_mm": 0.0,
+      "seam_max_mm": 0.0,
+      "moved_cap_points": 68852,
+      "max_ridge_mm": 0.12528236210346222,
+      "cap_strong_halo_points": 16137,
+      "mean_multiplier_strong": 0.12000001221895218,
+      "mean_multiplier_weak": 1.0,
+      "trilinear_max_core_err": 2.1147165986168392e-05,
+      "trilinear_max_halo_err": 3.030400429854252e-05,
+      "multiplier_max_error": 1.7881393432617188e-07,
+      "height_equation_max_mm_error": 2.9802322387695312e-08
+    }
+  },
+  "peak_rss_kib": 1259572
+}

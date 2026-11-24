@@ -1,0 +1,10 @@
+{
+  "cavity_source_vertices": 3010,
+  "cavity_source_faces": 3072,
+  "cavity_source_volume_mm3": 104.45478903563519,
+  "cavity_min_hull_margin_mm": 11.891619383320096,
+  "wall_material": "SL Lumen | moist inner wall ARTIST",
+  "added_geometry_nodes": 12,
+  "source_sha": "361696819fd44733d560e3f59b101cd11f59862e7ebd7b7f83ce94fd07909963",
+  "scene_sha": "ccd9d4b5e93d000bdaee27a83afa95581fe19a69533493a0f96ce12917574b45"
+}

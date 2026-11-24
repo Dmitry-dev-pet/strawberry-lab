@@ -1,0 +1,35 @@
+{
+  "archive_members": {
+    "README.md": "71936d5432eb010ba93bc6c5dab49a63bd31264c194580d219f70bcf1fd59019",
+    "neutral_contract.py": "963c44669628d236bc7a73486ded222fb9b49c715f0c25ba07739e37318dd2db",
+    "build_neutral.py": "efc85306f74e5fc560570e81fa99fdb1b713bfaf47fc2eec2663d3a6029c8a9a",
+    "qa_neutral.py": "2694aefbfdf87ba933f18e9fae33d626c87ffeec9e4c28f95442bc7f2b5cd207",
+    "test_contract.py": "893d720f831a2b169b4374857126ea98dda58da46362e54f8fe0f012ec6ab0f5",
+    "render_neutral.py": "55a1c08f0436a482fcb68c84c5d05771055105c80be89e945bb0030e6e4de879",
+    "summary.json": "f9d4ea756445f6086d869a49ec626ea8cb39ec95209320c8867a8d8ee96fe745",
+    "unit-tests.log": "5e1f40cae3bf5aee2cdf83bc29736f7882724a184e5853f87a305006aa796079",
+    "stock264.json": "23beb6082f419148578ed556cc8dee0b83799b83f499df6453b161d9bb79bde6",
+    "stock326.json": "e627d67745164fa357f7d9bf7b9d62a5480cb319d8c4927825989e566ac998ce",
+    "qa264.json": "5a7e5de2521cf5f2789f4e5fcf15fb069fd3b6a68a7598a885152fa93e01269d",
+    "qa326.json": "904320241b3ff622b4e1c47fdff9bf03c8a0d148a3e0dc10f9cbfd0fb1bd781c",
+    "build-264.log": "4d883ebe8b6e727a490fcce90de5f55e17601a307067f0e79261168136c8ba83",
+    "build-326.log": "a088beb6a396dd393deecbfd4fa1df94b464e82e30616c5cbe8022fd52e67d18",
+    "initial-build-error.log": "e6d401839ccfe331d6ab43cb486210f6c83fd1475acccbe51f4ab2c1fe58bde3",
+    "qa264.log": "f9264040f3315070b53498670fc544026ef419f3bd2379854398ff1a518c8e66",
+    "qa326.log": "ed7dbe6d5b1c80c45fff047176e732a724e672417b20a9b8627e2ab644e4bd19",
+    "264-neutral.png": "8af3ac90f302c40bff1108754b781ad94ab79578e26a01da1572d4f3bdd35704",
+    "264-deformed.png": "d2340c881556904948b26ae4ad854583bbe5ead0c73d693097358e4f642c92b7",
+    "326-neutral.png": "78369dc522634cfd75422ad7f2b62fb5a434477a4db53d6327037828ea9ca3d5",
+    "264-neutral.json": "d4a98846b96e89bcb6300273364dd54fb816171459da74e4493d84950e434239",
+    "264-deformed.json": "16c8c8ea55913f02b5683234a0cee3f30093994b05a6ef0599bf4fb8cd714af9",
+    "326-neutral.json": "96c36248d489f6dc69a8d7f09d662344baa14173c5bc64d54bbd64c77b396b2c",
+    "render-264-neutral.log": "891474980f7f9cca7dce79180d6d1ac7c527dd5c71dadc22a81550e50ff47c57",
+    "render-264-deformed.log": "c784a36951522f6045e31eb664de38a1b0abc4d4ce2b39d3c208199091bc66b7",
+    "render-326-neutral.log": "31398baf9ab99aebf737a3de16cf066f886fb3be40b1bfbda3a19c8404645613",
+    "comparison.png": "4be7ca0ead014c7f4b2ea0ab8218ab45f7a6aee3a9abcc6835161a9ab243c36b"
+  },
+  "separate_scenes": {
+    "stock264.blend": "d430ac081f5383148e4f6a6a81f0dfc89fdfc5e8fb7538dd76cf97598398026a",
+    "stock326.blend": "a24c56eb0eb410728c47d728c8d9f46cf374b943a989baea7048d32c2de8bef9"
+  }
+}

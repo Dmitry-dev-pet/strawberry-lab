@@ -1,0 +1,979 @@
+{
+  "scope": "independent matched-grid face deletion only; interface negative",
+  "states": [
+    {
+      "pose": "bite",
+      "voxel_mm": 0.2,
+      "baseline_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "candidate_sha": "c82d664a9c2e9873fd8415658e41c456569852dac23569c63246d770e383fd5e",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "flesh_seed_exact": true,
+      "flesh": {
+        "coords": "e6d194b5f6f1eca6f3df2b126c12c179bb138f7de4274638647a48330c4ca32b",
+        "triangles": "8887d8ad0c756aa7e56772400b960401e362f33aaa06bb67882da03ed338b071",
+        "attributes": {
+          "sl_cut_face": "b9fa2aceef23a4c5a79d558f0354465301e9948d5298cbbbabf1a5df136688ef",
+          "sl_rest_position": "e6d194b5f6f1eca6f3df2b126c12c179bb138f7de4274638647a48330c4ca32b",
+          "sl_edge_distance_mm": "45d0eb4b0399bd32b4d55fe9fd0fb78c0b38dd46759f305f347118704aca8d32",
+          "sl_cut_point": "a54e95bb01aa8d9dfbd27dccc491fbcf78937a6212fd2eabf36883e37f5a2939",
+          "sl_outer_recess_point": "9654167e2dc670293786c9d4838a20b513287ee9c139b582786ec548e5d9b820",
+          "sl_pre_recess_position": "c2cbcf4a203c294313a41623c10cb706eae5e1cf0e168aed157ba7a1d33bb8ff",
+          "sl_cutter_signed_mm": "c772531faebb4ea9af0aa5e9c307c8e6debb1b4b6fc7f7b16677b403ff8c6026",
+          "sl_reference_position": "e6d194b5f6f1eca6f3df2b126c12c179bb138f7de4274638647a48330c4ca32b",
+          "sl_reference_normal": "621ce21ba24aa4cde88dbd4e107f82ccd64a0ce0b8b032bace9505805824325c"
+        },
+        "topology": {
+          "vertices": 163930,
+          "faces": 163928,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 18586.69238249089,
+          "degenerate_triangles": 0
+        }
+      },
+      "seeds": {
+        "coords": "b5a8b519c5c84182a12d31da3605f0e25db2fb78eb2a83da290388d45c714b06",
+        "triangles": "d3c2c72c544000e762f7320d74770f51e1612704573dbffe22a84658418714e6",
+        "attributes": {
+          "sl_rest_position": "b5a8b519c5c84182a12d31da3605f0e25db2fb78eb2a83da290388d45c714b06",
+          "sl_anchor_index": "5b380695d32a3901a15b01c81200689443db6c6f26ce3d74cdfaf48e6af94918"
+        },
+        "topology": {
+          "vertices": 40406,
+          "faces": 43584,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 56.75853087622794,
+          "degenerate_triangles": 0
+        }
+      },
+      "candidate_all_vertices_exact_source": true,
+      "A": {
+        "skin_topology": {
+          "vertices": 146621,
+          "faces": 146533,
+          "boundary_edges": 774,
+          "boundary_components": 1,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 19841.7420805112,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 144734,
+        "safe_vertices": 144734,
+        "position_sha": "d0d0ebd781b7f27f8231e2d41edc69c6519988d25f55049e2ea3d8c60ab9b464",
+        "pit_sha": "314fa8d474f90ae049afdff414e46479ce47204bea026c238a504fe39b71b784",
+        "triangle_sha": "db3a450b11a83c0b2b444d47aef929634c5cda5ee3255a21bba9f9cdbbbd38cd",
+        "rim": {
+          "samples": 1548,
+          "signed_cutter_mm": {
+            "min": -0.00995635986328125,
+            "median": -0.0036954879760742188,
+            "p95": -0.0007986067794263363,
+            "max": -9.5367431640625e-07
+          },
+          "absolute_cutter_mm": {
+            "min": 9.5367431640625e-07,
+            "median": 0.0036954879760742188,
+            "p95": 0.007865525782108307,
+            "max": 0.00995635986328125
+          },
+          "inside_cutter_gt_0_03mm": 0,
+          "outside_cutter_gt_0_03mm": 0,
+          "nearest_cap_mm": {
+            "min": 0.00021069943613838404,
+            "median": 0.04808425344526768,
+            "p95": 0.08574636019766331,
+            "max": 0.0995510146021843
+          },
+          "over_0_10mm": 0
+        },
+        "seed_contacts": {
+          "retained": 227,
+          "skin_contact": 227,
+          "skin_or_flesh_contact": 227,
+          "no_surface_contact_ids": []
+        }
+      },
+      "B": {
+        "skin_topology": {
+          "vertices": 146065,
+          "faces": 146268,
+          "boundary_edges": 488,
+          "boundary_components": 1,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 19839.567236756993,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 144734,
+        "safe_vertices": 144734,
+        "position_sha": "79043cf21928c19630650dc9a5a3e584f9a8b48156672c944a5e95ce56eeddab",
+        "pit_sha": "3d0c2072b683ba215c08b265cdc4fb8502e6dc856002b49ce5ec867addf5efa6",
+        "triangle_sha": "974932b9f9234cd3ff1e9a5f50d084416b2df8d7dd49c36a34056fa1469a5c46",
+        "rim": {
+          "samples": 976,
+          "signed_cutter_mm": {
+            "min": -0.15206146240234375,
+            "median": 0.0028929710388183594,
+            "p95": 0.09145164489746094,
+            "max": 0.13273334503173828
+          },
+          "absolute_cutter_mm": {
+            "min": 2.765655517578125e-05,
+            "median": 0.04288768768310547,
+            "p95": 0.11080026626586914,
+            "max": 0.15206146240234375
+          },
+          "inside_cutter_gt_0_03mm": 317,
+          "outside_cutter_gt_0_03mm": 308,
+          "nearest_cap_mm": {
+            "min": 0.00030844841967336833,
+            "median": 0.0589547548443079,
+            "p95": 0.1217956431210041,
+            "max": 0.204812690615654
+          },
+          "over_0_10mm": 134
+        },
+        "seed_contacts": {
+          "retained": 227,
+          "skin_contact": 227,
+          "skin_or_flesh_contact": 227,
+          "no_surface_contact_ids": []
+        }
+      },
+      "face_rule": {
+        "source_faces": 157696,
+        "kept": 146268,
+        "removed": 11428,
+        "exact_source_face_indices": true,
+        "exact_signed_selection": true,
+        "clear_analytic_centers": 157477,
+        "clear_wrong_labels": 0,
+        "near_cutter_sample_count": 634,
+        "near_cutter_max_error_mm": 0.009843945503234863
+      },
+      "common_exact_rim_to_B_skin": {
+        "samples": 1548,
+        "distance_mm": {
+          "min": 0.0,
+          "median": 6.641086656600237e-05,
+          "p95": 0.07845507226884359,
+          "max": 0.10718589276075363
+        },
+        "over_0_10mm": 12
+      },
+      "interface_gate_pass": false,
+      "technical_invariants_pass": true,
+      "elapsed_seconds": 13.274009665999984,
+      "blender": "5.2.4 LTS"
+    },
+    {
+      "pose": "bite",
+      "voxel_mm": 0.32,
+      "baseline_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "candidate_sha": "c82d664a9c2e9873fd8415658e41c456569852dac23569c63246d770e383fd5e",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "flesh_seed_exact": true,
+      "flesh": {
+        "coords": "cee102f06d2bf4784cefc8c44ec51b1d5542ccd578419c8ad4e7eb7a974a9707",
+        "triangles": "74feae2b43d9d017e3bf2ebf57b2da215949e7540250fb0e763ba0588b1cf8fd",
+        "attributes": {
+          "sl_cut_face": "ea6119f19286a982c1156d4e1107fa00d53aa5fd2c7381b6b6808d5befbf89e1",
+          "sl_rest_position": "cee102f06d2bf4784cefc8c44ec51b1d5542ccd578419c8ad4e7eb7a974a9707",
+          "sl_edge_distance_mm": "b833fe6c9efad1c5ba9ba62dfb0f030eb1d3f4428646d461c0dd7cd4f08a4d34",
+          "sl_cut_point": "b6f047b941617cca51181bd7cfd9943c56886f2619d9691da2756c3320730aae",
+          "sl_outer_recess_point": "1cfcb81a616b3ef97e50e371d0afa6e49268b7bca59f8221864c5c910d7bc746",
+          "sl_pre_recess_position": "a9f0b5b7ffcf440f87d49b28442e4fc9372e846fa974d27866b3965307e3cab7",
+          "sl_cutter_signed_mm": "ed7e452d8800a64ec7992a8c2ae9a6a7571316d329bc020f76ce8af75becd76a",
+          "sl_reference_position": "cee102f06d2bf4784cefc8c44ec51b1d5542ccd578419c8ad4e7eb7a974a9707",
+          "sl_reference_normal": "10e45db176d1d1a3944eb4e7938a259336da3f76e94663deda3d6afe34fb9d77"
+        },
+        "topology": {
+          "vertices": 63872,
+          "faces": 63870,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 18590.055086558506,
+          "degenerate_triangles": 0
+        }
+      },
+      "seeds": {
+        "coords": "b5a8b519c5c84182a12d31da3605f0e25db2fb78eb2a83da290388d45c714b06",
+        "triangles": "d3c2c72c544000e762f7320d74770f51e1612704573dbffe22a84658418714e6",
+        "attributes": {
+          "sl_rest_position": "b5a8b519c5c84182a12d31da3605f0e25db2fb78eb2a83da290388d45c714b06",
+          "sl_anchor_index": "5b380695d32a3901a15b01c81200689443db6c6f26ce3d74cdfaf48e6af94918"
+        },
+        "topology": {
+          "vertices": 40406,
+          "faces": 43584,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 56.75853087622794,
+          "degenerate_triangles": 0
+        }
+      },
+      "candidate_all_vertices_exact_source": true,
+      "A": {
+        "skin_topology": {
+          "vertices": 146621,
+          "faces": 146533,
+          "boundary_edges": 774,
+          "boundary_components": 1,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 19841.7420805112,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 144734,
+        "safe_vertices": 144734,
+        "position_sha": "d0d0ebd781b7f27f8231e2d41edc69c6519988d25f55049e2ea3d8c60ab9b464",
+        "pit_sha": "314fa8d474f90ae049afdff414e46479ce47204bea026c238a504fe39b71b784",
+        "triangle_sha": "db3a450b11a83c0b2b444d47aef929634c5cda5ee3255a21bba9f9cdbbbd38cd",
+        "rim": {
+          "samples": 1548,
+          "signed_cutter_mm": {
+            "min": -0.00995635986328125,
+            "median": -0.0036954879760742188,
+            "p95": -0.0007986067794263363,
+            "max": -9.5367431640625e-07
+          },
+          "absolute_cutter_mm": {
+            "min": 9.5367431640625e-07,
+            "median": 0.0036954879760742188,
+            "p95": 0.007865525782108307,
+            "max": 0.00995635986328125
+          },
+          "inside_cutter_gt_0_03mm": 0,
+          "outside_cutter_gt_0_03mm": 0,
+          "nearest_cap_mm": {
+            "min": 0.00013812894758302718,
+            "median": 0.03504883870482445,
+            "p95": 0.08458741717040526,
+            "max": 0.1737448126077652
+          },
+          "over_0_10mm": 36
+        },
+        "seed_contacts": {
+          "retained": 227,
+          "skin_contact": 227,
+          "skin_or_flesh_contact": 227,
+          "no_surface_contact_ids": []
+        }
+      },
+      "B": {
+        "skin_topology": {
+          "vertices": 146071,
+          "faces": 146274,
+          "boundary_edges": 488,
+          "boundary_components": 1,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 19840.952028134798,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 144734,
+        "safe_vertices": 144734,
+        "position_sha": "8747fc1aa82e98b9598f608e4db0e0da9ff1e9f385afb7a8ddc11430455d7b04",
+        "pit_sha": "f9b95529dbdf737cb1014a50a4bb296fb7a90cdccb822114149ae232a37c16d8",
+        "triangle_sha": "ebda5148fb679aff53515bce109cfc34f720610803c8152a9fae79f20b2c4bbc",
+        "rim": {
+          "samples": 976,
+          "signed_cutter_mm": {
+            "min": -0.15206146240234375,
+            "median": 0.0007653236389160156,
+            "p95": 0.08970403671264648,
+            "max": 0.1241750717163086
+          },
+          "absolute_cutter_mm": {
+            "min": 2.765655517578125e-05,
+            "median": 0.043103694915771484,
+            "p95": 0.11080026626586914,
+            "max": 0.15206146240234375
+          },
+          "inside_cutter_gt_0_03mm": 333,
+          "outside_cutter_gt_0_03mm": 292,
+          "nearest_cap_mm": {
+            "min": 0.00040494228596799076,
+            "median": 0.04943930357694626,
+            "p95": 0.12764517590403557,
+            "max": 0.21401047706604004
+          },
+          "over_0_10mm": 124
+        },
+        "seed_contacts": {
+          "retained": 227,
+          "skin_contact": 227,
+          "skin_or_flesh_contact": 227,
+          "no_surface_contact_ids": []
+        }
+      },
+      "face_rule": {
+        "source_faces": 157696,
+        "kept": 146274,
+        "removed": 11422,
+        "exact_source_face_indices": true,
+        "exact_signed_selection": true,
+        "clear_analytic_centers": 157477,
+        "clear_wrong_labels": 0,
+        "near_cutter_sample_count": 1004,
+        "near_cutter_max_error_mm": 0.010094687342643738
+      },
+      "common_exact_rim_to_B_skin": {
+        "samples": 1548,
+        "distance_mm": {
+          "min": 0.0,
+          "median": 3.972620288550388e-05,
+          "p95": 0.07640417590737343,
+          "max": 0.10457827150821686
+        },
+        "over_0_10mm": 5
+      },
+      "interface_gate_pass": false,
+      "technical_invariants_pass": true,
+      "elapsed_seconds": 9.72150748400054,
+      "blender": "5.2.4 LTS"
+    },
+    {
+      "pose": "plane",
+      "voxel_mm": 0.32,
+      "baseline_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "candidate_sha": "c82d664a9c2e9873fd8415658e41c456569852dac23569c63246d770e383fd5e",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "flesh_seed_exact": true,
+      "flesh": {
+        "coords": "009fc9481488232c32fba0da5ae39b2e6e3538df13b6a3d6129108e3e15441a4",
+        "triangles": "81e433154a9e6a44ad7e28c350a3e5cd59c4cbaf4fefab54cc4c90d56c4042a2",
+        "attributes": {
+          "sl_cut_face": "e71d980e6191484b409398b047035a1e1f98a2a273871d81215a566a854a663e",
+          "sl_rest_position": "009fc9481488232c32fba0da5ae39b2e6e3538df13b6a3d6129108e3e15441a4",
+          "sl_edge_distance_mm": "18171e6d4b2824c4de7200f1e4eab9885d942c88cf5bd398def5ed3a3a087b40",
+          "sl_cut_point": "52e9e23af4fca3ae0a238a3361a2835e7d60b2dda2489c1e82df35083722f16a",
+          "sl_outer_recess_point": "2a410959fd04998a8eae8be5186b3de852bc2636575731f1341094b61c033b67",
+          "sl_pre_recess_position": "bb854ff813092973eaac707f1df0de4c3458bc11d7893a0a3f9004dfe8909405",
+          "sl_cutter_signed_mm": "d37424d3aa94affb0e5fc0b02bff3049522cce5b880b92fc3727ea7dd9afafbd",
+          "sl_reference_position": "009fc9481488232c32fba0da5ae39b2e6e3538df13b6a3d6129108e3e15441a4",
+          "sl_reference_normal": "83899c67e718398dd891eb3de697f8a2314a3b7f3b62a43f53db985a023c1b35"
+        },
+        "topology": {
+          "vertices": 41816,
+          "faces": 41814,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11340.489823970953,
+          "degenerate_triangles": 0
+        }
+      },
+      "seeds": {
+        "coords": "3878b8f2da31628a503c9cf70a246872431cb72b2a5753003e389c872d5ceb62",
+        "triangles": "93fc14d021d47e57a3964f3de8dec40ef1fb83e8e1e481c5583e3f92f4c8fa3e",
+        "attributes": {
+          "sl_rest_position": "3878b8f2da31628a503c9cf70a246872431cb72b2a5753003e389c872d5ceb62",
+          "sl_anchor_index": "dd566f4e957cf811a3aa6e1ee51a2e70481028fc4eb4d9514c9d9341aba5650c"
+        },
+        "topology": {
+          "vertices": 23140,
+          "faces": 24960,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 32.4729712423054,
+          "degenerate_triangles": 0
+        }
+      },
+      "candidate_all_vertices_exact_source": true,
+      "A": {
+        "skin_topology": {
+          "vertices": 77395,
+          "faces": 76885,
+          "boundary_edges": 1296,
+          "boundary_components": 1,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11427.83256525824,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 71277,
+        "safe_vertices": 71277,
+        "position_sha": "857fb6aafbcb87bc8997b1aaa744f2ffb5edaacafbb3545843640aeca71479e5",
+        "pit_sha": "ccb2b38c9965e17c8a00e1fc9f29ae2d64a8426883799ae59637ffb4fa2135a0",
+        "triangle_sha": "1703535fe717bb975f3a278779b4b8af6b62ee00a7b737c6c7e47a109f6a05ee",
+        "rim": {
+          "samples": 2592,
+          "signed_cutter_mm": {
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 0.0,
+            "max": 0.0
+          },
+          "absolute_cutter_mm": {
+            "min": 0.0,
+            "median": 0.0,
+            "p95": 0.0,
+            "max": 0.0
+          },
+          "inside_cutter_gt_0_03mm": 0,
+          "outside_cutter_gt_0_03mm": 0,
+          "nearest_cap_mm": {
+            "min": 1.496286586188944e-05,
+            "median": 0.03252399154007435,
+            "p95": 0.05655036475509405,
+            "max": 0.0614129863679409
+          },
+          "over_0_10mm": 0
+        },
+        "seed_contacts": {
+          "retained": 130,
+          "skin_contact": 130,
+          "skin_or_flesh_contact": 130,
+          "no_surface_contact_ids": []
+        }
+      },
+      "B": {
+        "skin_topology": {
+          "vertices": 76698,
+          "faces": 76359,
+          "boundary_edges": 1124,
+          "boundary_components": 1,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11429.15954785573,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 71277,
+        "safe_vertices": 71277,
+        "position_sha": "ae8b9c2207a58d8c8e66b2e9e16d2bb6a2202b180f5063c728775929a56975cb",
+        "pit_sha": "0fb59ad1f937628f6ec09e477c0eb6e6f2556d3faf81ae9eb95e56c98e72bf4e",
+        "triangle_sha": "e21e4353702564e5507b97cc2031fa46c8e96cb299ba1ffe8e0b27957848064d",
+        "rim": {
+          "samples": 2248,
+          "signed_cutter_mm": {
+            "min": -0.11906791478395462,
+            "median": -0.002354211756028235,
+            "p95": 0.07061196565628057,
+            "max": 0.1137799546122551
+          },
+          "absolute_cutter_mm": {
+            "min": 2.1757242978220621e-16,
+            "median": 0.025532257743179798,
+            "p95": 0.08593767136335374,
+            "max": 0.11906791478395462
+          },
+          "inside_cutter_gt_0_03mm": 532,
+          "outside_cutter_gt_0_03mm": 464,
+          "nearest_cap_mm": {
+            "min": 4.315390015108278e-06,
+            "median": 0.027249397709965706,
+            "p95": 0.0780568014830351,
+            "max": 0.12237270921468735
+          },
+          "over_0_10mm": 21
+        },
+        "seed_contacts": {
+          "retained": 130,
+          "skin_contact": 130,
+          "skin_or_flesh_contact": 130,
+          "no_surface_contact_ids": []
+        }
+      },
+      "face_rule": {
+        "source_faces": 157696,
+        "kept": 76359,
+        "removed": 81337,
+        "exact_source_face_indices": true,
+        "exact_signed_selection": true,
+        "clear_analytic_centers": 156685,
+        "clear_wrong_labels": 0,
+        "near_cutter_sample_count": 4747,
+        "near_cutter_max_error_mm": 1.1920928955078125e-07
+      },
+      "common_exact_rim_to_B_skin": {
+        "samples": 2592,
+        "distance_mm": {
+          "min": 0.0,
+          "median": 3.815177478827536e-06,
+          "p95": 0.06863017156720153,
+          "max": 0.11058937758207321
+        },
+        "over_0_10mm": 12
+      },
+      "interface_gate_pass": false,
+      "technical_invariants_pass": true,
+      "elapsed_seconds": 11.389301999999589,
+      "blender": "5.2.4 LTS"
+    },
+    {
+      "pose": "tilted",
+      "voxel_mm": 0.2,
+      "baseline_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "candidate_sha": "c82d664a9c2e9873fd8415658e41c456569852dac23569c63246d770e383fd5e",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "flesh_seed_exact": true,
+      "flesh": {
+        "coords": "ac251a0aac88eff224677a8cff251680ee1ab98e21a4c04d54a5405f2f384b6d",
+        "triangles": "fbc9421b86bba6aacbbc32958b21b9cae71873c80e19d3139ec463090e997f18",
+        "attributes": {
+          "sl_cut_face": "03954382adecb6ddc121785ffd1dec836364a16d76e6b6d602089bf32cc41df2",
+          "sl_rest_position": "6e5636de468384012b21fc886ca5940de4b33a920611b0dd14dc3b95bac89165",
+          "sl_edge_distance_mm": "c79e9b876326ca29ee9f1082ef9b93b1f145e15d6420350dcd54ba21e8cb81e4",
+          "sl_cut_point": "73af038ee0c6bf50450e8bda76ee84fba471b6573ca6790ba34f6d2e5b5104b8",
+          "sl_outer_recess_point": "c66d72dc71c17e4e5e0ebf7b678fb5c54aa461c355b96e648c8e08d00314e304",
+          "sl_pre_recess_position": "366e7fe5978116f95718eb8f3b95aafb7dca3717b0bfd2d7fa3d87060596f28e",
+          "sl_cutter_signed_mm": "65e3b359b08979509e6f0aa3647f2af0d821e2aeb54bd3c4fd6d5083ce521c42",
+          "sl_reference_position": "ac251a0aac88eff224677a8cff251680ee1ab98e21a4c04d54a5405f2f384b6d",
+          "sl_reference_normal": "561d634557aaa1990acdaadfed02b2d775cd8a0144fd57a9ace7588c7fc71e01"
+        },
+        "topology": {
+          "vertices": 125644,
+          "faces": 125642,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11649.520131814137,
+          "degenerate_triangles": 0
+        }
+      },
+      "seeds": {
+        "coords": "a2841d8c4d0f21d182f0cd0258e16d82c6d1877ce664121ade45ab2228c61795",
+        "triangles": "579f30ba1df0e5fead49fc342887d4708f4af58f0af84a41c519e0668484cd13",
+        "attributes": {
+          "sl_rest_position": "d3acba55333f25fc18be931a29d517bad5e8616655dc6a672d9b38980c1172bc",
+          "sl_anchor_index": "f8a4a8693d317e9cc1c4b86d3cb87cd91b6144b141f1d4abdeaaa54adfd967ed"
+        },
+        "topology": {
+          "vertices": 20826,
+          "faces": 22464,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 34.41411326354028,
+          "degenerate_triangles": 0
+        }
+      },
+      "candidate_all_vertices_exact_source": true,
+      "A": {
+        "skin_topology": {
+          "vertices": 62109,
+          "faces": 61367,
+          "boundary_edges": 1278,
+          "boundary_components": 1,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 12372.99313485921,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 56981,
+        "safe_vertices": 56981,
+        "position_sha": "e5248c70dcd40aa844c222386a61a716f9d645549b447eafc7fa5cebd4fa1439",
+        "pit_sha": "59583e867f418185eb6afb2bf5b4b176f4d349e84c9f849d6363cf0176c53ce5",
+        "triangle_sha": "afd48ecf0231f9d02694408ec65ba847ba8f40fe65aa151cbba4f129ea7ac9cf",
+        "rim": {
+          "samples": 2556,
+          "signed_cutter_mm": {
+            "min": -8.411126346530295e-07,
+            "median": 6.999635886323352e-07,
+            "p95": 1.3890432846164202e-06,
+            "max": 2.1108903451860783e-06
+          },
+          "absolute_cutter_mm": {
+            "min": 1.0145262407945665e-09,
+            "median": 7.000484423744235e-07,
+            "p95": 1.3890432846164202e-06,
+            "max": 2.1108903451860783e-06
+          },
+          "inside_cutter_gt_0_03mm": 0,
+          "outside_cutter_gt_0_03mm": 0,
+          "nearest_cap_mm": {
+            "min": 0.0004482271906454116,
+            "median": 0.05042680539190769,
+            "p95": 0.084033889696002,
+            "max": 0.09999922662973404
+          },
+          "over_0_10mm": 0
+        },
+        "seed_contacts": {
+          "retained": 117,
+          "skin_contact": 117,
+          "skin_or_flesh_contact": 117,
+          "no_surface_contact_ids": []
+        }
+      },
+      "B": {
+        "skin_topology": {
+          "vertices": 61336,
+          "faces": 60800,
+          "boundary_edges": 1070,
+          "boundary_components": 1,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 12377.162752434026,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 56981,
+        "safe_vertices": 56981,
+        "position_sha": "346e9c09a3d0cf1eb2243e5705c42493ed6a910e84215250490d003f3ecaf739",
+        "pit_sha": "bb7b42654b99002fddc7eb4567545c42563fabdfd0053cc47385a8ca1cc650db",
+        "triangle_sha": "181b1cc4c1c3b3b98e32d2b942ba4f8b1822256649d59b1a2d2057dca2d183f6",
+        "rim": {
+          "samples": 2140,
+          "signed_cutter_mm": {
+            "min": -0.1261755101369051,
+            "median": 0.0021157873666622917,
+            "p95": 0.08740561935572415,
+            "max": 0.1270663664879832
+          },
+          "absolute_cutter_mm": {
+            "min": 3.122910759489894e-05,
+            "median": 0.02857686322626707,
+            "p95": 0.09385335187399516,
+            "max": 0.1270663664879832
+          },
+          "inside_cutter_gt_0_03mm": 481,
+          "outside_cutter_gt_0_03mm": 544,
+          "nearest_cap_mm": {
+            "min": 2.524986666685436e-05,
+            "median": 0.05284368433058262,
+            "p95": 0.10440734513103962,
+            "max": 0.180680513381958
+          },
+          "over_0_10mm": 162
+        },
+        "seed_contacts": {
+          "retained": 117,
+          "skin_contact": 117,
+          "skin_or_flesh_contact": 117,
+          "no_surface_contact_ids": []
+        }
+      },
+      "face_rule": {
+        "source_faces": 157696,
+        "kept": 60800,
+        "removed": 96896,
+        "exact_source_face_indices": true,
+        "exact_signed_selection": true,
+        "clear_analytic_centers": 156882,
+        "clear_wrong_labels": 0,
+        "near_cutter_sample_count": 2441,
+        "near_cutter_max_error_mm": 2.1930479787712898e-06
+      },
+      "common_exact_rim_to_B_skin": {
+        "samples": 2556,
+        "distance_mm": {
+          "min": 0.0,
+          "median": 1.6915953892748803e-05,
+          "p95": 0.08660533092916012,
+          "max": 0.13686791062355042
+        },
+        "over_0_10mm": 30
+      },
+      "interface_gate_pass": false,
+      "technical_invariants_pass": true,
+      "elapsed_seconds": 23.296359894999114,
+      "blender": "5.2.4 LTS"
+    },
+    {
+      "pose": "tilted",
+      "voxel_mm": 0.32,
+      "baseline_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "candidate_sha": "c82d664a9c2e9873fd8415658e41c456569852dac23569c63246d770e383fd5e",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "flesh_seed_exact": true,
+      "flesh": {
+        "coords": "031573fcd969e16eb396ba0b7861a076f2bba6152bc9dbe07990340ce2e68cd6",
+        "triangles": "2ed5aac1c914f6932304d5aa42ff972f71c2a3963bd38dd92130ac8c665e4a34",
+        "attributes": {
+          "sl_cut_face": "73bd822b703181bb85e6238f1c822b9ff4951f382232a216f4abc6c95428c094",
+          "sl_rest_position": "78ec361086413f16e1015e9f5bef8644b5c2f71a43357841e11902274ab6fd14",
+          "sl_edge_distance_mm": "59a27ae47b3e33b8d6d2bcbcbb3b630ec7856bd88791d7a8a764cb53ae8704bc",
+          "sl_cut_point": "db8223baed848587e9e2f6f99830996249cd252e7a594519592a554426bcd6f2",
+          "sl_outer_recess_point": "ea9a4165bc610611cced5239752c6abdd876816d2ee27ea0cbc79f5de42ef088",
+          "sl_pre_recess_position": "5c6481e0a3837056cf64e298b2847a133703cf7022aff471aecb3aae389122d6",
+          "sl_cutter_signed_mm": "252cf02d1539ffb511fb19f320b3bd8a70cc44d9b9acd30592dc2ab3ec381a10",
+          "sl_reference_position": "031573fcd969e16eb396ba0b7861a076f2bba6152bc9dbe07990340ce2e68cd6",
+          "sl_reference_normal": "9bfffd4fba35312d59a86521b6749d3f6add3ddec7eb98607b335d97557c63c0"
+        },
+        "topology": {
+          "vertices": 48966,
+          "faces": 48964,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11650.522420321313,
+          "degenerate_triangles": 0
+        }
+      },
+      "seeds": {
+        "coords": "a2841d8c4d0f21d182f0cd0258e16d82c6d1877ce664121ade45ab2228c61795",
+        "triangles": "579f30ba1df0e5fead49fc342887d4708f4af58f0af84a41c519e0668484cd13",
+        "attributes": {
+          "sl_rest_position": "d3acba55333f25fc18be931a29d517bad5e8616655dc6a672d9b38980c1172bc",
+          "sl_anchor_index": "f8a4a8693d317e9cc1c4b86d3cb87cd91b6144b141f1d4abdeaaa54adfd967ed"
+        },
+        "topology": {
+          "vertices": 20826,
+          "faces": 22464,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 34.41411326354028,
+          "degenerate_triangles": 0
+        }
+      },
+      "candidate_all_vertices_exact_source": true,
+      "A": {
+        "skin_topology": {
+          "vertices": 62109,
+          "faces": 61367,
+          "boundary_edges": 1278,
+          "boundary_components": 1,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 12372.99313485921,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 56981,
+        "safe_vertices": 56981,
+        "position_sha": "e5248c70dcd40aa844c222386a61a716f9d645549b447eafc7fa5cebd4fa1439",
+        "pit_sha": "59583e867f418185eb6afb2bf5b4b176f4d349e84c9f849d6363cf0176c53ce5",
+        "triangle_sha": "afd48ecf0231f9d02694408ec65ba847ba8f40fe65aa151cbba4f129ea7ac9cf",
+        "rim": {
+          "samples": 2556,
+          "signed_cutter_mm": {
+            "min": -8.411126346530295e-07,
+            "median": 6.999635886323352e-07,
+            "p95": 1.3890432846164202e-06,
+            "max": 2.1108903451860783e-06
+          },
+          "absolute_cutter_mm": {
+            "min": 1.0145262407945665e-09,
+            "median": 7.000484423744235e-07,
+            "p95": 1.3890432846164202e-06,
+            "max": 2.1108903451860783e-06
+          },
+          "inside_cutter_gt_0_03mm": 0,
+          "outside_cutter_gt_0_03mm": 0,
+          "nearest_cap_mm": {
+            "min": 4.0303319110535085e-05,
+            "median": 0.02465057000517845,
+            "p95": 0.07817694172263145,
+            "max": 0.15304040908813477
+          },
+          "over_0_10mm": 33
+        },
+        "seed_contacts": {
+          "retained": 117,
+          "skin_contact": 117,
+          "skin_or_flesh_contact": 117,
+          "no_surface_contact_ids": []
+        }
+      },
+      "B": {
+        "skin_topology": {
+          "vertices": 61336,
+          "faces": 60800,
+          "boundary_edges": 1070,
+          "boundary_components": 1,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 12377.162752434026,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 56981,
+        "safe_vertices": 56981,
+        "position_sha": "346e9c09a3d0cf1eb2243e5705c42493ed6a910e84215250490d003f3ecaf739",
+        "pit_sha": "bb7b42654b99002fddc7eb4567545c42563fabdfd0053cc47385a8ca1cc650db",
+        "triangle_sha": "181b1cc4c1c3b3b98e32d2b942ba4f8b1822256649d59b1a2d2057dca2d183f6",
+        "rim": {
+          "samples": 2140,
+          "signed_cutter_mm": {
+            "min": -0.1261755101369051,
+            "median": 0.0021157873666622917,
+            "p95": 0.08740561935572415,
+            "max": 0.1270663664879832
+          },
+          "absolute_cutter_mm": {
+            "min": 3.122910759489894e-05,
+            "median": 0.02857686322626707,
+            "p95": 0.09385335187399516,
+            "max": 0.1270663664879832
+          },
+          "inside_cutter_gt_0_03mm": 481,
+          "outside_cutter_gt_0_03mm": 544,
+          "nearest_cap_mm": {
+            "min": 1.4995751371316146e-05,
+            "median": 0.03764246590435505,
+            "p95": 0.09460006393492222,
+            "max": 0.17031176388263702
+          },
+          "over_0_10mm": 91
+        },
+        "seed_contacts": {
+          "retained": 117,
+          "skin_contact": 117,
+          "skin_or_flesh_contact": 117,
+          "no_surface_contact_ids": []
+        }
+      },
+      "face_rule": {
+        "source_faces": 157696,
+        "kept": 60800,
+        "removed": 96896,
+        "exact_source_face_indices": true,
+        "exact_signed_selection": true,
+        "clear_analytic_centers": 156882,
+        "clear_wrong_labels": 0,
+        "near_cutter_sample_count": 4034,
+        "near_cutter_max_error_mm": 1.8123717202556122e-06
+      },
+      "common_exact_rim_to_B_skin": {
+        "samples": 2556,
+        "distance_mm": {
+          "min": 0.0,
+          "median": 1.6915953892748803e-05,
+          "p95": 0.08660533092916012,
+          "max": 0.13686791062355042
+        },
+        "over_0_10mm": 30
+      },
+      "interface_gate_pass": false,
+      "technical_invariants_pass": true,
+      "elapsed_seconds": 12.063256994000767,
+      "blender": "5.2.4 LTS"
+    },
+    {
+      "pose": "whole",
+      "voxel_mm": 0.32,
+      "baseline_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "candidate_sha": "c82d664a9c2e9873fd8415658e41c456569852dac23569c63246d770e383fd5e",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "flesh_seed_exact": true,
+      "flesh": {
+        "coords": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "triangles": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "attributes": {
+          "sl_rest_position": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sl_reference_position": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sl_reference_normal": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "topology": {
+          "vertices": 0,
+          "faces": 0,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 0.0,
+          "degenerate_triangles": 0
+        }
+      },
+      "seeds": {
+        "coords": "8c4a9058b0819ccce47e920d80d28c26db2ad7a11018117ad2e00f456695bf43",
+        "triangles": "f6961b3fdabb714cd253aa1d55cdf3f9127456a7204d1ebdb8a3e5716d655cb2",
+        "attributes": {
+          "sl_rest_position": "8c4a9058b0819ccce47e920d80d28c26db2ad7a11018117ad2e00f456695bf43",
+          "sl_anchor_index": "5615b1a0ad4cc13fcd838918012b622ec098cca6bb6fb7316dfc786ff44d3107"
+        },
+        "topology": {
+          "vertices": 46992,
+          "faces": 50688,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 65.53895642993984,
+          "degenerate_triangles": 0
+        }
+      },
+      "candidate_all_vertices_exact_source": true,
+      "A": {
+        "skin_topology": {
+          "vertices": 157250,
+          "faces": 157696,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 22328.274121490722,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 157250,
+        "safe_vertices": 157250,
+        "position_sha": "d3e63872f1bc5bbbe829ad834ffea5a025b0ddbdf13bd81182e8aeac626479fb",
+        "pit_sha": "52b4fea28303dd5fba33cecff75026e213619ae58f652a76dac51b8501f410a1",
+        "triangle_sha": "3195ef7c06742a06402aa023f63920b9031c7e27cb486913f150920159262e26"
+      },
+      "B": {
+        "skin_topology": {
+          "vertices": 157250,
+          "faces": 157696,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 22328.274121490722,
+          "degenerate_triangles": 0
+        },
+        "exact_safe_vertices": 157250,
+        "safe_vertices": 157250,
+        "position_sha": "d3e63872f1bc5bbbe829ad834ffea5a025b0ddbdf13bd81182e8aeac626479fb",
+        "pit_sha": "52b4fea28303dd5fba33cecff75026e213619ae58f652a76dac51b8501f410a1",
+        "triangle_sha": "3195ef7c06742a06402aa023f63920b9031c7e27cb486913f150920159262e26"
+      },
+      "whole_exact": true,
+      "technical_invariants_pass": true,
+      "elapsed_seconds": 6.437320965000254,
+      "blender": "5.2.4 LTS"
+    }
+  ],
+  "technical_pass": 6,
+  "cut_interface_pass": 0,
+  "cut_interface_tested": 5,
+  "new_skin_vertices": 0,
+  "skin_voxel_coupled_to_flesh_for_control": true
+}

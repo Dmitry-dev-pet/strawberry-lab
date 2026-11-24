@@ -1,0 +1,929 @@
+{
+  "geometry_states": 6,
+  "geometry_gate_pass": true,
+  "interface_gate_pass": false,
+  "visual_acceptance": false,
+  "max_rest_error_mm": 2.2558208314649164e-06,
+  "max_pre_recess_reference_error_mm": 0.0,
+  "edge_samples": 20480,
+  "cap_points_exact": 108945,
+  "states": [
+    {
+      "pose": "bite",
+      "voxel_mm": 0.2,
+      "baseline_sha": "b46cc7492e3b42a5125147564c2aaabe42cd4e713e3c66c0de54ba43c32ab8e9",
+      "candidate_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "skin_seed_exact": true,
+      "baseline": {
+        "topology": {
+          "vertices": 163930,
+          "faces": 163928,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 18595.370417318667,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "942efcc70ae7c0e6f3b565c40feea86d6090e3f7d57e3fe8b1901df4ab45a059",
+        "tri_sha": "19c66169f732952c143b3726244e57337809c2a9c7d428e309f90ae10872ea15",
+        "polygon_sha": "6c7126b88b163ba20e28180259db44c614cbd81fb62b385df4019fbbded43831",
+        "rim": {
+          "samples": 1548,
+          "nearest_cap_mm": {
+            "min": 0.00021069943613838404,
+            "median": 0.0476913396269083,
+            "p95": 0.08560839518904682,
+            "max": 0.0995510146021843
+          },
+          "over_0_10mm": 0,
+          "approx_signed_outside_gt_0_03mm": 0
+        },
+        "hull_aware_probes": {
+          "0.05": {
+            "eligible": 23,
+            "excluded": 1525,
+            "uncertain_hull": 52,
+            "uncertain_flesh": 0,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.03975452110171318,
+              "median": 0.08438964933156967,
+              "p95": 0.13370583355426788,
+              "max": 0.1374291330575943
+            }
+          },
+          "0.15": {
+            "eligible": 36,
+            "excluded": 1512,
+            "uncertain_hull": 26,
+            "uncertain_flesh": 0,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.07528013736009598,
+              "median": 0.12073344364762306,
+              "p95": 0.14513113722205162,
+              "max": 0.14822636544704437
+            }
+          }
+        },
+        "outer_away": {
+          "samples": 8227,
+          "outside_gt_0_03mm": 0,
+          "signed_mm": {
+            "min": -0.12013709358870983,
+            "median": -0.10044722788734362,
+            "p95": -0.0895284753292799,
+            "max": -0.07029659335967153
+          }
+        },
+        "cap_faces": 27206,
+        "min_analytic_cutter_margin_mm": -0.11001777648925781
+      },
+      "candidate": {
+        "topology": {
+          "vertices": 163930,
+          "faces": 163928,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 18586.69238249089,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "e6d194b5f6f1eca6f3df2b126c12c179bb138f7de4274638647a48330c4ca32b",
+        "tri_sha": "8887d8ad0c756aa7e56772400b960401e362f33aaa06bb67882da03ed338b071",
+        "polygon_sha": "6c7126b88b163ba20e28180259db44c614cbd81fb62b385df4019fbbded43831",
+        "rim": {
+          "samples": 1548,
+          "nearest_cap_mm": {
+            "min": 0.00021069943613838404,
+            "median": 0.04808425344526768,
+            "p95": 0.08574636019766331,
+            "max": 0.0995510146021843
+          },
+          "over_0_10mm": 0,
+          "approx_signed_outside_gt_0_03mm": 0
+        },
+        "hull_aware_probes": {
+          "0.05": {
+            "eligible": 23,
+            "excluded": 1525,
+            "uncertain_hull": 52,
+            "uncertain_flesh": 2,
+            "outside_flesh_gt_0_03mm": 1,
+            "distance_to_flesh_mm": {
+              "min": 0.0013142829993739724,
+              "median": 0.06737726181745529,
+              "p95": 0.11032116785645482,
+              "max": 0.12692703306674957
+            }
+          },
+          "0.15": {
+            "eligible": 36,
+            "excluded": 1512,
+            "uncertain_hull": 26,
+            "uncertain_flesh": 5,
+            "outside_flesh_gt_0_03mm": 1,
+            "distance_to_flesh_mm": {
+              "min": 0.00024412013590335846,
+              "median": 0.027348150499165058,
+              "p95": 0.0740450955927372,
+              "max": 0.09374532848596573
+            }
+          }
+        },
+        "outer_away": {
+          "samples": 8227,
+          "outside_gt_0_03mm": 0,
+          "signed_mm": {
+            "min": -0.12013709358870983,
+            "median": -0.10044722788734362,
+            "p95": -0.0895284753292799,
+            "max": -0.07029659335967153
+          }
+        },
+        "cap_faces": 26898,
+        "min_analytic_cutter_margin_mm": -0.11001777648925781,
+        "provenance": {
+          "raw_grid_exact": true,
+          "uncut_reference_topology": {
+            "vertices": 153840,
+            "faces": 153838,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 22328.17966834888,
+            "degenerate_triangles": 0
+          },
+          "edge_samples": 4096,
+          "edge_error_mm": 0.0,
+          "cutter_sample_near_count": 27188,
+          "analytic_cutter_max_error_mm": 0.01001785695552826,
+          "cap_points": 27204,
+          "recess_points": 136726,
+          "cap_points_unchanged": true,
+          "max_displacement_equation_error_mm": 1.9073486328125e-06,
+          "max_inverse_error_mm": 0.0,
+          "face_label_changed": 308,
+          "clear_cap_faces": 0,
+          "clear_outer_faces": 136246,
+          "old_clear_cap_wrong": null,
+          "new_clear_cap_wrong": null,
+          "wide_cap_probe_faces": 25377,
+          "wide_cap_old_wrong": 0,
+          "wide_cap_new_wrong": 0,
+          "old_clear_outer_wrong": 0,
+          "new_clear_outer_wrong": 0,
+          "unclassified_ambiguous_faces": 27682
+        }
+      },
+      "geometry_gate_pass": true,
+      "elapsed_seconds": 17.117704227000104
+    },
+    {
+      "pose": "bite",
+      "voxel_mm": 0.32,
+      "baseline_sha": "b46cc7492e3b42a5125147564c2aaabe42cd4e713e3c66c0de54ba43c32ab8e9",
+      "candidate_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "skin_seed_exact": true,
+      "baseline": {
+        "topology": {
+          "vertices": 63872,
+          "faces": 63870,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 18596.960432383767,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "e17df17044e55b06055026864c138e369d26ec5ea2ddb61812eed226ec1f9d63",
+        "tri_sha": "e54e864d9ba473f6bb3002758e2330b2634b1d3a835a3c34f9bf5fa899b7a54e",
+        "polygon_sha": "5fb14735ca0c05a67bd6db9b24d8bd557a586e13816214b94fe98c0787bd83b7",
+        "rim": {
+          "samples": 1548,
+          "nearest_cap_mm": {
+            "min": 0.00013812894758302718,
+            "median": 0.034411221742630005,
+            "p95": 0.08458741717040526,
+            "max": 0.17057006061077118
+          },
+          "over_0_10mm": 34,
+          "approx_signed_outside_gt_0_03mm": 493
+        },
+        "hull_aware_probes": {
+          "0.05": {
+            "eligible": 23,
+            "excluded": 1525,
+            "uncertain_hull": 52,
+            "uncertain_flesh": 0,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.010220539756119251,
+              "median": 0.055564995855093,
+              "p95": 0.08231124654412268,
+              "max": 0.09010481834411621
+            }
+          },
+          "0.15": {
+            "eligible": 36,
+            "excluded": 1512,
+            "uncertain_hull": 26,
+            "uncertain_flesh": 0,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.057053182274103165,
+              "median": 0.09918723627924919,
+              "p95": 0.12957212328910828,
+              "max": 0.13552772998809814
+            }
+          }
+        },
+        "outer_away": {
+          "samples": 8550,
+          "outside_gt_0_03mm": 0,
+          "signed_mm": {
+            "min": -0.13776922412216663,
+            "median": -0.10127127965097316,
+            "p95": -0.07257243607309648,
+            "max": -0.03175976627971977
+          }
+        },
+        "cap_faces": 10725,
+        "min_analytic_cutter_margin_mm": -0.1107330322265625
+      },
+      "candidate": {
+        "topology": {
+          "vertices": 63872,
+          "faces": 63870,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 18590.055086558506,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "cee102f06d2bf4784cefc8c44ec51b1d5542ccd578419c8ad4e7eb7a974a9707",
+        "tri_sha": "74feae2b43d9d017e3bf2ebf57b2da215949e7540250fb0e763ba0588b1cf8fd",
+        "polygon_sha": "5fb14735ca0c05a67bd6db9b24d8bd557a586e13816214b94fe98c0787bd83b7",
+        "rim": {
+          "samples": 1548,
+          "nearest_cap_mm": {
+            "min": 0.00013812894758302718,
+            "median": 0.03504883870482445,
+            "p95": 0.08458741717040526,
+            "max": 0.1737448126077652
+          },
+          "over_0_10mm": 36,
+          "approx_signed_outside_gt_0_03mm": 476
+        },
+        "hull_aware_probes": {
+          "0.05": {
+            "eligible": 23,
+            "excluded": 1525,
+            "uncertain_hull": 52,
+            "uncertain_flesh": 4,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.0028018311131745577,
+              "median": 0.03728126361966133,
+              "p95": 0.06470043510198593,
+              "max": 0.06533733755350113
+            }
+          },
+          "0.15": {
+            "eligible": 36,
+            "excluded": 1512,
+            "uncertain_hull": 26,
+            "uncertain_flesh": 1,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.0005094201187603176,
+              "median": 0.026327120140194893,
+              "p95": 0.11206568032503128,
+              "max": 0.11622041463851929
+            }
+          }
+        },
+        "outer_away": {
+          "samples": 8550,
+          "outside_gt_0_03mm": 0,
+          "signed_mm": {
+            "min": -0.13776922412216663,
+            "median": -0.10127127965097316,
+            "p95": -0.07257243607309648,
+            "max": -0.03175976627971977
+          }
+        },
+        "cap_faces": 10524,
+        "min_analytic_cutter_margin_mm": -0.1107330322265625,
+        "provenance": {
+          "raw_grid_exact": true,
+          "uncut_reference_topology": {
+            "vertices": 59858,
+            "faces": 59856,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 22327.397704165916,
+            "degenerate_triangles": 0
+          },
+          "edge_samples": 4096,
+          "edge_error_mm": 0.0,
+          "cutter_sample_near_count": 10701,
+          "analytic_cutter_max_error_mm": 0.010333076119422913,
+          "cap_points": 10711,
+          "recess_points": 53161,
+          "cap_points_unchanged": true,
+          "max_displacement_equation_error_mm": 1.9073486328125e-06,
+          "max_inverse_error_mm": 0.0,
+          "face_label_changed": 201,
+          "clear_cap_faces": 9683,
+          "clear_outer_faces": 52856,
+          "old_clear_cap_wrong": 0,
+          "new_clear_cap_wrong": 0,
+          "old_clear_outer_wrong": 0,
+          "new_clear_outer_wrong": 0,
+          "unclassified_ambiguous_faces": 1331
+        }
+      },
+      "geometry_gate_pass": true,
+      "elapsed_seconds": 9.506527249999635
+    },
+    {
+      "pose": "plane",
+      "voxel_mm": 0.32,
+      "baseline_sha": "b46cc7492e3b42a5125147564c2aaabe42cd4e713e3c66c0de54ba43c32ab8e9",
+      "candidate_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "skin_seed_exact": true,
+      "baseline": {
+        "topology": {
+          "vertices": 41816,
+          "faces": 41814,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11349.218164213013,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "1f2171e18e3cc05bd8218dd9e58ae366e414b8447a93b99b347da023ab0a0772",
+        "tri_sha": "81e433154a9e6a44ad7e28c350a3e5cd59c4cbaf4fefab54cc4c90d56c4042a2",
+        "polygon_sha": "3a79b569b2e9ec5bd5b4860e5cfdedb79705a5b5acfa8fb597d5c25be31e50dd",
+        "rim": {
+          "samples": 2592,
+          "nearest_cap_mm": {
+            "min": 1.496286586188944e-05,
+            "median": 0.03252399154007435,
+            "p95": 0.05655036475509405,
+            "max": 0.0614129863679409
+          },
+          "over_0_10mm": 0,
+          "approx_signed_outside_gt_0_03mm": 65
+        },
+        "hull_aware_probes": {
+          "0.05": {
+            "eligible": 646,
+            "excluded": 1946,
+            "uncertain_hull": 1117,
+            "uncertain_flesh": 2,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.004503926727920771,
+              "median": 0.05987689085304737,
+              "p95": 0.10007789917290211,
+              "max": 0.10750953108072281
+            }
+          },
+          "0.15": {
+            "eligible": 1052,
+            "excluded": 1540,
+            "uncertain_hull": 541,
+            "uncertain_flesh": 0,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.04989376291632652,
+              "median": 0.10022269561886787,
+              "p95": 0.17489115595817561,
+              "max": 0.20376089215278625
+            }
+          }
+        },
+        "outer_away": {
+          "samples": 9246,
+          "outside_gt_0_03mm": 0,
+          "signed_mm": {
+            "min": -0.13808242604136467,
+            "median": -0.10127006424590945,
+            "p95": -0.07263998937250449,
+            "max": -0.021575882099568844
+          }
+        },
+        "cap_faces": 11616,
+        "min_analytic_cutter_margin_mm": -0.09999990463256836
+      },
+      "candidate": {
+        "topology": {
+          "vertices": 41816,
+          "faces": 41814,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11340.489823970953,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "009fc9481488232c32fba0da5ae39b2e6e3538df13b6a3d6129108e3e15441a4",
+        "tri_sha": "81e433154a9e6a44ad7e28c350a3e5cd59c4cbaf4fefab54cc4c90d56c4042a2",
+        "polygon_sha": "3a79b569b2e9ec5bd5b4860e5cfdedb79705a5b5acfa8fb597d5c25be31e50dd",
+        "rim": {
+          "samples": 2592,
+          "nearest_cap_mm": {
+            "min": 1.496286586188944e-05,
+            "median": 0.03252399154007435,
+            "p95": 0.05655036475509405,
+            "max": 0.0614129863679409
+          },
+          "over_0_10mm": 0,
+          "approx_signed_outside_gt_0_03mm": 65
+        },
+        "hull_aware_probes": {
+          "0.05": {
+            "eligible": 646,
+            "excluded": 1946,
+            "uncertain_hull": 1117,
+            "uncertain_flesh": 3,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.004503926727920771,
+              "median": 0.05987689085304737,
+              "p95": 0.10007789917290211,
+              "max": 0.10750953108072281
+            }
+          },
+          "0.15": {
+            "eligible": 1052,
+            "excluded": 1540,
+            "uncertain_hull": 541,
+            "uncertain_flesh": 5,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.025962412357330322,
+              "median": 0.09545381367206573,
+              "p95": 0.17338527366518972,
+              "max": 0.20376089215278625
+            }
+          }
+        },
+        "outer_away": {
+          "samples": 9246,
+          "outside_gt_0_03mm": 0,
+          "signed_mm": {
+            "min": -0.13808242604136467,
+            "median": -0.10127006424590945,
+            "p95": -0.07263998937250449,
+            "max": -0.021575882099568844
+          }
+        },
+        "cap_faces": 11589,
+        "min_analytic_cutter_margin_mm": -0.09999990463256836,
+        "provenance": {
+          "raw_grid_exact": true,
+          "uncut_reference_topology": {
+            "vertices": 59858,
+            "faces": 59856,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 22327.397704165916,
+            "degenerate_triangles": 0
+          },
+          "edge_samples": 4096,
+          "edge_error_mm": 0.0,
+          "cutter_sample_near_count": 11836,
+          "analytic_cutter_max_error_mm": 1.0803341865539551e-07,
+          "cap_points": 11841,
+          "recess_points": 29975,
+          "cap_points_unchanged": true,
+          "max_displacement_equation_error_mm": 1.9073486328125e-06,
+          "max_inverse_error_mm": 0.0,
+          "face_label_changed": 27,
+          "clear_cap_faces": 10325,
+          "clear_outer_faces": 29665,
+          "old_clear_cap_wrong": 0,
+          "new_clear_cap_wrong": 0,
+          "old_clear_outer_wrong": 0,
+          "new_clear_outer_wrong": 0,
+          "unclassified_ambiguous_faces": 1824
+        }
+      },
+      "geometry_gate_pass": true,
+      "elapsed_seconds": 10.438248161000047
+    },
+    {
+      "pose": "tilted",
+      "voxel_mm": 0.2,
+      "baseline_sha": "b46cc7492e3b42a5125147564c2aaabe42cd4e713e3c66c0de54ba43c32ab8e9",
+      "candidate_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "skin_seed_exact": true,
+      "baseline": {
+        "topology": {
+          "vertices": 125644,
+          "faces": 125642,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11663.691327525345,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "5a8e16a72dd3b9bb3e3879e35e2f4ad8dcf47757d1a29fab079202e07c2536d1",
+        "tri_sha": "b2faf1a71ff648024669b258d12f396ddf543a231517ee1594bef576126061f0",
+        "polygon_sha": "b3a076d91673524811f2f45f3722f248c5a7a0f19aa6558ae4ce9af769789ad6",
+        "rim": {
+          "samples": 2556,
+          "nearest_cap_mm": {
+            "min": 0.0004276552936062217,
+            "median": 0.050331514328718185,
+            "p95": 0.084033889696002,
+            "max": 0.09999922662973404
+          },
+          "over_0_10mm": 0,
+          "approx_signed_outside_gt_0_03mm": 0
+        },
+        "hull_aware_probes": {
+          "0.05": {
+            "eligible": 243,
+            "excluded": 2313,
+            "uncertain_hull": 1087,
+            "uncertain_flesh": 0,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.03914631903171539,
+              "median": 0.09288312494754791,
+              "p95": 0.11303415372967716,
+              "max": 0.1211562231183052
+            }
+          },
+          "0.15": {
+            "eligible": 333,
+            "excluded": 2223,
+            "uncertain_hull": 860,
+            "uncertain_flesh": 0,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.08208633214235306,
+              "median": 0.12197712808847427,
+              "p95": 0.16667774021625517,
+              "max": 0.1784052550792694
+            }
+          }
+        },
+        "outer_away": {
+          "samples": 8373,
+          "outside_gt_0_03mm": 0,
+          "signed_mm": {
+            "min": -0.12455434445291758,
+            "median": -0.10037548840045929,
+            "p95": -0.09052571993670426,
+            "max": -0.06527045741677284
+          }
+        },
+        "cap_faces": 42463,
+        "min_analytic_cutter_margin_mm": -0.0999993501409504
+      },
+      "candidate": {
+        "topology": {
+          "vertices": 125644,
+          "faces": 125642,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11649.520131814137,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "ac251a0aac88eff224677a8cff251680ee1ab98e21a4c04d54a5405f2f384b6d",
+        "tri_sha": "fbc9421b86bba6aacbbc32958b21b9cae71873c80e19d3139ec463090e997f18",
+        "polygon_sha": "b3a076d91673524811f2f45f3722f248c5a7a0f19aa6558ae4ce9af769789ad6",
+        "rim": {
+          "samples": 2556,
+          "nearest_cap_mm": {
+            "min": 0.0004482271906454116,
+            "median": 0.05042680539190769,
+            "p95": 0.084033889696002,
+            "max": 0.09999922662973404
+          },
+          "over_0_10mm": 0,
+          "approx_signed_outside_gt_0_03mm": 0
+        },
+        "hull_aware_probes": {
+          "0.05": {
+            "eligible": 243,
+            "excluded": 2313,
+            "uncertain_hull": 1087,
+            "uncertain_flesh": 1,
+            "outside_flesh_gt_0_03mm": 1,
+            "distance_to_flesh_mm": {
+              "min": 0.004311381373554468,
+              "median": 0.0868062824010849,
+              "p95": 0.10858949124813079,
+              "max": 0.11853049695491791
+            }
+          },
+          "0.15": {
+            "eligible": 333,
+            "excluded": 2223,
+            "uncertain_hull": 860,
+            "uncertain_flesh": 26,
+            "outside_flesh_gt_0_03mm": 12,
+            "distance_to_flesh_mm": {
+              "min": 9.161728667095304e-05,
+              "median": 0.037357766181230545,
+              "p95": 0.09661128520965576,
+              "max": 0.1397123634815216
+            }
+          }
+        },
+        "outer_away": {
+          "samples": 8373,
+          "outside_gt_0_03mm": 0,
+          "signed_mm": {
+            "min": -0.12455434445291758,
+            "median": -0.10037548840045929,
+            "p95": -0.09052571993670426,
+            "max": -0.06527045741677284
+          }
+        },
+        "cap_faces": 41916,
+        "min_analytic_cutter_margin_mm": -0.0999993501409504,
+        "provenance": {
+          "raw_grid_exact": true,
+          "uncut_reference_topology": {
+            "vertices": 183258,
+            "faces": 183256,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 27250.805432729536,
+            "degenerate_triangles": 0
+          },
+          "edge_samples": 4096,
+          "edge_error_mm": 0.0,
+          "cutter_sample_near_count": 42416,
+          "analytic_cutter_max_error_mm": 2.1784642116884356e-06,
+          "cap_points": 42458,
+          "recess_points": 83186,
+          "cap_points_unchanged": true,
+          "max_displacement_equation_error_mm": 1.9073486328125e-06,
+          "max_inverse_error_mm": 2.2558208314649164e-06,
+          "face_label_changed": 547,
+          "clear_cap_faces": 0,
+          "clear_outer_faces": 82373,
+          "old_clear_cap_wrong": null,
+          "new_clear_cap_wrong": null,
+          "wide_cap_probe_faces": 39395,
+          "wide_cap_old_wrong": 0,
+          "wide_cap_new_wrong": 0,
+          "old_clear_outer_wrong": 0,
+          "new_clear_outer_wrong": 0,
+          "unclassified_ambiguous_faces": 43269
+        }
+      },
+      "geometry_gate_pass": true,
+      "elapsed_seconds": 23.077028476999658
+    },
+    {
+      "pose": "tilted",
+      "voxel_mm": 0.32,
+      "baseline_sha": "b46cc7492e3b42a5125147564c2aaabe42cd4e713e3c66c0de54ba43c32ab8e9",
+      "candidate_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "skin_seed_exact": true,
+      "baseline": {
+        "topology": {
+          "vertices": 48966,
+          "faces": 48964,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11661.734957638477,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "232c5c4baa61cae623888372c635a4cd32cba0910bc2bbb79b9c479a95eab992",
+        "tri_sha": "5a15caeed0251aebda26fc212af1d818b4d0870b62547e433cf7eff91ccbd175",
+        "polygon_sha": "3e46c694fe3cd9b16777dfbed7130e5ddac1365a6a894a49bea9bffc57c1f212",
+        "rim": {
+          "samples": 2556,
+          "nearest_cap_mm": {
+            "min": 4.0303319110535085e-05,
+            "median": 0.024265106767416,
+            "p95": 0.07718848995864391,
+            "max": 0.15304040908813477
+          },
+          "over_0_10mm": 31,
+          "approx_signed_outside_gt_0_03mm": 600
+        },
+        "hull_aware_probes": {
+          "0.05": {
+            "eligible": 243,
+            "excluded": 2313,
+            "uncertain_hull": 1087,
+            "uncertain_flesh": 8,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 1.0757936252048239e-05,
+              "median": 0.04795754700899124,
+              "p95": 0.10697714015841481,
+              "max": 0.13558301329612732
+            }
+          },
+          "0.15": {
+            "eligible": 333,
+            "excluded": 2223,
+            "uncertain_hull": 860,
+            "uncertain_flesh": 0,
+            "outside_flesh_gt_0_03mm": 0,
+            "distance_to_flesh_mm": {
+              "min": 0.020653052255511284,
+              "median": 0.09494961053133011,
+              "p95": 0.1619994968175888,
+              "max": 0.18807260692119598
+            }
+          }
+        },
+        "outer_away": {
+          "samples": 9802,
+          "outside_gt_0_03mm": 0,
+          "signed_mm": {
+            "min": -0.1466791983693838,
+            "median": -0.10113900364376605,
+            "p95": -0.07561061500455254,
+            "max": -0.026627110885783623
+          }
+        },
+        "cap_faces": 16745,
+        "min_analytic_cutter_margin_mm": -0.09999993349777725
+      },
+      "candidate": {
+        "topology": {
+          "vertices": 48966,
+          "faces": 48964,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 11650.522420321313,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "031573fcd969e16eb396ba0b7861a076f2bba6152bc9dbe07990340ce2e68cd6",
+        "tri_sha": "2ed5aac1c914f6932304d5aa42ff972f71c2a3963bd38dd92130ac8c665e4a34",
+        "polygon_sha": "3e46c694fe3cd9b16777dfbed7130e5ddac1365a6a894a49bea9bffc57c1f212",
+        "rim": {
+          "samples": 2556,
+          "nearest_cap_mm": {
+            "min": 4.0303319110535085e-05,
+            "median": 0.02465057000517845,
+            "p95": 0.07817694172263145,
+            "max": 0.15304040908813477
+          },
+          "over_0_10mm": 33,
+          "approx_signed_outside_gt_0_03mm": 594
+        },
+        "hull_aware_probes": {
+          "0.05": {
+            "eligible": 243,
+            "excluded": 2313,
+            "uncertain_hull": 1087,
+            "uncertain_flesh": 8,
+            "outside_flesh_gt_0_03mm": 8,
+            "distance_to_flesh_mm": {
+              "min": 0.00019269900803919882,
+              "median": 0.04809747636318207,
+              "p95": 0.10675430893898008,
+              "max": 0.13558301329612732
+            }
+          },
+          "0.15": {
+            "eligible": 333,
+            "excluded": 2223,
+            "uncertain_hull": 860,
+            "uncertain_flesh": 11,
+            "outside_flesh_gt_0_03mm": 8,
+            "distance_to_flesh_mm": {
+              "min": 0.0001755285484250635,
+              "median": 0.06801909953355789,
+              "p95": 0.15156920552253722,
+              "max": 0.18807260692119598
+            }
+          }
+        },
+        "outer_away": {
+          "samples": 9802,
+          "outside_gt_0_03mm": 0,
+          "signed_mm": {
+            "min": -0.1466791983693838,
+            "median": -0.10113900364376605,
+            "p95": -0.07561061500455254,
+            "max": -0.026627110885783623
+          }
+        },
+        "cap_faces": 16392,
+        "min_analytic_cutter_margin_mm": -0.09999993349777725,
+        "provenance": {
+          "raw_grid_exact": true,
+          "uncut_reference_topology": {
+            "vertices": 71468,
+            "faces": 71466,
+            "boundary_edges": 0,
+            "boundary_components": 0,
+            "boundary_bad_valence": 0,
+            "wire_or_over_two_face_edges": 0,
+            "inconsistent_edges": 0,
+            "signed_volume_mm3": 27249.669047183233,
+            "degenerate_triangles": 0
+          },
+          "edge_samples": 4096,
+          "edge_error_mm": 0.0,
+          "cutter_sample_near_count": 16705,
+          "analytic_cutter_max_error_mm": 1.799793276191508e-06,
+          "cap_points": 16731,
+          "recess_points": 32235,
+          "cap_points_unchanged": true,
+          "max_displacement_equation_error_mm": 1.9073486328125e-06,
+          "max_inverse_error_mm": 2.0435878198554747e-06,
+          "face_label_changed": 353,
+          "clear_cap_faces": 15059,
+          "clear_outer_faces": 31735,
+          "old_clear_cap_wrong": 0,
+          "new_clear_cap_wrong": 0,
+          "old_clear_outer_wrong": 0,
+          "new_clear_outer_wrong": 0,
+          "unclassified_ambiguous_faces": 2170
+        }
+      },
+      "geometry_gate_pass": true,
+      "elapsed_seconds": 11.982163308000054
+    },
+    {
+      "pose": "whole",
+      "voxel_mm": 0.32,
+      "baseline_sha": "b46cc7492e3b42a5125147564c2aaabe42cd4e713e3c66c0de54ba43c32ab8e9",
+      "candidate_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+      "skin_seed_exact": true,
+      "baseline": {
+        "topology": {
+          "vertices": 0,
+          "faces": 0,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 0.0,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "tri_sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "polygon_sha": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "candidate": {
+        "topology": {
+          "vertices": 0,
+          "faces": 0,
+          "boundary_edges": 0,
+          "boundary_components": 0,
+          "boundary_bad_valence": 0,
+          "wire_or_over_two_face_edges": 0,
+          "inconsistent_edges": 0,
+          "signed_volume_mm3": 0.0,
+          "degenerate_triangles": 0
+        },
+        "coords_sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "tri_sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "polygon_sha": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "geometry_gate_pass": true,
+      "elapsed_seconds": 4.26906978200077
+    }
+  ]
+}

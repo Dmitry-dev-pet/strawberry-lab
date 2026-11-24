@@ -1,0 +1,121 @@
+{
+  "source_sha": "e22a3fe07a090724d181eadcf5a367802a74cdda8d299d25d6e681ae23a6638d",
+  "voxel_mm": 0.32,
+  "poses": {
+    "whole": {
+      "0.0": {
+        "vertices": 91046,
+        "faces": 91044,
+        "triangles": 182088,
+        "nonmanifold": 0,
+        "volume_mm3": 38674.90163665786,
+        "degenerate_triangles": 0,
+        "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+        "seconds": 0.756863036000027,
+        "total_seconds": 1.363814218000016
+      },
+      "1.0": {
+        "vertices": 91046,
+        "faces": 91044,
+        "triangles": 182088,
+        "nonmanifold": 0,
+        "volume_mm3": 38674.90163665786,
+        "degenerate_triangles": 0,
+        "coords_sha": "459c8027ec1ff1aa181cfafb0bea250ca8bb5ddd1b708a37b74c1087b6ed6263",
+        "seconds": 0.7379347440000288,
+        "total_seconds": 1.3334053949999998
+      }
+    },
+    "plane": {
+      "0.0": {
+        "vertices": 59400,
+        "faces": 59398,
+        "triangles": 118796,
+        "nonmanifold": 0,
+        "volume_mm3": 19459.19014016047,
+        "degenerate_triangles": 0,
+        "coords_sha": "58f0a314ee16370a35e8cb7d6a489e788318603353ec71e90a41072f0eea1d28",
+        "seconds": 1.1499490690000016,
+        "total_seconds": 2.2216218600000275
+      },
+      "1.0": {
+        "vertices": 237594,
+        "faces": 237592,
+        "triangles": 475184,
+        "nonmanifold": 0,
+        "volume_mm3": 19551.946730454772,
+        "degenerate_triangles": 0,
+        "coords_sha": "7b10403f7e0e2af8cc8bffe99813f2990a6f129f3534ab01ca52d5e8e90455b3",
+        "seconds": 3.426811081999972,
+        "max_displacement_mm": 0.14499999582767487,
+        "median_cap_displacement_mm": 0.051877718418836594,
+        "skin_only_max_displacement_mm": 0.0,
+        "seam_max_displacement_mm": 0.0,
+        "cap_moved_points": 52837,
+        "height_max_mm": 0.14499999582767487,
+        "total_seconds": 7.046068273000003
+      }
+    },
+    "oblique": {
+      "0.0": {
+        "vertices": 65888,
+        "faces": 65886,
+        "triangles": 131772,
+        "nonmanifold": 0,
+        "volume_mm3": 19733.132918607407,
+        "degenerate_triangles": 0,
+        "coords_sha": "024b3c51cf6ab524d6d0cecdbe2c4f697e997dcf8b8b81f73ef1c8e1df649666",
+        "seconds": 1.3188554449999401,
+        "total_seconds": 2.596036151000021
+      },
+      "1.0": {
+        "vertices": 263546,
+        "faces": 263544,
+        "triangles": 527088,
+        "nonmanifold": 0,
+        "volume_mm3": 19819.683993490962,
+        "degenerate_triangles": 0,
+        "coords_sha": "4cb72ff4e936327472bc5d2a6b053386f93865a06958b59f9f598dccd5a4f709",
+        "seconds": 4.373324264000075,
+        "max_displacement_mm": 0.1450006663799286,
+        "median_cap_displacement_mm": 0.05580548942089081,
+        "skin_only_max_displacement_mm": 0.0,
+        "seam_max_displacement_mm": 0.0,
+        "cap_moved_points": 82237,
+        "height_max_mm": 0.14499999582767487,
+        "total_seconds": 8.620829754000056
+      }
+    },
+    "bite": {
+      "0.0": {
+        "vertices": 90964,
+        "faces": 90962,
+        "triangles": 181924,
+        "nonmanifold": 0,
+        "volume_mm3": 33622.32278584014,
+        "degenerate_triangles": 0,
+        "coords_sha": "52a6ddb10151524cc40f8ec61817075c2649418c49ea04b521fa24d97ba90f1a",
+        "seconds": 1.0370033880000165,
+        "total_seconds": 1.9571594530000311
+      },
+      "1.0": {
+        "vertices": 363850,
+        "faces": 363848,
+        "triangles": 727696,
+        "nonmanifold": 0,
+        "volume_mm3": 33673.636615764764,
+        "degenerate_triangles": 0,
+        "coords_sha": "c7a574fad6e5223e3c4fdee45d3b8802ec5a2259b17cc46b4a06df1b189154a7",
+        "seconds": 3.5005785660000583,
+        "max_displacement_mm": 0.1450006365776062,
+        "median_cap_displacement_mm": 0.05198833346366882,
+        "skin_only_max_displacement_mm": 0.0,
+        "seam_max_displacement_mm": 0.0,
+        "cap_moved_points": 44436,
+        "height_max_mm": 0.14499999582767487,
+        "total_seconds": 7.037663339000005
+      }
+    }
+  },
+  "peak_rss_kib": 1042540
+}

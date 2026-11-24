@@ -1,0 +1,16 @@
+{
+  "source_sha": "b46cc7492e3b42a5125147564c2aaabe42cd4e713e3c66c0de54ba43c32ab8e9",
+  "scene_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+  "helper_git_sha": "1fd07748a0bc668b81715d037e3ee5db8b6cad20",
+  "cap_point_threshold_voxels": 0.8,
+  "outer_reference_limit_voxels": 1.0,
+  "existing_recess_mm": 0.2,
+  "sample_interpolation": "Trilinear",
+  "groups": {
+    "SL Split | reusable named flesh grid": 7,
+    "SL Split | flesh volume cut": 40,
+    "SL Interface | verified inverse rest and final pre-cell references": 31
+  },
+  "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+  "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea"
+}

@@ -1,0 +1,11 @@
+{
+  "source_sha": "790dc4adbd9025b56e7833c2cedb8ada83c0e9b738ac294f96889fbb52e0e215",
+  "scene_sha": "00e47d77536886a7770d6aa01bec06c6ff3336073b41c86485e637ec728a11d7",
+  "new_nodes": 16,
+  "changed_sockets": [
+    "Roughness",
+    "Coat Weight"
+  ],
+  "artist": true,
+  "skin_material": "SDF | source skin at true rest_position"
+}

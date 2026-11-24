@@ -1,0 +1,12 @@
+{
+  "source_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+  "scene_sha": "102ed16fa3c0d6fc3669a61f71fb2880044a1effdefd716cf703396b4a123eed",
+  "helper_git_sha": "1fd07748a0bc668b81715d037e3ee5db8b6cad20",
+  "exact_nodes": 35,
+  "fast_default": true,
+  "default_exact_voxel_mm": 0.2,
+  "body_operand": "max(body,-cutter) face-centre winner",
+  "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+  "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+  "shape_map": "common-gaussian-map-v1"
+}

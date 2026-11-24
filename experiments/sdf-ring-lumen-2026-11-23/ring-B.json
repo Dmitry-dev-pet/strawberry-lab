@@ -1,0 +1,34 @@
+{
+  "carriers": 28,
+  "terminals": 264,
+  "segments": 292,
+  "joint_max_mm": 0.0,
+  "seed_offset_mm": [
+    0.9499999999999971,
+    0.9500000000000028
+  ],
+  "tapered_terminals": true,
+  "root_trunk": false,
+  "inside_probe": "nearest outward normal on original rest hull; sampled centreline points only",
+  "points": 19976,
+  "outside_points": 0,
+  "min_signed_nearest_margin_mm": 0.5615488141775131,
+  "core_sha": "46ab85a4f707bb009d91b6bc4fedc6fc3e61cb49254bd540c8899a51c9c8918c",
+  "halo_sha": "c59f1efe7361fc0c0d5486318e87df62a176f72d09fb10cb68bb40f22476a5f2",
+  "ring_sha": "617528fe3711f1ec723ca2bfd4ab7e4e593413a9baba69de1baa863e2800b749",
+  "anchor_sha": "f0f25cab9fd51bcac71a7aff8c5844c05f42e9584b082d22a386337a367e250a",
+  "raster_core": {
+    "dabs": 35999,
+    "clipped": 0
+  },
+  "raster_halo": {
+    "dabs": 35999,
+    "clipped": 0
+  },
+  "core_fraction_gt_025": 0.017354470712167246,
+  "halo_fraction_gt_025": 0.04439403392650463,
+  "field_sha": "65cdd1b27fa6569ced1da7dde1c10f921f9933a1aadee963c7cc6c73330e193f",
+  "packed_image_sha": "1e4c847841e548566cd1cb6487dc8460d09f30b1e88e76c80d2f06d7e27a6514",
+  "source_sha": "361696819fd44733d560e3f59b101cd11f59862e7ebd7b7f83ce94fd07909963",
+  "scene_sha": "0498a4bb9daf0fbdb15630a052539283e89f117bbe074c2b8762868ba0deb1b0"
+}

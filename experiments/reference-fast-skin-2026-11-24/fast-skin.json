@@ -1,0 +1,14 @@
+{
+  "source_sha": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+  "scene_sha": "c82d664a9c2e9873fd8415658e41c456569852dac23569c63246d770e383fd5e",
+  "helper_git_sha": "1fd07748a0bc668b81715d037e3ee5db8b6cad20",
+  "node_count": 16,
+  "face_threshold_mm": 0.0,
+  "band_width": 3,
+  "sample_interpolation": "Trilinear",
+  "skin_voxel_source": "flesh_voxel_mm (isolated matched-grid experiment; author uses separately configurable resolution)",
+  "skin_position_nodes": 0,
+  "flesh_groups_unchanged": true,
+  "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+  "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea"
+}

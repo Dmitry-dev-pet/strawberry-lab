@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "variant": "B",
+  "pose": "bite",
+  "voxel_mm": 0.32,
+  "source_sha256": "361696819fd44733d560e3f59b101cd11f59862e7ebd7b7f83ce94fd07909963",
+  "scene_sha256": "14ccb7ac3854916f931a755b0807edda235fedee1e8fd05e0f03523b4b558c95",
+  "preserved_material_trees": 12,
+  "added_nodes": [
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Existing signed clearance mm",
+      "ShaderNodeAttribute"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Positive bounded thickness proxy",
+      "ShaderNodeClamp"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Normalize to 0.10 mm",
+      "ShaderNodeMath"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Independent channel attenuation",
+      "ShaderNodeCombineColor"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Red attenuation",
+      "ShaderNodeMath"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Green attenuation",
+      "ShaderNodeMath"
+    ],
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "SL Field Optical | Blue attenuation",
+      "ShaderNodeMath"
+    ]
+  ],
+  "only_existing_socket_link": [
+    [
+      "SL Juice | clear dielectric ARTIST",
+      "ShaderNodeBsdfPrincipled",
+      "Base Color"
+    ]
+  ],
+  "visibility_unchanged": true,
+  "body": {
+    "vertices": 363850,
+    "faces": 363848,
+    "coords_sha": "e9ae045d89968d4ef4fb5aa547b42dd54a9ba9a2de5c4516ae6439a4341d8624",
+    "topology_sha": "0786882e533ba35a202e7eef892715863ac8f6e9e9197d2aa15c323add94b9dd"
+  },
+  "juice": {
+    "vertices": 35612,
+    "faces": 30670,
+    "coords_sha": "5e9b3ec0e88889aa7eb16926c342314350cbea935f0a8160ff365b29903c0bca",
+    "topology_sha": "b8334c991dd70d843bf8711073cb00578f71f39fd45f4fddf7f5a2f5d9229f34"
+  },
+  "derived_field_statistics": {
+    "positive_points": 10931,
+    "input_min_max_mm": [
+      -0.1728457659482956,
+      0.18241368234157562
+    ],
+    "derived_rgb_min": [
+      0.8932674880845469,
+      0.7756661509024649,
+      0.6656146526563376
+    ],
+    "derived_rgb_max": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "attr_sha": "9c8f931c5065ba41f43d0b90ba7f29d95bb1a959bb67d8f475b1026ed03fa878"
+  }
+}

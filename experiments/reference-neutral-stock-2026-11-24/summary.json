@@ -1,0 +1,575 @@
+{
+  "status": "TECHNICAL_PROTOTYPE_PASS; NO VISUAL ACCEPTANCE",
+  "unit_tests": 9,
+  "evaluated_states": 6,
+  "integrated_control_sha": "790dc4adbd9025b56e7833c2cedb8ada83c0e9b738ac294f96889fbb52e0e215",
+  "stocks": {
+    "264": {
+      "scope": "Neutral exterior geometry only; clay diagnostic; no cut, internal tissues or production material",
+      "context_plan_digest": "695384b3eef3960ae3ccc308c2333ff5857dea5bed31ae4a324f2de61f9ccb1d",
+      "recipe": {
+        "height_mm": 48.0,
+        "width_mm": 32.5,
+        "seed": 101,
+        "achene_count": 264,
+        "achene_length_mm": 1.37,
+        "achene_width_mm": 0.75,
+        "achene_thickness_mm": 0.48,
+        "pit_length_mm": 2.72,
+        "pit_width_mm": 1.96,
+        "pit_depth_mm": 0.32
+      },
+      "anchor_digest": "23646b5163bc872b34361ed0da8ba1b13565a51b15a27cfb413900bef68c3ae8",
+      "stock_key": "ea0214f5abd9fc59a03d5d1db992d9acfbbfcca7153c99ffa73bb9d9912f27ea",
+      "shape_key_neutral": "aaaee6ef40bbfa08c346e585d65e6439695962ebfd0cd3e7cf94aaeef3ff5a83",
+      "shape_key_deformed": "8eadd07d600831b2266d4012126caba4ba4cb4db89ab35b81a11fb1d65b65494",
+      "future_vascular_dependency_key": "fe1e81493fde1d9f69b65394493d1e0ae658254988223ced54f38a3b688a77ff",
+      "shape_nodes": 28,
+      "objects": {
+        "SL Neutral Skin": {
+          "vertices": 157250,
+          "faces": 157696,
+          "rest_sha": "d3e63872f1bc5bbbe829ad834ffea5a025b0ddbdf13bd81182e8aeac626479fb"
+        },
+        "SL Neutral Achenes": {
+          "vertices": 46992,
+          "faces": 50688,
+          "rest_sha": "8c4a9058b0819ccce47e920d80d28c26db2ad7a11018117ad2e00f456695bf43"
+        },
+        "SL Anchor Set": {
+          "vertices": 264,
+          "faces": 0,
+          "rest_sha": "5f456131578c2902a77e0b84ca4be9c3c9a2088bf2cd4ee723ea33f779714f2f"
+        },
+        "SL Pit Seats": {
+          "vertices": 264,
+          "faces": 0,
+          "rest_sha": "0c89d4f53b91c694f981ad66b0800c38c44fd8b296821a201fb193515e8b1862"
+        }
+      },
+      "seed_contacts": 264,
+      "seat_depth_mm": [
+        0.22117815213277936,
+        0.40910663828253746
+      ],
+      "scene_sha": "d430ac081f5383148e4f6a6a81f0dfc89fdfc5e8fb7538dd76cf97598398026a",
+      "build_seconds": 4.109988584999883,
+      "qa": {
+        "source_sha": "d430ac081f5383148e4f6a6a81f0dfc89fdfc5e8fb7538dd76cf97598398026a",
+        "count": 264,
+        "states": [
+          {
+            "state": "neutral",
+            "shape": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "objects": {
+              "SL Neutral Skin": {
+                "vertices": 157250,
+                "faces": 157696,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "d3e63872f1bc5bbbe829ad834ffea5a025b0ddbdf13bd81182e8aeac626479fb",
+                "max_displacement_mm": 0.0,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 22328.274121490722,
+                "degenerate_triangles": 0
+              },
+              "SL Neutral Achenes": {
+                "vertices": 46992,
+                "faces": 50688,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "8c4a9058b0819ccce47e920d80d28c26db2ad7a11018117ad2e00f456695bf43",
+                "max_displacement_mm": 0.0,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 65.53895642993984,
+                "degenerate_triangles": 0
+              },
+              "SL Anchor Set": {
+                "vertices": 264,
+                "faces": 0,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "5f456131578c2902a77e0b84ca4be9c3c9a2088bf2cd4ee723ea33f779714f2f",
+                "max_displacement_mm": 0.0
+              },
+              "SL Pit Seats": {
+                "vertices": 264,
+                "faces": 0,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "0c89d4f53b91c694f981ad66b0800c38c44fd8b296821a201fb193515e8b1862",
+                "max_displacement_mm": 0.0
+              }
+            },
+            "achene_skin_contacts": 264,
+            "max_seat_surface_distance_mm": 3.960906724387314e-06,
+            "elapsed_seconds": 0.8431231269996715
+          },
+          {
+            "state": "deformed",
+            "shape": [
+              0.16,
+              -0.1,
+              1.12
+            ],
+            "objects": {
+              "SL Neutral Skin": {
+                "vertices": 157250,
+                "faces": 157696,
+                "max_forward_error_mm": 2.5443939222213885e-06,
+                "max_inverse_error_mm": 2.531723175991374e-06,
+                "position_sha": "f75573189b95dec34ad317784e6bfb9c506e59481ced6d5ba3839c5b1cf29955",
+                "max_displacement_mm": 5.760095596313477,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 27250.909099342807,
+                "degenerate_triangles": 0
+              },
+              "SL Neutral Achenes": {
+                "vertices": 46992,
+                "faces": 50688,
+                "max_forward_error_mm": 2.5569176429485196e-06,
+                "max_inverse_error_mm": 2.5284437477068877e-06,
+                "position_sha": "d6ff46adcf025e0c178c82b9c6424a01546415374f5131fad6a2e02242dce245",
+                "max_displacement_mm": 5.604607105255127,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 78.40033715764767,
+                "degenerate_triangles": 0
+              },
+              "SL Anchor Set": {
+                "vertices": 264,
+                "faces": 0,
+                "max_forward_error_mm": 1.9836425764196974e-06,
+                "max_inverse_error_mm": 1.7711094422168117e-06,
+                "position_sha": "b437e479f6ad58d1e74ea04f21a875d018a9cedd46ca7fa29f2df1bda919f4a4",
+                "max_displacement_mm": 5.590288162231445
+              },
+              "SL Pit Seats": {
+                "vertices": 264,
+                "faces": 0,
+                "max_forward_error_mm": 1.9836425764196974e-06,
+                "max_inverse_error_mm": 1.7711094422168117e-06,
+                "position_sha": "d5281cc8a4ef02c4eff2dd2af86414cce78ada15aa69b76f1387e5567adacd17",
+                "max_displacement_mm": 5.5539679527282715
+              }
+            },
+            "achene_skin_contacts": 264,
+            "max_seat_surface_distance_mm": 0.00030171097023412585,
+            "elapsed_seconds": 0.6210170659996948
+          },
+          {
+            "state": "restored",
+            "shape": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "objects": {
+              "SL Neutral Skin": {
+                "vertices": 157250,
+                "faces": 157696,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "d3e63872f1bc5bbbe829ad834ffea5a025b0ddbdf13bd81182e8aeac626479fb",
+                "max_displacement_mm": 0.0,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 22328.274121490722,
+                "degenerate_triangles": 0
+              },
+              "SL Neutral Achenes": {
+                "vertices": 46992,
+                "faces": 50688,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "8c4a9058b0819ccce47e920d80d28c26db2ad7a11018117ad2e00f456695bf43",
+                "max_displacement_mm": 0.0,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 65.53895642993984,
+                "degenerate_triangles": 0
+              },
+              "SL Anchor Set": {
+                "vertices": 264,
+                "faces": 0,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "5f456131578c2902a77e0b84ca4be9c3c9a2088bf2cd4ee723ea33f779714f2f",
+                "max_displacement_mm": 0.0
+              },
+              "SL Pit Seats": {
+                "vertices": 264,
+                "faces": 0,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "0c89d4f53b91c694f981ad66b0800c38c44fd8b296821a201fb193515e8b1862",
+                "max_displacement_mm": 0.0
+              }
+            },
+            "achene_skin_contacts": 264,
+            "max_seat_surface_distance_mm": 3.960906724387314e-06,
+            "elapsed_seconds": 0.6335034069998073
+          }
+        ],
+        "all_pass": true,
+        "blender_version": "5.2.4 LTS"
+      }
+    },
+    "326": {
+      "scope": "Neutral exterior geometry only; clay diagnostic; no cut, internal tissues or production material",
+      "context_plan_digest": "695384b3eef3960ae3ccc308c2333ff5857dea5bed31ae4a324f2de61f9ccb1d",
+      "recipe": {
+        "height_mm": 48.0,
+        "width_mm": 32.5,
+        "seed": 101,
+        "achene_count": 326,
+        "achene_length_mm": 1.37,
+        "achene_width_mm": 0.75,
+        "achene_thickness_mm": 0.48,
+        "pit_length_mm": 2.72,
+        "pit_width_mm": 1.96,
+        "pit_depth_mm": 0.32
+      },
+      "anchor_digest": "f2da9d79b30cbc7a27647456e50c9d25e67d6a2cabb3272027ccdd54e1ce64e4",
+      "stock_key": "af39ca4112311cf704d89471d5500c88703ca669965c34a53815530de42a0579",
+      "shape_key_neutral": "396ad7286890ab183014a5d1b0bb92163ed22c25f4265df2f5a0bffbd03b67e0",
+      "shape_key_deformed": "9ee3d21abc083e26d36c329343cb37ddecb16a98f3fbbb35446d154136972949",
+      "future_vascular_dependency_key": "e251c3f3c1c3bee1b292bf530e5efdd28aece318587a97b216fb7b27b51b4e7d",
+      "shape_nodes": 28,
+      "objects": {
+        "SL Neutral Skin": {
+          "vertices": 157250,
+          "faces": 157696,
+          "rest_sha": "802df1bdced2a66e4e1164e1a09db07da6f2f762339b856c1181d695c0b3c3ce"
+        },
+        "SL Neutral Achenes": {
+          "vertices": 58028,
+          "faces": 62592,
+          "rest_sha": "ffa93f482ba897ac088ae33ea79d7f5fb24c805dee0b90af7a263c42bddc5011"
+        },
+        "SL Anchor Set": {
+          "vertices": 326,
+          "faces": 0,
+          "rest_sha": "33b2d2e004f4fa9efbc268a1a2505278a93de1b68cc0c5bf14f17499e0adf3f5"
+        },
+        "SL Pit Seats": {
+          "vertices": 326,
+          "faces": 0,
+          "rest_sha": "d0dfd524205ab7c2ec83ade0a9a8c6ce946e459c4a7992de24301a6f847f54ea"
+        }
+      },
+      "seed_contacts": 326,
+      "seat_depth_mm": [
+        0.2211758764460683,
+        0.4086245857179165
+      ],
+      "scene_sha": "a24c56eb0eb410728c47d728c8d9f46cf374b943a989baea7048d32c2de8bef9",
+      "build_seconds": 4.9547043229995325,
+      "qa": {
+        "source_sha": "a24c56eb0eb410728c47d728c8d9f46cf374b943a989baea7048d32c2de8bef9",
+        "count": 326,
+        "states": [
+          {
+            "state": "neutral",
+            "shape": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "objects": {
+              "SL Neutral Skin": {
+                "vertices": 157250,
+                "faces": 157696,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "802df1bdced2a66e4e1164e1a09db07da6f2f762339b856c1181d695c0b3c3ce",
+                "max_displacement_mm": 0.0,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 22291.572620665764,
+                "degenerate_triangles": 0
+              },
+              "SL Neutral Achenes": {
+                "vertices": 58028,
+                "faces": 62592,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "ffa93f482ba897ac088ae33ea79d7f5fb24c805dee0b90af7a263c42bddc5011",
+                "max_displacement_mm": 0.0,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 81.13736584656657,
+                "degenerate_triangles": 0
+              },
+              "SL Anchor Set": {
+                "vertices": 326,
+                "faces": 0,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "33b2d2e004f4fa9efbc268a1a2505278a93de1b68cc0c5bf14f17499e0adf3f5",
+                "max_displacement_mm": 0.0
+              },
+              "SL Pit Seats": {
+                "vertices": 326,
+                "faces": 0,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "d0dfd524205ab7c2ec83ade0a9a8c6ce946e459c4a7992de24301a6f847f54ea",
+                "max_displacement_mm": 0.0
+              }
+            },
+            "achene_skin_contacts": 326,
+            "max_seat_surface_distance_mm": 3.960906724387314e-06,
+            "elapsed_seconds": 1.0206551149994993
+          },
+          {
+            "state": "deformed",
+            "shape": [
+              0.16,
+              -0.1,
+              1.12
+            ],
+            "objects": {
+              "SL Neutral Skin": {
+                "vertices": 157250,
+                "faces": 157696,
+                "max_forward_error_mm": 2.479562187573947e-06,
+                "max_inverse_error_mm": 2.4699683365270175e-06,
+                "position_sha": "b02a1b8ffdb481ba3f07227ff47c682b8d824b225635da87f49bd2069edfa71b",
+                "max_displacement_mm": 5.760095596313477,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 27207.009212535067,
+                "degenerate_triangles": 0
+              },
+              "SL Neutral Achenes": {
+                "vertices": 58028,
+                "faces": 62592,
+                "max_forward_error_mm": 2.3413920686721212e-06,
+                "max_inverse_error_mm": 2.4233934823314485e-06,
+                "position_sha": "869c1d36cb2c8e3ceb832481a1ebce5ccfc14587d89a116e772f460ee1c26194",
+                "max_displacement_mm": 5.605802536010742,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 96.85668518952704,
+                "degenerate_triangles": 0
+              },
+              "SL Anchor Set": {
+                "vertices": 326,
+                "faces": 0,
+                "max_forward_error_mm": 1.9836425764196974e-06,
+                "max_inverse_error_mm": 1.7711094422168117e-06,
+                "position_sha": "a54a7340093ff293fd90f84353a80d06e94c57ab27d12d088ca2726f6188c62a",
+                "max_displacement_mm": 5.5915656089782715
+              },
+              "SL Pit Seats": {
+                "vertices": 326,
+                "faces": 0,
+                "max_forward_error_mm": 1.9836425764196974e-06,
+                "max_inverse_error_mm": 1.7711094422168117e-06,
+                "position_sha": "e34d3e7627429e467d4eb0072876ee221cedc014e1abd989a2de9c15bfd86428",
+                "max_displacement_mm": 5.555210113525391
+              }
+            },
+            "achene_skin_contacts": 326,
+            "max_seat_surface_distance_mm": 0.0003010895452462137,
+            "elapsed_seconds": 0.6705745980007123
+          },
+          {
+            "state": "restored",
+            "shape": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "objects": {
+              "SL Neutral Skin": {
+                "vertices": 157250,
+                "faces": 157696,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "802df1bdced2a66e4e1164e1a09db07da6f2f762339b856c1181d695c0b3c3ce",
+                "max_displacement_mm": 0.0,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 22291.572620665764,
+                "degenerate_triangles": 0
+              },
+              "SL Neutral Achenes": {
+                "vertices": 58028,
+                "faces": 62592,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "ffa93f482ba897ac088ae33ea79d7f5fb24c805dee0b90af7a263c42bddc5011",
+                "max_displacement_mm": 0.0,
+                "nonmanifold_edges": 0,
+                "inconsistent_edges": 0,
+                "signed_volume_mm3": 81.13736584656657,
+                "degenerate_triangles": 0
+              },
+              "SL Anchor Set": {
+                "vertices": 326,
+                "faces": 0,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "33b2d2e004f4fa9efbc268a1a2505278a93de1b68cc0c5bf14f17499e0adf3f5",
+                "max_displacement_mm": 0.0
+              },
+              "SL Pit Seats": {
+                "vertices": 326,
+                "faces": 0,
+                "max_forward_error_mm": 0.0,
+                "max_inverse_error_mm": 0.0,
+                "position_sha": "d0dfd524205ab7c2ec83ade0a9a8c6ce946e459c4a7992de24301a6f847f54ea",
+                "max_displacement_mm": 0.0
+              }
+            },
+            "achene_skin_contacts": 326,
+            "max_seat_surface_distance_mm": 3.960906724387314e-06,
+            "elapsed_seconds": 0.7115844640002251
+          }
+        ],
+        "all_pass": true,
+        "blender_version": "5.2.4 LTS"
+      }
+    }
+  },
+  "renders": {
+    "264-neutral": {
+      "source_sha": "d430ac081f5383148e4f6a6a81f0dfc89fdfc5e8fb7538dd76cf97598398026a",
+      "image_sha": "8af3ac90f302c40bff1108754b781ad94ab79578e26a01da1572d4f3bdd35704",
+      "mode": "neutral",
+      "shape": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "engine": "BLENDER_WORKBENCH",
+      "resolution": [
+        600,
+        600
+      ],
+      "camera": [
+        [
+          0.8466365337371826,
+          -0.17793771624565125,
+          0.501542329788208,
+          66.0
+        ],
+        [
+          0.5321715474128723,
+          0.28308266401290894,
+          -0.7979083061218262,
+          -105.0
+        ],
+        [
+          4.134413700285222e-08,
+          0.942444920539856,
+          0.3343615233898163,
+          68.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_ortho_scale": 66.0,
+      "seconds": 4.139966371999435
+    },
+    "264-deformed": {
+      "source_sha": "d430ac081f5383148e4f6a6a81f0dfc89fdfc5e8fb7538dd76cf97598398026a",
+      "image_sha": "d2340c881556904948b26ae4ad854583bbe5ead0c73d693097358e4f642c92b7",
+      "mode": "deformed",
+      "shape": [
+        0.16,
+        -0.1,
+        1.12
+      ],
+      "engine": "BLENDER_WORKBENCH",
+      "resolution": [
+        600,
+        600
+      ],
+      "camera": [
+        [
+          0.8466365337371826,
+          -0.17793771624565125,
+          0.501542329788208,
+          66.0
+        ],
+        [
+          0.5321715474128723,
+          0.28308266401290894,
+          -0.7979083061218262,
+          -105.0
+        ],
+        [
+          4.134413700285222e-08,
+          0.942444920539856,
+          0.3343615233898163,
+          68.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_ortho_scale": 66.0,
+      "seconds": 3.8038381260003007
+    },
+    "326-neutral": {
+      "source_sha": "a24c56eb0eb410728c47d728c8d9f46cf374b943a989baea7048d32c2de8bef9",
+      "image_sha": "78369dc522634cfd75422ad7f2b62fb5a434477a4db53d6327037828ea9ca3d5",
+      "mode": "neutral",
+      "shape": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "engine": "BLENDER_WORKBENCH",
+      "resolution": [
+        600,
+        600
+      ],
+      "camera": [
+        [
+          0.8466365337371826,
+          -0.17793771624565125,
+          0.501542329788208,
+          66.0
+        ],
+        [
+          0.5321715474128723,
+          0.28308266401290894,
+          -0.7979083061218262,
+          -105.0
+        ],
+        [
+          4.134413700285222e-08,
+          0.942444920539856,
+          0.3343615233898163,
+          68.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "camera_ortho_scale": 66.0,
+      "seconds": 3.508371130999876
+    }
+  }
+}

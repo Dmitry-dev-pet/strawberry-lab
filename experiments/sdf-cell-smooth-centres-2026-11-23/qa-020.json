@@ -1,0 +1,37 @@
+{
+  "source_sha": "e22a3fe07a090724d181eadcf5a367802a74cdda8d299d25d6e681ae23a6638d",
+  "voxel_mm": 0.2,
+  "poses": {
+    "plane": {
+      "0.0": {
+        "vertices": 152500,
+        "faces": 152498,
+        "triangles": 304996,
+        "nonmanifold": 0,
+        "volume_mm3": 19465.561082859833,
+        "degenerate_triangles": 0,
+        "coords_sha": "26a6ed9f506a377b0213624432d846e6172e6ae8f8b4b138eab0fbaf6baf97d8",
+        "seconds": 2.581485769999972,
+        "total_seconds": 4.873929779999912
+      },
+      "1.0": {
+        "vertices": 609994,
+        "faces": 609992,
+        "triangles": 1219984,
+        "nonmanifold": 0,
+        "volume_mm3": 19557.067053223094,
+        "degenerate_triangles": 0,
+        "coords_sha": "2d2aec02faf3b09f26c36fa54ddbf2f1fd8fb605ee96235ece3a935d564bb7df",
+        "seconds": 8.68272915600005,
+        "max_displacement_mm": 0.14499999582767487,
+        "median_cap_displacement_mm": 0.052676569670438766,
+        "skin_only_max_displacement_mm": 0.0,
+        "seam_max_displacement_mm": 0.0,
+        "cap_moved_points": 132690,
+        "height_max_mm": 0.14499999582767487,
+        "total_seconds": 17.635042301999988
+      }
+    }
+  },
+  "peak_rss_kib": 1376232
+}

@@ -1,0 +1,39 @@
+{
+  "baseline_sha": "d8f86ac4a3fbe69d34ae43a6410583c16c6ddc7d8805886bc28d65d7ed27974a",
+  "crown_sha": "6e7d052440772337dbc9f74b4603d8199f86517d39e7da5463c0bc26945b6984",
+  "color_sha": "d276270ab0794c61715d4f9614ccd2e6a912e13d85e9ae956a2d31eabd37530b",
+  "crown_QA": {
+    "whole": {
+      "geometry_gate": true,
+      "attachment_gate": true,
+      "unattached_organs": []
+    },
+    "plane": {
+      "geometry_gate": true,
+      "attachment_gate": true,
+      "unattached_organs": []
+    },
+    "bite": {
+      "geometry_gate": true,
+      "attachment_gate": true,
+      "unattached_organs": []
+    },
+    "tilted": {
+      "geometry_gate": true,
+      "attachment_gate": false,
+      "unattached_organs": [
+        "Sepal 5"
+      ]
+    }
+  },
+  "color_QA": {
+    "whole": true,
+    "plane": true
+  },
+  "matched_pixel_change_gt_2_255_pct": {
+    "whole": 24.93315972222222,
+    "plane": 19.59418402777778
+  },
+  "visual": "redder, still waxy and pale pith; visual acceptance not met",
+  "scope": "ARTIST; no measured author RGB; no geometry changes from color"
+}

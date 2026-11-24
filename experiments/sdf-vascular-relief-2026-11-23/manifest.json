@@ -1,0 +1,130 @@
+{
+  "README.md": {
+    "bytes": 4046,
+    "sha256": "6022bd2cccd489c49da7630eeff3f7839357a165000009bb8ded8e1edcda13db"
+  },
+  "bite-A.json": {
+    "bytes": 720,
+    "sha256": "105ad7bea5f486f785914559177da08b122b0acb2f3e0e2d4a9ffff74e7c48ae"
+  },
+  "bite-A.png": {
+    "bytes": 305003,
+    "sha256": "3acf575a4c904f428b23c7db0db5552d77288a2d628402e6f146bdb544a8b269"
+  },
+  "bite-B.json": {
+    "bytes": 750,
+    "sha256": "bf8cb44a02f14848f034d6fc713d0d4d98523dc618912e230822fc082fd8ff19"
+  },
+  "bite-B.png": {
+    "bytes": 302320,
+    "sha256": "193a7b89a922923ed36dfd7d70812828f154938d5697faccfee866d768a067dd"
+  },
+  "build.log": {
+    "bytes": 686,
+    "sha256": "2c76b6cf6b93c9417cb3192caeb4a27e0bb00a1c48fccb16962647437b4ff32d"
+  },
+  "build_vascular_relief.py": {
+    "bytes": 7145,
+    "sha256": "d19181899a016e1fafde29bfe65e29df555e71055423f378c55b1a3447bc7b26"
+  },
+  "macro-A.json": {
+    "bytes": 735,
+    "sha256": "efd9019c1fbbeb3d811b5d849f8c8948b4a53c6dd7c6f40542ed78a0f6f82439"
+  },
+  "macro-A.png": {
+    "bytes": 302593,
+    "sha256": "ae5272b23f53d4060502423341a604848e120312d36d9dc401104e966606b27f"
+  },
+  "macro-B.json": {
+    "bytes": 764,
+    "sha256": "8e69b5bb813cd506dcc5133886fa20a91ef8743daa3df9b09e16040d6e2d51b6"
+  },
+  "macro-B.png": {
+    "bytes": 297317,
+    "sha256": "f27d7c3a7a97b9088a26c76d928ac526ca1926702d96420696f0f31f6438580d"
+  },
+  "plane-A.json": {
+    "bytes": 721,
+    "sha256": "7d97bcbf294248f12b38fb825f60faf06eb3a6c45c00dbed09473991d0131ae0"
+  },
+  "plane-A.png": {
+    "bytes": 303056,
+    "sha256": "e727424f25a843866a679e451e5fb15347c7e48c2aeb6bf87b3c1306d1326550"
+  },
+  "plane-B.json": {
+    "bytes": 751,
+    "sha256": "fc0e218bbd39d604676af6ef1ab8c725ceff0e3a7a72aa113ace0e99c108db81"
+  },
+  "plane-B.png": {
+    "bytes": 298030,
+    "sha256": "4f6fa26a4f11d6117478985f93f0b2270a33d79634cfd5655d98d2ed4d0b2516"
+  },
+  "qa-020-plane.log": {
+    "bytes": 85,
+    "sha256": "84df8749331f0b63dda430272744fc8fe4617dcd9b50471f2952c1ff95974470"
+  },
+  "qa-032-bite.json": {
+    "bytes": 1644,
+    "sha256": "3cb095b6e6201c936de0bc8c7938269ecbec5ae796f25ca9121c32c88e38a116"
+  },
+  "qa-032-bite.log": {
+    "bytes": 1371,
+    "sha256": "314cb3c8279df40ad0fc711a3829e8d1a1422b5ae800847ad97b060be1b7295b"
+  },
+  "qa-032-oblique.json": {
+    "bytes": 1649,
+    "sha256": "eff7774bc5eaaa3e15b87f9aa9d0b70c43162155e749a675e00a4974277c0573"
+  },
+  "qa-032-oblique.log": {
+    "bytes": 1376,
+    "sha256": "fcc5541d2451ae240f266c09e172b2039494a19d1c18c54b6ca0795aa55c165e"
+  },
+  "qa-032-plane.json": {
+    "bytes": 1645,
+    "sha256": "eb0133dedd9beff5cbf3c091188bd5b620b64cbdd8f62f676f6589ad60ceeb0c"
+  },
+  "qa-032-plane.log": {
+    "bytes": 1372,
+    "sha256": "11c4b8cb40cbb019a13e86c27db992423d991ad5a87b71330b07afbbc4bca548"
+  },
+  "qa-032-whole.json": {
+    "bytes": 1096,
+    "sha256": "9f17fa3747b56c83cc10d14ad2b9b100f04cf14aad255a6435b3167cc29582a4"
+  },
+  "qa-032-whole.log": {
+    "bytes": 896,
+    "sha256": "b49bd0dc11b1222599e473d3c1979856b13292d35898947ad6028f59e2c0606d"
+  },
+  "qa_vascular_relief.py": {
+    "bytes": 5985,
+    "sha256": "2006478d96dea57710d04f95c842c3a4b36149885e94bb1c2073f7ae8d72ac11"
+  },
+  "render-bite-B.log": {
+    "bytes": 236,
+    "sha256": "e630bb6407c1eae6cb480ab944aacfe91d37e44db93645e6d4fe831d42d3e3c2"
+  },
+  "render-comparison.json": {
+    "bytes": 5776,
+    "sha256": "da52900be6500fedd90101c68d16cd1c9771cd73bb3ceabc945790526ac6d1fc"
+  },
+  "render-macro-B.log": {
+    "bytes": 237,
+    "sha256": "fdf2f7ca4149f89b865fc70c556d22777b7fad8890a57b28156ac4bfa9979a3a"
+  },
+  "render-plane-B.log": {
+    "bytes": 237,
+    "sha256": "40b7546f1a8b3446b237359fc0b1dae09bfe7b03d35a9f0c15657be10d916888"
+  },
+  "render_vascular_relief.py": {
+    "bytes": 1485,
+    "sha256": "e11c5e496d9e93f354cff734f7602c261ec36420c30e477285f32909d59574f8"
+  },
+  "vascular-ab.blend": {
+    "bytes": 27141581,
+    "sha256": "2ccb17510bf46ae7ae3fa1a09eac144144dffb5a5f10c193dae9832b70760973"
+  },
+  "vascular-comparison.png": {
+    "bytes": 1009354,
+    "sha256": "229e9ef9c9056259fa0f26ee6a6c5c2ee4bed586e8866e5bbfe4affce20529f8"
+  }
+}

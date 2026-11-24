@@ -1,0 +1,12 @@
+{
+  "source_sha": "bbf897fd885725951e75e5ca4eda0301cbf38c0f1bd31a9f375f3d7ce58c72a8",
+  "scene_sha": "0868e656bc1d4c68c1a0f2b555bb5443f5f2527e34ca8bab0e55a1ae9d656e67",
+  "nodes_total": 99,
+  "refinement_nodes": 33,
+  "default_level": 0,
+  "default_face_area_mm2": 0.03,
+  "max_passes": 2,
+  "algorithm": "area-selected pure cap face-centre fans; preserve every original edge; connected top-only collapse; no global subdivision",
+  "scope": "Exact cut path only; ARTIST threshold",
+  "elapsed_seconds": 1.8347099280001657
+}

@@ -1,0 +1,18 @@
+{
+  "new_shader_nodes": 14,
+  "shader_total_nodes": 21,
+  "ior": 1.333,
+  "roughness": 0.12,
+  "tint_at_0_10_mm_linear_rgb": [
+    0.96,
+    0.82,
+    0.75
+  ],
+  "max_gap_mm": 0.2,
+  "reference_gap_mm": 0.1,
+  "default_mode": 0,
+  "shadow_route_preserved": true,
+  "source_sha": "250732d06c5c2cfbc24f531612cda2672755ba8cad50afddd0a2a894553954fb",
+  "scene_sha": "d147164be18c2feecd170568b46df698ad3882c48f7f9645fc758d07fd81a0a0",
+  "scope": "Only juice material alternative; open interfaces, ARTIST optical proxy; no geometry changes"
+}
