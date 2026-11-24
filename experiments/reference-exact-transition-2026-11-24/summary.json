@@ -1,0 +1,1158 @@
+{
+  "scope": "Original free Kiwi runtime and shared source; no commercial strawberry execution; no Strawberry scene modification",
+  "input_sha256": {
+    "reference_zip": "aaa218470ab068ed1cb806308d9a4da1d43fd5d9e3de30f6486ac7d204787877",
+    "blender_archive": "2fd14c50987426897ba60237ee996edf2b4151f4b1a72a460ca20be58c1d2d86",
+    "integrated_control": "790dc4adbd9025b56e7833c2cedb8ada83c0e9b738ac294f96889fbb52e0e215",
+    "split_reference": "4cee7f472d5ebe8a9ee48b39f760ee87a5d16f3c1e2db0ee5aaffe4fcdcd0ff3",
+    "fast_negative": "c82d664a9c2e9873fd8415658e41c456569852dac23569c63246d770e383fd5e"
+  },
+  "blender": "5.2.4 LTS",
+  "build_hash": "cd5dc428cce1",
+  "resolution_percent": 40,
+  "elapsed_seconds": 121.15,
+  "checks": {
+    "completed": true,
+    "fast_separate": true,
+    "exact_routes_original": true,
+    "exact_material_shared_edges": true,
+    "exact_rotation_changed": true,
+    "fast_reset_position": true,
+    "fast_reset_triangles": true,
+    "fast_reset_flesh": true,
+    "one_piece_finalized": true,
+    "other_piece_unchanged": true,
+    "translated_local_mesh_unchanged": true
+  },
+  "whole_states": [
+    {
+      "label": "placeholder",
+      "mode": "PLATZ",
+      "routing": [
+        "SCHNELL KIWI | Körper"
+      ],
+      "flesh_visible": false,
+      "actual_cell_input": false,
+      "plane_sync_needed": false,
+      "elapsed_s": 2.776,
+      "body": {
+        "vertices": 25879,
+        "faces": 26106,
+        "position_sha": "a18439a9e24109d8b1936859b0a0014a628ef3902f372e0d244f5faa25c4386f",
+        "triangle_sha": "be820fe11edd540ea2ec4b499dd08727531d0341772e45d7155dd7b05e7e42ce",
+        "boundary_edges": 0,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {},
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Schale",
+            "faces": 26106
+          }
+        ],
+        "bounds": [
+          [
+            -2.579364061355591,
+            -2.416256904602051,
+            -3.418461799621582
+          ],
+          [
+            2.6153435707092285,
+            2.478170156478882,
+            3.4440295696258545
+          ]
+        ]
+      },
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": false,
+          "bakes": []
+        },
+        "FLEISCH_QUELLE": {
+          "present": false,
+          "bakes": []
+        }
+      }
+    },
+    {
+      "label": "whole_fast",
+      "mode": "FAST",
+      "routing": [
+        "SCHNELL KIWI | Körper"
+      ],
+      "flesh_visible": false,
+      "actual_cell_input": false,
+      "plane_sync_needed": false,
+      "elapsed_s": 6.343,
+      "body": {
+        "vertices": 25879,
+        "faces": 26106,
+        "position_sha": "a18439a9e24109d8b1936859b0a0014a628ef3902f372e0d244f5faa25c4386f",
+        "triangle_sha": "be820fe11edd540ea2ec4b499dd08727531d0341772e45d7155dd7b05e7e42ce",
+        "boundary_edges": 0,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {},
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Schale",
+            "faces": 26106
+          }
+        ],
+        "bounds": [
+          [
+            -2.579364061355591,
+            -2.416256904602051,
+            -3.418461799621582
+          ],
+          [
+            2.6153435707092285,
+            2.478170156478882,
+            3.4440295696258545
+          ]
+        ]
+      },
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      }
+    },
+    {
+      "label": "plane_fast",
+      "mode": "FAST",
+      "routing": [
+        "SCHNELL KIWI | Körper"
+      ],
+      "flesh_visible": true,
+      "actual_cell_input": false,
+      "plane_sync_needed": false,
+      "elapsed_s": 8.116,
+      "body": {
+        "vertices": 13283,
+        "faces": 13282,
+        "position_sha": "7e3bbfd4c7570180bb1513f11d7b1ddc7a069f0988aa5c12fc293d16e0c71db8",
+        "triangle_sha": "c47e831aeef3a867b6a6a2d8497efb95d14fa78f0e1043e988bc343b22cd9592",
+        "boundary_edges": 229,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {},
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Schale",
+            "faces": 13282
+          }
+        ],
+        "bounds": [
+          [
+            -2.579364061355591,
+            -2.416256904602051,
+            -3.418461799621582
+          ],
+          [
+            2.6153435707092285,
+            2.478170156478882,
+            0.3192976415157318
+          ]
+        ]
+      },
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      },
+      "separate_flesh": {
+        "vertices": 42814,
+        "faces": 42812,
+        "position_sha": "1de31352e58ea2465dbe43eb3e02b92031789fcc6ea6af5f983238f58db50128",
+        "triangle_sha": "b0458d90cbd8a734d4d643cdb63c0c23e805698c560312c632e33d160ae32fc1",
+        "boundary_edges": 0,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {},
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Fruchtfleisch",
+            "faces": 42812
+          }
+        ],
+        "bounds": [
+          [
+            -2.5490880012512207,
+            -2.3857860565185547,
+            -3.3853228092193604
+          ],
+          [
+            2.607229232788086,
+            2.4473447799682617,
+            0.2999998927116394
+          ]
+        ]
+      }
+    },
+    {
+      "label": "plane_exact",
+      "mode": "GENAU",
+      "routing": [
+        "KIWI | Körper"
+      ],
+      "flesh_visible": false,
+      "actual_cell_input": true,
+      "plane_sync_needed": false,
+      "elapsed_s": 48.463,
+      "body": {
+        "vertices": 117889,
+        "faces": 147227,
+        "position_sha": "93a2a9b7f86be39549e057f47386d2dde24323f216c69c6e0c91a9f5b021a354",
+        "triangle_sha": "f0e9063859f385b0a590b44ba120352dc05c3b228c872f018b5ccd22d3b560fc",
+        "boundary_edges": 8704,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {
+          "1:2": 1904
+        },
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Schale",
+            "faces": 26892
+          },
+          {
+            "index": 2,
+            "name": "KIWI | Fruchtfleisch",
+            "faces": 11560
+          },
+          {
+            "index": 3,
+            "name": "KIWI | Zellen",
+            "faces": 69632
+          },
+          {
+            "index": 4,
+            "name": "KIWI | Samenstränge",
+            "faces": 26926
+          },
+          {
+            "index": 5,
+            "name": "KIWI | Leitbündel",
+            "faces": 12217
+          }
+        ],
+        "bounds": [
+          [
+            -2.579806327819824,
+            -2.416515588760376,
+            -3.4187238216400146
+          ],
+          [
+            2.614058017730713,
+            2.478220224380493,
+            0.32707786560058594
+          ]
+        ]
+      },
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      }
+    },
+    {
+      "label": "plane_moved_api_exact",
+      "mode": "GENAU",
+      "routing": [
+        "KIWI | Körper"
+      ],
+      "flesh_visible": false,
+      "actual_cell_input": true,
+      "plane_sync_needed": true,
+      "elapsed_s": 49.504,
+      "body": {
+        "vertices": 117889,
+        "faces": 147227,
+        "position_sha": "93a2a9b7f86be39549e057f47386d2dde24323f216c69c6e0c91a9f5b021a354",
+        "triangle_sha": "f0e9063859f385b0a590b44ba120352dc05c3b228c872f018b5ccd22d3b560fc",
+        "boundary_edges": 8704,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {
+          "1:2": 1904
+        },
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Schale",
+            "faces": 26892
+          },
+          {
+            "index": 2,
+            "name": "KIWI | Fruchtfleisch",
+            "faces": 11560
+          },
+          {
+            "index": 3,
+            "name": "KIWI | Zellen",
+            "faces": 69632
+          },
+          {
+            "index": 4,
+            "name": "KIWI | Samenstränge",
+            "faces": 26926
+          },
+          {
+            "index": 5,
+            "name": "KIWI | Leitbündel",
+            "faces": 12217
+          }
+        ],
+        "bounds": [
+          [
+            -2.579806327819824,
+            -2.416515588760376,
+            -3.4187238216400146
+          ],
+          [
+            2.614058017730713,
+            2.478220224380493,
+            0.32707786560058594
+          ]
+        ]
+      },
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      }
+    },
+    {
+      "label": "plane_moved_api_exact_after_2s",
+      "mode": "GENAU",
+      "routing": [
+        "KIWI | Körper"
+      ],
+      "flesh_visible": false,
+      "actual_cell_input": true,
+      "plane_sync_needed": false,
+      "elapsed_s": 62.009,
+      "body": {
+        "vertices": 108434,
+        "faces": 130912,
+        "position_sha": "e524ab672be73ed8b4d8446f21dbc2ef23699491ef7a0c0501ba7fac32dca14d",
+        "triangle_sha": "b2b05befca548ecf5d312c2a8383f6be3bfa1729269ab978ebebefe6a8ac4ea6",
+        "boundary_edges": 8818,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {
+          "1:2": 2048
+        },
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Schale",
+            "faces": 27050
+          },
+          {
+            "index": 2,
+            "name": "KIWI | Fruchtfleisch",
+            "faces": 9211
+          },
+          {
+            "index": 3,
+            "name": "KIWI | Zellen",
+            "faces": 56212
+          },
+          {
+            "index": 4,
+            "name": "KIWI | Samenstränge",
+            "faces": 26767
+          },
+          {
+            "index": 5,
+            "name": "KIWI | Leitbündel",
+            "faces": 11672
+          }
+        ],
+        "bounds": [
+          [
+            -2.579806327819824,
+            -2.416515588760376,
+            -3.4187238216400146
+          ],
+          [
+            1.5661014318466187,
+            2.478220224380493,
+            3.1452364921569824
+          ]
+        ]
+      },
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      }
+    },
+    {
+      "label": "plane_moved_after_original_sync",
+      "mode": "GENAU",
+      "routing": [
+        "KIWI | Körper"
+      ],
+      "flesh_visible": false,
+      "actual_cell_input": true,
+      "plane_sync_needed": false,
+      "elapsed_s": 62.98,
+      "body": {
+        "vertices": 108434,
+        "faces": 130912,
+        "position_sha": "e524ab672be73ed8b4d8446f21dbc2ef23699491ef7a0c0501ba7fac32dca14d",
+        "triangle_sha": "b2b05befca548ecf5d312c2a8383f6be3bfa1729269ab978ebebefe6a8ac4ea6",
+        "boundary_edges": 8818,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {
+          "1:2": 2048
+        },
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Schale",
+            "faces": 27050
+          },
+          {
+            "index": 2,
+            "name": "KIWI | Fruchtfleisch",
+            "faces": 9211
+          },
+          {
+            "index": 3,
+            "name": "KIWI | Zellen",
+            "faces": 56212
+          },
+          {
+            "index": 4,
+            "name": "KIWI | Samenstränge",
+            "faces": 26767
+          },
+          {
+            "index": 5,
+            "name": "KIWI | Leitbündel",
+            "faces": 11672
+          }
+        ],
+        "bounds": [
+          [
+            -2.579806327819824,
+            -2.416515588760376,
+            -3.4187238216400146
+          ],
+          [
+            1.5661014318466187,
+            2.478220224380493,
+            3.1452364921569824
+          ]
+        ]
+      },
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      }
+    },
+    {
+      "label": "rotated_fast",
+      "mode": "FAST",
+      "routing": [
+        "SCHNELL KIWI | Körper"
+      ],
+      "flesh_visible": true,
+      "actual_cell_input": false,
+      "plane_sync_needed": false,
+      "elapsed_s": 65.4,
+      "body": {
+        "vertices": 13509,
+        "faces": 13435,
+        "position_sha": "e3c9fe98dcd21660673d07e2df3f3620640bd18732b17fe6d1e5c12fc8d6597d",
+        "triangle_sha": "0289e6056c46c1906208d75c19bec91a47a0be1f411b959f603552b2d3f052c5",
+        "boundary_edges": 375,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {},
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Schale",
+            "faces": 13435
+          }
+        ],
+        "bounds": [
+          [
+            -2.579364061355591,
+            -2.416256904602051,
+            -3.418461799621582
+          ],
+          [
+            1.5931544303894043,
+            2.478170156478882,
+            3.179955005645752
+          ]
+        ]
+      },
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      },
+      "separate_flesh": {
+        "vertices": 48328,
+        "faces": 48326,
+        "position_sha": "d20dd9cd515abbc35ce99c9df49e125b6eafee2b203e09a15e8594c286709aab",
+        "triangle_sha": "e30d65ee8285b8b33a0821b65c5871336bcb2781decbe24c65c6df308134d90a",
+        "boundary_edges": 0,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {},
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Fruchtfleisch",
+            "faces": 48326
+          }
+        ],
+        "bounds": [
+          [
+            -2.5490880012512207,
+            -2.3857860565185547,
+            -3.3853228092193604
+          ],
+          [
+            1.5560652017593384,
+            2.4473447799682617,
+            3.151966094970703
+          ]
+        ]
+      }
+    },
+    {
+      "label": "reset_plane_fast",
+      "mode": "FAST",
+      "routing": [
+        "SCHNELL KIWI | Körper"
+      ],
+      "flesh_visible": true,
+      "actual_cell_input": false,
+      "plane_sync_needed": true,
+      "elapsed_s": 66.442,
+      "body": {
+        "vertices": 13283,
+        "faces": 13282,
+        "position_sha": "7e3bbfd4c7570180bb1513f11d7b1ddc7a069f0988aa5c12fc293d16e0c71db8",
+        "triangle_sha": "c47e831aeef3a867b6a6a2d8497efb95d14fa78f0e1043e988bc343b22cd9592",
+        "boundary_edges": 229,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {},
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Schale",
+            "faces": 13282
+          }
+        ],
+        "bounds": [
+          [
+            -2.579364061355591,
+            -2.416256904602051,
+            -3.418461799621582
+          ],
+          [
+            2.6153435707092285,
+            2.478170156478882,
+            0.3192976415157318
+          ]
+        ]
+      },
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      },
+      "separate_flesh": {
+        "vertices": 42814,
+        "faces": 42812,
+        "position_sha": "1de31352e58ea2465dbe43eb3e02b92031789fcc6ea6af5f983238f58db50128",
+        "triangle_sha": "b0458d90cbd8a734d4d643cdb63c0c23e805698c560312c632e33d160ae32fc1",
+        "boundary_edges": 0,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {},
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Fruchtfleisch",
+            "faces": 42812
+          }
+        ],
+        "bounds": [
+          [
+            -2.5490880012512207,
+            -2.3857860565185547,
+            -3.3853228092193604
+          ],
+          [
+            2.607229232788086,
+            2.4473447799682617,
+            0.2999998927116394
+          ]
+        ]
+      }
+    },
+    {
+      "label": "reset_plane_exact",
+      "mode": "GENAU",
+      "routing": [
+        "KIWI | Körper"
+      ],
+      "flesh_visible": false,
+      "actual_cell_input": true,
+      "plane_sync_needed": true,
+      "elapsed_s": 90.598,
+      "body": {
+        "vertices": 108434,
+        "faces": 130912,
+        "position_sha": "e524ab672be73ed8b4d8446f21dbc2ef23699491ef7a0c0501ba7fac32dca14d",
+        "triangle_sha": "b2b05befca548ecf5d312c2a8383f6be3bfa1729269ab978ebebefe6a8ac4ea6",
+        "boundary_edges": 8818,
+        "over_two_face_edges": 0,
+        "mixed_material_edges": {
+          "1:2": 2048
+        },
+        "material_faces": [
+          {
+            "index": 1,
+            "name": "KIWI | Schale",
+            "faces": 27050
+          },
+          {
+            "index": 2,
+            "name": "KIWI | Fruchtfleisch",
+            "faces": 9211
+          },
+          {
+            "index": 3,
+            "name": "KIWI | Zellen",
+            "faces": 56212
+          },
+          {
+            "index": 4,
+            "name": "KIWI | Samenstränge",
+            "faces": 26767
+          },
+          {
+            "index": 5,
+            "name": "KIWI | Leitbündel",
+            "faces": 11672
+          }
+        ],
+        "bounds": [
+          [
+            -2.579806327819824,
+            -2.416515588760376,
+            -3.4187238216400146
+          ],
+          [
+            1.5661014318466187,
+            2.478220224380493,
+            3.1452364921569824
+          ]
+        ]
+      },
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      }
+    }
+  ],
+  "pieces": {
+    "split_preview": [
+      {
+        "name": "Kiwi Stück 1",
+        "quality": "schnell",
+        "cuts": 1,
+        "body": {
+          "vertices": 53470,
+          "faces": 53467,
+          "position_sha": "b64b38b71d6e52d3a1309bc3d5d9edfa40a8bddb821f596cb0c165a0e09abcc1",
+          "triangle_sha": "702f88437eb599343b9209f8e7c83e9c0967f75ab2e47aa83821f79f39231311",
+          "boundary_edges": 229,
+          "over_two_face_edges": 0,
+          "mixed_material_edges": {},
+          "material_faces": [
+            {
+              "index": 1,
+              "name": "KIWI | Fruchtfleisch",
+              "faces": 40414
+            },
+            {
+              "index": 2,
+              "name": "KIWI | Schale",
+              "faces": 13053
+            }
+          ],
+          "bounds": [
+            [
+              -2.5793137550354004,
+              -2.416348934173584,
+              -0.9734389781951904
+            ],
+            [
+              2.612760305404663,
+              2.4780781269073486,
+              2.445085287094116
+            ]
+          ]
+        },
+        "display_inputs": [],
+        "saved_exact_present": false,
+        "stand": 1
+      },
+      {
+        "name": "Kiwi Stück 2",
+        "quality": "schnell",
+        "cuts": 1,
+        "body": {
+          "vertices": 51806,
+          "faces": 51803,
+          "position_sha": "6f1db9c5b8cadaba427cea4645061a2a5a4c247a882ee4b6790a35f89bc43ea6",
+          "triangle_sha": "8d97cad4dc6b833bf54cbdad433034736c4fd524b8e612651ac1c1d4443593a8",
+          "boundary_edges": 229,
+          "over_two_face_edges": 0,
+          "mixed_material_edges": {},
+          "material_faces": [
+            {
+              "index": 1,
+              "name": "KIWI | Fruchtfleisch",
+              "faces": 38750
+            },
+            {
+              "index": 2,
+              "name": "KIWI | Schale",
+              "faces": 13053
+            }
+          ],
+          "bounds": [
+            [
+              -2.5579824447631836,
+              -2.3859710693359375,
+              -2.457519054412842
+            ],
+            [
+              2.6154003143310547,
+              2.441345453262329,
+              0.9865105152130127
+            ]
+          ]
+        },
+        "display_inputs": [],
+        "saved_exact_present": false,
+        "stand": 1
+      }
+    ],
+    "one_finalized": [
+      {
+        "name": "Kiwi Stück 1",
+        "quality": "echt",
+        "cuts": 1,
+        "body": {
+          "vertices": 112313,
+          "faces": 142360,
+          "position_sha": "bd5049d9653683352226db0c41f30b2a06a0f7a5c9d0f318e6605ee64951697b",
+          "triangle_sha": "d639f0a43bd479360afc1f06f2de993930c04c2c7ceeba12b6dc1c6c86c2e312",
+          "boundary_edges": 7909,
+          "over_two_face_edges": 0,
+          "mixed_material_edges": {
+            "1:2": 1916
+          },
+          "material_faces": [
+            {
+              "index": 1,
+              "name": "KIWI | Schale",
+              "faces": 26244
+            },
+            {
+              "index": 2,
+              "name": "KIWI | Fruchtfleisch",
+              "faces": 11644
+            },
+            {
+              "index": 3,
+              "name": "KIWI | Zellen",
+              "faces": 70305
+            },
+            {
+              "index": 4,
+              "name": "KIWI | Samenstränge",
+              "faces": 23262
+            },
+            {
+              "index": 5,
+              "name": "KIWI | Leitbündel",
+              "faces": 10905
+            }
+          ],
+          "bounds": [
+            [
+              -2.579756021499634,
+              -2.416607618331909,
+              -0.973701000213623
+            ],
+            [
+              2.610226631164551,
+              2.47812819480896,
+              2.4725801944732666
+            ]
+          ]
+        },
+        "display_inputs": [],
+        "saved_exact_present": true,
+        "stand": 1,
+        "exact_bake_blocks": [
+          10
+        ],
+        "exact_bake_targets": [
+          "PACKED"
+        ]
+      },
+      {
+        "name": "Kiwi Stück 2",
+        "quality": "schnell",
+        "cuts": 1,
+        "body": {
+          "vertices": 51806,
+          "faces": 51803,
+          "position_sha": "6f1db9c5b8cadaba427cea4645061a2a5a4c247a882ee4b6790a35f89bc43ea6",
+          "triangle_sha": "8d97cad4dc6b833bf54cbdad433034736c4fd524b8e612651ac1c1d4443593a8",
+          "boundary_edges": 229,
+          "over_two_face_edges": 0,
+          "mixed_material_edges": {},
+          "material_faces": [
+            {
+              "index": 1,
+              "name": "KIWI | Fruchtfleisch",
+              "faces": 38750
+            },
+            {
+              "index": 2,
+              "name": "KIWI | Schale",
+              "faces": 13053
+            }
+          ],
+          "bounds": [
+            [
+              -2.5579824447631836,
+              -2.3859710693359375,
+              -2.457519054412842
+            ],
+            [
+              2.6154003143310547,
+              2.441345453262329,
+              0.9865105152130127
+            ]
+          ]
+        },
+        "display_inputs": [],
+        "saved_exact_present": false,
+        "stand": 1
+      }
+    ],
+    "finalized_piece_translated": [
+      {
+        "name": "Kiwi Stück 1",
+        "quality": "echt",
+        "cuts": 1,
+        "body": {
+          "vertices": 112313,
+          "faces": 142360,
+          "position_sha": "bd5049d9653683352226db0c41f30b2a06a0f7a5c9d0f318e6605ee64951697b",
+          "triangle_sha": "d639f0a43bd479360afc1f06f2de993930c04c2c7ceeba12b6dc1c6c86c2e312",
+          "boundary_edges": 7909,
+          "over_two_face_edges": 0,
+          "mixed_material_edges": {
+            "1:2": 1916
+          },
+          "material_faces": [
+            {
+              "index": 1,
+              "name": "KIWI | Schale",
+              "faces": 26244
+            },
+            {
+              "index": 2,
+              "name": "KIWI | Fruchtfleisch",
+              "faces": 11644
+            },
+            {
+              "index": 3,
+              "name": "KIWI | Zellen",
+              "faces": 70305
+            },
+            {
+              "index": 4,
+              "name": "KIWI | Samenstränge",
+              "faces": 23262
+            },
+            {
+              "index": 5,
+              "name": "KIWI | Leitbündel",
+              "faces": 10905
+            }
+          ],
+          "bounds": [
+            [
+              -2.579756021499634,
+              -2.416607618331909,
+              -0.973701000213623
+            ],
+            [
+              2.610226631164551,
+              2.47812819480896,
+              2.4725801944732666
+            ]
+          ]
+        },
+        "display_inputs": [],
+        "saved_exact_present": true,
+        "stand": 1,
+        "exact_bake_blocks": [
+          10
+        ],
+        "exact_bake_targets": [
+          "PACKED"
+        ]
+      },
+      {
+        "name": "Kiwi Stück 2",
+        "quality": "schnell",
+        "cuts": 1,
+        "body": {
+          "vertices": 51806,
+          "faces": 51803,
+          "position_sha": "6f1db9c5b8cadaba427cea4645061a2a5a4c247a882ee4b6790a35f89bc43ea6",
+          "triangle_sha": "8d97cad4dc6b833bf54cbdad433034736c4fd524b8e612651ac1c1d4443593a8",
+          "boundary_edges": 229,
+          "over_two_face_edges": 0,
+          "mixed_material_edges": {},
+          "material_faces": [
+            {
+              "index": 1,
+              "name": "KIWI | Fruchtfleisch",
+              "faces": 38750
+            },
+            {
+              "index": 2,
+              "name": "KIWI | Schale",
+              "faces": 13053
+            }
+          ],
+          "bounds": [
+            [
+              -2.5579824447631836,
+              -2.3859710693359375,
+              -2.457519054412842
+            ],
+            [
+              2.6154003143310547,
+              2.441345453262329,
+              0.9865105152130127
+            ]
+          ]
+        },
+        "display_inputs": [],
+        "saved_exact_present": false,
+        "stand": 1
+      }
+    ]
+  },
+  "limitations": [
+    "Initial Mesh reference lifetime probe failed; fixed harness only.",
+    "API motion may return before original controller or geometry refresh. Reset Exact snapshot still showed previous rotated mesh; no confirmed Exact roundtrip.",
+    "Open boundary edges on Exact evaluated display body: not a watertightness proof.",
+    "Piece bake observed in runtime, not new saved reference .blend. Local geometry unchanged after requested translation; no independent world-transform receipt.",
+    "No commercial Strawberry graph, no new renders, no performance parity."
+  ]
+}
