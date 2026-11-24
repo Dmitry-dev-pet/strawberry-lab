@@ -1,0 +1,665 @@
+{
+  "runtime": {
+    "event": "start",
+    "elapsed_s": 0.003,
+    "blender": "5.2.4 LTS",
+    "build_hash": "cd5dc428cce1",
+    "resolution_percent": 40.0
+  },
+  "source_archive_sha256": "aaa218470ab068ed1cb806308d9a4da1d43fd5d9e3de30f6486ac7d204787877",
+  "integrated_control_sha256": "790dc4adbd9025b56e7833c2cedb8ada83c0e9b738ac294f96889fbb52e0e215",
+  "observations": [
+    {
+      "name": "whole_placeholder",
+      "elapsed_s": 6.915,
+      "mode": "PLATZ",
+      "body_vertices": 25879,
+      "body_faces": 26106,
+      "dimensions": [
+        5.19471,
+        4.89443,
+        6.86249
+      ],
+      "seed_hair_etc_instance_count": 7473,
+      "basis_valid": true,
+      "inside_valid": false,
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": false,
+          "bakes": []
+        },
+        "FLEISCH_QUELLE": {
+          "present": false,
+          "bakes": []
+        }
+      },
+      "separate_cut_surface": [],
+      "exact_allowed": true
+    },
+    {
+      "name": "whole_radius_changed",
+      "elapsed_s": 9.571,
+      "mode": "PLATZ",
+      "body_vertices": 25879,
+      "body_faces": 26106,
+      "dimensions": [
+        6.11142,
+        5.75815,
+        6.86249
+      ],
+      "seed_hair_etc_instance_count": 7473,
+      "basis_valid": true,
+      "inside_valid": false,
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": false,
+          "bakes": []
+        },
+        "FLEISCH_QUELLE": {
+          "present": false,
+          "bakes": []
+        }
+      },
+      "separate_cut_surface": [],
+      "exact_allowed": true
+    },
+    {
+      "name": "whole_reset_radius",
+      "elapsed_s": 12.299,
+      "mode": "PLATZ",
+      "body_vertices": 25879,
+      "body_faces": 26106,
+      "dimensions": [
+        5.19471,
+        4.89443,
+        6.86249
+      ],
+      "seed_hair_etc_instance_count": 7473,
+      "basis_valid": true,
+      "inside_valid": false,
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": false,
+          "bakes": []
+        },
+        "FLEISCH_QUELLE": {
+          "present": false,
+          "bakes": []
+        }
+      },
+      "separate_cut_surface": [],
+      "exact_allowed": true
+    },
+    {
+      "name": "whole_fast",
+      "elapsed_s": 16.466,
+      "mode": "FAST",
+      "body_vertices": 25879,
+      "body_faces": 26106,
+      "dimensions": [
+        5.19471,
+        4.89443,
+        6.86249
+      ],
+      "seed_hair_etc_instance_count": 7473,
+      "basis_valid": true,
+      "inside_valid": true,
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      },
+      "separate_cut_surface": [],
+      "exact_allowed": true
+    },
+    {
+      "name": "plane_fast",
+      "elapsed_s": 18.6,
+      "mode": "FAST",
+      "body_vertices": 13283,
+      "body_faces": 13282,
+      "dimensions": [
+        5.19471,
+        4.89443,
+        3.73776
+      ],
+      "seed_hair_etc_instance_count": 4131,
+      "basis_valid": true,
+      "inside_valid": true,
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      },
+      "separate_cut_surface": [
+        {
+          "name": "SCHNELL KIWI | Schnittfläche",
+          "mesh_vertices": 42814,
+          "mesh_faces": 42812,
+          "instances": 0,
+          "hidden_render": true,
+          "dimensions": [
+            5.15632,
+            4.83313,
+            3.68532
+          ]
+        }
+      ],
+      "exact_allowed": true
+    },
+    {
+      "name": "plane_exact",
+      "elapsed_s": 58.874,
+      "mode": "GENAU",
+      "body_vertices": 117889,
+      "body_faces": 147227,
+      "dimensions": [
+        5.19386,
+        4.89474,
+        3.7458
+      ],
+      "seed_hair_etc_instance_count": 4138,
+      "basis_valid": true,
+      "inside_valid": true,
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      },
+      "separate_cut_surface": [
+        {
+          "name": "SCHNELL KIWI | Schnittfläche",
+          "error": "Expected an evaluated object"
+        }
+      ],
+      "exact_allowed": true
+    },
+    {
+      "name": "plane_rotated_exact",
+      "elapsed_s": 59.46,
+      "mode": "GENAU",
+      "body_vertices": 117889,
+      "body_faces": 147227,
+      "dimensions": [
+        5.19386,
+        4.89474,
+        3.7458
+      ],
+      "seed_hair_etc_instance_count": 4138,
+      "basis_valid": true,
+      "inside_valid": true,
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      },
+      "separate_cut_surface": [
+        {
+          "name": "SCHNELL KIWI | Schnittfläche",
+          "error": "Expected an evaluated object"
+        }
+      ],
+      "exact_allowed": true
+    },
+    {
+      "name": "bite_fast",
+      "elapsed_s": 62.412,
+      "mode": "FAST",
+      "body_vertices": 25432,
+      "body_faces": 25602,
+      "dimensions": [
+        5.19471,
+        4.89443,
+        6.86249
+      ],
+      "seed_hair_etc_instance_count": 7191,
+      "basis_valid": true,
+      "inside_valid": true,
+      "cache": {
+        "VORRAT_GANZ": {
+          "present": true,
+          "bakes": [
+            3
+          ]
+        },
+        "VORRAT_BLAETTER": {
+          "present": true,
+          "bakes": [
+            2
+          ]
+        },
+        "FLEISCHFORM": {
+          "present": true,
+          "bakes": [
+            1
+          ]
+        },
+        "FLEISCH_QUELLE": {
+          "present": true,
+          "bakes": []
+        }
+      },
+      "separate_cut_surface": [
+        {
+          "name": "SCHNELL KIWI | Schnittfläche",
+          "mesh_vertices": 66234,
+          "mesh_faces": 66232,
+          "instances": 0,
+          "hidden_render": true,
+          "dimensions": [
+            5.13375,
+            4.8508,
+            6.79858
+          ]
+        }
+      ],
+      "exact_allowed": false
+    }
+  ],
+  "exact_bite_rejection": {
+    "event": "exact_bite_rejected",
+    "elapsed_s": 62.414,
+    "expected": true,
+    "reason": "Export View works for the kiwi only with a single plane. A bite and several cuts stay in Fast"
+  },
+  "exact_plane_rotation_geometry_confirmed": false,
+  "rotation_note": "The API accepted rotation; sampled mesh counts and dimensions stayed the same at the next timer tick. Do not count geometric motion as a pass.",
+  "probe_ended": {
+    "event": "end",
+    "elapsed_s": 62.471,
+    "ok": true
+  },
+  "private_scene_snapshots": [
+    {
+      "event": "private_snapshot",
+      "elapsed_s": 12.361,
+      "name": "original-kiwi-whole",
+      "size": 2090332,
+      "sha256": "70d06b3aeb008a7d2c92598669fb2bf2b626d7321be1532cb09495fe2343efd9"
+    },
+    {
+      "event": "private_snapshot",
+      "elapsed_s": 58.932,
+      "name": "original-kiwi-plane-exact",
+      "size": 3934649,
+      "sha256": "fd1fa0afb8b0b5c60016f3130367884a06710b20bbe8cd63537e327a2cb1bcd7"
+    },
+    {
+      "event": "private_snapshot",
+      "elapsed_s": 62.471,
+      "name": "original-kiwi-bite-fast",
+      "size": 4005011,
+      "sha256": "98c9e957a611cfeee26f2848868755794ad4d8eb42aec33ba543547d263ea840"
+    }
+  ],
+  "graph_inventory": {
+    "file": "original-kiwi-bite-fast.blend",
+    "blender": "5.2.4 LTS",
+    "root": {
+      "GeometryNodeMeshBoolean": 1,
+      "FunctionNodeBooleanMath": 2
+    },
+    "objects": [
+      {
+        "object": "KIWI | Griffel und Kelch",
+        "modifiers": [
+          {
+            "modifier": "KIWI • Frucht komplett",
+            "group": "KIWI • Frucht komplett",
+            "node_count": 38,
+            "sdf": {
+              "GeometryNodeMeshBoolean": 1,
+              "GeometryNodeDeleteGeometry": 1,
+              "FunctionNodeBooleanMath": 2
+            },
+            "bake_blocks": []
+          }
+        ]
+      },
+      {
+        "object": "KIWI | Körper",
+        "modifiers": [
+          {
+            "modifier": "KIWI • Frucht komplett",
+            "group": "KIWI • Frucht komplett",
+            "node_count": 38,
+            "sdf": {
+              "GeometryNodeMeshBoolean": 1,
+              "GeometryNodeDeleteGeometry": 1,
+              "FunctionNodeBooleanMath": 2
+            },
+            "bake_blocks": []
+          }
+        ]
+      },
+      {
+        "object": "KIWI | Samen und Haare",
+        "modifiers": [
+          {
+            "modifier": "KIWI • Frucht komplett",
+            "group": "KIWI • Frucht komplett",
+            "node_count": 38,
+            "sdf": {
+              "GeometryNodeMeshBoolean": 1,
+              "GeometryNodeDeleteGeometry": 1,
+              "FunctionNodeBooleanMath": 2
+            },
+            "bake_blocks": []
+          }
+        ]
+      },
+      {
+        "object": "SCHNELL KIWI | Blätter ganz",
+        "modifiers": [
+          {
+            "modifier": "Fast Mode",
+            "group": "SCHNELL KIWI • Blätter ganz",
+            "node_count": 11,
+            "sdf": {
+              "GeometryNodeBake": 1
+            },
+            "bake_blocks": [
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "object": "SCHNELL KIWI | Fleisch Quelle",
+        "modifiers": [
+          {
+            "modifier": "Fast Mode",
+            "group": "SCHNELL KIWI • Fleisch Quelle",
+            "node_count": 9,
+            "sdf": {
+              "GeometryNodeMeshToSDFGrid": 1,
+              "GeometryNodeStoreNamedGrid": 1,
+              "GeometryNodeGridToMesh": 1
+            },
+            "bake_blocks": []
+          }
+        ]
+      },
+      {
+        "object": "SCHNELL KIWI | Fleischform",
+        "modifiers": [
+          {
+            "modifier": "Fast Mode",
+            "group": "SCHNELL KIWI • Fleischform",
+            "node_count": 6,
+            "sdf": {
+              "GeometryNodeBake": 1
+            },
+            "bake_blocks": [
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "object": "SCHNELL KIWI | Frucht",
+        "modifiers": [
+          {
+            "modifier": "Fast Mode",
+            "group": "SCHNELL KIWI • Anzeige",
+            "node_count": 9,
+            "sdf": {
+              "GeometryNodeDeleteGeometry": 1
+            },
+            "bake_blocks": []
+          },
+          {
+            "modifier": "LIVE",
+            "group": "LIVE • Kerne und Haare",
+            "node_count": 20,
+            "sdf": {
+              "GeometryNodeDeleteGeometry": 1
+            },
+            "bake_blocks": []
+          },
+          {
+            "modifier": "FORM",
+            "group": "FORM LIVE • Kiwi",
+            "node_count": 16,
+            "sdf": {},
+            "bake_blocks": []
+          },
+          {
+            "modifier": "Live",
+            "group": "SCHNELL KIWI • Live Entfernen",
+            "node_count": 12,
+            "sdf": {
+              "GeometryNodeMeshToSDFGrid": 1,
+              "GeometryNodeSampleGrid": 1,
+              "GeometryNodeDeleteGeometry": 2
+            },
+            "bake_blocks": []
+          }
+        ]
+      },
+      {
+        "object": "SCHNELL KIWI | Hautprobe",
+        "modifiers": [
+          {
+            "modifier": "FORM",
+            "group": "FORM LIVE • Kiwi",
+            "node_count": 16,
+            "sdf": {},
+            "bake_blocks": []
+          }
+        ]
+      },
+      {
+        "object": "SCHNELL KIWI | Kelch",
+        "modifiers": [
+          {
+            "modifier": "Fast Mode",
+            "group": "SCHNELL KIWI • Anzeige",
+            "node_count": 9,
+            "sdf": {
+              "GeometryNodeDeleteGeometry": 1
+            },
+            "bake_blocks": []
+          },
+          {
+            "modifier": "FORM",
+            "group": "FORM LIVE • Kiwi",
+            "node_count": 16,
+            "sdf": {},
+            "bake_blocks": []
+          },
+          {
+            "modifier": "Live",
+            "group": "SCHNELL KIWI • Live Entfernen",
+            "node_count": 12,
+            "sdf": {
+              "GeometryNodeMeshToSDFGrid": 1,
+              "GeometryNodeSampleGrid": 1,
+              "GeometryNodeDeleteGeometry": 2
+            },
+            "bake_blocks": []
+          }
+        ]
+      },
+      {
+        "object": "SCHNELL KIWI | Körper",
+        "modifiers": [
+          {
+            "modifier": "Fast Mode",
+            "group": "SCHNELL KIWI • Anzeige",
+            "node_count": 9,
+            "sdf": {
+              "GeometryNodeDeleteGeometry": 1
+            },
+            "bake_blocks": []
+          },
+          {
+            "modifier": "FORM",
+            "group": "FORM LIVE • Kiwi",
+            "node_count": 16,
+            "sdf": {},
+            "bake_blocks": []
+          },
+          {
+            "modifier": "Live",
+            "group": "SCHNELL KIWI • Live Entfernen",
+            "node_count": 12,
+            "sdf": {
+              "GeometryNodeMeshToSDFGrid": 1,
+              "GeometryNodeSampleGrid": 1,
+              "GeometryNodeDeleteGeometry": 2
+            },
+            "bake_blocks": []
+          }
+        ]
+      },
+      {
+        "object": "SCHNELL KIWI | Schnittfläche",
+        "modifiers": [
+          {
+            "modifier": "Fast Mode",
+            "group": "SCHNELL KIWI • Schnittfläche",
+            "node_count": 30,
+            "sdf": {
+              "GeometryNodeMeshToSDFGrid": 1,
+              "GeometryNodeGetNamedGrid": 1,
+              "GeometryNodeSDFGridBoolean": 1,
+              "GeometryNodeGridToMesh": 1,
+              "GeometryNodeSampleGrid": 1,
+              "FunctionNodeBooleanMath": 2
+            },
+            "bake_blocks": []
+          }
+        ]
+      },
+      {
+        "object": "SCHNELL KIWI | Vorrat ganz",
+        "modifiers": [
+          {
+            "modifier": "Fast Mode",
+            "group": "SCHNELL KIWI • Vorrat ganz",
+            "node_count": 21,
+            "sdf": {
+              "GeometryNodeBake": 1
+            },
+            "bake_blocks": [
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
