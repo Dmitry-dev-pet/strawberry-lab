@@ -1,0 +1,30 @@
+{
+  "palette_srgb_ARTIST": {
+    "skin_deep": "A52510",
+    "skin_ripe": "D43815",
+    "skin_shoulder": "E49B55",
+    "cortex_deep": "C02B0C",
+    "cortex_light": "E24B20",
+    "pith": "E5A385",
+    "halo": "EFC3A7",
+    "bundle": "E9D1B8",
+    "grain": "EDAB89",
+    "stalk": "E7BD72",
+    "edge": "D75A2C"
+  },
+  "new_groups": {
+    "SL Pigment | shared warm skin foundation v2": 11,
+    "SL Pigment | regional tissue v2": 50,
+    "SL Pigment | fruit-wide colour grade": 8
+  },
+  "default_pigment_revision": 0,
+  "default_global_grade": [
+    0.0,
+    1.0,
+    1.0
+  ],
+  "scope": "cap color and cavity wall only; shared future skin foundation; existing cap SSS fixed; no source presets copied",
+  "source_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+  "scene_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+  "elapsed_seconds": 1.5566194590001032
+}

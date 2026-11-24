@@ -1,0 +1,473 @@
+{
+  "scope": "Archived A / fresh B, matched listed settings; pixels, not quality",
+  "rows": {
+    "plane": {
+      "a": {
+        "scene_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+        "image_sha": "40067b2c3e80343e6641be2ac09a723e6939c26dfb4393a5371e550aaffafac1",
+        "pose": "plane",
+        "juice_gain": 1.0,
+        "juice_optics_mode": 2,
+        "flesh_material_mode": 2,
+        "tissue_gain": 1.0,
+        "exact_voxel_mm": 0.32,
+        "cap_refine_level": 2,
+        "engine": "CYCLES",
+        "samples": 24,
+        "seed": 1729,
+        "resolution": [
+          560,
+          560
+        ],
+        "camera_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.07974524050951004,
+            -0.9968152642250061,
+            -125.0
+          ],
+          [
+            0.0,
+            0.9968152642250061,
+            0.07974524050951004,
+            34.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ortho_scale": 55.0,
+        "lights": [
+          [
+            "Diagnostic softbox left",
+            63000.0,
+            [
+              -28.0,
+              -40.0,
+              63.0
+            ]
+          ],
+          [
+            "Diagnostic strip right",
+            42000.0,
+            [
+              27.0,
+              -36.0,
+              28.0
+            ]
+          ],
+          [
+            "Diagnostic fill",
+            31500.0,
+            [
+              6.0,
+              18.0,
+              55.0
+            ]
+          ]
+        ],
+        "render_seconds": 9.913437173999682
+      },
+      "b": {
+        "scene_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+        "image_sha": "98aa8f6b72ed7931edaa5029f0b22df98d960df42e6098b6c44d3ac97d1daf0c",
+        "pose": "plane",
+        "juice_gain": 1.0,
+        "juice_optics_mode": 2,
+        "flesh_material_mode": 2,
+        "pigment_revision": 1,
+        "tissue_gain": 1.0,
+        "exact_voxel_mm": 0.32,
+        "cap_refine_level": 2,
+        "engine": "CYCLES",
+        "samples": 24,
+        "seed": 1729,
+        "resolution": [
+          560,
+          560
+        ],
+        "camera_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.07974524050951004,
+            -0.9968152642250061,
+            -125.0
+          ],
+          [
+            0.0,
+            0.9968152642250061,
+            0.07974524050951004,
+            34.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ortho_scale": 55.0,
+        "lights": [
+          [
+            "Diagnostic softbox left",
+            63000.0,
+            [
+              -28.0,
+              -40.0,
+              63.0
+            ]
+          ],
+          [
+            "Diagnostic strip right",
+            42000.0,
+            [
+              27.0,
+              -36.0,
+              28.0
+            ]
+          ],
+          [
+            "Diagnostic fill",
+            31500.0,
+            [
+              6.0,
+              18.0,
+              55.0
+            ]
+          ]
+        ],
+        "render_seconds": 10.91572565200022
+      },
+      "mean_abs_rgb_delta": 4.8120812074829935,
+      "percent_max_channel_gt_2": 36.666772959183675,
+      "percent_max_channel_gt_10": 30.549426020408166
+    },
+    "macro": {
+      "a": {
+        "scene_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+        "image_sha": "01875537635850c24ef38fdceb933b40d39f49122a22e70bac04637db4aef7d7",
+        "pose": "macro",
+        "juice_gain": 1.0,
+        "juice_optics_mode": 2,
+        "flesh_material_mode": 2,
+        "tissue_gain": 1.0,
+        "exact_voxel_mm": 0.32,
+        "cap_refine_level": 2,
+        "engine": "CYCLES",
+        "samples": 24,
+        "seed": 1729,
+        "resolution": [
+          560,
+          560
+        ],
+        "camera_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            5.0
+          ],
+          [
+            0.0,
+            0.07478991150856018,
+            -0.997199296951294,
+            -120.0
+          ],
+          [
+            0.0,
+            0.997199296951294,
+            0.07478991150856018,
+            38.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ortho_scale": 14.0,
+        "lights": [
+          [
+            "Diagnostic softbox left",
+            63000.0,
+            [
+              -28.0,
+              -40.0,
+              63.0
+            ]
+          ],
+          [
+            "Diagnostic strip right",
+            42000.0,
+            [
+              27.0,
+              -36.0,
+              28.0
+            ]
+          ],
+          [
+            "Diagnostic fill",
+            31500.0,
+            [
+              6.0,
+              18.0,
+              55.0
+            ]
+          ]
+        ],
+        "render_seconds": 14.86748657499993
+      },
+      "b": {
+        "scene_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+        "image_sha": "c471de4e59ad3f902614aceacd3ae62e09b35d18841e83248c5a030658373fae",
+        "pose": "macro",
+        "juice_gain": 1.0,
+        "juice_optics_mode": 2,
+        "flesh_material_mode": 2,
+        "pigment_revision": 1,
+        "tissue_gain": 1.0,
+        "exact_voxel_mm": 0.32,
+        "cap_refine_level": 2,
+        "engine": "CYCLES",
+        "samples": 24,
+        "seed": 1729,
+        "resolution": [
+          560,
+          560
+        ],
+        "camera_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            5.0
+          ],
+          [
+            0.0,
+            0.07478991150856018,
+            -0.997199296951294,
+            -120.0
+          ],
+          [
+            0.0,
+            0.997199296951294,
+            0.07478991150856018,
+            38.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ortho_scale": 14.0,
+        "lights": [
+          [
+            "Diagnostic softbox left",
+            63000.0,
+            [
+              -28.0,
+              -40.0,
+              63.0
+            ]
+          ],
+          [
+            "Diagnostic strip right",
+            42000.0,
+            [
+              27.0,
+              -36.0,
+              28.0
+            ]
+          ],
+          [
+            "Diagnostic fill",
+            31500.0,
+            [
+              6.0,
+              18.0,
+              55.0
+            ]
+          ]
+        ],
+        "render_seconds": 18.625838738999846
+      },
+      "mean_abs_rgb_delta": 14.907733843537414,
+      "percent_max_channel_gt_2": 99.63265306122449,
+      "percent_max_channel_gt_10": 80.41741071428572
+    },
+    "bite": {
+      "a": {
+        "scene_sha": "7443e948ca2dc90e23a891f1262ff0afd68bb501f49c4a3d8f323fcff4f2a173",
+        "image_sha": "8e3094d27a93a608a3f413d64194cf72055fcfc2dca96f5ecb79e636f6acd6cd",
+        "pose": "bite",
+        "juice_gain": 1.0,
+        "juice_optics_mode": 2,
+        "flesh_material_mode": 2,
+        "tissue_gain": 1.0,
+        "exact_voxel_mm": 0.32,
+        "cap_refine_level": 2,
+        "engine": "CYCLES",
+        "samples": 24,
+        "seed": 1729,
+        "resolution": [
+          560,
+          560
+        ],
+        "camera_matrix": [
+          [
+            0.8574929237365723,
+            -0.12242967635393143,
+            0.49971672892570496,
+            68.0
+          ],
+          [
+            0.5144957304000854,
+            0.20404939353466034,
+            -0.8328613042831421,
+            -108.0
+          ],
+          [
+            4.686272347953491e-08,
+            0.9712748527526855,
+            0.23796045780181885,
+            59.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ortho_scale": 55.0,
+        "lights": [
+          [
+            "Diagnostic softbox left",
+            63000.0,
+            [
+              -28.0,
+              -40.0,
+              63.0
+            ]
+          ],
+          [
+            "Diagnostic strip right",
+            42000.0,
+            [
+              27.0,
+              -36.0,
+              28.0
+            ]
+          ],
+          [
+            "Diagnostic fill",
+            31500.0,
+            [
+              6.0,
+              18.0,
+              55.0
+            ]
+          ]
+        ],
+        "render_seconds": 7.886980901999777
+      },
+      "b": {
+        "scene_sha": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+        "image_sha": "15b10773a7dc2f1d7bc586bf9c86dc2915c22a091747c0f13570f688598e1ebd",
+        "pose": "bite",
+        "juice_gain": 1.0,
+        "juice_optics_mode": 2,
+        "flesh_material_mode": 2,
+        "pigment_revision": 1,
+        "tissue_gain": 1.0,
+        "exact_voxel_mm": 0.32,
+        "cap_refine_level": 2,
+        "engine": "CYCLES",
+        "samples": 24,
+        "seed": 1729,
+        "resolution": [
+          560,
+          560
+        ],
+        "camera_matrix": [
+          [
+            0.8574929237365723,
+            -0.12242967635393143,
+            0.49971672892570496,
+            68.0
+          ],
+          [
+            0.5144957304000854,
+            0.20404939353466034,
+            -0.8328613042831421,
+            -108.0
+          ],
+          [
+            4.686272347953491e-08,
+            0.9712748527526855,
+            0.23796045780181885,
+            59.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ortho_scale": 55.0,
+        "lights": [
+          [
+            "Diagnostic softbox left",
+            63000.0,
+            [
+              -28.0,
+              -40.0,
+              63.0
+            ]
+          ],
+          [
+            "Diagnostic strip right",
+            42000.0,
+            [
+              27.0,
+              -36.0,
+              28.0
+            ]
+          ],
+          [
+            "Diagnostic fill",
+            31500.0,
+            [
+              6.0,
+              18.0,
+              55.0
+            ]
+          ]
+        ],
+        "render_seconds": 8.874648580000212
+      },
+      "mean_abs_rgb_delta": 1.6199564200680272,
+      "percent_max_channel_gt_2": 13.547831632653063,
+      "percent_max_channel_gt_10": 11.79623724489796
+    }
+  }
+}

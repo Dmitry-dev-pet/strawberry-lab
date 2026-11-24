@@ -1,0 +1,194 @@
+{
+  "scene": {
+    "path": "exact-pigment.blend",
+    "sha256": "267bdaa85d806f383e24875be46f8a056a2841574819776d734509784ffe0915",
+    "size": 27139946
+  },
+  "files": {
+    "README.md": {
+      "sha256": "b98aef04e2ee995b81c68e838451ae5a4ff044bd472b3c56895f8385958a0cca",
+      "bytes": 5350
+    },
+    "baseline/bite-2.json": {
+      "sha256": "66b6042881ccda5902b5cefe8cb78a0bfbe7c81d4e4d197cb18ff3f635bfbdef",
+      "bytes": 1255
+    },
+    "baseline/bite-2.png": {
+      "sha256": "8e3094d27a93a608a3f413d64194cf72055fcfc2dca96f5ecb79e636f6acd6cd",
+      "bytes": 346247
+    },
+    "baseline/macro-2.json": {
+      "sha256": "378ff373ead29418080b8852f661c5aaa79b5d146d2301d769e797bd671a32c3",
+      "bytes": 1172
+    },
+    "baseline/macro-2.png": {
+      "sha256": "01875537635850c24ef38fdceb933b40d39f49122a22e70bac04637db4aef7d7",
+      "bytes": 388756
+    },
+    "baseline/plane-2.json": {
+      "sha256": "4a5f08bb115e0a330d81dd4675a78fe1e6eaa9c4f2d05d0abc0e71336465492c",
+      "bytes": 1174
+    },
+    "baseline/plane-2.png": {
+      "sha256": "40067b2c3e80343e6641be2ac09a723e6939c26dfb4393a5371e550aaffafac1",
+      "bytes": 393992
+    },
+    "bite-1.json": {
+      "sha256": "ca37675504e35acb6bca4f02818485119abd02477baf2ba65815628d8e8a97d1",
+      "bytes": 1280
+    },
+    "bite-1.png": {
+      "sha256": "15b10773a7dc2f1d7bc586bf9c86dc2915c22a091747c0f13570f688598e1ebd",
+      "bytes": 354047
+    },
+    "build.log": {
+      "sha256": "bc9efb10fbb6af82e4c4c7e945977e5de6768fb75986dbaad780c9fc328e0352",
+      "bytes": 1018
+    },
+    "build_flesh.py": {
+      "sha256": "5c4a05b41aae0e81de55524264330d56d76c863c0018cf85064d52153aee4813",
+      "bytes": 6789
+    },
+    "build_juice.py": {
+      "sha256": "ec63179e761490e02041abf0d9bac1267e4b60a8a9ae1d3bf78fe60bbf2c064a",
+      "bytes": 10370
+    },
+    "build_pigment.py": {
+      "sha256": "bfa88440226a49250e3770e2040688e3037c5b13e36d1c6eba3c224bfb33b0e3",
+      "bytes": 10753
+    },
+    "compare.py": {
+      "sha256": "3811cf1d23881bf03faaf8f36b9366347574d2ff7f2b02c7b78ad79ab58f8f28",
+      "bytes": 2258
+    },
+    "comparison.png": {
+      "sha256": "e09c88e5b26501586fecbf10cab68e647ffda3f0635d7ae6092fa08fd730411b",
+      "bytes": 1400196
+    },
+    "deps/build_split.py": {
+      "sha256": "87a35c5934e31f4b5f733c8132d0541052dacff7e2820884fac57df265e06793",
+      "bytes": 10366
+    },
+    "deps/qa_split.py": {
+      "sha256": "08669f33cbbb05b4c5dc2bddd8dc6423ff0ae28f219bf5627dff6e00d35f10a6",
+      "bytes": 7369
+    },
+    "exact-pigment.json": {
+      "sha256": "a42a85ad7ce23d3190e27b9f9e4e06b754968d352d340ae70f372f5745f13829",
+      "bytes": 907
+    },
+    "initial-build-import.log": {
+      "sha256": "2efc2087a597a8bf28284272012080e66b11db697623b99bcd12a76c9fcce0f3",
+      "bytes": 371
+    },
+    "initial-build-saturation.log": {
+      "sha256": "5e8960dbc73268ca1f43a4fa0c67c294230c386af10c503144fa4c43c7ebb4d4",
+      "bytes": 2133
+    },
+    "initial-qa-plane-timeout.log": {
+      "sha256": "0764f2fb385db87b2b9ae9a7d4a4e949cf48fb18372646a926d369fadfee50a1",
+      "bytes": 180
+    },
+    "macro-1.json": {
+      "sha256": "ee649a356bef837c98f98e3f944ae9ae44efef786f67b6c07b9816152a3afae3",
+      "bytes": 1198
+    },
+    "macro-1.png": {
+      "sha256": "c471de4e59ad3f902614aceacd3ae62e09b35d18841e83248c5a030658373fae",
+      "bytes": 413079
+    },
+    "plane-1.json": {
+      "sha256": "3a9424c517ebdc045881b7f172019e5e58f01a4bfeadc5a4e1d7ad3808182773",
+      "bytes": 1199
+    },
+    "plane-1.png": {
+      "sha256": "98aa8f6b72ed7931edaa5029f0b22df98d960df42e6098b6c44d3ac97d1daf0c",
+      "bytes": 412948
+    },
+    "qa-bite.json": {
+      "sha256": "9edbf54556142a18f6358c1bada45aaef8bedfcd25786f80040d5210fdd4c67b",
+      "bytes": 772
+    },
+    "qa-bite.log": {
+      "sha256": "b338857f96a16d90a29c8ba72a492db7206929bc9f2623d01864461052e53c55",
+      "bytes": 927
+    },
+    "qa-plane.json": {
+      "sha256": "cb2653a237b363060c2ccb61ec4ce992ac2c49b450cf532f8f4926a2e9a92e33",
+      "bytes": 761
+    },
+    "qa-plane.log": {
+      "sha256": "fac2b5e93830c8b4c03b0b71b2d65eed6e47555991c965b209cf39a9d033d51a",
+      "bytes": 916
+    },
+    "qa-whole.json": {
+      "sha256": "0a8e7497a882cf257893a9d452d8028721c9ce77958b9933e95d45ac2ed136fd",
+      "bytes": 818
+    },
+    "qa-whole.log": {
+      "sha256": "55acf644dbf18970a2d244873dbf66f09d28f787af64393a51359ead42e39621",
+      "bytes": 981
+    },
+    "qa_flesh.py": {
+      "sha256": "fea73ff52623a86d34558f9dbff05b997990bf99279ceb54f7fb9b8336762f7d",
+      "bytes": 4584
+    },
+    "qa_juice.py": {
+      "sha256": "cd419dde1bab60fc76bb2a116247c36b1cd01ffa16cfebb7a750c9266ebbe13a",
+      "bytes": 5913
+    },
+    "qa_pigment.py": {
+      "sha256": "d922ab4c9bb4acc64c32bdc2fe5a58f37a16f817eb43e8bf4e6aca6b88940c67",
+      "bytes": 4521
+    },
+    "qa_pigment_initial.py": {
+      "sha256": "0c9c06e22f408d4871311d76a0e37d8a887a03f3fb49536b057b1d92bc171802",
+      "bytes": 4434
+    },
+    "render-bite-1.log": {
+      "sha256": "768b30af32e88a493e8b9fcb96e23c7483f7fd10af15c353a79f8629f9e10a1f",
+      "bytes": 568
+    },
+    "render-comparison.json": {
+      "sha256": "cfa870f7b3c4638a699e8958e90d3380802af4d807535a40f98199e10c24d601",
+      "bytes": 10662
+    },
+    "render-macro-1.log": {
+      "sha256": "5ca5ec3c90630631531e370cb7e81f5f93527cf4f749116d11bca64596f6607a",
+      "bytes": 569
+    },
+    "render-plane-1.log": {
+      "sha256": "a5d5cebfbb4380cc59f9e178e2cd665943bbe80e84d54975734a49d0e5ba8b59",
+      "bytes": 569
+    },
+    "render_pigment.py": {
+      "sha256": "7268fb0f005775e52f8cd7c441b9e984f70e67de6078cc10f42b76a78eb79287",
+      "bytes": 3260
+    },
+    "summary.json": {
+      "sha256": "40f475210d5362858d6632d7122b95b16b8e0841287519096e0e315b8493427d",
+      "bytes": 4254
+    }
+  },
+  "git_blobs": {
+    "README.md": "28b8591e865a7952736fbc62eaf9b7973139a7da",
+    "bite-1.json": "d5e298cdd93e3e96e23353d1908a7fd949779338",
+    "build_flesh.py": "07897ea08717b6ab1185ac7e63679512ad2dab91",
+    "build_juice.py": "fe7c46714a89dc5ddfcfeabed673719057cdced0",
+    "build_pigment.py": "8f78e6c03f3d1554f4b60404d62d393ebe7c4384",
+    "compare.py": "0b2dab60dfcc87523567e45bc7bcf8b9b005df66",
+    "exact-pigment.json": "6ab49ead9a8dabd9350478c118ef06154dba46cf",
+    "macro-1.json": "1367e1f76656fa87e541fc33d5468f8117410acc",
+    "plane-1.json": "b13bec50b3aa7d76e0996b3c49dcc8b4f75376ba",
+    "qa-bite.json": "5c8d178809fb59ffffed97345bd3435a27b02bd2",
+    "qa-plane.json": "798637640cc9688f90f027b8a85801537a4f7ee0",
+    "qa-whole.json": "8ba523537337a7020829b49c1c6d2bb5e9068b8d",
+    "qa_flesh.py": "5dfc2d9a61c3529092903f74030aec1bd608c7da",
+    "qa_juice.py": "52130ffb255daf7ea08f9bbc0843e748ad60e04e",
+    "qa_pigment.py": "8580b0ca9ad44ee07e58baaede6f06f2cea68ef8",
+    "qa_pigment_initial.py": "305107b06c8f1ee04d7a5f7209c6fa770050c639",
+    "render-comparison.json": "f50fbffd621954938571f7f8f27055e9ace270eb",
+    "render_pigment.py": "500fb9e533e57f34ba5abb200a2773189702e385",
+    "summary.json": "a918964c01d24fde78ecb86fc3a10b22fdc32e90"
+  }
+}
