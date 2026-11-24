@@ -1,0 +1,474 @@
+{
+  "archive_sha256": "aaa218470ab068ed1cb806308d9a4da1d43fd5d9e3de30f6486ac7d204787877",
+  "prior_runtime_receipt_sha256": "496402cce52d8e6f463a04e271f731fc8f8c9a8bb97aa3aa3110309772399e6b",
+  "method": "Isolated execution of three unmodified source key/class functions with minimal mocked species/resolution context; source code not exported. No commercial template executed. Previous Kiwi runtime receipt read and cross-checked, not rerun.",
+  "parameter_count": 64,
+  "parameter_keys": {
+    "bauch": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "beulen": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "blatt_abstand": {
+      "class": "anzeige",
+      "changed_keys": []
+    },
+    "blatt_anlegen": {
+      "class": "anzeige",
+      "changed_keys": []
+    },
+    "blatt_fein": {
+      "class": "anzeige",
+      "changed_keys": []
+    },
+    "breite": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "dellen": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "dellen_tiefe": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "drall": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "farbe_hell": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "farbe_satt": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "farbe_ton": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "fleisch_hell": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "fleisch_satt": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "furchen": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "furchen_muster": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "furchen_zahl": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "glanz_lage": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "glanz_verlauf": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "haar_dichte": {
+      "class": "vorrat",
+      "changed_keys": [
+        "exterior",
+        "flesh_form"
+      ]
+    },
+    "haar_laenge": {
+      "class": "vorrat",
+      "changed_keys": [
+        "exterior",
+        "flesh_form"
+      ]
+    },
+    "haut_flecken": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "haut_glanz": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "haut_pigment": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "haut_streuung": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "haut_streuung_tiefe": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "hoehle": {
+      "class": "innenform",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "huefte": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "keil": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "kerbe": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "kerbe_ungleich": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "kern_anzahl": {
+      "class": "vorrat",
+      "changed_keys": [
+        "exterior",
+        "flesh_form"
+      ]
+    },
+    "kern_groesse": {
+      "class": "vorrat",
+      "changed_keys": [
+        "exterior",
+        "flesh_form"
+      ]
+    },
+    "kerne_anlegen": {
+      "class": "anzeige",
+      "changed_keys": []
+    },
+    "krone_groesse": {
+      "class": "vorrat",
+      "changed_keys": [
+        "exterior",
+        "leaves",
+        "flesh_form"
+      ]
+    },
+    "krone_staerke": {
+      "class": "vorrat",
+      "changed_keys": [
+        "exterior",
+        "leaves",
+        "flesh_form"
+      ]
+    },
+    "krone_weich": {
+      "class": "vorrat",
+      "changed_keys": [
+        "exterior",
+        "leaves",
+        "flesh_form"
+      ]
+    },
+    "krumm": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "laenge": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "lappen": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "lappen_fein": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "leit_bogen": {
+      "class": "innen",
+      "changed_keys": [
+        "vascular"
+      ]
+    },
+    "leit_dicke": {
+      "class": "innen",
+      "changed_keys": [
+        "vascular"
+      ]
+    },
+    "leit_fasern": {
+      "class": "innen",
+      "changed_keys": [
+        "vascular"
+      ]
+    },
+    "leit_hof": {
+      "class": "innen",
+      "changed_keys": [
+        "vascular"
+      ]
+    },
+    "leit_seed": {
+      "class": "innen",
+      "changed_keys": [
+        "vascular"
+      ]
+    },
+    "leit_staerke": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "leit_straenge": {
+      "class": "innen",
+      "changed_keys": [
+        "vascular"
+      ]
+    },
+    "mulde_breite": {
+      "class": "vorrat",
+      "changed_keys": [
+        "exterior",
+        "flesh_form"
+      ]
+    },
+    "mulde_noise": {
+      "class": "vorrat",
+      "changed_keys": [
+        "exterior",
+        "flesh_form"
+      ]
+    },
+    "mulde_tiefe": {
+      "class": "vorrat",
+      "changed_keys": [
+        "exterior",
+        "flesh_form"
+      ]
+    },
+    "oval": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "oval_winkel": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "rand_breite": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "schief_x": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "schief_y": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "schulter": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "spitze": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "typ_nr": {
+      "class": "form",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "weiss_weite": {
+      "class": "vorrat",
+      "changed_keys": [
+        "exterior",
+        "flesh_form"
+      ]
+    },
+    "zone_staerke": {
+      "class": "shader",
+      "changed_keys": []
+    },
+    "seed": {
+      "class": "state",
+      "changed_keys": [
+        "flesh_form"
+      ]
+    },
+    "seed_blatt": {
+      "class": "state",
+      "changed_keys": [
+        "leaves"
+      ]
+    },
+    "resolution": {
+      "class": "global",
+      "changed_keys": [
+        "exterior",
+        "leaves"
+      ]
+    }
+  },
+  "derived_invalidation_note": "jobs._frei_starten also rebuilds interior when exterior changes, and may rebuild foliage for a referenced stand. Key comparison is not the full invalidation scheduler.",
+  "kiwi_prior_observations": {
+    "whole_placeholder": {
+      "body_vertices": 25879,
+      "body_faces": 26106,
+      "basis_valid": true,
+      "inside_valid": false,
+      "dimensions": [
+        5.19471,
+        4.89443,
+        6.86249
+      ]
+    },
+    "whole_radius_changed": {
+      "body_vertices": 25879,
+      "body_faces": 26106,
+      "basis_valid": true,
+      "inside_valid": false,
+      "dimensions": [
+        6.11142,
+        5.75815,
+        6.86249
+      ]
+    },
+    "whole_reset_radius": {
+      "body_vertices": 25879,
+      "body_faces": 26106,
+      "basis_valid": true,
+      "inside_valid": false,
+      "dimensions": [
+        5.19471,
+        4.89443,
+        6.86249
+      ]
+    },
+    "whole_fast": {
+      "body_vertices": 25879,
+      "body_faces": 26106,
+      "basis_valid": true,
+      "inside_valid": true,
+      "dimensions": [
+        5.19471,
+        4.89443,
+        6.86249
+      ]
+    },
+    "plane_fast": {
+      "body_vertices": 13283,
+      "body_faces": 13282,
+      "basis_valid": true,
+      "inside_valid": true,
+      "dimensions": [
+        5.19471,
+        4.89443,
+        3.73776
+      ]
+    },
+    "plane_exact": {
+      "body_vertices": 117889,
+      "body_faces": 147227,
+      "basis_valid": true,
+      "inside_valid": true,
+      "dimensions": [
+        5.19386,
+        4.89474,
+        3.7458
+      ]
+    },
+    "plane_rotated_exact": {
+      "body_vertices": 117889,
+      "body_faces": 147227,
+      "basis_valid": true,
+      "inside_valid": true,
+      "dimensions": [
+        5.19386,
+        4.89474,
+        3.7458
+      ]
+    },
+    "bite_fast": {
+      "body_vertices": 25432,
+      "body_faces": 25602,
+      "basis_valid": true,
+      "inside_valid": true,
+      "dimensions": [
+        5.19471,
+        4.89443,
+        6.86249
+      ]
+    }
+  },
+  "kiwi_prior_skin_live_counts": {
+    "GeometryNodeMeshToSDFGrid": 1,
+    "GeometryNodeSampleGrid": 1,
+    "GeometryNodeDeleteGeometry": 2
+  },
+  "kiwi_prior_flesh_cut_counts": {
+    "GeometryNodeMeshToSDFGrid": 1,
+    "GeometryNodeGetNamedGrid": 1,
+    "GeometryNodeSDFGridBoolean": 1,
+    "GeometryNodeGridToMesh": 1,
+    "GeometryNodeSampleGrid": 1,
+    "FunctionNodeBooleanMath": 2
+  },
+  "exact_rotation_geometry_confirmed": false
+}
