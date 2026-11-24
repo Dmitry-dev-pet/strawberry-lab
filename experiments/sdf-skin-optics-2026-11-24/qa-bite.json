@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "pose": "bite",
+  "voxel_mm": 0.32,
+  "source_sha": "790dc4adbd9025b56e7833c2cedb8ada83c0e9b738ac294f96889fbb52e0e215",
+  "scene_sha": "00e47d77536886a7770d6aa01bec06c6ff3336073b41c86485e637ec728a11d7",
+  "geometry_objects_compared": 275,
+  "exact_geometry_and_attributes": true,
+  "graph_trees_compared": 18,
+  "other_graphs_identical": true,
+  "packed_images_identical": 2,
+  "new_nodes": [
+    "SL Skin Optics | A/B gain",
+    "SL Skin Optics | Coat Weight delta",
+    "SL Skin Optics | Coat Weight final",
+    "SL Skin Optics | Coat Weight weighted",
+    "SL Skin Optics | Dry / recess mask",
+    "SL Skin Optics | Existing pit suppression mask",
+    "SL Skin Optics | Existing roughness plus dry region",
+    "SL Skin Optics | Local roughness increase",
+    "SL Skin Optics | Localized coat weight",
+    "SL Skin Optics | Normalize existing shoulder fade",
+    "SL Skin Optics | Remaining coat fraction",
+    "SL Skin Optics | Roughness delta",
+    "SL Skin Optics | Roughness final",
+    "SL Skin Optics | Roughness weighted",
+    "SL Skin Optics | Spatially varied coat",
+    "SL Skin Optics | Suppress at pit and shoulder"
+  ],
+  "changed_sockets": [
+    "Coat Weight",
+    "Roughness"
+  ],
+  "body": {
+    "vertices": 373146,
+    "faces": 373144,
+    "coords_sha": "db87e1872feca53a46ad428966e841e7f577692d268bab1512cdd483f5dc3481",
+    "topology_sha": "1c7266650dd3ec8b56750acabfbf06effddcde7da27666c3450044e0fbcd2854",
+    "face_material_sha": "8b489582f81354319ded926914886b2f74babe4f5a72414f2e94e9e30b8530b8",
+    "materials": [
+      null,
+      "SDF | source skin at true rest_position",
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Lumen | moist inner wall ARTIST"
+    ],
+    "attributes": {
+      "sdf_rest_position": "895c2401a1f136474a82e68d329d2d0b3ddad0b2c415c3749ce680f8d6e18534",
+      "achene_pit": "f7b8e674b37b47ce6e27946ab7d7cb4c82a305f906260a926607eb96636704c1",
+      "sl_cell_reference_position": "e51b90b6a95eec441b2d66a2b2b9058a4462350682eaab96373d0d545e643335",
+      "sl_cell_reference_normal": "e7cad147ccfbe36e6861d77d01d38e7ed1161ec0e6f09ee527998545e113d479",
+      "sl_cell_dome": "084299ed6fb93840b1595ec3fe66840664df5bb13ab411293b5843a7845f52b3",
+      "sl_vascular_core": "ea2dbc5aff9f0e8d9afc036cb0314bff11721fa906d2cf12e2f44f76d85fef18",
+      "sl_vascular_halo": "6c3515593b1288c84594b8f0f19e672b05eba8d2875b3b7ba3dd97bcf15c97aa",
+      "sl_ring_relative": "2a07ae2abe38526c8c7ec954f4ea7e1792f6cadba54a423218b1a7c2c2188523"
+    },
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pit": {
+      "points": 373146,
+      "gt_001": 71037,
+      "gt_070": 28549,
+      "min": -5.1550657076404605e-09,
+      "max": 0.9999993443489075
+    }
+  },
+  "juice": {
+    "vertices": 35612,
+    "faces": 30670,
+    "coords_sha": "a8d3b7f1d3e46c09699c2a1a7e3a58e00843b1ab27eee77ccf319d862b88786a",
+    "topology_sha": "55053f6247c338dfdf5fc91a4e0b06a95a6513e01255de7fa7435d180bcd3973",
+    "face_material_sha": "c9ce47a1d60f21a490f4e39986288b43bba05c3a25d0f4dc965ac665caf504e8",
+    "materials": [
+      null,
+      "SDF | source skin at true rest_position",
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Lumen | moist inner wall ARTIST",
+      "SL Juice | clear dielectric ARTIST"
+    ],
+    "attributes": {
+      "sdf_rest_position": "1fc43c82a2d5ff0e0703ed98857ecd8cfe2cf810649d1670f66c4b90cae8900b",
+      "achene_pit": "6f7e9a148f98923b2dfb8459aeb00b879bde2c6a878e51d82ff4177b406cdb01",
+      "sl_cell_reference_position": "46d33a55a87b3231c52e77cc796aebc24e340f59c5fa738e46501f8ab75e3722",
+      "sl_cell_reference_normal": "5028daf7d8008007fe23b1ac870f9d6c4f54b3e870a08c1f86c2cbe1351e8359",
+      "sl_cell_dome": "45add9805974184177e0b562359f43f5002b88d7219d75be70a84d4ac9e2712b",
+      "sl_vascular_core": "f25024760f03fe43eadf3b3568c466e6366431f16404f7ae7876900e0b34f9c4",
+      "sl_vascular_halo": "3da8eba1adc911be65c0e8091f242bf362524d1788f6cdfcf6588e4d4e20c92d",
+      "sl_ring_relative": "34207db2b7beeeff21267947851c8bd057af0c1ccbfb7bcb24956808ddd2c680",
+      "sl_juice_tissue_position": "070a2a25062bc375f74f45fe94adad71f8e47242b127c17522bbdfbc2a2ffcfd",
+      "sl_juice_clearance_mm": "568ed767344efaf5a87999f60bc7ac03ffe6dc6f50367883c9391e2a62a16af7",
+      "sl_juice_envelope": "e32cbd96bc23ada18c4697cda8824399c312586c12af2288bdb3674998969156",
+      "sl_juice_final_level_mm": "e0383c9e4e5352e379493c3086dcfea20e6308fc61067582a4a604233740690a"
+    },
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pit": null
+  },
+  "mesh_object_digest": "22ffef78bd4fe64bad5f9290bf6277a5c2d3a1e962c45b3457e1c0a9587e0c76",
+  "seconds": 20.746965900000077
+}

@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "pose": "whole",
+  "voxel_mm": 0.32,
+  "source_sha": "790dc4adbd9025b56e7833c2cedb8ada83c0e9b738ac294f96889fbb52e0e215",
+  "scene_sha": "00e47d77536886a7770d6aa01bec06c6ff3336073b41c86485e637ec728a11d7",
+  "geometry_objects_compared": 275,
+  "exact_geometry_and_attributes": true,
+  "graph_trees_compared": 18,
+  "other_graphs_identical": true,
+  "packed_images_identical": 2,
+  "new_nodes": [
+    "SL Skin Optics | A/B gain",
+    "SL Skin Optics | Coat Weight delta",
+    "SL Skin Optics | Coat Weight final",
+    "SL Skin Optics | Coat Weight weighted",
+    "SL Skin Optics | Dry / recess mask",
+    "SL Skin Optics | Existing pit suppression mask",
+    "SL Skin Optics | Existing roughness plus dry region",
+    "SL Skin Optics | Local roughness increase",
+    "SL Skin Optics | Localized coat weight",
+    "SL Skin Optics | Normalize existing shoulder fade",
+    "SL Skin Optics | Remaining coat fraction",
+    "SL Skin Optics | Roughness delta",
+    "SL Skin Optics | Roughness final",
+    "SL Skin Optics | Roughness weighted",
+    "SL Skin Optics | Spatially varied coat",
+    "SL Skin Optics | Suppress at pit and shoulder"
+  ],
+  "changed_sockets": [
+    "Coat Weight",
+    "Roughness"
+  ],
+  "body": {
+    "vertices": 93370,
+    "faces": 93368,
+    "coords_sha": "4239354f93893bf7eb166a2a88d6042a08934d6767199fbc6a14115387d61f54",
+    "topology_sha": "0ba619dfb0c1695053e639c635d493e370224913b7155ff9c8d7e2e6a981bae4",
+    "face_material_sha": "299d4f65dc4615f0da5218385e5beebe9681de75eaf4390dead273fafa81f1bb",
+    "materials": [
+      null,
+      "SDF | source skin at true rest_position",
+      "SDF | inherited 150^3 tissue + own multiscale wetness",
+      "SL Lumen | moist inner wall ARTIST"
+    ],
+    "attributes": {
+      "sdf_rest_position": "6f9a5d7557b6d09b61ad111828461c3688ef1f2148c1f22da433cd768d2ef72c",
+      "achene_pit": "e1e0038899249fbfedfa9053250aa4ded33aec0d663f7463055ed429cc0eee52"
+    },
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pit": {
+      "points": 93370,
+      "gt_001": 13356,
+      "gt_070": 4136,
+      "min": 0.0,
+      "max": 0.9999625086784363
+    }
+  },
+  "juice": {
+    "vertices": 0,
+    "faces": 0,
+    "coords_sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "topology_sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "face_material_sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "materials": [],
+    "attributes": {},
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pit": null
+  },
+  "mesh_object_digest": "36c9cd8810dbef3b6c5d279cb32bdb1eb10ff0e49c519c18c48bd1ea5ce7b44f",
+  "seconds": 5.642664637000053
+}
