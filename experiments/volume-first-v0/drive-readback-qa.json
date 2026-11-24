@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "readback": {
+    "field": {
+      "sha256": "178073059f755172c9019a41740d6247fe7bd4a12be0e5b0e4f15211d49f9fe2",
+      "same": true,
+      "bytes": 10791073
+    },
+    "blend": {
+      "sha256": "0ea1d86a2a404f0bb86edbdce852cb808b0d8907a9ef6670e3c627f6db097ef6",
+      "same": true,
+      "bytes": 10229771
+    },
+    "zip": {
+      "sha256": "222adb30bdfcb2447f4b94ca0bc28bcea1415126a8a54872a0011954ff428f65",
+      "same": true,
+      "bytes": 24103022
+    },
+    "montage": {
+      "sha256": "2b748d64f42d4e3bbd3448ad5ca676e06af7ffafbbf118ae463f90db8144734e",
+      "same": true,
+      "bytes": 261112
+    }
+  }
+}

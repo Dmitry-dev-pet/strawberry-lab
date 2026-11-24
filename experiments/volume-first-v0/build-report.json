@@ -1,0 +1,63 @@
+{
+  "blender": "5.2.4 LTS",
+  "model": "independent artist-defined 3D tissue POC",
+  "volume": "/mnt/data/fruit-static-v0/outputs/tissue_3d.npz",
+  "slices": [
+    {
+      "angle_deg": 0,
+      "vertices": 78626,
+      "faces": 78960,
+      "material_faces": {
+        "skin": 26320,
+        "cut": 52640
+      },
+      "mean_rgb": [
+        0.6328825354576111,
+        0.1697879433631897,
+        0.12086986750364304
+      ],
+      "pith_mean": 0.30555474758148193,
+      "fiber_mean": 0.06443062424659729
+    },
+    {
+      "angle_deg": 32,
+      "vertices": 78626,
+      "faces": 78960,
+      "material_faces": {
+        "skin": 26320,
+        "cut": 52640
+      },
+      "mean_rgb": [
+        0.6312791705131531,
+        0.16857682168483734,
+        0.11996322870254517
+      ],
+      "pith_mean": 0.30347803235054016,
+      "fiber_mean": 0.06262427568435669
+    },
+    {
+      "angle_deg": 82,
+      "vertices": 78626,
+      "faces": 78960,
+      "material_faces": {
+        "skin": 26320,
+        "cut": 52640
+      },
+      "mean_rgb": [
+        0.6356784105300903,
+        0.17393633723258972,
+        0.12381016463041306
+      ],
+      "pith_mean": 0.30450013279914856,
+      "fiber_mean": 0.07692377269268036
+    }
+  ],
+  "centerline_invariant": "PASS: same 3D volume values at exact same spatial positions for all cut angles",
+  "time_build_s": 2.19,
+  "notes": [
+    "Skin and cut face share boundary vertices",
+    "Not live Boolean; physically built section planes from analytic source profile",
+    "Not a calibrated botany model",
+    "Not author Frucht graph or assets"
+  ]
+}
