@@ -1,0 +1,170 @@
+{
+  "scene": {
+    "path": "exact-optics.blend",
+    "sha256": "d147164be18c2feecd170568b46df698ad3882c48f7f9645fc758d07fd81a0a0",
+    "size": 27109029
+  },
+  "files": {
+    "README.md": {
+      "sha256": "0c8174a3aa25d288050dd47c846af73d3b9b21873f1224d3f958d439fb381b97",
+      "bytes": 4494
+    },
+    "build.log": {
+      "sha256": "8e2b7dd84f9209ef627c15f1476b323538aadf23021f318e15a1bac14903af68",
+      "bytes": 704
+    },
+    "build_juice.py": {
+      "sha256": "ec63179e761490e02041abf0d9bac1267e4b60a8a9ae1d3bf78fe60bbf2c064a",
+      "bytes": 10370
+    },
+    "build_optics.py": {
+      "sha256": "7c693591bb8e2ad60fed7bcf4fec9a2d71e4efe7be431d29b61dfd622c575985",
+      "bytes": 4485
+    },
+    "checks.log": {
+      "sha256": "53f66088792338cdea11a6f65a0e0ed71089b61102bf2911537c5dd96110f57a",
+      "bytes": 87
+    },
+    "comparison.png": {
+      "sha256": "59b58c5cf2451fdc1e43c88b1ce82274cb27fc327d8a4a6a20af24bd4fefe431",
+      "bytes": 510019
+    },
+    "deps/build_split.py": {
+      "sha256": "87a35c5934e31f4b5f733c8132d0541052dacff7e2820884fac57df265e06793",
+      "bytes": 10366
+    },
+    "deps/qa_split.py": {
+      "sha256": "08669f33cbbb05b4c5dc2bddd8dc6423ff0ae28f219bf5627dff6e00d35f10a6",
+      "bytes": 7369
+    },
+    "exact-optics.json": {
+      "sha256": "3a8ad32140a8cfff87cf267d049a29278372679b3547a6d8902c8d5b317c2b0d",
+      "bytes": 538
+    },
+    "macro-0.json": {
+      "sha256": "a554f74d165f51874967368dc38e6c217831ad12e243640574c614ebffe16102",
+      "bytes": 1144
+    },
+    "macro-0.png": {
+      "sha256": "8c9b54ff7902a5e7221e5758210629fe9efcf19cc2bccc3ca4e854ad3a3c9b8a",
+      "bytes": 199513
+    },
+    "macro-2.json": {
+      "sha256": "decd8d6c293918c2050583aae84f25b32b2c449a3de898362f5652a85064e7e3",
+      "bytes": 1144
+    },
+    "macro-2.png": {
+      "sha256": "1e1a4f2bf02e0b5740b5d255ea3239a21b94d76ecf5ea55a2575d3a4b2207672",
+      "bytes": 205138
+    },
+    "macro.log": {
+      "sha256": "cd00aecf2aa99d3eb2909352334ad27d41342ea23c879cc5ff8851d07537f939",
+      "bytes": 26
+    },
+    "plane-0.json": {
+      "sha256": "fb36967187686576af369ace28e771ddd43450f7b6d5b4080478c246292f0532",
+      "bytes": 1146
+    },
+    "plane-0.png": {
+      "sha256": "c40990c1f506d0c51ed2bdd7231d59ca0eeab8e37fc4efb7ee9ffa434ff91ea6",
+      "bytes": 213664
+    },
+    "plane-1.json": {
+      "sha256": "f3df6fc30ed5b60287b233f32fecbb3987937b919e035fe34ab50b50442286c8",
+      "bytes": 1146
+    },
+    "plane-1.png": {
+      "sha256": "cc8df4cadb5ba79a3e0076fdf2d09f7b9a8401aa5e7201a6623a7b9a3b794fe6",
+      "bytes": 217543
+    },
+    "plane-2.json": {
+      "sha256": "fb25ba22a2b740ab767776d0ec55a85da2ee7962b2a634f2a2c67c468f7d3562",
+      "bytes": 1146
+    },
+    "plane-2.png": {
+      "sha256": "36d390aed7ce6723d3ae7e0009a46dfb85ce354ce5537935bc479ca97bf6e14b",
+      "bytes": 219592
+    },
+    "qa-bite.json": {
+      "sha256": "0e89d7ec7cebb9cbbc7f5f65bcb031317796b5d9d5b9f8a32f8c67cad2586a08",
+      "bytes": 1893
+    },
+    "qa-bite.log": {
+      "sha256": "c50f68fa6ce4653573a32c86a589838146ddd3166b2998ca0ed8069a255bb46a",
+      "bytes": 1860
+    },
+    "qa-plane.json": {
+      "sha256": "b79dabbec5216e58c6231dc78d9bbc7cf4a21eb3fa44eb13e38fe0c1e6992af8",
+      "bytes": 1874
+    },
+    "qa-plane.log": {
+      "sha256": "13693ab7e2872ca3ea6f8a4d41002f9483d67baec494aa46e2b6d4556ce6b622",
+      "bytes": 1841
+    },
+    "qa_juice.py": {
+      "sha256": "cd419dde1bab60fc76bb2a116247c36b1cd01ffa16cfebb7a750c9266ebbe13a",
+      "bytes": 5913
+    },
+    "qa_optics.py": {
+      "sha256": "5d5c2ddf6a363387254e2f9d38d991dd2d26dbb371169b7bb73d1ce1605515a6",
+      "bytes": 2875
+    },
+    "render-comparison.json": {
+      "sha256": "ad883e9571166ea84c4b5552ae45257ff2ec7e3e2a78ae8fd73703cefa6d764a",
+      "bytes": 8330
+    },
+    "render-macro-0.log": {
+      "sha256": "0056831bb199235f9ae5298e8c7bcc466242db11824f6820b42a3fe019ac0936",
+      "bytes": 564
+    },
+    "render-macro-2.log": {
+      "sha256": "275fba6ca7204be47239eb8b4e1791e2d4b44e03d2a92dd6a8db4ca41783fac8",
+      "bytes": 564
+    },
+    "render-plane-0.log": {
+      "sha256": "75d40d25812813f88f9122fdd98a0a08e4d9cbb86886524645bf5c3ec882fc0c",
+      "bytes": 564
+    },
+    "render-plane-1.log": {
+      "sha256": "a3380c12dd72e4471dd9dd770b858cf92fdb1478ae9a81699975abcd9e73a40e",
+      "bytes": 564
+    },
+    "render-plane-2.log": {
+      "sha256": "0ed5e76e85b42dc6a595858986175a074ec5e8321a43330344ddef6c6134b0a4",
+      "bytes": 564
+    },
+    "render_optics.py": {
+      "sha256": "6283cdf3b147a5889b8edb7edd2c66510c076e2b0cf6c6a38927c16005076352",
+      "bytes": 3110
+    },
+    "run_checks.sh": {
+      "sha256": "d5eaf675ba1eda9bb914908afe5b6694167ed5a65aa65ebafc5255916bd214fe",
+      "bytes": 706
+    },
+    "summary.json": {
+      "sha256": "027a5123ff5c1b582bb8734b24f4895c7d7d17f8823ade3d03a69658a837d0e4",
+      "bytes": 5773
+    }
+  },
+  "git_blobs": {
+    "README.md": "47487387839caf4507185005677ab529b1d2927f",
+    "build_juice.py": "fe7c46714a89dc5ddfcfeabed673719057cdced0",
+    "build_optics.py": "14fe168d6d26a56ba9d9d9da219e24e08121f13d",
+    "deps/build_split.py": "1fd07748a0bc668b81715d037e3ee5db8b6cad20",
+    "deps/qa_split.py": "dbe96d08499190d1b196091054fc4ab5a3030b3b",
+    "exact-optics.json": "961973bc55951f251129abc89dc7712fc9471c7d",
+    "macro-0.json": "ca7bc1845190dfd0f23dc459c0dfe2d0f6fb7d8c",
+    "macro-2.json": "1f416ef6aa75be16342e3bd2fd589dc5bbc46e5a",
+    "plane-0.json": "cb3fa3e0b626470000cdcbced8a1fd1e96e7c055",
+    "plane-1.json": "1d97dbecbedf4cbea2985a35889e35febc92ef74",
+    "plane-2.json": "3b0ce8054670d9572fa4f7d8e06376b87733dc66",
+    "qa-bite.json": "2fd75904c750c82e3d53558f23f1f4c3fd9e4937",
+    "qa-plane.json": "7ae70235d9571bfb2b9e7947d532eaa7de41be5a",
+    "qa_juice.py": "52130ffb255daf7ea08f9bbc0843e748ad60e04e",
+    "qa_optics.py": "ab4f4c940625dc2f23811ef59c6f3f1db2a9b7d8",
+    "render-comparison.json": "7586684f37d575ad7de2db2cfd9d1f6a8c6b5d85",
+    "render_optics.py": "361801889bb5386999fe338a02c98ef3c90af712",
+    "run_checks.sh": "bcca5ff231e2be619f0782740bbe35c3238e2cf2",
+    "summary.json": "a64c317a445015edbc66cd71347b29114979e206"
+  }
+}
